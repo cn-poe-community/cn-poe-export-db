@@ -10,6 +10,12 @@
                     "0": "Atziri's Promise",
                     "1": "阿兹里的诺言"
                 }
+            },
+            "Progenesis": {
+                "text": {
+                    "0": "Progenesis",
+                    "1": "茁育助长"
+                }
             }
         }
     },
@@ -303,6 +309,12 @@
                 "text": {
                     "0": "The Wise Oak",
                     "1": "聪明的欧克"
+                }
+            },
+            "Oriath's End": {
+                "text": {
+                    "0": "Oriath's End",
+                    "1": "奥瑞亚的尽头"
                 }
             }
         }

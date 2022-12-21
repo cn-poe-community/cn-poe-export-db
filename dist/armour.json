@@ -698,6 +698,12 @@
                     "0": "Storm's Gift",
                     "1": "风暴赐福"
                 }
+            },
+            "Entropic Devastation": {
+                "text": {
+                    "0": "Entropic Devastation",
+                    "1": "熵能毁灭"
+                }
             }
         }
     },
@@ -1108,6 +1114,12 @@
                     "0": "The Devouring Diadem",
                     "1": "吞噬者王冠"
                 }
+            },
+            "Sandstorm Visage": {
+                "text": {
+                    "0": "Sandstorm Visage",
+                    "1": "禁域面容"
+                }
             }
         }
     },
@@ -1267,6 +1279,12 @@
                 "text": {
                     "0": "Thundersight",
                     "1": "雷目"
+                }
+            },
+            "Wilma's Requital": {
+                "text": {
+                    "0": "Wilma's Requital",
+                    "1": "威尔玛的报偿"
                 }
             }
         }
@@ -1645,6 +1663,12 @@
                 "text": {
                     "0": "Darkray Vectors",
                     "1": "暗雷"
+                }
+            },
+            "Annihilation's Approach": {
+                "text": {
+                    "0": "Annihilation's Approach",
+                    "1": "毁灭的逼近"
                 }
             }
         }
@@ -5313,7 +5337,14 @@
             "0": "Vaal Greaves",
             "1": "瓦尔胫甲"
         },
-        "uniques": {}
+        "uniques": {
+            "Dawnstrider": {
+                "text": {
+                    "0": "Dawnstrider",
+                    "1": "黎明行者"
+                }
+            }
+        }
     },
     "Steelscale Boots": {
         "text": {

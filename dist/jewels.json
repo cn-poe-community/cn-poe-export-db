@@ -318,6 +318,24 @@
                     "0": "Forbidden Flesh",
                     "1": "禁断之肉"
                 }
+            },
+            "Witchbane": {
+                "text": {
+                    "0": "Witchbane",
+                    "1": "女巫克星"
+                }
+            },
+            "Rational Doctrine": {
+                "text": {
+                    "0": "Rational Doctrine",
+                    "1": "理性主义"
+                }
+            },
+            "The Balance of Terror": {
+                "text": {
+                    "0": "The Balance of Terror",
+                    "1": "恐惧之平衡"
+                }
             }
         }
     },
@@ -607,6 +625,18 @@
                 "text": {
                     "0": "Forbidden Flame",
                     "1": "禁断之火"
+                }
+            },
+            "Firesong": {
+                "text": {
+                    "0": "Firesong",
+                    "1": "烈火之歌"
+                }
+            },
+            "Immutable Force": {
+                "text": {
+                    "0": "Immutable Force",
+                    "1": "永恒之力"
                 }
             }
         }
@@ -915,6 +945,12 @@
                 "text": {
                     "0": "Impossible Escape",
                     "1": "无所遁形"
+                }
+            },
+            "Stormshroud": {
+                "text": {
+                    "0": "Stormshroud",
+                    "1": "暴风遮罩"
                 }
             }
         }

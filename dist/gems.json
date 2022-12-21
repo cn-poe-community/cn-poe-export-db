@@ -4944,5 +4944,131 @@
                 }
             }
         }
+    },
+    "Vaal Cleave": {
+        "skills": {
+            "Vaal Cleave": {
+                "text": {
+                    "0": "Vaal Cleave",
+                    "1": "瓦尔：劈砍"
+                }
+            }
+        }
+    },
+    "Vaal Molten Strike": {
+        "skills": {
+            "Vaal Molten Strike": {
+                "text": {
+                    "0": "Vaal Molten Strike",
+                    "1": "瓦尔：熔火打击"
+                }
+            }
+        }
+    },
+    "Vaal Smite": {
+        "skills": {
+            "Vaal Smite": {
+                "text": {
+                    "0": "Vaal Smite",
+                    "1": "瓦尔：惩击"
+                }
+            }
+        }
+    },
+    "Vaal Volcanic Fissure": {
+        "skills": {
+            "Vaal Volcanic Fissure": {
+                "text": {
+                    "0": "Vaal Volcanic Fissure",
+                    "1": "瓦尔：火山裂缝"
+                }
+            }
+        }
+    },
+    "Volcanic Fissure": {
+        "skills": {
+            "Volcanic Fissure": {
+                "text": {
+                    "0": "Volcanic Fissure",
+                    "1": "火山裂缝"
+                }
+            }
+        }
+    },
+    "Frozen Legion": {
+        "skills": {
+            "Frozen Legion": {
+                "text": {
+                    "0": "Frozen Legion",
+                    "1": "冰封军团"
+                }
+            },
+            "Frozen Sweep": {
+                "text": {
+                    "0": "Frozen Sweep",
+                    "1": "冰封横扫"
+                }
+            }
+        }
+    },
+    "Vaal Caustic Arrow": {
+        "skills": {
+            "Vaal Caustic Arrow": {
+                "text": {
+                    "0": "Vaal Caustic Arrow",
+                    "1": "瓦尔：腐蚀箭矢"
+                }
+            }
+        }
+    },
+    "Vaal Flicker Strike": {
+        "skills": {
+            "Vaal Flicker Strike": {
+                "text": {
+                    "0": "Vaal Flicker Strike",
+                    "1": "瓦尔：闪现打击"
+                }
+            }
+        }
+    },
+    "Vaal Venom Gyre": {
+        "skills": {
+            "Vaal Venom Gyre": {
+                "text": {
+                    "0": "Vaal Venom Gyre",
+                    "1": "瓦尔：剧毒旋风"
+                }
+            }
+        }
+    },
+    "Vaal Blade Flurr": {
+        "skills": {
+            "Vaal Blade Flurr": {
+                "text": {
+                    "0": "Vaal Blade Flurr",
+                    "1": "瓦尔：刀刃乱舞"
+                }
+            }
+        }
+    },
+    "Cursed Ground Support": {
+        "skills": {
+            "Cursed Ground Support": {
+                "text": {
+                    "0": "Cursed Ground Support",
+                    "1": "诅咒之地辅助"
+                }
+            }
+        }
+    },
+    "Hex Bloom Support": {
+        "skills": {
+            "Hex Bloom Support": {
+                "text": {
+                    "0": "Hex Bloom Support",
+                    "1": "魔蛊绽放辅助"
+                }
+            }
+        }
     }
 }

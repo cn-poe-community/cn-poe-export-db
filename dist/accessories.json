@@ -430,6 +430,12 @@
                     "0": "Valako's Sign",
                     "1": "瓦拉库之印"
                 }
+            },
+            "Nimis": {
+                "text": {
+                    "0": "Nimis",
+                    "1": "尼米斯"
+                }
             }
         }
     },
@@ -1084,6 +1090,12 @@
                     "0": "Voice of the Storm",
                     "1": "暴风之言"
                 }
+            },
+            "Doedre's Tongue": {
+                "text": {
+                    "0": "Doedre's Tongue",
+                    "1": "德瑞之舌"
+                }
             }
         }
     },
@@ -1302,6 +1314,12 @@
                     "0": "Voll's Devotion",
                     "1": "福尔的忠诚之符"
                 }
+            },
+            "Eternal Damnation": {
+                "text": {
+                    "0": "Eternal Damnation",
+                    "1": "永恒诅咒"
+                }
             }
         }
     },
@@ -1425,6 +1443,12 @@
                 "text": {
                     "0": "Valyrium",
                     "1": "女武神"
+                }
+            },
+            "Anathema": {
+                "text": {
+                    "0": "Anathema",
+                    "1": "咒逐"
                 }
             }
         }

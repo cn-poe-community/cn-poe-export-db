@@ -2140,6 +2140,12 @@
                     "0": "Voidforge",
                     "1": "裂空者"
                 }
+            },
+            "Echoforge": {
+                "text": {
+                    "0": "Echoforge",
+                    "1": "回声锻炉"
+                }
             }
         }
     },
@@ -4031,7 +4037,14 @@
             "0": "Foul Staff",
             "1": "恶灵长杖"
         },
-        "uniques": {}
+        "uniques": {
+            "The Winds of Fate": {
+                "text": {
+                    "0": "The Winds of Fate",
+                    "1": "命运之风"
+                }
+            }
+        }
     },
     "Primitive Staff": {
         "text": {
