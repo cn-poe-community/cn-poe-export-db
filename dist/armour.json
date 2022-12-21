@@ -186,6 +186,12 @@
                     "0": "The Embalmer",
                     "1": "入殓师"
                 }
+            },
+            "Soul Ascension": {
+                "text": {
+                    "0": "Soul Ascension",
+                    "1": "灵魂飞升"
+                }
             }
         }
     },
@@ -1391,6 +1397,12 @@
                 "text": {
                     "0": "Veruso's Battering Rams",
                     "1": "陨落之环"
+                }
+            },
+            "Kaom's Spirit": {
+                "text": {
+                    "0": "Kaom's Spirit",
+                    "1": "冈姆的精神"
                 }
             }
         }
@@ -4937,7 +4949,14 @@
             "0": "Silken Vest",
             "1": "绸缎背心"
         },
-        "uniques": {}
+        "uniques": {
+            "Ghostwrithe": {
+                "text": {
+                    "0": "Ghostwrithe",
+                    "1": "代笔人"
+                }
+            }
+        }
     },
     "Silken Garb": {
         "text": {
@@ -5511,7 +5530,14 @@
             "0": "Wolf Pelt",
             "1": "狼首皮盔"
         },
-        "uniques": {}
+        "uniques": {
+            "Elevore": {
+                "text": {
+                    "0": "Elevore",
+                    "1": "艾尔弗雷"
+                }
+            }
+        }
     },
     "Hunter Hood": {
         "text": {
@@ -5581,7 +5607,14 @@
             "0": "Barbute Helmet",
             "1": "轻骑盔"
         },
-        "uniques": {}
+        "uniques": {
+            "Thrillsteel": {
+                "text": {
+                    "0": "Thrillsteel",
+                    "1": "惊险刺激"
+                }
+            }
+        }
     },
     "Gladiator Helmet": {
         "text": {
@@ -6071,7 +6104,14 @@
             "0": "Primal Arrow Quiver",
             "1": "原矢箭袋"
         },
-        "uniques": {}
+        "uniques": {
+            "The Poised Prism": {
+                "text": {
+                    "0": "The Poised Prism",
+                    "1": "平衡棱镜"
+                }
+            }
+        }
     },
     "Vile Arrow Quiver": {
         "text": {

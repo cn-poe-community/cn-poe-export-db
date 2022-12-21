@@ -4904,5 +4904,45 @@
                 }
             }
         }
+    },
+    "Alchemist's Mark": {
+        "skills": {
+            "Alchemist's Mark": {
+                "text": {
+                    "0": "Alchemist's Mark",
+                    "1": "炼金师之印"
+                }
+            }
+        }
+    },
+    "Galvanic Field": {
+        "skills": {
+            "Galvanic Field": {
+                "text": {
+                    "0": "Galvanic Field",
+                    "1": "电流场"
+                }
+            }
+        }
+    },
+    "Overcharge Support": {
+        "skills": {
+            "Overcharge Support": {
+                "text": {
+                    "0": "Overcharge Support",
+                    "1": "充能支架"
+                }
+            }
+        }
+    },
+    "Lightning Conduit": {
+        "skills": {
+            "Lightning Conduit": {
+                "text": {
+                    "0": "Lightning Conduit",
+                    "1": "闪电通道"
+                }
+            }
+        }
     }
 }

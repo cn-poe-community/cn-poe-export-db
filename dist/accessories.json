@@ -1937,5 +1937,61 @@
             "1": "赏金猎人饰品"
         },
         "uniques": {}
+    },
+    "Ring": {
+        "text": {
+            "0": "Ring",
+            "1": "戒指"
+        },
+        "uniques": {
+            "Kalandra's Touch": {
+                "text": {
+                    "0": "Kalandra's Touch",
+                    "1": "卡兰德之触"
+                }
+            }
+        }
+    },
+    "Bone Ring": {
+        "text": {
+            "0": "Bone Ring",
+            "1": "骨环"
+        },
+        "uniques": {}
+    },
+    "Dusk Ring": {
+        "text": {
+            "0": "Dusk Ring",
+            "1": "戒指：暮色"
+        },
+        "uniques": {}
+    },
+    "Gloam Ring": {
+        "text": {
+            "0": "Gloam Ring",
+            "1": "戒指：薄暮"
+        },
+        "uniques": {}
+    },
+    "Penumbra Ring": {
+        "text": {
+            "0": "Penumbra Ring",
+            "1": "戒指：半影"
+        },
+        "uniques": {}
+    },
+    "Shadowed Ring": {
+        "text": {
+            "0": "Shadowed Ring",
+            "1": "戒指：暗影"
+        },
+        "uniques": {}
+    },
+    "Tenebrous Ring": {
+        "text": {
+            "0": "Tenebrous Ring",
+            "1": "戒指：暗黑"
+        },
+        "uniques": {}
     }
 }

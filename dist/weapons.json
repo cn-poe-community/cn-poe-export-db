@@ -4417,5 +4417,12 @@
             "1": "精致之刃"
         },
         "uniques": {}
+    },
+    "Calling Wand": {
+        "text": {
+            "0": "Calling Wand",
+            "1": "召唤法杖"
+        },
+        "uniques": {}
     }
 }
