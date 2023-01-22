@@ -9,22 +9,28 @@ def load_json(file):
 
 
 if __name__ == "__main__":
-    files = ["../stats.json"]
+    files = ["../dist/stats.json"]
 
     for file in files:
         with open(file, 'rt', encoding="utf-8") as f:
             data = json.loads(f.read())
 
+            statlist = []
+
             for stat, stat_content in data.items():
                 if "text" in stat_content:
                     texts = stat_content["text"]
-                    new_texts = {}
-                    if("1") in texts:
-                        new_texts["0"] = texts["1"]
-                    if("9") in texts:
-                        new_texts["1"] = texts["9"]
-                    data[stat]["text"] = new_texts
 
+                    if "0" in texts:
+                        texts_0 = texts["0"]
+                    if "1" in texts:
+                        texts_1 = texts["1"]
+
+                    #print(texts_1)
+
+                    for id in texts_1:
+                        if id in texts_0:
+                            statlist.append({"zh": texts_1[id], "en": texts_0[id]})
 
             with open(f'{file}.new.json', 'wt', encoding="utf-8") as f:
-                f.write(json.dumps(data, ensure_ascii=False))
+                f.write(json.dumps(statlist, ensure_ascii=False))
