@@ -155,6 +155,37 @@ def update_zh_and_en(ids: list[str]):
         f.write(json.dumps(stat_data, ensure_ascii=False, indent=4))
 
 
+def check_diffs_with_zh_prefix(prefix: str):
+    zh_data = load_json(zh_file)
+    en_data = load_json(en_file)
+    stat_data = load_json(stat_file)
+
+    zh_indexes = entries_index_by_id(zh_data)
+    en_indexes = entries_index_by_id(en_data)
+    stats_indexes = stats_index_by_id(stat_data)
+
+    for id in zh_indexes:
+        zh: str = zh_indexes[id]["text"]
+        if not zh.startswith(prefix):
+            continue
+
+        if id not in stats_indexes:
+            print(f"new: {id}")
+            return
+        
+        if id not in en_indexes:
+            print(f"{id} not exist in en_stats")
+        en = en_indexes[id]["text"]
+        prev_zh = stats_indexes[id][0]["zh"]
+        prev_en = stats_indexes[id][0]["en"]
+
+        if(format_stat(zh) != prev_zh):
+            print(f"diff zh: {id}")
+        if(format_stat(en) != prev_en):
+            print(f"diff en: {id}")
+
+
 if __name__ == "__main__":
-    ids = ["stat_3969608626"]
+    ids = ["stat_3681057026"]
     update_zh_and_en(ids)
+    #check_diffs_with_zh_prefix("受到【坚定】影响时")

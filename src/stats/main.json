@@ -667,7 +667,7 @@
     {
         "id": "stat_4253454700",
         "zh": "^该装备 (\\S+)% 攻击格挡率$",
-        "en": "^(\\S+)% Chance to Block$"
+        "en": "^(\\S+)% Chance to Block (Shields)$"
     },
     {
         "id": "stat_280731498",
@@ -11231,8 +11231,8 @@
     },
     {
         "id": "stat_3681057026",
-        "zh": "^格挡时回复能量护盾，数值等同于 (\\S+)% 的护甲$",
-        "en": "^Replenishes Energy Shield by (\\S+)% of Armour when you Block$"
+        "zh": "^格挡时回复相当于 (\\S+)% 护甲的能量盾$",
+        "en": "^Recover Energy Shield equal to (\\S+)% of Armour when you Block$"
     },
     {
         "id": "stat_446027070",
@@ -14701,11 +14701,6 @@
     },
     {
         "id": "stat_2457540491",
-        "zh": "^受到【坚定】影响时，承受的反射物理伤害提高 (\\S+)%$",
-        "en": "^(\\S+)% increased Reflected Physical Damage taken while affected by Determination$"
-    },
-    {
-        "id": "stat_2457540491",
         "zh": "^受到【坚定】影响时，承受的反射物理伤害降低 (\\S+)%$",
         "en": "^(\\S+)% reduced Reflected Physical Damage taken while affected by Determination$"
     },
@@ -15228,11 +15223,6 @@
         "id": "stat_3647242059",
         "zh": "^左戒指栏位：法术的投射物无法弹射$",
         "en": "^Left ring slot: Projectiles from Spells cannot Chain$"
-    },
-    {
-        "id": "stat_68410701",
-        "zh": "^受到【坚定】影响时，你被暴击时受到的额外伤害提高 (\\S+)%$",
-        "en": "^You take (\\S+)% increased Extra Damage from Critical Strikes while affected by Determination$"
     },
     {
         "id": "stat_68410701",
@@ -38813,5 +38803,20 @@
         "id": "stat_1406092431",
         "zh": "^当你消灭一个被非光环魔蛊诅咒的敌人时，在魔蛊剩余\n的持续时间中免疫诅咒$",
         "en": "^When you Kill an Enemy Cursed with a Non-Aura Hex, become Immune to\nCurses for remaining Hex Duration$"
+    },
+    {
+        "id": "stat_1807705940",
+        "zh": "^抑制法术伤害时恢复(\\S+)点生命$",
+        "en": "^Recover (\\S+) Life when you Suppress Spell Damage$"
+    },
+    {
+        "id": "stat_611279043",
+        "zh": "^每块聚光之石有(\\S+)%的几率免疫元素异常状态$",
+        "en": "^(\\S+)% chance to Avoid Elemental Ailments per Grand Spectrum$"
+    },
+    {
+        "id": "stat_3491968196",
+        "zh": "^【虚空匕首】以环状方式发射投射物$",
+        "en": "^Ethereal Knives fires Projectiles in a circle$"
     }
 ]

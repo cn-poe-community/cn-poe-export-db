@@ -148,6 +148,6 @@ def append_by_prefix(prefix: str):
 
 
 if __name__ == "__main__":
-    ids = ['stat_1776612984', "stat_1463929958", "stat_2511969244", "stat_1491870348", "stat_1406092431"]
+    ids = ['stat_1807705940', "stat_611279043", "stat_3491968196", "stat_1491870348", "stat_1406092431"]
     append_by_id(ids)
     #append_by_prefix("如果你在过去 10 秒内施放过")
