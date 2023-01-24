@@ -341,7 +341,7 @@
     },
     {
         "id": "stat_3695891184",
-        "zh": "^每击败一名敌人获得 (\\S+) 点生命$",
+        "zh": "^每击败一名敌人获得(\\S+)点生命$",
         "en": "^(\\S+) Life gained on Kill$"
     },
     {
@@ -501,7 +501,7 @@
     },
     {
         "id": "stat_1368271171",
-        "zh": "^每击败一名敌人获得 (\\S+) 点魔力$",
+        "zh": "^每击败一名敌人获得(\\S+)点魔力$",
         "en": "^(\\S+) Mana gained on Kill$"
     },
     {
@@ -1316,7 +1316,7 @@
     },
     {
         "id": "stat_820939409",
-        "zh": "^攻击每击中一名敌人获得 (\\S+) 点魔力$",
+        "zh": "^攻击每击中一名敌人获得(\\S+)点魔力$",
         "en": "^(\\S+) Mana gained for each Enemy hit by your Attacks$"
     },
     {
@@ -3466,7 +3466,7 @@
     },
     {
         "id": "stat_2503377690",
-        "zh": "^立即回复 (\\S+)% 回复量$",
+        "zh": "^立即回复(\\S+)% 回复量$",
         "en": "^(\\S+)% of Recovery applied Instantly$"
     },
     {
@@ -3701,7 +3701,7 @@
     },
     {
         "id": "stat_3374054207",
-        "zh": "^召唤生物有 (\\S+)% 攻击伤害格挡几率$",
+        "zh": "^召唤生物有(\\S+)% 攻击伤害格挡几率$",
         "en": "^Minions have (\\S+)% Chance to Block Attack Damage$"
     },
     {
@@ -15691,7 +15691,7 @@
     },
     {
         "id": "stat_4259701244",
-        "zh": "^受活力影响时每击中一名敌人增加 (\\S+) 点生命$",
+        "zh": "^受活力影响时每击中一名敌人增加(\\S+)点生命$",
         "en": "^Gain (\\S+) Life per Enemy Hit while affected by Vitality$"
     },
     {
@@ -38586,7 +38586,7 @@
     },
     {
         "id": "stat_1793005352",
-        "zh": "^灵魂奉献能使暴击伤害加成提高 (\\S+)%$",
+        "zh": "^灵魂奉献能使暴击伤害加成提高(\\S+)%$",
         "en": "^Spirit Offering grants (\\S+)% to Critical Strike Multiplier$"
     },
     {
