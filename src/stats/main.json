@@ -3846,13 +3846,8 @@
     },
     {
         "id": "stat_1869678332",
-        "zh": "^药剂生效期间，你绝对元素抗性中最低的一个会使你承受该元素的伤害提高 (\\S+)%$",
-        "en": "^During Flask Effect, (\\S+)% increased Damage taken of each Element for which your Uncapped Elemental Resistance is lowest$"
-    },
-    {
-        "id": "stat_1869678332",
-        "zh": "^药剂生效期间，你绝对元素抗性中最低的一个会使你承受该元素的伤害降低 (\\S+)%$",
-        "en": "^During Flask Effect, (\\S+)% reduced Damage taken of each Element for which your Uncapped Elemental Resistance is lowest$"
+        "zh": "^生效期间，你绝对元素抗性中最低的一个会使你承受该元素的伤害降低 (\\S+)%$",
+        "en": "^During Effect, (\\S+)% reduced Damage taken of each Element for which your Uncapped Elemental Resistance is lowest$"
     },
     {
         "id": "stat_1924591908",
@@ -5677,12 +5672,7 @@
     {
         "id": "stat_968369591",
         "zh": "^生效期间，攻击速度提高 (\\S+)%$",
-        "en": "^(\\S+)% increased Attack Speed during Flask effect$"
-    },
-    {
-        "id": "stat_968369591",
-        "zh": "^生效期间，攻击速度降低 (\\S+)%$",
-        "en": "^(\\S+)% reduced Attack Speed during Flask effect$"
+        "en": "^(\\S+)% increased Attack Speed during Effect$"
     },
     {
         "id": "stat_3882662078",
@@ -7231,13 +7221,8 @@
     },
     {
         "id": "stat_3256116097",
-        "zh": "^药剂持续期间，施法速度提高 (\\S+)%$",
-        "en": "^(\\S+)% increased Cast Speed during Flask effect$"
-    },
-    {
-        "id": "stat_3256116097",
-        "zh": "^药剂持续期间，施法速度降低 (\\S+)%$",
-        "en": "^(\\S+)% reduced Cast Speed during Flask effect$"
+        "zh": "^生效期间，施法速度提高 (\\S+)%$",
+        "en": "^(\\S+)% increased Cast Speed during Effect$"
     },
     {
         "id": "stat_3150705301",
@@ -10488,11 +10473,6 @@
         "id": "stat_3541114083",
         "zh": "^获得 (\\S+) 级的【捕熊陷阱】$",
         "en": "^Grants Level (\\S+) Bear Trap Skill$"
-    },
-    {
-        "id": "stat_4265534424",
-        "zh": "^生效期间，你受到的诅咒效果提高 (\\S+)%$",
-        "en": "^(\\S+)% increased Effect of Curses on you during Effect$"
     },
     {
         "id": "stat_4265534424",
@@ -22031,7 +22011,7 @@
     },
     {
         "id": "stat_3615541554",
-        "zh": "^生效期间，结界总降 (\\S+)%$",
+        "zh": "^生效期间，结界减少 (\\S+)%$",
         "en": "^(\\S+)% less Ward during Effect$"
     },
     {
@@ -28685,6 +28665,11 @@
         "en": "^While a Pinnacle Atlas Boss is in your Presence, Withered you Inflict expires (\\S+)% faster$"
     },
     {
+        "id": "stat_3457821036",
+        "zh": "^有一个异界图鉴最终首领出现在你面前：你施加的死亡凋零耗竭速度减慢 (\\S+)%$",
+        "en": "^While a Pinnacle Atlas Boss is in your Presence, Withered you Inflict expires (\\S+)% slower$"
+    },
+    {
         "id": "stat_649027123",
         "zh": "^有一个传奇怪物出现在你面前：【闪电之捷】的增益效果提高 (\\S+)%$",
         "en": "^While a Unique Enemy is in your Presence, Herald of Thunder has (\\S+)% increased Buff Effect$"
@@ -28988,6 +28973,11 @@
         "id": "stat_3262721796",
         "zh": "^有一个传奇怪物出现在你面前：你施加的死亡凋零耗竭速度加快 (\\S+)%$",
         "en": "^While a Unique Enemy is in your Presence, Withered you Inflict expires (\\S+)% faster$"
+    },
+    {
+        "id": "stat_3262721796",
+        "zh": "^有一个传奇怪物出现在你面前：你施加的死亡凋零耗竭速度减慢 (\\S+)%$",
+        "en": "^While a Unique Enemy is in your Presence, Withered you Inflict expires (\\S+)% slower$"
     },
     {
         "id": "stat_3015437071",
@@ -29581,7 +29571,7 @@
     },
     {
         "id": "stat_1625982517",
-        "zh": "^你施加的死亡凋零耗竭速度加快 (\\S+)%$",
+        "zh": "^你施加的死亡凋零耗竭速度减慢 (\\S+)%$",
         "en": "^Withered you Inflict expires (\\S+)% slower$"
     },
     {
@@ -39278,5 +39268,10 @@
         "id": "stat_3768948090",
         "zh": "^如果首要为焚界者，则命中时消灭生命值低于15%的敌人$",
         "en": "^Kill Enemies that have 15% or lower Life on Hit if The Searing Exarch is dominant$"
+    },
+    {
+        "id": "stat_791154540",
+        "zh": "^头部装备和手部装备提供的护甲值提高 (\\S+)%$",
+        "en": "^(\\S+)% increased Armour from Equipped Helmet and Gloves$"
     }
 ]

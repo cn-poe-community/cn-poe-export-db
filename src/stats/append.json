@@ -8,5 +8,10 @@
         "id": "flask_implicit_2",
         "zh": "^【迷踪】状态$",
         "en": "^Phasing$"
+    },
+    {
+        "id": "flask_implicit_3",
+        "zh": "^承受的冰霜总伤害降低 (\\S+)%$",
+        "en": "^(\\S+)% less Cold Damage taken$"
     }
 ]
