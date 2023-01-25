@@ -6901,7 +6901,7 @@
     },
     {
         "id": "stat_3743301799",
-        "zh": "^受到的火焰伤害提高 (\\S+)%$",
+        "zh": "^受到的火焰伤害降低 (\\S+)%$",
         "en": "^(\\S+)% reduced Fire Damage taken$"
     },
     {
@@ -7977,7 +7977,7 @@
     {
         "id": "stat_2028847114",
         "zh": "^击中时对敌人附加元素要害诅咒。$",
-        "en": "^Curse Enemies with Elemental Weakness on Hit, with (\\S+)% increased Effect$"
+        "en": "^Curse Enemies with Elemental Weakness on Hit$"
     },
     {
         "id": "stat_778050954",
@@ -39033,5 +39033,15 @@
         "id": "stat_2478268100",
         "zh": "^目盲时有(\\S+)%的几率在击中时获得一个狂怒球$",
         "en": "^(\\S+)% chance to gain a Frenzy Charge on Hit while Blinded$"
+    },
+    {
+        "id": "stat_3733114005",
+        "zh": "^周围敌人被灼烧$",
+        "en": "^Nearby Enemies are Scorched$"
+    },
+    {
+        "id": "stat_1777740627",
+        "zh": "^失去的生命被保留起来，\n直到你的生命在 (\\S+) 秒内没有再受到伤害$",
+        "en": "^Life that would be lost by taking Damage is instead Reserved\nuntil you take no Damage to Life for (\\S+) second$"
     }
 ]

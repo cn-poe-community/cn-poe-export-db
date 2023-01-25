@@ -1,7 +1,12 @@
 [
     {
-        "id": "append_flask_1",
+        "id": "flask_implicit_1",
         "zh": "^受到的火焰伤害总降 (\\S+)%$",
         "en": "^(\\S+)% less Fire Damage taken$"
+    },
+    {
+        "id": "flask_implicit_2",
+        "zh": "^【迷踪】状态$",
+        "en": "^Phasing$"
     }
 ]
