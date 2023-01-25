@@ -326,7 +326,7 @@
     },
     {
         "id": "stat_1263695895",
-        "zh": "^照亮范围减小 (\\S+)%$",
+        "zh": "^照亮范围缩小 (\\S+)%$",
         "en": "^(\\S+)% reduced Light Radius$"
     },
     {
@@ -10391,13 +10391,13 @@
     },
     {
         "id": "stat_3657377047",
-        "zh": "^你施放诅咒技能时有 (\\S+)% 的几率触发插入的诅咒技能，它有 0.25 秒冷却时间$",
-        "en": "^(\\S+)% chance to Trigger Socketed Curse Skill when you cast a Curse Skill, with a 0.25 second Cooldown$"
+        "zh": "^当你施放一个诅咒法术时，有#% 几率触发插槽诅咒法术，有 0.25 秒的冷却时间$",
+        "en": "^(\\S+)% chance to Trigger Socketed Curse Spell when you Cast a Curse Spell, with a 0.25 second Cooldown$"
     },
     {
         "id": "stat_3657377047",
-        "zh": "^你施放诅咒技能时触发插入的诅咒技能，它有 0.25 秒冷却时间$",
-        "en": "^Trigger Socketed Curse Skill when you cast a Curse Skill, with a 0.25 second Cooldown$"
+        "zh": "^当你施放一个诅咒法术时，触发插槽诅咒法术，有 0.25 秒的冷却时间$",
+        "en": "^Trigger Socketed Curse Spell when you Cast a Curse Spell, with a 0.25 second Cooldown$"
     },
     {
         "id": "stat_3638731729",
@@ -38818,5 +38818,25 @@
         "id": "stat_3491968196",
         "zh": "^【虚空匕首】以环状方式发射投射物$",
         "en": "^Ethereal Knives fires Projectiles in a circle$"
+    },
+    {
+        "id": "stat_2878959938",
+        "zh": "^行动速度加快 (\\S+)%$",
+        "en": "^(\\S+)% increased Action Speed$"
+    },
+    {
+        "id": "stat_3091578504",
+        "zh": "^召唤生物的攻击和施法速度加快 (\\S+)%$",
+        "en": "^Minions have (\\S+)% increased Attack and Cast Speed$"
+    },
+    {
+        "id": "stat_2500585555",
+        "zh": "^周围每个灵枢都能使你每秒再生(\\S+)点生命$",
+        "en": "^For each nearby corpse, Regenerate (\\S+) Life per second$"
+    },
+    {
+        "id": "stat_504462346",
+        "zh": "^周围每个灵枢能使移动速度提高(\\S+)%$",
+        "en": "^For each nearby corpse, (\\S+)% increased Movement Speed$"
     }
 ]
