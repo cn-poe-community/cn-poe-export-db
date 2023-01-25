@@ -129,6 +129,8 @@ def append_by_prefix(prefix: str):
 
     new_stats: list = stat_data
     for id in zh_indexes:
+        if id in stat_indexes:
+            continue
         if not zh_indexes[id]["text"].startswith(prefix):
             continue
 
@@ -146,8 +148,37 @@ def append_by_prefix(prefix: str):
     with open(f'{stat_file}.new.json', 'wt', encoding="utf-8") as f:
         f.write(json.dumps(new_stats, ensure_ascii=False, indent=4))
 
+def append_by_sub_string(sub_string: str):
+    zh_data = load_json(zh_file)
+    en_data = load_json(en_file)
+    stat_data = load_json(stat_file)
+
+    zh_indexes = entries_index_by_id(zh_data)
+    en_indexes = entries_index_by_id(en_data)
+    stat_indexes = stats_index_by_id(stat_data)
+
+    new_stats: list = stat_data
+    for id in zh_indexes:
+        if id in stat_indexes:
+            continue
+        if sub_string not in zh_indexes[id]["text"]:
+            continue
+
+        if id not in en_indexes:
+            print(f"id ${id} is not found in en_stats")
+            continue
+
+        zh = format_stat(zh_indexes[id]["text"])
+        en = format_stat(en_indexes[id]["text"])
+
+        print("append:", id, zh, en)
+
+        new_stats.append({"id": id, "zh": zh, "en": en})
+
+    with open(f'{stat_file}.new.json', 'wt', encoding="utf-8") as f:
+        f.write(json.dumps(new_stats, ensure_ascii=False, indent=4))
 
 if __name__ == "__main__":
-    ids = ['stat_1807705940', "stat_611279043", "stat_3491968196", "stat_1491870348", "stat_1406092431"]
+    ids = ['stat_3410776118', "stat_2478268100", "stat_565784293", "stat_1737583880", "stat_1405089557"]
     append_by_id(ids)
-    #append_by_prefix("如果你在过去 10 秒内施放过")
+    #append_by_sub_string("按照每个聚光之石")
