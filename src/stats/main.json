@@ -1406,13 +1406,8 @@
     },
     {
         "id": "stat_1514829491",
-        "zh": "^(\\S+)% 的几率避免被冰冻$",
-        "en": "^(\\S+)% chance to Avoid being Frozen$"
-    },
-    {
-        "id": "stat_1514829491",
         "zh": "^(\\S+)% 几率避免被冰冻$",
-        "en": "^Cannot be Frozen$"
+        "en": "^(\\S+)% chance to Avoid being Frozen$"
     },
     {
         "id": "stat_1172029298",
@@ -1651,13 +1646,8 @@
     },
     {
         "id": "stat_4262448838",
-        "zh": "^(\\S+)% 的几率避免被晕眩$",
+        "zh": "^(\\S+)% 几率避免被晕眩$",
         "en": "^(\\S+)% chance to Avoid being Stunned$"
-    },
-    {
-        "id": "stat_4262448838",
-        "zh": "^100% 几率避免被晕眩$",
-        "en": "^Cannot be Stunned$"
     },
     {
         "id": "stat_2435536961",
@@ -1886,13 +1876,8 @@
     },
     {
         "id": "stat_3005472710",
-        "zh": "^(\\S+)% 的几率避免元素异常状态$",
-        "en": "^(\\S+)% chance to Avoid Elemental Ailments$"
-    },
-    {
-        "id": "stat_3005472710",
         "zh": "^(\\S+)% 几率避免元素异常状态$",
-        "en": "^Cannot receive Elemental Ailments$"
+        "en": "^(\\S+)% chance to Avoid Elemental Ailments$"
     },
     {
         "id": "stat_211381198",
@@ -2026,13 +2011,8 @@
     },
     {
         "id": "stat_1783006896",
-        "zh": "^(\\S+)% 的几率避免被点燃$",
-        "en": "^(\\S+)% chance to Avoid being Ignited$"
-    },
-    {
-        "id": "stat_1783006896",
         "zh": "^(\\S+)% 几率避免被点燃$",
-        "en": "^Cannot be Ignited$"
+        "en": "^(\\S+)% chance to Avoid being Ignited$"
     },
     {
         "id": "stat_3496944181",
@@ -2601,13 +2581,8 @@
     },
     {
         "id": "stat_4053951709",
-        "zh": "^(\\S+)% 的几率免疫中毒$",
-        "en": "^(\\S+)% chance to Avoid being Poisoned$"
-    },
-    {
-        "id": "stat_4053951709",
         "zh": "^(\\S+)% 几率避免中毒$",
-        "en": "^Cannot be Poisoned$"
+        "en": "^(\\S+)% chance to Avoid being Poisoned$"
     },
     {
         "id": "stat_2937483991",
@@ -3541,13 +3516,8 @@
     },
     {
         "id": "stat_1871765599",
-        "zh": "^(\\S+)% 的几率避免被感电$",
-        "en": "^(\\S+)% chance to Avoid being Shocked$"
-    },
-    {
-        "id": "stat_1871765599",
         "zh": "^(\\S+)% 几率避免被感电$",
-        "en": "^Cannot be Shocked$"
+        "en": "^(\\S+)% chance to Avoid being Shocked$"
     },
     {
         "id": "stat_372478711",
@@ -4951,13 +4921,8 @@
     },
     {
         "id": "stat_1618589784",
-        "zh": "^有 (\\S+)% 的几率避免流血$",
-        "en": "^(\\S+)% chance to Avoid Bleeding$"
-    },
-    {
-        "id": "stat_1618589784",
         "zh": "^(\\S+)% 几率避免致流血$",
-        "en": "^Bleeding cannot be inflicted on you$"
+        "en": "^(\\S+)% chance to Avoid Bleeding$"
     },
     {
         "id": "stat_2483362276",
@@ -6051,8 +6016,8 @@
     },
     {
         "id": "stat_3612464552",
-        "zh": "^你被冻结后在接下来 (\\S+) 秒不能被冻结$",
-        "en": "^You cannot be Frozen for (\\S+) second after being Frozen$"
+        "zh": "^你被冻结后在接下来 1 秒不能被冻结$",
+        "en": "^You cannot be Frozen for 1 second after being Frozen$"
     },
     {
         "id": "stat_3612464552",
@@ -6096,8 +6061,8 @@
     },
     {
         "id": "stat_2306924373",
-        "zh": "^你被冰缓后在接下来 (\\S+) 秒不能被冰缓$",
-        "en": "^You cannot be Chilled for (\\S+) second after being Chilled$"
+        "zh": "^你被冰缓后在接下来 1 秒不能被冰缓$",
+        "en": "^You cannot be Chilled for 1 second after being Chilled$"
     },
     {
         "id": "stat_2306924373",
