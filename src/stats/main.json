@@ -1656,7 +1656,7 @@
     },
     {
         "id": "stat_4262448838",
-        "zh": "^(\\S+)% 几率避免被晕眩$",
+        "zh": "^100% 几率避免被晕眩$",
         "en": "^Cannot be Stunned$"
     },
     {
@@ -39278,5 +39278,20 @@
         "id": "stat_2560911401",
         "zh": "^Base Spell Critical Strike Chance of Spells is equal to that of Main Hand Weapon$",
         "en": "^Base Critical Strike Chance of Spells is the Critical Strike Chance of Main Hand Weapon$"
+    },
+    {
+        "id": "stat_331731406",
+        "zh": "^无法被点燃$",
+        "en": "^Cannot be Ignited$"
+    },
+    {
+        "id": "stat_491899612",
+        "zh": "^无法被感电$",
+        "en": "^Cannot be Shocked$"
+    },
+    {
+        "id": "stat_876831634",
+        "zh": "^无法被冰冻$",
+        "en": "^Cannot be Frozen$"
     }
 ]
