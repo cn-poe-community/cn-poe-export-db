@@ -13841,8 +13841,8 @@
     },
     {
         "id": "stat_694123963",
-        "zh": "^你被脆弱诅咒，其效果提高 (\\S+)%$",
-        "en": "^You are Cursed with Vulnerability, with (\\S+)% increased Effect$"
+        "zh": "^你被脆弱诅咒了$",
+        "en": "^You are Cursed with Vulnerability$"
     },
     {
         "id": "stat_1962922582",
