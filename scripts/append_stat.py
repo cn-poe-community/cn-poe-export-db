@@ -1,7 +1,7 @@
 import json
 
-zh_file = "../docs/trade/3.20/zh_stats.json"
-en_file = "../docs/trade/3.20/en_stats.json"
+zh_file = "../docs/trade/3.20/zh_stats_20230215.json"
+en_file = "../docs/trade/3.20/en_stats_20230215.json"
 stat_file = "../src/stats/main.json"
 
 
@@ -179,6 +179,5 @@ def append_by_sub_string(sub_string: str):
         f.write(json.dumps(new_stats, ensure_ascii=False, indent=4))
 
 if __name__ == "__main__":
-    ids = ['stat_3410776118', "stat_2478268100", "stat_565784293", "stat_1737583880", "stat_1405089557"]
+    ids = ['stat_2423544033', "stat_663080464", "stat_1413930902", "stat_339131601", "stat_1004468512"]
     append_by_id(ids)
-    #append_by_sub_string("按照每个聚光之石")

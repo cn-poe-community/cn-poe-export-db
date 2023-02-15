@@ -1,7 +1,7 @@
 import json
 
-zh_file = "../docs/trade/3.20/zh_stats.json"
-en_file = "../docs/trade/3.20/en_stats.json"
+zh_file = "../docs/trade/3.20/zh_stats_20230215.json"
+en_file = "../docs/trade/3.20/en_stats_20230215.json"
 stat_file = "../src/stats/main.json"
 
 
@@ -186,6 +186,5 @@ def check_diffs_with_zh_prefix(prefix: str):
 
 
 if __name__ == "__main__":
-    ids = ["stat_3681057026"]
+    ids = ["stat_2646007123","stat_4180346416","stat_242822230","stat_2152491486","stat_697059777"]
     update_zh_and_en(ids)
-    #check_diffs_with_zh_prefix("受到【坚定】影响时")
