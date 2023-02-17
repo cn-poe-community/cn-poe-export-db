@@ -3,7 +3,7 @@ import json
 
 def filter_label(label: str):
     # 外延 or 基底
-    return label in ["基底", "Implicit", "外延", "Explicit"]
+    return label in ["基底", "Implicit", "外延", "Explicit", "附魔", "Enchant"]
 
 
 def load_json(file):

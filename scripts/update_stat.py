@@ -11,7 +11,7 @@ def filter_stat(stat: str):
 
 def filter_label(label: str):
     # 外延 or 基底
-    return label in ["基底", "Implicit", "外延", "Explicit"]
+    return label in ["基底", "Implicit", "外延", "Explicit", "附魔", "Enchant"]
 
 
 def format_stat(stat: str):
@@ -33,7 +33,7 @@ def entries_index_by_id(data):
 
     for part in result:
         label = part["label"]
-        if(filter_label(label)):
+        if (filter_label(label)):
             entries = part["entries"]
             for entry in entries:
                 full_id: str = entry["id"]
@@ -111,8 +111,8 @@ def update_diff_zh():
         zh_stat: str = format_stat(zh_indexes[id]["text"])
         en_stat: str = format_stat(en_indexes[id]["text"])
 
-        if(old_zh_stat != zh_stat):
-            #print("diff: ", id, old_zh_stat, zh_stat)
+        if (old_zh_stat != zh_stat):
+            # print("diff: ", id, old_zh_stat, zh_stat)
             if "药剂生效期间" in old_zh_stat and zh_stat.startswith("^生效期间"):
                 print("diff: ", id, old_zh_stat, zh_stat)
                 stat["zh"] = zh_stat
@@ -172,19 +172,20 @@ def check_diffs_with_zh_prefix(prefix: str):
         if id not in stats_indexes:
             print(f"new: {id}")
             return
-        
+
         if id not in en_indexes:
             print(f"{id} not exist in en_stats")
         en = en_indexes[id]["text"]
         prev_zh = stats_indexes[id][0]["zh"]
         prev_en = stats_indexes[id][0]["en"]
 
-        if(format_stat(zh) != prev_zh):
+        if (format_stat(zh) != prev_zh):
             print(f"diff zh: {id}")
-        if(format_stat(en) != prev_en):
+        if (format_stat(en) != prev_en):
             print(f"diff en: {id}")
 
 
 if __name__ == "__main__":
-    ids = ["stat_2646007123","stat_4180346416","stat_242822230","stat_2152491486","stat_697059777"]
+    ids = ["stat_430890565", "stat_3152806535",
+           "stat_2781179464", "stat_2979443822", "stat_1040958896"]
     update_zh_and_en(ids)
