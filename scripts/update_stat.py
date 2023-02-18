@@ -184,8 +184,51 @@ def check_diffs_with_zh_prefix(prefix: str):
         if (format_stat(en) != prev_en):
             print(f"diff en: {id}")
 
+def update_zh_en_by_id_prefix(prefix:str):
+    zh_data = load_json(zh_file)
+    en_data = load_json(en_file)
+    stat_data = load_json(stat_file)
+
+    zh_indexes = entries_index_by_id(zh_data)
+    en_indexes = entries_index_by_id(en_data)
+    stats_indexes = stats_index_by_id(stat_data)
+
+    for id in zh_indexes:
+        if not id.startswith(prefix):
+            continue
+        if(id not in en_indexes):
+            print(f"warning: {id} not in en_stats")
+            continue
+
+        if(id in stats_indexes):
+            stats = stats_indexes[id]
+            if len(stats) > 1:
+                print(f"warning: {id} mapping multi-stat, can't be updated")
+                continue
+        
+            new_zh: str = format_stat(zh_indexes[id]["text"])
+            new_en: str = format_stat(en_indexes[id]["text"])
+
+            stat = stats[0]
+            zh = stat["zh"]
+            en = stat["en"]
+
+            if zh != new_zh:
+                print(f"update {id} zh")
+                stat["zh"] = new_zh
+            if en != new_en:
+                print(f"update {id} en")
+                stat["en"] = new_en
+        else:
+            print(f"warning: {id} is new, please add it using append_stat.py")
+    
+    with open(f'{stat_file}.new.json', 'wt', encoding="utf-8") as f:
+        f.write(json.dumps(stat_data, ensure_ascii=False, indent=4))
+            
+
 
 if __name__ == "__main__":
-    ids = ["stat_430890565", "stat_3152806535",
-           "stat_2781179464", "stat_2979443822", "stat_1040958896"]
-    update_zh_and_en(ids)
+    #ids = ["stat_430890565", "stat_3152806535",
+    #       "stat_2781179464", "stat_2979443822", "stat_1040958896"]
+    #update_zh_and_en(ids)
+    update_zh_en_by_id_prefix("indexable_support")
