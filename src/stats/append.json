@@ -1,17 +1,17 @@
 [
     {
         "id": "flask_implicit_1",
-        "zh": "^受到的火焰伤害总降 (\\S+)%$",
-        "en": "^(\\S+)% less Fire Damage taken$"
+        "zh": "受到的火焰伤害总降 {0}%",
+        "en": "{0}% less Fire Damage taken"
     },
     {
         "id": "flask_implicit_2",
-        "zh": "^【迷踪】状态$",
-        "en": "^Phasing$"
+        "zh": "【迷踪】状态",
+        "en": "Phasing"
     },
     {
         "id": "flask_implicit_3",
-        "zh": "^承受的冰霜总伤害降低 (\\S+)%$",
-        "en": "^(\\S+)% less Cold Damage taken$"
+        "zh": "承受的冰霜总伤害降低 {0}%",
+        "en": "{0}% less Cold Damage taken"
     }
 ]
