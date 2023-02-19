@@ -39258,5 +39258,10 @@
         "id": "stat_725696472",
         "zh": "一次最多只能从一个激活的先祖图腾中获得 1 个增益效果",
         "en": "Maximum 1 Buff from an Active Ancestor Totem at a time"
+    },
+    {
+        "id": "stat_472812693",
+        "zh": "你技能的光环在你身上的效果提高 {0}%",
+        "en": "Auras from your Skills have {0}% increased Effect on you"
     }
 ]
