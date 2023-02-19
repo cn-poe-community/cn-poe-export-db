@@ -4741,8 +4741,8 @@
     },
     {
         "id": "stat_1539696482",
-        "zh": "若范围内至少有 40 点力量，则周围每有一个敌人就使【劈砍】的扩散范围 \\+1，最大 \\+10",
-        "en": "With at least 40 Strength in Radius, Cleave has \\+1 to Radius per Nearby\nEnemy, up to \\+10"
+        "zh": "若范围内至少有 40 点力量，则周围每有一个敌人就使【劈砍】的扩散范围 +1，最大 +10",
+        "en": "With at least 40 Strength in Radius, Cleave has +1 to Radius per Nearby\nEnemy, up to +10"
     },
     {
         "id": "stat_507075051",
@@ -6606,8 +6606,8 @@
     },
     {
         "id": "stat_35810390",
-        "zh": "每个绿色插槽 \\+{0}% 攻击和法术暴击伤害加成",
-        "en": "\\+{0}% to Global Critical Strike Multiplier per Green Socket"
+        "zh": "每个绿色插槽 +{0}% 攻击和法术暴击伤害加成",
+        "en": "+{0}% to Global Critical Strike Multiplier per Green Socket"
     },
     {
         "id": "stat_3404168630",
@@ -6926,8 +6926,8 @@
     },
     {
         "id": "stat_1435838855",
-        "zh": "人物等级每到达 {0} 级，该插槽内的【主动技能石】等级 \\+1",
-        "en": "\\+1 to Level of Socketed Active Skill Gems per {0} Player Levels"
+        "zh": "人物等级每到达 {0} 级，该插槽内的【主动技能石】等级 +1",
+        "en": "+1 to Level of Socketed Active Skill Gems per {0} Player Levels"
     },
     {
         "id": "stat_1163758055",
@@ -7481,8 +7481,8 @@
     },
     {
         "id": "stat_4056985119",
-        "zh": "每 {0} 点力量可使魔卫的召唤上限 \\+1",
-        "en": "\\+1 to maximum number of Raised Zombies per {0} Strength"
+        "zh": "每 {0} 点力量可使魔卫的召唤上限 +1",
+        "en": "+1 to maximum number of Raised Zombies per {0} Strength"
     },
     {
         "id": "stat_2661163721",
@@ -9907,7 +9907,7 @@
     {
         "id": "stat_1555918911",
         "zh": "右戒指栏位：法术的投射物会额外弹射 {0} 次",
-        "en": "Right ring slot: Projectiles from Spells Chain \\+{0} times"
+        "en": "Right ring slot: Projectiles from Spells Chain +{0} times"
     },
     {
         "id": "stat_2418601510",
@@ -10056,8 +10056,8 @@
     },
     {
         "id": "stat_1922061483",
-        "zh": "沙姿态下 \\+{0} 闪避值",
-        "en": "\\+{0} to Evasion Rating while in Sand Stance"
+        "zh": "沙姿态下 +{0} 闪避值",
+        "en": "+{0} to Evasion Rating while in Sand Stance"
     },
     {
         "id": "stat_1922061483",
@@ -11271,8 +11271,8 @@
     },
     {
         "id": "stat_2906522048",
-        "zh": "每个蓝色插槽 \\+{0} 最大能量护盾",
-        "en": "\\+{0} to Maximum Energy Shield per Blue Socket"
+        "zh": "每个蓝色插槽 +{0} 最大能量护盾",
+        "en": "+{0} to Maximum Energy Shield per Blue Socket"
     },
     {
         "id": "stat_2809802678",
@@ -12471,8 +12471,8 @@
     },
     {
         "id": "stat_4210076836",
-        "zh": "每个红色插槽 \\+{0} 最大生命",
-        "en": "\\+{0} to Maximum Life per Red Socket"
+        "zh": "每个红色插槽 +{0} 最大生命",
+        "en": "+{0} to Maximum Life per Red Socket"
     },
     {
         "id": "stat_73272763",
@@ -12536,8 +12536,8 @@
     },
     {
         "id": "stat_896299992",
-        "zh": "每个绿色插槽 \\+{0} 最大魔力",
-        "en": "\\+{0} to Maximum Mana per Green Socket"
+        "zh": "每个绿色插槽 +{0} 最大魔力",
+        "en": "+{0} to Maximum Mana per Green Socket"
     },
     {
         "id": "stat_1482194094",
@@ -14191,8 +14191,8 @@
     },
     {
         "id": "stat_2830135449",
-        "zh": "每 10 点奉献使召唤生物的命中值 \\+{0}",
-        "en": "Minions have \\+{0} to Accuracy Rating per 10 Devotion"
+        "zh": "每 10 点奉献使召唤生物的命中值 +{0}",
+        "en": "Minions have +{0} to Accuracy Rating per 10 Devotion"
     },
     {
         "id": "stat_3111519953",
@@ -14786,8 +14786,8 @@
     },
     {
         "id": "stat_2105355711",
-        "zh": "范围内配置的敏捷和力量总计 40 点时，【灵盾投掷】连锁弹射次数 \\+{0}",
-        "en": "With 40 total Dexterity and Strength in Radius, Spectral Shield Throw Chains \\+{0} times"
+        "zh": "范围内配置的敏捷和力量总计 40 点时，【灵盾投掷】连锁弹射次数 +{0}",
+        "en": "With 40 total Dexterity and Strength in Radius, Spectral Shield Throw Chains +{0} times"
     },
     {
         "id": "stat_3950683692",
@@ -15641,8 +15641,8 @@
     },
     {
         "id": "stat_2388362438",
-        "zh": "插入苍白之凝珠宝时，召唤生物的命中值 \\+{0}",
-        "en": "With a Ghastly Eye Jewel Socketed, Minions have \\+{0} to Accuracy Rating"
+        "zh": "插入苍白之凝珠宝时，召唤生物的命中值 +{0}",
+        "en": "With a Ghastly Eye Jewel Socketed, Minions have +{0} to Accuracy Rating"
     },
     {
         "id": "stat_2449392400",
@@ -19741,8 +19741,8 @@
     },
     {
         "id": "stat_1124661381",
-        "zh": "每 200 点力量都使散射弩炮的召唤图腾上限 \\+{0}",
-        "en": "Shrapnel Ballista has \\+{0} to maximum number of Summoned Totems per 200 Strength"
+        "zh": "每 200 点力量都使散射弩炮的召唤图腾上限 +{0}",
+        "en": "Shrapnel Ballista has +{0} to maximum number of Summoned Totems per 200 Strength"
     },
     {
         "id": "stat_1820083363",
@@ -20126,8 +20126,8 @@
     },
     {
         "id": "stat_364564770",
-        "zh": "副手暴击伤害加成按照影响你的\n每件凶残之凝珠宝 {0}%，最多 \\+50%",
-        "en": "{0}% to Off Hand Critical Strike Multiplier per\nMurderous Eye Jewel affecting you, up to a maximum of \\+50%"
+        "zh": "副手暴击伤害加成按照影响你的\n每件凶残之凝珠宝 {0}%，最多 +50%",
+        "en": "{0}% to Off Hand Critical Strike Multiplier per\nMurderous Eye Jewel affecting you, up to a maximum of +50%"
     },
     {
         "id": "stat_1485085047",
@@ -20536,8 +20536,8 @@
     },
     {
         "id": "stat_416299653",
-        "zh": "区域完成时提供异界图鉴任务的几率 \\+{0}%",
-        "en": "Areas have \\+{0}% chance to grant an Atlas Mission on Completion"
+        "zh": "区域完成时提供异界图鉴任务的几率 +{0}%",
+        "en": "Areas have +{0}% chance to grant an Atlas Mission on Completion"
     },
     {
         "id": "stat_3629143471",
@@ -21261,8 +21261,8 @@
     },
     {
         "id": "stat_1681904129",
-        "zh": "插入的技能石 \\+3.5% 暴击率",
-        "en": "Socketed Gems have \\+3.5% Critical Strike Chance"
+        "zh": "插入的技能石 +3.5% 暴击率",
+        "en": "Socketed Gems have +3.5% Critical Strike Chance"
     },
     {
         "id": "stat_1681904129",
@@ -22396,8 +22396,8 @@
     },
     {
         "id": "stat_779829642",
-        "zh": "静止时，混沌抗性 \\+{0}%",
-        "en": "\\+{0}% to Chaos Resistance while stationary"
+        "zh": "静止时，混沌抗性 +{0}%",
+        "en": "+{0}% to Chaos Resistance while stationary"
     },
     {
         "id": "stat_779829642",
@@ -22426,8 +22426,8 @@
     },
     {
         "id": "stat_613055432",
-        "zh": "每个影响你的苍白之凝珠宝都使召唤生物持续伤害加成{0}%，最多 \\+30%",
-        "en": "Minions have {0}% to Damage over Time Multiplier per\nGhastly Eye Jewel affecting you, up to a maximum of \\+30%"
+        "zh": "每个影响你的苍白之凝珠宝都使召唤生物持续伤害加成{0}%，最多 +30%",
+        "en": "Minions have {0}% to Damage over Time Multiplier per\nGhastly Eye Jewel affecting you, up to a maximum of +30%"
     },
     {
         "id": "stat_3930242735",
@@ -22531,8 +22531,8 @@
     },
     {
         "id": "stat_100820057",
-        "zh": "范围内每有 10 点未配置的敏捷，便 \\+{0} 命中值",
-        "en": "\\+{0} to Accuracy Rating per 10 Dexterity on Unallocated Passives in Radius"
+        "zh": "范围内每有 10 点未配置的敏捷，便 +{0} 命中值",
+        "en": "+{0} to Accuracy Rating per 10 Dexterity on Unallocated Passives in Radius"
     },
     {
         "id": "stat_100820057",
@@ -22876,8 +22876,8 @@
     },
     {
         "id": "stat_2309305223",
-        "zh": "投射物有 {0}% 的几率返回，从最后的目标返回的几率 \\+{1}%",
-        "en": "Projectiles have {0}% chance to Return to you, \\+{1}% chance from a final target"
+        "zh": "投射物有 {0}% 的几率返回，从最后的目标返回的几率 +{1}%",
+        "en": "Projectiles have {0}% chance to Return to you, +{1}% chance from a final target"
     },
     {
         "id": "stat_2309305223",
@@ -25666,8 +25666,8 @@
     },
     {
         "id": "stat_458989037",
-        "zh": "所有元素抗性按照每 15 点全知 \\+{0}%",
-        "en": "\\+{0}% to all Elemental Resistances per 15 Omniscience"
+        "zh": "所有元素抗性按照每 15 点全知 +{0}%",
+        "en": "+{0}% to all Elemental Resistances per 15 Omniscience"
     },
     {
         "id": "stat_2647355055",
@@ -25721,8 +25721,8 @@
     },
     {
         "id": "stat_740728913",
-        "zh": "恐怖之旗在放置时使护身上限额外 \\+{0}",
-        "en": "Dread Banner grants an additional \\+{0} to maximum Fortification when placing the Banner"
+        "zh": "恐怖之旗在放置时使护身上限额外 +{0}",
+        "en": "Dread Banner grants an additional +{0} to maximum Fortification when placing the Banner"
     },
     {
         "id": "stat_48859060",
@@ -29781,8 +29781,8 @@
     },
     {
         "id": "stat_3948993189",
-        "zh": "增加的小天赋获得：\\+1% 攻击伤害格挡几率",
-        "en": "Added Small Passive Skills grant: \\+1% Chance to Block Attack Damage"
+        "zh": "增加的小天赋获得：+1% 攻击伤害格挡几率",
+        "en": "Added Small Passive Skills grant: +1% Chance to Block Attack Damage"
     },
     {
         "id": "stat_3948993189",
@@ -29791,43 +29791,43 @@
     },
     {
         "id": "stat_3948993189",
-        "zh": "增加的小天赋获得：\\+15% 火焰抗性",
-        "en": "Added Small Passive Skills grant: \\+15% to Fire Resistance"
+        "zh": "增加的小天赋获得：+15% 火焰抗性",
+        "en": "Added Small Passive Skills grant: +15% to Fire Resistance"
     },
     {
         "id": "stat_3948993189",
-        "zh": "增加的小天赋获得：\\+15% 冰霜抗性",
-        "en": "Added Small Passive Skills grant: \\+15% to Cold Resistance"
+        "zh": "增加的小天赋获得：+15% 冰霜抗性",
+        "en": "Added Small Passive Skills grant: +15% to Cold Resistance"
     },
     {
         "id": "stat_3948993189",
-        "zh": "增加的小天赋获得：\\+15% 闪电抗性",
-        "en": "Added Small Passive Skills grant: \\+15% to Lightning Resistance"
+        "zh": "增加的小天赋获得：+15% 闪电抗性",
+        "en": "Added Small Passive Skills grant: +15% to Lightning Resistance"
     },
     {
         "id": "stat_3948993189",
-        "zh": "增加的小天赋获得：\\+12% 混沌抗性",
-        "en": "Added Small Passive Skills grant: \\+12% to Chaos Resistance"
+        "zh": "增加的小天赋获得：+12% 混沌抗性",
+        "en": "Added Small Passive Skills grant: +12% to Chaos Resistance"
     },
     {
         "id": "stat_3948993189",
-        "zh": "增加的小天赋获得：\\+法术伤害压制率 +2%",
-        "en": "Added Small Passive Skills grant: \\+2% chance to Suppress Spell Damage"
+        "zh": "增加的小天赋获得：+法术伤害压制率 +2%",
+        "en": "Added Small Passive Skills grant: +2% chance to Suppress Spell Damage"
     },
     {
         "id": "stat_3948993189",
-        "zh": "增加的小天赋获得：\\+10 力量",
-        "en": "Added Small Passive Skills grant: \\+10 to Strength"
+        "zh": "增加的小天赋获得：+10 力量",
+        "en": "Added Small Passive Skills grant: +10 to Strength"
     },
     {
         "id": "stat_3948993189",
-        "zh": "增加的小天赋获得：\\+10 敏捷",
-        "en": "Added Small Passive Skills grant: \\+10 to Dexterity"
+        "zh": "增加的小天赋获得：+10 敏捷",
+        "en": "Added Small Passive Skills grant: +10 to Dexterity"
     },
     {
         "id": "stat_3948993189",
-        "zh": "增加的小天赋获得：\\+10 智慧",
-        "en": "Added Small Passive Skills grant: \\+10 to Intelligence"
+        "zh": "增加的小天赋获得：+10 智慧",
+        "en": "Added Small Passive Skills grant: +10 to Intelligence"
     },
     {
         "id": "stat_3948993189",
@@ -30496,8 +30496,8 @@
     },
     {
         "id": "stat_3734339018",
-        "zh": "寒冬宝珠的最大等阶 \\+{0}",
-        "en": "Winter Orb has \\+{0} Maximum Stages"
+        "zh": "寒冬宝珠的最大等阶 +{0}",
+        "en": "Winter Orb has +{0} Maximum Stages"
     },
     {
         "id": "stat_1815368527",
@@ -32756,8 +32756,8 @@
     },
     {
         "id": "stat_2870283358",
-        "zh": "七伤破有 {0}% 的几率 \\+1 层内伤",
-        "en": "Boneshatter has {0}% chance to grant \\+1 Trauma"
+        "zh": "七伤破有 {0}% 的几率 +1 层内伤",
+        "en": "Boneshatter has {0}% chance to grant +1 Trauma"
     },
     {
         "id": "stat_444858149",
@@ -35196,8 +35196,8 @@
     },
     {
         "id": "stat_2588242810",
-        "zh": "钩链攻击有 {0}% 的几率在击中敌人后获得怒火 \\+1",
-        "en": "Chain Hook has a {0}% chance to grant \\+1 Rage if it Hits Enemies"
+        "zh": "钩链攻击有 {0}% 的几率在击中敌人后获得怒火 +1",
+        "en": "Chain Hook has a {0}% chance to grant +1 Rage if it Hits Enemies"
     },
     {
         "id": "stat_3536566359",
@@ -35416,8 +35416,8 @@
     },
     {
         "id": "stat_865345996",
-        "zh": "刀刃乱舞层数上限 \\+1",
-        "en": "\\+1 to maximum Blade Flurry stages"
+        "zh": "刀刃乱舞层数上限 +1",
+        "en": "+1 to maximum Blade Flurry stages"
     },
     {
         "id": "stat_1785831895",
@@ -36741,8 +36741,8 @@
     },
     {
         "id": "stat_4099204231",
-        "zh": "最大插槽 \\+{0}",
-        "en": "\\+{0} to maximum Sockets"
+        "zh": "最大插槽 +{0}",
+        "en": "+{0} to maximum Sockets"
     },
     {
         "id": "stat_4099204231",
@@ -36941,8 +36941,8 @@
     },
     {
         "id": "stat_3169671355",
-        "zh": "你在【迷踪】状态下 \\+{0} 闪避值",
-        "en": "\\+{0} to Evasion Rating while you have Phasing"
+        "zh": "你在【迷踪】状态下 +{0} 闪避值",
+        "en": "+{0} to Evasion Rating while you have Phasing"
     },
     {
         "id": "stat_3169671355",
@@ -37026,8 +37026,8 @@
     },
     {
         "id": "stat_3269147016",
-        "zh": "每有 12 点怒火，钩链攻击范围 \\+{0}",
-        "en": "Chain Hook has \\+{0} Radius per 12 Rage"
+        "zh": "每有 12 点怒火，钩链攻击范围 +{0}",
+        "en": "Chain Hook has +{0} Radius per 12 Rage"
     },
     {
         "id": "stat_1960580674",
