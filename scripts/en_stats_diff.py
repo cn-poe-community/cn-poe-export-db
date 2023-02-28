@@ -48,8 +48,8 @@ def check_diff_entries(old_entries, new_entries):
 
 
 if __name__ == "__main__":
-    old_file = "../docs/trade/3.20/zh_stats.json"
-    new_file = "../docs/trade/3.20/zh_stats_20230215.json"
+    old_file = "../docs/trade/3.20/en_stats_20230215.json"
+    new_file = "../docs/trade/3.20/en_stats_20230228.json"
 
     old_data = load_json(old_file)
     new_data = load_json(new_file)
