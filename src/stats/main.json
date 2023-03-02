@@ -39268,5 +39268,10 @@
         "id": "stat_1462364052",
         "zh": "在生命不满时使用可以缓速周围敌人，使它们的移动速度减慢 {0}%",
         "en": "Hinders nearby Enemies with {0}% reduced Movement Speed if used while not on Full Life"
+    },
+    {
+        "id": "stat_2323739383",
+        "zh": "召唤生物有 {0}% 的几率用法术击中时使敌人缓速",
+        "en": "Minions have {0}% chance to Hinder Enemies on Hit with Spells"
     }
 ]
