@@ -1,12 +1,8 @@
 import json
 
-zh_file = "../docs/trade/3.20/zh_stats_20230215.json"
-en_file = "../docs/trade/3.20/en_stats_20230215.json"
+zh_file = "../docs/trade/3.20/zh_stats_20230228.json"
+en_file = "../docs/trade/3.20/en_stats_20230228.json"
 stat_file = "../src/stats/main.json"
-
-
-def filter_stat(stat: str):
-    return "#% 几率避免被" in stat
 
 
 def filter_label(label: str):
@@ -15,9 +11,13 @@ def filter_label(label: str):
 
 
 def format_stat(stat: str):
-    stat = stat.replace("#", "(\\S+)")
-    stat = stat.replace("(区域)", "")
-    return "^{}$".format(stat)
+    for i in range(100):
+        stat = stat.replace("#", f"{{{i}}}", 1)
+        if "#" not in stat:
+            break
+    stat = stat.replace(" (区域)", "")
+    stat = stat.replace(" (Local)", "")
+    return stat
 
 
 def load_json(file):
@@ -33,7 +33,7 @@ def entries_index_by_id(data):
 
     for part in result:
         label = part["label"]
-        if(filter_label(label)):
+        if (filter_label(label)):
             entries = part["entries"]
             for entry in entries:
                 full_id: str = entry["id"]
@@ -56,34 +56,6 @@ def stats_index_by_id(data):
 
 def is_ascii(s):
     return all(ord(c) < 128 for c in s)
-
-
-def append():
-    zh_data = load_json(zh_file)
-    en_data = load_json(en_file)
-    stat_data = load_json(stat_file)
-
-    zh_indexes = entries_index_by_id(zh_data)
-    en_indexes = entries_index_by_id(en_data)
-    stat_indexes = stats_index_by_id(stat_data)
-
-    new_stats: list = stat_data
-    for id, zh_entry in zh_indexes.items():
-        zh_stat = zh_entry["text"]
-        if filter_stat(zh_stat):
-            print("found matched stat: ", id, zh_stat)
-            if id not in stat_indexes:
-                en_stat = ""
-                if id in en_indexes:
-                    en_stat = en_indexes[id]["text"]
-
-                print("append:", id, format_stat(
-                    zh_stat), format_stat(en_stat))
-                new_stats.append({"id": id, "zh": format_stat(
-                    zh_stat), "en": format_stat(en_stat)})
-
-    with open(f'{stat_file}.new.json', 'wt', encoding="utf-8") as f:
-        f.write(json.dumps(new_stats, ensure_ascii=False))
 
 
 def append_by_id(ids: list[str]):
@@ -148,6 +120,7 @@ def append_by_prefix(prefix: str):
     with open(f'{stat_file}.new.json', 'wt', encoding="utf-8") as f:
         f.write(json.dumps(new_stats, ensure_ascii=False, indent=4))
 
+
 def append_by_sub_string(sub_string: str):
     zh_data = load_json(zh_file)
     en_data = load_json(en_file)
@@ -178,6 +151,8 @@ def append_by_sub_string(sub_string: str):
     with open(f'{stat_file}.new.json', 'wt', encoding="utf-8") as f:
         f.write(json.dumps(new_stats, ensure_ascii=False, indent=4))
 
+
 if __name__ == "__main__":
-    ids = ['stat_2423544033', "stat_663080464", "stat_1413930902", "stat_339131601", "stat_1004468512"]
+    ids = ["stat_1462364052", "indexable_support_142", "indexable_support_143",
+           "indexable_support_144", "indexable_support_145", "indexable_support_146"]
     append_by_id(ids)
