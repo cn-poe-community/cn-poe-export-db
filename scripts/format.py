@@ -24,17 +24,29 @@ def format(template: str):
 
 
 if __name__ == "__main__":
-    files = ["../src/stats/main.json", "../src/stats/append.json"]
+    files = ["../src/accessories.json", "../src/armour.json",
+             "../src/flasks.json", "../src/jewels.json", "../src/weapons.json"]
 
     for file in files:
         with open(file, 'rt', encoding="utf-8") as f:
             data = json.loads(f.read())
 
-            statlist = []
+            list = []
 
-            for stat in data:
-                stat["zh"] = format(stat["zh"])
-                stat["en"] = format(stat["en"])
+            for key in data:
+                basetype = {}
+                value = data[key]
+                en = value["text"]["0"]
+                zh = value["text"]["1"]
+                uniques: dict = value["uniques"]
+                unique_list = []
+                if len(uniques) > 0:
+                    for u_key in uniques:
+                        u_value = uniques[u_key]
+                        u_en = u_value["text"]["0"]
+                        u_zh = u_value["text"]["1"]
+                        unique_list.append({"zh": u_zh, "en": u_en})
+                list.append({"zh": zh, "en": en, "uniques": unique_list})
 
             with open(f'{file}.new.json', 'wt', encoding="utf-8") as f:
-                f.write(json.dumps(data, ensure_ascii=False, indent=4))
+                f.write(json.dumps(list, ensure_ascii=False, indent=4))
