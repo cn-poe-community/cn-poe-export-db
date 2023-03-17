@@ -8836,7 +8836,7 @@
     },
     {
         "id": "stat_655871604",
-        "zh": "周围敌人击中造成的伤害特别幸运",
+        "zh": "周围友军击中造成的伤害特别幸运",
         "en": "Nearby Allies' Damage with Hits is Lucky"
     },
     {
@@ -34661,12 +34661,12 @@
     },
     {
         "id": "stat_3524326896",
-        "zh": "霜寒爆的冷却回复率提高 {0}%",
+        "zh": "寒霜爆的冷却回复率提高 #%",
         "en": "Frost Bomb has {0}% increased Cooldown Recovery Rate"
     },
     {
         "id": "stat_3524326896",
-        "zh": "霜寒爆的冷却回复率降低 {0}%",
+        "zh": "寒霜爆的冷却回复率降低 {0}%",
         "en": "Frost Bomb has {0}% reduced Cooldown Recovery Rate"
     },
     {
@@ -34986,12 +34986,12 @@
     },
     {
         "id": "stat_1451372148",
-        "zh": "霜寒爆的效果区域扩大 {0}%",
+        "zh": "寒霜爆的效果区域扩大 {0}%",
         "en": "{0}% increased Frost Bomb Area of Effect"
     },
     {
         "id": "stat_1451372148",
-        "zh": "霜寒爆的效果区域缩小 {0}%",
+        "zh": "寒霜爆的效果区域缩小 {0}%",
         "en": "{0}% reduced Frost Bomb Area of Effect"
     },
     {
