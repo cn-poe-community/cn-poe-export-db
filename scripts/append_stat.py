@@ -1,7 +1,7 @@
 import json
 
-zh_file = "../docs/trade/3.20/zh_stats_20230228.json"
-en_file = "../docs/trade/3.20/en_stats_20230228.json"
+zh_file = "../docs/trade/3.20/zh_stats_20230317.json"
+en_file = "../docs/trade/3.20/en_stats_20230317.json"
 stat_file = "../src/stats/main.json"
 
 
@@ -153,6 +153,6 @@ def append_by_sub_string(sub_string: str):
 
 
 if __name__ == "__main__":
-    ids = ["stat_1462364052", "indexable_support_142", "indexable_support_143",
-           "indexable_support_144", "indexable_support_145", "indexable_support_146"]
+    ids = ["stat_2148556029", "stat_3224664127", "stat_4184565463",
+           "stat_2364563825", "stat_1048825825", "stat_648647905"]
     append_by_id(ids)

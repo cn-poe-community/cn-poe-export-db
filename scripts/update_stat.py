@@ -228,7 +228,7 @@ def update_zh_en_by_id_prefix(prefix:str):
 
 
 if __name__ == "__main__":
-    #ids = ["stat_430890565", "stat_3152806535",
-    #       "stat_2781179464", "stat_2979443822", "stat_1040958896"]
-    #update_zh_and_en(ids)
-    update_zh_en_by_id_prefix("indexable_support")
+    ids = ["stat_430890565", "stat_3818053347", "stat_658622139"
+           "stat_3563089138", "stat_3563089138", "stat_491551762"]
+    update_zh_and_en(ids)
+    #update_zh_en_by_id_prefix("indexable_support")
