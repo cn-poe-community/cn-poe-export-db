@@ -48,11 +48,11 @@ def check_diff_entries(old_entries, new_entries):
 
 
 if __name__ == "__main__":
-    old_zh_file = "../docs/trade/3.20/zh_stats_20230228.json"
-    old_en_file = "../docs/trade/3.20/en_stats_20230228.json"
+    old_zh_file = "../docs/trade/3.20/zh_stats_20230317.json"
+    old_en_file = "../docs/trade/3.20/en_stats_20230317.json"
 
-    new_zh_file = "../docs/trade/3.20/zh_stats_20230317.json"
-    new_en_file = "../docs/trade/3.20/en_stats_20230317.json"
+    new_zh_file = "../docs/trade/3.20/zh_stats_20230321.json"
+    new_en_file = "../docs/trade/3.20/en_stats_20230321.json"
 
     old_zh_data = load_json(old_zh_file)
     old_en_data = load_json(old_en_file)

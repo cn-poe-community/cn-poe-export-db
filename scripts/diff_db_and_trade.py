@@ -1,7 +1,7 @@
 import json
 
-zh_file = "../docs/trade/3.20/zh_stats_20230317.json"
-en_file = "../docs/trade/3.20/en_stats_20230317.json"
+zh_file = "../docs/trade/3.20/zh_stats_20230321.json"
+en_file = "../docs/trade/3.20/en_stats_20230321.json"
 stat_file = "../src/stats/main.json"
 
 
