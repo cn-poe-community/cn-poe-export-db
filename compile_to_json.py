@@ -54,7 +54,7 @@ def compileStat():
 
 
 src = "src"
-dist = "dist"
+dist = "dist/json"
 stats_folder_name = "stats"
 
 
