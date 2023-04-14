@@ -1,7 +1,7 @@
 import json
 
-tree_file = "../docs/tree/3.20/tree.json"
-zh_tree_file = "../docs/tree/3.20/zh_tree.json"
+tree_file = "../docs/tree/3.21/tree.json"
+zh_tree_file = "../docs/tree/3.21/zh_tree.json"
 
 
 def get_nodes(file):
@@ -51,7 +51,7 @@ def init_notable_nodes():
             continue
         nodes_dict[id]['stats'] = {"1": "\\n".join(value["stats"])}
 
-    with open('../dist/passiveskills/notables.json', 'wt', encoding="utf-8") as f:
+    with open('../src/passiveskills/notables.json', 'wt', encoding="utf-8") as f:
         f.write(json.dumps(nodes_dict, ensure_ascii=False))
 
 def init_keystone_nodes():
@@ -80,7 +80,7 @@ def init_keystone_nodes():
 
         nodes_dict[id]['name']['1'] = name
 
-    with open('../dist/passiveskills/keystones.json', 'wt', encoding="utf-8") as f:
+    with open('../src/passiveskills/keystones.json', 'wt', encoding="utf-8") as f:
         f.write(json.dumps(nodes_dict, ensure_ascii=False))
 
 def init_ascendant_nodes():
@@ -108,7 +108,7 @@ def init_ascendant_nodes():
         name = value['name']
         nodes_dict[id]['name']['1'] = name
 
-    with open('../dist/passiveskills/ascendant.json', 'wt', encoding="utf-8") as f:
+    with open('../src/passiveskills/ascendant.json', 'wt', encoding="utf-8") as f:
         f.write(json.dumps(nodes_dict, ensure_ascii=False))
 
 if __name__ == "__main__":
