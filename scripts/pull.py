@@ -175,6 +175,9 @@ if __name__ == "__main__":
 
     if command == "add":
         db.extend(new_stats)
+    if command == "del":
+        db = [stat for stat in db if stat["id"] not in removed_ids]
+        
     
     with open(f'{db_path}.new.json', 'wt', encoding="utf-8") as f:
         f.write(json.dumps(db, ensure_ascii=False,indent=4))
