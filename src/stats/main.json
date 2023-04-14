@@ -1946,7 +1946,7 @@
     },
     {
         "id": "stat_1826802197",
-        "zh": "击败敌人有 {0}% 的几率获得狂怒球",
+        "zh": "击败敌人时有 {0}% 的几率获得一个狂怒球",
         "en": "{0}% chance to gain a Frenzy Charge on Kill"
     },
     {
@@ -2126,7 +2126,7 @@
     },
     {
         "id": "stat_2483795307",
-        "zh": "击败敌人有 {0}% 的几率获得暴击球",
+        "zh": "击败敌人时有 {0}% 的几率获得一个暴击球",
         "en": "{0}% chance to gain a Power Charge on Kill"
     },
     {
@@ -2681,7 +2681,7 @@
     },
     {
         "id": "stat_3771516363",
-        "zh": "{0}% 额外物理伤害减伤",
+        "zh": "{0}% 额外物理伤害减免",
         "en": "{0}% additional Physical Damage Reduction"
     },
     {
@@ -3306,7 +3306,7 @@
     },
     {
         "id": "stat_2899095498",
-        "zh": "周围的敌人会被恐吓",
+        "zh": "周围的敌人会被威吓",
         "en": "Nearby Enemies are Intimidated"
     },
     {
@@ -4331,7 +4331,7 @@
     },
     {
         "id": "stat_498214257",
-        "zh": "击败敌人时有 {0}% 的几率获得 1 个随机能量球",
+        "zh": "击败敌人时有 {0}% 的几率获得一个暴击球、狂怒球或耐力球",
         "en": "{0}% chance to gain a Power, Frenzy or Endurance Charge on Kill"
     },
     {
@@ -5671,7 +5671,7 @@
     },
     {
         "id": "stat_642457541",
-        "zh": "当插槽内有 1 个【凶残之凝】珠宝时，攻击击中敌人会恐吓它们 4 秒",
+        "zh": "当插槽内有 1 个【凶残之凝】珠宝时，攻击击中敌人会威吓它们 4 秒",
         "en": "With a Murderous Eye Jewel Socketed, Intimidate Enemies for 4 seconds on Hit with Attacks"
     },
     {
@@ -6216,7 +6216,7 @@
     },
     {
         "id": "stat_798767971",
-        "zh": "你的最大抗性为 {0}%",
+        "zh": "你的抗性上限为 {0}%",
         "en": "Your Maximum Resistances are {0}%"
     },
     {
@@ -6601,7 +6601,7 @@
     },
     {
         "id": "stat_634031003",
-        "zh": "你技能给予召唤生物的非诅咒光环效果提高 {0}%",
+        "zh": "你技能中的非诅咒光环对你的召唤生物的效果提高 {0}%",
         "en": "{0}% increased effect of Non-Curse Auras from your Skills on your Minions"
     },
     {
@@ -6651,7 +6651,7 @@
     },
     {
         "id": "stat_3560157887",
-        "zh": "护身本身并不能降低你承受的伤害",
+        "zh": "护体本身并不能降低你承受的伤害",
         "en": "You do not inherently take less Damage for having Fortification"
     },
     {
@@ -6981,8 +6981,8 @@
     },
     {
         "id": "stat_3162258068",
-        "zh": "无法格挡攻击",
-        "en": "Cannot Block Attacks"
+        "zh": "无法格挡攻击伤害",
+        "en": "Cannot Block Attack Damage"
     },
     {
         "id": "stat_2996445420",
@@ -7136,7 +7136,7 @@
     },
     {
         "id": "stat_3853996752",
-        "zh": "当你使用技能时，能量护盾有 {0}% 的几率开始回复",
+        "zh": "当你使用技能时，能量护盾有 {0}% 的几率开始充能",
         "en": "{0}% chance for Energy Shield Recharge to start when you use a Skill"
     },
     {
@@ -7542,7 +7542,7 @@
     {
         "id": "stat_3416410609",
         "zh": "{0}% 对投射物伤害格挡几率",
-        "en": "{0}% Chance to Block Projectile Attack Damage"
+        "en": "{0}% chance to Block Projectile Attack Damage"
     },
     {
         "id": "stat_3194864913",
@@ -8446,12 +8446,12 @@
     },
     {
         "id": "stat_3602667353",
-        "zh": "击中时有 {0}% 的几率施加畏火",
+        "zh": "击中时有 {0}% 的几率施加火焰曝露",
         "en": "{0}% chance to inflict Fire Exposure on Hit"
     },
     {
         "id": "stat_3602667353",
-        "zh": "击中时施加畏火",
+        "zh": "击中时施加火焰曝露",
         "en": "Inflict Fire Exposure on Hit"
     },
     {
@@ -8762,7 +8762,7 @@
     {
         "id": "stat_2749166636",
         "zh": "近距离用弓击中后的伤害总增 {0}%",
-        "en": "{0}% More Damage with Arrow Hits at Close Range"
+        "en": "{0}% more Damage with Arrow Hits at Close Range"
     },
     {
         "id": "stat_3413085237",
@@ -9286,7 +9286,7 @@
     },
     {
         "id": "stat_3635566977",
-        "zh": "当不拥有耐力球时，所有属性的最大抗性上限 {0}%",
+        "zh": "当不拥有耐力球时，所有属性的抗性上限 {0}%",
         "en": "{0}% to all maximum Resistances while you have no Endurance Charges"
     },
     {
@@ -11356,13 +11356,13 @@
     },
     {
         "id": "stat_1916706958",
-        "zh": "施放时有 {0}% 几率避免眩晕打断",
-        "en": "{0}% chance to Avoid interruption from Stuns while Casting"
+        "zh": "施法时有 {0}% 的几率无视眩晕",
+        "en": "{0}% chance to Ignore Stuns while Casting"
     },
     {
         "id": "stat_1916706958",
-        "zh": "施放时避免眩晕打断",
-        "en": "Avoid interruption from Stuns while Casting"
+        "zh": "施法时无视眩晕",
+        "en": "Ignore Stuns while Casting"
     },
     {
         "id": "stat_3587013273",
@@ -11546,12 +11546,12 @@
     },
     {
         "id": "stat_1473444150",
-        "zh": "达到护身上限时攻击和施法速度加快 {0}%",
+        "zh": "达到护体上限时攻击和施法速度加快 {0}%",
         "en": "{0}% increased Attack and Cast Speed while at maximum Fortification"
     },
     {
         "id": "stat_1473444150",
-        "zh": "达到护身上限时攻击和施法速度减慢 {0}%",
+        "zh": "达到护体上限时攻击和施法速度减慢 {0}%",
         "en": "{0}% reduced Attack and Cast Speed while at maximum Fortification"
     },
     {
@@ -11806,8 +11806,8 @@
     },
     {
         "id": "stat_4076910393",
-        "zh": "无法格挡法术",
-        "en": "Cannot Block Spells"
+        "zh": "无法格挡法术伤害",
+        "en": "Cannot Block Spell Damage"
     },
     {
         "id": "stat_2783012144",
@@ -11871,8 +11871,8 @@
     },
     {
         "id": "stat_1195319608",
-        "zh": "身体护甲提供的能量护盾提高 {0}%",
-        "en": "{0}% increased Energy Shield from Body Armour"
+        "zh": "装备身体护甲的能量护盾提高 {0}%",
+        "en": "{0}% increased Energy Shield from Equipped Body Armour"
     },
     {
         "id": "stat_2008255263",
@@ -12301,8 +12301,8 @@
     },
     {
         "id": "stat_550848224",
-        "zh": "血姿态下获得 {0} 每秒生命回复",
-        "en": "{0} Life Regenerated per Second while in Blood Stance"
+        "zh": "血姿态下每秒恢复 {0} 点生命",
+        "en": "Regenerate {0} Life per Second while in Blood Stance"
     },
     {
         "id": "stat_2208857094",
@@ -12527,7 +12527,7 @@
     {
         "id": "stat_249545292",
         "zh": "暴击并不天然套用非伤害型异常状态",
-        "en": "Critical Strikes do not inherently apply non-Damaging Ailments"
+        "en": "Critical Strikes do not inherently inflict non-Damaging Ailments"
     },
     {
         "id": "stat_3860179422",
@@ -12916,7 +12916,7 @@
     },
     {
         "id": "stat_100088509",
-        "zh": "若范围内至少有 40 点敏捷，\n【双持打击】持握斧类时击中恐吓敌人 4 秒",
+        "zh": "若范围内至少有 40 点敏捷，\n【双持打击】持握斧类时击中威吓敌人 4 秒",
         "en": "With at least 40 Dexterity in Radius, Dual Strike Hits Intimidate Enemies for\n4 seconds while wielding an Axe"
     },
     {
@@ -13856,8 +13856,8 @@
     },
     {
         "id": "stat_3237923082",
-        "zh": "此物品上的技能石受到 {0} 级的 猛攻 辅助",
-        "en": "Socketed Gems are Supported by Level {0} Onslaught"
+        "zh": "插槽中的宝石受 {0} 级动量辅助",
+        "en": "Socketed Gems are Supported by Level {0} Momentum"
     },
     {
         "id": "stat_2314393054",
@@ -15796,13 +15796,13 @@
     },
     {
         "id": "stat_1661253443",
-        "zh": "打击技能可以额外设置 {0} 个周围的敌人为目标",
-        "en": "Strike Skills target {0} additional nearby Enemy"
+        "zh": "非瓦尔打击技能以周围额外 1 名敌人为目标",
+        "en": "Non-Vaal Strike Skills target 1 additional nearby Enemy"
     },
     {
         "id": "stat_1661253443",
-        "zh": "打击技能可以额外设置 {0} 个周围的敌人为目标",
-        "en": "Strike Skills target {0} additional nearby Enemies"
+        "zh": "非瓦尔打击技能以周围额外 {0} 名敌人为目标",
+        "en": "Non-Vaal Strike Skills target {0} additional nearby Enemies"
     },
     {
         "id": "stat_2803981661",
@@ -17121,12 +17121,12 @@
     },
     {
         "id": "stat_3853465279",
-        "zh": "恐怖之旗的护身持续时间提高 {0}%",
+        "zh": "恐怖之旗的护体持续时间提高 {0}%",
         "en": "Dread Banner has {0}% increased Fortification duration"
     },
     {
         "id": "stat_3853465279",
-        "zh": "恐怖之旗的护身持续时间降低 {0}%",
+        "zh": "恐怖之旗的护体持续时间降低 {0}%",
         "en": "Dread Banner has {0}% reduced Fortification duration"
     },
     {
@@ -18256,12 +18256,12 @@
     },
     {
         "id": "stat_1919892065",
-        "zh": "对抗被你恐吓的敌人时，它们的眩晕持续时间延长 {0}%",
+        "zh": "对抗被你威吓的敌人时，它们的眩晕持续时间延长 {0}%",
         "en": "Enemies Intimidated by you have {0}% increased duration of stuns against them"
     },
     {
         "id": "stat_1919892065",
-        "zh": "对抗被你恐吓的敌人时，它们的眩晕持续时间降低缩短 {0}%",
+        "zh": "对抗被你威吓的敌人时，它们的眩晕持续时间降低缩短 {0}%",
         "en": "Enemies Intimidated by you have {0}% reduced duration of stuns against them"
     },
     {
@@ -19871,7 +19871,7 @@
     },
     {
         "id": "stat_762154651",
-        "zh": "当你格挡时，能量护盾有 {0}% 的几率开始回复",
+        "zh": "当你格挡时，能量护盾有 {0}% 的几率开始充能",
         "en": "{0}% chance for Energy Shield Recharge to start when you Block"
     },
     {
@@ -19901,7 +19901,7 @@
     },
     {
         "id": "stat_2611224062",
-        "zh": "护身上限在受疯狂荣光影响时 {0}",
+        "zh": "护体上限在受疯狂荣光影响时 {0}",
         "en": "{0} to maximum Fortification while affected by Glorious Madness"
     },
     {
@@ -20101,7 +20101,7 @@
     },
     {
         "id": "stat_2567751411",
-        "zh": "战吼技能的效果区域扩大 {0}%",
+        "zh": "战吼技能的效果范围提高 {0}%",
         "en": "Warcry Skills have {0}% increased Area of Effect"
     },
     {
@@ -20381,7 +20381,7 @@
     },
     {
         "id": "stat_244825991",
-        "zh": "周围友军的护身 {0}",
+        "zh": "周围友军的护体 {0}",
         "en": "Nearby Allies have {0} Fortification"
     },
     {
@@ -20726,7 +20726,7 @@
     },
     {
         "id": "stat_2930706364",
-        "zh": "格挡时永久恐吓敌人",
+        "zh": "格挡时永久威吓敌人",
         "en": "Permanently Intimidate Enemies on Block"
     },
     {
@@ -22041,7 +22041,7 @@
     },
     {
         "id": "stat_922014346",
-        "zh": "护身上限在专注时 {0}",
+        "zh": "护体上限在专注时 {0}",
         "en": "{0} to maximum Fortification while Focused"
     },
     {
@@ -22956,7 +22956,7 @@
     },
     {
         "id": "stat_3964074505",
-        "zh": "召唤劲弩击中时有 {0}% 的几率在 4 秒内造成恐吓效果",
+        "zh": "召唤劲弩击中时有 {0}% 的几率在 4 秒内造成威吓效果",
         "en": "Summoned Arbalists have {0}% chance to Intimidate for 4 seconds on Hit"
     },
     {
@@ -23031,7 +23031,7 @@
     },
     {
         "id": "stat_223656429",
-        "zh": "召唤劲弩击中时有 {0}% 的几率施加畏电",
+        "zh": "召唤劲弩击中时有 {0}% 的几率施加闪电曝露",
         "en": "Summoned Arbalists have {0}% chance to inflict Lightning Exposure on Hit"
     },
     {
@@ -23051,7 +23051,7 @@
     },
     {
         "id": "stat_157070900",
-        "zh": "召唤劲弩击中时有 {0}% 的几率施加畏寒",
+        "zh": "召唤劲弩击中时有 {0}% 的几率施加冰霜曝露",
         "en": "Summoned Arbalists have {0}% chance to inflict Cold Exposure on Hit"
     },
     {
@@ -23126,8 +23126,8 @@
     },
     {
         "id": "stat_470688636",
-        "zh": "装备时可以施放 20 级的【幽鬼之灵】",
-        "en": "Triggers Level 20 Spectral Spirits when Equipped"
+        "zh": "装备时触发等级20幽鬼之灵，\n幽鬼之灵的数量上限 {0}",
+        "en": "Triggers Level 20 Spectral Spirits when Equipped\n{0} to maximum number of Spectral Spirits"
     },
     {
         "id": "stat_2748763342",
@@ -23151,7 +23151,7 @@
     },
     {
         "id": "stat_3327243369",
-        "zh": "召唤劲弩击中时有 {0}% 的几率施加畏火",
+        "zh": "召唤劲弩击中时有 {0}% 的几率施加火焰曝露",
         "en": "Summoned Arbalists have {0}% chance to inflict Fire Exposure on Hit"
     },
     {
@@ -23521,13 +23521,13 @@
     },
     {
         "id": "stat_1439818705",
-        "zh": "有 {0}% 的几率在使用插入的攻击技能时避免被眩晕打断",
-        "en": "{0}% chance to avoid Interruption from Stuns while using Socketed Attack Skills"
+        "zh": "使用镶嵌的攻击技能时有 {0}% 的几率无视眩晕",
+        "en": "{0}% chance to Ignore Stuns while using Socketed Attack Skills"
     },
     {
         "id": "stat_1439818705",
-        "zh": "使用插入的攻击技能时避免被眩晕打断",
-        "en": "Avoid Interruption from Stuns while using Socketed Attack Skills"
+        "zh": "使用镶嵌的攻击技能时无视眩晕",
+        "en": "Ignore Stuns while using Socketed Attack Skills"
     },
     {
         "id": "stat_708630863",
@@ -24546,8 +24546,8 @@
     },
     {
         "id": "indexable_support_37",
-        "zh": "插入的技能石被 {0} 级的【猛攻】辅助",
-        "en": "Socketed Gems are Supported by Level {0} Onslaught"
+        "zh": "插入的技能石被 {0} 级的【动量】辅助",
+        "en": "Socketed Gems are Supported by Level {0} Momentum"
     },
     {
         "id": "indexable_support_121",
@@ -24692,7 +24692,7 @@
     {
         "id": "stat_591645420",
         "zh": "插入的辅助宝石也能辅助你身体护甲上的技能",
-        "en": "Socketed Support Gems can also Support Skills from your Body Armour"
+        "en": "Socketed Support Gems can also Support Skills from Equipped Body Armour"
     },
     {
         "id": "indexable_support_50",
@@ -25616,7 +25616,7 @@
     },
     {
         "id": "stat_3536082205",
-        "zh": "右戒指栏位：你冻结敌人时在接下来 {0} 秒使其被冰霜附体",
+        "zh": "右戒指栏位：你冻结敌人时在接下来 {0} 秒使其被冰霜缠身",
         "en": "Right Ring slot: Cover Enemies in Frost for {0} seconds when you Freeze them"
     },
     {
@@ -27291,7 +27291,7 @@
     },
     {
         "id": "stat_2876365933",
-        "zh": "有一个传奇怪物出现在你面前：击中时施加畏电，适配 {0}% 的闪电抗性",
+        "zh": "有一个传奇怪物出现在你面前：击中时施加闪电曝露，适配 {0}% 的闪电抗性",
         "en": "While a Unique Enemy is in your Presence, Inflict Lightning Exposure on Hit, applying {0}% to Lightning Resistance"
     },
     {
@@ -27786,7 +27786,7 @@
     },
     {
         "id": "stat_3004272949",
-        "zh": "有一个异界图鉴最终首领出现在你面前：击中有 {0}% 的几率恐吓敌人 4 秒",
+        "zh": "有一个异界图鉴最终首领出现在你面前：击中有 {0}% 的几率威吓敌人 4 秒",
         "en": "While a Pinnacle Atlas Boss is in your Presence, {0}% chance to Intimidate Enemies for 4 seconds on Hit"
     },
     {
@@ -27976,7 +27976,7 @@
     },
     {
         "id": "stat_144453866",
-        "zh": "有一个传奇怪物出现在你面前：击中有 {0}% 的几率恐吓敌人 4 秒",
+        "zh": "有一个传奇怪物出现在你面前：击中有 {0}% 的几率威吓敌人 4 秒",
         "en": "While a Unique Enemy is in your Presence, {0}% chance to Intimidate Enemies for 4 seconds on Hit"
     },
     {
@@ -27991,7 +27991,7 @@
     },
     {
         "id": "stat_1699220089",
-        "zh": "有一个传奇怪物出现在你面前：击中时施加畏寒，适配 {0}% 的冰霜抗性",
+        "zh": "有一个传奇怪物出现在你面前：击中时施加冰霜曝露，适配 {0}% 的冰霜抗性",
         "en": "While a Unique Enemy is in your Presence, Inflict Cold Exposure on Hit, applying {0}% to Cold Resistance"
     },
     {
@@ -28131,7 +28131,7 @@
     },
     {
         "id": "stat_1629531681",
-        "zh": "有一个异界图鉴最终首领出现在你面前：击中时施加畏火，适配 {0}% 的火焰抗性",
+        "zh": "有一个异界图鉴最终首领出现在你面前：击中时施加火焰曝露，适配 {0}% 的火焰抗性",
         "en": "While a Pinnacle Atlas Boss is in your Presence, Inflict Fire Exposure on Hit, applying {0}% to Fire Resistance"
     },
     {
@@ -28141,8 +28141,8 @@
     },
     {
         "id": "stat_1884100040",
-        "zh": "有一个异界图鉴最终首领出现在你面前：打击技能可以额外设置 {0} 个周围的敌人为目标",
-        "en": "While a Pinnacle Atlas Boss is in your Presence, Strike Skills target {0} additional nearby Enemy"
+        "zh": "有一个异界图鉴最终首领出现在你面前：非瓦尔打击技能以周围额外 {0} 名敌人为目标",
+        "en": "While a Pinnacle Atlas Boss is in your Presence, Non-Vaal Strike Skills target {0} additional nearby Enemy"
     },
     {
         "id": "stat_1855179125",
@@ -28506,7 +28506,7 @@
     },
     {
         "id": "stat_732411542",
-        "zh": "有一个传奇怪物出现在你面前：击中时施加畏火，适配 {0}% 的火焰抗性",
+        "zh": "有一个传奇怪物出现在你面前：击中时施加火焰曝露，适配 {0}% 的火焰抗性",
         "en": "While a Unique Enemy is in your Presence, Inflict Fire Exposure on Hit, applying {0}% to Fire Resistance"
     },
     {
@@ -28526,7 +28526,7 @@
     },
     {
         "id": "stat_1762412317",
-        "zh": "有一个异界图鉴最终首领出现在你面前：击中时施加畏电，适配 {0}% 的闪电抗性",
+        "zh": "有一个异界图鉴最终首领出现在你面前：击中时施加闪电曝露，适配 {0}% 的闪电抗性",
         "en": "While a Pinnacle Atlas Boss is in your Presence, Inflict Lightning Exposure on Hit, applying {0}% to Lightning Resistance"
     },
     {
@@ -28636,8 +28636,8 @@
     },
     {
         "id": "stat_1524679549",
-        "zh": "有一个传奇怪物出现在你面前：打击技能可以额外设置 {0} 个周围的敌人为目标",
-        "en": "While a Unique Enemy is in your Presence, Strike Skills target {0} additional nearby Enemy"
+        "zh": "有一个传奇怪物出现在你面前：非瓦尔打击技能以周围额外 {0} 名敌人为目标",
+        "en": "While a Unique Enemy is in your Presence, Non-Vaal Strike Skills target {0} additional nearby Enemy"
     },
     {
         "id": "stat_575726461",
@@ -29266,7 +29266,7 @@
     },
     {
         "id": "stat_3658662726",
-        "zh": "有一个异界图鉴最终首领出现在你面前：击中时施加畏寒，适配 {0}% 的冰霜抗性",
+        "zh": "有一个异界图鉴最终首领出现在你面前：击中时施加冰霜曝露，适配 {0}% 的冰霜抗性",
         "en": "While a Pinnacle Atlas Boss is in your Presence, Inflict Cold Exposure on Hit, applying {0}% to Cold Resistance"
     },
     {
@@ -30051,8 +30051,8 @@
     },
     {
         "id": "stat_1498186316",
-        "zh": "外延施法词缀增幅提高 {0}%",
-        "en": "{0}% increased Explicit Caster Modifier magnitudes"
+        "zh": "外延施法伤害词缀增幅提高 {0}%",
+        "en": "{0}% increased Explicit Caster Damage Modifier magnitudes"
     },
     {
         "id": "stat_2247138020",
@@ -35261,8 +35261,8 @@
     },
     {
         "id": "stat_1803063132",
-        "zh": "回春图腾 {0}% 的生命回复会作为魔力回复",
-        "en": "Gain {0}% of Rejuvenation Totem Life Regeneration as extra Mana Regeneration"
+        "zh": "回春图腾还会提供相当于其生命回复 {0}% 的魔力回复 ",
+        "en": "Rejuvenation Totem also grants Mana Regeneration equal to {0}% of its Life Regeneration"
     },
     {
         "id": "stat_4259029320",
@@ -35776,12 +35776,12 @@
     },
     {
         "id": "stat_2275055843",
-        "zh": "戒备打击的护身持续时间延长 {0}%",
+        "zh": "戒备打击的护体持续时间延长 {0}%",
         "en": "Vigilant Strike has {0}% increased Fortification Duration"
     },
     {
         "id": "stat_2275055843",
-        "zh": "戒备打击的护身持续时间缩短 {0}%",
+        "zh": "戒备打击的护体持续时间缩短 {0}%",
         "en": "Vigilant Strike has {0}% reduced Fortification Duration"
     },
     {
@@ -36066,13 +36066,13 @@
     },
     {
         "id": "stat_1778800422",
-        "zh": "赦罪持续时间延长 {0}%",
-        "en": "{0}% increased Absolution Duration"
+        "zh": "赦罪哨卫的持续时间延长 {0}%",
+        "en": "{0}% increased Sentinel of Absolution Duration"
     },
     {
         "id": "stat_1778800422",
-        "zh": "赦罪持续时间缩短 {0}%",
-        "en": "{0}% reduced Absolution Duration"
+        "zh": "赦罪哨卫的持续时间缩短 {0}%",
+        "en": "{0}% reduced Sentinel of Absolution Duration"
     },
     {
         "id": "stat_4166695945",
@@ -37561,8 +37561,8 @@
     },
     {
         "id": "stat_884220218",
-        "zh": "施放【裂风雷球】时有 {0}% 的几率避免被晕眩打断",
-        "en": "{0}% chance to Avoid interruption from Stuns while Casting Storm Burst"
+        "zh": "施放裂风雷球时有 {0}% 的几率无视眩晕",
+        "en": "{0}% chance to Ignore Stuns while Casting Storm Burst"
     },
     {
         "id": "stat_2911217910",
@@ -38271,22 +38271,22 @@
     },
     {
         "id": "stat_78985352",
-        "zh": "击中有 {0}% 的几率恐吓敌人 4 秒",
+        "zh": "击中有 {0}% 的几率威吓敌人 4 秒",
         "en": "{0}% chance to Intimidate Enemies for 4 seconds on Hit"
     },
     {
         "id": "stat_1309840354",
-        "zh": "击中时施加畏火，适配 {0}% 的火焰抗性",
+        "zh": "击中时施加火焰曝露，适配 {0}% 的火焰抗性",
         "en": "Inflict Fire Exposure on Hit, applying {0}% to Fire Resistance"
     },
     {
         "id": "stat_3005701891",
-        "zh": "击中时施加畏寒，适配 {0}% 的冰霜抗性",
+        "zh": "击中时施加冰霜曝露，适配 {0}% 的冰霜抗性",
         "en": "Inflict Cold Exposure on Hit, applying {0}% to Cold Resistance"
     },
     {
         "id": "stat_981753179",
-        "zh": "击中时施加畏电，适配 {0}% 的闪电抗性",
+        "zh": "击中时施加闪电曝露，适配 {0}% 的闪电抗性",
         "en": "Inflict Lightning Exposure on Hit, applying {0}% to Lightning Resistance"
     },
     {
@@ -38436,7 +38436,7 @@
     },
     {
         "id": "stat_91505809",
-        "zh": "如果你在过去 10 秒内施放过惩戒，则在命中时恐吓敌人",
+        "zh": "如果你在过去 10 秒内施放过惩戒，则在命中时威吓敌人",
         "en": "Intimidate Enemies on Hit if you've cast Punishment in the past 10 seconds"
     },
     {
@@ -38656,7 +38656,7 @@
     },
     {
         "id": "stat_324460247",
-        "zh": "有 {0}% 几率击中时用灰烬包裹敌人。",
+        "zh": "有 {0}% 几率击中时使敌人被灰烬缠身。",
         "en": "{0}% chance to Cover Enemies in Ash on Hit"
     },
     {
