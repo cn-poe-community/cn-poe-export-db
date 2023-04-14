@@ -72,6 +72,8 @@ def diff(old_entries, new_entries):
     return [removed_stat_ids, updated_stat_ids, new_stat_ids]
 
 
+new_stats = []
+removed_ids = []
 def pull_by_en_diff(db, diff, en_entries, zh_entries):
     if command == "update":
         for id in diff[1]:
@@ -85,8 +87,20 @@ def pull_by_en_diff(db, diff, en_entries, zh_entries):
             stat = stats[0]
             stat["zh"] = format_stat(zh_entries[id]["text"])
             stat["en"] = format_stat(en_entries[id]["text"])
+    if command == "add":
+        for id in diff[2]:
+            if(id not in zh_entries):
+                print(f"{id} does not have zh data")
+                continue
+            stat = {"id": id}
+            stat["zh"] = format_stat(zh_entries[id]["text"])
+            stat["en"] = format_stat(en_entries[id]["text"])
+            new_stats.append(stat)
+    if command == "del":
+        for id in diff[0]:
+            removed_ids.append(id)
 
-def pull_by_zh_diff(db, diff, zh_entries):
+def pull_by_zh_diff(db, diff,en_entries, zh_entries):
     if command == "update":
         for id in diff[1]:
             if id not in db:
@@ -98,7 +112,18 @@ def pull_by_zh_diff(db, diff, zh_entries):
                 continue
             stat = stats[0]
             stat["zh"] = format_stat(zh_entries[id]["text"])
-
+    if command == "add":
+        for id in diff[2]:
+            if(id not in en_entries):
+                print(f"{id} does not have en data")
+                continue
+            stat = {"id": id}
+            stat["zh"] = format_stat(zh_entries[id]["text"])
+            stat["en"] = format_stat(en_entries[id]["text"])
+            new_stats.append(stat)
+    if command == "del":
+        for id in diff[0]:
+            removed_ids.append(id)
 
 command = ""
 if __name__ == "__main__":
@@ -134,7 +159,7 @@ if __name__ == "__main__":
                 
 
     db_path = "../src/stats/main.json"
-    db = load_json(db_path)
+    db:list = load_json(db_path)
 
     stats = stats_index_by_id(db)
 
@@ -146,8 +171,10 @@ if __name__ == "__main__":
     print("pull by en diff")
     pull_by_en_diff(stats, diff_en, new_en_entries, new_zh_entries)
     print("pull by zh diff")
-    pull_by_zh_diff(stats, diff_zh, new_zh_entries)
+    pull_by_zh_diff(stats, diff_zh, new_en_entries, new_zh_entries)
 
-    if command == "update":
-        with open(f'{db_path}.new.json', 'wt', encoding="utf-8") as f:
-            f.write(json.dumps(db, ensure_ascii=False,indent=4))
+    if command == "add":
+        db.extend(new_stats)
+    
+    with open(f'{db_path}.new.json', 'wt', encoding="utf-8") as f:
+        f.write(json.dumps(db, ensure_ascii=False,indent=4))

@@ -39973,5 +39973,125 @@
         "id": "stat_4184565463",
         "zh": "获得 {0} 级的主动技能【尊严】",
         "en": "Grants Level {0} Pride Skill"
+    },
+    {
+        "id": "stat_524797741",
+        "zh": "此物品上装备的【主动技能石】等级 {0}",
+        "en": "{0} to Level of Socketed Active Skill Gems"
+    },
+    {
+        "id": "stat_4102393882",
+        "zh": "偷取能量护盾时不受感电影响",
+        "en": "Unaffected by Shock while Leeching Energy Shield"
+    },
+    {
+        "id": "stat_3019649166",
+        "zh": "压制敌人的法术伤害时使其疲惫 {0} 秒",
+        "en": "Debilitate Enemies for {0} Seconds when you Suppress their Spell Damage"
+    },
+    {
+        "id": "stat_2916280114",
+        "zh": "不会因被压制的法术伤害而眩晕",
+        "en": "Cannot be Stunned by Suppressed Spell Damage"
+    },
+    {
+        "id": "stat_3462673103",
+        "zh": "周围友军的生命每秒再生 {0}%",
+        "en": "Nearby Allies gain {0}% of Life Regenerated per second"
+    },
+    {
+        "id": "stat_778848857",
+        "zh": "周围友军的魔力再生率提高 {0}%",
+        "en": "Nearby Allies gain {0}% increased Mana Regeneration Rate"
+    },
+    {
+        "id": "stat_424549222",
+        "zh": "你造成的感电，也会影响周围 {0} 范围内的敌人",
+        "en": "Shocks you inflict spread to other Enemies within a Radius of {0}"
+    },
+    {
+        "id": "stat_4126447694",
+        "zh": "对施法速度的增强与减弱也作用于攻击速度",
+        "en": "Increases and Reductions to Cast Speed apply to Attack Speed"
+    },
+    {
+        "id": "stat_2011785027",
+        "zh": "你造成的点燃，也会点燃周围 {0} 范围内的敌人",
+        "en": "Ignites you inflict spread to other Enemies within a Radius of {0}"
+    },
+    {
+        "id": "stat_3454830051",
+        "zh": "每有一个影响你的凶残之凝珠宝，\n你的主手暴击几率提高 {0}%，最多 200%",
+        "en": "{0}% increased Main Hand Critical Strike Chance per\nMurderous Eye Jewel affecting you, up to a maximum of 200%"
+    },
+    {
+        "id": "stat_3699529133",
+        "zh": "每有一个影响你的凶残之凝珠宝，你的\n副手暴击加成 {0}%，最多 100%",
+        "en": "{0}% to Off Hand Critical Strike Multiplier per\nMurderous Eye Jewel affecting you, up to a maximum of +100%"
+    },
+    {
+        "id": "stat_4288824781",
+        "zh": "每个精神能量球使你额外造成等同于物理伤害 {0}% 的每一种元素伤害",
+        "en": "Gain {0}% of Physical Damage as Extra Damage of each Element per Spirit Charge"
+    },
+    {
+        "id": "stat_2134307667",
+        "zh": "投射物有 {0}% 的几率返回你身边",
+        "en": "Projectiles have {0}% chance to Return to you"
+    },
+    {
+        "id": "stat_4250752669",
+        "zh": "你每受一个深渊珠宝影响，穿透 {0}% 的元素抗性",
+        "en": "Penetrate {0}% Elemental Resistances per Abyss Jewel affecting you"
+    },
+    {
+        "id": "stat_34273389",
+        "zh": "¿ {0} ¿¿¿¿¿¿¿¿¿",
+        "en": "Gain a Void Charge every {0} seconds"
+    },
+    {
+        "id": "stat_414749123",
+        "zh": "填满未保留的生命而移除偷取时，\n有 {0}% 的几率获得肾上腺素，持续 2 秒",
+        "en": "{0}% chance to gain Adrenaline for 2 Seconds when Leech is\nremoved by Filling Unreserved Life"
+    },
+    {
+        "id": "stat_3106724907",
+        "zh": "填满未保留的生命而移除偷取时，\n有 {0}% 的几率获得猛攻，持续 4 秒",
+        "en": "{0}% chance to gain Onslaught for 4 Seconds when Leech is\nremoved by Filling Unreserved Life"
+    },
+    {
+        "id": "stat_898270877",
+        "zh": "偷取魔力时，你造成的冰缓效果提高 {0}%",
+        "en": "{0}% increased Effect of Chills you inflict while Leeching Mana"
+    },
+    {
+        "id": "stat_3578946428",
+        "zh": "偷取能量护盾时，你造成的感电效果提高 {0}%",
+        "en": "{0}% increased Effect of Shocks you inflict while Leeching Energy Shield"
+    },
+    {
+        "id": "stat_4014328139",
+        "zh": "偷取魔力时不受冰缓影响",
+        "en": "Unaffected by Chill while Leeching Mana"
+    },
+    {
+        "id": "stat_2543269407",
+        "zh": "有一个传奇怪物出现在你面前：你施加的冻结会扩散给范围 {0} 内的其它敌人",
+        "en": "While a Unique Enemy is in your Presence, Freezes you inflict spread to other Enemies within a Radius of {0}"
+    },
+    {
+        "id": "stat_1623640288",
+        "zh": "你施加的冻结会扩散给范围 {0} 内的其它敌人",
+        "en": "Freezes you inflict spread to other Enemies within a Radius of {0}"
+    },
+    {
+        "id": "stat_1698847655",
+        "zh": "有一个传奇怪物出现在你面前：你造成的点燃，也会点燃周围 {0} 范围内的敌人",
+        "en": "While a Unique Enemy is in your Presence, Ignites you inflict spread to other Enemies within a Radius of {0}"
+    },
+    {
+        "id": "stat_170274897",
+        "zh": "此物品上的技能石受到 {0} 级的【强化版火焰穿透】辅助",
+        "en": "Socketed Gems are Supported by Level {0} Awakened Fire Penetration"
     }
 ]
