@@ -4074,5 +4074,113 @@
                 "zh": "强化（强辅）"
             }
         ]
+    },
+    {
+        "skills": [
+            {
+                "en": "Vaal Absolution",
+                "zh": "瓦尔：赦罪"
+            }
+        ]
+    },
+    {
+        "skills": [
+            {
+                "en": "Vaal Animate Weapon",
+                "zh": "瓦尔：幻化武器"
+            }
+        ]
+    },
+    {
+        "skills": [
+            {
+                "en": "Vaal Arctic Armour",
+                "zh": "瓦尔：极地装甲"
+            }
+        ]
+    },
+    {
+        "skills": [
+            {
+                "en": "Vaal Domination",
+                "zh": "瓦尔：霸气之击"
+            }
+        ]
+    },
+    {
+        "skills": [
+            {
+                "en": "Vaal Firestorm",
+                "zh": "瓦尔：烈炎风暴"
+            }
+        ]
+    },
+    {
+        "skills": [
+            {
+                "en": "Vaal Ice Shot",
+                "zh": "瓦尔：冰霜射击"
+            }
+        ]
+    },
+    {
+        "skills": [
+            {
+                "en": "Vaal Lightning Arrow",
+                "zh": "瓦尔：闪电箭矢"
+            }
+        ]
+    },
+    {
+        "skills": [
+            {
+                "en": "Vaal Rejuvenation Totem",
+                "zh": "瓦尔：回春图腾"
+            }
+        ]
+    },
+    {
+        "skills": [
+            {
+                "en": "Vaal Reap",
+                "zh": "瓦尔：绝命之镰"
+            }
+        ]
+    },
+    {
+        "skills": [
+            {
+                "en": "Prismatic Burst",
+                "zh": "棱光魔爆"
+            },
+            {
+                "en": "Prismatic Burst Support",
+                "zh": "棱光爆破"
+            }
+        ]
+    },
+    {
+        "skills": [
+            {
+                "en": "Momentum Support",
+                "zh": "动量（辅）"
+            }
+        ]
+    },
+    {
+        "skills": [
+            {
+                "en": "Snipe",
+                "zh": "狙击"
+            }
+        ]
+    },
+    {
+        "skills": [
+            {
+                "en": "Manaforged Arrows Support",
+                "zh": "法铸箭矢（辅）"
+            }
+        ]
     }
 ]

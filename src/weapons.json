@@ -142,6 +142,14 @@
             {
                 "zh": "艾普之怒",
                 "en": "Apep's Rage"
+            },
+            {
+                "zh": "托沃卧",
+                "en": "Tulfall"
+            },
+			{
+                "zh": "托沃卧【仿品】",
+                "en": "Replica Tulfall"
             }
         ]
     },
@@ -212,6 +220,10 @@
             {
                 "zh": "乌尔尼多的拥抱",
                 "en": "Uul-Netol's Embrace"
+            },
+            {
+                "zh": "乌尔尼多之吻",
+                "en": "Uul-Netol's Kiss"
             }
         ]
     },
@@ -1040,6 +1052,10 @@
             {
                 "zh": "痛苦之触",
                 "en": "Touch of Anguish"
+            },
+            {
+                "zh": "思动之手",
+                "en": "Hand of Thought and Motion"
             }
         ]
     },
@@ -1336,6 +1352,10 @@
             {
                 "zh": "猎巫人的审判",
                 "en": "Witchhunter's Judgment"
+            },
+            {
+                "zh": "运势之环",
+                "en": "The Geomantic Gyre"
             }
         ]
     },
@@ -1684,6 +1704,10 @@
             {
                 "zh": "幻银之弦",
                 "en": "Silverbranch"
+            },
+            {
+                "zh": "遗孀之雹",
+                "en": "Widowhail"
             }
         ]
     },
@@ -1844,6 +1868,10 @@
             {
                 "zh": "钢铁质量",
                 "en": "The Iron Mass"
+            },
+            {
+                "zh": "红刃",
+                "en": "The Redblade"
             }
         ]
     },
@@ -2174,6 +2202,10 @@
             {
                 "zh": "贪婪之潮",
                 "en": "The Gluttonous Tide"
+            },
+            {
+                "zh": "索伏的始源",
+                "en": "Xoph's Inception"
             }
         ]
     },

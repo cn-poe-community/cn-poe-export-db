@@ -28,6 +28,10 @@
             {
                 "zh": "奴隶贩子之手",
                 "en": "Slavedriver's Hand"
+            },
+            {
+                "zh": "风暴觅者",
+                "en": "Stormseeker"
             }
         ]
     },
@@ -210,6 +214,10 @@
             {
                 "zh": "艾许之面",
                 "en": "Esh's Visage"
+            },
+            {
+                "zh": "艾许之镜",
+                "en": "Esh's Mirror"
             }
         ]
     },
@@ -1422,6 +1430,10 @@
             {
                 "zh": "赤红踪迹",
                 "en": "The Red Trail"
+            },
+            {
+                "zh": "无尽之距",
+                "en": "The Infinite Pursuit"
             }
         ]
     },
@@ -2026,6 +2038,10 @@
             {
                 "zh": "完美姿态",
                 "en": "The Perfect Form"
+            },
+            {
+                "zh": "雪盲恩惠",
+                "en": "The Snowblind Grace"
             }
         ]
     },
@@ -3156,6 +3172,10 @@
             {
                 "zh": "创造回声",
                 "en": "Echoes of Creation"
+            },
+            {
+                "zh": "无形火炬",
+                "en": "The Formless Flame"
             }
         ]
     },
@@ -3398,6 +3418,10 @@
             {
                 "zh": "龙族印记",
                 "en": "Wyrmsign"
+            },
+            {
+                "zh": "烈火送葬",
+                "en": "Tanu Ahi"
             }
         ]
     },
@@ -3654,7 +3678,12 @@
     {
         "zh": "虔诚链甲",
         "en": "Devout Chainmail",
-        "uniques": []
+        "uniques": [
+            {
+                "zh": "第四誓言",
+                "en": "The Fourth Vow"
+            }
+        ]
     },
     {
         "zh": "链甲外衣",
@@ -3694,7 +3723,12 @@
     {
         "zh": "鳗皮短靴",
         "en": "Eelskin Boots",
-        "uniques": []
+        "uniques": [
+            {
+                "zh": "欧巴拉的坚守",
+                "en": "Orbala's Stand"
+            }
+        ]
     },
     {
         "zh": "裹趾凉鞋",
@@ -3994,7 +4028,12 @@
     {
         "zh": "掠夺者之盔",
         "en": "Reaver Helmet",
-        "uniques": []
+        "uniques": [
+            {
+                "zh": "血债",
+                "en": "Blood Price"
+            }
+        ]
     },
     {
         "zh": "残破之盔",
@@ -4009,7 +4048,12 @@
     {
         "zh": "击剑士之盔",
         "en": "Fencer Helm",
-        "uniques": []
+        "uniques": [
+            {
+                "zh": "伊兰雅本之容",
+                "en": "El'Abin's Visage"
+            }
+        ]
     },
     {
         "zh": "猪面头盔",
