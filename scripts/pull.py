@@ -1,10 +1,11 @@
 import json
 import sys
+import re
 
 
 def equipped_label(label: str):
     # 外延、基底、附魔
-    return label in ["基底", "Implicit", "外延", "Explicit", "附魔", "Enchant"]
+    return label in ["基底", "Implicit", "外延", "Explicit", "附魔", "Enchant", "古神熔炉", "Crucible"]
 
 
 def format_stat(stat: str):
@@ -14,6 +15,8 @@ def format_stat(stat: str):
             break
     stat = stat.replace(" (区域)", "")
     stat = stat.replace(" (Local)", "")
+    stat = re.sub(r"\s（等阶 \d）", "", stat)
+    stat = re.sub(r"\s\(Tier \d\)", "", stat)
     return stat
 
 
@@ -74,6 +77,8 @@ def diff(old_entries, new_entries):
 
 new_stats = []
 removed_ids = []
+
+
 def pull_by_en_diff(db, diff, en_entries, zh_entries):
     if command == "update":
         for id in diff[1]:
@@ -89,7 +94,7 @@ def pull_by_en_diff(db, diff, en_entries, zh_entries):
             stat["en"] = format_stat(en_entries[id]["text"])
     if command == "add":
         for id in diff[2]:
-            if(id not in zh_entries):
+            if (id not in zh_entries):
                 print(f"{id} does not have zh data")
                 continue
             stat = {"id": id}
@@ -100,7 +105,8 @@ def pull_by_en_diff(db, diff, en_entries, zh_entries):
         for id in diff[0]:
             removed_ids.append(id)
 
-def pull_by_zh_diff(db, diff,en_entries, zh_entries):
+
+def pull_by_zh_diff(db, diff, en_entries, zh_entries):
     if command == "update":
         for id in diff[1]:
             if id not in db:
@@ -114,7 +120,7 @@ def pull_by_zh_diff(db, diff,en_entries, zh_entries):
             stat["zh"] = format_stat(zh_entries[id]["text"])
     if command == "add":
         for id in diff[2]:
-            if(id not in en_entries):
+            if (id not in en_entries):
                 print(f"{id} does not have en data")
                 continue
             stat = {"id": id}
@@ -124,6 +130,7 @@ def pull_by_zh_diff(db, diff,en_entries, zh_entries):
     if command == "del":
         for id in diff[0]:
             removed_ids.append(id)
+
 
 command = ""
 if __name__ == "__main__":
@@ -156,10 +163,9 @@ if __name__ == "__main__":
     diff_zh = diff(old_zh_entries, new_zh_entries)
     for i in range(len(diff_zh)):
         diff_zh[i] = [id for id in diff_zh[i] if id not in diff_en[i]]
-                
 
     db_path = "../src/stats/main.json"
-    db:list = load_json(db_path)
+    db: list = load_json(db_path)
 
     stats = stats_index_by_id(db)
 
@@ -177,7 +183,6 @@ if __name__ == "__main__":
         db.extend(new_stats)
     if command == "del":
         db = [stat for stat in db if stat["id"] not in removed_ids]
-        
-    
+
     with open(f'{db_path}.new.json', 'wt', encoding="utf-8") as f:
-        f.write(json.dumps(db, ensure_ascii=False,indent=4))
+        f.write(json.dumps(db, ensure_ascii=False, indent=4))
