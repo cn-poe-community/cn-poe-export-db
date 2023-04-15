@@ -27,6 +27,9 @@ def load_json(file):
     return data
 
 
+key_to_label = {}
+
+
 def entries_index_by_id(data):
     indexes = {}
     result = data["result"]
@@ -40,6 +43,7 @@ def entries_index_by_id(data):
                 split_result = full_id.split(".")
                 id = split_result[-1]
                 indexes[id] = entry
+                key_to_label[id] = label
 
     return indexes
 
@@ -97,10 +101,26 @@ def pull_by_en_diff(db, diff, en_entries, zh_entries):
             if (id not in zh_entries):
                 print(f"{id} does not have zh data")
                 continue
+
             stat = {"id": id}
             stat["zh"] = format_stat(zh_entries[id]["text"])
             stat["en"] = format_stat(en_entries[id]["text"])
             new_stats.append(stat)
+
+            label = key_to_label[id]
+            # crucible mods should add all sub mods into stats
+            if label in ["古神熔炉", "Crucible"]:
+                zh_text = format_stat(zh_entries[id]["text"])
+                en_text = format_stat(en_entries[id]["text"])
+                if "\n" in zh_text:
+                    zh_sub_texts = zh_text.split("\n")
+                    en_sub_texts = en_text.split("\n")
+                    for i, zh_sub_text in enumerate(zh_sub_texts):
+                        en_sub_text = en_sub_texts[i]
+                        stat = {"id": id}
+                        stat["zh"] = zh_sub_text
+                        stat["en"] = en_sub_text
+                        new_stats.append(stat)
     if command == "del":
         for id in diff[0]:
             removed_ids.append(id)
@@ -127,6 +147,21 @@ def pull_by_zh_diff(db, diff, en_entries, zh_entries):
             stat["zh"] = format_stat(zh_entries[id]["text"])
             stat["en"] = format_stat(en_entries[id]["text"])
             new_stats.append(stat)
+
+            label = key_to_label[id]
+            # crucible mods should add all sub mods into stats
+            if label in ["古神熔炉", "Crucible"]:
+                zh_text = format_stat(zh_entries[id]["text"])
+                en_text = format_stat(en_entries[id]["text"])
+                if "\n" in zh_text:
+                    zh_sub_texts = zh_text.split("\n")
+                    en_sub_texts = en_text.split("\n")
+                    for i, zh_sub_text in enumerate(zh_sub_texts):
+                        en_sub_text = en_sub_texts[i]
+                        stat = {"id": id}
+                        stat["zh"] = zh_sub_text
+                        stat["en"] = en_sub_text
+                        new_stats.append(stat)
     if command == "del":
         for id in diff[0]:
             removed_ids.append(id)
