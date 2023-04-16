@@ -440,6 +440,11 @@
         "en": "Gain {0} Life per Enemy Hit with Attacks"
     },
     {
+        "id": "stat_2797971005",
+        "zh": "你的攻击击中每个敌人会失去 {0} 生命",
+        "en": "Lose {0} Life per Enemy Hit with Attacks"
+    },
+    {
         "id": "stat_1062208444",
         "zh": "该装备的护甲提高 {0}%",
         "en": "{0}% increased Armour"
@@ -8676,12 +8681,12 @@
     },
     {
         "id": "stat_2630708439",
-        "zh": "击中时有 {0}% 的几率施加畏寒",
+        "zh": "击中时有 {0}% 的几率施加冰霜曝露",
         "en": "{0}% chance to inflict Cold Exposure on Hit"
     },
     {
         "id": "stat_2630708439",
-        "zh": "击中时施加畏寒",
+        "zh": "击中时施加冰霜曝露",
         "en": "Inflict Cold Exposure on Hit"
     },
     {
@@ -29446,8 +29451,8 @@
     },
     {
         "id": "stat_3948993189",
-        "zh": "增加的小天赋获得：你所施放诅咒的效果提高 3%",
-        "en": "Added Small Passive Skills grant: 3% increased Effect of your Curses"
+        "zh": "增加的小天赋获得：你所施放诅咒的效果提高 {0}%",
+        "en": "Added Small Passive Skills grant: {0}% increased Effect of your Curses"
     },
     {
         "id": "stat_3948993189",
@@ -29593,11 +29598,6 @@
         "id": "stat_3948993189",
         "zh": "增加的小天赋获得：技能的魔力保留效能提高 6%",
         "en": "Added Small Passive Skills grant: 6% increased Mana Reservation Efficiency of Skills"
-    },
-    {
-        "id": "stat_3948993189",
-        "zh": "增加的小天赋获得：你所施放诅咒的效果提高 3%",
-        "en": "Added Small Passive Skills grant: 3% increased Effect of your Curses"
     },
     {
         "id": "stat_2052525717",
@@ -70088,5 +70088,10 @@
         "id": "stat_1353140041",
         "zh": "{0}% 的几率不消耗六分仪使用次数",
         "en": "{0}% chance to not consume Sextant Uses"
+    },
+    {
+        "id": "stat_2443166200",
+        "zh": "有一个传奇怪物出现在你面前：物理伤害的 {0}% 转化为生命偷取",
+        "en": "While a Unique Enemy is in your Presence, {0}% of Physical Damage Leeched as Life"
     }
 ]
