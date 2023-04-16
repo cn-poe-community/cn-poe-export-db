@@ -29571,7 +29571,7 @@
     },
     {
         "id": "stat_3948993189",
-        "zh": "增加的小天赋获得：+法术伤害压制率 +2%",
+        "zh": "增加的小天赋获得：法术伤害压制率 +2%",
         "en": "Added Small Passive Skills grant: +2% chance to Suppress Spell Damage"
     },
     {
@@ -69568,5 +69568,525 @@
         "id": "mod_22697",
         "zh": "此物品上的技能石受到 30 级的 极速腐化 辅助",
         "en": "Socketed Gems are Supported by Level 30 Swift Affliction"
+    },
+    {
+        "id": "stat_4102870672",
+        "zh": "玩家使用药剂时有 {0}% 的几率成为陨石的目标",
+        "en": "Players have {0}% chance to be targeted by a Meteor when they use a Flask"
+    },
+    {
+        "id": "stat_1971757986",
+        "zh": "偷取生命时，受到持续混沌伤害会转为治疗你",
+        "en": "Taking Chaos Damage over Time heals you instead while Leeching Life"
+    },
+    {
+        "id": "stat_1494965559",
+        "zh": "敌人每受到一层死亡凋零影响，召唤生物的暴击加成 +{0}%",
+        "en": "Minions have +{0}% to Critical Strike Multiplier per Withered Debuff on Enemy"
+    },
+    {
+        "id": "stat_2123200297",
+        "zh": "古神熔炉传奇怪物有 {0}% 的几率掉落一件传奇近战武器",
+        "en": "Unique Crucible Monsters have {0}% chance to drop a Unique Melee Weapon"
+    },
+    {
+        "id": "stat_3491639130",
+        "zh": "每受到一种不同的异常状态影响，每秒恢复 {0}% 的生命",
+        "en": "Regenerate {0}% of Life per second for each different Ailment affecting you"
+    },
+    {
+        "id": "stat_3673969640",
+        "zh": "包含一个熔炉，可以为一件非传奇物品移除一套熔炉天赋树",
+        "en": "Contains a Furnace that removes a Crucible Passive Skill Tree from a Non-Unique Item"
+    },
+    {
+        "id": "stat_1063263585",
+        "zh": "周围敌方怪物至少保留 {0}% 的生命",
+        "en": "Nearby Enemy Monsters have at least {0}% of Life Reserved"
+    },
+    {
+        "id": "stat_891135228",
+        "zh": "怪物的所有击中伤害造成点燃状态",
+        "en": "All Damage from Monsters' Hits can Ignite"
+    },
+    {
+        "id": "stat_3007862517",
+        "zh": "怪物受到的伤害提高 {0}%",
+        "en": "Monsters take {0}% increased Damage"
+    },
+    {
+        "id": "stat_2044840211",
+        "zh": "镶嵌锐利之凝珠宝时，攻击击中时致盲敌人 4 秒",
+        "en": "With a Searching Eye Jewel Socketed, Blind Enemies for 4 seconds on Hit with Attacks"
+    },
+    {
+        "id": "stat_2130085756",
+        "zh": "怪物击中有 {0}% 的几率造成点燃",
+        "en": "Monsters' Hits have {0}% chance to Ignite"
+    },
+    {
+        "id": "stat_1534390486",
+        "zh": "无法闪避怪物的击中",
+        "en": "Monsters' Hits can't be Evaded"
+    },
+    {
+        "id": "stat_3938394827",
+        "zh": "每隔 10 秒：\n在 5 秒内攻击每击中一个敌人获得 2% 的生命\n在 5 秒内每击败一个敌人获得 5% 的生命",
+        "en": "Every 10 seconds:\nGain 2% of Life per Enemy Hit with Attacks for 5 seconds\nGain 5% of Life per Enemy Killed for 5 seconds"
+    },
+    {
+        "id": "stat_2649513539",
+        "zh": "受到的物理伤害穿透能量护盾",
+        "en": "Physical Damage taken bypasses Energy Shield"
+    },
+    {
+        "id": "stat_2779247747",
+        "zh": "稀有和传奇怪物有 {0}% 的几率掉落一个熔岩矿材",
+        "en": "Rare and Unique Monsters have {0}% chance to drop a Magmatic Ore"
+    },
+    {
+        "id": "stat_798723493",
+        "zh": "传奇的古神熔炉怪物有 {0}% 的几率掉落一件\n具有熔炉天赋树的传奇物品",
+        "en": "Unique Crucible Monsters have {0}% chance to drop a Unique Item with\na Crucible Passive Skill Tree"
+    },
+    {
+        "id": "stat_738821856",
+        "zh": "当你因羁绊对象战败而战败时，不损失经验值",
+        "en": "Lose no Experience when you die because a Linked target died"
+    },
+    {
+        "id": "stat_3669353918",
+        "zh": "怪物的所有击中伤害造成冻结状态",
+        "en": "All Damage from Monsters' Hits can Freeze"
+    },
+    {
+        "id": "stat_2029018782",
+        "zh": "怪物的感电效果提高 {0}%",
+        "en": "Monsters have {0}% increased Effect of Shock"
+    },
+    {
+        "id": "stat_245814726",
+        "zh": "包含一个熔炉，可以为一件未腐化的传奇物品添加一套熔炉天赋树",
+        "en": "Contains a Furnace that adds a Crucible Passive Skill Tree to an Uncorrupted Unique Item"
+    },
+    {
+        "id": "stat_2227428689",
+        "zh": "怪物击中有 {0}% 的几率造成冻结",
+        "en": "Monsters' Hits have {0}% chance to Freeze"
+    },
+    {
+        "id": "stat_1214762172",
+        "zh": "羁绊技能的技能效果持续时间延长 {0}%",
+        "en": "Link Skills have {0}% increased Skill Effect Duration"
+    },
+    {
+        "id": "stat_4186532642",
+        "zh": "对击中时受到的混沌伤害施加护甲效果",
+        "en": "Armour also applies to Chaos Damage taken from Hits"
+    },
+    {
+        "id": "stat_3251211004",
+        "zh": "当你战败后，羁绊目标在 {0} 秒内不会战败",
+        "en": "Linked Targets Cannot Die for {0} seconds after you Die"
+    },
+    {
+        "id": "stat_2597985144",
+        "zh": "羁绊技能的施法速度加快 {0}%",
+        "en": "Link Skills have {0}% increased Cast Speed"
+    },
+    {
+        "id": "stat_3036422124",
+        "zh": "击败敌人时生成超越传送门的几率提高 {0}%",
+        "en": "Slaying Enemies has a {0}% increased chance to spawn a Beyond Portal"
+    },
+    {
+        "id": "stat_2801601300",
+        "zh": "熔铸物品尽可能拥有一个能够调整物品售价的熔炉天赋",
+        "en": "Forged Items have a Crucible Passive Skill that modifies the sell price of the Item if possible"
+    },
+    {
+        "id": "stat_2550456553",
+        "zh": "稀有怪物额外具有 {0} 个词缀",
+        "en": "Rare Monsters have {0} additional Modifier"
+    },
+    {
+        "id": "stat_375750705",
+        "zh": "获得的武器和盾牌有 {0}% 的几率为完全连接",
+        "en": "Weapons and Shields found have {0}% chance to be fully Linked"
+    },
+    {
+        "id": "stat_3337579297",
+        "zh": "怪物击中始终为暴击",
+        "en": "Monsters' Hits are always Critical Strikes"
+    },
+    {
+        "id": "stat_4062840317",
+        "zh": "怪物额外造成等同于物理伤害 {0}% 的随机元素伤害",
+        "en": "Monsters gain {0}% of Physical Damage as Extra Damage of a random Element"
+    },
+    {
+        "id": "stat_746994389",
+        "zh": "周围敌人灰烬缠身",
+        "en": "Nearby Enemies are Covered in Ash"
+    },
+    {
+        "id": "stat_2141582975",
+        "zh": "拥有一套双手剑熔炉天赋树\n若该词缀被移除，熔炉天赋树会被移除",
+        "en": "Has a Two Handed Sword Crucible Passive Skill Tree\nCrucible Passive Skill Tree is removed if this Modifier is removed"
+    },
+    {
+        "id": "stat_2863332749",
+        "zh": "镶嵌锐利之凝珠宝时，攻击有 {0}% 的几率在击败时获得猛攻效果",
+        "en": "With a Searching Eye Jewel Socketed, Attacks have {0}% chance to grant Onslaught On Kill"
+    },
+    {
+        "id": "stat_395617565",
+        "zh": "怪物有 {0}% 的几率格挡法术伤害",
+        "en": "Monsters have {0}% Chance to Block Spell Damage"
+    },
+    {
+        "id": "stat_3428180555",
+        "zh": "怪物击中有 {0}% 的几率造成感电",
+        "en": "Monsters' Hits have {0}% chance to Shock"
+    },
+    {
+        "id": "stat_287112619",
+        "zh": "受到稀有深渊珠宝影响时，你受到的元素异常状态的持续时间提高 {0}%",
+        "en": "{0}% increased Duration of Elemental Ailments on You while affected by a Rare Abyss Jewel"
+    },
+    {
+        "id": "stat_2784102684",
+        "zh": "流血时不会中毒",
+        "en": "Cannot be Poisoned while Bleeding"
+    },
+    {
+        "id": "stat_881299808",
+        "zh": "熔铸物品拥有 30% 品质",
+        "en": "Forged Items have 30% Quality"
+    },
+    {
+        "id": "stat_1091321491",
+        "zh": "怪物的攻击击中造成流血",
+        "en": "Monsters' Attack Hits inflict Bleeding"
+    },
+    {
+        "id": "stat_1634061592",
+        "zh": "增助攻击击中时击退敌人",
+        "en": "Exerted Attacks Knock Enemies Back on Hit"
+    },
+    {
+        "id": "stat_2401345409",
+        "zh": "法术压制几率词缀有 {0}% 也套用于避免元素异常状态几率",
+        "en": "Modifiers to Chance to Suppress Spell Damage also apply to Chance to Avoid Elemental Ailments at {0}% of their Value"
+    },
+    {
+        "id": "stat_36406748",
+        "zh": "玩家无法获得药剂充能",
+        "en": "Players cannot gain Flask Charges"
+    },
+    {
+        "id": "stat_3231732417",
+        "zh": "怪物的行动速度提高 {0}%",
+        "en": "Monsters have {0}% increased Action Speed"
+    },
+    {
+        "id": "stat_1840747977",
+        "zh": "怪物造成的 {0}% 额外物理伤害视为混沌伤害",
+        "en": "Monsters deal {0}% extra Physical Damage as Chaos"
+    },
+    {
+        "id": "stat_2811179011",
+        "zh": "受到传奇深渊珠宝影响时，保留效能提高 {0}%",
+        "en": "{0}% increased Reservation Efficiency while affected by a Unique Abyss Jewel"
+    },
+    {
+        "id": "stat_600221736",
+        "zh": "你施加的冰霜曝露使冰霜抗性额外 {0}%",
+        "en": "Cold Exposure you inflict applies an extra {0}% to Cold Resistance"
+    },
+    {
+        "id": "stat_186482813",
+        "zh": "镶嵌凶残之凝珠宝时，近战击中有 {0}% 的几率获得护体",
+        "en": "With a Murderous Eye Jewel Socketed, Melee Hits have {0}% chance to Fortify"
+    },
+    {
+        "id": "stat_2214228141",
+        "zh": "投射物穿透所有燃烧的敌人",
+        "en": "Projectiles Pierce all Burning Enemies"
+    },
+    {
+        "id": "stat_1387367793",
+        "zh": "召唤生物击中时有 {0}% 的几率造成死亡凋零",
+        "en": "Minions have {0}% chance to inflict Withered on Hit"
+    },
+    {
+        "id": "stat_1861913998",
+        "zh": "每 25 点智慧使暴击几率提高 {0}%",
+        "en": "{0}% increased Critical Strike Chance per 25 Intelligence"
+    },
+    {
+        "id": "stat_1747220877",
+        "zh": "获得的武器和盾牌有 {0}% 的几率被腐化并具有一个基底",
+        "en": "Weapons and Shields found have {0}% chance to be Corrupted with an Implicit"
+    },
+    {
+        "id": "stat_1200678966",
+        "zh": "装备箭袋获得的加成提高 {0}%",
+        "en": "{0}% increased bonuses gained from Equipped Quiver"
+    },
+    {
+        "id": "stat_1240390128",
+        "zh": "古神熔炉传奇怪物的数量提高 {0}%",
+        "en": "{0}% increased number of Unique Crucible Monsters"
+    },
+    {
+        "id": "stat_2736953535",
+        "zh": "玩家无法格挡攻击伤害",
+        "en": "Players cannot Block Attack Damage"
+    },
+    {
+        "id": "stat_2638865425",
+        "zh": "流血时不会被眩晕",
+        "en": "Cannot be Stunned while Bleeding"
+    },
+    {
+        "id": "stat_3203905334",
+        "zh": "玩家无法压制法术伤害",
+        "en": "Players cannot Suppress Spell Damage"
+    },
+    {
+        "id": "stat_1430928642",
+        "zh": "非暴击造成的闪电伤害特别幸运",
+        "en": "Lightning Damage with Non-Critical Strikes is Lucky"
+    },
+    {
+        "id": "stat_881836292",
+        "zh": "怪物有 {0}% 的几率格挡攻击伤害",
+        "en": "Monsters have {0}% Chance to Block Attack Damage"
+    },
+    {
+        "id": "stat_2418755296",
+        "zh": "熔铸物品的词缀数值随机改变",
+        "en": "Forged Items have the numeric values of Modifiers Randomised"
+    },
+    {
+        "id": "stat_1640259660",
+        "zh": "你造成的感电会波及半径 15 内的其他敌人",
+        "en": "Shocks you inflict spread to other Enemies within a Radius of 15"
+    },
+    {
+        "id": "stat_1827605890",
+        "zh": "拥有一套熔炉天赋树\n若该词缀被移除，熔炉天赋树会被移除",
+        "en": "Has a Crucible Passive Skill Tree\nCrucible Passive Skill Tree is removed if this Modifier is removed"
+    },
+    {
+        "id": "stat_4226044796",
+        "zh": "熔铸物品的熔炉天赋树有 {0}% 的几率升级位阶",
+        "en": "Crucible Passive Skills on Forged Items have {0}% chance for tiers to be upgraded"
+    },
+    {
+        "id": "stat_1777881400",
+        "zh": "稀有和传奇怪物有 {0}% 的几率掉落提供传奇武器的命运卡",
+        "en": "Rare and Unique Monsters have {0}% chance to drop Divination Cards that grant Unique Weapons"
+    },
+    {
+        "id": "stat_1472832594",
+        "zh": "怪物不受诅咒影响",
+        "en": "Monsters are Unaffected by Curses"
+    },
+    {
+        "id": "stat_3785942492",
+        "zh": "获得的武器和盾牌有 {0}% 的几率具有最大数量的插槽",
+        "en": "Weapons and Shields found have {0}% chance to have the maximum number of Sockets"
+    },
+    {
+        "id": "stat_3726936056",
+        "zh": "箭矢每次穿透时附加 {0}-{1} 点火焰伤害",
+        "en": "Arrows deal {0} to {1} Added Fire Damage for each time they've Pierced"
+    },
+    {
+        "id": "stat_1260060682",
+        "zh": "怪物可穿透压制法术伤害的 {0}%",
+        "en": "Monsters prevent {0}% of Suppressed Spell Damage"
+    },
+    {
+        "id": "stat_4261179672",
+        "zh": "玩家无法格挡法术伤害",
+        "en": "Players cannot Block Spell Damage"
+    },
+    {
+        "id": "stat_1736735948",
+        "zh": "熔铸时更有可能保留熔炉天赋",
+        "en": "Crucible Passive Skills are more likely to be retained when Forging"
+    },
+    {
+        "id": "stat_3478814676",
+        "zh": "熔铸物品被腐化并具有一个基底",
+        "en": "Forged Items are Corrupted with an Implicit"
+    },
+    {
+        "id": "stat_3913936991",
+        "zh": "所受眩晕击中伤害的 {0}% 回复为生命",
+        "en": "{0}% of Damage taken from Stunning Hits is Recovered as Life"
+    },
+    {
+        "id": "stat_3555807120",
+        "zh": "怪物的所有击中伤害造成中毒状态",
+        "en": "All Damage from Monsters' Hits can Poison"
+    },
+    {
+        "id": "stat_4280114386",
+        "zh": "获得的武器和盾牌有 {0}% 的几率为分裂",
+        "en": "Weapons and Shields found have {0}% chance to be Fractured"
+    },
+    {
+        "id": "stat_3821882617",
+        "zh": "最大狙击层数 {0}",
+        "en": "{0} to maximum Snipe Stages"
+    },
+    {
+        "id": "stat_3243514586",
+        "zh": "稀有和传奇的古神熔炉怪物有 {0}% 的几率掉落一把\n具有熔炉天赋树的远程武器",
+        "en": "Rare and Unique Crucible Monsters have {0}% chance to drop a Ranged Weapon with\na Crucible Passive Skill Tree"
+    },
+    {
+        "id": "stat_648161868",
+        "zh": "古神熔炉传奇怪物有 {0}% 的几率掉落一件传奇远程武器",
+        "en": "Unique Crucible Monsters have {0}% chance to drop a Unique Ranged Weapon"
+    },
+    {
+        "id": "stat_1280322024",
+        "zh": "怪物压制 {0}% 物理伤害减免",
+        "en": "Monsters Overwhelm {0}% Physical Damage Reduction"
+    },
+    {
+        "id": "stat_165059239",
+        "zh": "怪物击中造成的所有伤害都施加【感电】",
+        "en": "All Damage from Monsters' Hits inflicts Shock"
+    },
+    {
+        "id": "stat_3044826007",
+        "zh": "怪物击中时有 {0}% 的几率造成 2 秒的死亡凋零",
+        "en": "Monsters have {0}% chance to inflict Withered for 2 seconds on Hit"
+    },
+    {
+        "id": "stat_817611267",
+        "zh": "每 10 点敏捷使该武器的攻击附加 {0}-{1} 点闪电伤害",
+        "en": "Adds {0} to {1} Lightning Damage to Attacks with this Weapon per 10 Dexterity"
+    },
+    {
+        "id": "stat_3865389316",
+        "zh": "你施加的冻结会扩散给范围 {0} 内的其它敌人",
+        "en": "Freezes you inflict spread to other Enemies within a Radius of {0}"
+    },
+    {
+        "id": "stat_1586164348",
+        "zh": "召唤生物的生命根据超量火焰抗性提高",
+        "en": "Minion Life is increased by their Overcapped Fire Resistance"
+    },
+    {
+        "id": "stat_3031897787",
+        "zh": "拥有一套仅包含辅助天赋的熔炉天赋树\n若该词缀被移除，熔炉天赋树会被移除",
+        "en": "Has a Crucible Passive Skill Tree with only Support Passive Skills\nCrucible Passive Skill Tree is removed if this Modifier is removed"
+    },
+    {
+        "id": "stat_1344329033",
+        "zh": "古神熔炉传奇怪物有 {0}% 的几率掉落一面传奇盾牌",
+        "en": "Unique Crucible Monsters have {0}% chance to drop a Unique Shield"
+    },
+    {
+        "id": "stat_1745401062",
+        "zh": "稀有和传奇的古神熔炉怪物有 {0}% 的几率掉落一把\n具有熔炉天赋树的近战武器",
+        "en": "Rare and Unique Crucible Monsters have {0}% chance to drop a Melee Weapon with\na Crucible Passive Skill Tree"
+    },
+    {
+        "id": "stat_394639761",
+        "zh": "怪物击中时造成中毒",
+        "en": "Monsters Poison on Hit"
+    },
+    {
+        "id": "stat_3892691596",
+        "zh": "镶嵌凶残之凝珠宝时，近战攻击击中产生 {0} 点怒火，每秒最多触发一次",
+        "en": "With a Murderous Eye Jewel Socketed, Melee Attacks grant {0} Rage on Hit, no more than once every second"
+    },
+    {
+        "id": "stat_3783555531",
+        "zh": "怪物的所有元素抗性上限提高 {0}%",
+        "en": "Monsters have {0}% to all maximum Elemental Resistances"
+    },
+    {
+        "id": "stat_391460978",
+        "zh": "移动时，你受到的流血消减速度加快 {0}%",
+        "en": "Bleeding on you expires {0}% faster while Moving"
+    },
+    {
+        "id": "stat_1131820918",
+        "zh": "稀有和传奇的古神熔炉怪物有 {0}% 的几率掉落一面\n具有熔炉天赋树的盾牌",
+        "en": "Rare and Unique Crucible Monsters have {0}% chance to drop a Shield with\na Crucible Passive Skill Tree"
+    },
+    {
+        "id": "stat_3874817029",
+        "zh": "受到魔法深渊珠宝影响时，移动速度提高 {0}%",
+        "en": "{0}% increased Movement Speed while affected by a Magic Abyss Jewel"
+    },
+    {
+        "id": "stat_134839587",
+        "zh": "怪物的中毒时间提高 {0}%",
+        "en": "Monsters have {0}% increased Poison Duration"
+    },
+    {
+        "id": "indexable_support_148",
+        "zh": "插入的技能石被 {0} 级的【棱光魔爆】辅助",
+        "en": "Socketed Gems are Supported by Level {0} Prismatic Burst"
+    },
+    {
+        "id": "stat_4294430899",
+        "zh": "熔铸物品上的熔炉天赋不会位阶降级",
+        "en": "Crucible Passive Skills on Forged Items cannot have tiers downgraded"
+    },
+    {
+        "id": "stat_1882837088",
+        "zh": "怪物的流血时间提高 {0}%",
+        "en": "Monsters have {0}% increased Bleeding Duration"
+    },
+    {
+        "id": "stat_2849040018",
+        "zh": "怪物的点燃时间提高 {0}%",
+        "en": "Monsters have {0}% increased Ignite Duration"
+    },
+    {
+        "id": "stat_3001853534",
+        "zh": "包含一个熔炉，可以组合熔炉天赋树",
+        "en": "Contains a Forge that can Combine Crucible Passive Skill Trees"
+    },
+    {
+        "id": "stat_422450559",
+        "zh": "包含一个熔炉，可以组合熔炉天赋树，包括传奇和腐化物品",
+        "en": "Contains a Forge that can Combine Crucible Passive Skill Trees, including on Unique and Corrupted Items"
+    },
+    {
+        "id": "stat_2868404935",
+        "zh": "有一个传奇怪物出现在你面前：你造成的感电，也会影响周围 {0} 范围内的敌人",
+        "en": "While a Unique Enemy is in your Presence, Shocks you inflict spread to other Enemies within a Radius of {0}"
+    },
+    {
+        "id": "stat_3343791355",
+        "zh": "有一个异界图鉴最终首领出现在你面前：你造成的点燃，也会点燃周围 {0} 范围内的敌人",
+        "en": "While a Pinnacle Atlas Boss is in your Presence, Ignites you inflict spread to other Enemies within a Radius of {0}"
+    },
+    {
+        "id": "stat_3024408350",
+        "zh": "吟唱狙击时有 {0}% 的几率避免被眩晕",
+        "en": "{0}% chance to Avoid being Stunned while Channelling Snipe"
+    },
+    {
+        "id": "stat_2513745555",
+        "zh": "狙击的攻击速度提高 {0}%",
+        "en": "{0}% increased Attack Speed with Snipe"
+    },
+    {
+        "id": "stat_1353140041",
+        "zh": "{0}% 的几率不消耗六分仪使用次数",
+        "en": "{0}% chance to not consume Sextant Uses"
     }
 ]
