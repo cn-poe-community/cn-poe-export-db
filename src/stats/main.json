@@ -69751,8 +69751,8 @@
     },
     {
         "id": "stat_287112619",
-        "zh": "受到稀有深渊珠宝影响时，你受到的元素异常状态的持续时间提高 {0}%",
-        "en": "{0}% increased Duration of Elemental Ailments on You while affected by a Rare Abyss Jewel"
+        "zh": "受到稀有深渊珠宝影响时，你受到的元素异常状态的持续时间降低 {0}%",
+        "en": "{0}% reduced Duration of Elemental Ailments on You while affected by a Rare Abyss Jewel"
     },
     {
         "id": "stat_2784102684",
@@ -70016,8 +70016,8 @@
     },
     {
         "id": "stat_391460978",
-        "zh": "移动时，你受到的流血消减速度加快 {0}%",
-        "en": "Bleeding on you expires {0}% faster while Moving"
+        "zh": "移动时，你受到的流血消减速度减慢 {0}%",
+        "en": "Bleeding on you expires {0}% slower while Moving"
     },
     {
         "id": "stat_1131820918",
