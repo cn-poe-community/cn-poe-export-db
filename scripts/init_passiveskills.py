@@ -31,8 +31,6 @@ def init_notable_nodes():
     for id, node in zh_nodes.items():
         if id not in node_map:
             continue
-        if 'name' not in node:
-            continue
         name = node['name']
         if name not in name_counts:
             name_counts[name] = 1
@@ -41,7 +39,7 @@ def init_notable_nodes():
 
         node_map[id]["zh"] = name
 
-    node_list = [node for node in node_list if name_counts[node["zh"]] > 1]
+    node_list = [node for node in node_list if name_counts[node["zh"]] == 1]
 
     with open('../src/passiveskills/notables.json', 'wt', encoding="utf-8") as f:
         f.write(json.dumps(node_list, ensure_ascii=False,indent=4))
