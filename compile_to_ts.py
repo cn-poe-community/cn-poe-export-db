@@ -8,7 +8,7 @@ dist = "dist/ts"
 imports = 'import { Attribute } from "../type/attribute.type";\n\
 import { BaseType } from "../type/basetype.type";\n\
 import { Gem } from "../type/gem.type";\n\
-import { NodeMap } from "../type/passiveskill.type";\n\
+import { Node } from "../type/passiveskill.type";\n\
 import { Property } from "../type/property.type";\n\
 import { Requirement, RequirementSuffix } from "../type/requirement.type";\n\
 import { Stat } from "../type/stat.type";\n'
@@ -25,9 +25,9 @@ types["requirements.json"] = "Requirement[]"
 types["requirement_suffixes.json"] = "RequirementSuffix[]"
 types["weapons.json"] = "BaseType[]"
 types["stats.json"] = "Stat[]"
-types["ascendant.json"] = "NodeMap"
-types["keystones.json"] = "NodeMap"
-types["notables.json"] = "NodeMap"
+types["ascendant.json"] = "Node[]"
+types["keystones.json"] = "Node[]"
+types["notables.json"] = "Node[]"
 
 def emptyDir(dir):
     try:

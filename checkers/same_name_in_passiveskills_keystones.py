@@ -1,7 +1,7 @@
 import json
 
 
-file = "../dist/passiveskills/keystones.json"
+file = "../src/passiveskills/keystones.json"
 
 if __name__ == "__main__":
     with open(file, 'rt', encoding='utf-8') as f:

@@ -1,1 +1,257 @@
-{"58556": {"name": {"0": "Divine Shield", "1": "神威之盾"}}, "31961": {"name": {"0": "Resolute Technique", "1": "坚毅之心"}}, "19732": {"name": {"0": "The Agnostic", "1": "惘信者"}}, "41970": {"name": {"0": "Ancestral Bond", "1": "先祖魂约"}}, "57279": {"name": {"0": "Blood Magic", "1": "祭血术"}}, "63425": {"name": {"0": "Zealot's Oath", "1": "狂热誓言"}}, "39713": {"name": {"0": "Glancing Blows", "1": "斗转星移"}}, "44941": {"name": {"0": "Avatar of Fire", "1": "火之化身"}}, "42343": {"name": {"0": "Runebinder", "1": "符文绑定者"}}, "23090": {"name": {"0": "Call to Arms", "1": "召集部队"}}, "24720": {"name": {"0": "Imbalanced Guard", "1": "失衡卫士"}}, "21650": {"name": {"0": "Eternal Youth", "1": "青春永驻"}}, "22088": {"name": {"0": "Elemental Overload", "1": "元素超载"}}, "34098": {"name": {"0": "Mind Over Matter", "1": "心灵升华"}}, "57257": {"name": {"0": "The Impaler", "1": "穿刺者"}}, "40907": {"name": {"0": "Unwavering Stance", "1": "烈士意志"}}, "17818": {"name": {"0": "Crimson Dance", "1": "玫红之舞"}}, "50288": {"name": {"0": "Iron Will", "1": "钢铁意志"}}, "10661": {"name": {"0": "Iron Reflexes", "1": "霸体"}}, "12926": {"name": {"0": "Iron Grip", "1": "钢铁之握"}}, "45175": {"name": {"0": "Necromantic Aegis", "1": "灵能护盾"}}, "60247": {"name": {"0": "Solipsism", "1": "唯我独尊"}}, "56116": {"name": {"0": "Magebane", "1": "法师克星"}}, "43988": {"name": {"0": "Hex Master", "1": "邪法宗师"}}, "18663": {"name": {"0": "Minion Instability", "1": "复仇之灵"}}, "50679": {"name": {"0": "Versatile Combatant", "1": "多面好手"}}, "23540": {"name": {"0": "Conduit", "1": "能量连接"}}, "10808": {"name": {"0": "Vaal Pact", "1": "瓦尔冥约"}}, "23950": {"name": {"0": "Wicked Ward", "1": "恶毒结界"}}, "39085": {"name": {"0": "Elemental Equilibrium", "1": "元素之相"}}, "31703": {"name": {"0": "Pain Attunement", "1": "苦痛灵曲"}}, "56075": {"name": {"0": "Eldritch Battery", "1": "异能魔力"}}, "49639": {"name": {"0": "Supreme Ego", "1": "无上自我"}}, "63620": {"name": {"0": "Precise Technique", "1": "技艺精湛"}}, "42178": {"name": {"0": "Point Blank", "1": "零点射击"}}, "11239": {"name": {"0": "Wind Dancer", "1": "风舞者"}}, "11455": {"name": {"0": "Chaos Inoculation", "1": "异灵之体"}}, "62791": {"name": {"0": "Lethe Shade", "1": "忘川之影"}}, "54922": {"name": {"0": "Arrow Dancing", "1": "箭矢闪跃"}}, "35255": {"name": {"0": "Ghost Dance", "1": "幽灵舞步"}}, "24426": {"name": {"0": "Ghost Reaver", "1": "灵能护体"}}, "23407": {"name": {"0": "Perfect Agony", "1": "完美苦痛"}}, "54307": {"name": {"0": "Acrobatics", "1": "移形换影"}}, "12953": {"name": {"0": "Disciple of Kitava", "1": "奇塔弗门徒"}}, "3354": {"name": {"0": "Lone Messenger", "1": "独行使者"}}, "30847": {"name": {"0": "Nature's Patience", "1": "造化自然"}}, "57280": {"name": {"0": "Secrets of Suffering", "1": "苦难秘辛"}}, "40561": {"name": {"0": "Kineticism", "1": "万物皆动"}}, "32118": {"name": {"0": "Veteran's Awareness", "1": "百战老兵"}}, "60069": {"name": {"0": "Hollow Palm Technique", "1": "空明之掌"}}, "37081": {"name": {"0": "Pitfighter", "1": "深渊斗士"}}}
+[
+    {
+        "id": "58556",
+        "en": "Divine Shield",
+        "zh": "神威之盾"
+    },
+    {
+        "id": "31961",
+        "en": "Resolute Technique",
+        "zh": "坚毅之心"
+    },
+    {
+        "id": "19732",
+        "en": "The Agnostic",
+        "zh": "惘信者"
+    },
+    {
+        "id": "41970",
+        "en": "Ancestral Bond",
+        "zh": "先祖魂约"
+    },
+    {
+        "id": "57279",
+        "en": "Blood Magic",
+        "zh": "祭血术"
+    },
+    {
+        "id": "63425",
+        "en": "Zealot's Oath",
+        "zh": "狂热誓言"
+    },
+    {
+        "id": "39713",
+        "en": "Glancing Blows",
+        "zh": "斗转星移"
+    },
+    {
+        "id": "44941",
+        "en": "Avatar of Fire",
+        "zh": "火之化身"
+    },
+    {
+        "id": "42343",
+        "en": "Runebinder",
+        "zh": "符文绑定者"
+    },
+    {
+        "id": "23090",
+        "en": "Call to Arms",
+        "zh": "召集部队"
+    },
+    {
+        "id": "24720",
+        "en": "Imbalanced Guard",
+        "zh": "失衡卫士"
+    },
+    {
+        "id": "21650",
+        "en": "Eternal Youth",
+        "zh": "青春永驻"
+    },
+    {
+        "id": "22088",
+        "en": "Elemental Overload",
+        "zh": "元素超载"
+    },
+    {
+        "id": "34098",
+        "en": "Mind Over Matter",
+        "zh": "心灵升华"
+    },
+    {
+        "id": "57257",
+        "en": "The Impaler",
+        "zh": "穿刺者"
+    },
+    {
+        "id": "40907",
+        "en": "Unwavering Stance",
+        "zh": "烈士意志"
+    },
+    {
+        "id": "17818",
+        "en": "Crimson Dance",
+        "zh": "玫红之舞"
+    },
+    {
+        "id": "50288",
+        "en": "Iron Will",
+        "zh": "钢铁意志"
+    },
+    {
+        "id": "10661",
+        "en": "Iron Reflexes",
+        "zh": "霸体"
+    },
+    {
+        "id": "12926",
+        "en": "Iron Grip",
+        "zh": "钢铁之握"
+    },
+    {
+        "id": "45175",
+        "en": "Necromantic Aegis",
+        "zh": "灵能护盾"
+    },
+    {
+        "id": "60247",
+        "en": "Solipsism",
+        "zh": "唯我独尊"
+    },
+    {
+        "id": "56116",
+        "en": "Magebane",
+        "zh": "法师克星"
+    },
+    {
+        "id": "43988",
+        "en": "Hex Master",
+        "zh": "邪法宗师"
+    },
+    {
+        "id": "18663",
+        "en": "Minion Instability",
+        "zh": "复仇之灵"
+    },
+    {
+        "id": "50679",
+        "en": "Versatile Combatant",
+        "zh": "多面好手"
+    },
+    {
+        "id": "23540",
+        "en": "Conduit",
+        "zh": "能量连接"
+    },
+    {
+        "id": "10808",
+        "en": "Vaal Pact",
+        "zh": "瓦尔冥约"
+    },
+    {
+        "id": "23950",
+        "en": "Wicked Ward",
+        "zh": "恶毒结界"
+    },
+    {
+        "id": "39085",
+        "en": "Elemental Equilibrium",
+        "zh": "元素之相"
+    },
+    {
+        "id": "31703",
+        "en": "Pain Attunement",
+        "zh": "苦痛灵曲"
+    },
+    {
+        "id": "56075",
+        "en": "Eldritch Battery",
+        "zh": "异能魔力"
+    },
+    {
+        "id": "49639",
+        "en": "Supreme Ego",
+        "zh": "无上自我"
+    },
+    {
+        "id": "63620",
+        "en": "Precise Technique",
+        "zh": "技艺精湛"
+    },
+    {
+        "id": "42178",
+        "en": "Point Blank",
+        "zh": "零点射击"
+    },
+    {
+        "id": "11239",
+        "en": "Wind Dancer",
+        "zh": "风舞者"
+    },
+    {
+        "id": "11455",
+        "en": "Chaos Inoculation",
+        "zh": "异灵之体"
+    },
+    {
+        "id": "62791",
+        "en": "Lethe Shade",
+        "zh": "忘川之影"
+    },
+    {
+        "id": "54922",
+        "en": "Arrow Dancing",
+        "zh": "箭矢闪跃"
+    },
+    {
+        "id": "35255",
+        "en": "Ghost Dance",
+        "zh": "幽灵舞步"
+    },
+    {
+        "id": "24426",
+        "en": "Ghost Reaver",
+        "zh": "灵能护体"
+    },
+    {
+        "id": "23407",
+        "en": "Perfect Agony",
+        "zh": "完美苦痛"
+    },
+    {
+        "id": "54307",
+        "en": "Acrobatics",
+        "zh": "移形换影"
+    },
+    {
+        "id": "12953",
+        "en": "Disciple of Kitava",
+        "zh": "奇塔弗门徒"
+    },
+    {
+        "id": "3354",
+        "en": "Lone Messenger",
+        "zh": "独行使者"
+    },
+    {
+        "id": "30847",
+        "en": "Nature's Patience",
+        "zh": "造化自然"
+    },
+    {
+        "id": "57280",
+        "en": "Secrets of Suffering",
+        "zh": "苦难秘辛"
+    },
+    {
+        "id": "40561",
+        "en": "Kineticism",
+        "zh": "万物皆动"
+    },
+    {
+        "id": "32118",
+        "en": "Veteran's Awareness",
+        "zh": "百战老兵"
+    },
+    {
+        "id": "60069",
+        "en": "Hollow Palm Technique",
+        "zh": "空明之掌"
+    },
+    {
+        "id": "37081",
+        "en": "Pitfighter",
+        "zh": "深渊斗士"
+    }
+]
