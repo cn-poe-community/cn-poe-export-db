@@ -27696,7 +27696,7 @@
     },
     {
         "id": "stat_1829486532",
-        "zh": "有一个传奇怪物出现在你面前：行动速度减慢 {0}%",
+        "zh": "有一个传奇怪物出现在你面前：行动速度加快 {0}%",
         "en": "While a Unique Enemy is in your Presence, {0}% increased Action Speed"
     },
     {
@@ -39833,6 +39833,11 @@
         "id": "stat_2134307667",
         "zh": "投射物有 {0}% 的几率返回你身边",
         "en": "Projectiles have {0}% chance to Return to you"
+    },
+    {
+        "id": "stat_2134307667",
+        "zh": "投射物返回你身边",
+        "en": "Projectiles Return to you"
     },
     {
         "id": "stat_4250752669",
@@ -62306,13 +62311,13 @@
     },
     {
         "id": "mod_40621",
-        "zh": "暴击球的持续时间缩短 50%\n击败敌人时获得一个暴击球",
-        "en": "50% reduced Power Charge Duration\nGain a Power Charge on Kill"
+        "zh": "暴击球的持续时间缩短 {0}%\n击败敌人时获得一个暴击球",
+        "en": "{0}% reduced Power Charge Duration\nGain a Power Charge on Kill"
     },
     {
         "id": "mod_40621",
-        "zh": "暴击球的持续时间缩短 50%",
-        "en": "50% reduced Power Charge Duration"
+        "zh": "暴击球的持续时间缩短 {0}%",
+        "en": "{0}% reduced Power Charge Duration"
     },
     {
         "id": "mod_40621",
@@ -62321,13 +62326,13 @@
     },
     {
         "id": "mod_43492",
-        "zh": "耐力球持续时间缩短 50%\n击败敌人时获得耐力球",
-        "en": "50% reduced Endurance Charge Duration\nGain an Endurance Charge on Kill"
+        "zh": "耐力球持续时间缩短 {0}%\n击败敌人时获得耐力球",
+        "en": "{0}% reduced Endurance Charge Duration\nGain an Endurance Charge on Kill"
     },
     {
         "id": "mod_43492",
-        "zh": "耐力球持续时间缩短 50%",
-        "en": "50% reduced Endurance Charge Duration"
+        "zh": "耐力球持续时间缩短 {0}%",
+        "en": "{0}% reduced Endurance Charge Duration"
     },
     {
         "id": "mod_43492",
@@ -69738,5 +69743,10 @@
         "id": "stat_2443166200",
         "zh": "有一个传奇怪物出现在你面前：物理伤害的 {0}% 转化为生命偷取",
         "en": "While a Unique Enemy is in your Presence, {0}% of Physical Damage Leeched as Life"
+    },
+    {
+        "id": "stat_631097842",
+        "zh": "炼狱战吼的效果区域扩大 {0}%",
+        "en": "Infernal Cry has {0}% increased Area of Effect"
     }
 ]
