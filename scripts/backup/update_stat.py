@@ -1,7 +1,7 @@
 import json
 
-zh_file = "../docs/trade/3.20/zh_stats_20230215.json"
-en_file = "../docs/trade/3.20/en_stats_20230215.json"
+zh_file = "../docs/trade/3.21/zh_stats_20230414.json"
+en_file = "../docs/trade/3.21/en_stats_20230414.json"
 stat_file = "../src/stats/main.json"
 
 
@@ -15,8 +15,12 @@ def filter_label(label: str):
 
 
 def format_stat(stat: str):
-    stat = stat.replace("#", "(\\S+)")
-    stat = stat.replace(" (区域) ", "")
+    for i in range(100):
+        stat = stat.replace("#", f"{{{i}}}", 1)
+        if "#" not in stat:
+            break
+    stat = stat.replace(" (区域)", "")
+    stat = stat.replace(" (Local)", "")
     return "^{}$".format(stat)
 
 
@@ -86,7 +90,7 @@ def update_ascii_zh_stat():
             new_stats.append(stat)
 
     with open(f'{stat_file}.new.json', 'wt', encoding="utf-8") as f:
-        f.write(json.dumps(new_stats, ensure_ascii=False))
+        f.write(json.dumps(new_stats, ensure_ascii=False, indent=4))
 
 
 def update_diff_zh():
@@ -133,14 +137,19 @@ def update_zh_and_en(ids: list[str]):
 
     for id in ids:
         if id not in stats_indexes:
-            return
+            print(f"{id} not in main.json, skip")
+            continue
 
         stats = stats_indexes[id]
         if len(stats) > 1:
-            print(f"{id} mapping multi-stat, can't be updated")
-            return
-        if id not in zh_indexes or id not in en_indexes:
-            return
+            print(f"{id} mapping multi-stat, skip")
+            continue
+        if id not in zh_indexes:
+            print(f"{id} not in zh_stats, skip")
+            continue
+        if id not in en_indexes:
+            print(f"{id} not in en_stats, skip")
+            continue
 
         zh_stat: str = format_stat(zh_indexes[id]["text"])
         en_stat: str = format_stat(en_indexes[id]["text"])
@@ -228,7 +237,7 @@ def update_zh_en_by_id_prefix(prefix:str):
 
 
 if __name__ == "__main__":
-    ids = ["stat_430890565", "stat_3818053347", "stat_658622139"
-           "stat_3563089138", "stat_3563089138", "stat_491551762"]
+    ids = ["indexable_support_37", "stat_591645420", "stat_1498186316",
+           "stat_1803063132", "stat_1778800422", "stat_884220218"]
     update_zh_and_en(ids)
     #update_zh_en_by_id_prefix("indexable_support")
