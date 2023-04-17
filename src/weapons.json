@@ -132,6 +132,10 @@
             {
                 "zh": "托沃崩",
                 "en": "Tulborn"
+            },
+            {
+                "zh": "禁锢暴风",
+                "en": "Storm Prison"
             }
         ]
     },
@@ -150,6 +154,10 @@
 			{
                 "zh": "托沃卧【仿品】",
                 "en": "Replica Tulfall"
+            },
+            {
+                "zh": "托沃崩",
+                "en": "Tulborn"
             }
         ]
     },
@@ -1370,6 +1378,10 @@
             {
                 "zh": "冥约【仿品】",
                 "en": "Replica Midnight Bargain"
+            },
+            {
+                "zh": "宇蚀",
+                "en": "Eclipse Solaris"
             }
         ]
     },
@@ -1418,6 +1430,14 @@
             {
                 "zh": "泣月",
                 "en": "Moonsorrow"
+            },
+            {
+                "zh": "抹灭",
+                "en": "Obliteration"
+            },
+            {
+                "zh": "皮斯卡托的慧眼",
+                "en": "Piscator's Vigil"
             }
         ]
     },
@@ -1768,6 +1788,10 @@
             {
                 "zh": "峡湾之星",
                 "en": "Twyzel"
+            },
+            {
+                "zh": "协约的遗物",
+                "en": "Relic of the Pact"
             }
         ]
     },
@@ -1940,6 +1964,10 @@
             {
                 "zh": "暴风雨",
                 "en": "The Tempest"
+            },
+            {
+                "zh": "乱矢之弦",
+                "en": "Chin Sol"
             }
         ]
     },
@@ -1954,6 +1982,10 @@
             {
                 "zh": "诗人之笔",
                 "en": "The Poet's Pen"
+            },
+            {
+                "zh": "灰烬行者",
+                "en": "Ashcaller"
             }
         ]
     },
@@ -2637,7 +2669,12 @@
     {
         "zh": "阔剑",
         "en": "Broad Sword",
-        "uniques": []
+        "uniques": [
+            {
+                "zh": "韧木曲刃",
+                "en": "Grelwood Shank"
+            }
+        ]
     },
     {
         "zh": "远古之剑",
@@ -2767,7 +2804,12 @@
     {
         "zh": "灵兆法杖",
         "en": "Omen Wand",
-        "uniques": []
+        "uniques": [
+            {
+                "zh": "艾普之怒",
+                "en": "Apep's Rage"
+            }
+        ]
     },
     {
         "zh": "兽角法杖",
@@ -3162,6 +3204,11 @@
     {
         "zh": "召唤法杖",
         "en": "Calling Wand",
+        "uniques": []
+    },
+    {
+        "zh": "盘曲法杖",
+        "en": "Coiled Wand",
         "uniques": []
     }
 ]

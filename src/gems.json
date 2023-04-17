@@ -3254,6 +3254,10 @@
     {
         "skills": [
             {
+                "en": "Spellslinger",
+                "zh": "法术节魔"
+            },
+            {
                 "en": "Spellslinger Support",
                 "zh": "法术节魔（辅）"
             }
@@ -4099,7 +4103,7 @@
         "skills": [
             {
                 "en": "Vaal Animate Weapon",
-                "zh": "瓦尔：幻化武器"
+                "zh": "瓦尔：活化武器"
             }
         ]
     },
@@ -4183,6 +4187,10 @@
         "skills": [
             {
                 "en": "Snipe",
+                "zh": "狙击"
+            },
+            {
+                "en": "Snipe Support",
                 "zh": "狙击"
             }
         ]

@@ -228,6 +228,10 @@
             {
                 "zh": "艾普之梦",
                 "en": "Apep's Slumber"
+            },
+            {
+                "zh": "孔明的神算",
+                "en": "Kongming's Stratagem"
             }
         ]
     },
@@ -404,11 +408,27 @@
         ]
     },
     {
-        "zh": [
-            "异色鞋(冰闪)",
-            "异色鞋 (火冰)",
-            "异色鞋 (火闪)"
-        ],
+        "zh": "异色鞋 (火闪)",
+        "en": "Two-Toned Boots",
+        "uniques": [
+            {
+                "zh": "疯狂的象征",
+                "en": "Beacon of Madness"
+            }
+        ]
+    },
+    {
+        "zh": "异色鞋(冰闪)",
+        "en": "Two-Toned Boots",
+        "uniques": [
+            {
+                "zh": "疯狂的象征",
+                "en": "Beacon of Madness"
+            }
+        ]
+    },
+    {
+        "zh": "异色鞋 (火冰)",
         "en": "Two-Toned Boots",
         "uniques": [
             {
@@ -852,7 +872,7 @@
         "en": "Carnal Boots",
         "uniques": [
             {
-                "zh": "灵枢行者",
+                "zh": "灵柩行者",
                 "en": "Corpsewalker"
             },
             {
@@ -2394,6 +2414,10 @@
             {
                 "zh": "神性破碎",
                 "en": "The Shattered Divinity"
+            },
+            {
+                "zh": "寒锋之卫",
+                "en": "Rearguard"
             }
         ]
     },
@@ -4008,7 +4032,12 @@
     {
         "zh": "锥顶盔",
         "en": "Cone Helmet",
-        "uniques": []
+        "uniques": [
+            {
+                "zh": "深渊之唤",
+                "en": "Abyssus"
+            }
+        ]
     },
     {
         "zh": "轻骑盔",
@@ -4183,7 +4212,12 @@
     {
         "zh": "软橡魔盾",
         "en": "Lacewood Spirit Shield",
-        "uniques": []
+        "uniques": [
+            {
+                "zh": "魔力风暴",
+                "en": "Manastorm"
+            }
+        ]
     },
     {
         "zh": "紫衫魔盾",
@@ -4358,12 +4392,30 @@
     {
         "zh": "燃矢箭袋",
         "en": "Blazing Arrow Quiver",
-        "uniques": []
+        "uniques": [
+            {
+                "zh": "黑炎之芒",
+                "en": "Blackgleam"
+            },
+            {
+                "zh": "狼烟",
+                "en": "The Signal Fire"
+            }
+        ]
     },
     {
         "zh": "飞羽箭袋",
         "en": "Feathered Arrow Quiver",
-        "uniques": []
+        "uniques": [
+            {
+                "zh": "冰灵之吼",
+                "en": "Asphyxia's Wrath"
+            },
+            {
+                "zh": "勇者之礼",
+                "en": "Saemus' Gift"
+            }
+        ]
     },
     {
         "zh": "重矢箭袋",
@@ -4382,12 +4434,21 @@
             {
                 "zh": "平衡棱镜",
                 "en": "The Poised Prism"
+            },
+            {
+                "zh": "虚空制箭者",
+                "en": "Voidfletcher"
             }
         ]
     },
     {
         "zh": "恶矢箭袋",
         "en": "Vile Arrow Quiver",
-        "uniques": []
+        "uniques": [
+            {
+                "zh": "马洛尼的暮光",
+                "en": "Maloney's Nightfall"
+            }
+        ]
     }
 ]

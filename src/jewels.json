@@ -224,6 +224,10 @@
             {
                 "zh": "恐惧之平衡",
                 "en": "The Balance of Terror"
+            },
+            {
+                "zh": "血肉融合",
+                "en": "Melding of the Flesh"
             }
         ]
     },
@@ -764,7 +768,7 @@
         "en": "Searching Eye Jewel",
         "uniques": [
             {
-                "zh": "乌勒曼的凝视",
+                "zh": "薛乌勒曼的凝视",
                 "en": "Ulaman's Gaze"
             }
         ]
