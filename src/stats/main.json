@@ -25881,7 +25881,7 @@
     },
     {
         "id": "stat_2696701853",
-        "zh": "主手攻击伤害提高 {0}%",
+        "zh": "主手攻击伤害降低 {0}%",
         "en": "{0}% reduced Attack Damage with Main Hand"
     },
     {
@@ -26136,7 +26136,7 @@
     },
     {
         "id": "stat_1749278976",
-        "zh": "你格挡敌人的伤害时，有 {0}% 的几率给它们施加脆弱",
+        "zh": "你格挡敌人的伤害时，给它们施加脆弱",
         "en": "Inflict Brittle on Enemies when you Block their Damage"
     },
     {
@@ -32118,6 +32118,11 @@
         "id": "stat_1972391381",
         "zh": "外延抗性词缀增幅提高 {0}%",
         "en": "{0}% increased Explicit Resistance Modifier magnitudes"
+    },
+    {
+        "id": "stat_1972391381",
+        "zh": "外延抗性词缀增幅降低 {0}%",
+        "en": "{0}% reduced Explicit Resistance Modifier magnitudes"
     },
     {
         "id": "stat_1062615953",
