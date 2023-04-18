@@ -15156,7 +15156,7 @@
     },
     {
         "id": "stat_763611529",
-        "zh": "击中时有 {0}% 的几率恐惧敌人 4 秒",
+        "zh": "击中时恐惧敌人 4 秒",
         "en": "Unnerve Enemies for 4 seconds on Hit"
     },
     {
@@ -54141,18 +54141,18 @@
     },
     {
         "id": "mod_62418",
-        "zh": "技能的保留效能降低 15%\n法术暴击率 +0.8%",
-        "en": "15% reduced Reservation Efficiency of Skills\n+0.8% to Spell Critical Strike Chance"
+        "zh": "技能的保留效能降低 {0}%\n法术暴击率 +{1}%",
+        "en": "{0}% reduced Reservation Efficiency of Skills\n+{1}% to Spell Critical Strike Chance"
     },
     {
         "id": "mod_62418",
-        "zh": "技能的保留效能降低 15%",
-        "en": "15% reduced Reservation Efficiency of Skills"
+        "zh": "技能的保留效能降低 {0}%",
+        "en": "{0}% reduced Reservation Efficiency of Skills"
     },
     {
         "id": "mod_62418",
-        "zh": "法术暴击率 +0.8%",
-        "en": "+0.8% to Spell Critical Strike Chance"
+        "zh": "法术暴击率 +{0}%",
+        "en": "+{0}% to Spell Critical Strike Chance"
     },
     {
         "id": "mod_14609",
