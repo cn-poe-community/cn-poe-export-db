@@ -78,5 +78,10 @@
         "id": "flask_property_16",
         "zh": "{0} 秒内回复 {1} (augmented) 魔力",
         "en": "Recovers {1} (augmented) Mana over {0} Seconds"
+    },
+    {
+        "id": "flask_property_17",
+        "zh": "被玩家击中时移除该效果",
+        "en": "Effect is removed when Hit by a Player"
     }
 ]

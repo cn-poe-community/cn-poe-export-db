@@ -25916,7 +25916,7 @@
     },
     {
         "id": "stat_170394517",
-        "zh": "总命中值总增 {0}%",
+        "zh": "总命中值总降 {0}%",
         "en": "{0}% less Accuracy Rating"
     },
     {
@@ -38363,6 +38363,11 @@
         "id": "stat_3091578504",
         "zh": "召唤生物的攻击和施法速度加快 {0}%",
         "en": "Minions have {0}% increased Attack and Cast Speed"
+    },
+    {
+        "id": "stat_3091578504",
+        "zh": "召唤生物的攻击和施法速度减慢 {0}%",
+        "en": "Minions have {0}% reduced Attack and Cast Speed"
     },
     {
         "id": "stat_2500585555",
@@ -69753,5 +69758,10 @@
         "id": "stat_631097842",
         "zh": "炼狱战吼的效果区域扩大 {0}%",
         "en": "Infernal Cry has {0}% increased Area of Effect"
+    },
+    {
+        "id": "stat_3357881628",
+        "zh": "有一个传奇怪物出现在你面前：冰霜伤害的 {0}% 转化为生命偷取",
+        "en": "While a Unique Enemy is in your Presence, {0}% of Cold Damage Leeched as Life"
     }
 ]
