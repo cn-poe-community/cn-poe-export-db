@@ -9841,7 +9841,7 @@
     },
     {
         "id": "stat_769192511",
-        "zh": "你在天赋树上连接到一个职业的出发位置时，你获得：\n野蛮人：近战技能效果区域扩大 {0}%\n决斗者：攻击伤害的 {1}% 转化为生命偷取\n游侠：移动速度加快{2}%\n暗影：暴击率{3}%\n女巫：每秒再生 {4}% 的魔力\n圣堂武僧：伤害穿透 {5}% 元素抗性\n贵族：全属性 {6}",
+        "zh": "你在天赋树上连接到一个职业的出发位置时，你获得：\n野蛮人：近战技能效果区域扩大 {0}%\n决斗者：攻击伤害的 {1}% 转化为生命偷取\n游侠：移动速度加快 {2}%\n暗影：暴击率{3}%\n女巫：每秒再生 {4}% 的魔力\n圣堂武僧：伤害穿透 {5}% 元素抗性\n贵族：全属性 {6}",
         "en": "While your Passive Skill Tree connects to a class' starting location, you gain:\nMarauder: Melee Skills have {0}% increased Area of Effect\nDuelist: {1}% of Attack Damage Leeched as Life\nRanger: {2}% increased Movement Speed\nShadow: {3}% to Critical Strike Chance\nWitch: {4}% of Mana Regenerated per second\nTemplar: Damage Penetrates {5}% Elemental Resistances\nScion: {6} to All Attributes"
     },
     {
@@ -14776,7 +14776,7 @@
     },
     {
         "id": "stat_3995612171",
-        "zh": "【极地装甲】的增益效果提高 {0}%",
+        "zh": "【极地装甲】的增益效果降低 {0}%",
         "en": "{0}% reduced Arctic Armour Buff Effect"
     },
     {
@@ -15386,7 +15386,7 @@
     },
     {
         "id": "stat_1316278494",
-        "zh": "战吼施法速度加快 {0}%",
+        "zh": "战吼施法速度减慢 {0}%",
         "en": "{0}% reduced Warcry Speed"
     },
     {
@@ -15921,7 +15921,7 @@
     },
     {
         "id": "stat_2308278768",
-        "zh": "位移技能的冷却回复率提高 {0}%",
+        "zh": "位移技能的冷却回复率降低 {0}%",
         "en": "{0}% reduced Cooldown Recovery Rate of Travel Skills"
     },
     {
@@ -16186,7 +16186,7 @@
     },
     {
         "id": "stat_3742945352",
-        "zh": "【憎恨】的光环效果提高 {0}%",
+        "zh": "【憎恨】的光环效果降低 {0}%",
         "en": "Hatred has {0}% reduced Aura Effect"
     },
     {
@@ -16196,7 +16196,7 @@
     },
     {
         "id": "stat_74338099",
-        "zh": "技能可以额外发射 1 个投射物",
+        "zh": "技能可以额外发射 {0} 个投射物",
         "en": "Skills fire {0} additional Projectiles"
     },
     {
@@ -16711,7 +16711,7 @@
     },
     {
         "id": "stat_2241902512",
-        "zh": "每 20 点力量可使火焰伤害提高 {0}%",
+        "zh": "每 20 点力量可使火焰伤害降低 {0}%",
         "en": "{0}% reduced Fire Damage per 20 Strength"
     },
     {
@@ -16771,7 +16771,7 @@
     },
     {
         "id": "stat_2181129193",
-        "zh": "静止时受到的物理伤害降低 {0}%",
+        "zh": "静止时受到的物理伤害提高 {0}%",
         "en": "{0}% Physical Damage taken while stationary"
     },
     {
@@ -17071,7 +17071,7 @@
     },
     {
         "id": "stat_3961014595",
-        "zh": "每 16 点智慧可使法术伤害提高 {0}%",
+        "zh": "每 16 点智慧可使法术伤害降低 {0}%",
         "en": "{0}% reduced Spell Damage per 16 Intelligence"
     },
     {
@@ -17571,7 +17571,7 @@
     },
     {
         "id": "stat_430248187",
-        "zh": "若你近期内晕眩过敌人，则效果区域扩大 {0}%",
+        "zh": "若你近期内晕眩过敌人，则效果区域缩小 {0}%",
         "en": "{0}% reduced Area of Effect if you have Stunned an Enemy Recently"
     },
     {
@@ -17701,7 +17701,7 @@
     },
     {
         "id": "stat_1745952865",
-        "zh": "自身受到的元素异常状态时间缩短 {0}%",
+        "zh": "自身受到的元素异常状态时间延长 {0}%",
         "en": "{0}% increased Elemental Ailment Duration on you"
     },
     {
@@ -17827,7 +17827,7 @@
     {
         "id": "stat_1790172543",
         "zh": "对流血敌人的击中和异常状态伤害降低 {0}%",
-        "en": "{0}% reduced Damage with Hits and Ailments  against Bleeding Enemies"
+        "en": "{0}% reduced Damage with Hits and Ailments against Bleeding Enemies"
     },
     {
         "id": "stat_1575519214",
@@ -18056,7 +18056,7 @@
     },
     {
         "id": "stat_4096052153",
-        "zh": "【奋锐光环】的光环效果提高 {0}%",
+        "zh": "【奋锐光环】的光环效果降低 {0}%",
         "en": "Zealotry has {0}% reduced Aura Effect"
     },
     {
@@ -18176,7 +18176,7 @@
     },
     {
         "id": "stat_4175197580",
-        "zh": "【怨毒光环】的光环效果提高 {0}%",
+        "zh": "【怨毒光环】的光环效果降低 {0}%",
         "en": "Malevolence has {0}% reduced Aura Effect"
     },
     {
@@ -18451,7 +18451,7 @@
     },
     {
         "id": "stat_1592278124",
-        "zh": "愤怒光环的效果提高 {0}%",
+        "zh": "愤怒光环的效果降低 {0}%",
         "en": "Anger has {0}% reduced Aura Effect"
     },
     {
@@ -18476,7 +18476,7 @@
     },
     {
         "id": "stat_2013799819",
-        "zh": "偷取的每秒最大能量护盾总恢复量提高 {0}%",
+        "zh": "偷取的每秒最大能量护盾总恢复量降低 {0}%",
         "en": "{0}% reduced Maximum total Energy Shield Recovery per second from Leech"
     },
     {
@@ -18501,7 +18501,7 @@
     },
     {
         "id": "stat_325889252",
-        "zh": "坚定的魔力保留效能提高 {0}%",
+        "zh": "坚定的魔力保留效能降低 {0}%",
         "en": "Determination has {0}% reduced Mana Reservation Efficiency"
     },
     {
@@ -18926,7 +18926,7 @@
     },
     {
         "id": "stat_2081344089",
-        "zh": "纪律的魔力保留效能提高 {0}%",
+        "zh": "纪律的魔力保留效能降低 {0}%",
         "en": "Discipline has {0}% reduced Mana Reservation Efficiency"
     },
     {
@@ -19361,7 +19361,7 @@
     },
     {
         "id": "stat_900639351",
-        "zh": "优雅的魔力保留效能提高 {0}%",
+        "zh": "优雅的魔力保留效能降低 {0}%",
         "en": "Grace has {0}% reduced Mana Reservation Efficiency"
     },
     {
@@ -19386,7 +19386,7 @@
     },
     {
         "id": "stat_4223377453",
-        "zh": "烙印的附着范围扩大 {0}%",
+        "zh": "烙印的附着范围缩小 {0}%",
         "en": "{0}% reduced Brand Attachment range"
     },
     {
@@ -19566,7 +19566,7 @@
     },
     {
         "id": "stat_3411256933",
-        "zh": "闪电净化的魔力保留效能提高 {0}%",
+        "zh": "闪电净化的魔力保留效能降低 {0}%",
         "en": "Purity of Lightning has {0}% reduced Mana Reservation Efficiency"
     },
     {
@@ -19721,7 +19721,7 @@
     },
     {
         "id": "stat_680068163",
-        "zh": "晕眩门槛提高 {0}%",
+        "zh": "晕眩门槛降低 {0}%",
         "en": "{0}% reduced Stun Threshold"
     },
     {
@@ -19891,7 +19891,7 @@
     },
     {
         "id": "stat_240857668",
-        "zh": "灵巧效果提高 {0}%",
+        "zh": "灵巧效果降低 {0}%",
         "en": "{0}% reduced Elusive Effect"
     },
     {
@@ -19946,7 +19946,7 @@
     },
     {
         "id": "stat_139925400",
-        "zh": "冰霜净化的魔力保留效能提高 {0}%",
+        "zh": "冰霜净化的魔力保留效能降低 {0}%",
         "en": "Purity of Ice has {0}% reduced Mana Reservation Efficiency"
     },
     {
@@ -20166,7 +20166,7 @@
     },
     {
         "id": "stat_2181791238",
-        "zh": "【雷霆】的光环效果提高 {0}%",
+        "zh": "【雷霆】的光环效果降低 {0}%",
         "en": "Wrath has {0}% reduced Aura Effect"
     },
     {
@@ -21215,46 +21215,6 @@
         "en": "When Players Kill a Rare Monster they will gain 1 of its Modifiers for 20 seconds"
     },
     {
-        "id": "stat_76458612",
-        "zh": "你在天赋树上连接到野蛮人的出发位置时，你获得：\n每秒生命再生 {0}%",
-        "en": "While your Passive Skill Tree connects to the Marauder's starting location, you gain:\n{0}% of Life Regenerated per second"
-    },
-    {
-        "id": "stat_76458612",
-        "zh": "你在天赋树上连接到决斗者的出发位置时，你获得：\n近战打击距离 {0}",
-        "en": "While your Passive Skill Tree connects to the Duelist's starting location, you gain:\n{0} to Melee Strike Range"
-    },
-    {
-        "id": "stat_76458612",
-        "zh": "你在天赋树上连接到游侠的出发位置时，你获得:\n药剂充能获取率提高 {0}%",
-        "en": "While your Passive Skill Tree connects to the Ranger's starting location, you gain:\n{0}% increased Flask Charges gained"
-    },
-    {
-        "id": "stat_76458612",
-        "zh": "你在天赋树上连接到暗影的出发位置时，你获得：\n攻击和施法速度提高  {0}%",
-        "en": "While your Passive Skill Tree connects to the Shadow's starting location, you gain:\n{0}% increased Attack and Cast Speed"
-    },
-    {
-        "id": "stat_76458612",
-        "zh": "你在天赋树上连接到女巫的出发位置时，你获得：\n技能效果持续时间延长  {0}%",
-        "en": "While your Passive Skill Tree connects to the Witch's starting location, you gain:\n{0}% increased Skill Effect Duration"
-    },
-    {
-        "id": "stat_76458612",
-        "zh": "你在天赋树上连接到圣堂武僧的出发位置时，你获得：\n攻击和法术伤害格挡率 {0}%",
-        "en": "While your Passive Skill Tree connects to the Templar's starting location, you gain:\n{0}% Chance to Block Attack and Spell Damage"
-    },
-    {
-        "id": "stat_76458612",
-        "zh": "你在天赋树上连接到贵族的出发位置时，你获得：\n伤害提高  {0}%",
-        "en": "While your Passive Skill Tree connects to the Scion's starting location, you gain:\n{0}% increased Damage"
-    },
-    {
-        "id": "stat_76458612",
-        "zh": "你在天赋树上连接到一个职业的出发位置时，你获得：\n野蛮人：每秒生命再生 {0}%\n决斗者：近战打击距离 {1}\n游侠：药剂充能获取率提高  {2}%\n暗影：攻击和施法速度提高  {3}%\n女巫：技能效果持续时间延长  {4}%\n圣堂武僧：攻击和法术伤害格挡率 {5}%\n贵族：伤害提高  {6}%",
-        "en": "While your Passive Skill Tree connects to a class' starting location, you gain:\nMarauder: {0}% of Life Regenerated per second\nDuelist: {1} to Melee Strike Range\nRanger: {2}% increased Flask Charges gained\nShadow: {3}% increased Attack and Cast Speed\nWitch: {4}% increased Skill Effect Duration\nTemplar: {5}% Chance to Block Attack and Spell Damage\nScion: {6}% increased Damage"
-    },
-    {
         "id": "stat_3945147290",
         "zh": "格挡时有 {0}% 的几率获得暴击球",
         "en": "{0}% chance to gain a Power Charge when you Block"
@@ -21266,7 +21226,7 @@
     },
     {
         "id": "stat_2008219439",
-        "zh": "斧类物理伤害提高 {0}%",
+        "zh": "斧类物理伤害降低 {0}%",
         "en": "{0}% reduced Physical Damage with Axes"
     },
     {
@@ -21351,7 +21311,7 @@
     },
     {
         "id": "stat_4249521944",
-        "zh": "每 16 点力量可使法术伤害提高 {0}%",
+        "zh": "每 16 点力量可使法术伤害降低 {0}%",
         "en": "{0}% reduced Spell Damage per 16 Strength"
     },
     {
@@ -21631,7 +21591,7 @@
     },
     {
         "id": "stat_2612056840",
-        "zh": "每 16 点敏捷可使法术伤害提高 {0}%",
+        "zh": "每 16 点敏捷可使法术伤害降低 {0}%",
         "en": "{0}% reduced Spell Damage per 16 Dexterity"
     },
     {
@@ -21697,12 +21657,12 @@
     {
         "id": "stat_1064067689",
         "zh": "每一级在击败敌人时获得 {0} 魔力",
-        "en": "{0} Mana gained on Kill per Level"
+        "en": "Gain {0} Mana on Kill per Level"
     },
     {
         "id": "stat_294153754",
         "zh": "每一级在击败敌人时获得 {0} 能量护盾",
-        "en": "{0} Energy Shield gained on Kill per Level"
+        "en": "Gain {0} Energy Shield on Kill per Level"
     },
     {
         "id": "stat_1655460656",
@@ -21817,7 +21777,7 @@
     {
         "id": "stat_4228691877",
         "zh": "每一级在击败敌人时获得 {0} 生命",
-        "en": "{0} Life gained on Kill per Level"
+        "en": "Gain {0} Life on Kill per Level"
     },
     {
         "id": "stat_613525808",
@@ -22086,7 +22046,7 @@
     },
     {
         "id": "stat_690707482",
-        "zh": "异常状态伤害提高 {0}%",
+        "zh": "异常状态伤害降低 {0}%",
         "en": "{0}% reduced Damage with Ailments"
     },
     {
@@ -23046,7 +23006,7 @@
     },
     {
         "id": "stat_1073314277",
-        "zh": "每 10 点力量会使法术伤害提高 {0}%",
+        "zh": "每 10 点力量会使法术伤害降低 {0}%",
         "en": "{0}% reduced Spell Damage per 10 Strength"
     },
     {
@@ -23131,7 +23091,7 @@
     },
     {
         "id": "stat_2257141320",
-        "zh": "瓦尔技能的伤害提高 {0}%",
+        "zh": "瓦尔技能的伤害降低 {0}%",
         "en": "{0}% reduced Damage with Vaal Skills"
     },
     {
@@ -23241,7 +23201,7 @@
     },
     {
         "id": "stat_803185500",
-        "zh": "你的咒印效果效果提高 {0}%",
+        "zh": "你的咒印效果效果降低 {0}%",
         "en": "{0}% reduced Effect of your Marks"
     },
     {
@@ -23646,7 +23606,7 @@
     },
     {
         "id": "stat_3003688066",
-        "zh": "火焰净化的魔力保留效能提高 {0}%",
+        "zh": "火焰净化的魔力保留效能降低 {0}%",
         "en": "Purity of Fire has {0}% reduced Mana Reservation Efficiency"
     },
     {
@@ -24956,7 +24916,7 @@
     },
     {
         "id": "stat_2351239732",
-        "zh": "极地装甲的魔力保留效能提高 {0}%",
+        "zh": "极地装甲的魔力保留效能降低 {0}%",
         "en": "Arctic Armour has {0}% reduced Mana Reservation Efficiency"
     },
     {
@@ -25166,7 +25126,7 @@
     },
     {
         "id": "stat_96977651",
-        "zh": "偷取的每秒最大魔力总恢复量提高 {0}%",
+        "zh": "偷取的每秒最大魔力总恢复量降低 {0}%",
         "en": "{0}% reduced Maximum total Mana Recovery per second from Leech"
     },
     {
@@ -25666,7 +25626,7 @@
     },
     {
         "id": "stat_369183568",
-        "zh": "格挡回复提高 {0}%",
+        "zh": "格挡回复降低 {0}%",
         "en": "{0}% reduced Block Recovery"
     },
     {
@@ -25726,7 +25686,7 @@
     },
     {
         "id": "stat_397427740",
-        "zh": "【优雅】的光环效果提高 {0}%",
+        "zh": "【优雅】的光环效果降低 {0}%",
         "en": "Grace has {0}% reduced Aura Effect"
     },
     {
@@ -25736,7 +25696,7 @@
     },
     {
         "id": "stat_788317702",
-        "zh": "【纪律】的光环效果提高 {0}%",
+        "zh": "【纪律】的光环效果降低 {0}%",
         "en": "Discipline has {0}% reduced Aura Effect"
     },
     {
@@ -25746,7 +25706,7 @@
     },
     {
         "id": "stat_3653400807",
-        "zh": "【坚定】的光环效果提高 {0}%",
+        "zh": "【坚定】的光环效果降低 {0}%",
         "en": "Determination has {0}% reduced Aura Effect"
     },
     {
@@ -25756,7 +25716,7 @@
     },
     {
         "id": "stat_4247488219",
-        "zh": "【尊严】的光环效果提高 {0}%",
+        "zh": "【尊严】的光环效果降低 {0}%",
         "en": "Pride has {0}% reduced Aura Effect"
     },
     {
@@ -25801,7 +25761,7 @@
     },
     {
         "id": "stat_2898434123",
-        "zh": "药剂持续期间，暴击几率提高 {0}%",
+        "zh": "药剂持续期间，暴击几率降低 {0}%",
         "en": "{0}% reduced Critical Strike Chance during any Flask Effect"
     },
     {
@@ -25856,7 +25816,7 @@
     },
     {
         "id": "stat_3591306273",
-        "zh": "偷取生命时伤害提高 {0}%",
+        "zh": "偷取生命时伤害降低 {0}%",
         "en": "{0}% reduced Damage while Leeching Life"
     },
     {
@@ -25866,7 +25826,7 @@
     },
     {
         "id": "stat_2924279089",
-        "zh": "副手攻击伤害提高 {0}%",
+        "zh": "副手攻击伤害降低 {0}%",
         "en": "{0}% reduced Attack Damage with Off Hand"
     },
     {
@@ -25886,7 +25846,7 @@
     },
     {
         "id": "stat_1994684426",
-        "zh": "偷取魔力时伤害提高 {0}%",
+        "zh": "偷取魔力时伤害降低 {0}%",
         "en": "{0}% reduced Damage while Leeching Mana"
     },
     {
@@ -25901,7 +25861,7 @@
     },
     {
         "id": "stat_4282426229",
-        "zh": "每 6 秒获得一个耐力球、狂怒球或暴击球",
+        "zh": "每 6 秒获得 {0} 耐力球、狂怒球或暴击球",
         "en": "Gain {0} Endurance, Frenzy or Power Charges every 6 seconds"
     },
     {
@@ -25926,7 +25886,7 @@
     },
     {
         "id": "stat_1581907402",
-        "zh": "外延词缀幅度提高 {0}%",
+        "zh": "外延词缀幅度降低 {0}%",
         "en": "{0}% reduced Explicit Modifier magnitudes"
     },
     {
@@ -25991,7 +25951,7 @@
     },
     {
         "id": "stat_3868549606",
-        "zh": "消耗总计 200 魔力后获得 1 个狂怒球",
+        "zh": "消耗总计 200 魔力后获得 {0} 个狂怒球",
         "en": "Gain {0} Frenzy Charges after Spending a total of 200 Mana"
     },
     {
@@ -26021,7 +25981,7 @@
     },
     {
         "id": "stat_3815042054",
-        "zh": "每装备一件被腐化的物品，生命偷取的每秒总恢复量提高 {0}%",
+        "zh": "每装备一件被腐化的物品，生命偷取的每秒总恢复量降低 {0}%",
         "en": "{0}% reduced total Recovery per second from Life Leech for each Corrupted Item Equipped"
     },
     {
@@ -26031,7 +25991,7 @@
     },
     {
         "id": "stat_4004011170",
-        "zh": "每装备一个被腐化的物品时，混沌伤害提高 {0}%",
+        "zh": "每装备一个被腐化的物品时，混沌伤害降低 {0}%",
         "en": "{0}% reduced Chaos Damage for each Corrupted Item Equipped"
     },
     {
@@ -26051,7 +26011,7 @@
     },
     {
         "id": "stat_2679819855",
-        "zh": "每装备 1 个被腐化的物品时，从魔力偷取中获得的每秒总恢复量提高 {0}%",
+        "zh": "每装备 1 个被腐化的物品时，从魔力偷取中获得的每秒总恢复量降低 {0}%",
         "en": "{0}% reduced total Recovery per second from Mana Leech for each Corrupted Item Equipped"
     },
     {
@@ -26061,7 +26021,7 @@
     },
     {
         "id": "stat_1124980805",
-        "zh": "位移技能的的冷却恢复速度加快 {0}%",
+        "zh": "位移技能的的冷却恢复速度减慢 {0}%",
         "en": "{0}% reduced Cooldown Recovery Rate of Movement Skills"
     },
     {
@@ -26076,7 +26036,7 @@
     },
     {
         "id": "stat_3582580206",
-        "zh": "死亡时，伤害提高 {0}%",
+        "zh": "死亡时，伤害降低 {0}%",
         "en": "{0}% reduced Damage while Dead"
     },
     {
@@ -26086,7 +26046,7 @@
     },
     {
         "id": "stat_2113677718",
-        "zh": "你格挡敌人的伤害时，有 {0}% 的几率使它们精疲力尽",
+        "zh": "你格挡敌人的伤害时使它们精疲力尽",
         "en": "Sap Enemies when you Block their Damage"
     },
     {
@@ -26096,7 +26056,7 @@
     },
     {
         "id": "stat_767196662",
-        "zh": "若腐化，则伤害提高 {0}%",
+        "zh": "若腐化，则伤害降低 {0}%",
         "en": "{0}% reduced Damage if Corrupted"
     },
     {
@@ -26111,7 +26071,7 @@
     },
     {
         "id": "stat_1419713278",
-        "zh": "你和周围友军的伤害提高 {0}%",
+        "zh": "你和周围友军的伤害降低 {0}%",
         "en": "You and nearby Allies deal {0}% reduced Damage"
     },
     {
@@ -26206,7 +26166,7 @@
     },
     {
         "id": "stat_779391868",
-        "zh": "你格挡敌人的伤害时，有 {0}% 的几率灼烧敌人",
+        "zh": "你格挡敌人的伤害时灼烧敌人",
         "en": "Scorch Enemies when you Block their Damage"
     },
     {
@@ -26256,7 +26216,7 @@
     },
     {
         "id": "stat_3438201750",
-        "zh": "攻击击中时有 {0}% 的几率威吓敌人 4 秒",
+        "zh": "攻击击中时威吓敌人 4 秒",
         "en": "Intimidate Enemies for 4 seconds on Hit with Attacks"
     },
     {
@@ -26301,7 +26261,7 @@
     },
     {
         "id": "stat_3067892458",
-        "zh": "被触发法术的法术伤害提高 {0}%",
+        "zh": "被触发法术的法术伤害降低 {0}%",
         "en": "Triggered Spells deal {0}% reduced Spell Damage"
     },
     {
@@ -26331,7 +26291,7 @@
     },
     {
         "id": "stat_2320884914",
-        "zh": "【猛攻】效果持续时，攻击与施法速度加快 {0}%",
+        "zh": "【猛攻】效果持续时，攻击与施法速度减慢 {0}%",
         "en": "{0}% reduced Attack and Cast Speed during Onslaught"
     },
     {
@@ -26346,7 +26306,7 @@
     },
     {
         "id": "stat_2347923784",
-        "zh": "攻击伤害在腐化的情况下提高 {0}%",
+        "zh": "攻击伤害在腐化的情况下降低 {0}%",
         "en": "{0}% reduced Attack Damage if Corrupted"
     },
     {
@@ -26356,7 +26316,7 @@
     },
     {
         "id": "stat_3761858151",
-        "zh": "法术技能可使混沌伤害提高 {0}%",
+        "zh": "法术技能可使混沌伤害降低 {0}%",
         "en": "{0}% reduced Chaos Damage with Spell Skills"
     },
     {
@@ -26371,7 +26331,7 @@
     },
     {
         "id": "stat_3935031607",
-        "zh": "法术技能的闪电伤害提高 {0}%",
+        "zh": "法术技能的闪电伤害降低 {0}%",
         "en": "{0}% reduced Lightning Damage with Spell Skills"
     },
     {
@@ -26386,7 +26346,7 @@
     },
     {
         "id": "stat_282417259",
-        "zh": "【易燃】的诅咒效果提高 {0}%",
+        "zh": "【易燃】的诅咒效果降低 {0}%",
         "en": "{0}% reduced Flammability Curse Effect"
     },
     {
@@ -26396,7 +26356,7 @@
     },
     {
         "id": "stat_1959092146",
-        "zh": "攻击技能可使混沌伤害提高 {0}%",
+        "zh": "攻击技能可使混沌伤害降低 {0}%",
         "en": "{0}% reduced Chaos Damage with Attack Skills"
     },
     {
@@ -26406,7 +26366,7 @@
     },
     {
         "id": "stat_1443215722",
-        "zh": "【冻伤】的诅咒效果提高 {0}%",
+        "zh": "【冻伤】的诅咒效果降低 {0}%",
         "en": "{0}% reduced Frostbite Curse Effect"
     },
     {
@@ -26416,7 +26376,7 @@
     },
     {
         "id": "stat_3395908304",
-        "zh": "【导电】的诅咒效果提高 {0}%",
+        "zh": "【导电】的诅咒效果降低 {0}%",
         "en": "{0}% reduced Conductivity Curse Effect"
     },
     {
@@ -26426,7 +26386,7 @@
     },
     {
         "id": "stat_1430255627",
-        "zh": "法术技能的物理伤害提高 {0}%",
+        "zh": "法术技能的物理伤害降低 {0}%",
         "en": "{0}% reduced Physical Damage with Spell Skills"
     },
     {
@@ -26436,7 +26396,7 @@
     },
     {
         "id": "stat_952509814",
-        "zh": "持盾牌时法术暴击几率提高 {0}%",
+        "zh": "持盾牌时法术暴击几率降低 {0}%",
         "en": "{0}% reduced Critical Strike Chance for Spells while holding a Shield"
     },
     {
@@ -26451,7 +26411,7 @@
     },
     {
         "id": "stat_2266750692",
-        "zh": "攻击技能物理伤害提高 {0}%",
+        "zh": "攻击技能物理伤害降低 {0}%",
         "en": "{0}% reduced Physical Damage with Attack Skills"
     },
     {
@@ -26461,7 +26421,7 @@
     },
     {
         "id": "stat_1218939541",
-        "zh": "双持时法术暴击几率提高 {0}%",
+        "zh": "双持时法术暴击几率降低 {0}%",
         "en": "{0}% reduced Critical Strike Chance for Spells while Dual Wielding"
     },
     {
@@ -26471,7 +26431,7 @@
     },
     {
         "id": "stat_2468413380",
-        "zh": "攻击技能的火焰伤害提高 {0}%",
+        "zh": "攻击技能的火焰伤害降低 {0}%",
         "en": "{0}% reduced Fire Damage with Attack Skills"
     },
     {
@@ -26481,7 +26441,7 @@
     },
     {
         "id": "stat_140429540",
-        "zh": "持长杖时，法术暴击几率提高 {0}%",
+        "zh": "持长杖时，法术暴击几率降低 {0}%",
         "en": "{0}% reduced Critical Strike Chance for Spells while wielding a Staff"
     },
     {
@@ -26491,7 +26451,7 @@
     },
     {
         "id": "stat_1609570656",
-        "zh": "获得不洁之力时物理伤害提高 {0}%",
+        "zh": "获得不洁之力时物理伤害降低 {0}%",
         "en": "{0}% reduced Physical Damage while you have Unholy Might"
     },
     {
@@ -26531,7 +26491,7 @@
     },
     {
         "id": "stat_169946467",
-        "zh": "弓类攻击的命中值提高 {0}%",
+        "zh": "弓类攻击的命中值降低 {0}%",
         "en": "{0}% reduced Accuracy Rating with Bows"
     },
     {
@@ -26556,7 +26516,7 @@
     },
     {
         "id": "stat_26867112",
-        "zh": "若腐化，则攻击和施法速度加快 {0}%",
+        "zh": "若腐化，则攻击和施法速度减慢 {0}%",
         "en": "{0}% reduced Attack and Cast Speed if Corrupted"
     },
     {
@@ -26566,7 +26526,7 @@
     },
     {
         "id": "stat_2228518621",
-        "zh": "魔卫复苏伤害提高 {0}%",
+        "zh": "魔卫复苏伤害降低 {0}%",
         "en": "Raised Zombies deal {0}% reduced Damage"
     },
     {
@@ -26576,7 +26536,7 @@
     },
     {
         "id": "stat_2186994986",
-        "zh": "法术技能的冰霜伤害提高 {0}%",
+        "zh": "法术技能的冰霜伤害降低 {0}%",
         "en": "{0}% reduced Cold Damage with Spell Skills"
     },
     {
@@ -26586,7 +26546,7 @@
     },
     {
         "id": "stat_3645693773",
-        "zh": "灵体的伤害提高 {0}%",
+        "zh": "灵体的伤害降低 {0}%",
         "en": "Spectres have {0}% reduced Damage"
     },
     {
@@ -26601,7 +26561,7 @@
     },
     {
         "id": "stat_2090868905",
-        "zh": "剑类攻击的命中值提高 {0}%",
+        "zh": "剑类攻击的命中值降低 {0}%",
         "en": "{0}% reduced Accuracy Rating with Swords"
     },
     {
@@ -26621,7 +26581,7 @@
     },
     {
         "id": "stat_1617235962",
-        "zh": "长杖攻击的命中值提高 {0}%",
+        "zh": "长杖攻击的命中值降低 {0}%",
         "en": "{0}% reduced Accuracy Rating with Staves"
     },
     {
@@ -26636,7 +26596,7 @@
     },
     {
         "id": "stat_361162316",
-        "zh": "法术技能的火焰伤害提高 {0}%",
+        "zh": "法术技能的火焰伤害降低 {0}%",
         "en": "{0}% reduced Fire Damage with Spell Skills"
     },
     {
@@ -26646,7 +26606,7 @@
     },
     {
         "id": "stat_2538120572",
-        "zh": "斧类攻击的命中值提高 {0}%",
+        "zh": "斧类攻击的命中值降低 {0}%",
         "en": "{0}% reduced Accuracy Rating with Axes"
     },
     {
@@ -26661,7 +26621,7 @@
     },
     {
         "id": "stat_3208450870",
-        "zh": "锤类或短杖的命中值提高 {0}%",
+        "zh": "锤类或短杖的命中值降低 {0}%",
         "en": "{0}% reduced Accuracy Rating with Maces or Sceptres"
     },
     {
@@ -26671,7 +26631,7 @@
     },
     {
         "id": "stat_3972739758",
-        "zh": "活力的魔力保留效能提高 {0}%",
+        "zh": "活力的魔力保留效能降低 {0}%",
         "en": "Vitality has {0}% reduced Mana Reservation Efficiency"
     },
     {
@@ -26701,7 +26661,7 @@
     },
     {
         "id": "stat_374116820",
-        "zh": "法术伤害在腐化的情况下提高 {0}%",
+        "zh": "法术伤害在腐化的情况下降低 {0}%",
         "en": "{0}% reduced Spell Damage if Corrupted"
     },
     {
@@ -26716,7 +26676,7 @@
     },
     {
         "id": "stat_3348324479",
-        "zh": "【元素要害】的诅咒效果提高 {0}%",
+        "zh": "【元素要害】的诅咒效果降低 {0}%",
         "en": "{0}% reduced Elemental Weakness Curse Effect"
     },
     {
@@ -26726,7 +26686,7 @@
     },
     {
         "id": "stat_1065909420",
-        "zh": "【脆弱】的诅咒效果提高 {0}%",
+        "zh": "【脆弱】的诅咒效果降低 {0}%",
         "en": "{0}% reduced Vulnerability Curse Effect"
     },
     {
@@ -26736,7 +26696,7 @@
     },
     {
         "id": "stat_2150183156",
-        "zh": "法杖攻击的命中值提高 {0}%",
+        "zh": "法杖攻击的命中值降低 {0}%",
         "en": "{0}% reduced Accuracy Rating with Wands"
     },
     {
@@ -26751,7 +26711,7 @@
     },
     {
         "id": "stat_2054715690",
-        "zh": "匕首攻击的命中值提高 {0}%",
+        "zh": "匕首攻击的命中值降低 {0}%",
         "en": "{0}% reduced Accuracy Rating with Daggers"
     },
     {
@@ -26761,7 +26721,7 @@
     },
     {
         "id": "stat_2880601380",
-        "zh": "若腐化，则移动速度加快 {0}%",
+        "zh": "若腐化，则移动速度减慢 {0}%",
         "en": "{0}% reduced Movement Speed if Corrupted"
     },
     {
@@ -26786,7 +26746,7 @@
     },
     {
         "id": "stat_1297965523",
-        "zh": "爪类攻击的命中值提高 {0}%",
+        "zh": "爪类攻击的命中值降低 {0}%",
         "en": "{0}% reduced Accuracy Rating with Claws"
     },
     {
@@ -26806,7 +26766,7 @@
     },
     {
         "id": "stat_3059357595",
-        "zh": "【魔侍造成】的伤害提高 {0}%",
+        "zh": "【魔侍造成】的伤害降低 {0}%",
         "en": "Skeletons deal {0}% reduced Damage"
     },
     {
@@ -26816,7 +26776,7 @@
     },
     {
         "id": "stat_3887484120",
-        "zh": "生命上限在腐化的情况下提高 {0}%",
+        "zh": "生命上限在腐化的情况下降低 {0}%",
         "en": "{0}% reduced maximum Life if Corrupted"
     },
     {
@@ -26836,7 +26796,7 @@
     },
     {
         "id": "stat_1025108940",
-        "zh": "能量护盾上限在腐化的情况下提高 {0}%",
+        "zh": "能量护盾上限在腐化的情况下降低 {0}%",
         "en": "{0}% reduced maximum Energy Shield if Corrupted"
     },
     {
@@ -26861,7 +26821,7 @@
     },
     {
         "id": "stat_3293830776",
-        "zh": "【衰弱】的诅咒效果提高 {0}%",
+        "zh": "【衰弱】的诅咒效果降低 {0}%",
         "en": "{0}% reduced Enfeeble Curse Effect"
     },
     {
@@ -26926,7 +26886,7 @@
     },
     {
         "id": "stat_4134865890",
-        "zh": "每 500 点最大魔力会使攻击伤害提高 {0}%",
+        "zh": "每 500 点最大魔力会使攻击伤害降低 {0}%",
         "en": "{0}% reduced Attack Damage per 500 Maximum Mana"
     },
     {
@@ -26946,7 +26906,7 @@
     },
     {
         "id": "stat_3555662994",
-        "zh": "每 500 点魔力会使法术伤害提高 {0}%",
+        "zh": "每 500 点魔力会使法术伤害降低 {0}%",
         "en": "{0}% redcued Spell Damage per 500 Maximum Mana"
     },
     {
@@ -27001,7 +26961,7 @@
     },
     {
         "id": "stat_4023723828",
-        "zh": "若腐化，则攻击和法术暴击几率提高 {0}%",
+        "zh": "若腐化，则攻击和法术暴击几率降低 {0}%",
         "en": "{0}% reduced Global Critical Strike Chance if Corrupted"
     },
     {
@@ -27016,7 +26976,7 @@
     },
     {
         "id": "stat_2477636501",
-        "zh": "每 250 点敏捷会使承受的伤害提高 {0}%",
+        "zh": "每 250 点敏捷会使承受的伤害降低 {0}%",
         "en": "{0}% reduced Damage taken per 250 Dexterity"
     },
     {
@@ -27036,7 +26996,7 @@
     },
     {
         "id": "stat_3522931817",
-        "zh": "每 250 点智慧会使承受的伤害提高 {0}%",
+        "zh": "每 250 点智慧会使承受的伤害降低 {0}%",
         "en": "{0}% reduced Damage taken per 250 Intelligence"
     },
     {
@@ -27046,7 +27006,7 @@
     },
     {
         "id": "stat_1443108510",
-        "zh": "每 250 点力量会使承受的伤害提高 {0}%",
+        "zh": "每 250 点力量会使承受的伤害降低 {0}%",
         "en": "{0}% reduced Damage taken per 250 Strength"
     },
     {
@@ -40183,5 +40143,15 @@
         "id": "stat_3900877792",
         "zh": "没有物理伤害",
         "en": "Deal no Physical Damage"
+    },
+    {
+        "id": "stat_1533511331",
+        "zh": "法术击中有 {0}% 的几率使你缓速",
+        "en": "Spell Hits have {0}% chance to Hinder you"
+    },
+    {
+        "id": "stat_1533511331",
+        "zh": "法术击中使你缓速",
+        "en": "Spell Hits Hinder you"
     }
 ]
