@@ -51,12 +51,12 @@
     },
     {
         "id": "stat_2250533757",
-        "zh": "移动速度提高 {0}%",
+        "zh": "移动速度加快 {0}%",
         "en": "{0}% increased Movement Speed"
     },
     {
         "id": "stat_2250533757",
-        "zh": "移动速度降低 {0}%",
+        "zh": "移动速度减慢 {0}%",
         "en": "{0}% reduced Movement Speed"
     },
     {
@@ -71,12 +71,12 @@
     },
     {
         "id": "stat_210067635",
-        "zh": "攻击速度提高 {0}%",
+        "zh": "攻击速度加快 {0}%",
         "en": "{0}% increased Attack Speed"
     },
     {
         "id": "stat_210067635",
-        "zh": "攻击速度降低 {0}%",
+        "zh": "攻击速度减慢 {0}%",
         "en": "{0}% reduced Attack Speed"
     },
     {
@@ -156,12 +156,12 @@
     },
     {
         "id": "stat_2891184298",
-        "zh": "施法速度提高 {0}%",
+        "zh": "施法速度加快 {0}%",
         "en": "{0}% increased Cast Speed"
     },
     {
         "id": "stat_2891184298",
-        "zh": "施法速度降低 {0}%",
+        "zh": "施法速度减慢 {0}%",
         "en": "{0}% reduced Cast Speed"
     },
     {
@@ -256,12 +256,12 @@
     },
     {
         "id": "stat_681332047",
-        "zh": "攻击速度提高 {0}%",
+        "zh": "攻击速度加快 {0}%",
         "en": "{0}% increased Attack Speed"
     },
     {
         "id": "stat_681332047",
-        "zh": "攻击速度降低 {0}%",
+        "zh": "攻击速度减慢 {0}%",
         "en": "{0}% reduced Attack Speed"
     },
     {
@@ -421,12 +421,12 @@
     },
     {
         "id": "stat_3759663284",
-        "zh": "投射物速度提高 {0}%",
+        "zh": "投射物速度加快 {0}%",
         "en": "{0}% increased Projectile Speed"
     },
     {
         "id": "stat_3759663284",
-        "zh": "投射物速度降低 {0}%",
+        "zh": "投射物速度减慢 {0}%",
         "en": "{0}% reduced Projectile Speed"
     },
     {
@@ -811,12 +811,12 @@
     },
     {
         "id": "stat_2672805335",
-        "zh": "攻击与施法速度提高 {0}%",
+        "zh": "攻击与施法速度加快 {0}%",
         "en": "{0}% increased Attack and Cast Speed"
     },
     {
         "id": "stat_2672805335",
-        "zh": "攻击与施法速度降低 {0}%",
+        "zh": "攻击与施法速度减慢 {0}%",
         "en": "{0}% reduced Attack and Cast Speed"
     },
     {
@@ -1731,7 +1731,7 @@
     },
     {
         "id": "stat_3182498570",
-        "zh": "生效期间，移动速度提高 {0}%",
+        "zh": "生效期间，移动速度加快 {0}%",
         "en": "{0}% increased Movement Speed during Effect"
     },
     {
@@ -2336,7 +2336,7 @@
     },
     {
         "id": "stat_1541516339",
-        "zh": "每个狂怒球可使移动速度提高 {0}%",
+        "zh": "每个狂怒球可使移动速度加快 {0}%",
         "en": "{0}% increased Movement Speed per Frenzy Charge"
     },
     {
@@ -3006,7 +3006,7 @@
     },
     {
         "id": "stat_3374165039",
-        "zh": "图腾放置速度提高 {0}%",
+        "zh": "图腾放置速度加快 {0}%",
         "en": "{0}% increased Totem Placement speed"
     },
     {
@@ -3346,7 +3346,7 @@
     },
     {
         "id": "stat_2159994279",
-        "zh": "玩家位移技能的冷却回复速度提高 {0}%",
+        "zh": "玩家位移技能的冷却回复速度加快 {0}%",
         "en": "Players have {0}% increased Cooldown Recovery Rate for Movement Skills"
     },
     {
@@ -4461,7 +4461,7 @@
     },
     {
         "id": "stat_250876318",
-        "zh": "每个绿色插槽会使全局攻击速度提高 {0}%",
+        "zh": "每个绿色插槽会使全局攻击速度加快 {0}%",
         "en": "{0}% increased Global Attack Speed per Green Socket"
     },
     {
@@ -5611,7 +5611,7 @@
     },
     {
         "id": "stat_968369591",
-        "zh": "生效期间，攻击速度提高 {0}%",
+        "zh": "生效期间，攻击速度加快 {0}%",
         "en": "{0}% increased Attack Speed during Effect"
     },
     {
@@ -6701,7 +6701,7 @@
     },
     {
         "id": "stat_3548561213",
-        "zh": "每个狂怒球可使攻击速度提高 {0}%",
+        "zh": "每个狂怒球可使攻击速度加快 {0}%",
         "en": "{0}% increased Attack Speed per Frenzy Charge"
     },
     {
@@ -7151,7 +7151,7 @@
     },
     {
         "id": "stat_3256116097",
-        "zh": "生效期间，施法速度提高 {0}%",
+        "zh": "生效期间，施法速度加快 {0}%",
         "en": "{0}% increased Cast Speed during Effect"
     },
     {
@@ -7911,7 +7911,7 @@
     },
     {
         "id": "stat_3159161267",
-        "zh": "每个狂怒球可使投射物速度提高 {0}%",
+        "zh": "每个狂怒球可使投射物速度加快 {0}%",
         "en": "{0}% increased Projectile Speed per Frenzy Charge"
     },
     {
@@ -8181,7 +8181,7 @@
     },
     {
         "id": "stat_269590092",
-        "zh": "每个狂怒球可使攻击速度降低 {0}%",
+        "zh": "每个狂怒球可使攻击速度减慢 {0}%",
         "en": "{0}% reduced Attack and Cast Speed per Frenzy Charge"
     },
     {
@@ -8336,7 +8336,7 @@
     },
     {
         "id": "stat_1604393896",
-        "zh": "每个暴击球可使施法速度提高 {0}%",
+        "zh": "每个暴击球可使施法速度加快 {0}%",
         "en": "{0}% increased Cast Speed per Power Charge"
     },
     {
@@ -8711,7 +8711,7 @@
     },
     {
         "id": "stat_2236460050",
-        "zh": "蓝色插槽内的技能石额外获得 {0}% 经验",
+        "zh": "蓝色插槽内的技能石获得的经验提高 {0}% ",
         "en": "Gems Socketed in Blue Sockets gain {0}% increased Experience"
     },
     {
@@ -9271,7 +9271,7 @@
     },
     {
         "id": "stat_2241560081",
-        "zh": "每 25 点敏捷可使攻击速度提高 {0}%",
+        "zh": "每 25 点敏捷可使攻击速度加快 {0}%",
         "en": "{0}% increased Attack Speed per 25 Dexterity"
     },
     {
@@ -9746,7 +9746,7 @@
     },
     {
         "id": "stat_1097026492",
-        "zh": "若范围内含有 40 点智慧，\n【魔卫复苏】的重击攻击会使冷却回复速度提高 {0}%",
+        "zh": "若范围内含有 40 点智慧，\n【魔卫复苏】的重击攻击会使冷却回复速度加快 {0}%",
         "en": "With at least 40 Intelligence in Radius, Raised\nZombies' Slam Attack has {0}% increased Cooldown Recovery Rate"
     },
     {
@@ -10926,7 +10926,7 @@
     },
     {
         "id": "stat_2546417825",
-        "zh": "若你近期内使用过战吼，则移动速度提高 {0}%",
+        "zh": "若你近期内使用过战吼，则移动速度加快 {0}%",
         "en": "{0}% increased Movement Speed if you've used a Warcry Recently"
     },
     {
@@ -11116,7 +11116,7 @@
     },
     {
         "id": "stat_849085925",
-        "zh": "被你冰冻的敌人额外承受 20% 伤害",
+        "zh": "被你冰冻的敌人承受的伤害提高 20% ",
         "en": "Enemies Frozen by you take 20% increased Damage"
     },
     {
@@ -12726,7 +12726,7 @@
     },
     {
         "id": "stat_3678841229",
-        "zh": "在感电地面上的移动速度提高 {0}%",
+        "zh": "在感电地面上的移动速度加快 {0}%",
         "en": "{0}% increased Movement Speed on Shocked Ground"
     },
     {
@@ -15826,7 +15826,7 @@
     },
     {
         "id": "stat_3468843137",
-        "zh": "受【怨毒光环】影响时，你造成的伤害类异常状态的伤害生效速度提高 {0}%",
+        "zh": "受【怨毒光环】影响时，你造成的伤害类异常状态的伤害生效速度加快 {0}%",
         "en": "Damaging Ailments you inflict deal Damage {0}% faster while affected by Malevolence"
     },
     {
@@ -16101,7 +16101,7 @@
     },
     {
         "id": "stat_706212417",
-        "zh": "插槽内魔像技能攻击和施法速度提高 {0}%",
+        "zh": "插槽内魔像技能攻击和施法速度加快 {0}%",
         "en": "Socketed Golem Skills have {0}% increased Attack and Cast Speed"
     },
     {
@@ -16566,7 +16566,7 @@
     },
     {
         "id": "stat_1560880986",
-        "zh": "使用此武器攻击所造成的流血效果有 {0}% 的几率使流血伤害提高 100%",
+        "zh": "使用此武器攻击所造成的流血效果有 {0}% 的几率使流血伤害总增 100%",
         "en": "{0}% chance for Bleeding inflicted with this Weapon to deal 100% more Damage"
     },
     {
@@ -16911,7 +16911,7 @@
     },
     {
         "id": "stat_768124628",
-        "zh": "该武器施加的中毒效果有 {0}% 的几率造成 300% 伤害",
+        "zh": "该武器施加的中毒效果有 {0}% 的几率使中毒伤害总增 300%",
         "en": "{0}% chance for Poisons inflicted with this Weapon to deal 300% more Damage"
     },
     {
@@ -17156,7 +17156,7 @@
     },
     {
         "id": "stat_2523146878",
-        "zh": "使用此武器攻击所造成的中毒效果有 {0}% 的几率使中毒伤害提高 100%",
+        "zh": "使用此武器攻击所造成的中毒效果有 {0}% 的几率使中毒伤害总增 100%",
         "en": "{0}% chance for Poisons inflicted with this Weapon to deal 100% more Damage"
     },
     {
@@ -18346,7 +18346,7 @@
     },
     {
         "id": "stat_3842406602",
-        "zh": "若你近期内受到【残暴打击】，则攻击速度提高 {0}%",
+        "zh": "若你近期内受到【残暴打击】，则攻击速度加快 {0}%",
         "en": "{0}% increased Attack Speed if you've taken a Savage Hit Recently"
     },
     {
@@ -18826,7 +18826,7 @@
     },
     {
         "id": "stat_728246008",
-        "zh": "新星技能对玩家造成的击中和异常状态伤害降低 30% \n新星技能不在周身施放，改为在目标位置施放",
+        "zh": "新星技能对玩家造成的击中和异常状态伤害总降 30% \n新星技能不在周身施放，改为在目标位置施放",
         "en": "Nova Spells deal 30% less Damage to Players with Hits and Ailments\nNova Spells Cast at the targeted location instead of around you"
     },
     {
@@ -19046,7 +19046,7 @@
     },
     {
         "id": "stat_1464115829",
-        "zh": "若你近期内有使用战吼，你和周围友军的攻击，施法和移动速度提高 {0}%",
+        "zh": "若你近期内有使用战吼，你和周围友军的攻击，施法和移动速度加快 {0}%",
         "en": "If you've Warcried Recently, you and nearby allies have {0}% increased Attack, Cast and Movement Speed"
     },
     {
@@ -19871,7 +19871,7 @@
     },
     {
         "id": "stat_3597737983",
-        "zh": "当你拥有兽化的召唤生物时，攻击和移动速度提高 {0}%",
+        "zh": "当你拥有兽化的召唤生物时，攻击和移动速度加快 {0}%",
         "en": "{0}% increased Attack and Movement Speed while you have a Bestial Minion"
     },
     {
@@ -26906,7 +26906,7 @@
     },
     {
         "id": "stat_1516326076",
-        "zh": "有一个传奇怪物出现在你面前：地雷投掷速度提高 {0}%",
+        "zh": "有一个传奇怪物出现在你面前：地雷投掷速度加快 {0}%",
         "en": "While a Unique Enemy is in your Presence, {0}% increased Mine Throwing Speed"
     },
     {
@@ -26996,7 +26996,7 @@
     },
     {
         "id": "stat_668321613",
-        "zh": "有一个异界图鉴最终首领出现在你面前：冷却回复速度提高 {0}%",
+        "zh": "有一个异界图鉴最终首领出现在你面前：冷却回复速度加快 {0}%",
         "en": "While a Pinnacle Atlas Boss is in your Presence, {0}% increased Cooldown Recovery Rate"
     },
     {
@@ -27111,7 +27111,7 @@
     },
     {
         "id": "stat_3401410854",
-        "zh": "有一个传奇怪物出现在你面前：攻击速度提高 {0}%",
+        "zh": "有一个传奇怪物出现在你面前：攻击速度加快 {0}%",
         "en": "While a Unique Enemy is in your Presence, {0}% increased Attack Speed"
     },
     {
@@ -27301,7 +27301,7 @@
     },
     {
         "id": "stat_2016247664",
-        "zh": "有一个传奇怪物出现在你面前：施法速度提高 {0}%",
+        "zh": "有一个传奇怪物出现在你面前：施法速度加快 {0}%",
         "en": "While a Unique Enemy is in your Presence, {0}% increased Cast Speed"
     },
     {
@@ -27421,7 +27421,7 @@
     },
     {
         "id": "stat_3827973062",
-        "zh": "有一个异界图鉴最终首领出现在你面前：地雷投掷速度提高 {0}%",
+        "zh": "有一个异界图鉴最终首领出现在你面前：地雷投掷速度加快 {0}%",
         "en": "While a Pinnacle Atlas Boss is in your Presence, {0}% increased Mine Throwing Speed"
     },
     {
@@ -27481,7 +27481,7 @@
     },
     {
         "id": "stat_3019083030",
-        "zh": "有一个传奇怪物出现在你面前：移动速度提高 {0}%",
+        "zh": "有一个传奇怪物出现在你面前：移动速度加快 {0}%",
         "en": "While a Unique Enemy is in your Presence, {0}% increased Movement Speed"
     },
     {
@@ -27616,7 +27616,7 @@
     },
     {
         "id": "stat_4098747485",
-        "zh": "有一个异界图鉴最终首领出现在你面前：施法速度提高 {0}%",
+        "zh": "有一个异界图鉴最终首领出现在你面前：施法速度加快 {0}%",
         "en": "While a Pinnacle Atlas Boss is in your Presence, {0}% increased Cast Speed"
     },
     {
@@ -27631,7 +27631,7 @@
     },
     {
         "id": "stat_2809900883",
-        "zh": "有一个异界图鉴最终首领出现在你面前：召唤生物的移动速度提高 {0}%",
+        "zh": "有一个异界图鉴最终首领出现在你面前：召唤生物的移动速度加快 {0}%",
         "en": "While a Pinnacle Atlas Boss is in your Presence, Minions have {0}% increased Movement Speed"
     },
     {
@@ -27691,7 +27691,7 @@
     },
     {
         "id": "stat_2491353340",
-        "zh": "有一个传奇怪物出现在你面前：冷却回复速度提高 {0}%",
+        "zh": "有一个传奇怪物出现在你面前：冷却回复速度加快 {0}%",
         "en": "While a Unique Enemy is in your Presence, {0}% increased Cooldown Recovery Rate"
     },
     {
@@ -28006,7 +28006,7 @@
     },
     {
         "id": "stat_2033289503",
-        "zh": "有一个传奇怪物出现在你面前：图腾放置速度提高 {0}%",
+        "zh": "有一个传奇怪物出现在你面前：图腾放置速度加快 {0}%",
         "en": "While a Unique Enemy is in your Presence, {0}% increased Totem Placement speed"
     },
     {
@@ -28046,7 +28046,7 @@
     },
     {
         "id": "stat_93625449",
-        "zh": "有一个传奇怪物出现在你面前：召唤生物的移动速度提高 {0}%",
+        "zh": "有一个传奇怪物出现在你面前：召唤生物的移动速度加快 {0}%",
         "en": "While a Unique Enemy is in your Presence, Minions have {0}% increased Movement Speed"
     },
     {
@@ -28121,7 +28121,7 @@
     },
     {
         "id": "stat_2255001736",
-        "zh": "有一个传奇怪物出现在你面前：战吼施法速度提高 {0}%",
+        "zh": "有一个传奇怪物出现在你面前：战吼施法速度加快 {0}%",
         "en": "While a Unique Enemy is in your Presence, {0}% increased Warcry Speed"
     },
     {
@@ -28156,7 +28156,7 @@
     },
     {
         "id": "stat_2446980928",
-        "zh": "有一个异界图鉴最终首领出现在你面前：攻击速度提高 {0}%",
+        "zh": "有一个异界图鉴最终首领出现在你面前：攻击速度加快 {0}%",
         "en": "While a Pinnacle Atlas Boss is in your Presence, {0}% increased Attack Speed"
     },
     {
@@ -28506,7 +28506,7 @@
     },
     {
         "id": "stat_100371300",
-        "zh": "有一个异界图鉴最终首领出现在你面前：图腾放置速度提高 {0}%",
+        "zh": "有一个异界图鉴最终首领出现在你面前：图腾放置速度加快 {0}%",
         "en": "While a Pinnacle Atlas Boss is in your Presence, {0}% increased Totem Placement speed"
     },
     {
@@ -28931,7 +28931,7 @@
     },
     {
         "id": "stat_2479119864",
-        "zh": "有一个传奇怪物出现在你面前：陷阱投掷速度提高 {0}%",
+        "zh": "有一个传奇怪物出现在你面前：陷阱投掷速度加快 {0}%",
         "en": "While a Unique Enemy is in your Presence, {0}% increased Trap Throwing Speed"
     },
     {
@@ -28971,7 +28971,7 @@
     },
     {
         "id": "stat_2117066923",
-        "zh": "有一个异界图鉴最终首领出现在你面前：战吼施法速度提高 {0}%",
+        "zh": "有一个异界图鉴最终首领出现在你面前：战吼施法速度加快 {0}%",
         "en": "While a Pinnacle Atlas Boss is in your Presence, {0}% increased Warcry Speed"
     },
     {
@@ -29016,7 +29016,7 @@
     },
     {
         "id": "stat_1702124724",
-        "zh": "有一个异界图鉴最终首领出现在你面前：移动速度提高 {0}%",
+        "zh": "有一个异界图鉴最终首领出现在你面前：移动速度加快 {0}%",
         "en": "While a Pinnacle Atlas Boss is in your Presence, {0}% increased Movement Speed"
     },
     {
@@ -29261,7 +29261,7 @@
     },
     {
         "id": "stat_547463927",
-        "zh": "有一个异界图鉴最终首领出现在你面前：陷阱投掷速度提高 {0}%",
+        "zh": "有一个异界图鉴最终首领出现在你面前：陷阱投掷速度加快 {0}%",
         "en": "While a Pinnacle Atlas Boss is in your Presence, {0}% increased Trap Throwing Speed"
     },
     {
@@ -29551,7 +29551,7 @@
     },
     {
         "id": "stat_4135304575",
-        "zh": "若你近期内有击败敌人，则攻击和施法速度提高 {0}%",
+        "zh": "若你近期内有击败敌人，则攻击和施法速度加快 {0}%",
         "en": "{0}% increased Attack and Cast Speed if you've Killed Recently"
     },
     {
@@ -30796,7 +30796,7 @@
     },
     {
         "id": "stat_3418033798",
-        "zh": "【狂野怒火】的攻击速度提高 {0}%",
+        "zh": "【狂野怒火】的攻击速度加快 {0}%",
         "en": "Blood Rage grants additional {0}% increased Attack Speed"
     },
     {
@@ -35746,7 +35746,7 @@
     },
     {
         "id": "stat_2432759583",
-        "zh": "火屑地雷投掷速度提高 {0}%",
+        "zh": "火屑地雷投掷速度加快 {0}%",
         "en": "Pyroclast Mine has {0}% increased Throwing Speed"
     },
     {
@@ -35866,7 +35866,7 @@
     },
     {
         "id": "stat_2778301298",
-        "zh": "【风暴漩涡】的施法速度提高 {0}%",
+        "zh": "【风暴漩涡】的施法速度加快 {0}%",
         "en": "Orb of Storms has {0}% increased Cast Speed"
     },
     {
@@ -38376,7 +38376,7 @@
     },
     {
         "id": "stat_504462346",
-        "zh": "周围每个灵枢能使移动速度提高{0}%",
+        "zh": "周围每个灵枢能使移动速度加快 {0}%",
         "en": "For each nearby corpse, {0}% increased Movement Speed"
     },
     {
@@ -38621,12 +38621,12 @@
     },
     {
         "id": "stat_2023285759",
-        "zh": "每有一个増助的战吼，技能造成的伤害就提高{0}%",
+        "zh": "每有一个増助的战吼，技能造成的伤害就总增 {0}%",
         "en": "Skills deal {0}% more Damage for each Warcry Exerting them"
     },
     {
         "id": "stat_2617837023",
-        "zh": "受到精准光环影响时，暴击率提高{0}%",
+        "zh": "受到精准光环影响时，暴击率总增 {0}%",
         "en": "{0}% more Critical Strike chance while affected by Precision"
     },
     {
@@ -39816,7 +39816,7 @@
     },
     {
         "id": "stat_4126447694",
-        "zh": "对施法速度的增强与减弱也作用于攻击速度",
+        "zh": "对施法速度的提高与降低也作用于攻击速度",
         "en": "Increases and Reductions to Cast Speed apply to Attack Speed"
     },
     {
@@ -45326,52 +45326,52 @@
     },
     {
         "id": "mod_7221",
-        "zh": "法术附加 2 - 6 基础冰霜伤害",
+        "zh": "法术附加 2 - 5 基础冰霜伤害",
         "en": "Adds 2 to 6 Cold Damage to Spells"
     },
     {
         "id": "mod_27339",
-        "zh": "法术附加 5 - 8 基础冰霜伤害",
+        "zh": "法术附加 3 - 7 基础冰霜伤害",
         "en": "Adds 5 to 8 Cold Damage to Spells"
     },
     {
         "id": "mod_27792",
-        "zh": "法术附加 10 - 17 基础冰霜伤害",
+        "zh": "法术附加 8 - 14 基础冰霜伤害",
         "en": "Adds 10 to 17 Cold Damage to Spells"
     },
     {
         "id": "mod_12769",
-        "zh": "法术附加 18 - 28 基础冰霜伤害",
+        "zh": "法术附加 14 - 21 基础冰霜伤害",
         "en": "Adds 18 to 28 Cold Damage to Spells"
     },
     {
         "id": "mod_60102",
-        "zh": "法术附加 37 - 56 基础冰霜伤害",
+        "zh": "法术附加 29 - 43 基础冰霜伤害",
         "en": "Adds 37 to 56 Cold Damage to Spells"
     },
     {
         "id": "mod_25832",
-        "zh": "法术附加 5 - 10 基础冰霜伤害",
+        "zh": "法术附加 4 - 7 基础冰霜伤害",
         "en": "Adds 5 to 10 Cold Damage to Spells"
     },
     {
         "id": "mod_1750",
-        "zh": "法术附加 10 - 16 基础冰霜伤害",
+        "zh": "法术附加 7 - 12 基础冰霜伤害",
         "en": "Adds 10 to 16 Cold Damage to Spells"
     },
     {
         "id": "mod_60600",
-        "zh": "法术附加 20 - 32 基础冰霜伤害",
+        "zh": "法术附加 15 - 24 基础冰霜伤害",
         "en": "Adds 20 to 32 Cold Damage to Spells"
     },
     {
         "id": "mod_26963",
-        "zh": "法术附加 34 - 52 基础冰霜伤害",
+        "zh": "法术附加 26 - 40 基础冰霜伤害",
         "en": "Adds 34 to 52 Cold Damage to Spells"
     },
     {
         "id": "mod_50869",
-        "zh": "法术附加 68 - 103 基础冰霜伤害",
+        "zh": "法术附加 53 - 79 基础冰霜伤害",
         "en": "Adds 68 to 103 Cold Damage to Spells"
     },
     {
@@ -53326,32 +53326,32 @@
     },
     {
         "id": "mod_24626",
-        "zh": "攻击速度提高 8%",
+        "zh": "攻击速度加快 8%",
         "en": "8% increased Attack Speed"
     },
     {
         "id": "mod_58373",
-        "zh": "攻击速度提高 9%",
+        "zh": "攻击速度加快 9%",
         "en": "9% increased Attack Speed"
     },
     {
         "id": "mod_11316",
-        "zh": "攻击速度提高 10%",
+        "zh": "攻击速度加快 10%",
         "en": "10% increased Attack Speed"
     },
     {
         "id": "mod_15868",
-        "zh": "攻击速度提高 5%",
+        "zh": "攻击速度加快 5%",
         "en": "5% increased Attack Speed"
     },
     {
         "id": "mod_26108",
-        "zh": "攻击速度提高 6%",
+        "zh": "攻击速度加快 6%",
         "en": "6% increased Attack Speed"
     },
     {
         "id": "mod_1368",
-        "zh": "攻击速度提高 7%",
+        "zh": "攻击速度加快 7%",
         "en": "7% increased Attack Speed"
     },
     {
@@ -54331,32 +54331,32 @@
     },
     {
         "id": "mod_37408",
-        "zh": "施法速度提高 4%",
+        "zh": "施法速度总增 4%",
         "en": "4% more Cast Speed"
     },
     {
         "id": "mod_45878",
-        "zh": "施法速度提高 5%",
+        "zh": "施法速度总增 5%",
         "en": "5% more Cast Speed"
     },
     {
         "id": "mod_33499",
-        "zh": "施法速度提高 6%",
+        "zh": "施法速度总增 6%",
         "en": "6% more Cast Speed"
     },
     {
         "id": "mod_54292",
-        "zh": "施法速度提高 8%",
+        "zh": "施法速度总增 8%",
         "en": "8% more Cast Speed"
     },
     {
         "id": "mod_38842",
-        "zh": "施法速度提高 9%",
+        "zh": "施法速度总增 9%",
         "en": "9% more Cast Speed"
     },
     {
         "id": "mod_10092",
-        "zh": "施法速度提高 10%",
+        "zh": "施法速度总增 10%",
         "en": "10% more Cast Speed"
     },
     {
@@ -62061,22 +62061,22 @@
     },
     {
         "id": "mod_15586",
-        "zh": "若敏捷低于 100 点，移动速度提高 8%",
+        "zh": "若敏捷低于 100 点，移动速度加快 8%",
         "en": "8% increased Movement Speed if Dexterity is below 100"
     },
     {
         "id": "mod_46224",
-        "zh": "若敏捷低于 100 点，移动速度提高 12%",
+        "zh": "若敏捷低于 100 点，移动速度加快 12%",
         "en": "12% increased Movement Speed if Dexterity is below 100"
     },
     {
         "id": "mod_19742",
-        "zh": "若敏捷低于 100 点，移动速度提高 14%",
+        "zh": "若敏捷低于 100 点，移动速度加快 14%",
         "en": "14% increased Movement Speed if Dexterity is below 100"
     },
     {
         "id": "mod_50754",
-        "zh": "若敏捷低于 100 点，移动速度提高 20%",
+        "zh": "若敏捷低于 100 点，移动速度加快 20%",
         "en": "20% increased Movement Speed if Dexterity is below 100"
     },
     {
@@ -65266,12 +65266,12 @@
     },
     {
         "id": "mod_48224",
-        "zh": "你身上的减益效果消失速度提高 15%",
+        "zh": "你身上的减益效果消失速度加快 15%",
         "en": "Debuffs on you expire 15% faster"
     },
     {
         "id": "mod_35946",
-        "zh": "你身上的减益效果消失速度提高 25%",
+        "zh": "你身上的减益效果消失速度加快 25%",
         "en": "Debuffs on you expire 25% faster"
     },
     {
@@ -66096,22 +66096,22 @@
     },
     {
         "id": "mod_14096",
-        "zh": "召唤生物的移动速度提高 12%",
+        "zh": "召唤生物的移动速度加快 12%",
         "en": "Minions have 12% increased Movement Speed"
     },
     {
         "id": "mod_3294",
-        "zh": "召唤生物的移动速度提高 16%",
+        "zh": "召唤生物的移动速度加快 16%",
         "en": "Minions have 16% increased Movement Speed"
     },
     {
         "id": "mod_40752",
-        "zh": "召唤生物的移动速度提高 24%",
+        "zh": "召唤生物的移动速度加快 24%",
         "en": "Minions have 24% increased Movement Speed"
     },
     {
         "id": "mod_60343",
-        "zh": "召唤生物的移动速度提高 32%",
+        "zh": "召唤生物的移动速度加快 32%",
         "en": "Minions have 32% increased Movement Speed"
     },
     {
@@ -67931,7 +67931,7 @@
     },
     {
         "id": "mod_16086",
-        "zh": "腐蚀箭矢和天灾之箭发射的投射物数量提高 25%",
+        "zh": "腐蚀箭矢和天灾之箭发射的投射物数量总增 25%",
         "en": "Caustic Arrow and Scourge Arrow fire 25% more projectiles"
     },
     {
@@ -68191,7 +68191,7 @@
     },
     {
         "id": "mod_44299",
-        "zh": "暴走时每消灭10个敌人，重盾冲锋和钩链攻击的攻击速度提高 2%",
+        "zh": "暴走时每消灭10个敌人，重盾冲锋和钩链攻击的攻击速度加快 2%",
         "en": "Shield Charge and Chain Hook have 2% increased Attack Speed per 10 Rampage Kills"
     },
     {
@@ -69721,7 +69721,7 @@
     },
     {
         "id": "stat_3874817029",
-        "zh": "受到魔法深渊珠宝影响时，移动速度提高 {0}%",
+        "zh": "受到魔法深渊珠宝影响时，移动速度加快 {0}%",
         "en": "{0}% increased Movement Speed while affected by a Magic Abyss Jewel"
     },
     {
@@ -69746,7 +69746,7 @@
     },
     {
         "id": "stat_2513745555",
-        "zh": "狙击的攻击速度提高 {0}%",
+        "zh": "狙击的攻击速度加快 {0}%",
         "en": "{0}% increased Attack Speed with Snipe"
     },
     {
@@ -69763,5 +69763,25 @@
         "id": "stat_3357881628",
         "zh": "有一个传奇怪物出现在你面前：冰霜伤害的 {0}% 转化为生命偷取",
         "en": "While a Unique Enemy is in your Presence, {0}% of Cold Damage Leeched as Life"
+    },
+    {
+        "id": "stat_4022502578",
+        "zh": "插槽中的宝石受 {0} 级法铸箭矢辅助",
+        "en": "Socketed Gems are Supported by Level {0} Manaforged Arrows"
+    },
+    {
+        "id": "stat_1658124062",
+        "zh": "攻击投射物返回你身边",
+        "en": "Attack Projectiles Return to you"
+    },
+    {
+        "id": "indexable_support_147",
+        "zh": "插入的技能石被 {0} 级的【法铸箭矢】辅助",
+        "en": "Socketed Gems are Supported by Level {0} Manaforged Arrows"
+    },
+    {
+        "id": "stat_1436051850",
+        "zh": "有一个异界图鉴最终首领出现在你面前：你施加的冻结会扩散给范围 {0} 内的其它敌人",
+        "en": "While a Pinnacle Atlas Boss is in your Presence, Freezes you inflict spread to other Enemies within a Radius of {0}"
     }
 ]
