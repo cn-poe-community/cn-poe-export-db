@@ -4191,13 +4191,8 @@
     },
     {
         "id": "stat_3102860761",
-        "zh": "投掷陷阱可以使移动速度在 {0} 秒内加快 30%",
-        "en": "30% increased Movement Speed for {0} seconds on Throwing a Trap"
-    },
-    {
-        "id": "stat_3102860761",
         "zh": "投掷陷阱可以使移动速度在 {0} 秒内加快 {1}%",
-        "en": "{0}% increased Movement Speed for {1} seconds on Throwing a Trap"
+        "en": "{1}% increased Movement Speed for {0} seconds on Throwing a Trap"
     },
     {
         "id": "stat_662691280",
@@ -4427,7 +4422,7 @@
     {
         "id": "stat_455556407",
         "zh": "若你近期内没有击败过敌人，则伤害穿透 {0}% 元素抗性",
-        "en": "Damage Penetrates {0}% Elemental Resistance if you haven't Killed Recently"
+        "en": "Damage Penetrates {0}% Elemental Resistances if you haven't Killed Recently"
     },
     {
         "id": "stat_960081730",
@@ -4576,8 +4571,8 @@
     },
     {
         "id": "stat_2224292784",
-        "zh": "同时可以放置最多 {0} 个额外陷阱",
-        "en": "Can have up to {0} additional Trap placed at a time"
+        "zh": "同时可以放置最多 1 个额外陷阱",
+        "en": "Can have up to 1 additional Trap placed at a time"
     },
     {
         "id": "stat_2224292784",
@@ -4586,12 +4581,12 @@
     },
     {
         "id": "stat_2224292784",
-        "zh": "同时可以放置的陷阱减少 {0} 个",
-        "en": "Can have {0} fewer Trap placed at a time"
+        "zh": "同时可以放置的陷阱减少 1 个",
+        "en": "Can have 1 fewer Trap placed at a time"
     },
     {
         "id": "stat_2224292784",
-        "zh": "同时可以放置最多 {0} 个额外陷阱",
+        "zh": "同时可以放置的陷阱减少 {0} 个",
         "en": "Can have {0} fewer Traps placed at a time"
     },
     {
@@ -4946,7 +4941,7 @@
     },
     {
         "id": "stat_3240073117",
-        "zh": "生命回复率提高 {0}%",
+        "zh": "生命回复率降低 {0}%",
         "en": "{0}% reduced Life Recovery rate"
     },
     {
@@ -4986,7 +4981,7 @@
     },
     {
         "id": "stat_1170174456",
-        "zh": "耐力球持续时间延长 {0}%",
+        "zh": "耐力球持续时间缩短 {0}%",
         "en": "{0}% reduced Endurance Charge Duration"
     },
     {
@@ -5146,7 +5141,7 @@
     },
     {
         "id": "stat_2109043683",
-        "zh": "魔像的增益效果提高 {0}%",
+        "zh": "魔像的增益效果降低 {0}%",
         "en": "{0}% reduced Effect of Buffs granted by your Golems"
     },
     {
@@ -5266,7 +5261,7 @@
     },
     {
         "id": "stat_2264523604",
-        "zh": "技能的保留效果提高 {0}%",
+        "zh": "技能的保留效果降低 {0}%",
         "en": "{0}% reduced Reservation of Skills"
     },
     {
@@ -5351,7 +5346,7 @@
     },
     {
         "id": "stat_1004011302",
-        "zh": "冷却回复速度加快 {0}%",
+        "zh": "冷却回复速度减慢 {0}%",
         "en": "{0}% reduced Cooldown Recovery Rate"
     },
     {
@@ -5401,7 +5396,7 @@
     },
     {
         "id": "stat_3872306017",
-        "zh": "暴击球的持续时间延长 {0}%",
+        "zh": "暴击球的持续时间缩短 {0}%",
         "en": "{0}% reduced Power Charge Duration"
     },
     {
@@ -5571,7 +5566,7 @@
     },
     {
         "id": "stat_3774831856",
-        "zh": "锤类或短杖的物理伤害提高 {0}%",
+        "zh": "锤类或短杖的物理伤害降低 {0}%",
         "en": "{0}% reduced Physical Damage with Maces or Sceptres"
     },
     {
@@ -5681,7 +5676,7 @@
     },
     {
         "id": "stat_860668586",
-        "zh": "攻击技能的冰霜伤害提高 {0}%",
+        "zh": "攻击技能的冰霜伤害降低 {0}%",
         "en": "{0}% reduced Cold Damage with Attack Skills"
     },
     {
@@ -5691,7 +5686,7 @@
     },
     {
         "id": "stat_3739863694",
-        "zh": "攻击击中时有 {0}% 的几率穿刺敌人",
+        "zh": "攻击击中时穿刺敌人",
         "en": "Impale Enemies on Hit with Attacks"
     },
     {
@@ -5791,7 +5786,7 @@
     },
     {
         "id": "stat_3882531569",
-        "zh": "匕首的物理伤害提高 {0}%",
+        "zh": "匕首的物理伤害降低 {0}%",
         "en": "{0}% reduced Physical Damage with Daggers"
     },
     {
@@ -6131,7 +6126,7 @@
     },
     {
         "id": "stat_402920808",
-        "zh": "弓类的物理伤害提高 {0}%",
+        "zh": "弓类的物理伤害降低 {0}%",
         "en": "{0}% reduced Physical Damage with Bows"
     },
     {
@@ -6221,7 +6216,7 @@
     },
     {
         "id": "stat_635761691",
-        "zh": "爪类的物理伤害提高 {0}%",
+        "zh": "爪类的物理伤害降低 {0}%",
         "en": "{0}% reduced Physical Damage with Claws"
     },
     {
@@ -6256,7 +6251,7 @@
     },
     {
         "id": "stat_2769075491",
-        "zh": "法杖的物理伤害提高 {0}%",
+        "zh": "法杖的物理伤害降低 {0}%",
         "en": "{0}% reduced Physical Damage with Wands"
     },
     {
@@ -6621,7 +6616,7 @@
     },
     {
         "id": "stat_2847548062",
-        "zh": "魔力再生率随每个暴击球提高 {0}%",
+        "zh": "魔力再生率随每个暴击球降低 {0}%",
         "en": "{0}% reduced Mana Regeneration Rate per Power Charge"
     },
     {
@@ -6696,7 +6691,7 @@
     },
     {
         "id": "stat_99927264",
-        "zh": "你被感电的持续时间缩短 {0}%",
+        "zh": "你被感电的持续时间延长 {0}%",
         "en": "{0}% increased Shock Duration on you"
     },
     {
@@ -7087,7 +7082,7 @@
     {
         "id": "stat_4031081471",
         "zh": "击败敌人后 {0} 秒内持续承受 {1} 混沌伤害",
-        "en": "You take {0} Chaos Damage per second for {1} seconds on Kill"
+        "en": "You take {1} Chaos Damage per second for {0} seconds on Kill"
     },
     {
         "id": "stat_3609854472",
@@ -7161,7 +7156,7 @@
     },
     {
         "id": "stat_3150705301",
-        "zh": "长杖的物理伤害提高 {0}%",
+        "zh": "长杖的物理伤害降低 {0}%",
         "en": "{0}% reduced Physical Damage with Staves"
     },
     {
@@ -7511,7 +7506,7 @@
     },
     {
         "id": "stat_828179689",
-        "zh": "冰缓效果提高 {0}%",
+        "zh": "冰缓效果降低 {0}%",
         "en": "{0}% reduced Effect of Chill"
     },
     {
@@ -7571,7 +7566,7 @@
     },
     {
         "id": "stat_2587176568",
-        "zh": "技能的保留效能提高 {0}%",
+        "zh": "技能的保留效能降低 {0}%",
         "en": "{0}% reduced Reservation Efficiency of Skills"
     },
     {
@@ -7611,7 +7606,7 @@
     },
     {
         "id": "stat_1793818220",
-        "zh": "冰霜异常状态效果提高 {0}%",
+        "zh": "冰霜异常状态效果降低 {0}%",
         "en": "{0}% reduced Effect of Cold Ailments"
     },
     {
@@ -7936,7 +7931,7 @@
     },
     {
         "id": "stat_1569101201",
-        "zh": "增助攻击的伤害提高 {0}%",
+        "zh": "增助攻击的伤害降低 {0}%",
         "en": "Exerted Attacks deal {0}% reduced Damage"
     },
     {
@@ -8236,7 +8231,7 @@
     },
     {
         "id": "stat_3814876985",
-        "zh": "暴击时有 {0}% 的几率获得暴击球",
+        "zh": "暴击时获得暴击球",
         "en": "Gain a Power Charge on Critical Strike"
     },
     {
@@ -9161,7 +9156,7 @@
     },
     {
         "id": "stat_660404777",
-        "zh": "每个狂怒球提高 {0}% 闪避值",
+        "zh": "每个狂怒球降低 {0}% 闪避值",
         "en": "{0}% reduced Evasion Rating per Frenzy Charge"
     },
     {
@@ -9181,7 +9176,7 @@
     },
     {
         "id": "stat_3037553757",
-        "zh": "战吼的增益效果提高 {0}%",
+        "zh": "战吼的增益效果降低 {0}%",
         "en": "{0}% reduced Warcry Buff Effect"
     },
     {
@@ -9206,7 +9201,7 @@
     },
     {
         "id": "stat_2839036860",
-        "zh": "耐力球，狂怒球，以及暴击球的持续时间延长 {0}%",
+        "zh": "耐力球，狂怒球，以及暴击球的持续时间缩短 {0}%",
         "en": "{0}% reduced Endurance, Frenzy and Power Charge Duration"
     },
     {
@@ -9376,7 +9371,7 @@
     },
     {
         "id": "stat_2126027382",
-        "zh": "【纯净之捷】的增益效果提高 {0}%",
+        "zh": "【纯净之捷】的增益效果降低 {0}%",
         "en": "Herald of Purity has {0}% reduced Buff Effect"
     },
     {
@@ -10031,7 +10026,7 @@
     },
     {
         "id": "stat_3684879618",
-        "zh": "【迷踪】状态时移动速度加快 {0}%",
+        "zh": "【迷踪】状态时移动速度减慢 {0}%",
         "en": "{0}% reduced Movement Speed while Phasing"
     },
     {
@@ -10041,7 +10036,7 @@
     },
     {
         "id": "stat_2034658008",
-        "zh": "每个暴击球可使伤害提高 {0}%",
+        "zh": "每个暴击球可使伤害降低 {0}%",
         "en": "{0}% reduced Damage per Power Charge"
     },
     {
@@ -10591,7 +10586,7 @@
     },
     {
         "id": "stat_1510714129",
-        "zh": "攻击击中时有 {0}% 的几率造成瘫痪",
+        "zh": "攻击击中时造成瘫痪",
         "en": "Attacks always Maim on Hit"
     },
     {
@@ -10956,7 +10951,7 @@
     },
     {
         "id": "stat_3513180117",
-        "zh": "魔力回复率提高 {0}%",
+        "zh": "魔力回复率降低 {0}%",
         "en": "{0}% reduced Mana Recovery rate"
     },
     {
@@ -11136,7 +11131,7 @@
     },
     {
         "id": "stat_252194507",
-        "zh": "药剂持续期间，施法速度加快 {0}%",
+        "zh": "药剂持续期间，施法速度减慢 {0}%",
         "en": "{0}% reduced Cast Speed during any Flask Effect"
     },
     {
@@ -11331,7 +11326,7 @@
     },
     {
         "id": "stat_1365052901",
-        "zh": "药剂持续期间，攻击速度加快 {0}%",
+        "zh": "药剂持续期间，攻击速度减慢 {0}%",
         "en": "{0}% reduced Attack Speed during any Flask Effect"
     },
     {
@@ -11376,7 +11371,7 @@
     },
     {
         "id": "stat_42242677",
-        "zh": "被击中时有 {0}% 的几率避免火焰伤害",
+        "zh": "被击中时避免火焰伤害",
         "en": "Avoid Fire Damage from Hits"
     },
     {
@@ -11781,7 +11776,7 @@
     },
     {
         "id": "stat_1862926389",
-        "zh": "【寒冰之捷】的增益效果提高 {0}%",
+        "zh": "【寒冰之捷】的增益效果降低 {0}%",
         "en": "Herald of Ice has {0}% reduced Buff Effect"
     },
     {
@@ -11891,7 +11886,7 @@
     },
     {
         "id": "stat_902747843",
-        "zh": "每个狂怒球可使伤害提高 {0}%",
+        "zh": "每个狂怒球可使伤害降低 {0}%",
         "en": "{0}% reduced Damage per Frenzy Charge"
     },
     {
@@ -11926,7 +11921,7 @@
     },
     {
         "id": "stat_2154349925",
-        "zh": "【灰烬之捷】的增益效果提高 {0}%",
+        "zh": "【灰烬之捷】的增益效果降低 {0}%",
         "en": "Herald of Ash has {0}% reduced Buff Effect"
     },
     {
@@ -11936,7 +11931,7 @@
     },
     {
         "id": "stat_2572910724",
-        "zh": "【苦痛之捷】的增益效果提高 {0}%",
+        "zh": "【苦痛之捷】的增益效果降低 {0}%",
         "en": "Herald of Agony has {0}% reduced Buff Effect"
     },
     {
@@ -11976,7 +11971,7 @@
     },
     {
         "id": "stat_3562211447",
-        "zh": "击败敌人时有 {0}% 的几率获得不洁之力 3 秒",
+        "zh": "击败敌人时获得不洁之力 3 秒",
         "en": "Gain Unholy Might for 3 seconds on Kill"
     },
     {
@@ -12151,7 +12146,7 @@
     },
     {
         "id": "stat_2089652545",
-        "zh": "击中时有 {0}% 的几率威吓敌人 4 秒",
+        "zh": "攻击击中时威吓敌人 4 秒",
         "en": "Intimidate Enemies for 4 seconds on Hit"
     },
     {
@@ -12201,7 +12196,7 @@
     },
     {
         "id": "stat_986397080",
-        "zh": "你被点燃的持续时间缩短 {0}%",
+        "zh": "你被点燃的持续时间延长 {0}%",
         "en": "{0}% increased Ignite Duration on you"
     },
     {
@@ -12521,7 +12516,7 @@
     },
     {
         "id": "stat_3515686789",
-        "zh": "每个耐力球可使伤害提高 {0}%",
+        "zh": "每个耐力球可使伤害降低 {0}%",
         "en": "{0}% reduced Damage per Endurance Charge"
     },
     {
@@ -12661,7 +12656,7 @@
     },
     {
         "id": "stat_547412107",
-        "zh": "瓦尔技能持续时间延长 {0}%",
+        "zh": "瓦尔技能持续时间缩短 {0}%",
         "en": "{0}% reduced Vaal Skill Effect Duration"
     },
     {
@@ -12671,7 +12666,7 @@
     },
     {
         "id": "stat_2889664727",
-        "zh": "被击中时有 {0}% 的几率避免闪电伤害",
+        "zh": "被击中时避免闪电伤害",
         "en": "Avoid Lightning Damage from Hits"
     },
     {
@@ -12706,7 +12701,7 @@
     },
     {
         "id": "stat_3743375737",
-        "zh": "被击中时有 {0}% 的几率避免冰霜伤害",
+        "zh": "被击中时避免冰霜伤害",
         "en": "Avoid Cold Damage from Hits"
     },
     {
@@ -12761,7 +12756,7 @@
     },
     {
         "id": "stat_4118987751",
-        "zh": "偷取的每秒最大生命总恢复量提高 {0}%",
+        "zh": "偷取的每秒最大生命总恢复量降低 {0}%",
         "en": "{0}% reduced Maximum total Life Recovery per second from Leech"
     },
     {
@@ -12886,7 +12881,7 @@
     },
     {
         "id": "stat_304970526",
-        "zh": "药剂持续期间，移动速度加快 {0}%",
+        "zh": "药剂持续期间，移动速度减慢 {0}%",
         "en": "{0}% reduced Movement Speed during any Flask Effect"
     },
     {
@@ -12946,7 +12941,7 @@
     },
     {
         "id": "stat_3191479793",
-        "zh": "奉献效果提高 {0}%",
+        "zh": "奉献效果降低 {0}%",
         "en": "{0}% reduced effect of Offerings"
     },
     {
@@ -13491,7 +13486,7 @@
     },
     {
         "id": "stat_690135178",
-        "zh": "从魔力偷取中获得的每秒总恢复量提高 {0}%",
+        "zh": "从魔力偷取中获得的每秒总恢复量降低 {0}%",
         "en": "{0}% reduced total Recovery per second from Mana Leech"
     },
     {
@@ -13666,7 +13661,7 @@
     },
     {
         "id": "stat_3165492062",
-        "zh": "瓦尔技能暴击率提高 {0}%",
+        "zh": "瓦尔技能暴击率降低 {0}%",
         "en": "{0}% reduced Vaal Skill Critical Strike Chance"
     },
     {
@@ -14216,7 +14211,7 @@
     },
     {
         "id": "stat_4208907162",
-        "zh": "攻击技能的闪电伤害提高 {0}%",
+        "zh": "攻击技能的闪电伤害降低 {0}%",
         "en": "{0}% reduced Lightning Damage with Attack Skills"
     },
     {
@@ -14631,7 +14626,7 @@
     },
     {
         "id": "stat_2947215268",
-        "zh": "药剂持续期间，伤害提高 {0}%",
+        "zh": "药剂持续期间，伤害降低 {0}%",
         "en": "{0}% reduced Damage during any Flask Effect"
     },
     {
@@ -26251,7 +26246,7 @@
     },
     {
         "id": "stat_4208096430",
-        "zh": "法术击中时有 {0}% 的几率获得【秘术增强】",
+        "zh": "法术击中时获得【秘术增强】",
         "en": "Gain Arcane Surge on Hit with Spells"
     },
     {
@@ -27046,7 +27041,7 @@
     },
     {
         "id": "stat_1443108510",
-        "zh": "每 250 点力量会使承受的伤害提高 {0}%",
+        "zh": "每 250 点力量会使承受的伤害降低 {0}%",
         "en": "{0}% increased Damage taken per 250 Strength"
     },
     {
@@ -27156,7 +27151,7 @@
     },
     {
         "id": "stat_45589825",
-        "zh": "【闪电净化】的光环效果提高 {0}%",
+        "zh": "【闪电净化】的光环效果降低 {0}%",
         "en": "Purity of Lightning has {0}% reduced Aura Effect"
     },
     {
@@ -27166,7 +27161,7 @@
     },
     {
         "id": "stat_3185156108",
-        "zh": "【绝望】的诅咒效果提高 {0}%",
+        "zh": "【绝望】的诅咒效果降低 {0}%",
         "en": "{0}% reduced Despair Curse Effect"
     },
     {
@@ -27286,7 +27281,7 @@
     },
     {
         "id": "stat_3541970927",
-        "zh": "【元素净化】的光环效果提高 {0}%",
+        "zh": "【元素净化】的光环效果降低 {0}%",
         "en": "Purity of Elements has {0}% reduced Aura Effect"
     },
     {
@@ -27946,7 +27941,7 @@
     },
     {
         "id": "stat_2426838124",
-        "zh": "魔武战号的增益效果提高 {0}%",
+        "zh": "魔武战号的增益效果降低 {0}%",
         "en": "{0}% reduced Battlemage's Cry Buff Effect"
     },
     {
@@ -28131,7 +28126,7 @@
     },
     {
         "id": "stat_2284801675",
-        "zh": "巨石魔像给予你的增益效果提高 {0}%",
+        "zh": "巨石魔像给予你的增益效果降低 {0}%",
         "en": "{0}% reduced Effect of the Buff granted by your Stone Golems"
     },
     {
@@ -28171,7 +28166,7 @@
     },
     {
         "id": "stat_2539726203",
-        "zh": "【火焰净化】的光环效果提高 {0}%",
+        "zh": "【火焰净化】的光环效果降低 {0}%",
         "en": "Purity of Fire has {0}% reduced Aura Effect"
     },
     {
@@ -28181,7 +28176,7 @@
     },
     {
         "id": "stat_269930125",
-        "zh": "烈焰魔像给予你的增益效果提高 {0}%",
+        "zh": "烈焰魔像给予你的增益效果降低 {0}%",
         "en": "{0}% reduced Effect of the Buff granted by your Flame Golems"
     },
     {
@@ -28441,7 +28436,7 @@
     },
     {
         "id": "stat_1648511635",
-        "zh": "混沌魔像给予你的增益效果提高 {0}%",
+        "zh": "混沌魔像给予你的增益效果降低 {0}%",
         "en": "{0}% reduced Effect of the Buff granted by your Chaos Golems"
     },
     {
@@ -28651,7 +28646,7 @@
     },
     {
         "id": "stat_3015437071",
-        "zh": "你身上的秘术增强效果提高 {0}%",
+        "zh": "你身上的秘术增强效果降低 {0}%",
         "en": "{0}% reduced Effect of Arcane Surge on you"
     },
     {
@@ -28721,7 +28716,7 @@
     },
     {
         "id": "stat_3617955571",
-        "zh": "坚决战吼的冷却回复率提高 {0}%",
+        "zh": "坚决战吼的冷却回复率降低 {0}%",
         "en": "Enduring Cry has {0}% reduced Cooldown Recovery Rate"
     },
     {
@@ -28836,7 +28831,7 @@
     },
     {
         "id": "stat_4147277532",
-        "zh": "【激励战吼】的增益效果提高 {0}%",
+        "zh": "【激励战吼】的增益效果降低 {0}%",
         "en": "{0}% reduced Rallying Cry Buff Effect"
     },
     {
@@ -28926,7 +28921,7 @@
     },
     {
         "id": "stat_2527931375",
-        "zh": "闪电魔像给予你的增益效果提高 {0}%",
+        "zh": "闪电魔像给予你的增益效果降低 {0}%",
         "en": "{0}% reduced Effect of the Buff granted by your Lightning Golems"
     },
     {
@@ -28961,7 +28956,7 @@
     },
     {
         "id": "stat_2194114101",
-        "zh": "攻击暴击率提高 {0}%",
+        "zh": "攻击暴击率降低 {0}%",
         "en": "{0}% reduced Critical Strike Chance for Attacks"
     },
     {
@@ -28981,7 +28976,7 @@
     },
     {
         "id": "stat_1944316218",
-        "zh": "【冰霜净化】的光环效果提高 {0}%",
+        "zh": "【冰霜净化】的光环效果降低 {0}%",
         "en": "Purity of Ice has {0}% reduced Aura Effect"
     },
     {
@@ -28991,7 +28986,7 @@
     },
     {
         "id": "stat_1662974426",
-        "zh": "【时空锁链】的诅咒效果提高 {0}%",
+        "zh": "【时空锁链】的诅咒效果降低 {0}%",
         "en": "{0}% reduced Temporal Chains Curse Effect"
     },
     {
@@ -29166,7 +29161,7 @@
     },
     {
         "id": "stat_2250111474",
-        "zh": "寒冰魔像给予你的增益效果提高 {0}%",
+        "zh": "寒冰魔像给予你的增益效果降低 {0}%",
         "en": "{0}% reduced Effect of the Buff granted by your Ice Golems"
     },
     {
@@ -29196,7 +29191,7 @@
     },
     {
         "id": "stat_2844206732",
-        "zh": "【惩戒】的诅咒效果提高 {0}%",
+        "zh": "【惩戒】的诅咒效果降低 {0}%",
         "en": "{0}% reduced Punishment Curse Effect"
     },
     {
@@ -29256,7 +29251,7 @@
     },
     {
         "id": "stat_2420972973",
-        "zh": "腐化魔像给与你的增益效果提高 {0}%",
+        "zh": "腐化魔像给与你的增益效果降低 {0}%",
         "en": "{0}% reduced Effect of the Buff granted by your Carrion Golems"
     },
     {
@@ -30162,7 +30157,7 @@
     {
         "id": "stat_2461552986",
         "zh": "【电弧】额外连锁弹射 {0} 次",
-        "en": "Arc Chains {0} additional times"
+        "en": "Arc Chains an additional {0} times"
     },
     {
         "id": "stat_3469967347",
@@ -32556,7 +32551,7 @@
     },
     {
         "id": "stat_1549594869",
-        "zh": "【暗夜血契】的施法速度加快 {0}%",
+        "zh": "【暗夜血契】的施法速度减慢 {0}%",
         "en": "{0}% reduced Dark Pact Cast Speed"
     },
     {
@@ -37807,7 +37802,7 @@
     {
         "id": "stat_450695450",
         "zh": "能量护盾在你格挡时 {0}",
-        "en": "{0} Energy Shield gained when you Block"
+        "en": "Gain {0} Energy Shield when you Block"
     },
     {
         "id": "stat_450695450",
@@ -38162,7 +38157,7 @@
     {
         "id": "stat_3328802509",
         "zh": "激活的先祖图腾增益效果延续 {0} 秒",
-        "en": "Buffs from Active Ancestor Totems Linger for {0} second"
+        "en": "Buffs from Active Ancestor Totems Linger for {0} seconds"
     },
     {
         "id": "stat_2643613764",
@@ -38436,8 +38431,13 @@
     },
     {
         "id": "stat_3153125103",
+        "zh": "最多1个被吞噬的灵魂",
+        "en": "Maximum 1 Eaten Soul"
+    },
+    {
+        "id": "stat_3153125103",
         "zh": "最多{0}个被吞噬的灵魂",
-        "en": "Maximum {0} Eaten Soul"
+        "en": "Maximum {0} Eaten Souls"
     },
     {
         "id": "stat_1520059289",
@@ -38496,8 +38496,13 @@
     },
     {
         "id": "stat_4145689649",
+        "zh": "击败敌人时能获得肾上腺素，持续1秒",
+        "en": "Gain Adrenaline for 1 second on kill"
+    },
+    {
+        "id": "stat_4145689649",
         "zh": "击败敌人时能获得肾上腺素，持续{0}秒",
-        "en": "Gain Adrenaline for {0} second on kill"
+        "en": "Gain Adrenaline for {0} seconds on kill"
     },
     {
         "id": "stat_2538411280",
@@ -38832,7 +38837,7 @@
     {
         "id": "stat_2560911401",
         "zh": "法术的基础法术暴击几率等于主手武器的暴击几率",
-        "en": "Base Critical Strike Chance of Spells is the Critical Strike Chance of Main Hand Weapon"
+        "en": "Base Spell Critical Strike Chance of Spells is equal to that of Main Hand Weapon"
     },
     {
         "id": "stat_331731406",
@@ -40173,5 +40178,10 @@
         "id": "stat_3865186586",
         "zh": "怪物的冻结时间提高 {0}%",
         "en": "Monsters have {0}% increased Freeze Duration"
+    },
+    {
+        "id": "stat_3900877792",
+        "zh": "没有物理伤害",
+        "en": "Deal no Physical Damage"
     }
 ]
