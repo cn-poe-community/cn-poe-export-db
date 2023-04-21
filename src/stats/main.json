@@ -776,12 +776,12 @@
     },
     {
         "id": "stat_2312028586",
-        "zh": "玩家技能的总范围额外扩大 {0}%",
+        "zh": "玩家技能的范围总增 {0}%",
         "en": "Players have {0}% more Area of Effect"
     },
     {
         "id": "stat_2312028586",
-        "zh": "玩家技能的总范围额外缩小 {0}%",
+        "zh": "玩家技能的范围总降 {0}%",
         "en": "Players have {0}% less Area of Effect"
     },
     {
@@ -986,12 +986,12 @@
     },
     {
         "id": "stat_3293699237",
-        "zh": "剑类攻击的攻击速度提高 {0}%",
+        "zh": "剑类攻击的攻击速度加快 {0}%",
         "en": "{0}% increased Attack Speed with Swords"
     },
     {
         "id": "stat_3293699237",
-        "zh": "剑类攻击的攻击速度降低 {0}%",
+        "zh": "剑类攻击的攻击速度减慢 {0}%",
         "en": "{0}% reduced Attack Speed with Swords"
     },
     {
@@ -1051,12 +1051,12 @@
     },
     {
         "id": "stat_1813451228",
-        "zh": "近战单手武器攻击的攻击速度提高 {0}%",
+        "zh": "近战单手武器攻击的攻击速度加快 {0}%",
         "en": "{0}% increased Attack Speed with One Handed Melee Weapons"
     },
     {
         "id": "stat_1813451228",
-        "zh": "近战单手武器攻击的攻击速度降低 {0}%",
+        "zh": "近战单手武器攻击的攻击速度减慢 {0}%",
         "en": "{0}% reduced Attack Speed with One Handed Melee Weapons"
     },
     {
@@ -1091,22 +1091,22 @@
     },
     {
         "id": "stat_3550868361",
-        "zh": "斧类攻击的攻击速度提高 {0}%",
+        "zh": "斧类攻击的攻击速度加快 {0}%",
         "en": "{0}% increased Attack Speed with Axes"
     },
     {
         "id": "stat_3550868361",
-        "zh": "斧类攻击的攻击速度缩短 {0}%",
+        "zh": "斧类攻击的攻击速度减慢 {0}%",
         "en": "{0}% reduced Attack Speed with Axes"
     },
     {
         "id": "stat_4249220643",
-        "zh": "双持攻击的攻击速度提高 {0}%",
+        "zh": "双持攻击的攻击速度加快 {0}%",
         "en": "{0}% increased Attack Speed while Dual Wielding"
     },
     {
         "id": "stat_4249220643",
-        "zh": "双持攻击的攻击速度降低 {0}%",
+        "zh": "双持攻击的攻击速度减慢 {0}%",
         "en": "{0}% reduced Attack Speed while Dual Wielding"
     },
     {
@@ -1221,12 +1221,12 @@
     },
     {
         "id": "stat_1917910910",
-        "zh": "双手近战武器攻击的攻击速度提高 {0}%",
+        "zh": "双手近战武器攻击的攻击速度加快 {0}%",
         "en": "{0}% increased Attack Speed with Two Handed Melee Weapons"
     },
     {
         "id": "stat_1917910910",
-        "zh": "双手近战武器攻击的攻击速度降低 {0}%",
+        "zh": "双手近战武器攻击的攻击速度减慢 {0}%",
         "en": "{0}% reduced Attack Speed with Two Handed Melee Weapons"
     },
     {
@@ -1256,12 +1256,12 @@
     },
     {
         "id": "stat_3805075944",
-        "zh": "持盾牌时攻击速度提高 {0}%",
+        "zh": "持盾牌时攻击速度加快 {0}%",
         "en": "{0}% increased Attack Speed while holding a Shield"
     },
     {
         "id": "stat_3805075944",
-        "zh": "持盾牌时攻击速度降低 {0}%",
+        "zh": "持盾牌时攻击速度减慢 {0}%",
         "en": "{0}% reduced Attack Speed while holding a Shield"
     },
     {
@@ -1401,12 +1401,12 @@
     },
     {
         "id": "stat_173226756",
-        "zh": "回复速度提高 {0}%",
+        "zh": "回复速度加快 {0}%",
         "en": "{0}% increased Recovery rate"
     },
     {
         "id": "stat_173226756",
-        "zh": "回复速度降低 {0}%",
+        "zh": "回复速度减慢 {0}%",
         "en": "{0}% reduced Recovery rate"
     },
     {
@@ -1436,12 +1436,12 @@
     },
     {
         "id": "stat_649025131",
-        "zh": "低血时移动速度提高 {0}%",
+        "zh": "低血时移动速度加快 {0}%",
         "en": "{0}% increased Movement Speed when on Low Life"
     },
     {
         "id": "stat_649025131",
-        "zh": "低血时移动速度降低 {0}%",
+        "zh": "低血时移动速度减慢 {0}%",
         "en": "{0}% reduced Movement Speed when on Low Life"
     },
     {
@@ -1486,12 +1486,12 @@
     },
     {
         "id": "stat_51994685",
-        "zh": "药剂生命回复速度提高 {0}%",
+        "zh": "药剂生命回复速度加快 {0}%",
         "en": "{0}% increased Flask Life Recovery rate"
     },
     {
         "id": "stat_51994685",
-        "zh": "药剂生命回复速度降低 {0}%",
+        "zh": "药剂生命回复速度减慢 {0}%",
         "en": "{0}% reduced Flask Life Recovery rate"
     },
     {
@@ -1501,12 +1501,12 @@
     },
     {
         "id": "stat_1412217137",
-        "zh": "药剂魔力回复速度提高 {0}%",
+        "zh": "药剂魔力回复速度加快 {0}%",
         "en": "{0}% increased Flask Mana Recovery rate"
     },
     {
         "id": "stat_1412217137",
-        "zh": "药剂魔力回复速度降低 {0}%",
+        "zh": "药剂魔力回复速度减慢 {0}%",
         "en": "{0}% reduced Flask Mana Recovery rate"
     },
     {
@@ -1606,12 +1606,12 @@
     },
     {
         "id": "stat_174664100",
-        "zh": "召唤生物的移动速度提高 {0}%",
+        "zh": "召唤生物的移动速度加快 {0}%",
         "en": "Minions have {0}% increased Movement Speed"
     },
     {
         "id": "stat_174664100",
-        "zh": "召唤生物的移动速度降低 {0}%",
+        "zh": "召唤生物的移动速度减慢 {0}%",
         "en": "Minions have {0}% reduced Movement Speed"
     },
     {
@@ -1671,12 +1671,12 @@
     },
     {
         "id": "stat_118398748",
-        "zh": "陷阱投掷速度提高 {0}%",
+        "zh": "陷阱投掷速度加快 {0}%",
         "en": "{0}% increased Trap Throwing Speed"
     },
     {
         "id": "stat_118398748",
-        "zh": "陷阱投掷速度降低 {0}%",
+        "zh": "陷阱投掷速度减慢 {0}%",
         "en": "{0}% reduced Trap Throwing Speed"
     },
     {
@@ -1796,12 +1796,12 @@
     },
     {
         "id": "stat_3375935924",
-        "zh": "召唤生物的攻击速度提高 {0}%",
+        "zh": "召唤生物的攻击速度加快 {0}%",
         "en": "Minions have {0}% increased Attack Speed"
     },
     {
         "id": "stat_3375935924",
-        "zh": "召唤生物的攻击速度降低 {0}%",
+        "zh": "召唤生物的攻击速度减慢 {0}%",
         "en": "Minions have {0}% reduced Attack Speed"
     },
     {
@@ -1911,12 +1911,12 @@
     },
     {
         "id": "stat_1896971621",
-        "zh": "地雷投掷速度提高 {0}%",
+        "zh": "地雷投掷速度加快 {0}%",
         "en": "{0}% increased Mine Throwing Speed"
     },
     {
         "id": "stat_1896971621",
-        "zh": "地雷投掷速度降低 {0}%",
+        "zh": "地雷投掷速度减慢 {0}%",
         "en": "{0}% reduced Mine Throwing Speed"
     },
     {
@@ -1936,12 +1936,12 @@
     },
     {
         "id": "stat_4000101551",
-        "zh": "召唤生物的施法速度提高 {0}%",
+        "zh": "召唤生物的施法速度加快 {0}%",
         "en": "Minions have {0}% increased Cast Speed"
     },
     {
         "id": "stat_4000101551",
-        "zh": "召唤生物的施法速度降低 {0}%",
+        "zh": "召唤生物的施法速度减慢 {0}%",
         "en": "Minions have {0}% reduced Cast Speed"
     },
     {
@@ -2041,12 +2041,12 @@
     },
     {
         "id": "stat_1612163368",
-        "zh": "持盾牌时施法速度提高 {0}%",
+        "zh": "持盾牌时施法速度加快 {0}%",
         "en": "{0}% increased Cast Speed while holding a Shield"
     },
     {
         "id": "stat_1612163368",
-        "zh": "持盾牌时施法速度降低 {0}%",
+        "zh": "持盾牌时施法速度减慢 {0}%",
         "en": "{0}% reduced Cast Speed while holding a Shield"
     },
     {
@@ -2136,12 +2136,12 @@
     },
     {
         "id": "stat_2382196858",
-        "zh": "双持时施法速度提高 {0}%",
+        "zh": "双持时施法速度加快 {0}%",
         "en": "{0}% increased Cast Speed while Dual Wielding"
     },
     {
         "id": "stat_2382196858",
-        "zh": "双持时施法速度降低 {0}%",
+        "zh": "双持时施法速度减慢 {0}%",
         "en": "{0}% reduced Cast Speed while Dual Wielding"
     },
     {
@@ -2211,32 +2211,32 @@
     },
     {
         "id": "stat_1421645223",
-        "zh": "爪类攻击的攻击速度提高 {0}%",
+        "zh": "爪类攻击的攻击速度加快 {0}%",
         "en": "{0}% increased Attack Speed with Claws"
     },
     {
         "id": "stat_1421645223",
-        "zh": "爪类攻击的攻击速度降低 {0}%",
+        "zh": "爪类攻击的攻击速度减慢 {0}%",
         "en": "{0}% reduced Attack Speed with Claws"
     },
     {
         "id": "stat_2538566497",
-        "zh": "匕首攻击的攻击速度提高 {0}%",
+        "zh": "匕首攻击的攻击速度加快 {0}%",
         "en": "{0}% increased Attack Speed with Daggers"
     },
     {
         "id": "stat_2538566497",
-        "zh": "匕首攻击的攻击速度降低 {0}%",
+        "zh": "匕首攻击的攻击速度减慢 {0}%",
         "en": "{0}% reduced Attack Speed with Daggers"
     },
     {
         "id": "stat_2066542501",
-        "zh": "持长杖时施法速度提高 {0}%",
+        "zh": "持长杖时施法速度加快 {0}%",
         "en": "{0}% increased Cast Speed while wielding a Staff"
     },
     {
         "id": "stat_2066542501",
-        "zh": "持长杖时施法速度降低 {0}%",
+        "zh": "持长杖时施法速度减慢 {0}%",
         "en": "{0}% reduced Cast Speed while wielding a Staff"
     },
     {
@@ -2276,12 +2276,12 @@
     },
     {
         "id": "stat_3393547195",
-        "zh": "满血时移动速度提高 {0}%",
+        "zh": "满血时移动速度加快 {0}%",
         "en": "{0}% increased Movement Speed when on Full Life"
     },
     {
         "id": "stat_3393547195",
-        "zh": "满血时移动速度降低 {0}%",
+        "zh": "满血时移动速度减慢 {0}%",
         "en": "{0}% reduced Movement Speed when on Full Life"
     },
     {
@@ -2341,12 +2341,12 @@
     },
     {
         "id": "stat_1394963553",
-        "zh": "长杖攻击的攻击速度提高 {0}%",
+        "zh": "长杖攻击的攻击速度加快 {0}%",
         "en": "{0}% increased Attack Speed with Staves"
     },
     {
         "id": "stat_1394963553",
-        "zh": "长杖攻击的攻击速度降低 {0}%",
+        "zh": "长杖攻击的攻击速度减慢 {0}%",
         "en": "{0}% reduced Attack Speed with Staves"
     },
     {
@@ -2356,12 +2356,12 @@
     },
     {
         "id": "stat_1585344030",
-        "zh": "若你近期内打出过暴击，则攻击速度提高 {0}%",
+        "zh": "若你近期内打出过暴击，则攻击速度加快 {0}%",
         "en": "{0}% increased Attack Speed if you've dealt a Critical Strike Recently"
     },
     {
         "id": "stat_1585344030",
-        "zh": "若你近期内打出过暴击，则攻击速度降低 {0}%",
+        "zh": "若你近期内打出过暴击，则攻击速度减慢 {0}%",
         "en": "{0}% reduced Attack Speed if you've dealt a Critical Strike Recently"
     },
     {
@@ -2561,12 +2561,12 @@
     },
     {
         "id": "stat_3720627346",
-        "zh": "法杖攻击的攻击速度提高 {0}%",
+        "zh": "法杖攻击的攻击速度加快 {0}%",
         "en": "{0}% increased Attack Speed with Wands"
     },
     {
         "id": "stat_3720627346",
-        "zh": "法杖攻击的攻击速度降低 {0}%",
+        "zh": "法杖攻击的攻击速度减慢 {0}%",
         "en": "{0}% reduced Attack Speed with Wands"
     },
     {
@@ -2626,12 +2626,12 @@
     },
     {
         "id": "stat_3660039923",
-        "zh": "被点燃时施法速度提高 {0}%",
+        "zh": "被点燃时施法速度加快 {0}%",
         "en": "{0}% increased Cast Speed while Ignited"
     },
     {
         "id": "stat_3660039923",
-        "zh": "被点燃时施法速度降低 {0}%",
+        "zh": "被点燃时施法速度减慢 {0}%",
         "en": "{0}% reduced Cast Speed while Ignited"
     },
     {
@@ -2646,12 +2646,12 @@
     },
     {
         "id": "stat_581625445",
-        "zh": "被点燃时移动速度提高 {0}%",
+        "zh": "被点燃时移动速度加快 {0}%",
         "en": "{0}% increased Movement Speed while Ignited"
     },
     {
         "id": "stat_581625445",
-        "zh": "被点燃时移动速度降低 {0}%",
+        "zh": "被点燃时移动速度减慢 {0}%",
         "en": "{0}% reduced Movement Speed while Ignited"
     },
     {
@@ -2706,12 +2706,12 @@
     },
     {
         "id": "stat_2047819517",
-        "zh": "被点燃时攻击速度提高 {0}%",
+        "zh": "被点燃时攻击速度加快 {0}%",
         "en": "{0}% increased Attack Speed while Ignited"
     },
     {
         "id": "stat_2047819517",
-        "zh": "被点燃时攻击速度降低 {0}%",
+        "zh": "被点燃时攻击速度减慢 {0}%",
         "en": "{0}% reduced Attack Speed while Ignited"
     },
     {
@@ -2781,12 +2781,12 @@
     },
     {
         "id": "stat_3759735052",
-        "zh": "弓类攻击的攻击速度提高 {0}%",
+        "zh": "弓类攻击的攻击速度加快 {0}%",
         "en": "{0}% increased Attack Speed with Bows"
     },
     {
         "id": "stat_3759735052",
-        "zh": "弓类攻击的攻击速度降低 {0}%",
+        "zh": "弓类攻击的攻击速度减慢 {0}%",
         "en": "{0}% reduced Attack Speed with Bows"
     },
     {
@@ -2996,12 +2996,12 @@
     },
     {
         "id": "stat_1327522346",
-        "zh": "当移动时，魔力回复速度提高 {0}%",
+        "zh": "当移动时，魔力回复速度加快 {0}%",
         "en": "{0}% increased Mana Regeneration Rate while moving"
     },
     {
         "id": "stat_1327522346",
-        "zh": "当移动时，魔力回复速度降低 {0}%",
+        "zh": "当移动时，魔力回复速度减慢 {0}%",
         "en": "{0}% reduced Mana Regeneration Rate while moving"
     },
     {
@@ -3186,12 +3186,12 @@
     },
     {
         "id": "stat_1174076861",
-        "zh": "若你近期内有打出过暴击，则施法速度提高 {0}%",
+        "zh": "若你近期内有打出过暴击，则施法速度加快 {0}%",
         "en": "{0}% increased Cast Speed if you've dealt a Critical Strike Recently"
     },
     {
         "id": "stat_1174076861",
-        "zh": "若你近期内有打出过暴击，则施法速度降低 {0}%",
+        "zh": "若你近期内有打出过暴击，则施法速度减慢 {0}%",
         "en": "{0}% reduced Cast Speed if you've dealt a Critical Strike Recently"
     },
     {
@@ -3206,12 +3206,12 @@
     },
     {
         "id": "stat_729180395",
-        "zh": "魔像施放技能的冷却速度提高 {0}%",
+        "zh": "魔像施放技能的冷却速度加快 {0}%",
         "en": "Golem Skills have {0}% increased Cooldown Recovery Rate"
     },
     {
         "id": "stat_729180395",
-        "zh": "魔像施放技能的冷却速度降低 {0}%",
+        "zh": "魔像施放技能的冷却速度减慢 {0}%",
         "en": "Golem Skills have {0}% reduced Cooldown Recovery Rate"
     },
     {
@@ -3226,12 +3226,12 @@
     },
     {
         "id": "stat_279227559",
-        "zh": "若你近期内有击败敌人，则移动速度提高 {0}%",
+        "zh": "若你近期内有击败敌人，则移动速度加快 {0}%",
         "en": "{0}% increased Movement Speed if you've Killed Recently"
     },
     {
         "id": "stat_279227559",
-        "zh": "若你近期内有击败敌人，则移动速度降低 {0}%",
+        "zh": "若你近期内有击败敌人，则移动速度减慢 {0}%",
         "en": "{0}% reduced Movement Speed if you've Killed Recently"
     },
     {
@@ -3571,12 +3571,12 @@
     },
     {
         "id": "stat_56225773",
-        "zh": "魔像的攻击和施法速度提高 {0}%",
+        "zh": "魔像的攻击和施法速度加快 {0}%",
         "en": "Golems have {0}% increased Attack and Cast Speed"
     },
     {
         "id": "stat_56225773",
-        "zh": "魔像的攻击和施法速度降低 {0}%",
+        "zh": "魔像的攻击和施法速度减慢 {0}%",
         "en": "Golems have {0}% reduced Attack and Cast Speed"
     },
     {
@@ -3691,12 +3691,12 @@
     },
     {
         "id": "stat_4227567885",
-        "zh": "若你近期内或你的召唤生物击败过敌人，则召唤生物攻击和施法速度提高 {0}%",
+        "zh": "若你近期内或你的召唤生物击败过敌人，则召唤生物攻击和施法速度加快 {0}%",
         "en": "Minions have {0}% increased Attack and Cast Speed if you or your Minions have Killed Recently"
     },
     {
         "id": "stat_4227567885",
-        "zh": "若你近期内或你的召唤生物击败过敌人，则召唤生物攻击和施法速度降低 {0}%",
+        "zh": "若你近期内或你的召唤生物击败过敌人，则召唤生物攻击和施法速度减慢 {0}%",
         "en": "Minions have {0}% reduced Attack and Cast Speed if you or your Minions have Killed Recently"
     },
     {
@@ -3881,12 +3881,12 @@
     },
     {
         "id": "stat_3854949926",
-        "zh": "若你近期内没受到伤害，则移动速度提高 {0}%",
+        "zh": "若你近期内没受到伤害，则移动速度加快 {0}%",
         "en": "{0}% increased Movement Speed if you haven't taken Damage Recently"
     },
     {
         "id": "stat_3854949926",
-        "zh": "若你近期内没受到伤害，则移动速度降低 {0}%",
+        "zh": "若你近期内没受到伤害，则移动速度减慢 {0}%",
         "en": "{0}% reduced Movement Speed if you haven't taken Damage Recently"
     },
     {
@@ -4401,12 +4401,12 @@
     },
     {
         "id": "stat_3110907148",
-        "zh": "近期内你的召唤生物若被击败，则施法速度提高 {0}%",
+        "zh": "近期内你的召唤生物若被击败，则施法速度加快 {0}%",
         "en": "{0}% increased Cast Speed if a Minion has been Killed Recently"
     },
     {
         "id": "stat_3110907148",
-        "zh": "近期内你的召唤生物若被击败，则施法速度降低 {0}%",
+        "zh": "近期内你的召唤生物若被击败，则施法速度减慢 {0}%",
         "en": "{0}% reduced Cast Speed if a Minion has been Killed Recently"
     },
     {
@@ -4416,12 +4416,12 @@
     },
     {
         "id": "stat_3410049114",
-        "zh": "你和周围友军的移动速度提高 {0}%",
+        "zh": "你和周围友军的移动速度加快 {0}%",
         "en": "{0}% increased Movement Speed for you and nearby Allies"
     },
     {
         "id": "stat_3410049114",
-        "zh": "你和周围友军的移动速度降低 {0}%",
+        "zh": "你和周围友军的移动速度减慢 {0}%",
         "en": "{0}% reduced Movement Speed for you and nearby Allies"
     },
     {
@@ -4966,12 +4966,12 @@
     },
     {
         "id": "stat_4159248054",
-        "zh": "战吼冷却回复速度提高 {0}%",
+        "zh": "战吼冷却回复速度加快 {0}%",
         "en": "{0}% increased Warcry Cooldown Recovery Rate"
     },
     {
         "id": "stat_4159248054",
-        "zh": "战吼冷却回复速度降低 {0}%",
+        "zh": "战吼冷却回复速度减慢 {0}%",
         "en": "{0}% reduced Warcry Cooldown Recovery Rate"
     },
     {
@@ -4991,12 +4991,12 @@
     },
     {
         "id": "stat_2825197711",
-        "zh": "能量护盾全满时，移动速度提高 {0}%",
+        "zh": "能量护盾全满时，移动速度加快 {0}%",
         "en": "{0}% increased Movement Speed while on Full Energy Shield"
     },
     {
         "id": "stat_2825197711",
-        "zh": "能量护盾全满时，移动速度降低 {0}%",
+        "zh": "能量护盾全满时，移动速度减慢 {0}%",
         "en": "{0}% reduced Movement Speed while on Full Energy Shield"
     },
     {
@@ -5031,12 +5031,12 @@
     },
     {
         "id": "stat_4268321763",
-        "zh": "满血时攻击速度提高 {0}%",
+        "zh": "满血时攻击速度加快 {0}%",
         "en": "{0}% increased Attack Speed when on Full Life"
     },
     {
         "id": "stat_4268321763",
-        "zh": "满血时攻击速度降低 {0}%",
+        "zh": "满血时攻击速度减慢 {0}%",
         "en": "{0}% reduced Attack Speed when on Full Life"
     },
     {
@@ -5096,12 +5096,12 @@
     },
     {
         "id": "stat_1921572790",
-        "zh": "低血时攻击速度提高 {0}%",
+        "zh": "低血时攻击速度加快 {0}%",
         "en": "{0}% increased Attack Speed when on Low Life"
     },
     {
         "id": "stat_1921572790",
-        "zh": "低血时攻击速度降低 {0}%",
+        "zh": "低血时攻击速度减慢 {0}%",
         "en": "{0}% reduced Attack Speed when on Low Life"
     },
     {
@@ -5346,12 +5346,12 @@
     },
     {
         "id": "stat_1004011302",
-        "zh": "冷却回复速度提高 {0}%",
+        "zh": "冷却回复速度加快 {0}%",
         "en": "{0}% increased Cooldown Recovery Rate"
     },
     {
         "id": "stat_1004011302",
-        "zh": "冷却回复速度提高 {0}%",
+        "zh": "冷却回复速度加快 {0}%",
         "en": "{0}% reduced Cooldown Recovery Rate"
     },
     {
@@ -6081,12 +6081,12 @@
     },
     {
         "id": "stat_2831922878",
-        "zh": "若你近期内使用过位移技能，则攻击和施法速度提高 {0}%",
+        "zh": "若你近期内使用过位移技能，则攻击和施法速度加快 {0}%",
         "en": "{0}% increased Attack and Cast Speed if you've used a Movement Skill Recently"
     },
     {
         "id": "stat_2831922878",
-        "zh": "若你近期内使用过位移技能，则攻击和施法速度降低 {0}%",
+        "zh": "若你近期内使用过位移技能，则攻击和施法速度减慢 {0}%",
         "en": "{0}% reduced Attack and Cast Speed if you've used a Movement Skill Recently"
     },
     {
@@ -6396,12 +6396,12 @@
     },
     {
         "id": "stat_2092708508",
-        "zh": "若范围内含有 40 点敏捷，\n【冰霜之刃】的投射物速度提高 {0}%",
+        "zh": "若范围内含有 40 点敏捷，\n【冰霜之刃】的投射物速度加快 {0}%",
         "en": "With at least 40 Dexterity in Radius, Frost Blades has {0}% increased Projectile Speed"
     },
     {
         "id": "stat_2092708508",
-        "zh": "若范围内含有 40 点敏捷，\n【冰霜之刃】的投射物速度降低 {0}%",
+        "zh": "若范围内含有 40 点敏捷，\n【冰霜之刃】的投射物速度减慢 {0}%",
         "en": "With at least 40 Dexterity in Radius, Frost Blades has {0}% reduced Projectile Speed"
     },
     {
@@ -7096,12 +7096,12 @@
     },
     {
         "id": "stat_2045330446",
-        "zh": "若范围内至少有 40 点智慧，解放的总效果区域额外扩大 {0}%",
+        "zh": "若范围内至少有 40 点智慧，解放的效果区域总增 {0}%",
         "en": "With at least 40 Intelligence in Radius, Discharge has {0}% more Area of Effect"
     },
     {
         "id": "stat_2045330446",
-        "zh": "若范围内至少有 40 点智慧，解放的总效果区域额外缩小 {0}%",
+        "zh": "若范围内至少有 40 点智慧，解放的效果区域总降 {0}%",
         "en": "With at least 40 Intelligence in Radius, Discharge has {0}% less Area of Effect"
     },
     {
@@ -7351,12 +7351,12 @@
     },
     {
         "id": "stat_786380548",
-        "zh": "若范围内至少有 40 点力量，【熔岩之击】发射的总投射物额外增加 {0}%",
+        "zh": "若范围内至少有 40 点力量，【熔岩之击】发射的投射物数量总增 {0}%",
         "en": "With at least 40 Strength in Radius, Molten Strike fires {0}% more Projectiles"
     },
     {
         "id": "stat_786380548",
-        "zh": "若范围内至少有 40 点力量，【熔岩之击】发射的总投射物额外减少 {0}%",
+        "zh": "若范围内至少有 40 点力量，【熔岩之击】发射的投射物数量总降 {0}%",
         "en": "With at least 40 Strength in Radius, Molten Strike fires {0}% less Projectiles"
     },
     {
@@ -7491,12 +7491,12 @@
     },
     {
         "id": "stat_4047895119",
-        "zh": "每 50 点敏捷可使召唤生物的攻击速度提高 {0}%",
+        "zh": "每 50 点敏捷可使召唤生物的攻击速度加快 {0}%",
         "en": "{0}% increased Minion Attack Speed per 50 Dexterity"
     },
     {
         "id": "stat_4047895119",
-        "zh": "每 50 点敏捷可使召唤生物的攻击速度降低 {0}%",
+        "zh": "每 50 点敏捷可使召唤生物的攻击速度减慢 {0}%",
         "en": "{0}% reduced Minion Attack Speed per 50 Dexterity"
     },
     {
@@ -7576,12 +7576,12 @@
     },
     {
         "id": "stat_889691035",
-        "zh": "每 10 点敏捷会使攻击速度提高 {0}%",
+        "zh": "每 10 点敏捷会使攻击速度加快 {0}%",
         "en": "{0}% increased Attack Speed per 10 Dexterity"
     },
     {
         "id": "stat_889691035",
-        "zh": "每 10 点敏捷会使攻击速度降低 {0}%",
+        "zh": "每 10 点敏捷会使攻击速度减慢 {0}%",
         "en": "{0}% reduced Attack Speed per 10 Dexterity"
     },
     {
@@ -7831,12 +7831,12 @@
     },
     {
         "id": "stat_3085465082",
-        "zh": "地雷引爆速度提高 {0}%",
+        "zh": "地雷引爆速度加快 {0}%",
         "en": "Mines have {0}% increased Detonation Speed"
     },
     {
         "id": "stat_3085465082",
-        "zh": "地雷引爆速度降低 {0}%",
+        "zh": "地雷引爆速度减慢 {0}%",
         "en": "Mines have {0}% reduced Detonation Speed"
     },
     {
@@ -8171,12 +8171,12 @@
     },
     {
         "id": "stat_308396001",
-        "zh": "若你近期内没有被击中，则移动速度提高 {0}%",
+        "zh": "若你近期内没有被击中，则移动速度加快 {0}%",
         "en": "{0}% increased Movement Speed if you haven't been Hit Recently"
     },
     {
         "id": "stat_308396001",
-        "zh": "若你近期内没有被击中，则移动速度降低 {0}%",
+        "zh": "若你近期内没有被击中，则移动速度减慢 {0}%",
         "en": "{0}% reduced Movement Speed if you haven't been Hit Recently"
     },
     {
@@ -8401,12 +8401,12 @@
     },
     {
         "id": "stat_542923416",
-        "zh": "感电时移动速度提高 {0}%",
+        "zh": "感电时移动速度加快 {0}%",
         "en": "{0}% increased Movement Speed while Shocked"
     },
     {
         "id": "stat_542923416",
-        "zh": "感电时移动速度降低 {0}%",
+        "zh": "感电时移动速度减慢 {0}%",
         "en": "{0}% reduced Movement Speed while Shocked"
     },
     {
@@ -8756,12 +8756,12 @@
     },
     {
         "id": "stat_3413085237",
-        "zh": "魔侍的攻击速度提高 {0}%",
+        "zh": "魔侍的攻击速度加快 {0}%",
         "en": "{0}% increased Skeleton Attack Speed"
     },
     {
         "id": "stat_3413085237",
-        "zh": "魔侍的攻击速度降低 {0}%",
+        "zh": "魔侍的攻击速度减慢 {0}%",
         "en": "{0}% reduced Skeleton Attack Speed"
     },
     {
@@ -9296,12 +9296,12 @@
     },
     {
         "id": "stat_3133579934",
-        "zh": "每个召唤的怒炎之灵可使攻击和施法速度提高 {0}%",
+        "zh": "每个召唤的怒炎之灵可使攻击和施法速度加快 {0}%",
         "en": "{0}% increased Attack and Cast Speed per Summoned Raging Spirit"
     },
     {
         "id": "stat_3133579934",
-        "zh": "每个召唤的怒炎之灵可使攻击和施法速度降低 {0}%",
+        "zh": "每个召唤的怒炎之灵可使攻击和施法速度减慢 {0}%",
         "en": "{0}% reduced Attack and Cast Speed per Summoned Raging Spirit"
     },
     {
@@ -9436,12 +9436,12 @@
     },
     {
         "id": "stat_3610263531",
-        "zh": "专注的冷却回复速度提高 {0}%",
+        "zh": "专注的冷却回复速度加快 {0}%",
         "en": "Focus has {0}% increased Cooldown Recovery Rate"
     },
     {
         "id": "stat_3610263531",
-        "zh": "专注的冷却回复速度降低 {0}%",
+        "zh": "专注的冷却回复速度减慢 {0}%",
         "en": "Focus has {0}% reduced Cooldown Recovery Rate"
     },
     {
@@ -9516,12 +9516,12 @@
     },
     {
         "id": "stat_2378065031",
-        "zh": "诅咒技能的施法速度提高 {0}%",
+        "zh": "诅咒技能的施法速度加快 {0}%",
         "en": "Curse Skills have {0}% increased Cast Speed"
     },
     {
         "id": "stat_2378065031",
-        "zh": "诅咒技能的施法速度降低 {0}%",
+        "zh": "诅咒技能的施法速度减慢 {0}%",
         "en": "Curse Skills have {0}% reduced Cast Speed"
     },
     {
@@ -9756,12 +9756,12 @@
     },
     {
         "id": "stat_3417757416",
-        "zh": "陷阱冷却回复速度提高 {0}%",
+        "zh": "陷阱冷却回复速度加快 {0}%",
         "en": "{0}% increased Cooldown Recovery Rate for throwing Traps"
     },
     {
         "id": "stat_3417757416",
-        "zh": "陷阱冷却回复速度降低 {0}%",
+        "zh": "陷阱冷却回复速度减慢 {0}%",
         "en": "{0}% reduced Cooldown Recovery Rate for throwing Traps"
     },
     {
@@ -9821,7 +9821,7 @@
     },
     {
         "id": "stat_769192511",
-        "zh": "你在天赋树上连接到游侠的出发位置时，你获得：\n移动速度提高{0}%",
+        "zh": "你在天赋树上连接到游侠的出发位置时，你获得：\n移动速度加快 {0}%",
         "en": "While your Passive Skill Tree connects to the Ranger's starting location, you gain:\n{0}% increased Movement Speed"
     },
     {
@@ -9846,7 +9846,7 @@
     },
     {
         "id": "stat_769192511",
-        "zh": "你在天赋树上连接到一个职业的出发位置时，你获得：\n野蛮人：近战技能效果区域扩大 {0}%\n决斗者：攻击伤害的 {1}% 转化为生命偷取\n游侠：移动速度提高{2}%\n暗影：暴击率{3}%\n女巫：每秒再生 {4}% 的魔力\n圣堂武僧：伤害穿透 {5}% 元素抗性\n贵族：全属性 {6}",
+        "zh": "你在天赋树上连接到一个职业的出发位置时，你获得：\n野蛮人：近战技能效果区域扩大 {0}%\n决斗者：攻击伤害的 {1}% 转化为生命偷取\n游侠：移动速度加快{2}%\n暗影：暴击率{3}%\n女巫：每秒再生 {4}% 的魔力\n圣堂武僧：伤害穿透 {5}% 元素抗性\n贵族：全属性 {6}",
         "en": "While your Passive Skill Tree connects to a class' starting location, you gain:\nMarauder: Melee Skills have {0}% increased Area of Effect\nDuelist: {1}% of Attack Damage Leeched as Life\nRanger: {2}% increased Movement Speed\nShadow: {3}% to Critical Strike Chance\nWitch: {4}% of Mana Regenerated per second\nTemplar: Damage Penetrates {5}% Elemental Resistances\nScion: {6} to All Attributes"
     },
     {
@@ -10026,12 +10026,12 @@
     },
     {
         "id": "stat_3684879618",
-        "zh": "【迷踪】状态时移动速度提高 {0}%",
+        "zh": "【迷踪】状态时移动速度加快 {0}%",
         "en": "{0}% increased Movement Speed while Phasing"
     },
     {
         "id": "stat_3684879618",
-        "zh": "【迷踪】状态时移动速度提高 {0}%",
+        "zh": "【迷踪】状态时移动速度加快 {0}%",
         "en": "{0}% reduced Movement Speed while Phasing"
     },
     {
@@ -10111,12 +10111,12 @@
     },
     {
         "id": "stat_4017879067",
-        "zh": "每 50 点敏捷可使召唤生物的移动速度提高 {0}%",
+        "zh": "每 50 点敏捷可使召唤生物的移动速度加快 {0}%",
         "en": "{0}% increased Minion Movement Speed per 50 Dexterity"
     },
     {
         "id": "stat_4017879067",
-        "zh": "每 50 点敏捷可使召唤生物的移动速度降低 {0}%",
+        "zh": "每 50 点敏捷可使召唤生物的移动速度减慢 {0}%",
         "en": "{0}% reduced Minion Movement Speed per 50 Dexterity"
     },
     {
@@ -10211,12 +10211,12 @@
     },
     {
         "id": "stat_696659555",
-        "zh": "流血时移动速度提高 {0}%",
+        "zh": "流血时移动速度加快 {0}%",
         "en": "{0}% increased Movement Speed while Bleeding"
     },
     {
         "id": "stat_696659555",
-        "zh": "流血时移动速度降低 {0}%",
+        "zh": "流血时移动速度减慢 {0}%",
         "en": "{0}% reduced Movement Speed while Bleeding"
     },
     {
@@ -10796,12 +10796,12 @@
     },
     {
         "id": "stat_2725259389",
-        "zh": "魔侍的施法速度提高 {0}%",
+        "zh": "魔侍的施法速度加快 {0}%",
         "en": "{0}% increased Skeleton Cast Speed"
     },
     {
         "id": "stat_2725259389",
-        "zh": "魔侍的施法速度降低 {0}%",
+        "zh": "魔侍的施法速度减慢 {0}%",
         "en": "{0}% reduced Skeleton Cast Speed"
     },
     {
@@ -10816,12 +10816,12 @@
     },
     {
         "id": "stat_3295031203",
-        "zh": "魔侍的移动速度提高 {0}%",
+        "zh": "魔侍的移动速度加快 {0}%",
         "en": "{0}% increased Skeleton Movement Speed"
     },
     {
         "id": "stat_3295031203",
-        "zh": "魔侍的移动速度降低 {0}%",
+        "zh": "魔侍的移动速度减慢 {0}%",
         "en": "{0}% reduced Skeleton Movement Speed"
     },
     {
@@ -11021,12 +11021,12 @@
     },
     {
         "id": "stat_1507059769",
-        "zh": "若你近期内有击败敌人，则攻击速度提高 {0}%",
+        "zh": "若你近期内有击败敌人，则攻击速度加快 {0}%",
         "en": "{0}% increased Attack Speed if you've Killed Recently"
     },
     {
         "id": "stat_1507059769",
-        "zh": "若你近期内有击败敌人，则攻击速度降低 {0}%",
+        "zh": "若你近期内有击败敌人，则攻击速度减慢 {0}%",
         "en": "{0}% reduced Attack Speed if you've Killed Recently"
     },
     {
@@ -11131,12 +11131,12 @@
     },
     {
         "id": "stat_252194507",
-        "zh": "药剂持续期间，施法速度提高 {0}%",
+        "zh": "药剂持续期间，施法速度加快 {0}%",
         "en": "{0}% increased Cast Speed during any Flask Effect"
     },
     {
         "id": "stat_252194507",
-        "zh": "药剂持续期间，施法速度提高 {0}%",
+        "zh": "药剂持续期间，施法速度加快 {0}%",
         "en": "{0}% reduced Cast Speed during any Flask Effect"
     },
     {
@@ -11326,12 +11326,12 @@
     },
     {
         "id": "stat_1365052901",
-        "zh": "药剂持续期间，攻击速度提高 {0}%",
+        "zh": "药剂持续期间，攻击速度加快 {0}%",
         "en": "{0}% increased Attack Speed during any Flask Effect"
     },
     {
         "id": "stat_1365052901",
-        "zh": "药剂持续期间，攻击速度提高 {0}%",
+        "zh": "药剂持续期间，攻击速度加快 {0}%",
         "en": "{0}% reduced Attack Speed during any Flask Effect"
     },
     {
@@ -11406,12 +11406,12 @@
     },
     {
         "id": "stat_1285172810",
-        "zh": "若你近期内使用过瓦尔技能，则移动速度提高 {0}%",
+        "zh": "若你近期内使用过瓦尔技能，则移动速度加快 {0}%",
         "en": "{0}% increased Movement Speed if you have used a Vaal Skill Recently"
     },
     {
         "id": "stat_1285172810",
-        "zh": "若你近期内使用过瓦尔技能，则移动速度降低 {0}%",
+        "zh": "若你近期内使用过瓦尔技能，则移动速度减慢 {0}%",
         "en": "{0}% reduced Movement Speed if you have used a Vaal Skill Recently"
     },
     {
@@ -11836,12 +11836,12 @@
     },
     {
         "id": "stat_3362879252",
-        "zh": "范围内的核心天赋技能转化\n替代为：召唤生物的移动速度提高 {0}%",
+        "zh": "范围内的核心天赋技能转化\n替代为：召唤生物的移动速度加快 {0}%",
         "en": "Notable Passive Skills in Radius are Transformed to\ninstead grant: Minions have {0}% increased Movement Speed"
     },
     {
         "id": "stat_3362879252",
-        "zh": "范围内的核心天赋技能转化\n替代为：召唤生物的移动速度降低 {0}%",
+        "zh": "范围内的核心天赋技能转化\n替代为：召唤生物的移动速度减慢 {0}%",
         "en": "Notable Passive Skills in Radius are Transformed to\ninstead grant: Minions have {0}% reduced Movement Speed"
     },
     {
@@ -12221,12 +12221,12 @@
     },
     {
         "id": "stat_186383409",
-        "zh": "魔像移动速度提高 {0}%",
+        "zh": "魔像移动速度加快 {0}%",
         "en": "Golems have {0}% increased Movement Speed"
     },
     {
         "id": "stat_186383409",
-        "zh": "魔像移动速度降低 {0}%",
+        "zh": "魔像移动速度减慢 {0}%",
         "en": "Golems have {0}% reduced Movement Speed"
     },
     {
@@ -12361,12 +12361,12 @@
     },
     {
         "id": "stat_3134790305",
-        "zh": "被你感电的敌人移动速度提高 {0}%",
+        "zh": "被你感电的敌人移动速度加快 {0}%",
         "en": "Enemies you Shock have {0}% increased Movement Speed"
     },
     {
         "id": "stat_3134790305",
-        "zh": "被你感电的敌人移动速度降低 {0}%",
+        "zh": "被你感电的敌人移动速度减慢 {0}%",
         "en": "Enemies you Shock have {0}% reduced Movement Speed"
     },
     {
@@ -12856,7 +12856,7 @@
     },
     {
         "id": "stat_1238227257",
-        "zh": "你身上的减益效果消失速度提高 {0}%",
+        "zh": "你身上的减益效果消失速度加快 {0}%",
         "en": "Debuffs on you expire {0}% faster"
     },
     {
@@ -12881,12 +12881,12 @@
     },
     {
         "id": "stat_304970526",
-        "zh": "药剂持续期间，移动速度提高 {0}%",
+        "zh": "药剂持续期间，移动速度加快 {0}%",
         "en": "{0}% increased Movement Speed during any Flask Effect"
     },
     {
         "id": "stat_304970526",
-        "zh": "药剂持续期间，移动速度提高 {0}%",
+        "zh": "药剂持续期间，移动速度加快 {0}%",
         "en": "{0}% reduced Movement Speed during any Flask Effect"
     },
     {
@@ -13136,12 +13136,12 @@
     },
     {
         "id": "stat_1795365307",
-        "zh": "范围内每配置 10 点敏捷，移动速度提高 {0}%",
+        "zh": "范围内每配置 10 点敏捷，移动速度加快 {0}%",
         "en": "{0}% increased Movement Speed per 10 Dexterity on Allocated Passives in Radius"
     },
     {
         "id": "stat_1795365307",
-        "zh": "范围内每配置 10 点敏捷，移动速度降低 {0}%",
+        "zh": "范围内每配置 10 点敏捷，移动速度减慢 {0}%",
         "en": "{0}% reduced Movement Speed per 10 Dexterity on Allocated Passives in Radius"
     },
     {
@@ -13776,12 +13776,12 @@
     },
     {
         "id": "stat_80470845",
-        "zh": "受到【纪律】影响时，能量护盾回复速度提高 {0}%",
+        "zh": "受到【纪律】影响时，能量护盾回复速度加快 {0}%",
         "en": "{0}% increased Energy Shield Recovery Rate while affected by Discipline"
     },
     {
         "id": "stat_80470845",
-        "zh": "受到【纪律】影响时，能量护盾回复速度降低 {0}%",
+        "zh": "受到【纪律】影响时，能量护盾回复速度减慢 {0}%",
         "en": "{0}% reduced Energy Shield Recovery Rate while affected by Discipline"
     },
     {
@@ -13856,12 +13856,12 @@
     },
     {
         "id": "stat_3329402420",
-        "zh": "受到【优雅】影响时，移动速度提高 {0}%",
+        "zh": "受到【优雅】影响时，移动速度加快 {0}%",
         "en": "{0}% increased Movement Speed while affected by Grace"
     },
     {
         "id": "stat_3329402420",
-        "zh": "受到【优雅】影响时，移动速度降低{0}%",
+        "zh": "受到【优雅】影响时，移动速度减慢{0}%",
         "en": "{0}% reduced Movement Speed while affected by Grace"
     },
     {
@@ -13966,22 +13966,22 @@
     },
     {
         "id": "stat_3332055899",
-        "zh": "受到【迅捷】影响时，位移技能的冷却速度提高 {0}%",
+        "zh": "受到【迅捷】影响时，位移技能的冷却速度加快 {0}%",
         "en": "{0}% increased Cooldown Recovery Rate of Movement Skills used while affected by Haste"
     },
     {
         "id": "stat_3332055899",
-        "zh": "受到【迅捷】影响时，位移技能的冷却速度降低 {0}%",
+        "zh": "受到【迅捷】影响时，位移技能的冷却速度减慢 {0}%",
         "en": "{0}% reduced Cooldown Recovery Rate of Movement Skills used while affected by Haste"
     },
     {
         "id": "stat_414991155",
-        "zh": "{0}% 更多幻化武器时间",
+        "zh": "{0}% 幻化武器时间总增",
         "en": "{0}% more Animate Weapon Duration"
     },
     {
         "id": "stat_414991155",
-        "zh": "{0}% 较少幻化武器时间",
+        "zh": "{0}% 幻化武器时间总降",
         "en": "{0}% less Animate Weapon Duration"
     },
     {
@@ -14356,12 +14356,12 @@
     },
     {
         "id": "stat_4107150355",
-        "zh": "被你感电的敌人施法速度提高 {0}%",
+        "zh": "被你感电的敌人施法速度加快 {0}%",
         "en": "Enemies you Shock have {0}% increased Cast Speed"
     },
     {
         "id": "stat_4107150355",
-        "zh": "被你感电的敌人施法速度降低 {0}%",
+        "zh": "被你感电的敌人施法速度减慢 {0}%",
         "en": "Enemies you Shock have {0}% reduced Cast Speed"
     },
     {
@@ -14396,12 +14396,12 @@
     },
     {
         "id": "stat_2444534954",
-        "zh": "受到【奋锐光环】影响时，施法速度提高 {0}%",
+        "zh": "受到【奋锐光环】影响时，施法速度加快 {0}%",
         "en": "{0}% increased Cast Speed while affected by Zealotry"
     },
     {
         "id": "stat_2444534954",
-        "zh": "受到【奋锐光环】影响时，施法速度降低{0}%",
+        "zh": "受到【奋锐光环】影响时，施法速度减慢{0}%",
         "en": "{0}% increased Cast Speed while affected by Zealotry"
     },
     {
@@ -14651,12 +14651,12 @@
     },
     {
         "id": "stat_894768849",
-        "zh": "范围内配置的敏捷和力量总计 40 点时，【灵盾投掷】连锁弹射的碎片投射物总量额外增加 {0}%",
+        "zh": "范围内配置的敏捷和力量总计 40 点时，【灵盾投掷】连锁弹射的碎片投射物数量总增 {0}%",
         "en": "With 40 total Dexterity and Strength in Radius, Spectral Shield Throw fires {0}% more Shard Projectiles"
     },
     {
         "id": "stat_894768849",
-        "zh": "范围内配置的敏捷和力量总计 40 点时，【灵盾投掷】连锁弹射的碎片投射物总量额外减少 {0}%",
+        "zh": "范围内配置的敏捷和力量总计 40 点时，【灵盾投掷】连锁弹射的碎片投射物数量总降 {0}%",
         "en": "With 40 total Dexterity and Strength in Radius, Spectral Shield Throw fires {0}% less Shard Projectiles"
     },
     {
@@ -14821,12 +14821,12 @@
     },
     {
         "id": "stat_314741699",
-        "zh": "周围有稀有或传奇敌人时，攻击速度提高 {0}%",
+        "zh": "周围有稀有或传奇敌人时，攻击速度加快 {0}%",
         "en": "{0}% increased Attack Speed while a Rare or Unique Enemy is Nearby"
     },
     {
         "id": "stat_314741699",
-        "zh": "周围有稀有或传奇敌人时，攻击速度降低 {0}%",
+        "zh": "周围有稀有或传奇敌人时，攻击速度减慢 {0}%",
         "en": "{0}% reduced Attack Speed while a Rare or Unique Enemy is Nearby"
     },
     {
@@ -15036,12 +15036,12 @@
     },
     {
         "id": "stat_2690790844",
-        "zh": "受到【活力】影响时，生命回复速度提高 {0}%",
+        "zh": "受到【活力】影响时，生命回复速度加快 {0}%",
         "en": "{0}% increased Life Recovery Rate while affected by Vitality"
     },
     {
         "id": "stat_2690790844",
-        "zh": "受到【活力】影响时，生命回复速度降低 {0}%",
+        "zh": "受到【活力】影响时，生命回复速度减慢 {0}%",
         "en": "{0}% reduced Life Recovery Rate while affected by Vitality"
     },
     {
@@ -15386,12 +15386,12 @@
     },
     {
         "id": "stat_1316278494",
-        "zh": "战吼施法速度提高 {0}%",
+        "zh": "战吼施法速度加快 {0}%",
         "en": "{0}% increased Warcry Speed"
     },
     {
         "id": "stat_1316278494",
-        "zh": "战吼施法速度提高 {0}%",
+        "zh": "战吼施法速度加快 {0}%",
         "en": "{0}% reduced Warcry Speed"
     },
     {
@@ -15661,12 +15661,12 @@
     },
     {
         "id": "stat_3808469650",
-        "zh": "每 10 点奉献使召唤生物攻击和施法速度提高 {0}%",
+        "zh": "每 10 点奉献使召唤生物攻击和施法速度加快 {0}%",
         "en": "{0}% increased Minion Attack and Cast Speed per 10 Devotion"
     },
     {
         "id": "stat_3808469650",
-        "zh": "每 10 点奉献使召唤生物攻击和施法速度降低 {0}%",
+        "zh": "每 10 点奉献使召唤生物攻击和施法速度减慢 {0}%",
         "en": "{0}% reduced Minion Attack and Cast Speed per 10 Devotion"
     },
     {
@@ -15721,12 +15721,12 @@
     },
     {
         "id": "stat_4137521191",
-        "zh": "若你近期内被击中，则攻击速度提高 {0}%",
+        "zh": "若你近期内被击中，则攻击速度加快 {0}%",
         "en": "{0}% increased Attack Speed if you've been Hit Recently"
     },
     {
         "id": "stat_4137521191",
-        "zh": "若你近期内被击中，则攻击速度降低 {0}%",
+        "zh": "若你近期内被击中，则攻击速度减慢 {0}%",
         "en": "{0}% reduced Attack Speed if you've been Hit Recently"
     },
     {
@@ -15816,12 +15816,12 @@
     },
     {
         "id": "stat_2072625596",
-        "zh": "若你近期内有击败敌人，则施法速度提高 {0}%",
+        "zh": "若你近期内有击败敌人，则施法速度加快 {0}%",
         "en": "{0}% increased Cast Speed if you've Killed Recently"
     },
     {
         "id": "stat_2072625596",
-        "zh": "若你近期内有击败敌人，则施法速度降低 {0}%",
+        "zh": "若你近期内有击败敌人，则施法速度减慢 {0}%",
         "en": "{0}% reduced Cast Speed if you've Killed Recently"
     },
     {
@@ -16061,12 +16061,12 @@
     },
     {
         "id": "stat_3375743050",
-        "zh": "受到【精准】影响时，攻击速度提高 {0}%",
+        "zh": "受到【精准】影响时，攻击速度加快 {0}%",
         "en": "{0}% increased Attack Speed while affected by Precision"
     },
     {
         "id": "stat_3375743050",
-        "zh": "受到【精准】影响时，攻击速度降低 {0}%",
+        "zh": "受到【精准】影响时，攻击速度减慢 {0}%",
         "en": "{0}% reduced Attack Speed while affected by Precision"
     },
     {
@@ -16251,12 +16251,12 @@
     },
     {
         "id": "stat_2625134410",
-        "zh": "暴击球总持续时间额外延长 {0}%",
+        "zh": "暴击球持续时间总增 {0}%",
         "en": "{0}% more Power Charge Duration"
     },
     {
         "id": "stat_2625134410",
-        "zh": "暴击球总持续时间额外缩短 {0}%",
+        "zh": "暴击球持续时间总降 {0}%",
         "en": "{0}% less Power Charge Duration"
     },
     {
@@ -16601,12 +16601,12 @@
     },
     {
         "id": "stat_556659145",
-        "zh": "受到【清晰】影响时，魔力回复速度提高 {0}%",
+        "zh": "受到【清晰】影响时，魔力回复速度加快 {0}%",
         "en": "{0}% increased Mana Recovery Rate while affected by Clarity"
     },
     {
         "id": "stat_556659145",
-        "zh": "受到【清晰】影响时，魔力回复速度降低 {0}%",
+        "zh": "受到【清晰】影响时，魔力回复速度减慢 {0}%",
         "en": "{0}% reduced Mana Recovery Rate while affected by Clarity"
     },
     {
@@ -17011,12 +17011,12 @@
     },
     {
         "id": "stat_3774108776",
-        "zh": "每个暴击球可使移动速度提高 {0}%",
+        "zh": "每个暴击球可使移动速度加快 {0}%",
         "en": "{0}% increased Movement Speed per Power Charge"
     },
     {
         "id": "stat_3774108776",
-        "zh": "每个暴击球可使移动速度降低 {0}%",
+        "zh": "每个暴击球可使移动速度减慢 {0}%",
         "en": "{0}% reduced Movement Speed per Power Charge"
     },
     {
@@ -17031,12 +17031,12 @@
     },
     {
         "id": "stat_3178542354",
-        "zh": "若你近期内击中敌人，则移动速度提高 {0}%",
+        "zh": "若你近期内击中敌人，则移动速度加快 {0}%",
         "en": "{0}% increased Movement Speed if you've Hit an Enemy Recently"
     },
     {
         "id": "stat_3178542354",
-        "zh": "若你近期内击中敌人，则移动速度降低 {0}%",
+        "zh": "若你近期内击中敌人，则移动速度减慢 {0}%",
         "en": "{0}% reduced Movement Speed if you've Hit an Enemy Recently"
     },
     {
@@ -17266,12 +17266,12 @@
     },
     {
         "id": "stat_1237693206",
-        "zh": "中毒持续总时间额外延长 {0}%",
+        "zh": "中毒持续时间总增 {0}%",
         "en": "{0}% more Poison Duration"
     },
     {
         "id": "stat_1237693206",
-        "zh": "中毒持续总时间额外降低 {0}%",
+        "zh": "中毒持续时间总降 {0}%",
         "en": "{0}% less Poison Duration"
     },
     {
@@ -18731,12 +18731,12 @@
     },
     {
         "id": "stat_200113086",
-        "zh": "新星法术的总效果区域扩大 {0}%",
+        "zh": "新星法术的效果区域总增 {0}%",
         "en": "Nova Spells have {0}% more Area of Effect"
     },
     {
         "id": "stat_200113086",
-        "zh": "新星法术的总效果区域缩小 {0}%",
+        "zh": "新星法术的效果区域总降 {0}%",
         "en": "Nova Spells have {0}% less Area of Effect"
     },
     {
@@ -18866,12 +18866,12 @@
     },
     {
         "id": "stat_3083201633",
-        "zh": "每个狂怒球使位移技能的冷却回复速度提高 {0}%",
+        "zh": "每个狂怒球使位移技能的冷却回复速度加快 {0}%",
         "en": "{0}% increased Cooldown Recovery Rate of Travel Skills per Frenzy Charge"
     },
     {
         "id": "stat_3083201633",
-        "zh": "每个狂怒球使位移技能的冷却回复速度降低 {0}%",
+        "zh": "每个狂怒球使位移技能的冷却回复速度减慢 {0}%",
         "en": "{0}% reduced Cooldown Recovery Rate of Travel Skills per Frenzy Charge"
     },
     {
@@ -18881,12 +18881,12 @@
     },
     {
         "id": "stat_673704994",
-        "zh": "你获得【猫之隐匿】时移动速度提高 {0}%",
+        "zh": "你获得【猫之隐匿】时移动速度加快 {0}%",
         "en": "{0}% increased Movement Speed while you have Cat's Stealth"
     },
     {
         "id": "stat_673704994",
-        "zh": "你获得【猫之隐匿】时移动速度降低 {0}%",
+        "zh": "你获得【猫之隐匿】时移动速度减慢 {0}%",
         "en": "{0}% reduced Movement Speed while you have Cat's Stealth"
     },
     {
@@ -19486,22 +19486,22 @@
     },
     {
         "id": "stat_3476327198",
-        "zh": "当你没有获得【霸体】时，攻击速度，施法速度和移动速度提高 {0}%",
+        "zh": "当你没有获得【霸体】时，攻击速度，施法速度和移动速度加快 {0}%",
         "en": "{0}% increased Attack, Cast and Movement Speed while you do not have Iron Reflexes"
     },
     {
         "id": "stat_3476327198",
-        "zh": "当你没有获得【霸体】时，攻击速度，施法速度和移动速度降低 {0}%",
+        "zh": "当你没有获得【霸体】时，攻击速度，施法速度和移动速度减慢 {0}%",
         "en": "{0}% reduced Attack, Cast and Movement Speed while you do not have Iron Reflexes"
     },
     {
         "id": "stat_2614885550",
-        "zh": "总点燃持续时间额外延长 {0}%",
+        "zh": "点燃持续时间总增 {0}%",
         "en": "{0}% more Ignite Duration"
     },
     {
         "id": "stat_2614885550",
-        "zh": "总点燃持续时间额外缩短 {0}%",
+        "zh": "点燃持续时间总降 {0}%",
         "en": "{0}% less Ignite Duration"
     },
     {
@@ -20011,12 +20011,12 @@
     },
     {
         "id": "stat_1583498502",
-        "zh": "【召唤圣物】的冷却恢复速度提高 {0}%",
+        "zh": "【召唤圣物】的冷却恢复速度加快 {0}%",
         "en": "Summoned Holy Relics have {0}% increased Cooldown Recovery Rate"
     },
     {
         "id": "stat_1583498502",
-        "zh": "【召唤圣物】的冷却恢复速度降低 {0}%",
+        "zh": "【召唤圣物】的冷却恢复速度减慢 {0}%",
         "en": "Summoned Holy Relics have {0}% reduced Cooldown Recovery Rate"
     },
     {
@@ -21376,12 +21376,12 @@
     },
     {
         "id": "stat_987588151",
-        "zh": "每个暴击球可使攻击和施法速度提高 {0}%",
+        "zh": "每个暴击球可使攻击和施法速度加快 {0}%",
         "en": "{0}% increased Attack and Cast Speed per Power Charge"
     },
     {
         "id": "stat_987588151",
-        "zh": "每个暴击球可使攻击和施法速度降低 {0}%",
+        "zh": "每个暴击球可使攻击和施法速度减慢 {0}%",
         "en": "{0}% reduced Attack and Cast Speed per Power Charge"
     },
     {
@@ -21796,12 +21796,12 @@
     },
     {
         "id": "stat_3615541554",
-        "zh": "生效期间，结界增加 {0}%",
+        "zh": "生效期间，结界总增 {0}%",
         "en": "{0}% more Ward during Effect"
     },
     {
         "id": "stat_3615541554",
-        "zh": "生效期间，结界减少 {0}%",
+        "zh": "生效期间，结界总降 {0}%",
         "en": "{0}% less Ward during Effect"
     },
     {
@@ -22136,12 +22136,12 @@
     },
     {
         "id": "stat_2116250000",
-        "zh": "每个耐力球可使移动速度提高 {0}%",
+        "zh": "每个耐力球可使移动速度加快 {0}%",
         "en": "{0}% increased Movement Speed per Endurance Charge"
     },
     {
         "id": "stat_2116250000",
-        "zh": "每个耐力球可使移动速度降低 {0}%",
+        "zh": "每个耐力球可使移动速度减慢 {0}%",
         "en": "{0}% reduced Movement Speed per Endurance Charge"
     },
     {
@@ -22416,12 +22416,12 @@
     },
     {
         "id": "stat_464535071",
-        "zh": "陷阱和地雷投掷速度提高 {0}%",
+        "zh": "陷阱和地雷投掷速度加快 {0}%",
         "en": "{0}% increased Trap and Mine Throwing Speed"
     },
     {
         "id": "stat_464535071",
-        "zh": "陷阱和地雷投掷速度降低 {0}%",
+        "zh": "陷阱和地雷投掷速度减慢 {0}%",
         "en": "{0}% reduced Trap and Mine Throwing Speed"
     },
     {
@@ -22531,12 +22531,12 @@
     },
     {
         "id": "stat_1483753325",
-        "zh": "若你近期内击中敌人，则攻击和施法速度提高 {0}%",
+        "zh": "若你近期内击中敌人，则攻击和施法速度加快 {0}%",
         "en": "{0}% increased Attack and Cast Speed if you've Hit an Enemy Recently"
     },
     {
         "id": "stat_1483753325",
-        "zh": "若你近期内击中敌人，则攻击和施法速度降低 {0}%",
+        "zh": "若你近期内击中敌人，则攻击和施法速度减慢 {0}%",
         "en": "{0}% reduced Attack and Cast Speed if you've Hit an Enemy Recently"
     },
     {
@@ -22641,12 +22641,12 @@
     },
     {
         "id": "stat_3618888098",
-        "zh": "每个耐力球可使攻击和施法速度提高 {0}%",
+        "zh": "每个耐力球可使攻击和施法速度加快 {0}%",
         "en": "{0}% increased Attack and Cast Speed per Endurance Charge"
     },
     {
         "id": "stat_3618888098",
-        "zh": "每个耐力球可使攻击和施法速度降低 {0}%",
+        "zh": "每个耐力球可使攻击和施法速度减慢 {0}%",
         "en": "{0}% reduced Attack and Cast Speed per Endurance Charge"
     },
     {
@@ -23361,12 +23361,12 @@
     },
     {
         "id": "stat_3425934849",
-        "zh": "插槽内的技能施法速度提高 {0}%",
+        "zh": "插槽内的技能施法速度加快 {0}%",
         "en": "Socketed Skills have {0}% increased Cast Speed"
     },
     {
         "id": "stat_3425934849",
-        "zh": "插槽内的技能施法速度降低 {0}%",
+        "zh": "插槽内的技能施法速度减慢 {0}%",
         "en": "Socketed Skills have {0}% reduced Cast Speed"
     },
     {
@@ -23426,12 +23426,12 @@
     },
     {
         "id": "stat_2881124988",
-        "zh": "插槽内的技能攻击速度提高 {0}%",
+        "zh": "插槽内的技能攻击速度加快 {0}%",
         "en": "Socketed Skills have {0}% increased Attack Speed"
     },
     {
         "id": "stat_2881124988",
-        "zh": "插槽内的技能攻击速度降低 {0}%",
+        "zh": "插槽内的技能攻击速度减慢 {0}%",
         "en": "Socketed Skills have {0}% reduced Attack Speed"
     },
     {
@@ -23526,12 +23526,12 @@
     },
     {
         "id": "stat_2968804751",
-        "zh": "获得【女神的祝福】时攻击速度和移动速度提高 {0}%",
+        "zh": "获得【女神的祝福】时攻击速度和移动速度加快 {0}%",
         "en": "{0}% increased Attack and Movement Speed with Her Blessing"
     },
     {
         "id": "stat_2968804751",
-        "zh": "获得【女神的祝福】时攻击速度和移动速度降低 {0}%",
+        "zh": "获得【女神的祝福】时攻击速度和移动速度减慢 {0}%",
         "en": "{0}% reduced Attack and Movement Speed with Her Blessing"
     },
     {
@@ -24856,12 +24856,12 @@
     },
     {
         "id": "stat_1521863824",
-        "zh": "在燃烧，冰缓，感电地面上时，移动速度提高 {0}%",
+        "zh": "在燃烧，冰缓，感电地面上时，移动速度加快 {0}%",
         "en": "{0}% increased Movement speed while on Burning, Chilled or Shocked ground"
     },
     {
         "id": "stat_1521863824",
-        "zh": "在燃烧，冰缓，感电地面上时，移动速度降低 {0}%",
+        "zh": "在燃烧，冰缓，感电地面上时，移动速度减慢 {0}%",
         "en": "{0}% reduced Movement speed while on Burning, Chilled or Shocked ground"
     },
     {
@@ -26061,12 +26061,12 @@
     },
     {
         "id": "stat_1124980805",
-        "zh": "位移技能的的冷却恢复速度提高 {0}%",
+        "zh": "位移技能的的冷却恢复速度加快 {0}%",
         "en": "{0}% increased Cooldown Recovery Rate of Movement Skills"
     },
     {
         "id": "stat_1124980805",
-        "zh": "位移技能的的冷却恢复速度提高 {0}%",
+        "zh": "位移技能的的冷却恢复速度加快 {0}%",
         "en": "{0}% reduced Cooldown Recovery Rate of Movement Skills"
     },
     {
@@ -26331,12 +26331,12 @@
     },
     {
         "id": "stat_2320884914",
-        "zh": "【猛攻】效果持续时，攻击与施法速度提高 {0}%",
+        "zh": "【猛攻】效果持续时，攻击与施法速度加快 {0}%",
         "en": "{0}% increased Attack and Cast Speed during Onslaught"
     },
     {
         "id": "stat_2320884914",
-        "zh": "【猛攻】效果持续时，攻击与施法速度提高 {0}%",
+        "zh": "【猛攻】效果持续时，攻击与施法速度加快 {0}%",
         "en": "{0}% reduced Attack and Cast Speed during Onslaught"
     },
     {
@@ -26556,12 +26556,12 @@
     },
     {
         "id": "stat_26867112",
-        "zh": "若腐化，则攻击和施法速度提高 {0}%",
+        "zh": "若腐化，则攻击和施法速度加快 {0}%",
         "en": "{0}% increased Attack and Cast Speed if Corrupted"
     },
     {
         "id": "stat_26867112",
-        "zh": "若腐化，则攻击和施法速度提高 {0}%",
+        "zh": "若腐化，则攻击和施法速度加快 {0}%",
         "en": "{0}% reduced Attack and Cast Speed if Corrupted"
     },
     {
@@ -26761,12 +26761,12 @@
     },
     {
         "id": "stat_2880601380",
-        "zh": "若腐化，则移动速度提高 {0}%",
+        "zh": "若腐化，则移动速度加快 {0}%",
         "en": "{0}% increased Movement Speed if Corrupted"
     },
     {
         "id": "stat_2880601380",
-        "zh": "若腐化，则移动速度提高 {0}%",
+        "zh": "若腐化，则移动速度加快 {0}%",
         "en": "{0}% reduced Movement Speed if Corrupted"
     },
     {
@@ -29711,12 +29711,12 @@
     },
     {
         "id": "stat_835592326",
-        "zh": "【旋风斩】攻击速度提高 {0}%",
+        "zh": "【旋风斩】攻击速度加快 {0}%",
         "en": "{0}% increased Cyclone Attack Speed"
     },
     {
         "id": "stat_835592326",
-        "zh": "【旋风斩】攻击速度降低 {0}%",
+        "zh": "【旋风斩】攻击速度减慢 {0}%",
         "en": "{0}% reduced Cyclone Attack Speed"
     },
     {
@@ -30186,12 +30186,12 @@
     },
     {
         "id": "stat_1151217691",
-        "zh": "【元素打击】攻击速度提高 {0}%",
+        "zh": "【元素打击】攻击速度加快 {0}%",
         "en": "{0}% increased Elemental Hit Attack Speed"
     },
     {
         "id": "stat_1151217691",
-        "zh": "【元素打击】攻击速度降低 {0}%",
+        "zh": "【元素打击】攻击速度减慢 {0}%",
         "en": "{0}% reduced Elemental Hit Attack Speed"
     },
     {
@@ -30336,12 +30336,12 @@
     },
     {
         "id": "stat_4137556603",
-        "zh": "【灵体】的攻击和施法速度提高 {0}%",
+        "zh": "【灵体】的攻击和施法速度加快 {0}%",
         "en": "Spectres have {0}% increased Attack and Cast Speed"
     },
     {
         "id": "stat_4137556603",
-        "zh": "【灵体】的攻击和施法速度降低 {0}%",
+        "zh": "【灵体】的攻击和施法速度减慢 {0}%",
         "en": "Spectres have {0}% reduced Attack and Cast Speed"
     },
     {
@@ -30711,12 +30711,12 @@
     },
     {
         "id": "stat_2523298357",
-        "zh": "【弹幕】攻击速度提高 {0}%",
+        "zh": "【弹幕】攻击速度加快 {0}%",
         "en": "{0}% increased Barrage Attack Speed"
     },
     {
         "id": "stat_2523298357",
-        "zh": "【弹幕】攻击速度降低 {0}%",
+        "zh": "【弹幕】攻击速度减慢 {0}%",
         "en": "{0}% reduced Barrage Attack Speed"
     },
     {
@@ -31121,12 +31121,12 @@
     },
     {
         "id": "stat_103922739",
-        "zh": "【电球】投射物速度提高 {0}%",
+        "zh": "【电球】投射物速度加快 {0}%",
         "en": "{0}% increased Spark Projectile Speed"
     },
     {
         "id": "stat_103922739",
-        "zh": "【电球】投射物速度降低 {0}%",
+        "zh": "【电球】投射物速度减慢 {0}%",
         "en": "{0}% reduced Spark Projectile Speed"
     },
     {
@@ -31151,12 +31151,12 @@
     },
     {
         "id": "stat_1303996723",
-        "zh": "当先祖卫士图腾存在时，攻击速度提高 {0}%",
+        "zh": "当先祖卫士图腾存在时，攻击速度加快 {0}%",
         "en": "Ancestral Protector Totem grants {0}% increased Attack Speed while Active"
     },
     {
         "id": "stat_1303996723",
-        "zh": "当先祖卫士图腾存在时，攻击速度降低 {0}%",
+        "zh": "当先祖卫士图腾存在时，攻击速度减慢 {0}%",
         "en": "Ancestral Protector Totem grants {0}% reduced Attack Speed while Active"
     },
     {
@@ -31486,12 +31486,12 @@
     },
     {
         "id": "stat_3825617457",
-        "zh": "【箭雨】攻击速度提高 {0}%",
+        "zh": "【箭雨】攻击速度加快 {0}%",
         "en": "{0}% increased Rain of Arrows Attack Speed"
     },
     {
         "id": "stat_3825617457",
-        "zh": "【箭雨】攻击速度降低 {0}%",
+        "zh": "【箭雨】攻击速度减慢 {0}%",
         "en": "{0}% reduced Rain of Arrows Attack Speed"
     },
     {
@@ -31541,12 +31541,12 @@
     },
     {
         "id": "stat_2003026405",
-        "zh": "【冰霜脉冲】投射物速度提高 {0}%",
+        "zh": "【冰霜脉冲】投射物速度加快 {0}%",
         "en": "{0}% increased Freezing Pulse Projectile Speed"
     },
     {
         "id": "stat_2003026405",
-        "zh": "【冰霜脉冲】投射物速度降低 {0}%",
+        "zh": "【冰霜脉冲】投射物速度减慢 {0}%",
         "en": "{0}% reduced Freezing Pulse Projectile Speed"
     },
     {
@@ -31761,12 +31761,12 @@
     },
     {
         "id": "stat_760994068",
-        "zh": "【虚空匕首】投射物速度提高 {0}%",
+        "zh": "【虚空匕首】投射物速度加快 {0}%",
         "en": "{0}% increased Ethereal Knives Projectile Speed"
     },
     {
         "id": "stat_760994068",
-        "zh": "【虚空匕首】投射物速度降低 {0}%",
+        "zh": "【虚空匕首】投射物速度减慢 {0}%",
         "en": "{0}% reduced Ethereal Knives Projectile Speed"
     },
     {
@@ -32086,12 +32086,12 @@
     },
     {
         "id": "stat_513715594",
-        "zh": "【血肉奉献】提供的召唤生物攻击速度提高 {0}%",
+        "zh": "【血肉奉献】提供的召唤生物攻击速度加快 {0}%",
         "en": "Flesh Offering grants an additional {0}% increased Attack Speed"
     },
     {
         "id": "stat_513715594",
-        "zh": "【血肉奉献】提供的召唤生物攻击速度降低 {0}%",
+        "zh": "【血肉奉献】提供的召唤生物攻击速度减慢 {0}%",
         "en": "Flesh Offering grants an additional {0}% reduced Attack Speed"
     },
     {
@@ -32126,12 +32126,12 @@
     },
     {
         "id": "stat_1062615953",
-        "zh": "【灵体投掷】投射物速度提高 {0}%",
+        "zh": "【灵体投掷】投射物速度加快 {0}%",
         "en": "{0}% increased Spectral Throw Projectile Speed"
     },
     {
         "id": "stat_1062615953",
-        "zh": "【灵体投掷】投射物速度降低 {0}%",
+        "zh": "【灵体投掷】投射物速度减慢 {0}%",
         "en": "{0}% reduced Spectral Throw Projectile Speed"
     },
     {
@@ -32161,12 +32161,12 @@
     },
     {
         "id": "stat_648343221",
-        "zh": "【重盾冲锋】攻击速度提高 {0}%",
+        "zh": "【重盾冲锋】攻击速度加快 {0}%",
         "en": "{0}% increased Shield Charge Attack Speed"
     },
     {
         "id": "stat_648343221",
-        "zh": "【重盾冲锋】攻击速度降低 {0}%",
+        "zh": "【重盾冲锋】攻击速度减慢 {0}%",
         "en": "{0}% reduced Shield Charge Attack Speed"
     },
     {
@@ -32376,12 +32376,12 @@
     },
     {
         "id": "stat_2461424099",
-        "zh": "【漩涡】的冷却回复速度提高 {0}%",
+        "zh": "【漩涡】的冷却回复速度加快 {0}%",
         "en": "Vortex has {0}% increased Cooldown Recovery Rate"
     },
     {
         "id": "stat_2461424099",
-        "zh": "【漩涡】的冷却回复速度降低 {0}%",
+        "zh": "【漩涡】的冷却回复速度减慢 {0}%",
         "en": "Vortex has {0}% reduced Cooldown Recovery Rate"
     },
     {
@@ -32416,12 +32416,12 @@
     },
     {
         "id": "stat_1917107304",
-        "zh": "【双持打击】攻击速度提高 {0}%",
+        "zh": "【双持打击】攻击速度加快 {0}%",
         "en": "{0}% increased Dual Strike Attack Speed"
     },
     {
         "id": "stat_1917107304",
-        "zh": "【双持打击】攻击速度降低 {0}%",
+        "zh": "【双持打击】攻击速度减慢 {0}%",
         "en": "{0}% reduced Dual Strike Attack Speed"
     },
     {
@@ -32551,12 +32551,12 @@
     },
     {
         "id": "stat_1549594869",
-        "zh": "【暗夜血契】的施法速度提高 {0}%",
+        "zh": "【暗夜血契】的施法速度加快 {0}%",
         "en": "{0}% increased Dark Pact Cast Speed"
     },
     {
         "id": "stat_1549594869",
-        "zh": "【暗夜血契】的施法速度提高 {0}%",
+        "zh": "【暗夜血契】的施法速度加快 {0}%",
         "en": "{0}% reduced Dark Pact Cast Speed"
     },
     {
@@ -32571,12 +32571,12 @@
     },
     {
         "id": "stat_2753191013",
-        "zh": "【力量抽取】攻击速度提高 {0}%",
+        "zh": "【力量抽取】攻击速度加快 {0}%",
         "en": "{0}% increased Power Siphon Attack Speed"
     },
     {
         "id": "stat_2753191013",
-        "zh": "【力量抽取】攻击速度降低 {0}%",
+        "zh": "【力量抽取】攻击速度减慢 {0}%",
         "en": "{0}% reduced Power Siphon Attack Speed"
     },
     {
@@ -32596,22 +32596,22 @@
     },
     {
         "id": "stat_3106577499",
-        "zh": "劈砍攻击速度提高 {0}%",
+        "zh": "劈砍攻击速度加快 {0}%",
         "en": "{0}% increased Cleave Attack Speed"
     },
     {
         "id": "stat_3106577499",
-        "zh": "劈砍攻击速度降低 {0}%",
+        "zh": "劈砍攻击速度减慢 {0}%",
         "en": "{0}% reduced Cleave Attack Speed"
     },
     {
         "id": "stat_1561141582",
-        "zh": "【灵盾投掷】的投掷物速度提高 {0}%",
+        "zh": "【灵盾投掷】的投掷物速度加快 {0}%",
         "en": "{0}% increased Spectral Shield Throw Projectile Speed"
     },
     {
         "id": "stat_1561141582",
-        "zh": "【灵盾投掷】的投掷物速度降低 {0}%",
+        "zh": "【灵盾投掷】的投掷物速度减慢 {0}%",
         "en": "{0}% reduced Spectral Shield Throw Projectile Speed"
     },
     {
@@ -32751,12 +32751,12 @@
     },
     {
         "id": "stat_2499559911",
-        "zh": "魔卫复苏攻击速度提高 {0}%",
+        "zh": "魔卫复苏攻击速度加快 {0}%",
         "en": "Raised Zombies have {0}% increased Attack Speed"
     },
     {
         "id": "stat_2499559911",
-        "zh": "魔卫复苏攻击速度降低 {0}%",
+        "zh": "魔卫复苏攻击速度减慢 {0}%",
         "en": "Raised Zombies have {0}% reduced Attack Speed"
     },
     {
@@ -32806,12 +32806,12 @@
     },
     {
         "id": "stat_3949159285",
-        "zh": "【爆炸箭矢】的攻击速度提高 {0}%",
+        "zh": "【爆炸箭矢】的攻击速度加快 {0}%",
         "en": "Explosive Arrow has {0}% increased Attack Speed"
     },
     {
         "id": "stat_3949159285",
-        "zh": "【爆炸箭矢】的攻击速度降低 {0}%",
+        "zh": "【爆炸箭矢】的攻击速度减慢 {0}%",
         "en": "Explosive Arrow has {0}% reduced Speed"
     },
     {
@@ -32906,12 +32906,12 @@
     },
     {
         "id": "stat_3162144587",
-        "zh": "冰锥地雷投掷速度提高 {0}%",
+        "zh": "冰锥地雷投掷速度加快 {0}%",
         "en": "Icicle Mine has {0}% increased Throwing Speed"
     },
     {
         "id": "stat_3162144587",
-        "zh": "冰锥地雷投掷速度降低 {0}%",
+        "zh": "冰锥地雷投掷速度减慢 {0}%",
         "en": "Icicle Mine has {0}% reduced Throwing Speed"
     },
     {
@@ -32991,12 +32991,12 @@
     },
     {
         "id": "stat_3179781611",
-        "zh": "【灵体火球】的施法速度提高 {0}%",
+        "zh": "【灵体火球】的施法速度加快 {0}%",
         "en": "{0}% increased Volatile Dead Cast Speed"
     },
     {
         "id": "stat_3179781611",
-        "zh": "【灵体火球】的施法速度降低 {0}%",
+        "zh": "【灵体火球】的施法速度减慢 {0}%",
         "en": "{0}% reduced Volatile Dead Cast Speed"
     },
     {
@@ -33386,12 +33386,12 @@
     },
     {
         "id": "stat_4231484190",
-        "zh": "【寒冰弹】施法速度提高 {0}%",
+        "zh": "【寒冰弹】施法速度加快 {0}%",
         "en": "{0}% increased Frostbolt Cast Speed"
     },
     {
         "id": "stat_4231484190",
-        "zh": "【寒冰弹】施法速度降低 {0}%",
+        "zh": "【寒冰弹】施法速度减慢 {0}%",
         "en": "{0}% reduced Frostbolt Cast Speed"
     },
     {
@@ -33646,12 +33646,12 @@
     },
     {
         "id": "stat_1556508042",
-        "zh": "黄沙剑刃风暴的移动速度提高 {0}%",
+        "zh": "黄沙剑刃风暴的移动速度加快 {0}%",
         "en": "Sand Bladestorms move with {0}% increased speed"
     },
     {
         "id": "stat_1556508042",
-        "zh": "黄沙剑刃风暴的移动速度降低 {0}%",
+        "zh": "黄沙剑刃风暴的移动速度减慢 {0}%",
         "en": "Sand Bladestorms move with {0}% reduced speed"
     },
     {
@@ -33911,12 +33911,12 @@
     },
     {
         "id": "stat_1087923932",
-        "zh": "【冰霜之刃】的投射物速度提高 {0}%",
+        "zh": "【冰霜之刃】的投射物速度加快 {0}%",
         "en": "{0}% increased Frost Blades Projectile Speed"
     },
     {
         "id": "stat_1087923932",
-        "zh": "【冰霜之刃】的投射物速度降低 {0}%",
+        "zh": "【冰霜之刃】的投射物速度减慢 {0}%",
         "en": "{0}% reduced Frost Blades Projectile Speed"
     },
     {
@@ -34026,12 +34026,12 @@
     },
     {
         "id": "stat_1554597333",
-        "zh": "【闪现射击】攻击速度提高 {0}%",
+        "zh": "【闪现射击】攻击速度加快 {0}%",
         "en": "Blink Arrow and Blink Arrow Clones have {0}% increased Attack Speed"
     },
     {
         "id": "stat_1554597333",
-        "zh": "【闪现射击】攻击速度降低 {0}%",
+        "zh": "【闪现射击】攻击速度减慢 {0}%",
         "en": "Blink Arrow and Blink Arrow Clones have {0}% reduced Attack Speed"
     },
     {
@@ -34206,12 +34206,12 @@
     },
     {
         "id": "stat_2231403318",
-        "zh": "【火球】施法速度提高 {0}%",
+        "zh": "【火球】施法速度加快 {0}%",
         "en": "{0}% increased Fireball Cast Speed"
     },
     {
         "id": "stat_2231403318",
-        "zh": "【火球】施法速度降低 {0}%",
+        "zh": "【火球】施法速度减慢 {0}%",
         "en": "{0}% reduced Fireball Cast Speed"
     },
     {
@@ -34366,12 +34366,12 @@
     },
     {
         "id": "stat_2287986752",
-        "zh": "【击刃】冷却回复速度提高 {0}%",
+        "zh": "【击刃】冷却回复速度加快 {0}%",
         "en": "Riposte has {0}% increased Cooldown Recovery Rate"
     },
     {
         "id": "stat_2287986752",
-        "zh": "【击刃】冷却回复速度降低 {0}%",
+        "zh": "【击刃】冷却回复速度减慢 {0}%",
         "en": "Riposte has {0}% reduced Cooldown Recovery Rate"
     },
     {
@@ -34426,12 +34426,12 @@
     },
     {
         "id": "stat_2938856716",
-        "zh": "【火葬】的施法速度提高 {0}%",
+        "zh": "【火葬】的施法速度加快 {0}%",
         "en": "{0}% increased Cremation Cast Speed"
     },
     {
         "id": "stat_2938856716",
-        "zh": "【火葬】的施法速度降低 {0}%",
+        "zh": "【火葬】的施法速度减慢 {0}%",
         "en": "{0}% reduced Cremation Cast Speed"
     },
     {
@@ -34461,12 +34461,12 @@
     },
     {
         "id": "stat_708179348",
-        "zh": "【灼热连接】放置速度提高 {0}%",
+        "zh": "【灼热连接】放置速度加快 {0}%",
         "en": "{0}% increased Searing Bond Totem Placement Speed"
     },
     {
         "id": "stat_708179348",
-        "zh": "【灼热连接】放置速度降低 {0}%",
+        "zh": "【灼热连接】放置速度减慢 {0}%",
         "en": "{0}% reduced Searing Bond Totem Placement Speed"
     },
     {
@@ -34521,12 +34521,12 @@
     },
     {
         "id": "stat_3730999759",
-        "zh": "【跃击】攻击速度提高 {0}%",
+        "zh": "【跃击】攻击速度加快 {0}%",
         "en": "{0}% increased Leap Slam Attack Speed"
     },
     {
         "id": "stat_3730999759",
-        "zh": "【跃击】攻击速度降低 {0}%",
+        "zh": "【跃击】攻击速度减慢 {0}%",
         "en": "{0}% reduced Leap Slam Attack Speed"
     },
     {
@@ -34551,12 +34551,12 @@
     },
     {
         "id": "stat_2779309910",
-        "zh": "【双重打击】攻击速度提高 {0}%",
+        "zh": "【双重打击】攻击速度加快 {0}%",
         "en": "{0}% increased Double Strike Attack Speed"
     },
     {
         "id": "stat_2779309910",
-        "zh": "【双重打击】攻击速度降低 {0}%",
+        "zh": "【双重打击】攻击速度减慢 {0}%",
         "en": "{0}% reduced Double Strike Attack Speed"
     },
     {
@@ -34581,22 +34581,22 @@
     },
     {
         "id": "stat_4082863126",
-        "zh": "【圣焰图腾】投射物速度提高 {0}%",
+        "zh": "【圣焰图腾】投射物速度加快 {0}%",
         "en": "Holy Flame Totem has {0}% increased Projectile Speed"
     },
     {
         "id": "stat_4082863126",
-        "zh": "【圣焰图腾】投射物速度降低 {0}%",
+        "zh": "【圣焰图腾】投射物速度减慢 {0}%",
         "en": "Holy Flame Totem has {0}% reduced Projectile Speed"
     },
     {
         "id": "stat_2259906777",
-        "zh": "【震波图腾】的施放速度提高 {0}%",
+        "zh": "【震波图腾】的施放速度加快 {0}%",
         "en": "{0}% increased Shockwave Totem Cast Speed"
     },
     {
         "id": "stat_2259906777",
-        "zh": "【震波图腾】的施放速度降低 {0}%",
+        "zh": "【震波图腾】的施放速度减慢 {0}%",
         "en": "{0}% reduced Shockwave Totem Cast Speed"
     },
     {
@@ -34631,12 +34631,12 @@
     },
     {
         "id": "stat_1902197291",
-        "zh": "【回旋之刃】攻击速度提高 {0}%",
+        "zh": "【回旋之刃】攻击速度加快 {0}%",
         "en": "{0}% increased Whirling Blades Attack Speed"
     },
     {
         "id": "stat_1902197291",
-        "zh": "【回旋之刃】攻击速度降低 {0}%",
+        "zh": "【回旋之刃】攻击速度减慢 {0}%",
         "en": "{0}% reduced Whirling Blades Attack Speed"
     },
     {
@@ -34691,12 +34691,12 @@
     },
     {
         "id": "stat_1698558866",
-        "zh": "【电光箭】的投射物速度提高 {0}%",
+        "zh": "【电光箭】的投射物速度加快 {0}%",
         "en": "Galvanic Arrow has {0}% increased Projectile Speed"
     },
     {
         "id": "stat_1698558866",
-        "zh": "【电光箭】的投射物速度降低 {0}%",
+        "zh": "【电光箭】的投射物速度减慢 {0}%",
         "en": "Galvanic Arrow has {0}% reduced Projectile Speed"
     },
     {
@@ -34721,12 +34721,12 @@
     },
     {
         "id": "stat_1894493605",
-        "zh": "【冰霜脉冲】施法速度提高 {0}%",
+        "zh": "【冰霜脉冲】施法速度加快 {0}%",
         "en": "{0}% increased Freezing Pulse Cast Speed"
     },
     {
         "id": "stat_1894493605",
-        "zh": "【冰霜脉冲】施法速度降低 {0}%",
+        "zh": "【冰霜脉冲】施法速度减慢 {0}%",
         "en": "{0}% reduced Freezing Pulse Cast Speed"
     },
     {
@@ -34906,12 +34906,12 @@
     },
     {
         "id": "stat_1213017413",
-        "zh": "【散射弩炮】的投射物速度提高 {0}%",
+        "zh": "【散射弩炮】的投射物速度加快 {0}%",
         "en": "Shrapnel Ballista has {0}% increased Projectile Speed"
     },
     {
         "id": "stat_1213017413",
-        "zh": "【散射弩炮】的投射物速度降低 {0}%",
+        "zh": "【散射弩炮】的投射物速度减慢 {0}%",
         "en": "Shrapnel Ballista has {0}% reduced Projectile Speed"
     },
     {
@@ -35011,12 +35011,12 @@
     },
     {
         "id": "stat_397438226",
-        "zh": "【灵体转换】的施法速度提高 {0}%",
+        "zh": "【灵体转换】的施法速度加快 {0}%",
         "en": "{0}% increased Bodyswap Cast Speed"
     },
     {
         "id": "stat_397438226",
-        "zh": "【灵体转换】的施法速度降低 {0}%",
+        "zh": "【灵体转换】的施法速度减慢 {0}%",
         "en": "{0}% reduced Bodyswap Cast Speed"
     },
     {
@@ -35171,12 +35171,12 @@
     },
     {
         "id": "stat_343849491",
-        "zh": "【重击】攻击速度提高 {0}%",
+        "zh": "【重击】攻击速度加快 {0}%",
         "en": "{0}% increased Heavy Strike Attack Speed"
     },
     {
         "id": "stat_343849491",
-        "zh": "【重击】攻击速度降低 {0}%",
+        "zh": "【重击】攻击速度减慢 {0}%",
         "en": "{0}% reduced Heavy Strike  Speed"
     },
     {
@@ -35241,12 +35241,12 @@
     },
     {
         "id": "stat_2896357741",
-        "zh": "【攻城炮台】的图腾放置速度提高 {0}%",
+        "zh": "【攻城炮台】的图腾放置速度加快 {0}%",
         "en": "Siege Ballista has {0}% increased Totem Placement Speed"
     },
     {
         "id": "stat_2896357741",
-        "zh": "【攻城炮台】的图腾放置速度降低 {0}%",
+        "zh": "【攻城炮台】的图腾放置速度减慢 {0}%",
         "en": "Siege Ballista has {0}% reduced Totem Placement Speed"
     },
     {
@@ -35486,12 +35486,12 @@
     },
     {
         "id": "stat_3279758713",
-        "zh": "【灼热光线】的施放速度提高 {0}%",
+        "zh": "【灼热光线】的施放速度加快 {0}%",
         "en": "{0}% increased Scorching Ray Cast Speed"
     },
     {
         "id": "stat_3279758713",
-        "zh": "【灼热光线】的施放速度降低 {0}%",
+        "zh": "【灼热光线】的施放速度减慢 {0}%",
         "en": "{0}% reduced Scorching Ray Cast Speed"
     },
     {
@@ -35686,12 +35686,12 @@
     },
     {
         "id": "stat_1347575155",
-        "zh": "【闪电传送】施法速度提高 {0}%",
+        "zh": "【闪电传送】施法速度加快 {0}%",
         "en": "{0}% increased Lightning Warp Cast Speed"
     },
     {
         "id": "stat_1347575155",
-        "zh": "【闪电传送】施法速度降低 {0}%",
+        "zh": "【闪电传送】施法速度减慢 {0}%",
         "en": "{0}% reduced Lightning Warp Cast Speed"
     },
     {
@@ -35756,12 +35756,12 @@
     },
     {
         "id": "stat_3618430531",
-        "zh": "【震波陷阱】的冷却回复速度提高 {0}%",
+        "zh": "【震波陷阱】的冷却回复速度加快 {0}%",
         "en": "Seismic Trap has {0}% increased Cooldown Recovery Rate"
     },
     {
         "id": "stat_3618430531",
-        "zh": "【震波陷阱】的冷却回复速度降低 {0}%",
+        "zh": "【震波陷阱】的冷却回复速度减慢 {0}%",
         "en": "Seismic Trap has {0}% reduced Cooldown Recovery Rate"
     },
     {
@@ -35806,12 +35806,12 @@
     },
     {
         "id": "stat_592861938",
-        "zh": "先祖卫士放置速度提高 {0}%",
+        "zh": "先祖卫士放置速度加快 {0}%",
         "en": "{0}% increased Ancestral Protector Totem Placement Speed"
     },
     {
         "id": "stat_592861938",
-        "zh": "先祖卫士放置速度降低 {0}%",
+        "zh": "先祖卫士放置速度减慢 {0}%",
         "en": "{0}% reduced Ancestral Protector Totem Placement Speed"
     },
     {
@@ -35841,12 +35841,12 @@
     },
     {
         "id": "stat_3317752680",
-        "zh": "吞噬图腾的每秒偷取速度提高 {0}%",
+        "zh": "吞噬图腾的每秒偷取速度加快 {0}%",
         "en": "{0}% increased Devouring Totem Leech per second"
     },
     {
         "id": "stat_3317752680",
-        "zh": "吞噬图腾的每秒偷取速度降低 {0}%",
+        "zh": "吞噬图腾的每秒偷取速度减慢 {0}%",
         "en": "{0}% reduced Devouring Totem Leech per second"
     },
     {
@@ -35856,12 +35856,12 @@
     },
     {
         "id": "stat_2962501808",
-        "zh": "【掷火陷阱】的冷却回复速度提高 {0}%",
+        "zh": "【掷火陷阱】的冷却回复速度加快 {0}%",
         "en": "Flamethrower Trap has {0}% increased Cooldown Recovery Rate"
     },
     {
         "id": "stat_2962501808",
-        "zh": "【掷火陷阱】的冷却回复速度降低 {0}%",
+        "zh": "【掷火陷阱】的冷却回复速度减慢 {0}%",
         "en": "Flamethrower Trap has {0}% reduced Cooldown Recovery Rate"
     },
     {
@@ -35941,12 +35941,12 @@
     },
     {
         "id": "stat_1570047087",
-        "zh": "【电塔陷阱】的冷却回复速度提高 {0}%",
+        "zh": "【电塔陷阱】的冷却回复速度加快 {0}%",
         "en": "Lightning Spire Trap has {0}% increased Cooldown Recovery Rate"
     },
     {
         "id": "stat_1570047087",
-        "zh": "【电塔陷阱】的冷却回复速度降低 {0}%",
+        "zh": "【电塔陷阱】的冷却回复速度减慢 {0}%",
         "en": "Lightning Spire Trap has {0}% reduced Cooldown Recovery Rate"
     },
     {
@@ -35996,12 +35996,12 @@
     },
     {
         "id": "stat_2387717928",
-        "zh": "【亵渎之矛】的施放速度提高 {0}%",
+        "zh": "【亵渎之矛】的施放速度加快 {0}%",
         "en": "{0}% increased Unearth Cast Speed"
     },
     {
         "id": "stat_2387717928",
-        "zh": "【亵渎之矛】的施放速度降低 {0}%",
+        "zh": "【亵渎之矛】的施放速度减慢 {0}%",
         "en": "{0}% reduced Unearth Cast Speed"
     },
     {
@@ -36156,12 +36156,12 @@
     },
     {
         "id": "stat_732631533",
-        "zh": "【毒蛇鞭击】的投射物速度提高 {0}%",
+        "zh": "【毒蛇鞭击】的投射物速度加快 {0}%",
         "en": "Cobra Lash has {0}% increased Projectile Speed"
     },
     {
         "id": "stat_732631533",
-        "zh": "【毒蛇鞭击】投射物速度降低 {0}%",
+        "zh": "【毒蛇鞭击】投射物速度减慢 {0}%",
         "en": "Cobra Lash has {0}% reduced Projectile Speed"
     },
     {
@@ -36376,12 +36376,12 @@
     },
     {
         "id": "stat_321894708",
-        "zh": "雷暴地雷的投掷速度提高 {0}%",
+        "zh": "雷暴地雷的投掷速度加快 {0}%",
         "en": "Stormblast Mine has {0}% increased Throwing Speed"
     },
     {
         "id": "stat_321894708",
-        "zh": "雷暴地雷的投掷速度降低 {0}%",
+        "zh": "雷暴地雷的投掷速度减慢 {0}%",
         "en": "Stormblast Mine has {0}% reduced Throwing Speed"
     },
     {
@@ -36486,12 +36486,12 @@
     },
     {
         "id": "stat_815588902",
-        "zh": "冰霜闪现的冷却回复速度提高 {0}%",
+        "zh": "冰霜闪现的冷却回复速度加快 {0}%",
         "en": "Frostblink has {0}% increased Cooldown Recovery Rate"
     },
     {
         "id": "stat_815588902",
-        "zh": "冰霜闪现的冷却回复速度降低 {0}%",
+        "zh": "冰霜闪现的冷却回复速度减慢 {0}%",
         "en": "Frostblink has {0}% reduced Cooldown Recovery Rate"
     },
     {
@@ -36666,12 +36666,12 @@
     },
     {
         "id": "stat_3976295500",
-        "zh": "冰锥地雷地雷投掷速度提高 {0}%",
+        "zh": "冰锥地雷地雷投掷速度加快 {0}%",
         "en": "{0}% increased Icicle Mine Throwing Speed"
     },
     {
         "id": "stat_3976295500",
-        "zh": "冰锥地雷地雷投掷速度降低 {0}%",
+        "zh": "冰锥地雷地雷投掷速度减慢 {0}%",
         "en": "{0}% reduced Icicle Mine Throwing Speed"
     },
     {
@@ -36766,12 +36766,12 @@
     },
     {
         "id": "stat_535507671",
-        "zh": "【电塔陷阱】的施法速度提高 {0}%",
+        "zh": "【电塔陷阱】的施法速度加快 {0}%",
         "en": "Lightning Spire Trap has {0}% increased Cast Speed"
     },
     {
         "id": "stat_535507671",
-        "zh": "【电塔陷阱】的施法速度降低 {0}%",
+        "zh": "【电塔陷阱】的施法速度减慢 {0}%",
         "en": "Lightning Spire Trap has {0}% reduced Cast Speed"
     },
     {
@@ -36851,22 +36851,22 @@
     },
     {
         "id": "stat_2931005730",
-        "zh": "【掷火陷阱】的施法速度提高 {0}%",
+        "zh": "【掷火陷阱】的施法速度加快 {0}%",
         "en": "Flamethrower Trap has {0}% increased Cast Speed"
     },
     {
         "id": "stat_2931005730",
-        "zh": "【掷火陷阱】的施法速度降低 {0}%",
+        "zh": "【掷火陷阱】的施法速度减慢 {0}%",
         "en": "Flamethrower Trap has {0}% reduced Cast Speed"
     },
     {
         "id": "stat_1035680542",
-        "zh": "你的冰笼之塔冷却回复速度提高 {0}%",
+        "zh": "你的冰笼之塔冷却回复速度加快 {0}%",
         "en": "Your Glacial Cage Towers have {0}% increased Cooldown Recovery Rate"
     },
     {
         "id": "stat_1035680542",
-        "zh": "你的冰笼之塔冷却回复速度降低 {0}%",
+        "zh": "你的冰笼之塔冷却回复速度减慢 {0}%",
         "en": "Your Glacial Cage Towers have {0}% reduced Cooldown Recovery Rate"
     },
     {
@@ -36986,12 +36986,12 @@
     },
     {
         "id": "stat_1243906675",
-        "zh": "【天雷之珠】投射物速度提高 {0}%",
+        "zh": "【天雷之珠】投射物速度加快 {0}%",
         "en": "{0}% increased Ball Lightning Projectile Speed"
     },
     {
         "id": "stat_1243906675",
-        "zh": "【天雷之珠】投射物速度降低 {0}%",
+        "zh": "【天雷之珠】投射物速度减慢 {0}%",
         "en": "{0}% reduced Ball Lightning Projectile Speed"
     },
     {
@@ -37221,12 +37221,12 @@
     },
     {
         "id": "stat_2410280305",
-        "zh": "你的火球之塔施法速度提高 {0}%",
+        "zh": "你的火球之塔施法速度加快 {0}%",
         "en": "Your Fireball Towers have {0}% increased Cast Speed"
     },
     {
         "id": "stat_2410280305",
-        "zh": "你的火球之塔施法速度降低 {0}%",
+        "zh": "你的火球之塔施法速度减慢 {0}%",
         "en": "Your Fireball Towers have {0}% reduced Cast Speed"
     },
     {
@@ -37341,12 +37341,12 @@
     },
     {
         "id": "stat_3198887051",
-        "zh": "你的时间之塔还使你的行动速度降低 {0}%",
+        "zh": "你的时间之塔还使你的行动速度减慢 {0}%",
         "en": "Your Temporal Towers also grant you {0}% reduced action speed"
     },
     {
         "id": "stat_3198887051",
-        "zh": "你的时间之塔还使你的行动速度提高 {0}%",
+        "zh": "你的时间之塔还使你的行动速度加快 {0}%",
         "en": "Your Temporal Towers also grant you {0}% increased action speed"
     },
     {
@@ -37366,12 +37366,12 @@
     },
     {
         "id": "stat_118036057",
-        "zh": "你的窒息之塔还使移动速度提高 {0}%",
+        "zh": "你的窒息之塔还使移动速度加快 {0}%",
         "en": "Your Smothering Towers also grant {0}% increased Movement Speed"
     },
     {
         "id": "stat_118036057",
-        "zh": "你的窒息之塔还使移动速度降低 {0}%",
+        "zh": "你的窒息之塔还使移动速度减慢 {0}%",
         "en": "Your Smothering Towers also grant {0}% reduced Movement Speed"
     },
     {
@@ -37416,12 +37416,12 @@
     },
     {
         "id": "stat_4039396512",
-        "zh": "你的掷火之塔施法速度提高 {0}%",
+        "zh": "你的掷火之塔施法速度加快 {0}%",
         "en": "Your Flamethrower Towers have {0}% increased Cast Speed"
     },
     {
         "id": "stat_4039396512",
-        "zh": "你的掷火之塔施法速度降低 {0}%",
+        "zh": "你的掷火之塔施法速度减慢 {0}%",
         "en": "Your Flamethrower Towers have {0}% reduced Cast Speed"
     },
     {
@@ -37446,12 +37446,12 @@
     },
     {
         "id": "stat_3564606017",
-        "zh": "你的赋能之塔施法速度提高 {0}%",
+        "zh": "你的赋能之塔施法速度加快 {0}%",
         "en": "Your Empowering Towers also grant {0}% increased Cast Speed"
     },
     {
         "id": "stat_3564606017",
-        "zh": "你的赋能之塔施法速度降低 {0}%",
+        "zh": "你的赋能之塔施法速度减慢 {0}%",
         "en": "Your Empowering Towers also grant {0}% reduced Cast Speed"
     },
     {
@@ -37531,22 +37531,22 @@
     },
     {
         "id": "stat_971955285",
-        "zh": "你的侦察之塔创造的召唤生物移动速度提高 {0}%",
+        "zh": "你的侦察之塔创造的召唤生物移动速度加快 {0}%",
         "en": "Minions summoned by Your Scout Towers have {0}% increased Movement Speed"
     },
     {
         "id": "stat_971955285",
-        "zh": "你的侦察之塔创造的召唤生物移动速度降低 {0}%",
+        "zh": "你的侦察之塔创造的召唤生物移动速度减慢 {0}%",
         "en": "Minions summoned by Your Scout Towers have {0}% reduced Movement Speed"
     },
     {
         "id": "stat_1378482149",
-        "zh": "你的召唤之塔创造的召唤生物移动速度提高 {0}%",
+        "zh": "你的召唤之塔创造的召唤生物移动速度加快 {0}%",
         "en": "Minions summoned by Your Summoning Towers have {0}% increased Movement Speed"
     },
     {
         "id": "stat_1378482149",
-        "zh": "你的召唤之塔创造的召唤生物移动速度降低 {0}%",
+        "zh": "你的召唤之塔创造的召唤生物移动速度减慢 {0}%",
         "en": "Minions summoned by Your Summoning Towers have {0}% reduced Movement Speed"
     },
     {
@@ -37586,12 +37586,12 @@
     },
     {
         "id": "stat_1971866993",
-        "zh": "你的哨兵之塔创造的召唤生物移动速度提高 {0}%",
+        "zh": "你的哨兵之塔创造的召唤生物移动速度加快 {0}%",
         "en": "Minions summoned by Your Sentinel Towers have {0}% increased Movement Speed"
     },
     {
         "id": "stat_1971866993",
-        "zh": "你的哨兵之塔创造的召唤生物移动速度降低 {0}%",
+        "zh": "你的哨兵之塔创造的召唤生物移动速度减慢 {0}%",
         "en": "Minions summoned by Your Sentinel Towers have {0}% reduced Movement Speed"
     },
     {
@@ -37621,12 +37621,12 @@
     },
     {
         "id": "stat_1619284089",
-        "zh": "你的石化之塔冷却回复速度提高 {0}%",
+        "zh": "你的石化之塔冷却回复速度加快 {0}%",
         "en": "Your Stone Gaze Towers have {0}% increased Cooldown Recovery Rate"
     },
     {
         "id": "stat_1619284089",
-        "zh": "你的石化之塔冷却回复速度降低 {0}%",
+        "zh": "你的石化之塔冷却回复速度减慢 {0}%",
         "en": "Your Stone Gaze Towers have {0}% reduced Cooldown Recovery Rate"
     },
     {
@@ -39906,203 +39906,18 @@
     },
     {
         "id": "mod_58320",
-        "zh": "该装备附加 2 - 7 基础物理伤害\n攻击速度降低 6%",
-        "en": "Adds 2 to 7 Physical Damage\n6% reduced Attack Speed"
+        "zh": "该装备附加 {0} - {1} 基础物理伤害\n攻击速度减慢 {2}%",
+        "en": "Adds {0} to {1} Physical Damage\n{2}% reduced Attack Speed"
     },
     {
         "id": "mod_58320",
-        "zh": "该装备附加 2 - 7 基础物理伤害",
-        "en": "Adds 2 to 7 Physical Damage"
+        "zh": "该装备附加 {0} - {1} 基础物理伤害",
+        "en": "Adds {0} to {1} Physical Damage"
     },
     {
         "id": "mod_58320",
-        "zh": "攻击速度降低 6%",
-        "en": "6% reduced Attack Speed"
-    },
-    {
-        "id": "mod_2397",
-        "zh": "该装备附加 3 - 11 基础物理伤害\n攻击速度降低 6%",
-        "en": "Adds 3 to 11 Physical Damage\n6% reduced Attack Speed"
-    },
-    {
-        "id": "mod_2397",
-        "zh": "该装备附加 3 - 11 基础物理伤害",
-        "en": "Adds 3 to 11 Physical Damage"
-    },
-    {
-        "id": "mod_2397",
-        "zh": "攻击速度降低 6%",
-        "en": "6% reduced Attack Speed"
-    },
-    {
-        "id": "mod_20412",
-        "zh": "该装备附加 6 - 12 基础物理伤害\n攻击速度降低 6%",
-        "en": "Adds 6 to 12 Physical Damage\n6% reduced Attack Speed"
-    },
-    {
-        "id": "mod_20412",
-        "zh": "该装备附加 6 - 12 基础物理伤害",
-        "en": "Adds 6 to 12 Physical Damage"
-    },
-    {
-        "id": "mod_20412",
-        "zh": "攻击速度降低 6%",
-        "en": "6% reduced Attack Speed"
-    },
-    {
-        "id": "mod_51047",
-        "zh": "该装备附加 6 - 16 基础物理伤害\n攻击速度降低 6%",
-        "en": "Adds 6 to 16 Physical Damage\n6% reduced Attack Speed"
-    },
-    {
-        "id": "mod_51047",
-        "zh": "该装备附加 6 - 16 基础物理伤害",
-        "en": "Adds 6 to 16 Physical Damage"
-    },
-    {
-        "id": "mod_51047",
-        "zh": "攻击速度降低 6%",
-        "en": "6% reduced Attack Speed"
-    },
-    {
-        "id": "mod_28634",
-        "zh": "该装备附加 8 - 19 基础物理伤害\n攻击速度降低 6%",
-        "en": "Adds 8 to 19 Physical Damage\n6% reduced Attack Speed"
-    },
-    {
-        "id": "mod_28634",
-        "zh": "该装备附加 8 - 19 基础物理伤害",
-        "en": "Adds 8 to 19 Physical Damage"
-    },
-    {
-        "id": "mod_28634",
-        "zh": "攻击速度降低 6%",
-        "en": "6% reduced Attack Speed"
-    },
-    {
-        "id": "mod_25161",
-        "zh": "该装备附加 4 - 12 基础物理伤害\n攻击速度降低 6%",
-        "en": "Adds 4 to 12 Physical Damage\n6% reduced Attack Speed"
-    },
-    {
-        "id": "mod_25161",
-        "zh": "该装备附加 4 - 12 基础物理伤害",
-        "en": "Adds 4 to 12 Physical Damage"
-    },
-    {
-        "id": "mod_25161",
-        "zh": "攻击速度降低 6%",
-        "en": "6% reduced Attack Speed"
-    },
-    {
-        "id": "mod_1163",
-        "zh": "该装备附加 6 - 16 基础物理伤害\n攻击速度降低 6%",
-        "en": "Adds 6 to 16 Physical Damage\n6% reduced Attack Speed"
-    },
-    {
-        "id": "mod_1163",
-        "zh": "该装备附加 6 - 16 基础物理伤害",
-        "en": "Adds 6 to 16 Physical Damage"
-    },
-    {
-        "id": "mod_1163",
-        "zh": "攻击速度降低 6%",
-        "en": "6% reduced Attack Speed"
-    },
-    {
-        "id": "mod_52531",
-        "zh": "该装备附加 9 - 20 基础物理伤害\n攻击速度降低 6%",
-        "en": "Adds 9 to 20 Physical Damage\n6% reduced Attack Speed"
-    },
-    {
-        "id": "mod_52531",
-        "zh": "该装备附加 9 - 20 基础物理伤害",
-        "en": "Adds 9 to 20 Physical Damage"
-    },
-    {
-        "id": "mod_52531",
-        "zh": "攻击速度降低 6%",
-        "en": "6% reduced Attack Speed"
-    },
-    {
-        "id": "mod_22332",
-        "zh": "该装备附加 11 - 25 基础物理伤害\n攻击速度降低 6%",
-        "en": "Adds 11 to 25 Physical Damage\n6% reduced Attack Speed"
-    },
-    {
-        "id": "mod_22332",
-        "zh": "该装备附加 11 - 25 基础物理伤害",
-        "en": "Adds 11 to 25 Physical Damage"
-    },
-    {
-        "id": "mod_22332",
-        "zh": "攻击速度降低 6%",
-        "en": "6% reduced Attack Speed"
-    },
-    {
-        "id": "mod_4467",
-        "zh": "该装备附加 14 - 33 基础物理伤害\n攻击速度降低 6%",
-        "en": "Adds 14 to 33 Physical Damage\n6% reduced Attack Speed"
-    },
-    {
-        "id": "mod_4467",
-        "zh": "该装备附加 14 - 33 基础物理伤害",
-        "en": "Adds 14 to 33 Physical Damage"
-    },
-    {
-        "id": "mod_4467",
-        "zh": "攻击速度降低 6%",
-        "en": "6% reduced Attack Speed"
-    },
-    {
-        "id": "mod_7394",
-        "zh": "该装备附加 2 - 6 基础物理伤害",
-        "en": "Adds 2 to 6 Physical Damage"
-    },
-    {
-        "id": "mod_24582",
-        "zh": "该装备附加 2 - 8 基础物理伤害",
-        "en": "Adds 2 to 8 Physical Damage"
-    },
-    {
-        "id": "mod_31100",
-        "zh": "该装备附加 3 - 10 基础物理伤害",
-        "en": "Adds 3 to 10 Physical Damage"
-    },
-    {
-        "id": "mod_65423",
-        "zh": "该装备附加 5 - 13 基础物理伤害",
-        "en": "Adds 5 to 13 Physical Damage"
-    },
-    {
-        "id": "mod_53268",
-        "zh": "该装备附加 6 - 15 基础物理伤害",
-        "en": "Adds 6 to 15 Physical Damage"
-    },
-    {
-        "id": "mod_37103",
-        "zh": "该装备附加 4 - 9 基础物理伤害",
-        "en": "Adds 4 to 9 Physical Damage"
-    },
-    {
-        "id": "mod_21788",
-        "zh": "该装备附加 6 - 11 基础物理伤害",
-        "en": "Adds 6 to 11 Physical Damage"
-    },
-    {
-        "id": "mod_37668",
-        "zh": "该装备附加 7 - 16 基础物理伤害",
-        "en": "Adds 7 to 16 Physical Damage"
-    },
-    {
-        "id": "mod_65328",
-        "zh": "该装备附加 8 - 19 基础物理伤害",
-        "en": "Adds 8 to 19 Physical Damage"
-    },
-    {
-        "id": "mod_1490",
-        "zh": "该装备附加 11 - 26 基础物理伤害",
-        "en": "Adds 11 to 26 Physical Damage"
+        "zh": "攻击速度减慢 {0}%",
+        "en": "{0}% reduced Attack Speed"
     },
     {
         "id": "mod_48262",
@@ -41156,203 +40971,18 @@
     },
     {
         "id": "mod_51716",
-        "zh": "该装备附加 5 - 9 基础火焰伤害\n攻击速度降低 6%",
-        "en": "Adds 5 to 9 Fire Damage\n6% reduced Attack Speed"
+        "zh": "该装备附加 {0} - {1} 基础火焰伤害\n攻击速度减慢 {2}%",
+        "en": "Adds {0} to {1} Fire Damage\n{2}% reduced Attack Speed"
     },
     {
         "id": "mod_51716",
-        "zh": "该装备附加 5 - 9 基础火焰伤害",
-        "en": "Adds 5 to 9 Fire Damage"
+        "zh": "该装备附加 {0} - {1} 基础火焰伤害",
+        "en": "Adds {0} to {1} Fire Damage"
     },
     {
         "id": "mod_51716",
-        "zh": "攻击速度降低 6%",
-        "en": "6% reduced Attack Speed"
-    },
-    {
-        "id": "mod_34545",
-        "zh": "该装备附加 9 - 13 基础火焰伤害\n攻击速度降低 6%",
-        "en": "Adds 9 to 13 Fire Damage\n6% reduced Attack Speed"
-    },
-    {
-        "id": "mod_34545",
-        "zh": "该装备附加 9 - 13 基础火焰伤害",
-        "en": "Adds 9 to 13 Fire Damage"
-    },
-    {
-        "id": "mod_34545",
-        "zh": "攻击速度降低 6%",
-        "en": "6% reduced Attack Speed"
-    },
-    {
-        "id": "mod_54465",
-        "zh": "该装备附加 16 - 26 基础火焰伤害\n攻击速度降低 6%",
-        "en": "Adds 16 to 26 Fire Damage\n6% reduced Attack Speed"
-    },
-    {
-        "id": "mod_54465",
-        "zh": "该装备附加 16 - 26 基础火焰伤害",
-        "en": "Adds 16 to 26 Fire Damage"
-    },
-    {
-        "id": "mod_54465",
-        "zh": "攻击速度降低 6%",
-        "en": "6% reduced Attack Speed"
-    },
-    {
-        "id": "mod_52222",
-        "zh": "该装备附加 27 - 42 基础火焰伤害\n攻击速度降低 6%",
-        "en": "Adds 27 to 42 Fire Damage\n6% reduced Attack Speed"
-    },
-    {
-        "id": "mod_52222",
-        "zh": "该装备附加 27 - 42 基础火焰伤害",
-        "en": "Adds 27 to 42 Fire Damage"
-    },
-    {
-        "id": "mod_52222",
-        "zh": "攻击速度降低 6%",
-        "en": "6% reduced Attack Speed"
-    },
-    {
-        "id": "mod_57667",
-        "zh": "该装备附加 55 - 83 基础火焰伤害\n攻击速度降低 6%",
-        "en": "Adds 55 to 83 Fire Damage\n6% reduced Attack Speed"
-    },
-    {
-        "id": "mod_57667",
-        "zh": "该装备附加 55 - 83 基础火焰伤害",
-        "en": "Adds 55 to 83 Fire Damage"
-    },
-    {
-        "id": "mod_57667",
-        "zh": "攻击速度降低 6%",
-        "en": "6% reduced Attack Speed"
-    },
-    {
-        "id": "mod_22336",
-        "zh": "该装备附加 9 - 14 基础火焰伤害\n攻击速度降低 6%",
-        "en": "Adds 9 to 14 Fire Damage\n6% reduced Attack Speed"
-    },
-    {
-        "id": "mod_22336",
-        "zh": "该装备附加 9 - 14 基础火焰伤害",
-        "en": "Adds 9 to 14 Fire Damage"
-    },
-    {
-        "id": "mod_22336",
-        "zh": "攻击速度降低 6%",
-        "en": "6% reduced Attack Speed"
-    },
-    {
-        "id": "mod_39077",
-        "zh": "该装备附加 16 - 24 基础火焰伤害\n攻击速度降低 6%",
-        "en": "Adds 16 to 24 Fire Damage\n6% reduced Attack Speed"
-    },
-    {
-        "id": "mod_39077",
-        "zh": "该装备附加 16 - 24 基础火焰伤害",
-        "en": "Adds 16 to 24 Fire Damage"
-    },
-    {
-        "id": "mod_39077",
-        "zh": "攻击速度降低 6%",
-        "en": "6% reduced Attack Speed"
-    },
-    {
-        "id": "mod_22393",
-        "zh": "该装备附加 30 - 47 基础火焰伤害\n攻击速度降低 6%",
-        "en": "Adds 30 to 47 Fire Damage\n6% reduced Attack Speed"
-    },
-    {
-        "id": "mod_22393",
-        "zh": "该装备附加 30 - 47 基础火焰伤害",
-        "en": "Adds 30 to 47 Fire Damage"
-    },
-    {
-        "id": "mod_22393",
-        "zh": "攻击速度降低 6%",
-        "en": "6% reduced Attack Speed"
-    },
-    {
-        "id": "mod_63596",
-        "zh": "该装备附加 52 - 77 基础火焰伤害\n攻击速度降低 6%",
-        "en": "Adds 52 to 77 Fire Damage\n6% reduced Attack Speed"
-    },
-    {
-        "id": "mod_63596",
-        "zh": "该装备附加 52 - 77 基础火焰伤害",
-        "en": "Adds 52 to 77 Fire Damage"
-    },
-    {
-        "id": "mod_63596",
-        "zh": "攻击速度降低 6%",
-        "en": "6% reduced Attack Speed"
-    },
-    {
-        "id": "mod_4488",
-        "zh": "该装备附加 102 - 153 基础火焰伤害\n攻击速度降低 6%",
-        "en": "Adds 102 to 153 Fire Damage\n6% reduced Attack Speed"
-    },
-    {
-        "id": "mod_4488",
-        "zh": "该装备附加 102 - 153 基础火焰伤害",
-        "en": "Adds 102 to 153 Fire Damage"
-    },
-    {
-        "id": "mod_4488",
-        "zh": "攻击速度降低 6%",
-        "en": "6% reduced Attack Speed"
-    },
-    {
-        "id": "mod_64191",
-        "zh": "该装备附加 4 - 6 基础火焰伤害",
-        "en": "Adds 4 to 6 Fire Damage"
-    },
-    {
-        "id": "mod_12162",
-        "zh": "该装备附加 7 - 10 基础火焰伤害",
-        "en": "Adds 7 to 10 Fire Damage"
-    },
-    {
-        "id": "mod_51974",
-        "zh": "该装备附加 13 - 18 基础火焰伤害",
-        "en": "Adds 13 to 18 Fire Damage"
-    },
-    {
-        "id": "mod_51463",
-        "zh": "该装备附加 22 - 32 基础火焰伤害",
-        "en": "Adds 22 to 32 Fire Damage"
-    },
-    {
-        "id": "mod_556",
-        "zh": "该装备附加 42 - 63 基础火焰伤害",
-        "en": "Adds 42 to 63 Fire Damage"
-    },
-    {
-        "id": "mod_57276",
-        "zh": "该装备附加 8 - 10 基础火焰伤害",
-        "en": "Adds 8 to 10 Fire Damage"
-    },
-    {
-        "id": "mod_32429",
-        "zh": "该装备附加 13 - 19 基础火焰伤害",
-        "en": "Adds 13 to 19 Fire Damage"
-    },
-    {
-        "id": "mod_5561",
-        "zh": "该装备附加 24 - 35 基础火焰伤害",
-        "en": "Adds 24 to 35 Fire Damage"
-    },
-    {
-        "id": "mod_40598",
-        "zh": "该装备附加 39 - 61 基础火焰伤害",
-        "en": "Adds 39 to 61 Fire Damage"
-    },
-    {
-        "id": "mod_56502",
-        "zh": "该装备附加 78 - 118 基础火焰伤害",
-        "en": "Adds 78 to 118 Fire Damage"
+        "zh": "攻击速度减慢 {0}%",
+        "en": "{0}% reduced Attack Speed"
     },
     {
         "id": "mod_34655",
@@ -42006,153 +41636,18 @@
     },
     {
         "id": "mod_6602",
-        "zh": "该装备附加 1 - 5 基础冰霜伤害\n攻击速度提高 4%",
-        "en": "Adds 1 to 5 Cold Damage\n4% increased Attack Speed"
+        "zh": "该装备附加 {0} - {1} 基础冰霜伤害\n攻击速度加快 {2}%",
+        "en": "Adds {0} to {1} Cold Damage\n{2}% increased Attack Speed"
     },
     {
         "id": "mod_6602",
-        "zh": "该装备附加 1 - 5 基础冰霜伤害",
-        "en": "Adds 1 to 5 Cold Damage"
+        "zh": "该装备附加 {0} - {1} 基础冰霜伤害",
+        "en": "Adds {0} to {1} Cold Damage"
     },
     {
         "id": "mod_6602",
-        "zh": "攻击速度提高 4%",
-        "en": "4% increased Attack Speed"
-    },
-    {
-        "id": "mod_22317",
-        "zh": "该装备附加 3 - 6 基础冰霜伤害\n攻击速度提高 4%",
-        "en": "Adds 3 to 6 Cold Damage\n4% increased Attack Speed"
-    },
-    {
-        "id": "mod_22317",
-        "zh": "该装备附加 3 - 6 基础冰霜伤害",
-        "en": "Adds 3 to 6 Cold Damage"
-    },
-    {
-        "id": "mod_22317",
-        "zh": "攻击速度提高 4%",
-        "en": "4% increased Attack Speed"
-    },
-    {
-        "id": "mod_20897",
-        "zh": "该装备附加 7 - 10 基础冰霜伤害\n攻击速度提高 4%",
-        "en": "Adds 7 to 10 Cold Damage\n4% increased Attack Speed"
-    },
-    {
-        "id": "mod_20897",
-        "zh": "该装备附加 7 - 10 基础冰霜伤害",
-        "en": "Adds 7 to 10 Cold Damage"
-    },
-    {
-        "id": "mod_20897",
-        "zh": "攻击速度提高 4%",
-        "en": "4% increased Attack Speed"
-    },
-    {
-        "id": "mod_50690",
-        "zh": "该装备附加 12 - 19 基础冰霜伤害\n攻击速度提高 4%",
-        "en": "Adds 12 to 19 Cold Damage\n4% increased Attack Speed"
-    },
-    {
-        "id": "mod_50690",
-        "zh": "该装备附加 12 - 19 基础冰霜伤害",
-        "en": "Adds 12 to 19 Cold Damage"
-    },
-    {
-        "id": "mod_50690",
-        "zh": "攻击速度提高 4%",
-        "en": "4% increased Attack Speed"
-    },
-    {
-        "id": "mod_61585",
-        "zh": "该装备附加 24 - 35 基础冰霜伤害\n攻击速度提高 4%",
-        "en": "Adds 24 to 35 Cold Damage\n4% increased Attack Speed"
-    },
-    {
-        "id": "mod_61585",
-        "zh": "该装备附加 24 - 35 基础冰霜伤害",
-        "en": "Adds 24 to 35 Cold Damage"
-    },
-    {
-        "id": "mod_61585",
-        "zh": "攻击速度提高 4%",
-        "en": "4% increased Attack Speed"
-    },
-    {
-        "id": "mod_21944",
-        "zh": "该装备附加 4 - 6 基础冰霜伤害\n攻击速度提高 4%",
-        "en": "Adds 4 to 6 Cold Damage\n4% increased Attack Speed"
-    },
-    {
-        "id": "mod_21944",
-        "zh": "该装备附加 4 - 6 基础冰霜伤害",
-        "en": "Adds 4 to 6 Cold Damage"
-    },
-    {
-        "id": "mod_21944",
-        "zh": "攻击速度提高 4%",
-        "en": "4% increased Attack Speed"
-    },
-    {
-        "id": "mod_61470",
-        "zh": "该装备附加 7 - 11 基础冰霜伤害\n攻击速度提高 4%",
-        "en": "Adds 7 to 11 Cold Damage\n4% increased Attack Speed"
-    },
-    {
-        "id": "mod_61470",
-        "zh": "该装备附加 7 - 11 基础冰霜伤害",
-        "en": "Adds 7 to 11 Cold Damage"
-    },
-    {
-        "id": "mod_61470",
-        "zh": "攻击速度提高 4%",
-        "en": "4% increased Attack Speed"
-    },
-    {
-        "id": "mod_6546",
-        "zh": "该装备附加 13 - 21 基础冰霜伤害\n攻击速度提高 4%",
-        "en": "Adds 13 to 21 Cold Damage\n4% increased Attack Speed"
-    },
-    {
-        "id": "mod_6546",
-        "zh": "该装备附加 13 - 21 基础冰霜伤害",
-        "en": "Adds 13 to 21 Cold Damage"
-    },
-    {
-        "id": "mod_6546",
-        "zh": "攻击速度提高 4%",
-        "en": "4% increased Attack Speed"
-    },
-    {
-        "id": "mod_23822",
-        "zh": "该装备附加 23 - 35 基础冰霜伤害\n攻击速度提高 4%",
-        "en": "Adds 23 to 35 Cold Damage\n4% increased Attack Speed"
-    },
-    {
-        "id": "mod_23822",
-        "zh": "该装备附加 23 - 35 基础冰霜伤害",
-        "en": "Adds 23 to 35 Cold Damage"
-    },
-    {
-        "id": "mod_23822",
-        "zh": "攻击速度提高 4%",
-        "en": "4% increased Attack Speed"
-    },
-    {
-        "id": "mod_34415",
-        "zh": "该装备附加 45 - 66 基础冰霜伤害\n攻击速度提高 4%",
-        "en": "Adds 45 to 66 Cold Damage\n4% increased Attack Speed"
-    },
-    {
-        "id": "mod_34415",
-        "zh": "该装备附加 45 - 66 基础冰霜伤害",
-        "en": "Adds 45 to 66 Cold Damage"
-    },
-    {
-        "id": "mod_34415",
-        "zh": "攻击速度提高 4%",
-        "en": "4% increased Attack Speed"
+        "zh": "攻击速度加快 {0}%",
+        "en": "{0}% increased Attack Speed"
     },
     {
         "id": "mod_21850",
@@ -43726,203 +43221,18 @@
     },
     {
         "id": "mod_16058",
-        "zh": "法术附加 2 - 5 基础物理伤害\n施法速度降低 6%",
-        "en": "Adds 2 to 5 Physical Damage to Spells\n6% reduced Cast Speed"
+        "zh": "法术附加 {0} - {1} 基础物理伤害\n施法速度减慢 {0}%",
+        "en": "Adds {0} to {1} Physical Damage to Spells\n{0}% reduced Cast Speed"
     },
     {
         "id": "mod_16058",
-        "zh": "法术附加 2 - 5 基础物理伤害",
-        "en": "Adds 2 to 5 Physical Damage to Spells"
+        "zh": "法术附加 {0} - {1} 基础物理伤害",
+        "en": "Adds {0} to {1} Physical Damage to Spells"
     },
     {
         "id": "mod_16058",
-        "zh": "施法速度降低 6%",
-        "en": "6% reduced Cast Speed"
-    },
-    {
-        "id": "mod_36536",
-        "zh": "法术附加 5 - 7 基础物理伤害\n施法速度降低 6%",
-        "en": "Adds 5 to 7 Physical Damage to Spells\n6% reduced Cast Speed"
-    },
-    {
-        "id": "mod_36536",
-        "zh": "法术附加 5 - 7 基础物理伤害",
-        "en": "Adds 5 to 7 Physical Damage to Spells"
-    },
-    {
-        "id": "mod_36536",
-        "zh": "施法速度降低 6%",
-        "en": "6% reduced Cast Speed"
-    },
-    {
-        "id": "mod_42973",
-        "zh": "法术附加 8 - 14 基础物理伤害\n施法速度降低 6%",
-        "en": "Adds 8 to 14 Physical Damage to Spells\n6% reduced Cast Speed"
-    },
-    {
-        "id": "mod_42973",
-        "zh": "法术附加 8 - 14 基础物理伤害",
-        "en": "Adds 8 to 14 Physical Damage to Spells"
-    },
-    {
-        "id": "mod_42973",
-        "zh": "施法速度降低 6%",
-        "en": "6% reduced Cast Speed"
-    },
-    {
-        "id": "mod_27249",
-        "zh": "法术附加 14 - 22 基础物理伤害\n施法速度降低 6%",
-        "en": "Adds 14 to 22 Physical Damage to Spells\n6% reduced Cast Speed"
-    },
-    {
-        "id": "mod_27249",
-        "zh": "法术附加 14 - 22 基础物理伤害",
-        "en": "Adds 14 to 22 Physical Damage to Spells"
-    },
-    {
-        "id": "mod_27249",
-        "zh": "施法速度降低 6%",
-        "en": "6% reduced Cast Speed"
-    },
-    {
-        "id": "mod_15149",
-        "zh": "法术附加 28 - 42 基础物理伤害\n施法速度降低 6%",
-        "en": "Adds 28 to 42 Physical Damage to Spells\n6% reduced Cast Speed"
-    },
-    {
-        "id": "mod_15149",
-        "zh": "法术附加 28 - 42 基础物理伤害",
-        "en": "Adds 28 to 42 Physical Damage to Spells"
-    },
-    {
-        "id": "mod_15149",
-        "zh": "施法速度降低 6%",
-        "en": "6% reduced Cast Speed"
-    },
-    {
-        "id": "mod_13412",
-        "zh": "法术附加 4 - 7 基础物理伤害\n施法速度降低 10%",
-        "en": "Adds 4 to 7 Physical Damage to Spells\n10% reduced Cast Speed"
-    },
-    {
-        "id": "mod_13412",
-        "zh": "法术附加 4 - 7 基础物理伤害",
-        "en": "Adds 4 to 7 Physical Damage to Spells"
-    },
-    {
-        "id": "mod_13412",
-        "zh": "施法速度降低 10%",
-        "en": "10% reduced Cast Speed"
-    },
-    {
-        "id": "mod_50121",
-        "zh": "法术附加 7 - 12 基础物理伤害\n施法速度降低 10%",
-        "en": "Adds 7 to 12 Physical Damage to Spells\n10% reduced Cast Speed"
-    },
-    {
-        "id": "mod_50121",
-        "zh": "法术附加 7 - 12 基础物理伤害",
-        "en": "Adds 7 to 12 Physical Damage to Spells"
-    },
-    {
-        "id": "mod_50121",
-        "zh": "施法速度降低 10%",
-        "en": "10% reduced Cast Speed"
-    },
-    {
-        "id": "mod_1766",
-        "zh": "法术附加 14 - 22 基础物理伤害\n施法速度降低 10%",
-        "en": "Adds 14 to 22 Physical Damage to Spells\n10% reduced Cast Speed"
-    },
-    {
-        "id": "mod_1766",
-        "zh": "法术附加 14 - 22 基础物理伤害",
-        "en": "Adds 14 to 22 Physical Damage to Spells"
-    },
-    {
-        "id": "mod_1766",
-        "zh": "施法速度降低 10%",
-        "en": "10% reduced Cast Speed"
-    },
-    {
-        "id": "mod_49935",
-        "zh": "法术附加 24 - 37 基础物理伤害\n施法速度降低 10%",
-        "en": "Adds 24 to 37 Physical Damage to Spells\n10% reduced Cast Speed"
-    },
-    {
-        "id": "mod_49935",
-        "zh": "法术附加 24 - 37 基础物理伤害",
-        "en": "Adds 24 to 37 Physical Damage to Spells"
-    },
-    {
-        "id": "mod_49935",
-        "zh": "施法速度降低 10%",
-        "en": "10% reduced Cast Speed"
-    },
-    {
-        "id": "mod_50230",
-        "zh": "法术附加 47 - 71 基础物理伤害\n施法速度降低 10%",
-        "en": "Adds 47 to 71 Physical Damage to Spells\n10% reduced Cast Speed"
-    },
-    {
-        "id": "mod_50230",
-        "zh": "法术附加 47 - 71 基础物理伤害",
-        "en": "Adds 47 to 71 Physical Damage to Spells"
-    },
-    {
-        "id": "mod_50230",
-        "zh": "施法速度降低 10%",
-        "en": "10% reduced Cast Speed"
-    },
-    {
-        "id": "mod_53045",
-        "zh": "法术附加 1 - 5 基础物理伤害",
-        "en": "Adds 1 to 5 Physical Damage to Spells"
-    },
-    {
-        "id": "mod_12689",
-        "zh": "法术附加 2 - 6 基础物理伤害",
-        "en": "Adds 2 to 6 Physical Damage to Spells"
-    },
-    {
-        "id": "mod_8935",
-        "zh": "法术附加 6 - 10 基础物理伤害",
-        "en": "Adds 6 to 10 Physical Damage to Spells"
-    },
-    {
-        "id": "mod_43622",
-        "zh": "法术附加 11 - 17 基础物理伤害",
-        "en": "Adds 11 to 17 Physical Damage to Spells"
-    },
-    {
-        "id": "mod_14210",
-        "zh": "法术附加 21 - 33 基础物理伤害",
-        "en": "Adds 21 to 33 Physical Damage to Spells"
-    },
-    {
-        "id": "mod_37998",
-        "zh": "法术附加 2 - 5 基础物理伤害",
-        "en": "Adds 2 to 5 Physical Damage to Spells"
-    },
-    {
-        "id": "mod_63422",
-        "zh": "法术附加 5 - 10 基础物理伤害",
-        "en": "Adds 5 to 10 Physical Damage to Spells"
-    },
-    {
-        "id": "mod_6140",
-        "zh": "法术附加 10 - 17 基础物理伤害",
-        "en": "Adds 10 to 17 Physical Damage to Spells"
-    },
-    {
-        "id": "mod_39355",
-        "zh": "法术附加 18 - 28 基础物理伤害",
-        "en": "Adds 18 to 28 Physical Damage to Spells"
-    },
-    {
-        "id": "mod_52206",
-        "zh": "法术附加 36 - 55 基础物理伤害",
-        "en": "Adds 36 to 55 Physical Damage to Spells"
+        "zh": "施法速度减慢 {0}%",
+        "en": "{0}% reduced Cast Speed"
     },
     {
         "id": "mod_38894",
@@ -44676,203 +43986,18 @@
     },
     {
         "id": "mod_35319",
-        "zh": "给法术附加 4 到 6 点火焰伤害\n施法速度降低 6%",
-        "en": "Adds 4 to 6 Fire Damage to Spells\n6% reduced Cast Speed"
+        "zh": "给法术附加 {0} 到 {1} 点火焰伤害\n施法速度减慢 {2}%",
+        "en": "Adds {0} to {1} Fire Damage to Spells\n{2}% reduced Cast Speed"
     },
     {
         "id": "mod_35319",
-        "zh": "给法术附加 4 到 6 点火焰伤害",
-        "en": "Adds 4 to 6 Fire Damage to Spells"
+        "zh": "给法术附加 {0} 到 {1} 点火焰伤害",
+        "en": "Adds {0} to {1} Fire Damage to Spells"
     },
     {
         "id": "mod_35319",
-        "zh": "施法速度降低 6%",
-        "en": "6% reduced Cast Speed"
-    },
-    {
-        "id": "mod_46990",
-        "zh": "给法术附加 6 到 10 点火焰伤害\n施法速度降低 6%",
-        "en": "Adds 6 to 10 Fire Damage to Spells\n6% reduced Cast Speed"
-    },
-    {
-        "id": "mod_46990",
-        "zh": "给法术附加 6 到 10 点火焰伤害",
-        "en": "Adds 6 to 10 Fire Damage to Spells"
-    },
-    {
-        "id": "mod_46990",
-        "zh": "施法速度降低 6%",
-        "en": "6% reduced Cast Speed"
-    },
-    {
-        "id": "mod_4131",
-        "zh": "给法术附加 12 到 18 点火焰伤害\n施法速度降低 6%",
-        "en": "Adds 12 to 18 Fire Damage to Spells\n6% reduced Cast Speed"
-    },
-    {
-        "id": "mod_4131",
-        "zh": "给法术附加 12 到 18 点火焰伤害",
-        "en": "Adds 12 to 18 Fire Damage to Spells"
-    },
-    {
-        "id": "mod_4131",
-        "zh": "施法速度降低 6%",
-        "en": "6% reduced Cast Speed"
-    },
-    {
-        "id": "mod_50658",
-        "zh": "给法术附加 19 到 30 点火焰伤害\n施法速度降低 6%",
-        "en": "Adds 19 to 30 Fire Damage to Spells\n6% reduced Cast Speed"
-    },
-    {
-        "id": "mod_50658",
-        "zh": "给法术附加 19 到 30 点火焰伤害",
-        "en": "Adds 19 to 30 Fire Damage to Spells"
-    },
-    {
-        "id": "mod_50658",
-        "zh": "施法速度降低 6%",
-        "en": "6% reduced Cast Speed"
-    },
-    {
-        "id": "mod_63183",
-        "zh": "给法术附加 39 到 59 点火焰伤害\n施法速度降低 6%",
-        "en": "Adds 39 to 59 Fire Damage to Spells\n6% reduced Cast Speed"
-    },
-    {
-        "id": "mod_63183",
-        "zh": "给法术附加 39 到 59 点火焰伤害",
-        "en": "Adds 39 to 59 Fire Damage to Spells"
-    },
-    {
-        "id": "mod_63183",
-        "zh": "施法速度降低 6%",
-        "en": "6% reduced Cast Speed"
-    },
-    {
-        "id": "mod_28272",
-        "zh": "给法术附加 7 到 10 点火焰伤害\n施法速度降低 10%",
-        "en": "Adds 7 to 10 Fire Damage to Spells\n10% reduced Cast Speed"
-    },
-    {
-        "id": "mod_28272",
-        "zh": "给法术附加 7 到 10 点火焰伤害",
-        "en": "Adds 7 to 10 Fire Damage to Spells"
-    },
-    {
-        "id": "mod_28272",
-        "zh": "施法速度降低 10%",
-        "en": "10% reduced Cast Speed"
-    },
-    {
-        "id": "mod_34594",
-        "zh": "给法术附加 11 到 17 点火焰伤害\n施法速度降低 10%",
-        "en": "Adds 11 to 17 Fire Damage to Spells\n10% reduced Cast Speed"
-    },
-    {
-        "id": "mod_34594",
-        "zh": "给法术附加 11 到 17 点火焰伤害",
-        "en": "Adds 11 to 17 Fire Damage to Spells"
-    },
-    {
-        "id": "mod_34594",
-        "zh": "施法速度降低 10%",
-        "en": "10% reduced Cast Speed"
-    },
-    {
-        "id": "mod_46484",
-        "zh": "给法术附加 21 到 34 点火焰伤害\n施法速度降低 10%",
-        "en": "Adds 21 to 34 Fire Damage to Spells\n10% reduced Cast Speed"
-    },
-    {
-        "id": "mod_46484",
-        "zh": "给法术附加 21 到 34 点火焰伤害",
-        "en": "Adds 21 to 34 Fire Damage to Spells"
-    },
-    {
-        "id": "mod_46484",
-        "zh": "施法速度降低 10%",
-        "en": "10% reduced Cast Speed"
-    },
-    {
-        "id": "mod_19083",
-        "zh": "给法术附加 37 到 55 点火焰伤害\n施法速度降低 10%",
-        "en": "Adds 37 to 55 Fire Damage to Spells\n10% reduced Cast Speed"
-    },
-    {
-        "id": "mod_19083",
-        "zh": "给法术附加 37 到 55 点火焰伤害",
-        "en": "Adds 37 to 55 Fire Damage to Spells"
-    },
-    {
-        "id": "mod_19083",
-        "zh": "施法速度降低 10%",
-        "en": "10% reduced Cast Speed"
-    },
-    {
-        "id": "mod_44944",
-        "zh": "给法术附加 73 到 109 点火焰伤害\n施法速度降低 10%",
-        "en": "Adds 73 to 109 Fire Damage to Spells\n10% reduced Cast Speed"
-    },
-    {
-        "id": "mod_44944",
-        "zh": "给法术附加 73 到 109 点火焰伤害",
-        "en": "Adds 73 to 109 Fire Damage to Spells"
-    },
-    {
-        "id": "mod_44944",
-        "zh": "施法速度降低 10%",
-        "en": "10% reduced Cast Speed"
-    },
-    {
-        "id": "mod_41540",
-        "zh": "给法术附加 2 到 5 点火焰伤害",
-        "en": "Adds 2 to 5 Fire Damage to Spells"
-    },
-    {
-        "id": "mod_31448",
-        "zh": "给法术附加 5 到 7 点火焰伤害",
-        "en": "Adds 5 to 7 Fire Damage to Spells"
-    },
-    {
-        "id": "mod_55254",
-        "zh": "给法术附加 9 到 14 点火焰伤害",
-        "en": "Adds 9 to 14 Fire Damage to Spells"
-    },
-    {
-        "id": "mod_35511",
-        "zh": "给法术附加 15 到 24 点火焰伤害",
-        "en": "Adds 15 to 24 Fire Damage to Spells"
-    },
-    {
-        "id": "mod_8502",
-        "zh": "给法术附加 30 到 45 点火焰伤害",
-        "en": "Adds 30 to 45 Fire Damage to Spells"
-    },
-    {
-        "id": "mod_63780",
-        "zh": "给法术附加 5 到 7 点火焰伤害",
-        "en": "Adds 5 to 7 Fire Damage to Spells"
-    },
-    {
-        "id": "mod_59188",
-        "zh": "给法术附加 9 到 13 点火焰伤害",
-        "en": "Adds 9 to 13 Fire Damage to Spells"
-    },
-    {
-        "id": "mod_10201",
-        "zh": "给法术附加 16 到 26 点火焰伤害",
-        "en": "Adds 16 to 26 Fire Damage to Spells"
-    },
-    {
-        "id": "mod_30193",
-        "zh": "给法术附加 28 到 43 点火焰伤害",
-        "en": "Adds 28 to 43 Fire Damage to Spells"
-    },
-    {
-        "id": "mod_46855",
-        "zh": "给法术附加 56 到 84 点火焰伤害",
-        "en": "Adds 56 to 84 Fire Damage to Spells"
+        "zh": "施法速度减慢 {0}%",
+        "en": "{0}% reduced Cast Speed"
     },
     {
         "id": "mod_47615",
@@ -45176,13 +44301,13 @@
     },
     {
         "id": "mod_4180",
-        "zh": "法术附加 1 - 3 基础冰霜伤害\n你的冰霜伤害无法冰缓",
-        "en": "Adds 1 to 3 Cold Damage to Spells\nYour Cold Damage cannot Chill"
+        "zh": "法术附加 {0} - {1} 基础冰霜伤害\n你的冰霜伤害无法冰缓",
+        "en": "Adds {0} to {1} Cold Damage to Spells\nYour Cold Damage cannot Chill"
     },
     {
         "id": "mod_4180",
-        "zh": "法术附加 1 - 3 基础冰霜伤害",
-        "en": "Adds 1 to 3 Cold Damage to Spells"
+        "zh": "法术附加 {0} - {1} 基础冰霜伤害",
+        "en": "Adds {0} to {1} Cold Damage to Spells"
     },
     {
         "id": "mod_4180",
@@ -45190,489 +44315,34 @@
         "en": "Your Cold Damage cannot Chill"
     },
     {
-        "id": "mod_32431",
-        "zh": "法术附加 1 - 4 基础冰霜伤害\n你的冰霜伤害无法冰缓",
-        "en": "Adds 1 to 4 Cold Damage to Spells\nYour Cold Damage cannot Chill"
-    },
-    {
-        "id": "mod_32431",
-        "zh": "法术附加 1 - 4 基础冰霜伤害",
-        "en": "Adds 1 to 4 Cold Damage to Spells"
-    },
-    {
-        "id": "mod_32431",
-        "zh": "你的冰霜伤害无法冰缓",
-        "en": "Your Cold Damage cannot Chill"
-    },
-    {
-        "id": "mod_54352",
-        "zh": "法术附加 2 - 5 基础冰霜伤害\n你的冰霜伤害无法冰缓",
-        "en": "Adds 2 to 5 Cold Damage to Spells\nYour Cold Damage cannot Chill"
-    },
-    {
-        "id": "mod_54352",
-        "zh": "法术附加 2 - 5 基础冰霜伤害",
-        "en": "Adds 2 to 5 Cold Damage to Spells"
-    },
-    {
-        "id": "mod_54352",
-        "zh": "你的冰霜伤害无法冰缓",
-        "en": "Your Cold Damage cannot Chill"
-    },
-    {
-        "id": "mod_64962",
-        "zh": "法术附加 2 - 7 基础冰霜伤害\n你的冰霜伤害无法冰缓",
-        "en": "Adds 2 to 7 Cold Damage to Spells\nYour Cold Damage cannot Chill"
-    },
-    {
-        "id": "mod_64962",
-        "zh": "法术附加 2 - 7 基础冰霜伤害",
-        "en": "Adds 2 to 7 Cold Damage to Spells"
-    },
-    {
-        "id": "mod_64962",
-        "zh": "你的冰霜伤害无法冰缓",
-        "en": "Your Cold Damage cannot Chill"
-    },
-    {
-        "id": "mod_47547",
-        "zh": "法术附加 4 - 8 基础冰霜伤害\n你的冰霜伤害无法冰缓",
-        "en": "Adds 4 to 8 Cold Damage to Spells\nYour Cold Damage cannot Chill"
-    },
-    {
-        "id": "mod_47547",
-        "zh": "法术附加 4 - 8 基础冰霜伤害",
-        "en": "Adds 4 to 8 Cold Damage to Spells"
-    },
-    {
-        "id": "mod_47547",
-        "zh": "你的冰霜伤害无法冰缓",
-        "en": "Your Cold Damage cannot Chill"
-    },
-    {
-        "id": "mod_60772",
-        "zh": "法术附加 2 - 6 基础冰霜伤害\n你的冰霜伤害无法冰缓",
-        "en": "Adds 2 to 6 Cold Damage to Spells\nYour Cold Damage cannot Chill"
-    },
-    {
-        "id": "mod_60772",
-        "zh": "法术附加 2 - 6 基础冰霜伤害",
-        "en": "Adds 2 to 6 Cold Damage to Spells"
-    },
-    {
-        "id": "mod_60772",
-        "zh": "你的冰霜伤害无法冰缓",
-        "en": "Your Cold Damage cannot Chill"
-    },
-    {
-        "id": "mod_63835",
-        "zh": "法术附加 2 - 7 基础冰霜伤害\n你的冰霜伤害无法冰缓",
-        "en": "Adds 2 to 7 Cold Damage to Spells\nYour Cold Damage cannot Chill"
-    },
-    {
-        "id": "mod_63835",
-        "zh": "法术附加 2 - 7 基础冰霜伤害",
-        "en": "Adds 2 to 7 Cold Damage to Spells"
-    },
-    {
-        "id": "mod_63835",
-        "zh": "你的冰霜伤害无法冰缓",
-        "en": "Your Cold Damage cannot Chill"
-    },
-    {
-        "id": "mod_39641",
-        "zh": "法术附加 3 - 9 基础冰霜伤害\n你的冰霜伤害无法冰缓",
-        "en": "Adds 3 to 9 Cold Damage to Spells\nYour Cold Damage cannot Chill"
-    },
-    {
-        "id": "mod_39641",
-        "zh": "法术附加 3 - 9 基础冰霜伤害",
-        "en": "Adds 3 to 9 Cold Damage to Spells"
-    },
-    {
-        "id": "mod_39641",
-        "zh": "你的冰霜伤害无法冰缓",
-        "en": "Your Cold Damage cannot Chill"
-    },
-    {
-        "id": "mod_33090",
-        "zh": "法术附加 4 - 11 基础冰霜伤害\n你的冰霜伤害无法冰缓",
-        "en": "Adds 4 to 11 Cold Damage to Spells\nYour Cold Damage cannot Chill"
-    },
-    {
-        "id": "mod_33090",
-        "zh": "法术附加 4 - 11 基础冰霜伤害",
-        "en": "Adds 4 to 11 Cold Damage to Spells"
-    },
-    {
-        "id": "mod_33090",
-        "zh": "你的冰霜伤害无法冰缓",
-        "en": "Your Cold Damage cannot Chill"
-    },
-    {
-        "id": "mod_37311",
-        "zh": "法术附加 6 - 14 基础冰霜伤害\n你的冰霜伤害无法冰缓",
-        "en": "Adds 6 to 14 Cold Damage to Spells\nYour Cold Damage cannot Chill"
-    },
-    {
-        "id": "mod_37311",
-        "zh": "法术附加 6 - 14 基础冰霜伤害",
-        "en": "Adds 6 to 14 Cold Damage to Spells"
-    },
-    {
-        "id": "mod_37311",
-        "zh": "你的冰霜伤害无法冰缓",
-        "en": "Your Cold Damage cannot Chill"
-    },
-    {
-        "id": "mod_7221",
-        "zh": "法术附加 2 - 5 基础冰霜伤害",
-        "en": "Adds 2 to 6 Cold Damage to Spells"
-    },
-    {
-        "id": "mod_27339",
-        "zh": "法术附加 3 - 7 基础冰霜伤害",
-        "en": "Adds 5 to 8 Cold Damage to Spells"
-    },
-    {
-        "id": "mod_27792",
-        "zh": "法术附加 8 - 14 基础冰霜伤害",
-        "en": "Adds 10 to 17 Cold Damage to Spells"
-    },
-    {
-        "id": "mod_12769",
-        "zh": "法术附加 14 - 21 基础冰霜伤害",
-        "en": "Adds 18 to 28 Cold Damage to Spells"
-    },
-    {
-        "id": "mod_60102",
-        "zh": "法术附加 29 - 43 基础冰霜伤害",
-        "en": "Adds 37 to 56 Cold Damage to Spells"
-    },
-    {
-        "id": "mod_25832",
-        "zh": "法术附加 4 - 7 基础冰霜伤害",
-        "en": "Adds 5 to 10 Cold Damage to Spells"
-    },
-    {
-        "id": "mod_1750",
-        "zh": "法术附加 7 - 12 基础冰霜伤害",
-        "en": "Adds 10 to 16 Cold Damage to Spells"
-    },
-    {
-        "id": "mod_60600",
-        "zh": "法术附加 15 - 24 基础冰霜伤害",
-        "en": "Adds 20 to 32 Cold Damage to Spells"
-    },
-    {
-        "id": "mod_26963",
-        "zh": "法术附加 26 - 40 基础冰霜伤害",
-        "en": "Adds 34 to 52 Cold Damage to Spells"
-    },
-    {
-        "id": "mod_50869",
-        "zh": "法术附加 53 - 79 基础冰霜伤害",
-        "en": "Adds 68 to 103 Cold Damage to Spells"
+        "id": "mod_4889",
+        "zh": "法术附加 {0} - {1} 基础冰霜伤害\n有 {2}% 的几率造成冻结状态",
+        "en": "Adds {0} to {1} Cold Damage to Spells\n{2}% chance to Freeze"
     },
     {
         "id": "mod_4889",
-        "zh": "法术附加 2 - 5 基础冰霜伤害\n有 10% 的几率造成冻结状态",
-        "en": "Adds 2 to 5 Cold Damage to Spells\n10% chance to Freeze"
+        "zh": "法术附加 {0} - {1} 基础冰霜伤害",
+        "en": "Adds {0} to {1} Cold Damage to Spells"
     },
     {
         "id": "mod_4889",
-        "zh": "法术附加 2 - 5 基础冰霜伤害",
-        "en": "Adds 2 to 5 Cold Damage to Spells"
-    },
-    {
-        "id": "mod_4889",
-        "zh": "有 10% 的几率造成冻结状态",
-        "en": "10% chance to Freeze"
-    },
-    {
-        "id": "mod_56717",
-        "zh": "法术附加 3 - 7 基础冰霜伤害\n有 10% 的几率造成冻结状态",
-        "en": "Adds 3 to 7 Cold Damage to Spells\n10% chance to Freeze"
-    },
-    {
-        "id": "mod_56717",
-        "zh": "法术附加 3 - 7 基础冰霜伤害",
-        "en": "Adds 3 to 7 Cold Damage to Spells"
-    },
-    {
-        "id": "mod_56717",
-        "zh": "有 10% 的几率造成冻结状态",
-        "en": "10% chance to Freeze"
-    },
-    {
-        "id": "mod_31320",
-        "zh": "法术附加 8 - 14 基础冰霜伤害\n有 10% 的几率造成冻结状态",
-        "en": "Adds 8 to 14 Cold Damage to Spells\n10% chance to Freeze"
-    },
-    {
-        "id": "mod_31320",
-        "zh": "法术附加 8 - 14 基础冰霜伤害",
-        "en": "Adds 8 to 14 Cold Damage to Spells"
-    },
-    {
-        "id": "mod_31320",
-        "zh": "有 10% 的几率造成冻结状态",
-        "en": "10% chance to Freeze"
-    },
-    {
-        "id": "mod_25836",
-        "zh": "法术附加 14 - 21 基础冰霜伤害\n有 10% 的几率造成冻结状态",
-        "en": "Adds 14 to 21 Cold Damage to Spells\n10% chance to Freeze"
-    },
-    {
-        "id": "mod_25836",
-        "zh": "法术附加 14 - 21 基础冰霜伤害",
-        "en": "Adds 14 to 21 Cold Damage to Spells"
-    },
-    {
-        "id": "mod_25836",
-        "zh": "有 10% 的几率造成冻结状态",
-        "en": "10% chance to Freeze"
-    },
-    {
-        "id": "mod_62311",
-        "zh": "法术附加 29 - 43 基础冰霜伤害\n有 10% 的几率造成冻结状态",
-        "en": "Adds 29 to 43 Cold Damage to Spells\n10% chance to Freeze"
-    },
-    {
-        "id": "mod_62311",
-        "zh": "法术附加 29 - 43 基础冰霜伤害",
-        "en": "Adds 29 to 43 Cold Damage to Spells"
-    },
-    {
-        "id": "mod_62311",
-        "zh": "有 10% 的几率造成冻结状态",
-        "en": "10% chance to Freeze"
-    },
-    {
-        "id": "mod_41494",
-        "zh": "法术附加 4 - 7 基础冰霜伤害\n有 20% 的几率造成冻结状态",
-        "en": "Adds 4 to 7 Cold Damage to Spells\n20% chance to Freeze"
-    },
-    {
-        "id": "mod_41494",
-        "zh": "法术附加 4 - 7 基础冰霜伤害",
-        "en": "Adds 4 to 7 Cold Damage to Spells"
-    },
-    {
-        "id": "mod_41494",
-        "zh": "有 20% 的几率造成冻结状态",
-        "en": "20% chance to Freeze"
-    },
-    {
-        "id": "mod_44622",
-        "zh": "法术附加 7 - 12 基础冰霜伤害\n有 20% 的几率造成冻结状态",
-        "en": "Adds 7 to 12 Cold Damage to Spells\n20% chance to Freeze"
-    },
-    {
-        "id": "mod_44622",
-        "zh": "法术附加 7 - 12 基础冰霜伤害",
-        "en": "Adds 7 to 12 Cold Damage to Spells"
-    },
-    {
-        "id": "mod_44622",
-        "zh": "有 20% 的几率造成冻结状态",
-        "en": "20% chance to Freeze"
-    },
-    {
-        "id": "mod_5961",
-        "zh": "法术附加 15 - 24 基础冰霜伤害\n有 20% 的几率造成冻结状态",
-        "en": "Adds 15 to 24 Cold Damage to Spells\n20% chance to Freeze"
-    },
-    {
-        "id": "mod_5961",
-        "zh": "法术附加 15 - 24 基础冰霜伤害",
-        "en": "Adds 15 to 24 Cold Damage to Spells"
-    },
-    {
-        "id": "mod_5961",
-        "zh": "有 20% 的几率造成冻结状态",
-        "en": "20% chance to Freeze"
-    },
-    {
-        "id": "mod_27558",
-        "zh": "法术附加 26 - 40 基础冰霜伤害\n有 20% 的几率造成冻结状态",
-        "en": "Adds 26 to 40 Cold Damage to Spells\n20% chance to Freeze"
-    },
-    {
-        "id": "mod_27558",
-        "zh": "法术附加 26 - 40 基础冰霜伤害",
-        "en": "Adds 26 to 40 Cold Damage to Spells"
-    },
-    {
-        "id": "mod_27558",
-        "zh": "有 20% 的几率造成冻结状态",
-        "en": "20% chance to Freeze"
-    },
-    {
-        "id": "mod_59529",
-        "zh": "法术附加 53 - 79 基础冰霜伤害\n有 20% 的几率造成冻结状态",
-        "en": "Adds 53 to 79 Cold Damage to Spells\n20% chance to Freeze"
-    },
-    {
-        "id": "mod_59529",
-        "zh": "法术附加 53 - 79 基础冰霜伤害",
-        "en": "Adds 53 to 79 Cold Damage to Spells"
-    },
-    {
-        "id": "mod_59529",
-        "zh": "有 20% 的几率造成冻结状态",
-        "en": "20% chance to Freeze"
+        "zh": "有 {0}% 的几率造成冻结状态",
+        "en": "{0}% chance to Freeze"
     },
     {
         "id": "mod_53496",
-        "zh": "法术附加 1 - 3 基础冰霜伤害\n施法速度提高 5%",
-        "en": "Adds 1 to 3 Cold Damage to Spells\n5% increased Cast Speed"
+        "zh": "法术附加 {0} - {1} 基础冰霜伤害\n施法速度加快 {2}%",
+        "en": "Adds {0} to {1} Cold Damage to Spells\n{2}% increased Cast Speed"
     },
     {
         "id": "mod_53496",
-        "zh": "法术附加 1 - 3 基础冰霜伤害",
-        "en": "Adds 1 to 3 Cold Damage to Spells"
+        "zh": "法术附加 {0} - {1} 基础冰霜伤害",
+        "en": "Adds {0} to {1} Cold Damage to Spells"
     },
     {
         "id": "mod_53496",
-        "zh": "施法速度提高 5%",
-        "en": "5% increased Cast Speed"
-    },
-    {
-        "id": "mod_18814",
-        "zh": "法术附加 2 - 4 基础冰霜伤害\n施法速度提高 5%",
-        "en": "Adds 2 to 4 Cold Damage to Spells\n5% increased Cast Speed"
-    },
-    {
-        "id": "mod_18814",
-        "zh": "法术附加 2 - 4 基础冰霜伤害",
-        "en": "Adds 2 to 4 Cold Damage to Spells"
-    },
-    {
-        "id": "mod_18814",
-        "zh": "施法速度提高 5%",
-        "en": "5% increased Cast Speed"
-    },
-    {
-        "id": "mod_55477",
-        "zh": "法术附加 4 - 8 基础冰霜伤害\n施法速度提高 5%",
-        "en": "Adds 4 to 8 Cold Damage to Spells\n5% increased Cast Speed"
-    },
-    {
-        "id": "mod_55477",
-        "zh": "法术附加 4 - 8 基础冰霜伤害",
-        "en": "Adds 4 to 8 Cold Damage to Spells"
-    },
-    {
-        "id": "mod_55477",
-        "zh": "施法速度提高 5%",
-        "en": "5% increased Cast Speed"
-    },
-    {
-        "id": "mod_10387",
-        "zh": "法术附加 8 - 14 基础冰霜伤害\n施法速度提高 5%",
-        "en": "Adds 8 to 14 Cold Damage to Spells\n5% increased Cast Speed"
-    },
-    {
-        "id": "mod_10387",
-        "zh": "法术附加 8 - 14 基础冰霜伤害",
-        "en": "Adds 8 to 14 Cold Damage to Spells"
-    },
-    {
-        "id": "mod_10387",
-        "zh": "施法速度提高 5%",
-        "en": "5% increased Cast Speed"
-    },
-    {
-        "id": "mod_12029",
-        "zh": "法术附加 17 - 25 基础冰霜伤害\n施法速度提高 5%",
-        "en": "Adds 17 to 25 Cold Damage to Spells\n5% increased Cast Speed"
-    },
-    {
-        "id": "mod_12029",
-        "zh": "法术附加 17 - 25 基础冰霜伤害",
-        "en": "Adds 17 to 25 Cold Damage to Spells"
-    },
-    {
-        "id": "mod_12029",
-        "zh": "施法速度提高 5%",
-        "en": "5% increased Cast Speed"
-    },
-    {
-        "id": "mod_60122",
-        "zh": "法术附加 2 - 5 基础冰霜伤害\n施法速度提高 10%",
-        "en": "Adds 2 to 5 Cold Damage to Spells\n10% increased Cast Speed"
-    },
-    {
-        "id": "mod_60122",
-        "zh": "法术附加 2 - 5 基础冰霜伤害",
-        "en": "Adds 2 to 5 Cold Damage to Spells"
-    },
-    {
-        "id": "mod_60122",
-        "zh": "施法速度提高 10%",
-        "en": "10% increased Cast Speed"
-    },
-    {
-        "id": "mod_46434",
-        "zh": "法术附加 5 - 8 基础冰霜伤害\n施法速度提高 10%",
-        "en": "Adds 5 to 8 Cold Damage to Spells\n10% increased Cast Speed"
-    },
-    {
-        "id": "mod_46434",
-        "zh": "法术附加 5 - 8 基础冰霜伤害",
-        "en": "Adds 5 to 8 Cold Damage to Spells"
-    },
-    {
-        "id": "mod_46434",
-        "zh": "施法速度提高 10%",
-        "en": "10% increased Cast Speed"
-    },
-    {
-        "id": "mod_64064",
-        "zh": "法术附加 9 - 15 基础冰霜伤害\n施法速度提高 10%",
-        "en": "Adds 9 to 15 Cold Damage to Spells\n10% increased Cast Speed"
-    },
-    {
-        "id": "mod_64064",
-        "zh": "法术附加 9 - 15 基础冰霜伤害",
-        "en": "Adds 9 to 15 Cold Damage to Spells"
-    },
-    {
-        "id": "mod_64064",
-        "zh": "施法速度提高 10%",
-        "en": "10% increased Cast Speed"
-    },
-    {
-        "id": "mod_3471",
-        "zh": "法术附加 16 - 25 基础冰霜伤害\n施法速度提高 10%",
-        "en": "Adds 16 to 25 Cold Damage to Spells\n10% increased Cast Speed"
-    },
-    {
-        "id": "mod_3471",
-        "zh": "法术附加 16 - 25 基础冰霜伤害",
-        "en": "Adds 16 to 25 Cold Damage to Spells"
-    },
-    {
-        "id": "mod_3471",
-        "zh": "施法速度提高 10%",
-        "en": "10% increased Cast Speed"
-    },
-    {
-        "id": "mod_65047",
-        "zh": "法术附加 32 - 47 基础冰霜伤害\n施法速度提高 10%",
-        "en": "Adds 32 to 47 Cold Damage to Spells\n10% increased Cast Speed"
-    },
-    {
-        "id": "mod_65047",
-        "zh": "法术附加 32 - 47 基础冰霜伤害",
-        "en": "Adds 32 to 47 Cold Damage to Spells"
-    },
-    {
-        "id": "mod_65047",
-        "zh": "施法速度提高 10%",
-        "en": "10% increased Cast Speed"
+        "zh": "施法速度加快 {0}%",
+        "en": "{0}% increased Cast Speed"
     },
     {
         "id": "mod_9156",
@@ -53146,47 +51816,47 @@
     },
     {
         "id": "mod_34544",
-        "zh": "攻击速度降低 15%\n暴击几率提高 +0.9%",
+        "zh": "攻击速度减慢 15%\n暴击几率加快 +0.9%",
         "en": "15% reduced Attack Speed\n+0.9% to Critical Strike Chance"
     },
     {
         "id": "mod_34544",
-        "zh": "攻击速度降低 15%",
+        "zh": "攻击速度减慢 15%",
         "en": "15% reduced Attack Speed"
     },
     {
         "id": "mod_34544",
-        "zh": "暴击几率提高 +0.9%",
+        "zh": "暴击几率加快 +0.9%",
         "en": "+0.9% to Critical Strike Chance"
     },
     {
         "id": "mod_62113",
-        "zh": "攻击速度降低 15%\n暴击几率提高 +1.2%",
+        "zh": "攻击速度减慢 15%\n暴击几率加快 +1.2%",
         "en": "15% reduced Attack Speed\n+1.2% to Critical Strike Chance"
     },
     {
         "id": "mod_62113",
-        "zh": "攻击速度降低 15%",
+        "zh": "攻击速度减慢 15%",
         "en": "15% reduced Attack Speed"
     },
     {
         "id": "mod_62113",
-        "zh": "暴击几率提高 +1.2%",
+        "zh": "暴击几率加快 +1.2%",
         "en": "+1.2% to Critical Strike Chance"
     },
     {
         "id": "mod_36032",
-        "zh": "攻击速度降低 15%\n暴击几率提高 +1.5%",
+        "zh": "攻击速度减慢 15%\n暴击几率加快 +1.5%",
         "en": "15% reduced Attack Speed\n+1.5% to Critical Strike Chance"
     },
     {
         "id": "mod_36032",
-        "zh": "攻击速度降低 15%",
+        "zh": "攻击速度减慢 15%",
         "en": "15% reduced Attack Speed"
     },
     {
         "id": "mod_36032",
-        "zh": "暴击几率提高 +1.5%",
+        "zh": "暴击几率加快 +1.5%",
         "en": "+1.5% to Critical Strike Chance"
     },
     {
@@ -53236,92 +51906,92 @@
     },
     {
         "id": "mod_32823",
-        "zh": "攻击速度提高 30%\n全域伤害降低 20%",
+        "zh": "攻击速度加快 30%\n全域伤害减慢 20%",
         "en": "30% increased Attack Speed\n20% less Global Damage"
     },
     {
         "id": "mod_32823",
-        "zh": "攻击速度提高 30%",
+        "zh": "攻击速度加快 30%",
         "en": "30% increased Attack Speed"
     },
     {
         "id": "mod_32823",
-        "zh": "全域伤害降低 20%",
+        "zh": "全域伤害减慢 20%",
         "en": "20% less Global Damage"
     },
     {
         "id": "mod_858",
-        "zh": "攻击速度提高 35%\n全域伤害降低 20%",
+        "zh": "攻击速度加快 35%\n全域伤害减慢 20%",
         "en": "35% increased Attack Speed\n20% less Global Damage"
     },
     {
         "id": "mod_858",
-        "zh": "攻击速度提高 35%",
+        "zh": "攻击速度加快 35%",
         "en": "35% increased Attack Speed"
     },
     {
         "id": "mod_858",
-        "zh": "全域伤害降低 20%",
+        "zh": "全域伤害减慢 20%",
         "en": "20% less Global Damage"
     },
     {
         "id": "mod_48515",
-        "zh": "攻击速度提高 40%\n全域伤害降低 20%",
+        "zh": "攻击速度加快 40%\n全域伤害减慢 20%",
         "en": "40% increased Attack Speed\n20% less Global Damage"
     },
     {
         "id": "mod_48515",
-        "zh": "攻击速度提高 40%",
+        "zh": "攻击速度加快 40%",
         "en": "40% increased Attack Speed"
     },
     {
         "id": "mod_48515",
-        "zh": "全域伤害降低 20%",
+        "zh": "全域伤害减慢 20%",
         "en": "20% less Global Damage"
     },
     {
         "id": "mod_60225",
-        "zh": "攻击速度提高 24%\n全域伤害降低 15%",
+        "zh": "攻击速度加快 24%\n全域伤害减慢 15%",
         "en": "24% increased Attack Speed\n15% less Global Damage"
     },
     {
         "id": "mod_60225",
-        "zh": "攻击速度提高 24%",
+        "zh": "攻击速度加快 24%",
         "en": "24% increased Attack Speed"
     },
     {
         "id": "mod_60225",
-        "zh": "全域伤害降低 15%",
+        "zh": "全域伤害减慢 15%",
         "en": "15% less Global Damage"
     },
     {
         "id": "mod_50569",
-        "zh": "攻击速度提高 27%\n全域伤害降低 15%",
+        "zh": "攻击速度加快 27%\n全域伤害减慢 15%",
         "en": "27% increased Attack Speed\n15% less Global Damage"
     },
     {
         "id": "mod_50569",
-        "zh": "攻击速度提高 27%",
+        "zh": "攻击速度加快 27%",
         "en": "27% increased Attack Speed"
     },
     {
         "id": "mod_50569",
-        "zh": "全域伤害降低 15%",
+        "zh": "全域伤害减慢 15%",
         "en": "15% less Global Damage"
     },
     {
         "id": "mod_25963",
-        "zh": "攻击速度提高 30%\n全域伤害降低 15%",
+        "zh": "攻击速度加快 30%\n全域伤害减慢 15%",
         "en": "30% increased Attack Speed\n15% less Global Damage"
     },
     {
         "id": "mod_25963",
-        "zh": "攻击速度提高 30%",
+        "zh": "攻击速度加快 30%",
         "en": "30% increased Attack Speed"
     },
     {
         "id": "mod_25963",
-        "zh": "全域伤害降低 15%",
+        "zh": "全域伤害减慢 15%",
         "en": "15% less Global Damage"
     },
     {
@@ -53356,102 +52026,27 @@
     },
     {
         "id": "mod_33250",
-        "zh": "攻击速度提高 4%\n击败敌人时有 6% 的几率获得 4 秒【猛攻】状态",
-        "en": "4% increased Attack Speed\n6% chance to gain Onslaught for 4 seconds on Kill"
+        "zh": "攻击速度加快 {0}%\n击败敌人时有 {1}% 的几率获得 4 秒【猛攻】状态",
+        "en": "{0}% increased Attack Speed\n{1}% chance to gain Onslaught for 4 seconds on Kill"
     },
     {
         "id": "mod_33250",
-        "zh": "攻击速度提高 4%",
-        "en": "4% increased Attack Speed"
+        "zh": "攻击速度加快 {0}%",
+        "en": "{0}% increased Attack Speed"
     },
     {
         "id": "mod_33250",
-        "zh": "击败敌人时有 6% 的几率获得 4 秒【猛攻】状态",
-        "en": "6% chance to gain Onslaught for 4 seconds on Kill"
-    },
-    {
-        "id": "mod_118",
-        "zh": "攻击速度提高 5%\n击败敌人时有 6% 的几率获得 4 秒【猛攻】状态",
-        "en": "5% increased Attack Speed\n6% chance to gain Onslaught for 4 seconds on Kill"
-    },
-    {
-        "id": "mod_118",
-        "zh": "攻击速度提高 5%",
-        "en": "5% increased Attack Speed"
-    },
-    {
-        "id": "mod_118",
-        "zh": "击败敌人时有 6% 的几率获得 4 秒【猛攻】状态",
-        "en": "6% chance to gain Onslaught for 4 seconds on Kill"
-    },
-    {
-        "id": "mod_26022",
-        "zh": "攻击速度提高 6%\n击败敌人时有 6% 的几率获得 4 秒【猛攻】状态",
-        "en": "6% increased Attack Speed\n6% chance to gain Onslaught for 4 seconds on Kill"
-    },
-    {
-        "id": "mod_26022",
-        "zh": "攻击速度提高 6%",
-        "en": "6% increased Attack Speed"
-    },
-    {
-        "id": "mod_26022",
-        "zh": "击败敌人时有 6% 的几率获得 4 秒【猛攻】状态",
-        "en": "6% chance to gain Onslaught for 4 seconds on Kill"
-    },
-    {
-        "id": "mod_33471",
-        "zh": "攻击速度提高 3%\n击败敌人时有 6% 的几率获得 4 秒【猛攻】状态",
-        "en": "3% increased Attack Speed\n6% chance to gain Onslaught for 4 seconds on Kill"
-    },
-    {
-        "id": "mod_33471",
-        "zh": "攻击速度提高 3%",
-        "en": "3% increased Attack Speed"
-    },
-    {
-        "id": "mod_33471",
-        "zh": "击败敌人时有 6% 的几率获得 4 秒【猛攻】状态",
-        "en": "6% chance to gain Onslaught for 4 seconds on Kill"
-    },
-    {
-        "id": "mod_38536",
-        "zh": "攻击速度提高 4%\n击败敌人时有 6% 的几率获得 4 秒【猛攻】状态",
-        "en": "4% increased Attack Speed\n6% chance to gain Onslaught for 4 seconds on Kill"
-    },
-    {
-        "id": "mod_38536",
-        "zh": "攻击速度提高 4%",
-        "en": "4% increased Attack Speed"
-    },
-    {
-        "id": "mod_38536",
-        "zh": "击败敌人时有 6% 的几率获得 4 秒【猛攻】状态",
-        "en": "6% chance to gain Onslaught for 4 seconds on Kill"
-    },
-    {
-        "id": "mod_14078",
-        "zh": "攻击速度提高 5%\n击败敌人时有 6% 的几率获得 4 秒【猛攻】状态",
-        "en": "5% increased Attack Speed\n6% chance to gain Onslaught for 4 seconds on Kill"
-    },
-    {
-        "id": "mod_14078",
-        "zh": "攻击速度提高 5%",
-        "en": "5% increased Attack Speed"
-    },
-    {
-        "id": "mod_14078",
-        "zh": "击败敌人时有 6% 的几率获得 4 秒【猛攻】状态",
-        "en": "6% chance to gain Onslaught for 4 seconds on Kill"
+        "zh": "击败敌人时有 {0}% 的几率获得 4 秒【猛攻】状态",
+        "en": "{0}% chance to gain Onslaught for 4 seconds on Kill"
     },
     {
         "id": "mod_54143",
-        "zh": "攻击速度提高 4%\n击败敌人时有 6% 的几率获得一个狂怒球",
+        "zh": "攻击速度加快 4%\n击败敌人时有 6% 的几率获得一个狂怒球",
         "en": "4% increased Attack Speed\n6% chance to gain a Frenzy Charge on Kill"
     },
     {
         "id": "mod_54143",
-        "zh": "攻击速度提高 4%",
+        "zh": "攻击速度加快 4%",
         "en": "4% increased Attack Speed"
     },
     {
@@ -53461,12 +52056,12 @@
     },
     {
         "id": "mod_61003",
-        "zh": "攻击速度提高 5%\n击败敌人时有 6% 的几率获得一个狂怒球",
+        "zh": "攻击速度加快 5%\n击败敌人时有 6% 的几率获得一个狂怒球",
         "en": "5% increased Attack Speed\n6% chance to gain a Frenzy Charge on Kill"
     },
     {
         "id": "mod_61003",
-        "zh": "攻击速度提高 5%",
+        "zh": "攻击速度加快 5%",
         "en": "5% increased Attack Speed"
     },
     {
@@ -53476,12 +52071,12 @@
     },
     {
         "id": "mod_34535",
-        "zh": "攻击速度提高 6%\n击败敌人时有 6% 的几率获得一个狂怒球",
+        "zh": "攻击速度加快 6%\n击败敌人时有 6% 的几率获得一个狂怒球",
         "en": "6% increased Attack Speed\n6% chance to gain a Frenzy Charge on Kill"
     },
     {
         "id": "mod_34535",
-        "zh": "攻击速度提高 6%",
+        "zh": "攻击速度加快 6%",
         "en": "6% increased Attack Speed"
     },
     {
@@ -53491,12 +52086,12 @@
     },
     {
         "id": "mod_16269",
-        "zh": "攻击速度提高 3%\n击败敌人时有 6% 的几率获得一个狂怒球",
+        "zh": "攻击速度加快 3%\n击败敌人时有 6% 的几率获得一个狂怒球",
         "en": "3% increased Attack Speed\n6% chance to gain a Frenzy Charge on Kill"
     },
     {
         "id": "mod_16269",
-        "zh": "攻击速度提高 3%",
+        "zh": "攻击速度加快 3%",
         "en": "3% increased Attack Speed"
     },
     {
@@ -53506,12 +52101,12 @@
     },
     {
         "id": "mod_1610",
-        "zh": "攻击速度提高 4%\n击败敌人时有 6% 的几率获得一个狂怒球",
+        "zh": "攻击速度加快 4%\n击败敌人时有 6% 的几率获得一个狂怒球",
         "en": "4% increased Attack Speed\n6% chance to gain a Frenzy Charge on Kill"
     },
     {
         "id": "mod_1610",
-        "zh": "攻击速度提高 4%",
+        "zh": "攻击速度加快 4%",
         "en": "4% increased Attack Speed"
     },
     {
@@ -53521,12 +52116,12 @@
     },
     {
         "id": "mod_61889",
-        "zh": "攻击速度提高 5%\n击败敌人时有 6% 的几率获得一个狂怒球",
+        "zh": "攻击速度加快 5%\n击败敌人时有 6% 的几率获得一个狂怒球",
         "en": "5% increased Attack Speed\n6% chance to gain a Frenzy Charge on Kill"
     },
     {
         "id": "mod_61889",
-        "zh": "攻击速度提高 5%",
+        "zh": "攻击速度加快 5%",
         "en": "5% increased Attack Speed"
     },
     {
@@ -53536,12 +52131,12 @@
     },
     {
         "id": "mod_43063",
-        "zh": "攻击速度降低 25%\n使用该武器攻击有 20% 的几率造成双倍伤害",
+        "zh": "攻击速度减慢 25%\n使用该武器攻击有 20% 的几率造成双倍伤害",
         "en": "25% reduced Attack Speed\nAttacks with this Weapon have 20% chance to deal Double Damage"
     },
     {
         "id": "mod_43063",
-        "zh": "攻击速度降低 25%",
+        "zh": "攻击速度减慢 25%",
         "en": "25% reduced Attack Speed"
     },
     {
@@ -53551,12 +52146,12 @@
     },
     {
         "id": "mod_4773",
-        "zh": "攻击速度降低 25%\n使用该武器攻击有 25% 的几率造成双倍伤害",
+        "zh": "攻击速度减慢 25%\n使用该武器攻击有 25% 的几率造成双倍伤害",
         "en": "25% reduced Attack Speed\nAttacks with this Weapon have 25% chance to deal Double Damage"
     },
     {
         "id": "mod_4773",
-        "zh": "攻击速度降低 25%",
+        "zh": "攻击速度减慢 25%",
         "en": "25% reduced Attack Speed"
     },
     {
@@ -53566,12 +52161,12 @@
     },
     {
         "id": "mod_31759",
-        "zh": "攻击速度降低 25%\n使用该武器攻击有 30% 的几率造成双倍伤害",
+        "zh": "攻击速度减慢 25%\n使用该武器攻击有 30% 的几率造成双倍伤害",
         "en": "25% reduced Attack Speed\nAttacks with this Weapon have 30% chance to deal Double Damage"
     },
     {
         "id": "mod_31759",
-        "zh": "攻击速度降低 25%",
+        "zh": "攻击速度减慢 25%",
         "en": "25% reduced Attack Speed"
     },
     {
@@ -53581,12 +52176,12 @@
     },
     {
         "id": "mod_34378",
-        "zh": "攻击速度降低 20%\n使用该武器攻击有 15% 的几率造成双倍伤害",
+        "zh": "攻击速度减慢 20%\n使用该武器攻击有 15% 的几率造成双倍伤害",
         "en": "20% reduced Attack Speed\nAttacks with this Weapon have 15% chance to deal Double Damage"
     },
     {
         "id": "mod_34378",
-        "zh": "攻击速度降低 20%",
+        "zh": "攻击速度减慢 20%",
         "en": "20% reduced Attack Speed"
     },
     {
@@ -53596,12 +52191,12 @@
     },
     {
         "id": "mod_3455",
-        "zh": "攻击速度降低 20%\n使用该武器攻击有 20% 的几率造成双倍伤害",
+        "zh": "攻击速度减慢 20%\n使用该武器攻击有 20% 的几率造成双倍伤害",
         "en": "20% reduced Attack Speed\nAttacks with this Weapon have 20% chance to deal Double Damage"
     },
     {
         "id": "mod_3455",
-        "zh": "攻击速度降低 20%",
+        "zh": "攻击速度减慢 20%",
         "en": "20% reduced Attack Speed"
     },
     {
@@ -53611,12 +52206,12 @@
     },
     {
         "id": "mod_52903",
-        "zh": "攻击速度降低 20%\n使用该武器攻击有 25% 的几率造成双倍伤害",
+        "zh": "攻击速度减慢 20%\n使用该武器攻击有 25% 的几率造成双倍伤害",
         "en": "20% reduced Attack Speed\nAttacks with this Weapon have 25% chance to deal Double Damage"
     },
     {
         "id": "mod_52903",
-        "zh": "攻击速度降低 20%",
+        "zh": "攻击速度减慢 20%",
         "en": "20% reduced Attack Speed"
     },
     {
@@ -53626,12 +52221,12 @@
     },
     {
         "id": "mod_32122",
-        "zh": "攻击速度降低 50%\n攻击和法术无法被闪避",
+        "zh": "攻击速度减慢 50%\n攻击和法术无法被闪避",
         "en": "50% reduced Attack Speed\nHits can't be Evaded"
     },
     {
         "id": "mod_32122",
-        "zh": "攻击速度降低 50%",
+        "zh": "攻击速度减慢 50%",
         "en": "50% reduced Attack Speed"
     },
     {
@@ -54241,92 +52836,92 @@
     },
     {
         "id": "mod_23639",
-        "zh": "施法速度提高 18%\n全域伤害降低 10%",
+        "zh": "施法速度加快 18%\n全域伤害减慢 10%",
         "en": "18% more Cast Speed\n10% less Global Damage"
     },
     {
         "id": "mod_23639",
-        "zh": "施法速度提高 18%",
+        "zh": "施法速度加快 18%",
         "en": "18% more Cast Speed"
     },
     {
         "id": "mod_23639",
-        "zh": "全域伤害降低 10%",
+        "zh": "全域伤害减慢 10%",
         "en": "10% less Global Damage"
     },
     {
         "id": "mod_26932",
-        "zh": "施法速度提高 20%\n全域伤害降低 10%",
+        "zh": "施法速度加快 20%\n全域伤害减慢 10%",
         "en": "20% more Cast Speed\n10% less Global Damage"
     },
     {
         "id": "mod_26932",
-        "zh": "施法速度提高 20%",
+        "zh": "施法速度加快 20%",
         "en": "20% more Cast Speed"
     },
     {
         "id": "mod_26932",
-        "zh": "全域伤害降低 10%",
+        "zh": "全域伤害减慢 10%",
         "en": "10% less Global Damage"
     },
     {
         "id": "mod_15178",
-        "zh": "施法速度提高 22%\n全域伤害降低 10%",
+        "zh": "施法速度加快 22%\n全域伤害减慢 10%",
         "en": "22% more Cast Speed\n10% less Global Damage"
     },
     {
         "id": "mod_15178",
-        "zh": "施法速度提高 22%",
+        "zh": "施法速度加快 22%",
         "en": "22% more Cast Speed"
     },
     {
         "id": "mod_15178",
-        "zh": "全域伤害降低 10%",
+        "zh": "全域伤害减慢 10%",
         "en": "10% less Global Damage"
     },
     {
         "id": "mod_63401",
-        "zh": "施法速度提高 24%\n全域伤害降低 15%",
+        "zh": "施法速度加快 24%\n全域伤害减慢 15%",
         "en": "24% more Cast Speed\n15% less Global Damage"
     },
     {
         "id": "mod_63401",
-        "zh": "施法速度提高 24%",
+        "zh": "施法速度加快 24%",
         "en": "24% more Cast Speed"
     },
     {
         "id": "mod_63401",
-        "zh": "全域伤害降低 15%",
+        "zh": "全域伤害减慢 15%",
         "en": "15% less Global Damage"
     },
     {
         "id": "mod_29927",
-        "zh": "施法速度提高 27%\n全域伤害降低 15%",
+        "zh": "施法速度加快 27%\n全域伤害减慢 15%",
         "en": "27% more Cast Speed\n15% less Global Damage"
     },
     {
         "id": "mod_29927",
-        "zh": "施法速度提高 27%",
+        "zh": "施法速度加快 27%",
         "en": "27% more Cast Speed"
     },
     {
         "id": "mod_29927",
-        "zh": "全域伤害降低 15%",
+        "zh": "全域伤害减慢 15%",
         "en": "15% less Global Damage"
     },
     {
         "id": "mod_34039",
-        "zh": "施法速度提高 30%\n全域伤害降低 15%",
+        "zh": "施法速度加快 30%\n全域伤害减慢 15%",
         "en": "30% more Cast Speed\n15% less Global Damage"
     },
     {
         "id": "mod_34039",
-        "zh": "施法速度提高 30%",
+        "zh": "施法速度加快 30%",
         "en": "30% more Cast Speed"
     },
     {
         "id": "mod_34039",
-        "zh": "全域伤害降低 15%",
+        "zh": "全域伤害减慢 15%",
         "en": "15% less Global Damage"
     },
     {
@@ -54361,97 +52956,97 @@
     },
     {
         "id": "mod_36332",
-        "zh": "技能消耗提高 12%\n施法速度提高 6%",
+        "zh": "技能消耗加快 12%\n施法速度加快 6%",
         "en": "12% increased Cost of Skills\n6% more Cast Speed"
     },
     {
         "id": "mod_36332",
-        "zh": "技能消耗提高 12%",
+        "zh": "技能消耗加快 12%",
         "en": "12% increased Cost of Skills"
     },
     {
         "id": "mod_36332",
-        "zh": "施法速度提高 6%",
+        "zh": "施法速度加快 6%",
         "en": "6% more Cast Speed"
     },
     {
         "id": "mod_55569",
-        "zh": "技能消耗提高 12%\n施法速度提高 7%",
+        "zh": "技能消耗加快 12%\n施法速度加快 7%",
         "en": "12% increased Cost of Skills\n7% more Cast Speed"
     },
     {
         "id": "mod_55569",
-        "zh": "技能消耗提高 12%",
+        "zh": "技能消耗加快 12%",
         "en": "12% increased Cost of Skills"
     },
     {
         "id": "mod_55569",
-        "zh": "施法速度提高 7%",
+        "zh": "施法速度加快 7%",
         "en": "7% more Cast Speed"
     },
     {
         "id": "mod_53040",
-        "zh": "技能消耗提高 12%\n施法速度提高 8%",
+        "zh": "技能消耗加快 12%\n施法速度加快 8%",
         "en": "12% increased Cost of Skills\n8% more Cast Speed"
     },
     {
         "id": "mod_53040",
-        "zh": "技能消耗提高 12%",
+        "zh": "技能消耗加快 12%",
         "en": "12% increased Cost of Skills"
     },
     {
         "id": "mod_53040",
-        "zh": "施法速度提高 8%",
+        "zh": "施法速度加快 8%",
         "en": "8% more Cast Speed"
     },
     {
         "id": "mod_51153",
-        "zh": "技能消耗提高 20%\n施法速度提高 10%",
+        "zh": "技能消耗加快 20%\n施法速度加快 10%",
         "en": "20% increased Cost of Skills\n10% more Cast Speed"
     },
     {
         "id": "mod_51153",
-        "zh": "技能消耗提高 20%",
+        "zh": "技能消耗加快 20%",
         "en": "20% increased Cost of Skills"
     },
     {
         "id": "mod_51153",
-        "zh": "施法速度提高 10%",
+        "zh": "施法速度加快 10%",
         "en": "10% more Cast Speed"
     },
     {
         "id": "mod_15989",
-        "zh": "技能消耗提高 20%\n施法速度提高 12%",
+        "zh": "技能消耗加快 20%\n施法速度加快 12%",
         "en": "20% increased Cost of Skills\n12% more Cast Speed"
     },
     {
         "id": "mod_15989",
-        "zh": "技能消耗提高 20%",
+        "zh": "技能消耗加快 20%",
         "en": "20% increased Cost of Skills"
     },
     {
         "id": "mod_15989",
-        "zh": "施法速度提高 12%",
+        "zh": "施法速度加快 12%",
         "en": "12% more Cast Speed"
     },
     {
         "id": "mod_46240",
-        "zh": "技能消耗提高 20%\n施法速度提高 14%",
+        "zh": "技能消耗加快 20%\n施法速度加快 14%",
         "en": "20% increased Cost of Skills\n14% more Cast Speed"
     },
     {
         "id": "mod_46240",
-        "zh": "技能消耗提高 20%",
+        "zh": "技能消耗加快 20%",
         "en": "20% increased Cost of Skills"
     },
     {
         "id": "mod_46240",
-        "zh": "施法速度提高 14%",
+        "zh": "施法速度加快 14%",
         "en": "14% more Cast Speed"
     },
     {
         "id": "mod_7248",
-        "zh": "你施放的法术附加相当于该武器伤害 12% 的法术伤害\n施法速度降低 10%",
+        "zh": "你施放的法术附加相当于该武器伤害 12% 的法术伤害\n施法速度减慢 10%",
         "en": "Spells you Cast have Added Spell Damage equal to 12% of the Damage of this Weapon\n10% less Cast Speed"
     },
     {
@@ -54461,12 +53056,12 @@
     },
     {
         "id": "mod_7248",
-        "zh": "施法速度降低 10%",
+        "zh": "施法速度减慢 10%",
         "en": "10% less Cast Speed"
     },
     {
         "id": "mod_60533",
-        "zh": "你施放的法术附加相当于该武器伤害 16% 的法术伤害\n施法速度降低 10%",
+        "zh": "你施放的法术附加相当于该武器伤害 16% 的法术伤害\n施法速度减慢 10%",
         "en": "Spells you Cast have Added Spell Damage equal to 16% of the Damage of this Weapon\n10% less Cast Speed"
     },
     {
@@ -54476,12 +53071,12 @@
     },
     {
         "id": "mod_60533",
-        "zh": "施法速度降低 10%",
+        "zh": "施法速度减慢 10%",
         "en": "10% less Cast Speed"
     },
     {
         "id": "mod_22879",
-        "zh": "你施放的法术附加相当于该武器伤害 20% 的法术伤害\n施法速度降低 10%",
+        "zh": "你施放的法术附加相当于该武器伤害 20% 的法术伤害\n施法速度减慢 10%",
         "en": "Spells you Cast have Added Spell Damage equal to 20% of the Damage of this Weapon\n10% less Cast Speed"
     },
     {
@@ -54491,12 +53086,12 @@
     },
     {
         "id": "mod_22879",
-        "zh": "施法速度降低 10%",
+        "zh": "施法速度减慢 10%",
         "en": "10% less Cast Speed"
     },
     {
         "id": "mod_56322",
-        "zh": "你施放的法术附加相当于该武器伤害 20% 的法术伤害\n施法速度降低 15%",
+        "zh": "你施放的法术附加相当于该武器伤害 20% 的法术伤害\n施法速度减慢 15%",
         "en": "Spells you Cast have Added Spell Damage equal to 20% of the Damage of this Weapon\n15% less Cast Speed"
     },
     {
@@ -54506,12 +53101,12 @@
     },
     {
         "id": "mod_56322",
-        "zh": "施法速度降低 15%",
+        "zh": "施法速度减慢 15%",
         "en": "15% less Cast Speed"
     },
     {
         "id": "mod_40437",
-        "zh": "你施放的法术附加相当于该武器伤害 25% 的法术伤害\n施法速度降低 15%",
+        "zh": "你施放的法术附加相当于该武器伤害 25% 的法术伤害\n施法速度减慢 15%",
         "en": "Spells you Cast have Added Spell Damage equal to 25% of the Damage of this Weapon\n15% less Cast Speed"
     },
     {
@@ -54521,12 +53116,12 @@
     },
     {
         "id": "mod_40437",
-        "zh": "施法速度降低 15%",
+        "zh": "施法速度减慢 15%",
         "en": "15% less Cast Speed"
     },
     {
         "id": "mod_63146",
-        "zh": "你施放的法术附加相当于该武器伤害 30% 的法术伤害\n施法速度降低 15%",
+        "zh": "你施放的法术附加相当于该武器伤害 30% 的法术伤害\n施法速度减慢 15%",
         "en": "Spells you Cast have Added Spell Damage equal to 30% of the Damage of this Weapon\n15% less Cast Speed"
     },
     {
@@ -54536,12 +53131,12 @@
     },
     {
         "id": "mod_63146",
-        "zh": "施法速度降低 15%",
+        "zh": "施法速度减慢 15%",
         "en": "15% less Cast Speed"
     },
     {
         "id": "mod_37261",
-        "zh": "魔力每秒再生 1.5%\n魔力上限降低 15%",
+        "zh": "魔力每秒再生 1.5%\n魔力上限减慢 15%",
         "en": "Regenerate 1.5% of Mana per second\n15% less maximum Mana"
     },
     {
@@ -54551,12 +53146,12 @@
     },
     {
         "id": "mod_37261",
-        "zh": "魔力上限降低 15%",
+        "zh": "魔力上限减慢 15%",
         "en": "15% less maximum Mana"
     },
     {
         "id": "mod_39008",
-        "zh": "魔力每秒再生 1.8%\n魔力上限降低 15%",
+        "zh": "魔力每秒再生 1.8%\n魔力上限减慢 15%",
         "en": "Regenerate 1.8% of Mana per second\n15% less maximum Mana"
     },
     {
@@ -54566,12 +53161,12 @@
     },
     {
         "id": "mod_39008",
-        "zh": "魔力上限降低 15%",
+        "zh": "魔力上限减慢 15%",
         "en": "15% less maximum Mana"
     },
     {
         "id": "mod_62936",
-        "zh": "魔力每秒再生 2%\n魔力上限降低 15%",
+        "zh": "魔力每秒再生 2%\n魔力上限减慢 15%",
         "en": "Regenerate 2% of Mana per second\n15% less maximum Mana"
     },
     {
@@ -54581,12 +53176,12 @@
     },
     {
         "id": "mod_62936",
-        "zh": "魔力上限降低 15%",
+        "zh": "魔力上限减慢 15%",
         "en": "15% less maximum Mana"
     },
     {
         "id": "mod_20780",
-        "zh": "魔力每秒再生 2%\n魔力上限降低 25%",
+        "zh": "魔力每秒再生 2%\n魔力上限减慢 25%",
         "en": "Regenerate 2% of Mana per second\n25% less maximum Mana"
     },
     {
@@ -54596,12 +53191,12 @@
     },
     {
         "id": "mod_20780",
-        "zh": "魔力上限降低 25%",
+        "zh": "魔力上限减慢 25%",
         "en": "25% less maximum Mana"
     },
     {
         "id": "mod_30287",
-        "zh": "魔力每秒再生 2.5%\n魔力上限降低 25%",
+        "zh": "魔力每秒再生 2.5%\n魔力上限减慢 25%",
         "en": "Regenerate 2.5% of Mana per second\n25% less maximum Mana"
     },
     {
@@ -54611,12 +53206,12 @@
     },
     {
         "id": "mod_30287",
-        "zh": "魔力上限降低 25%",
+        "zh": "魔力上限减慢 25%",
         "en": "25% less maximum Mana"
     },
     {
         "id": "mod_19977",
-        "zh": "魔力每秒再生 3%\n魔力上限降低 25%",
+        "zh": "魔力每秒再生 3%\n魔力上限减慢 25%",
         "en": "Regenerate 3% of Mana per second\n25% less maximum Mana"
     },
     {
@@ -54626,7 +53221,7 @@
     },
     {
         "id": "mod_19977",
-        "zh": "魔力上限降低 25%",
+        "zh": "魔力上限减慢 25%",
         "en": "25% less maximum Mana"
     },
     {
@@ -54751,7 +53346,7 @@
     },
     {
         "id": "mod_62254",
-        "zh": "魔力每秒再生 0.2%\n魔力上限提高 5%",
+        "zh": "魔力每秒再生 0.2%\n魔力上限加快 5%",
         "en": "Regenerate 0.2% of Mana per second\n5% more maximum Mana"
     },
     {
@@ -54761,12 +53356,12 @@
     },
     {
         "id": "mod_62254",
-        "zh": "魔力上限提高 5%",
+        "zh": "魔力上限加快 5%",
         "en": "5% more maximum Mana"
     },
     {
         "id": "mod_53499",
-        "zh": "魔力每秒再生 0.3%\n魔力上限提高 5%",
+        "zh": "魔力每秒再生 0.3%\n魔力上限加快 5%",
         "en": "Regenerate 0.3% of Mana per second\n5% more maximum Mana"
     },
     {
@@ -54776,12 +53371,12 @@
     },
     {
         "id": "mod_53499",
-        "zh": "魔力上限提高 5%",
+        "zh": "魔力上限加快 5%",
         "en": "5% more maximum Mana"
     },
     {
         "id": "mod_56648",
-        "zh": "魔力每秒再生 0.4%\n魔力上限提高 5%",
+        "zh": "魔力每秒再生 0.4%\n魔力上限加快 5%",
         "en": "Regenerate 0.4% of Mana per second\n5% more maximum Mana"
     },
     {
@@ -54791,12 +53386,12 @@
     },
     {
         "id": "mod_56648",
-        "zh": "魔力上限提高 5%",
+        "zh": "魔力上限加快 5%",
         "en": "5% more maximum Mana"
     },
     {
         "id": "mod_37137",
-        "zh": "魔力每秒再生 0.5%\n魔力上限提高 8%",
+        "zh": "魔力每秒再生 0.5%\n魔力上限加快 8%",
         "en": "Regenerate 0.5% of Mana per second\n8% more maximum Mana"
     },
     {
@@ -54806,12 +53401,12 @@
     },
     {
         "id": "mod_37137",
-        "zh": "魔力上限提高 8%",
+        "zh": "魔力上限加快 8%",
         "en": "8% more maximum Mana"
     },
     {
         "id": "mod_43592",
-        "zh": "魔力每秒再生 0.6%\n魔力上限提高 8%",
+        "zh": "魔力每秒再生 0.6%\n魔力上限加快 8%",
         "en": "Regenerate 0.6% of Mana per second\n8% more maximum Mana"
     },
     {
@@ -54821,12 +53416,12 @@
     },
     {
         "id": "mod_43592",
-        "zh": "魔力上限提高 8%",
+        "zh": "魔力上限加快 8%",
         "en": "8% more maximum Mana"
     },
     {
         "id": "mod_50252",
-        "zh": "魔力每秒再生 0.7%\n魔力上限提高 8%",
+        "zh": "魔力每秒再生 0.7%\n魔力上限加快 8%",
         "en": "Regenerate 0.7% of Mana per second\n8% more maximum Mana"
     },
     {
@@ -54836,7 +53431,7 @@
     },
     {
         "id": "mod_50252",
-        "zh": "魔力上限提高 8%",
+        "zh": "魔力上限加快 8%",
         "en": "8% more maximum Mana"
     },
     {
@@ -55996,7 +54591,7 @@
     },
     {
         "id": "mod_38645",
-        "zh": "2% 法术伤害格挡几率\n魔力上限提高 5%",
+        "zh": "2% 法术伤害格挡几率\n魔力上限加快 5%",
         "en": "2% Chance to Block Spell Damage\n5% more maximum Mana"
     },
     {
@@ -56006,12 +54601,12 @@
     },
     {
         "id": "mod_38645",
-        "zh": "魔力上限提高 5%",
+        "zh": "魔力上限加快 5%",
         "en": "5% more maximum Mana"
     },
     {
         "id": "mod_27584",
-        "zh": "3% 法术伤害格挡几率\n魔力上限提高 5%",
+        "zh": "3% 法术伤害格挡几率\n魔力上限加快 5%",
         "en": "3% Chance to Block Spell Damage\n5% more maximum Mana"
     },
     {
@@ -56021,7 +54616,7 @@
     },
     {
         "id": "mod_27584",
-        "zh": "魔力上限提高 5%",
+        "zh": "魔力上限加快 5%",
         "en": "5% more maximum Mana"
     },
     {
@@ -57461,12 +56056,12 @@
     },
     {
         "id": "mod_55102",
-        "zh": "攻击速度降低 5%\n分配 巧刃",
+        "zh": "攻击速度减慢 5%\n分配 巧刃",
         "en": "5% reduced Attack Speed\nAllocates Blade of Cunning"
     },
     {
         "id": "mod_55102",
-        "zh": "攻击速度降低 5%",
+        "zh": "攻击速度减慢 5%",
         "en": "5% reduced Attack Speed"
     },
     {
@@ -57476,12 +56071,12 @@
     },
     {
         "id": "mod_64677",
-        "zh": "攻击速度降低 5%\n分配 剃刃",
+        "zh": "攻击速度减慢 5%\n分配 剃刃",
         "en": "5% reduced Attack Speed\nAllocates Razor's Edge"
     },
     {
         "id": "mod_64677",
-        "zh": "攻击速度降低 5%",
+        "zh": "攻击速度减慢 5%",
         "en": "5% reduced Attack Speed"
     },
     {
@@ -57491,12 +56086,12 @@
     },
     {
         "id": "mod_26352",
-        "zh": "攻击速度降低 5%\n分配 刀剑宗师",
+        "zh": "攻击速度减慢 5%\n分配 刀剑宗师",
         "en": "5% reduced Attack Speed\nAllocates Blade Master"
     },
     {
         "id": "mod_26352",
-        "zh": "攻击速度降低 5%",
+        "zh": "攻击速度减慢 5%",
         "en": "5% reduced Attack Speed"
     },
     {
@@ -57506,12 +56101,12 @@
     },
     {
         "id": "mod_15254",
-        "zh": "攻击速度降低 5%\n分配 剑舞者",
+        "zh": "攻击速度减慢 5%\n分配 剑舞者",
         "en": "5% reduced Attack Speed\nAllocates Bladedancer"
     },
     {
         "id": "mod_15254",
-        "zh": "攻击速度降低 5%",
+        "zh": "攻击速度减慢 5%",
         "en": "5% reduced Attack Speed"
     },
     {
@@ -57521,12 +56116,12 @@
     },
     {
         "id": "mod_11190",
-        "zh": "攻击速度降低 5%\n分配 致命之刃",
+        "zh": "攻击速度减慢 5%\n分配 致命之刃",
         "en": "5% reduced Attack Speed\nAllocates Fatal Blade"
     },
     {
         "id": "mod_11190",
-        "zh": "攻击速度降低 5%",
+        "zh": "攻击速度减慢 5%",
         "en": "5% reduced Attack Speed"
     },
     {
@@ -57536,12 +56131,12 @@
     },
     {
         "id": "mod_14008",
-        "zh": "攻击速度降低 5%\n分配 残暴之刃",
+        "zh": "攻击速度减慢 5%\n分配 残暴之刃",
         "en": "5% reduced Attack Speed\nAllocates Brutal Blade"
     },
     {
         "id": "mod_14008",
-        "zh": "攻击速度降低 5%",
+        "zh": "攻击速度减慢 5%",
         "en": "5% reduced Attack Speed"
     },
     {
@@ -57581,12 +56176,12 @@
     },
     {
         "id": "mod_32956",
-        "zh": "攻击速度降低 5%\n分配 破敌者",
+        "zh": "攻击速度减慢 5%\n分配 破敌者",
         "en": "5% reduced Attack Speed\nAllocates Feller of Foes"
     },
     {
         "id": "mod_32956",
-        "zh": "攻击速度降低 5%",
+        "zh": "攻击速度减慢 5%",
         "en": "5% reduced Attack Speed"
     },
     {
@@ -57596,12 +56191,12 @@
     },
     {
         "id": "mod_57395",
-        "zh": "攻击速度降低 5%\n分配 斧刃宗师",
+        "zh": "攻击速度减慢 5%\n分配 斧刃宗师",
         "en": "5% reduced Attack Speed\nAllocates Hatchet Master"
     },
     {
         "id": "mod_57395",
-        "zh": "攻击速度降低 5%",
+        "zh": "攻击速度减慢 5%",
         "en": "5% reduced Attack Speed"
     },
     {
@@ -57611,12 +56206,12 @@
     },
     {
         "id": "mod_13478",
-        "zh": "攻击速度降低 5%\n分配 斩敌者",
+        "zh": "攻击速度减慢 5%\n分配 斩敌者",
         "en": "5% reduced Attack Speed\nAllocates Harvester of Foes"
     },
     {
         "id": "mod_13478",
-        "zh": "攻击速度降低 5%",
+        "zh": "攻击速度减慢 5%",
         "en": "5% reduced Attack Speed"
     },
     {
@@ -57626,12 +56221,12 @@
     },
     {
         "id": "mod_55147",
-        "zh": "攻击速度降低 5%\n分配 劈砍",
+        "zh": "攻击速度减慢 5%\n分配 劈砍",
         "en": "5% reduced Attack Speed\nAllocates Cleaving"
     },
     {
         "id": "mod_55147",
-        "zh": "攻击速度降低 5%",
+        "zh": "攻击速度减慢 5%",
         "en": "5% reduced Attack Speed"
     },
     {
@@ -57641,12 +56236,12 @@
     },
     {
         "id": "mod_39346",
-        "zh": "攻击速度降低 5%\n分配 冷血",
+        "zh": "攻击速度减慢 5%\n分配 冷血",
         "en": "5% reduced Attack Speed\nAllocates Slaughter"
     },
     {
         "id": "mod_39346",
-        "zh": "攻击速度降低 5%",
+        "zh": "攻击速度减慢 5%",
         "en": "5% reduced Attack Speed"
     },
     {
@@ -57821,12 +56416,12 @@
     },
     {
         "id": "mod_65141",
-        "zh": "攻击速度降低 5%\n分配 回转死神",
+        "zh": "攻击速度减慢 5%\n分配 回转死神",
         "en": "5% reduced Attack Speed\nAllocates Poisonous Fangs"
     },
     {
         "id": "mod_65141",
-        "zh": "攻击速度降低 5%",
+        "zh": "攻击速度减慢 5%",
         "en": "5% reduced Attack Speed"
     },
     {
@@ -57836,12 +56431,12 @@
     },
     {
         "id": "mod_11983",
-        "zh": "攻击速度降低 5%\n分配 生命收割",
+        "zh": "攻击速度减慢 5%\n分配 生命收割",
         "en": "5% reduced Attack Speed\nAllocates Life Raker"
     },
     {
         "id": "mod_11983",
-        "zh": "攻击速度降低 5%",
+        "zh": "攻击速度减慢 5%",
         "en": "5% reduced Attack Speed"
     },
     {
@@ -57851,12 +56446,12 @@
     },
     {
         "id": "mod_28407",
-        "zh": "攻击速度降低 5%\n分配 鹰隼之爪",
+        "zh": "攻击速度减慢 5%\n分配 鹰隼之爪",
         "en": "5% reduced Attack Speed\nAllocates Claws of the Hawk"
     },
     {
         "id": "mod_28407",
-        "zh": "攻击速度降低 5%",
+        "zh": "攻击速度减慢 5%",
         "en": "5% reduced Attack Speed"
     },
     {
@@ -57866,12 +56461,12 @@
     },
     {
         "id": "mod_15353",
-        "zh": "攻击速度降低 5%\n分配 鹊爪",
+        "zh": "攻击速度减慢 5%\n分配 鹊爪",
         "en": "5% reduced Attack Speed\nAllocates Claws of the Magpie"
     },
     {
         "id": "mod_15353",
-        "zh": "攻击速度降低 5%",
+        "zh": "攻击速度减慢 5%",
         "en": "5% reduced Attack Speed"
     },
     {
@@ -57881,12 +56476,12 @@
     },
     {
         "id": "mod_7564",
-        "zh": "攻击速度降低 5%\n分配 猎鹰之爪",
+        "zh": "攻击速度减慢 5%\n分配 猎鹰之爪",
         "en": "5% reduced Attack Speed\nAllocates Claws of the Falcon"
     },
     {
         "id": "mod_7564",
-        "zh": "攻击速度降低 5%",
+        "zh": "攻击速度减慢 5%",
         "en": "5% reduced Attack Speed"
     },
     {
@@ -58631,62 +57226,62 @@
     },
     {
         "id": "mod_56727",
-        "zh": "投射物速度提高 25%\n投射物伤害降低 15%",
+        "zh": "投射物速度加快 25%\n投射物伤害减慢 15%",
         "en": "25% increased Projectile Speed\n15% reduced Projectile Damage"
     },
     {
         "id": "mod_56727",
-        "zh": "投射物速度提高 25%",
+        "zh": "投射物速度加快 25%",
         "en": "25% increased Projectile Speed"
     },
     {
         "id": "mod_56727",
-        "zh": "投射物伤害降低 15%",
+        "zh": "投射物伤害减慢 15%",
         "en": "15% reduced Projectile Damage"
     },
     {
         "id": "mod_7664",
-        "zh": "投射物速度提高 35%\n投射物伤害降低 15%",
+        "zh": "投射物速度加快 35%\n投射物伤害减慢 15%",
         "en": "35% increased Projectile Speed\n15% reduced Projectile Damage"
     },
     {
         "id": "mod_7664",
-        "zh": "投射物速度提高 35%",
+        "zh": "投射物速度加快 35%",
         "en": "35% increased Projectile Speed"
     },
     {
         "id": "mod_7664",
-        "zh": "投射物伤害降低 15%",
+        "zh": "投射物伤害减慢 15%",
         "en": "15% reduced Projectile Damage"
     },
     {
         "id": "mod_8711",
-        "zh": "投射物速度提高 40%\n投射物伤害降低 30%",
+        "zh": "投射物速度加快 40%\n投射物伤害减慢 30%",
         "en": "40% increased Projectile Speed\n30% reduced Projectile Damage"
     },
     {
         "id": "mod_8711",
-        "zh": "投射物速度提高 40%",
+        "zh": "投射物速度加快 40%",
         "en": "40% increased Projectile Speed"
     },
     {
         "id": "mod_8711",
-        "zh": "投射物伤害降低 30%",
+        "zh": "投射物伤害减慢 30%",
         "en": "30% reduced Projectile Damage"
     },
     {
         "id": "mod_14571",
-        "zh": "投射物速度提高 55%\n投射物伤害降低 30%",
+        "zh": "投射物速度加快 55%\n投射物伤害减慢 30%",
         "en": "55% increased Projectile Speed\n30% reduced Projectile Damage"
     },
     {
         "id": "mod_14571",
-        "zh": "投射物速度提高 55%",
+        "zh": "投射物速度加快 55%",
         "en": "55% increased Projectile Speed"
     },
     {
         "id": "mod_14571",
-        "zh": "投射物伤害降低 30%",
+        "zh": "投射物伤害减慢 30%",
         "en": "30% reduced Projectile Damage"
     },
     {
@@ -59191,72 +57786,72 @@
     },
     {
         "id": "mod_57650",
-        "zh": "移动速度降低 5%\n位移技能的冷却回复率提高 20%",
+        "zh": "移动速度减慢 5%\n位移技能的冷却回复率加快 20%",
         "en": "5% reduced Movement Speed\n20% increased Cooldown Recovery Rate of Travel Skills"
     },
     {
         "id": "mod_57650",
-        "zh": "移动速度降低 5%",
+        "zh": "移动速度减慢 5%",
         "en": "5% reduced Movement Speed"
     },
     {
         "id": "mod_57650",
-        "zh": "位移技能的冷却回复率提高 20%",
+        "zh": "位移技能的冷却回复率加快 20%",
         "en": "20% increased Cooldown Recovery Rate of Travel Skills"
     },
     {
         "id": "mod_47350",
-        "zh": "移动速度降低 5%\n位移技能的冷却回复率提高 30%",
+        "zh": "移动速度减慢 5%\n位移技能的冷却回复率加快 30%",
         "en": "5% reduced Movement Speed\n30% increased Cooldown Recovery Rate of Travel Skills"
     },
     {
         "id": "mod_47350",
-        "zh": "移动速度降低 5%",
+        "zh": "移动速度减慢 5%",
         "en": "5% reduced Movement Speed"
     },
     {
         "id": "mod_47350",
-        "zh": "位移技能的冷却回复率提高 30%",
+        "zh": "位移技能的冷却回复率加快 30%",
         "en": "30% increased Cooldown Recovery Rate of Travel Skills"
     },
     {
         "id": "mod_5636",
-        "zh": "移动速度降低 10%\n位移技能的冷却回复率提高 40%",
+        "zh": "移动速度减慢 10%\n位移技能的冷却回复率加快 40%",
         "en": "10% reduced Movement Speed\n40% increased Cooldown Recovery Rate of Travel Skills"
     },
     {
         "id": "mod_5636",
-        "zh": "移动速度降低 10%",
+        "zh": "移动速度减慢 10%",
         "en": "10% reduced Movement Speed"
     },
     {
         "id": "mod_5636",
-        "zh": "位移技能的冷却回复率提高 40%",
+        "zh": "位移技能的冷却回复率加快 40%",
         "en": "40% increased Cooldown Recovery Rate of Travel Skills"
     },
     {
         "id": "mod_13587",
-        "zh": "移动速度降低 10%\n位移技能的冷却回复率提高 60%",
+        "zh": "移动速度减慢 10%\n位移技能的冷却回复率加快 60%",
         "en": "10% reduced Movement Speed\n60% increased Cooldown Recovery Rate of Travel Skills"
     },
     {
         "id": "mod_13587",
-        "zh": "移动速度降低 10%",
+        "zh": "移动速度减慢 10%",
         "en": "10% reduced Movement Speed"
     },
     {
         "id": "mod_13587",
-        "zh": "位移技能的冷却回复率提高 60%",
+        "zh": "位移技能的冷却回复率加快 60%",
         "en": "60% increased Cooldown Recovery Rate of Travel Skills"
     },
     {
         "id": "mod_8907",
-        "zh": "移动速度提高 8%\n你的旅行技能被禁用",
+        "zh": "移动速度加快 8%\n你的旅行技能被禁用",
         "en": "8% increased Movement Speed\nYour Travel Skills are Disabled"
     },
     {
         "id": "mod_8907",
-        "zh": "移动速度提高 8%",
+        "zh": "移动速度加快 8%",
         "en": "8% increased Movement Speed"
     },
     {
@@ -59266,12 +57861,12 @@
     },
     {
         "id": "mod_13677",
-        "zh": "移动速度提高 12%\n你的旅行技能被禁用",
+        "zh": "移动速度加快 12%\n你的旅行技能被禁用",
         "en": "12% increased Movement Speed\nYour Travel Skills are Disabled"
     },
     {
         "id": "mod_13677",
-        "zh": "移动速度提高 12%",
+        "zh": "移动速度加快 12%",
         "en": "12% increased Movement Speed"
     },
     {
@@ -59281,12 +57876,12 @@
     },
     {
         "id": "mod_36100",
-        "zh": "移动速度提高 14%\n你的旅行技能被禁用",
+        "zh": "移动速度加快 14%\n你的旅行技能被禁用",
         "en": "14% increased Movement Speed\nYour Travel Skills are Disabled"
     },
     {
         "id": "mod_36100",
-        "zh": "移动速度提高 14%",
+        "zh": "移动速度加快 14%",
         "en": "14% increased Movement Speed"
     },
     {
@@ -59296,12 +57891,12 @@
     },
     {
         "id": "mod_65064",
-        "zh": "移动速度提高 18%\n你的旅行技能被禁用",
+        "zh": "移动速度加快 18%\n你的旅行技能被禁用",
         "en": "18% increased Movement Speed\nYour Travel Skills are Disabled"
     },
     {
         "id": "mod_65064",
-        "zh": "移动速度提高 18%",
+        "zh": "移动速度加快 18%",
         "en": "18% increased Movement Speed"
     },
     {
@@ -59821,7 +58416,7 @@
     },
     {
         "id": "mod_14934",
-        "zh": "技能效果持续时间延长 15%\n冷却回复速度降低 10%",
+        "zh": "技能效果持续时间延长 15%\n冷却回复速度减慢 10%",
         "en": "15% increased Skill Effect Duration\n10% reduced Cooldown Recovery Rate"
     },
     {
@@ -59831,12 +58426,12 @@
     },
     {
         "id": "mod_14934",
-        "zh": "冷却回复速度降低 10%",
+        "zh": "冷却回复速度减慢 10%",
         "en": "10% reduced Cooldown Recovery Rate"
     },
     {
         "id": "mod_13267",
-        "zh": "技能效果持续时间延长 20%\n冷却回复速度降低 10%",
+        "zh": "技能效果持续时间延长 20%\n冷却回复速度减慢 10%",
         "en": "20% increased Skill Effect Duration\n10% reduced Cooldown Recovery Rate"
     },
     {
@@ -59846,12 +58441,12 @@
     },
     {
         "id": "mod_13267",
-        "zh": "冷却回复速度降低 10%",
+        "zh": "冷却回复速度减慢 10%",
         "en": "10% reduced Cooldown Recovery Rate"
     },
     {
         "id": "mod_12659",
-        "zh": "技能效果持续时间延长 30%\n冷却回复速度降低 20%",
+        "zh": "技能效果持续时间延长 30%\n冷却回复速度减慢 20%",
         "en": "30% increased Skill Effect Duration\n20% reduced Cooldown Recovery Rate"
     },
     {
@@ -59861,12 +58456,12 @@
     },
     {
         "id": "mod_12659",
-        "zh": "冷却回复速度降低 20%",
+        "zh": "冷却回复速度减慢 20%",
         "en": "20% reduced Cooldown Recovery Rate"
     },
     {
         "id": "mod_57477",
-        "zh": "技能效果持续时间延长 40%\n冷却回复速度降低 20%",
+        "zh": "技能效果持续时间延长 40%\n冷却回复速度减慢 20%",
         "en": "40% increased Skill Effect Duration\n20% reduced Cooldown Recovery Rate"
     },
     {
@@ -59876,12 +58471,12 @@
     },
     {
         "id": "mod_57477",
-        "zh": "冷却回复速度降低 20%",
+        "zh": "冷却回复速度减慢 20%",
         "en": "20% reduced Cooldown Recovery Rate"
     },
     {
         "id": "mod_31146",
-        "zh": "技能效果持续时间缩短 10%\n冷却回复速度提高 10%",
+        "zh": "技能效果持续时间缩短 10%\n冷却回复速度加快 10%",
         "en": "10% reduced Skill Effect Duration\n10% increased Cooldown Recovery Rate"
     },
     {
@@ -59891,12 +58486,12 @@
     },
     {
         "id": "mod_31146",
-        "zh": "冷却回复速度提高 10%",
+        "zh": "冷却回复速度加快 10%",
         "en": "10% increased Cooldown Recovery Rate"
     },
     {
         "id": "mod_58058",
-        "zh": "技能效果持续时间缩短 10%\n冷却回复速度提高 15%",
+        "zh": "技能效果持续时间缩短 10%\n冷却回复速度加快 15%",
         "en": "10% reduced Skill Effect Duration\n15% increased Cooldown Recovery Rate"
     },
     {
@@ -59906,12 +58501,12 @@
     },
     {
         "id": "mod_58058",
-        "zh": "冷却回复速度提高 15%",
+        "zh": "冷却回复速度加快 15%",
         "en": "15% increased Cooldown Recovery Rate"
     },
     {
         "id": "mod_13068",
-        "zh": "技能效果持续时间缩短 10%\n冷却回复速度提高 20%",
+        "zh": "技能效果持续时间缩短 10%\n冷却回复速度加快 20%",
         "en": "10% reduced Skill Effect Duration\n20% increased Cooldown Recovery Rate"
     },
     {
@@ -59921,12 +58516,12 @@
     },
     {
         "id": "mod_13068",
-        "zh": "冷却回复速度提高 20%",
+        "zh": "冷却回复速度加快 20%",
         "en": "20% increased Cooldown Recovery Rate"
     },
     {
         "id": "mod_58671",
-        "zh": "技能效果持续时间缩短 10%\n冷却回复速度提高 25%",
+        "zh": "技能效果持续时间缩短 10%\n冷却回复速度加快 25%",
         "en": "10% reduced Skill Effect Duration\n25% increased Cooldown Recovery Rate"
     },
     {
@@ -59936,7 +58531,7 @@
     },
     {
         "id": "mod_58671",
-        "zh": "冷却回复速度提高 25%",
+        "zh": "冷却回复速度加快 25%",
         "en": "25% increased Cooldown Recovery Rate"
     },
     {
@@ -60371,7 +58966,7 @@
     },
     {
         "id": "mod_33321",
-        "zh": "陷阱触发范围缩小 40%\n陷阱投掷速度提高 12%",
+        "zh": "陷阱触发范围缩小 40%\n陷阱投掷速度加快 12%",
         "en": "40% reduced Trap Trigger Area of Effect\n12% increased Trap Throwing Speed"
     },
     {
@@ -60381,12 +58976,12 @@
     },
     {
         "id": "mod_33321",
-        "zh": "陷阱投掷速度提高 12%",
+        "zh": "陷阱投掷速度加快 12%",
         "en": "12% increased Trap Throwing Speed"
     },
     {
         "id": "mod_59272",
-        "zh": "陷阱触发范围缩小 40%\n陷阱投掷速度提高 16%",
+        "zh": "陷阱触发范围缩小 40%\n陷阱投掷速度加快 16%",
         "en": "40% reduced Trap Trigger Area of Effect\n16% increased Trap Throwing Speed"
     },
     {
@@ -60396,12 +58991,12 @@
     },
     {
         "id": "mod_59272",
-        "zh": "陷阱投掷速度提高 16%",
+        "zh": "陷阱投掷速度加快 16%",
         "en": "16% increased Trap Throwing Speed"
     },
     {
         "id": "mod_55819",
-        "zh": "陷阱触发范围缩小 60%\n陷阱投掷速度提高 18%",
+        "zh": "陷阱触发范围缩小 60%\n陷阱投掷速度加快 18%",
         "en": "60% reduced Trap Trigger Area of Effect\n18% increased Trap Throwing Speed"
     },
     {
@@ -60411,12 +59006,12 @@
     },
     {
         "id": "mod_55819",
-        "zh": "陷阱投掷速度提高 18%",
+        "zh": "陷阱投掷速度加快 18%",
         "en": "18% increased Trap Throwing Speed"
     },
     {
         "id": "mod_24408",
-        "zh": "陷阱触发范围缩小 60%\n陷阱投掷速度提高 25%",
+        "zh": "陷阱触发范围缩小 60%\n陷阱投掷速度加快 25%",
         "en": "60% reduced Trap Trigger Area of Effect\n25% increased Trap Throwing Speed"
     },
     {
@@ -60426,7 +59021,7 @@
     },
     {
         "id": "mod_24408",
-        "zh": "陷阱投掷速度提高 25%",
+        "zh": "陷阱投掷速度加快 25%",
         "en": "25% increased Trap Throwing Speed"
     },
     {
@@ -60521,12 +59116,12 @@
     },
     {
         "id": "mod_55709",
-        "zh": "【烙印召回】冷却回复速度降低 40%\n烙印的附着范围扩大 40%",
+        "zh": "【烙印召回】冷却回复速度减慢 40%\n烙印的附着范围扩大 40%",
         "en": "Brand Recall has 40% reduced Cooldown Recovery Rate\n40% increased Brand Attachment range"
     },
     {
         "id": "mod_55709",
-        "zh": "【烙印召回】冷却回复速度降低 40%",
+        "zh": "【烙印召回】冷却回复速度减慢 40%",
         "en": "Brand Recall has 40% reduced Cooldown Recovery Rate"
     },
     {
@@ -60536,12 +59131,12 @@
     },
     {
         "id": "mod_30416",
-        "zh": "【烙印召回】冷却回复速度降低 40%\n烙印的附着范围扩大 60%",
+        "zh": "【烙印召回】冷却回复速度减慢 40%\n烙印的附着范围扩大 60%",
         "en": "Brand Recall has 40% reduced Cooldown Recovery Rate\n60% increased Brand Attachment range"
     },
     {
         "id": "mod_30416",
-        "zh": "【烙印召回】冷却回复速度降低 40%",
+        "zh": "【烙印召回】冷却回复速度减慢 40%",
         "en": "Brand Recall has 40% reduced Cooldown Recovery Rate"
     },
     {
@@ -60551,12 +59146,12 @@
     },
     {
         "id": "mod_21875",
-        "zh": "【烙印召回】冷却回复速度降低 60%\n烙印的附着范围扩大 75%",
+        "zh": "【烙印召回】冷却回复速度减慢 60%\n烙印的附着范围扩大 75%",
         "en": "Brand Recall has 60% reduced Cooldown Recovery Rate\n75% increased Brand Attachment range"
     },
     {
         "id": "mod_21875",
-        "zh": "【烙印召回】冷却回复速度降低 60%",
+        "zh": "【烙印召回】冷却回复速度减慢 60%",
         "en": "Brand Recall has 60% reduced Cooldown Recovery Rate"
     },
     {
@@ -60566,12 +59161,12 @@
     },
     {
         "id": "mod_2129",
-        "zh": "【烙印召回】冷却回复速度降低 60%\n烙印的附着范围扩大 100%",
+        "zh": "【烙印召回】冷却回复速度减慢 60%\n烙印的附着范围扩大 100%",
         "en": "Brand Recall has 60% reduced Cooldown Recovery Rate\n100% increased Brand Attachment range"
     },
     {
         "id": "mod_2129",
-        "zh": "【烙印召回】冷却回复速度降低 60%",
+        "zh": "【烙印召回】冷却回复速度减慢 60%",
         "en": "Brand Recall has 60% reduced Cooldown Recovery Rate"
     },
     {
@@ -60581,12 +59176,12 @@
     },
     {
         "id": "mod_10733",
-        "zh": "图腾放置速度提高 -15%\n可以召唤图腾的技能有 25% 的几率召唤两个图腾",
+        "zh": "图腾放置速度加快 -15%\n可以召唤图腾的技能有 25% 的几率召唤两个图腾",
         "en": "15% reduced Totem Placement speed\nSkills that would Summon a Totem have 25% chance to Summon two Totems instead"
     },
     {
         "id": "mod_10733",
-        "zh": "图腾放置速度提高 -15%",
+        "zh": "图腾放置速度加快 -15%",
         "en": "15% reduced Totem Placement speed"
     },
     {
@@ -60596,12 +59191,12 @@
     },
     {
         "id": "mod_29042",
-        "zh": "图腾放置速度提高 -15%\n可以召唤图腾的技能有 40% 的几率召唤两个图腾",
+        "zh": "图腾放置速度加快 -15%\n可以召唤图腾的技能有 40% 的几率召唤两个图腾",
         "en": "15% reduced Totem Placement speed\nSkills that would Summon a Totem have 40% chance to Summon two Totems instead"
     },
     {
         "id": "mod_29042",
-        "zh": "图腾放置速度提高 -15%",
+        "zh": "图腾放置速度加快 -15%",
         "en": "15% reduced Totem Placement speed"
     },
     {
@@ -60611,12 +59206,12 @@
     },
     {
         "id": "mod_13996",
-        "zh": "图腾放置速度提高 -25%\n可以召唤图腾的技能有 50% 的几率召唤两个图腾",
+        "zh": "图腾放置速度加快 -25%\n可以召唤图腾的技能有 50% 的几率召唤两个图腾",
         "en": "25% reduced Totem Placement speed\nSkills that would Summon a Totem have 50% chance to Summon two Totems instead"
     },
     {
         "id": "mod_13996",
-        "zh": "图腾放置速度提高 -25%",
+        "zh": "图腾放置速度加快 -25%",
         "en": "25% reduced Totem Placement speed"
     },
     {
@@ -60626,12 +59221,12 @@
     },
     {
         "id": "mod_21957",
-        "zh": "图腾放置速度提高 -25%\n可以召唤图腾的技能有 70% 的几率召唤两个图腾",
+        "zh": "图腾放置速度加快 -25%\n可以召唤图腾的技能有 70% 的几率召唤两个图腾",
         "en": "25% reduced Totem Placement speed\nSkills that would Summon a Totem have 70% chance to Summon two Totems instead"
     },
     {
         "id": "mod_21957",
-        "zh": "图腾放置速度提高 -25%",
+        "zh": "图腾放置速度加快 -25%",
         "en": "25% reduced Totem Placement speed"
     },
     {
@@ -62621,12 +61216,12 @@
     },
     {
         "id": "mod_30545",
-        "zh": "每个狂怒球可使移动速度提高 4%\n狂怒球数量上限 -1",
+        "zh": "每个狂怒球可使移动速度加快 4%\n狂怒球数量上限 -1",
         "en": "4% increased Movement Speed per Frenzy Charge\n-1 to Maximum Frenzy Charges"
     },
     {
         "id": "mod_30545",
-        "zh": "每个狂怒球可使移动速度提高 4%",
+        "zh": "每个狂怒球可使移动速度加快 4%",
         "en": "4% increased Movement Speed per Frenzy Charge"
     },
     {
@@ -62636,12 +61231,12 @@
     },
     {
         "id": "mod_26796",
-        "zh": "每个狂怒球可使移动速度提高 6%\n狂怒球数量上限 -1",
+        "zh": "每个狂怒球可使移动速度加快 6%\n狂怒球数量上限 -1",
         "en": "6% increased Movement Speed per Frenzy Charge\n-1 to Maximum Frenzy Charges"
     },
     {
         "id": "mod_26796",
-        "zh": "每个狂怒球可使移动速度提高 6%",
+        "zh": "每个狂怒球可使移动速度加快 6%",
         "en": "6% increased Movement Speed per Frenzy Charge"
     },
     {
@@ -65236,12 +63831,12 @@
     },
     {
         "id": "mod_4513",
-        "zh": "防卫技能的冷却回复速度提高 60%\n防卫技能的持续时间缩短 50%",
+        "zh": "防卫技能的冷却回复速度加快 60%\n防卫技能的持续时间缩短 50%",
         "en": "Guard Skills have 60% increased Cooldown Recovery Rate\nGuard Skills have 50% reduced Duration"
     },
     {
         "id": "mod_4513",
-        "zh": "防卫技能的冷却回复速度提高 60%",
+        "zh": "防卫技能的冷却回复速度加快 60%",
         "en": "Guard Skills have 60% increased Cooldown Recovery Rate"
     },
     {
@@ -65251,12 +63846,12 @@
     },
     {
         "id": "mod_34164",
-        "zh": "防卫技能的冷却回复速度提高 80%\n防卫技能的持续时间缩短 50%",
+        "zh": "防卫技能的冷却回复速度加快 80%\n防卫技能的持续时间缩短 50%",
         "en": "Guard Skills have 80% increased Cooldown Recovery Rate\nGuard Skills have 50% reduced Duration"
     },
     {
         "id": "mod_34164",
-        "zh": "防卫技能的冷却回复速度提高 80%",
+        "zh": "防卫技能的冷却回复速度加快 80%",
         "en": "Guard Skills have 80% increased Cooldown Recovery Rate"
     },
     {
@@ -65286,32 +63881,32 @@
     },
     {
         "id": "mod_11043",
-        "zh": "你的反击的冷却回复率降低 30%\n你的反击造成的伤害提高 45%",
+        "zh": "你的反击的冷却回复率减慢 30%\n你的反击造成的伤害加快 45%",
         "en": "Your Counterattacks have 30% reduced Cooldown Recovery Rate\nYour Counterattacks deal 45% more Damage"
     },
     {
         "id": "mod_11043",
-        "zh": "你的反击的冷却回复率降低 30%",
+        "zh": "你的反击的冷却回复率减慢 30%",
         "en": "Your Counterattacks have 30% reduced Cooldown Recovery Rate"
     },
     {
         "id": "mod_11043",
-        "zh": "你的反击造成的伤害提高 45%",
+        "zh": "你的反击造成的伤害加快 45%",
         "en": "Your Counterattacks deal 45% more Damage"
     },
     {
         "id": "mod_48221",
-        "zh": "你的反击的冷却回复率降低 30%\n你的反击造成的伤害提高 60%",
+        "zh": "你的反击的冷却回复率减慢 30%\n你的反击造成的伤害加快 60%",
         "en": "Your Counterattacks have 30% reduced Cooldown Recovery Rate\nYour Counterattacks deal 60% more Damage"
     },
     {
         "id": "mod_48221",
-        "zh": "你的反击的冷却回复率降低 30%",
+        "zh": "你的反击的冷却回复率减慢 30%",
         "en": "Your Counterattacks have 30% reduced Cooldown Recovery Rate"
     },
     {
         "id": "mod_48221",
-        "zh": "你的反击造成的伤害提高 60%",
+        "zh": "你的反击造成的伤害加快 60%",
         "en": "Your Counterattacks deal 60% more Damage"
     },
     {
@@ -66706,12 +65301,12 @@
     },
     {
         "id": "mod_17021",
-        "zh": "召唤生物的移动速度降低 10%\n击败敌人时，召唤生物有 10% 的几率获得 4 秒【猛攻】状态",
+        "zh": "召唤生物的移动速度减慢 10%\n击败敌人时，召唤生物有 10% 的几率获得 4 秒【猛攻】状态",
         "en": "Minions have 10% reduced Movement Speed\nMinions have 10% chance to gain Onslaught for 4 seconds on Kill"
     },
     {
         "id": "mod_17021",
-        "zh": "召唤生物的移动速度降低 10%",
+        "zh": "召唤生物的移动速度减慢 10%",
         "en": "Minions have 10% reduced Movement Speed"
     },
     {
@@ -66721,12 +65316,12 @@
     },
     {
         "id": "mod_35882",
-        "zh": "召唤生物的移动速度降低 10%\n击败敌人时，召唤生物有 15% 的几率获得 4 秒【猛攻】状态",
+        "zh": "召唤生物的移动速度减慢 10%\n击败敌人时，召唤生物有 15% 的几率获得 4 秒【猛攻】状态",
         "en": "Minions have 10% reduced Movement Speed\nMinions have 15% chance to gain Onslaught for 4 seconds on Kill"
     },
     {
         "id": "mod_35882",
-        "zh": "召唤生物的移动速度降低 10%",
+        "zh": "召唤生物的移动速度减慢 10%",
         "en": "Minions have 10% reduced Movement Speed"
     },
     {
@@ -66736,12 +65331,12 @@
     },
     {
         "id": "mod_63110",
-        "zh": "召唤生物的移动速度降低 10%\n击败敌人时，召唤生物有 20% 的几率获得 4 秒【猛攻】状态",
+        "zh": "召唤生物的移动速度减慢 10%\n击败敌人时，召唤生物有 20% 的几率获得 4 秒【猛攻】状态",
         "en": "Minions have 10% reduced Movement Speed\nMinions have 20% chance to gain Onslaught for 4 seconds on Kill"
     },
     {
         "id": "mod_63110",
-        "zh": "召唤生物的移动速度降低 10%",
+        "zh": "召唤生物的移动速度减慢 10%",
         "en": "Minions have 10% reduced Movement Speed"
     },
     {
@@ -66751,12 +65346,12 @@
     },
     {
         "id": "mod_8656",
-        "zh": "召唤生物的移动速度降低 10%\n击败敌人时，召唤生物有 30% 的几率获得 4 秒【猛攻】状态",
+        "zh": "召唤生物的移动速度减慢 10%\n击败敌人时，召唤生物有 30% 的几率获得 4 秒【猛攻】状态",
         "en": "Minions have 10% reduced Movement Speed\nMinions have 30% chance to gain Onslaught for 4 seconds on Kill"
     },
     {
         "id": "mod_8656",
-        "zh": "召唤生物的移动速度降低 10%",
+        "zh": "召唤生物的移动速度减慢 10%",
         "en": "Minions have 10% reduced Movement Speed"
     },
     {
@@ -67851,22 +66446,22 @@
     },
     {
         "id": "mod_30149",
-        "zh": "每个召唤图腾上限使攻城炮台和散射弩炮的攻击速度提高 50%\n每个散射弩炮图腾使散射弩炮的攻击速度降低 45%\n每个攻城炮台图腾使攻城炮台的攻击速度降低 45%",
+        "zh": "每个召唤图腾上限使攻城炮台和散射弩炮的攻击速度加快 50%\n每个散射弩炮图腾使散射弩炮的攻击速度减慢 45%\n每个攻城炮台图腾使攻城炮台的攻击速度减慢 45%",
         "en": "50% increased Siege and Shrapnel Ballista attack speed per maximum Summoned Totem\n45% reduced Shrapnel Ballista attack speed per Shrapnel Ballista Totem\n45% reduced Siege Ballista attack speed per Siege Ballista Totem"
     },
     {
         "id": "mod_30149",
-        "zh": "每个召唤图腾上限使攻城炮台和散射弩炮的攻击速度提高 50%",
+        "zh": "每个召唤图腾上限使攻城炮台和散射弩炮的攻击速度加快 50%",
         "en": "50% increased Siege and Shrapnel Ballista attack speed per maximum Summoned Totem"
     },
     {
         "id": "mod_30149",
-        "zh": "每个散射弩炮图腾使散射弩炮的攻击速度降低 45%",
+        "zh": "每个散射弩炮图腾使散射弩炮的攻击速度减慢 45%",
         "en": "45% reduced Shrapnel Ballista attack speed per Shrapnel Ballista Totem"
     },
     {
         "id": "mod_30149",
-        "zh": "每个攻城炮台图腾使攻城炮台的攻击速度降低 45%",
+        "zh": "每个攻城炮台图腾使攻城炮台的攻击速度减慢 45%",
         "en": "45% reduced Siege Ballista attack speed per Siege Ballista Totem"
     },
     {
@@ -67916,12 +66511,12 @@
     },
     {
         "id": "mod_49661",
-        "zh": "箭雨和毒雨造成的流血伤害提高 300%\n毒雨造成物理伤害的 -60% 转换为混沌伤害",
+        "zh": "箭雨和毒雨造成的流血伤害加快 300%\n毒雨造成物理伤害的 -60% 转换为混沌伤害",
         "en": "Rain of Arrows and Toxic Rain deal 300% more Damage with Bleeding\n-60% of Toxic Rain Physical Damage Converted to Chaos Damage"
     },
     {
         "id": "mod_49661",
-        "zh": "箭雨和毒雨造成的流血伤害提高 300%",
+        "zh": "箭雨和毒雨造成的流血伤害加快 300%",
         "en": "Rain of Arrows and Toxic Rain deal 300% more Damage with Bleeding"
     },
     {
@@ -68161,7 +66756,7 @@
     },
     {
         "id": "mod_16687",
-        "zh": "灵幻旋斩或灵体投掷的每枚投射物的投射物速度\n在提高 40% 或降低 40% 之间随机浮动",
+        "zh": "灵幻旋斩或灵体投掷的每枚投射物的投射物速度\n在加快 40% 或减慢 40% 之间随机浮动",
         "en": "Each Projectile from Spectral Helix or Spectral Throw has\nbetween 40% more and 40% less Projectile Speed at random"
     },
     {
@@ -68171,12 +66766,12 @@
     },
     {
         "id": "mod_16687",
-        "zh": "在提高 40% 或降低 40% 之间随机浮动",
+        "zh": "在加快 40% 或减慢 40% 之间随机浮动",
         "en": "between 40% more and 40% less Projectile Speed at random"
     },
     {
         "id": "mod_16468",
-        "zh": "灵幻旋斩或灵体投掷的每枚投射物的投射物速度\n在提高 75% 或降低 75% 之间随机浮动",
+        "zh": "灵幻旋斩或灵体投掷的每枚投射物的投射物速度\n在加快 75% 或减慢 75% 之间随机浮动",
         "en": "Each Projectile from Spectral Helix or Spectral Throw has\nbetween 75% more and 75% less Projectile Speed at random"
     },
     {
@@ -68186,7 +66781,7 @@
     },
     {
         "id": "mod_16468",
-        "zh": "在提高 75% 或降低 75% 之间随机浮动",
+        "zh": "在加快 75% 或减慢 75% 之间随机浮动",
         "en": "between 75% more and 75% less Projectile Speed at random"
     },
     {
@@ -68211,17 +66806,17 @@
     },
     {
         "id": "mod_292",
-        "zh": "冰封军团和将军之吼的冷却回复率提高 100%\n冰封横扫造成的伤害降低 30%\n【将军之吼】 -2 蜃影武士数量上限",
+        "zh": "冰封军团和将军之吼的冷却回复率加快 100%\n冰封横扫造成的伤害减慢 30%\n【将军之吼】 -2 蜃影武士数量上限",
         "en": "100% more Frozen Legion and General's Cry Cooldown Recovery Rate\nFrozen Sweep deals 30% less Damage\nGeneral's Cry has -2 to maximum number of Mirage Warriors"
     },
     {
         "id": "mod_292",
-        "zh": "冰封军团和将军之吼的冷却回复率提高 100%",
+        "zh": "冰封军团和将军之吼的冷却回复率加快 100%",
         "en": "100% more Frozen Legion and General's Cry Cooldown Recovery Rate"
     },
     {
         "id": "mod_292",
-        "zh": "冰封横扫造成的伤害降低 30%",
+        "zh": "冰封横扫造成的伤害减慢 30%",
         "en": "Frozen Sweep deals 30% less Damage"
     },
     {
@@ -68296,12 +66891,12 @@
     },
     {
         "id": "mod_42442",
-        "zh": "火球和熔岩奔涌的效果范围提高 100%\n投射物数量词缀对火球和熔岩奔涌不生效",
+        "zh": "火球和熔岩奔涌的效果范围加快 100%\n投射物数量词缀对火球和熔岩奔涌不生效",
         "en": "Fireball and Rolling Magma have 100% more Area of Effect\nModifiers to number of Projectiles do not apply to Fireball and Rolling Magma"
     },
     {
         "id": "mod_42442",
-        "zh": "火球和熔岩奔涌的效果范围提高 100%",
+        "zh": "火球和熔岩奔涌的效果范围加快 100%",
         "en": "Fireball and Rolling Magma have 100% more Area of Effect"
     },
     {
@@ -68311,12 +66906,12 @@
     },
     {
         "id": "mod_26179",
-        "zh": "火球和熔岩奔涌的效果范围提高 200%\n投射物数量词缀对火球和熔岩奔涌不生效",
+        "zh": "火球和熔岩奔涌的效果范围加快 200%\n投射物数量词缀对火球和熔岩奔涌不生效",
         "en": "Fireball and Rolling Magma have 200% more Area of Effect\nModifiers to number of Projectiles do not apply to Fireball and Rolling Magma"
     },
     {
         "id": "mod_26179",
-        "zh": "火球和熔岩奔涌的效果范围提高 200%",
+        "zh": "火球和熔岩奔涌的效果范围加快 200%",
         "en": "Fireball and Rolling Magma have 200% more Area of Effect"
     },
     {
@@ -68451,12 +67046,12 @@
     },
     {
         "id": "mod_55980",
-        "zh": "缚魔电殛和缚雷之纹对敌人造成相当于提高 200% 伤害的冻结效果\n缚魔电殛和缚雷之纹 50% 的闪电伤害转换为冰霜伤害",
+        "zh": "缚魔电殛和缚雷之纹对敌人造成相当于加快 200% 伤害的冻结效果\n缚魔电殛和缚雷之纹 50% 的闪电伤害转换为冰霜伤害",
         "en": "Manabond and Stormbind Freeze enemies as though dealing 200% more Damage\n50% of Manabond and Stormbind Lightning Damage Converted to Cold Damage"
     },
     {
         "id": "mod_55980",
-        "zh": "缚魔电殛和缚雷之纹对敌人造成相当于提高 200% 伤害的冻结效果",
+        "zh": "缚魔电殛和缚雷之纹对敌人造成相当于加快 200% 伤害的冻结效果",
         "en": "Manabond and Stormbind Freeze enemies as though dealing 200% more Damage"
     },
     {
@@ -68466,12 +67061,12 @@
     },
     {
         "id": "mod_33472",
-        "zh": "缚魔电殛和缚雷之纹对敌人造成相当于提高 300% 伤害的冻结效果\n缚魔电殛和缚雷之纹 100% 的闪电伤害转换为冰霜伤害",
+        "zh": "缚魔电殛和缚雷之纹对敌人造成相当于加快 300% 伤害的冻结效果\n缚魔电殛和缚雷之纹 100% 的闪电伤害转换为冰霜伤害",
         "en": "Manabond and Stormbind Freeze enemies as though dealing 300% more Damage\n100% of Manabond and Stormbind Lightning Damage Converted to Cold Damage"
     },
     {
         "id": "mod_33472",
-        "zh": "缚魔电殛和缚雷之纹对敌人造成相当于提高 300% 伤害的冻结效果",
+        "zh": "缚魔电殛和缚雷之纹对敌人造成相当于加快 300% 伤害的冻结效果",
         "en": "Manabond and Stormbind Freeze enemies as though dealing 300% more Damage"
     },
     {
@@ -68571,12 +67166,12 @@
     },
     {
         "id": "mod_101",
-        "zh": "灵魂吸取和裂魂术的投射物速度降低 25%\n灵魂吸取和裂魂术额外发射 2 个投射物",
+        "zh": "灵魂吸取和裂魂术的投射物速度减慢 25%\n灵魂吸取和裂魂术额外发射 2 个投射物",
         "en": "25% reduced Essence Drain and Soulrend Projectile Speed\nEssence Drain and Soulrend fire 2 additional Projectiles"
     },
     {
         "id": "mod_101",
-        "zh": "灵魂吸取和裂魂术的投射物速度降低 25%",
+        "zh": "灵魂吸取和裂魂术的投射物速度减慢 25%",
         "en": "25% reduced Essence Drain and Soulrend Projectile Speed"
     },
     {
@@ -68586,12 +67181,12 @@
     },
     {
         "id": "mod_33893",
-        "zh": "灵魂吸取和裂魂术的投射物速度降低 50%\n灵魂吸取和裂魂术额外发射 4 个投射物",
+        "zh": "灵魂吸取和裂魂术的投射物速度减慢 50%\n灵魂吸取和裂魂术额外发射 4 个投射物",
         "en": "50% reduced Essence Drain and Soulrend Projectile Speed\nEssence Drain and Soulrend fire 4 additional Projectiles"
     },
     {
         "id": "mod_33893",
-        "zh": "灵魂吸取和裂魂术的投射物速度降低 50%",
+        "zh": "灵魂吸取和裂魂术的投射物速度减慢 50%",
         "en": "50% reduced Essence Drain and Soulrend Projectile Speed"
     },
     {
@@ -69783,5 +68378,15 @@
         "id": "stat_1436051850",
         "zh": "有一个异界图鉴最终首领出现在你面前：你施加的冻结会扩散给范围 {0} 内的其它敌人",
         "en": "While a Pinnacle Atlas Boss is in your Presence, Freezes you inflict spread to other Enemies within a Radius of {0}"
+    },
+    {
+        "id": "stat_865273657",
+        "zh": "你使用的非传奇药剂作用于你羁绊的目标",
+        "en": "Non-Unique Utility Flasks you Use apply to Linked Targets"
+    },
+    {
+        "id": "stat_3865186586",
+        "zh": "怪物的冻结时间提高 {0}%",
+        "en": "Monsters have {0}% increased Freeze Duration"
     }
 ]
