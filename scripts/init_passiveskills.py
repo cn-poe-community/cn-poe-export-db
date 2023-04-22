@@ -101,9 +101,14 @@ def init_ascendant_nodes():
 
         zh_name = node['name']
         nodes_map[id]["zh"] = zh_name
+    
+    # 目前贵族与刺客存在相同的升华天赋名称：暗影
+    # 将贵族版本改为 暗影(贵族)
+    # 详情见本项目README.md
     for id, node in enumerate(nodes_list):
         if node["en"] == "Assassin" and node["zh"] == "暗影":
             node["zh"] = "暗影(贵族)"
+            break
     nodes_list.append({"id": "18054", "zh": "自然之怒", "en": "Fury of Nature"})
     nodes_list.append({"id": "57331", "zh": "虚空掌控", "en": "Harness the Void"})
     nodes_list.append({"id": "27602", "zh": "九条命", "en": "Nine Lives"})
@@ -111,6 +116,7 @@ def init_ascendant_nodes():
     nodes_list.append({"id": "52435", "zh": "不屈坚毅",
                       "en": "Indomitable Resolve"})
     nodes_list.append({"id": "42469", "zh": "致命绽放", "en": "Fatal Flourish"})
+    nodes_list.append({"id": "19355", "zh": "释放潜能", "en": "Unleashed Potential"})
 
     with open('../src/passiveskills/ascendant.json', 'wt', encoding="utf-8") as f:
         f.write(json.dumps(nodes_list, ensure_ascii=False, indent=4))
