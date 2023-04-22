@@ -1,807 +1,807 @@
 [
     {
         "id": "38999",
-        "en": "name",
+        "en": "Flawless Savagery",
         "zh": "完美的暴行"
     },
     {
         "id": "24528",
-        "en": "name",
+        "en": "Crave the Slaughter",
         "zh": "屠戮之欲"
     },
     {
         "id": "59920",
-        "en": "name",
+        "en": "Aspect of Carnage",
         "zh": "血肉之章"
     },
     {
         "id": "29630",
-        "en": "name",
+        "en": "Blitz",
         "zh": "疾电"
     },
     {
         "id": "32251",
-        "en": "name",
+        "en": "War Bringer",
         "zh": "战争使者"
     },
     {
         "id": "57560",
-        "en": "name",
+        "en": "Rite of Ruin",
         "zh": "毁灭仪式"
     },
     {
         "id": "9271",
-        "en": "name",
+        "en": "Defy Pain",
         "zh": "苦痛劫掠"
     },
     {
         "id": "61372",
-        "en": "name",
+        "en": "Harmony of Purpose",
         "zh": "和谐之源"
     },
     {
         "id": "64768",
-        "en": "name",
+        "en": "Unwavering Faith",
         "zh": "不动信念"
     },
     {
         "id": "4494",
-        "en": "name",
+        "en": "Radiant Crusade",
         "zh": "光芒圣战军"
     },
     {
         "id": "19641",
-        "en": "name",
+        "en": "Unwavering Crusade",
         "zh": "坚毅圣战军"
     },
     {
         "id": "55146",
-        "en": "name",
+        "en": "Time of Need",
         "zh": "紧急时刻"
     },
     {
         "id": "42264",
-        "en": "name",
+        "en": "Radiant Faith",
         "zh": "信念之辉"
     },
     {
         "id": "39728",
-        "en": "name",
+        "en": "Bastion of Hope",
         "zh": "希望壁垒"
     },
     {
         "id": "61355",
-        "en": "name",
+        "en": "Ramako, Sun's Light",
         "zh": "雷默科，太阳之光"
     },
     {
         "id": "50692",
-        "en": "name",
+        "en": "Ngamahu, Flame's Advance",
         "zh": "火徒.努葛玛呼"
     },
     {
         "id": "1731",
-        "en": "name",
+        "en": "Hinekora, Death's Fury",
         "zh": "死之狂怒.辛格拉"
     },
     {
         "id": "17988",
-        "en": "name",
+        "en": "Untiring",
         "zh": "不知疲倦"
     },
     {
         "id": "5819",
-        "en": "name",
+        "en": "Unstoppable",
         "zh": "势不可挡"
     },
     {
         "id": "53816",
-        "en": "name",
+        "en": "Unbreakable",
         "zh": "坚不可破"
     },
     {
         "id": "44297",
-        "en": "name",
+        "en": "Undeniable",
         "zh": "不可置疑"
     },
     {
         "id": "1734",
-        "en": "name",
+        "en": "Unflinching",
         "zh": "永不动摇"
     },
     {
         "id": "56789",
-        "en": "name",
+        "en": "Unrelenting",
         "zh": "灭无赦"
     },
     {
         "id": "62595",
-        "en": "name",
+        "en": "Unyielding",
         "zh": "屹立不摇"
     },
     {
         "id": "34434",
-        "en": "name",
+        "en": "Ritual of Awakening",
         "zh": "升华仪式"
     },
     {
         "id": "25651",
-        "en": "name",
+        "en": "Conviction of Power",
         "zh": "力量定罪"
     },
     {
         "id": "60462",
-        "en": "name",
+        "en": "Illuminated Devotion",
         "zh": "无上奉献"
     },
     {
         "id": "40510",
-        "en": "name",
+        "en": "Arcane Blessing",
         "zh": "秘术保佑"
     },
     {
         "id": "51492",
-        "en": "name",
+        "en": "Sign of Purpose",
         "zh": "目的标识"
     },
     {
         "id": "922",
-        "en": "name",
+        "en": "Divine Guidance",
         "zh": "神圣指引"
     },
     {
         "id": "29026",
-        "en": "name",
+        "en": "Sanctuary of Thought",
         "zh": "意识圣殿"
     },
     {
         "id": "1105",
-        "en": "name",
+        "en": "Pursuit of Faith",
         "zh": "信念之诉"
     },
     {
         "id": "48480",
-        "en": "name",
+        "en": "Tasalio, Cleansing Water",
         "zh": "塔赛里奥，纯净之水"
     },
     {
         "id": "53095",
-        "en": "name",
+        "en": "Tukohama, War's Herald",
         "zh": "战争使者.图克哈玛"
     },
     {
         "id": "5029",
-        "en": "name",
+        "en": "Tawhoa, Forest's Strength",
         "zh": "森林之力.塔赫亚"
     },
     {
         "id": "32249",
-        "en": "name",
+        "en": "Valako, Storm's Embrace",
         "zh": "瓦拉克，风暴之拥"
     },
     {
         "id": "31667",
-        "en": "name",
+        "en": "Arohongui, Moon's Presence",
         "zh": "月使.亚欧红古"
     },
     {
         "id": "39790",
-        "en": "name",
+        "en": "Sanctuary",
         "zh": "至圣所"
     },
     {
         "id": "32816",
-        "en": "name",
+        "en": "Pious Path",
         "zh": "廉简之途"
     },
     {
         "id": "13851",
-        "en": "name",
+        "en": "Instruments of Zeal",
         "zh": "狂热之器"
     },
     {
         "id": "19417",
-        "en": "name",
+        "en": "Instruments of Virtue",
         "zh": "美德之器"
     },
     {
         "id": "53884",
-        "en": "name",
+        "en": "Righteous Providence",
         "zh": "正义之庭"
     },
     {
         "id": "48214",
-        "en": "name",
+        "en": "Inevitable Judgement",
         "zh": "命运审判"
     },
     {
         "id": "40059",
-        "en": "name",
+        "en": "Augury of Penitence",
         "zh": "忏悔之兆"
     },
     {
         "id": "4194",
-        "en": "name",
+        "en": "Berserker",
         "zh": "暴徒"
     },
     {
         "id": "57052",
-        "en": "name",
+        "en": "Chieftain",
         "zh": "酋长"
     },
     {
         "id": "42144",
-        "en": "name",
+        "en": "Hierophant",
         "zh": "圣宗"
     },
     {
         "id": "61072",
-        "en": "name",
+        "en": "Juggernaut",
         "zh": "勇士"
     },
     {
         "id": "43962",
-        "en": "name",
+        "en": "Inquisitor",
         "zh": "判官"
     },
     {
         "id": "15435",
-        "en": "name",
+        "en": "Templar Ascendancy",
         "zh": "圣堂武僧升华职业"
     },
     {
         "id": "54877",
-        "en": "name",
+        "en": "Path of the Templar",
         "zh": "圣堂武僧之道"
     },
     {
         "id": "61437",
-        "en": "name",
+        "en": "Marauder Ascendancy",
         "zh": "野蛮人升华职业"
     },
     {
         "id": "24755",
-        "en": "name",
+        "en": "Path of the Marauder",
         "zh": "野蛮人之道"
     },
     {
         "id": "30919",
-        "en": "name",
+        "en": "Guardian",
         "zh": "守护者"
     },
     {
         "id": "43195",
-        "en": "name",
+        "en": "Slayer",
         "zh": "处刑者"
     },
     {
         "id": "34774",
-        "en": "name",
+        "en": "Gladiator",
         "zh": "卫士"
     },
     {
         "id": "39598",
-        "en": "name",
+        "en": "Champion",
         "zh": "冠军"
     },
     {
         "id": "24798",
-        "en": "name",
+        "en": "Duelist Ascendancy",
         "zh": "决斗者升华职业"
     },
     {
         "id": "63357",
-        "en": "name",
+        "en": "Path of the Duelist",
         "zh": "决斗者之道"
     },
     {
         "id": "56722",
-        "en": "name",
+        "en": "Path of the Witch",
         "zh": "女巫之道"
     },
     {
         "id": "51782",
-        "en": "name",
+        "en": "Witch Ascendancy",
         "zh": "女巫升华职业"
     },
     {
         "id": "8281",
-        "en": "name",
+        "en": "Elementalist",
         "zh": "元素使"
     },
     {
         "id": "10099",
-        "en": "name",
+        "en": "Necromancer",
         "zh": "召唤师"
     },
     {
         "id": "12597",
-        "en": "name",
+        "en": "Occultist",
         "zh": "秘术家"
     },
     {
         "id": "8656",
-        "en": "name",
+        "en": "Raider",
         "zh": "侠客"
     },
     {
         "id": "772",
-        "en": "name",
+        "en": "Shadow Ascendancy",
         "zh": "暗影升华职业"
     },
     {
         "id": "53992",
-        "en": "name",
+        "en": "Path of the Shadow",
         "zh": "暗影之道"
     },
     {
         "id": "7618",
-        "en": "name",
+        "en": "Path of the Ranger",
         "zh": "游侠之道"
     },
     {
         "id": "49532",
-        "en": "name",
+        "en": "Ranger Ascendancy",
         "zh": "游侠升华职业"
     },
     {
         "id": "9327",
-        "en": "name",
+        "en": "Pathfinder",
         "zh": "追猎者"
     },
     {
         "id": "34567",
-        "en": "name",
+        "en": "Deadeye",
         "zh": "锐眼"
     },
     {
         "id": "43122",
-        "en": "name",
-        "zh": "暗影"
+        "en": "Assassin",
+        "zh": "暗影（贵族）"
     },
     {
         "id": "6778",
-        "en": "name",
+        "en": "Trickster",
         "zh": "欺诈师"
     },
     {
         "id": "58827",
-        "en": "name",
+        "en": "Saboteur",
         "zh": "破坏者"
     },
     {
         "id": "8419",
-        "en": "name",
+        "en": "Painforged",
         "zh": "痛苦铸造"
     },
     {
         "id": "63490",
-        "en": "name",
+        "en": "Violent Retaliation",
         "zh": "强力复仇"
     },
     {
         "id": "2598",
-        "en": "name",
+        "en": "Reigning Veteran",
         "zh": "老当益壮"
     },
     {
         "id": "758",
-        "en": "name",
+        "en": "Arena Challenger",
         "zh": "竞技挑战者"
     },
     {
         "id": "27864",
-        "en": "name",
+        "en": "Gratuitous Violence",
         "zh": "免费力量"
     },
     {
         "id": "15616",
-        "en": "name",
+        "en": "Blood in the Eyes",
         "zh": "血之眼"
     },
     {
         "id": "52575",
-        "en": "name",
+        "en": "Outmatch and Outlast",
         "zh": "完美胜出"
     },
     {
         "id": "37492",
-        "en": "name",
+        "en": "Vile Bastion",
         "zh": "残劣壁垒"
     },
     {
         "id": "27096",
-        "en": "name",
+        "en": "Void Beacon",
         "zh": "虚无之塔"
     },
     {
         "id": "62504",
-        "en": "name",
+        "en": "Forbidden Power",
         "zh": "禁忌力量"
     },
     {
         "id": "25309",
-        "en": "name",
+        "en": "Withering Presence",
         "zh": "凋零姿态"
     },
     {
         "id": "47630",
-        "en": "name",
+        "en": "Frigid Wake",
         "zh": "彻骨之径"
     },
     {
         "id": "37127",
-        "en": "name",
+        "en": "Profane Bloom",
         "zh": "秽言亡语"
     },
     {
         "id": "31344",
-        "en": "name",
+        "en": "Unholy Authority",
         "zh": "邪恶君王"
     },
     {
         "id": "61259",
-        "en": "name",
+        "en": "Mastermind of Discord",
         "zh": "混沌天才"
     },
     {
         "id": "57197",
-        "en": "name",
+        "en": "Heart of Destruction",
         "zh": "毁灭之心"
     },
     {
         "id": "4917",
-        "en": "name",
+        "en": "Bastion of Elements",
         "zh": "元素堡垒"
     },
     {
         "id": "258",
-        "en": "name",
+        "en": "Elemancer",
         "zh": "魔像使"
     },
     {
         "id": "53123",
-        "en": "name",
+        "en": "Shaper of Flames",
         "zh": "火焰塑形"
     },
     {
         "id": "27038",
-        "en": "name",
+        "en": "Shaper of Storms",
         "zh": "风暴塑形"
     },
     {
         "id": "40810",
-        "en": "name",
+        "en": "Shaper of Winter",
         "zh": "寒冬塑形"
     },
     {
         "id": "56461",
-        "en": "name",
+        "en": "Liege of the Primordial",
         "zh": "原始之君"
     },
     {
         "id": "56967",
-        "en": "name",
+        "en": "Worthy Foe",
         "zh": "可敬的对手"
     },
     {
         "id": "11412",
-        "en": "name",
+        "en": "Inspirational",
         "zh": "启发"
     },
     {
         "id": "27604",
-        "en": "name",
+        "en": "First to Strike, Last to Fall",
         "zh": "嗜战如命"
     },
     {
         "id": "13374",
-        "en": "name",
+        "en": "Master of Metal",
         "zh": "钢铁大师"
     },
     {
         "id": "31700",
-        "en": "name",
+        "en": "Fortitude",
         "zh": "坚毅"
     },
     {
         "id": "33940",
-        "en": "name",
+        "en": "Unstoppable Hero",
         "zh": "不败英雄"
     },
     {
         "id": "35750",
-        "en": "name",
+        "en": "Conqueror",
         "zh": "征服者"
     },
     {
         "id": "48719",
-        "en": "name",
+        "en": "Mistress of Sacrifice",
         "zh": "奉献女魔"
     },
     {
         "id": "3554",
-        "en": "name",
+        "en": "Essence Glutton",
         "zh": "精华吞噬"
     },
     {
         "id": "36017",
-        "en": "name",
+        "en": "Commander of Darkness",
         "zh": "黑暗统御者"
     },
     {
         "id": "11490",
-        "en": "name",
+        "en": "Plaguebringer",
         "zh": "疫病之源"
     },
     {
         "id": "23572",
-        "en": "name",
+        "en": "Corpse Pact",
         "zh": "灵柩契约"
     },
     {
         "id": "54159",
-        "en": "name",
+        "en": "Mindless Aggression",
         "zh": "盲目挑衅"
     },
     {
         "id": "65153",
-        "en": "name",
+        "en": "Unnatural Strength",
         "zh": "亵渎之力"
     },
     {
         "id": "14603",
-        "en": "name",
+        "en": "Bone Barrier",
         "zh": "骸骨屏障"
     },
     {
         "id": "34484",
-        "en": "name",
+        "en": "Endless Hunger",
         "zh": "无尽饥饿"
     },
     {
         "id": "10143",
-        "en": "name",
+        "en": "Brutal Fervour",
         "zh": "残暴热情"
     },
     {
         "id": "38180",
-        "en": "name",
+        "en": "Impact",
         "zh": "影响"
     },
     {
         "id": "16306",
-        "en": "name",
+        "en": "Masterful Form",
         "zh": "大师之形"
     },
     {
         "id": "3184",
-        "en": "name",
+        "en": "Headsman",
         "zh": "刽子手"
     },
     {
         "id": "17315",
-        "en": "name",
+        "en": "Overwhelm",
         "zh": "镇压"
     },
     {
         "id": "62817",
-        "en": "name",
+        "en": "Bane of Legends",
         "zh": "传奇灾星"
     },
     {
         "id": "19598",
-        "en": "name",
+        "en": "Toxic Delivery",
         "zh": "毒物私运"
     },
     {
         "id": "1945",
-        "en": "name",
+        "en": "Noxious Strike",
         "zh": "淬毒打击"
     },
     {
         "id": "28782",
-        "en": "name",
+        "en": "Mistwalker",
         "zh": "迷雾行者"
     },
     {
         "id": "4242",
-        "en": "name",
+        "en": "Unstable Infusion",
         "zh": "不稳定化身"
     },
     {
         "id": "48239",
-        "en": "name",
+        "en": "Deadly Infusion",
         "zh": "致命专注"
     },
     {
         "id": "21264",
-        "en": "name",
+        "en": "Ambush and Assassinate",
         "zh": "伏击"
     },
     {
         "id": "19083",
-        "en": "name",
+        "en": "Opportunistic",
         "zh": "暗影"
     },
     {
         "id": "6038",
-        "en": "name",
+        "en": "Master Distiller",
         "zh": "蒸馏大师"
     },
     {
         "id": "40813",
-        "en": "name",
+        "en": "Nature's Reprisal",
         "zh": "大自然的复仇"
     },
     {
         "id": "1697",
-        "en": "name",
+        "en": "Master Toxicist",
         "zh": "制毒宗师"
     },
     {
         "id": "51101",
-        "en": "name",
+        "en": "Nature's Adrenaline",
         "zh": "大自然的肾上腺素"
     },
     {
         "id": "63293",
-        "en": "name",
+        "en": "Master Surgeon",
         "zh": "手术大师"
     },
     {
         "id": "65296",
-        "en": "name",
+        "en": "Nature's Boon",
         "zh": "自然的恩赐"
     },
     {
         "id": "61805",
-        "en": "name",
+        "en": "Master Alchemist",
         "zh": "炼金术大师"
     },
     {
         "id": "48999",
-        "en": "name",
+        "en": "Soul Drinker",
         "zh": "灵魂饮者"
     },
     {
         "id": "41891",
-        "en": "name",
+        "en": "Spellbreaker",
         "zh": "破魔者"
     },
     {
         "id": "23225",
-        "en": "name",
+        "en": "One Step Ahead",
         "zh": "快人一步"
     },
     {
         "id": "32947",
-        "en": "name",
+        "en": "Swift Killer",
         "zh": "敏捷克星"
     },
     {
         "id": "55867",
-        "en": "name",
+        "en": "Polymath",
         "zh": "博学者"
     },
     {
         "id": "28884",
-        "en": "name",
+        "en": "Heartstopper",
         "zh": "凝心者"
     },
     {
         "id": "29825",
-        "en": "name",
+        "en": "Escape Artist",
         "zh": "逃脱艺术"
     },
     {
         "id": "28535",
-        "en": "name",
+        "en": "Perfect Crime",
         "zh": "完美犯罪"
     },
     {
         "id": "39834",
-        "en": "name",
+        "en": "Demolitions Specialist",
         "zh": "爆破天才"
     },
     {
         "id": "38918",
-        "en": "name",
+        "en": "Chain Reaction",
         "zh": "连锁反应"
     },
     {
         "id": "47778",
-        "en": "name",
+        "en": "Bomb Specialist",
         "zh": "炸弹专家"
     },
     {
         "id": "16940",
-        "en": "name",
+        "en": "Pyromaniac",
         "zh": "焚烧"
     },
     {
         "id": "5087",
-        "en": "name",
+        "en": "Born in the Shadows",
         "zh": "生在影中"
     },
     {
         "id": "14103",
-        "en": "name",
+        "en": "Explosives Expert",
         "zh": "爆破专家"
     },
     {
         "id": "51462",
-        "en": "name",
+        "en": "Like Clockwork",
         "zh": "发条狂人"
     },
     {
         "id": "33645",
-        "en": "name",
+        "en": "Quartz Infusion",
         "zh": "石英化身"
     },
     {
         "id": "55509",
-        "en": "name",
+        "en": "Avatar of the Veil",
         "zh": "面纱女神"
     },
     {
         "id": "31364",
-        "en": "name",
+        "en": "Way of the Poacher",
         "zh": "盗猎者之途"
     },
     {
         "id": "16848",
-        "en": "name",
+        "en": "Avatar of the Slaughter",
         "zh": "冷酷使徒"
     },
     {
         "id": "4849",
-        "en": "name",
+        "en": "Rapid Assault",
         "zh": "极速进攻"
     },
     {
         "id": "11597",
-        "en": "name",
+        "en": "Avatar of the Chase",
         "zh": "追猎使徒"
     },
     {
         "id": "44482",
-        "en": "name",
+        "en": "Rupturing",
         "zh": "碎裂"
     },
     {
         "id": "24848",
-        "en": "name",
+        "en": "Gathering Winds",
         "zh": "聚风"
     },
     {
         "id": "2872",
-        "en": "name",
+        "en": "Occupying Force",
         "zh": "占领军"
     },
     {
         "id": "5443",
-        "en": "name",
+        "en": "Focal Point",
         "zh": "聚焦点"
     },
     {
         "id": "23169",
-        "en": "name",
+        "en": "Wind Ward",
         "zh": "风之结界"
     },
     {
         "id": "61627",
-        "en": "name",
+        "en": "Ricochet",
         "zh": "弹射"
     },
     {
         "id": "26067",
-        "en": "name",
+        "en": "Endless Munitions",
         "zh": "无限弹药"
     },
     {
         "id": "45313",
-        "en": "name",
+        "en": "Far Shot",
         "zh": "狙击"
     },
     {

@@ -91,7 +91,7 @@ def init_ascendant_nodes():
             continue
 
         name = node['name']
-        data = {"id": id, "en": "name"}
+        data = {"id": id, "en": name}
         nodes_list.append(data)
         nodes_map[id] = data
 
@@ -103,11 +103,11 @@ def init_ascendant_nodes():
         nodes_map[id]["zh"] = zh_name
     
     # 目前贵族与刺客存在相同的升华天赋名称：暗影
-    # 将贵族版本改为 暗影(贵族)
+    # 将贵族版本改为 暗影（贵族）
     # 详情见本项目README.md
     for id, node in enumerate(nodes_list):
         if node["en"] == "Assassin" and node["zh"] == "暗影":
-            node["zh"] = "暗影(贵族)"
+            node["zh"] = "暗影（贵族）"
             break
     nodes_list.append({"id": "18054", "zh": "自然之怒", "en": "Fury of Nature"})
     nodes_list.append({"id": "57331", "zh": "虚空掌控", "en": "Harness the Void"})
