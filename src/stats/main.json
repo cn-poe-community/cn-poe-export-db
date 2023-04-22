@@ -380,11 +380,6 @@
         "en": "{0}% increased Stun Duration on Enemies"
     },
     {
-        "id": "stat_2517001139",
-        "zh": "敌人被晕眩时间减少 {0}%",
-        "en": "{0}% reduced Stun Duration on Enemies"
-    },
-    {
         "id": "stat_2748665614",
         "zh": "魔力上限提高 {0}%",
         "en": "{0}% increased maximum Mana"
@@ -566,7 +561,7 @@
     },
     {
         "id": "stat_1335054179",
-        "zh": "有 100% 的几率点燃",
+        "zh": "必定点燃",
         "en": "Always Ignite"
     },
     {
@@ -721,7 +716,7 @@
     },
     {
         "id": "stat_1538773178",
-        "zh": "闪电伤害击中时有 100% 的几率使敌人受到感电效果影响",
+        "zh": "闪电伤害击中时必定使敌人受到感电效果影响",
         "en": "Always Shock"
     },
     {
@@ -846,7 +841,7 @@
     },
     {
         "id": "stat_795138349",
-        "zh": "击中时有 100% 的几率使目标中毒",
+        "zh": "击中时使目标中毒",
         "en": "Always Poison on Hit"
     },
     {
@@ -1581,12 +1576,12 @@
     },
     {
         "id": "stat_388617051",
-        "zh": "充能次数按照每次使用提高 {0}%，使用时该数值 -1%",
+        "zh": "每次使用消耗的充能次数提高 {0}%，使用时该数值 -1%",
         "en": "{0}% increased Charges per use. -1% to this value when used"
     },
     {
         "id": "stat_388617051",
-        "zh": "充能次数按照每次使用降低 {0}%，使用时该数值 -1%",
+        "zh": "每次使用消耗的充能次数降低 {0}%，使用时该数值 -1%",
         "en": "{0}% reduced Charges per use. -1% to this value when used"
     },
     {
@@ -1643,11 +1638,6 @@
         "id": "stat_3668351662",
         "zh": "敌人的感电持续时间延长 {0}%",
         "en": "{0}% increased Shock Duration on Enemies"
-    },
-    {
-        "id": "stat_3668351662",
-        "zh": "敌人的感电持续时间缩短 {0}%",
-        "en": "{0}% reduced Shock Duration on Enemies"
     },
     {
         "id": "stat_4262448838",
@@ -1751,7 +1741,7 @@
     },
     {
         "id": "stat_318953428",
-        "zh": "攻击击中有 100% 的几率致盲敌人",
+        "zh": "攻击击中致盲敌人",
         "en": "Blind Enemies on Hit with Attacks"
     },
     {
@@ -1816,7 +1806,7 @@
     },
     {
         "id": "stat_3885634897",
-        "zh": "击中时有 100% 的几率使目标中毒",
+        "zh": "击中时使目标中毒",
         "en": "Always Poison on Hit"
     },
     {
@@ -2076,7 +2066,7 @@
     },
     {
         "id": "stat_2515515064",
-        "zh": "锤类或短杖的攻击速度降低 {0}%",
+        "zh": "锤类或短杖的攻击速度减慢 {0}%",
         "en": "{0}% reduced Attack Speed with Maces or Sceptres"
     },
     {
@@ -2751,7 +2741,7 @@
     },
     {
         "id": "stat_2763429652",
-        "zh": "击中时有 100% 的几率造成瘫痪",
+        "zh": "击中时造成瘫痪",
         "en": "Maim on Hit"
     },
     {
@@ -4231,7 +4221,7 @@
     },
     {
         "id": "stat_1030153674",
-        "zh": "魔力在击败敌人时损失 {0}%",
+        "zh": "魔力在击败敌人时失去 {0}%",
         "en": "Lose {0}% of Mana on Kill"
     },
     {
@@ -4436,7 +4426,7 @@
     },
     {
         "id": "stat_1001829678",
-        "zh": "持长杖时攻击伤害格挡几率 {0}% (长杖)",
+        "zh": "持长杖时攻击伤害格挡几率 {0}%",
         "en": "{0}% Chance to Block Attack Damage while wielding a Staff"
     },
     {
@@ -4481,7 +4471,7 @@
     },
     {
         "id": "stat_1054322244",
-        "zh": "击败敌人有 100% 的几率时获得耐力球",
+        "zh": "击败敌人时获得耐力球",
         "en": "Gain an Endurance Charge on Kill"
     },
     {
@@ -4541,7 +4531,7 @@
     },
     {
         "id": "stat_280213220",
-        "zh": "攻击击中有 100% 的几率嘲讽敌人",
+        "zh": "攻击击中嘲讽敌人",
         "en": "Taunt Enemies on Hit with Attacks"
     },
     {
@@ -7810,16 +7800,6 @@
         "en": "Lose {0}% of Energy Shield on Kill"
     },
     {
-        "id": "stat_3569230441",
-        "zh": "任务经验获取率提高 {0}%",
-        "en": "{0}% increased Job Experience gain"
-    },
-    {
-        "id": "stat_3569230441",
-        "zh": "任务经验获取率降低 {0}%",
-        "en": "{0}% reduced Job Experience gain"
-    },
-    {
         "id": "stat_1736172673",
         "zh": "武器造成的伤害穿透 {0}% 元素抗性",
         "en": "Damage with Weapons Penetrates {0}% Elemental Resistances"
@@ -9806,41 +9786,6 @@
     },
     {
         "id": "stat_769192511",
-        "zh": "你在天赋树上连接到野蛮人的出发位置时，你获得：\n近战技能的效果区域扩大 {0}%",
-        "en": "While your Passive Skill Tree connects to the Marauder's starting location, you gain:\nMelee Skills have {0}% increased Area of Effect"
-    },
-    {
-        "id": "stat_769192511",
-        "zh": "你在天赋树上连接到决斗者的出发位置时，你获得：\n{0}% 的攻击伤害转化为生命偷取",
-        "en": "While your Passive Skill Tree connects to the Duelist's starting location, you gain:\n{0}% of Attack Damage Leeched as Life"
-    },
-    {
-        "id": "stat_769192511",
-        "zh": "你在天赋树上连接到游侠的出发位置时，你获得：\n移动速度加快 {0}%",
-        "en": "While your Passive Skill Tree connects to the Ranger's starting location, you gain:\n{0}% increased Movement Speed"
-    },
-    {
-        "id": "stat_769192511",
-        "zh": "你在天赋树上连接到暗影的出发位置时，你获得：\n暴击率 {0}%",
-        "en": "While your Passive Skill Tree connects to the Shadow's starting location, you gain:\n{0}% to Critical Strike Chance"
-    },
-    {
-        "id": "stat_769192511",
-        "zh": "你在天赋树上连接到女巫的出发位置时，你获得：\n每秒再生 {0}% 的魔力",
-        "en": "While your Passive Skill Tree connects to the Witch's starting location, you gain:\n{0}% of Mana Regenerated per second"
-    },
-    {
-        "id": "stat_769192511",
-        "zh": "你在天赋树上连接到圣堂武僧的出发位置时，你获得：\n伤害穿透 {0}% 元素抗性",
-        "en": "While your Passive Skill Tree connects to the Templar's starting location, you gain:\nDamage Penetrates {0}% Elemental Resistances"
-    },
-    {
-        "id": "stat_769192511",
-        "zh": "你在天赋树上连接到贵族的出发位置时，你获得：\n全属性 {0}",
-        "en": "While your Passive Skill Tree connects to the Scion's starting location, you gain:\n{0} to All Attributes"
-    },
-    {
-        "id": "stat_769192511",
         "zh": "你在天赋树上连接到一个职业的出发位置时，你获得：\n野蛮人：近战技能效果区域扩大 {0}%\n决斗者：攻击伤害的 {1}% 转化为生命偷取\n游侠：移动速度加快 {2}%\n暗影：暴击率{3}%\n女巫：每秒再生 {4}% 的魔力\n圣堂武僧：伤害穿透 {5}% 元素抗性\n贵族：全属性 {6}",
         "en": "While your Passive Skill Tree connects to a class' starting location, you gain:\nMarauder: Melee Skills have {0}% increased Area of Effect\nDuelist: {1}% of Attack Damage Leeched as Life\nRanger: {2}% increased Movement Speed\nShadow: {3}% to Critical Strike Chance\nWitch: {4}% of Mana Regenerated per second\nTemplar: Damage Penetrates {5}% Elemental Resistances\nScion: {6} to All Attributes"
     },
@@ -10586,7 +10531,7 @@
     },
     {
         "id": "stat_1510714129",
-        "zh": "攻击击中时造成瘫痪",
+        "zh": "攻击击中造成瘫痪",
         "en": "Attacks always Maim on Hit"
     },
     {
@@ -10653,11 +10598,6 @@
         "id": "stat_4070157876",
         "zh": "若你近期内有击败敌人，则效果区域扩大 {0}%，最多 50%",
         "en": "{0}% increased Area of Effect per Enemy killed recently, up to 50%"
-    },
-    {
-        "id": "stat_4070157876",
-        "zh": "若你近期内有击败敌人，则效果区域缩小 {0}%",
-        "en": "{0}% reduced Area of Effect per Enemy killed recently"
     },
     {
         "id": "stat_1023752508",
@@ -13145,11 +13085,6 @@
         "en": "{0}% chance to Avoid being Shocked during Effect"
     },
     {
-        "id": "stat_3642618258",
-        "zh": "在药剂生效期间不能陷入感电状态",
-        "en": "Cannot be Shocked during Effect"
-    },
-    {
         "id": "stat_2255914633",
         "zh": "受到【雷霆】影响时，获得物理伤害 {0}% 的额外闪电伤害",
         "en": "Gain {0}% of Physical Damage as Extra Lightning Damage while affected by Wrath"
@@ -13856,7 +13791,7 @@
     },
     {
         "id": "stat_3329402420",
-        "zh": "受到【优雅】影响时，移动速度减慢{0}%",
+        "zh": "受到【优雅】影响时，移动速度减慢 {0}%",
         "en": "{0}% reduced Movement Speed while affected by Grace"
     },
     {
@@ -13971,12 +13906,12 @@
     },
     {
         "id": "stat_414991155",
-        "zh": "{0}% 幻化武器时间总增",
+        "zh": "幻化武器时间总增 {0}%",
         "en": "{0}% more Animate Weapon Duration"
     },
     {
         "id": "stat_414991155",
-        "zh": "{0}% 幻化武器时间总降",
+        "zh": "幻化武器时间总降 {0}%",
         "en": "{0}% less Animate Weapon Duration"
     },
     {
@@ -14396,7 +14331,7 @@
     },
     {
         "id": "stat_2444534954",
-        "zh": "受到【奋锐光环】影响时，施法速度减慢{0}%",
+        "zh": "受到【奋锐光环】影响时，施法速度减慢 {0}%",
         "en": "{0}% increased Cast Speed while affected by Zealotry"
     },
     {
@@ -14553,11 +14488,6 @@
         "id": "stat_2042813020",
         "zh": "每 10 点奉献便每秒回复 {0} 魔力",
         "en": "Regenerate {0} Mana per Second per 10 Devotion"
-    },
-    {
-        "id": "stat_1172162241",
-        "zh": "角色等级 {0}",
-        "en": "{0} to Character Level"
     },
     {
         "id": "stat_3134513219",
@@ -14953,11 +14883,6 @@
         "id": "stat_3864993324",
         "zh": "每级 {0} 最大能量护盾",
         "en": "{0} Maximum Energy Shield per Level"
-    },
-    {
-        "id": "stat_1454377049",
-        "zh": "药剂生效期间，闪电伤害的 {0}% 转化为魔力偷取",
-        "en": "{0}% of Lightning Damage Leeched as Mana during Flask effect"
     },
     {
         "id": "stat_2523334466",
@@ -16406,7 +16331,7 @@
     },
     {
         "id": "stat_207635700",
-        "zh": "受到【迅捷】影响时，你身上的负面效果消退速度减缓 {0}%",
+        "zh": "受到【迅捷】影响时，你身上的负面效果消退速度减慢 {0}%",
         "en": "Debuffs on you expire {0}% slower while affected by Haste"
     },
     {
@@ -16563,11 +16488,6 @@
         "id": "stat_1560880986",
         "zh": "使用此武器攻击所造成的流血效果有 {0}% 的几率使流血伤害总增 100%",
         "en": "{0}% chance for Bleeding inflicted with this Weapon to deal 100% more Damage"
-    },
-    {
-        "id": "stat_3471951849",
-        "zh": "封锁计时 {0} 秒",
-        "en": "{0} seconds to Lockdown Timer"
     },
     {
         "id": "stat_3223142064",
@@ -17401,11 +17321,6 @@
     },
     {
         "id": "stat_2213584313",
-        "zh": "击中时有 {0}% 的几率用脆弱诅咒敌人，它的效果提高 40%",
-        "en": "{0}% chance to Curse Enemies with Vulnerability on Hit, with 40% increased Effect"
-    },
-    {
-        "id": "stat_2213584313",
         "zh": "有 {0}% 几率击中时对敌人附加脆弱诅咒。",
         "en": "{0}% chance to Curse Enemies with Vulnerability on Hit"
     },
@@ -17638,11 +17553,6 @@
         "id": "stat_2620656067",
         "zh": "物理神盾消散时，暴击率降低 {0}%",
         "en": "{0}% reduced Critical Strike Chance while Physical Aegis is depleted"
-    },
-    {
-        "id": "stat_4007740198",
-        "zh": "你的感电效果可以提高承受伤害，最大 {0}%",
-        "en": "Your Shocks can increase Damage taken by up to a maximum of {0}%"
     },
     {
         "id": "stat_4007740198",
@@ -18226,7 +18136,7 @@
     },
     {
         "id": "stat_4116705863",
-        "zh": "阻挡被压制的法术伤害 {0}%",
+        "zh": "阻挡被压制的法术伤害量 {0}%",
         "en": "{0}% to amount of Suppressed Spell Damage Prevented"
     },
     {
@@ -18836,12 +18746,12 @@
     },
     {
         "id": "stat_3362665206",
-        "zh": "地雷冷却速度提高 {0}%",
+        "zh": "地雷冷却速度加快 {0}%",
         "en": "{0}% increased Mine Arming Speed"
     },
     {
         "id": "stat_3362665206",
-        "zh": "地雷冷却速度降低 {0}%",
+        "zh": "地雷冷却速度减慢 {0}%",
         "en": "{0}% reduced Mine Arming Speed"
     },
     {
@@ -20561,12 +20471,12 @@
     },
     {
         "id": "stat_56401364",
-        "zh": "主手总攻击速度额外加快 {0}%",
+        "zh": "主手攻击速度总增 {0}%",
         "en": "{0}% more Main Hand attack speed"
     },
     {
         "id": "stat_56401364",
-        "zh": "主手总攻击速度额外减慢 {0}%",
+        "zh": "主手攻击速度总降 {0}%",
         "en": "{0}% less Main Hand attack speed"
     },
     {
@@ -20820,16 +20730,6 @@
         "en": "Adds {0} to {1} Lightning Damage to Spells while no Life is Reserved"
     },
     {
-        "id": "stat_3063943261",
-        "zh": "逆向奇术任务的招募费用提高 {0}%",
-        "en": "{0}% increased Hiring Fee for Counter-Thaumaturgy Jobs"
-    },
-    {
-        "id": "stat_3063943261",
-        "zh": "逆向奇术任务的招募费用降低 {0}%",
-        "en": "{0}% reduced Hiring Fee for Counter-Thaumaturgy Jobs"
-    },
-    {
         "id": "stat_3733496041",
         "zh": "复苏的魔卫每秒将它们最大生命的 {0}% 视为火焰伤害",
         "en": "Raised Zombies take {0}% of their Maximum Life per second as Fire Damage"
@@ -20960,16 +20860,6 @@
         "en": "{0}% chance to gain an Endurance Charge when you Taunt an Enemy"
     },
     {
-        "id": "stat_1080855680",
-        "zh": "【盗贼流放者】的伤害提高 {0}%",
-        "en": "Rogue Exiles deal {0}% increased Damage"
-    },
-    {
-        "id": "stat_1080855680",
-        "zh": "【盗贼流放者】的伤害降低 {0}%",
-        "en": "Rogue Exiles deal {0}% reduced Damage"
-    },
-    {
         "id": "stat_2540508981",
         "zh": "插入的瓦尔技能击中时无视敌方怪物的抗性",
         "en": "Hits from Socketed Vaal Skills ignore Enemy Monster Resistances"
@@ -21053,16 +20943,6 @@
         "id": "stat_121093551",
         "zh": "军团的物品掉落总数量总增 {0}%",
         "en": "Warbands have {0}% more Quantity of Items Dropped"
-    },
-    {
-        "id": "stat_399295164",
-        "zh": "【盗贼流放者】的攻击，施法，移动速度提高 {0}%",
-        "en": "Rogue Exiles have {0}% increased Attack, Cast and Movement Speed"
-    },
-    {
-        "id": "stat_2008953542",
-        "zh": "【盗贼流放者】的物品稀有度总增 {0}%",
-        "en": "Rogue Exiles have {0}% more Rarity of Items Dropped"
     },
     {
         "id": "stat_798853218",
@@ -21646,12 +21526,12 @@
     },
     {
         "id": "stat_1061545609",
-        "zh": "玩家在【猛攻】效果下攻击，施法，移动速度提高 {0}%",
+        "zh": "玩家在【猛攻】效果下攻击，施法，移动速度加快 {0}%",
         "en": "Players have {0}% increased Attack, Cast and Movement Speed while they have Onslaught"
     },
     {
         "id": "stat_1061545609",
-        "zh": "玩家在【猛攻】效果下攻击，施法，移动速度降低 {0}%",
+        "zh": "玩家在【猛攻】效果下攻击，施法，移动速度减慢 {0}%",
         "en": "Players have {0}% reduced Attack, Cast and Movement Speed while they have Onslaught"
     },
     {
@@ -21673,16 +21553,6 @@
         "id": "stat_776020689",
         "zh": "你进入新区域时失去所有充能",
         "en": "Loses all Charges when you enter a new area"
-    },
-    {
-        "id": "stat_2888942321",
-        "zh": "逆向奇术速度加快 {0}%",
-        "en": "{0}% increased Counter-Thaumaturgy speed"
-    },
-    {
-        "id": "stat_2888942321",
-        "zh": "逆向奇术速度加快 {0}%",
-        "en": "{0}% reduced Counter-Thaumaturgy speed"
     },
     {
         "id": "stat_778552242",
@@ -21763,16 +21633,6 @@
         "id": "stat_1308467455",
         "zh": "靑春永驻",
         "en": "Eternal Youth"
-    },
-    {
-        "id": "stat_1237550112",
-        "zh": "逆向奇术获得的经验提高 {0}%",
-        "en": "{0}% increased Counter-Thaumaturgy Experience gained"
-    },
-    {
-        "id": "stat_1237550112",
-        "zh": "逆向奇术获得的经验降低 {0}%",
-        "en": "{0}% reduced Counter-Thaumaturgy Experience gained"
     },
     {
         "id": "stat_4228691877",
@@ -22175,11 +22035,6 @@
         "en": "You have Onslaught while you have Cat's Agility"
     },
     {
-        "id": "stat_2927868154",
-        "zh": "你施加的魔蛊效果比它们的灭能提高两倍",
-        "en": "Hexes you inflict have their Effect increased by twice their Doom instead"
-    },
-    {
         "id": "stat_3686066640",
         "zh": "你的混沌伤害可以造成冰缓",
         "en": "Your Chaos Damage can Chill"
@@ -22360,16 +22215,6 @@
         "en": "Elemental Ailments you inflict are Reflected to you"
     },
     {
-        "id": "stat_4143730600",
-        "zh": "【盗贼流放者】额外掉落 1 个珠宝",
-        "en": "Rogue Exiles drop an additional Jewel"
-    },
-    {
-        "id": "stat_4143730600",
-        "zh": "【盗贼流放者】额外掉落 {0} 个珠宝",
-        "en": "Rogue Exiles drop {0} additional Jewels"
-    },
-    {
         "id": "stat_464535071",
         "zh": "陷阱和地雷投掷速度加快 {0}%",
         "en": "{0}% increased Trap and Mine Throwing Speed"
@@ -22385,11 +22230,6 @@
         "en": "Elemental Damage with Hits is Lucky while you are Shocked"
     },
     {
-        "id": "stat_600723636",
-        "zh": "盗贼流放者掉落 {0} 个额外基础通货物品",
-        "en": "Rogue Exiles drop {0} additional Basic Currency Items"
-    },
-    {
         "id": "stat_1622979279",
         "zh": "冰霜净化没有保留效果",
         "en": "Purity of Ice has no Reservation"
@@ -22403,11 +22243,6 @@
         "id": "stat_3279574030",
         "zh": "获得 {0} 级的【幻象传送】",
         "en": "Grants Level {0} Illusory Warp Skill"
-    },
-    {
-        "id": "stat_2653164718",
-        "zh": "【盗贼流放者】会成对出现",
-        "en": "Rogue Exiles each have a Rogue Exile ally"
     },
     {
         "id": "stat_1854213750",
@@ -22463,11 +22298,6 @@
         "id": "stat_1282219780",
         "zh": "受到你嘲讽的敌人所承受的伤害降低 {0}%",
         "en": "Enemies Taunted by you take {0}% reduced Damage"
-    },
-    {
-        "id": "stat_1416455556",
-        "zh": "玩家的移动速度提高 {0}%",
-        "en": "Players have {0}% increased Movement Speed"
     },
     {
         "id": "stat_3389184522",
@@ -22615,16 +22445,6 @@
         "en": "Socketed Gems are Supported by Level {0} Ice Bite"
     },
     {
-        "id": "stat_2952011756",
-        "zh": "魔蛊的灭能获取率提高 {0}%",
-        "en": "Hexes have {0}% increased Doom gain rate"
-    },
-    {
-        "id": "stat_2952011756",
-        "zh": "魔蛊的灭能获取率降低 {0}%",
-        "en": "Hexes have {0}% reduced Doom gain rate"
-    },
-    {
         "id": "stat_1672183492",
         "zh": "用该武器击中时，暴击率为 {0}%",
         "en": "Critical Strike Chance is {0}% for Hits with this Weapon"
@@ -22668,11 +22488,6 @@
         "id": "stat_3574189159",
         "zh": "元素超载",
         "en": "Elemental Overload"
-    },
-    {
-        "id": "stat_813274077",
-        "zh": "魔蛊抵达最大灭能 0.5 秒后开始消减",
-        "en": "Hexes expire 0.5 seconds after reaching maximum Doom"
     },
     {
         "id": "stat_2662268382",
@@ -22831,7 +22646,7 @@
     },
     {
         "id": "stat_195090426",
-        "zh": "左戒指栏位：魔力回复速度提高 {0}%",
+        "zh": "左戒指栏位：魔力回复速度加快 {0}%",
         "en": "Left ring slot: {0}% increased Mana Regeneration Rate"
     },
     {
@@ -23025,11 +22840,6 @@
         "en": "Grants Level {0} Summon Doedre's Effigy Skill\nSocketed Hex Curse Skills are Triggered by Doedre's Effigy when Summoned\nHexes from Socketed Skills can apply 5 additional Curses\n20% less Effect of Curses from Socketed Hex Skills"
     },
     {
-        "id": "stat_898094766",
-        "zh": "【盗贼流放者】所掉落的物品为最大连接",
-        "en": "Items dropped by Rogue Exiles are fully Linked"
-    },
-    {
         "id": "stat_1826480903",
         "zh": "元素净化没有保留效果",
         "en": "Purity of Elements has no Reservation"
@@ -23150,16 +22960,6 @@
         "en": "Precision has 100% increased Mana Reservation Efficiency"
     },
     {
-        "id": "stat_2047177714",
-        "zh": "【盗贼流放者】掉落的物品为镜像物品",
-        "en": "Items dropped by Rogue Exiles are Mirrored"
-    },
-    {
-        "id": "stat_3795004497",
-        "zh": "每个【盗贼流放者】都会掉落高品质技能",
-        "en": "Rogue Exiles each drop a Skill Gem with Quality"
-    },
-    {
         "id": "stat_3561676020",
         "zh": "插入的技能石被 10 级的【凝聚】辅助",
         "en": "Socketed Gems are Supported by Level 10 Intensify"
@@ -23183,11 +22983,6 @@
         "id": "stat_1358697130",
         "zh": "坚定没有保留效果",
         "en": "Determination has no Reservation"
-    },
-    {
-        "id": "stat_3341855070",
-        "zh": "灭亡之日",
-        "en": "Doomsday"
     },
     {
         "id": "stat_585622486",
@@ -23291,7 +23086,7 @@
     },
     {
         "id": "stat_1874553720",
-        "zh": "你被冰缓的持续时间缩短 {0}%",
+        "zh": "你被冰缓的持续时间延长 {0}%",
         "en": "{0}% reduced Chill Duration on you"
     },
     {
@@ -23820,11 +23615,6 @@
         "en": "You have Vaal Pact while at maximum Endurance Charges"
     },
     {
-        "id": "stat_663447087",
-        "zh": "【盗贼流放者】掉落的物品已腐化",
-        "en": "Items dropped by Rogue Exiles are Corrupted"
-    },
-    {
         "id": "stat_2877370216",
         "zh": "耐力球满时，攻击击中时有 {0}% 的几率威吓敌人 4 秒",
         "en": "{0}% chance to Intimidate Enemies for 4 seconds on Hit with Attacks while at maximum Endurance Charges"
@@ -23868,11 +23658,6 @@
         "id": "stat_3592330380",
         "zh": "移动时无法被感电或点燃",
         "en": "Cannot be Shocked or Ignited while moving"
-    },
-    {
-        "id": "stat_90649542",
-        "zh": "你施加魔蛊的最大灭能 {0}",
-        "en": "Hexes you inflict have {0} to maximum Doom"
     },
     {
         "id": "stat_511024200",
@@ -24518,11 +24303,6 @@
         "id": "indexable_support_39",
         "zh": "插入的技能石被 {0} 级的【多重陷阱】辅助",
         "en": "Socketed Gems are Supported by Level {0} Multiple Traps"
-    },
-    {
-        "id": "stat_3969573213",
-        "zh": "封锁期间施行逆向奇术不产生额外时间",
-        "en": "Performing Counter-Thaumaturgy during Lockdown doesn't take additional time"
     },
     {
         "id": "indexable_support_87",
@@ -26110,11 +25890,6 @@
         "en": "Excavated Chests have a {0}% chance to contain twice as many Items"
     },
     {
-        "id": "stat_1420170973",
-        "zh": "击中每个敌人会回复 {0} 生命及魔力",
-        "en": "{0} Life and Mana gained for each Enemy hit"
-    },
-    {
         "id": "stat_2170876738",
         "zh": "暴击攻击无视敌人的元素抗性",
         "en": "Attack Critical Strikes ignore Enemy Monster Elemental Resistances"
@@ -26191,8 +25966,8 @@
     },
     {
         "id": "stat_1434716233",
-        "zh": "战吼{0} 次额外攻击",
-        "en": "Warcries Exert {0} additional Attack"
+        "zh": "战吼1 次额外攻击",
+        "en": "Warcries Exert 1 additional Attack"
     },
     {
         "id": "stat_1434716233",
@@ -26231,8 +26006,8 @@
     },
     {
         "id": "stat_1425651005",
-        "zh": "受到的投射物技能攻击伤害提高 {0}%",
-        "en": "{0}% increased Damage taken from Projectiles Hits"
+        "zh": "受到的投射物击中伤害提高 {0}%",
+        "en": "{0}% increased Damage taken from Projectile Hits"
     },
     {
         "id": "stat_1425651005",
@@ -28101,7 +27876,7 @@
     },
     {
         "id": "stat_2859471749",
-        "zh": "攻击的魔力消耗增加 {0}%",
+        "zh": "攻击的魔力消耗提高 {0}%",
         "en": "{0}% increased Mana Cost of Attacks"
     },
     {
@@ -35836,12 +35611,12 @@
     },
     {
         "id": "stat_1778800422",
-        "zh": "赦罪哨卫的持续时间延长 {0}%",
+        "zh": "赦罪哨卫的持续时间提高 {0}%",
         "en": "{0}% increased Sentinel of Absolution Duration"
     },
     {
         "id": "stat_1778800422",
-        "zh": "赦罪哨卫的持续时间缩短 {0}%",
+        "zh": "赦罪哨卫的持续时间降低 {0}%",
         "en": "{0}% reduced Sentinel of Absolution Duration"
     },
     {
@@ -36116,7 +35891,7 @@
     },
     {
         "id": "stat_732631533",
-        "zh": "【毒蛇鞭击】投射物速度减慢 {0}%",
+        "zh": "【毒蛇鞭击】的投射物速度减慢 {0}%",
         "en": "Cobra Lash has {0}% reduced Projectile Speed"
     },
     {
@@ -36881,12 +36656,12 @@
     },
     {
         "id": "stat_3211417111",
-        "zh": "【火焰新星】的地雷施法速度提高 {0}%",
+        "zh": "【火焰新星】的地雷施法速度加快 {0}%",
         "en": "{0}% increased Fire Nova Cast Speed"
     },
     {
         "id": "stat_3211417111",
-        "zh": "【火焰新星】的地雷施法速度降低 {0}%",
+        "zh": "【火焰新星】的地雷施法速度减慢 {0}%",
         "en": "{0}% reduced Fire Nova Cast Speed"
     },
     {
@@ -37268,31 +37043,6 @@
         "id": "stat_3802588863",
         "zh": "你的【冰箭之塔】有 {0}% 的几率施加【脆弱】",
         "en": "Your Freezebolt Towers have {0}% chance to inflict Brittle"
-    },
-    {
-        "id": "stat_634375806",
-        "zh": "【召唤魔侍】有 20% 的几率召唤 1 个额外魔侍勇士",
-        "en": "20% chance to Summon an additional Skeleton Warrior with Summon Skeleton"
-    },
-    {
-        "id": "stat_634375806",
-        "zh": "【召唤魔侍】有 40% 的几率召唤 1 个额外魔侍勇士",
-        "en": "40% chance to Summon an additional Skeleton Warrior with Summon Skeleton"
-    },
-    {
-        "id": "stat_634375806",
-        "zh": "【召唤魔侍】有 60% 的几率召唤 1 个额外魔侍勇士",
-        "en": "60% chance to Summon an additional Skeleton Warrior with Summon Skeleton"
-    },
-    {
-        "id": "stat_634375806",
-        "zh": "【召唤魔侍】有 80% 的几率召唤 1 个额外魔侍勇士",
-        "en": "80% chance to Summon an additional Skeleton Warrior with Summon Skeleton"
-    },
-    {
-        "id": "stat_634375806",
-        "zh": "【召唤魔侍】会召唤 1 个额外魔侍勇士",
-        "en": "Summon an additional Skeleton Warrior with Summon Skeleton"
     },
     {
         "id": "stat_3198887051",
@@ -37851,12 +37601,12 @@
     },
     {
         "id": "stat_3150300096",
-        "zh": "防卫技能的冷却回复速度提高 {0}%",
+        "zh": "防卫技能的冷却回复速度加快 {0}%",
         "en": "Guard Skills have {0}% increased Cooldown Recovery Rate"
     },
     {
         "id": "stat_3150300096",
-        "zh": "防卫技能的冷却回复速度降低 {0}%",
+        "zh": "防卫技能的冷却回复速度减慢 {0}%",
         "en": "Guard Skills have {0}% reduced Cooldown Recovery Rate"
     },
     {
@@ -38552,7 +38302,7 @@
     {
         "id": "stat_1777740627",
         "zh": "失去的生命被保留起来，\n直到你的生命在 {0} 秒内没有再受到伤害",
-        "en": "Life that would be lost by taking Damage is instead Reserved\nuntil you take no Damage to Life for {0} second"
+        "en": "Life that would be lost by taking Damage is instead Reserved\nuntil you take no Damage to Life for {0} seconds"
     },
     {
         "id": "stat_3833160777",
@@ -38577,7 +38327,7 @@
     {
         "id": "stat_3784504781",
         "zh": "镶嵌宝石的战吼技能拥有{0}次冷却使用次数",
-        "en": "Socketed Warcry Skills have {0} Cooldown Use"
+        "en": "Socketed Warcry Skills have {0} Cooldown Uses"
     },
     {
         "id": "stat_1615324731",
@@ -40153,5 +39903,10 @@
         "id": "stat_1533511331",
         "zh": "法术击中使你缓速",
         "en": "Spell Hits Hinder you"
+    },
+    {
+        "id": "stat_76458612",
+        "zh": "你在天赋树上连接到一个职业的出发位置时，你获得：\n野蛮人：每秒生命再生 1%\n决斗者：近战打击距离 +2\n游侠：药剂充能获取率提高  20%\n暗影：攻击和施法速度加快  12%\n女巫：技能效果持续时间延长  20%\n圣堂武僧：攻击和法术伤害格挡率 +4%\n贵族：伤害提高  30%",
+        "en": "While your Passive Skill Tree connects to a class' starting location, you gain:\nMarauder: 1% of Life Regenerated per second\nDuelist: +2 to Melee Strike Range\nRanger: 20% increased Flask Charges gained\nShadow: 12% increased Attack and Cast Speed\nWitch: 20% increased Skill Effect Duration\nTemplar: +4% Chance to Block Attack and Spell Damage\nScion: 30% increased Damage"
     }
 ]
