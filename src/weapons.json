@@ -2243,428 +2243,343 @@
     },
     {
         "zh": "穿体凿",
-        "en": "Gouger",
-        "uniques": []
+        "en": "Gouger"
     },
     {
         "zh": "虎爪刃",
-        "en": "Tiger's Paw",
-        "uniques": []
+        "en": "Tiger's Paw"
     },
     {
         "zh": "史前战爪",
-        "en": "Prehistoric Claw",
-        "uniques": []
+        "en": "Prehistoric Claw"
     },
     {
         "zh": "贵族战爪",
-        "en": "Noble Claw",
-        "uniques": []
+        "en": "Noble Claw"
     },
     {
         "zh": "鹰爪刃",
-        "en": "Eagle Claw",
-        "uniques": []
+        "en": "Eagle Claw"
     },
     {
         "zh": "白灵之爪",
-        "en": "Great White Claw",
-        "uniques": []
+        "en": "Great White Claw"
     },
     {
         "zh": "猫爪刃",
-        "en": "Cat's Paw",
-        "uniques": []
+        "en": "Cat's Paw"
     },
     {
         "zh": "眩目爪刃",
-        "en": "Sparkling Claw",
-        "uniques": []
+        "en": "Sparkling Claw"
     },
     {
         "zh": "暗影之牙",
-        "en": "Shadow Fangs",
-        "uniques": []
+        "en": "Shadow Fangs"
     },
     {
         "zh": "恶毒之牙",
-        "en": "Malign Fangs",
-        "uniques": []
+        "en": "Malign Fangs"
     },
     {
         "zh": "虚空之牙",
-        "en": "Void Fangs",
-        "uniques": []
+        "en": "Void Fangs"
     },
     {
         "zh": "双刃爪",
-        "en": "Double Claw",
-        "uniques": []
+        "en": "Double Claw"
     },
     {
         "zh": "重刃爪",
-        "en": "Twin Claw",
-        "uniques": []
+        "en": "Twin Claw"
     },
     {
         "zh": "双子战爪",
-        "en": "Gemini Claw",
-        "uniques": []
+        "en": "Gemini Claw"
     },
     {
         "zh": "屠兽利刃",
-        "en": "Butcher Knife",
-        "uniques": []
+        "en": "Butcher Knife"
     },
     {
         "zh": "夺命刺",
-        "en": "Poignard",
-        "uniques": []
+        "en": "Poignard"
     },
     {
         "zh": "金光波刃",
-        "en": "Golden Kris",
-        "uniques": []
+        "en": "Golden Kris"
     },
     {
         "zh": "重伤短刀",
-        "en": "Gutting Knife",
-        "uniques": []
+        "en": "Gutting Knife"
     },
     {
         "zh": "刻骨刀",
-        "en": "Carving Knife",
-        "uniques": []
+        "en": "Carving Knife"
     },
     {
         "zh": "铜锻波刃",
-        "en": "Copper Kris",
-        "uniques": []
+        "en": "Copper Kris"
     },
     {
         "zh": "双刃匕",
-        "en": "Skean",
-        "uniques": []
+        "en": "Skean"
     },
     {
         "zh": "魔性之刃",
-        "en": "Imp Dagger",
-        "uniques": []
+        "en": "Imp Dagger"
     },
     {
         "zh": "折叠匕首",
-        "en": "Hollowpoint Dagger",
-        "uniques": []
+        "en": "Hollowpoint Dagger"
     },
     {
         "zh": "冲压匕首",
-        "en": "Pressurised Dagger",
-        "uniques": []
+        "en": "Pressurised Dagger"
     },
     {
         "zh": "气动匕首",
-        "en": "Pneumatic Dagger",
-        "uniques": []
+        "en": "Pneumatic Dagger"
     },
     {
         "zh": "尖耙短匕",
-        "en": "Prong Dagger",
-        "uniques": []
+        "en": "Prong Dagger"
     },
     {
         "zh": "三叉短匕",
-        "en": "Trisula",
-        "uniques": []
+        "en": "Trisula"
     },
     {
         "zh": "战叉",
-        "en": "Sai",
-        "uniques": []
+        "en": "Sai"
     },
     {
         "zh": "火焰刀",
-        "en": "Flickerflame Blade",
-        "uniques": []
+        "en": "Flickerflame Blade"
     },
     {
         "zh": "闪火刀",
-        "en": "Flashfire Blade",
-        "uniques": []
+        "en": "Flashfire Blade"
     },
     {
         "zh": "炼狱刀",
-        "en": "Infernal Blade",
-        "uniques": []
+        "en": "Infernal Blade"
     },
     {
         "zh": "断腕之刃",
-        "en": "Wrist Chopper",
-        "uniques": []
+        "en": "Wrist Chopper"
     },
     {
         "zh": "行军斧",
-        "en": "War Axe",
-        "uniques": []
+        "en": "War Axe"
     },
     {
         "zh": "开膛利刃",
-        "en": "Chest Splitter",
-        "uniques": []
+        "en": "Chest Splitter"
     },
     {
         "zh": "血仪之斧",
-        "en": "Ceremonial Axe",
-        "uniques": []
+        "en": "Ceremonial Axe"
     },
     {
         "zh": "凶灵之斧",
-        "en": "Wraith Axe",
-        "uniques": []
+        "en": "Wraith Axe"
     },
     {
         "zh": "卡鲁古斧",
-        "en": "Karui Axe",
-        "uniques": []
+        "en": "Karui Axe"
     },
     {
         "zh": "残暴之斧",
-        "en": "Reaver Axe",
-        "uniques": []
+        "en": "Reaver Axe"
     },
     {
         "zh": "万用手斧",
-        "en": "Boarding Axe",
-        "uniques": []
+        "en": "Boarding Axe"
     },
     {
         "zh": "阔斧",
-        "en": "Broad Axe",
-        "uniques": []
+        "en": "Broad Axe"
     },
     {
         "zh": "长柄斧",
-        "en": "Arming Axe",
-        "uniques": []
+        "en": "Arming Axe"
     },
     {
         "zh": "幽魂之斧",
-        "en": "Spectral Axe",
-        "uniques": []
+        "en": "Spectral Axe"
     },
     {
         "zh": "灵玉斧",
-        "en": "Jasper Axe",
-        "uniques": []
+        "en": "Jasper Axe"
     },
     {
         "zh": "凌虐斧",
-        "en": "Maltreatment Axe",
-        "uniques": []
+        "en": "Maltreatment Axe"
     },
     {
         "zh": "否认斧",
-        "en": "Disapprobation Axe",
-        "uniques": []
+        "en": "Disapprobation Axe"
     },
     {
         "zh": "癫狂斧",
-        "en": "Psychotic Axe",
-        "uniques": []
+        "en": "Psychotic Axe"
     },
     {
         "zh": "蚀刻战斧",
-        "en": "Etched Hatchet",
-        "uniques": []
+        "en": "Etched Hatchet"
     },
     {
         "zh": "雕文战斧",
-        "en": "Engraved Hatchet",
-        "uniques": []
+        "en": "Engraved Hatchet"
     },
     {
         "zh": "密文之斧",
-        "en": "Runic Hatchet",
-        "uniques": []
+        "en": "Runic Hatchet"
     },
     {
         "zh": "锐刺木棒",
-        "en": "Barbed Club",
-        "uniques": []
+        "en": "Barbed Club"
     },
     {
         "zh": "强化战锤",
-        "en": "Battle Hammer",
-        "uniques": []
+        "en": "Battle Hammer"
     },
     {
         "zh": "护体之锤",
-        "en": "Flanged Mace",
-        "uniques": []
+        "en": "Flanged Mace"
     },
     {
         "zh": "幻象之锤",
-        "en": "Phantom Mace",
-        "uniques": []
+        "en": "Phantom Mace"
     },
     {
         "zh": "祖灵之杵",
-        "en": "Ancestral Club",
-        "uniques": []
+        "en": "Ancestral Club"
     },
     {
         "zh": "裂肉之锤",
-        "en": "Tenderizer",
-        "uniques": []
+        "en": "Tenderizer"
     },
     {
         "zh": "军团之锤",
-        "en": "Legion Hammer",
-        "uniques": []
+        "en": "Legion Hammer"
     },
     {
         "zh": "祭仪之杵",
-        "en": "Tribal Club",
-        "uniques": []
+        "en": "Tribal Club"
     },
     {
         "zh": "锋刃重锤",
-        "en": "Pernach",
-        "uniques": []
+        "en": "Pernach"
     },
     {
         "zh": "石锤",
-        "en": "Stone Hammer",
-        "uniques": []
+        "en": "Stone Hammer"
     },
     {
         "zh": "多刃锤",
-        "en": "Bladed Mace",
-        "uniques": []
+        "en": "Bladed Mace"
     },
     {
         "zh": "祭礼之锤",
-        "en": "Ceremonial Mace",
-        "uniques": []
+        "en": "Ceremonial Mace"
     },
     {
         "zh": "坚石木棒",
-        "en": "Petrified Club",
-        "uniques": []
+        "en": "Petrified Club"
     },
     {
         "zh": "明亮锤",
-        "en": "Flare Mace",
-        "uniques": []
+        "en": "Flare Mace"
     },
     {
         "zh": "开裂锤",
-        "en": "Crack Mace",
-        "uniques": []
+        "en": "Crack Mace"
     },
     {
         "zh": "风雷锤",
-        "en": "Boom Mace",
-        "uniques": []
+        "en": "Boom Mace"
     },
     {
         "zh": "古龙之锤",
-        "en": "Wyrm Mace",
-        "uniques": []
+        "en": "Wyrm Mace"
     },
     {
         "zh": "龙之锤",
-        "en": "Dragon Mace",
-        "uniques": []
+        "en": "Dragon Mace"
     },
     {
         "zh": "巴哈姆特",
-        "en": "Behemoth Mace",
-        "uniques": []
+        "en": "Behemoth Mace"
     },
     {
         "zh": "朽木短杖",
-        "en": "Driftwood Sceptre",
-        "uniques": []
+        "en": "Driftwood Sceptre"
     },
     {
         "zh": "威能短杖",
-        "en": "Sekhem",
-        "uniques": []
+        "en": "Sekhem"
     },
     {
         "zh": "铅铸短杖",
-        "en": "Lead Sceptre",
-        "uniques": []
+        "en": "Lead Sceptre"
     },
     {
         "zh": "深渊短杖",
-        "en": "Abyssal Sceptre",
-        "uniques": []
+        "en": "Abyssal Sceptre"
     },
     {
         "zh": "乌木短杖",
-        "en": "Darkwood Sceptre",
-        "uniques": []
+        "en": "Darkwood Sceptre"
     },
     {
         "zh": "石英短杖",
-        "en": "Quartz Sceptre",
-        "uniques": []
+        "en": "Quartz Sceptre"
     },
     {
         "zh": "赤色短杖",
-        "en": "Ochre Sceptre",
-        "uniques": []
+        "en": "Ochre Sceptre"
     },
     {
         "zh": "摇摆短杖",
-        "en": "Oscillating Sceptre",
-        "uniques": []
+        "en": "Oscillating Sceptre"
     },
     {
         "zh": "平稳短杖",
-        "en": "Stabilising Sceptre",
-        "uniques": []
+        "en": "Stabilising Sceptre"
     },
     {
         "zh": "变化短杖",
-        "en": "Alternating Sceptre",
-        "uniques": []
+        "en": "Alternating Sceptre"
     },
     {
         "zh": "犄角短杖",
-        "en": "Horned Sceptre",
-        "uniques": []
+        "en": "Horned Sceptre"
     },
     {
         "zh": "灵鹿短杖",
-        "en": "Stag Sceptre",
-        "uniques": []
+        "en": "Stag Sceptre"
     },
     {
         "zh": "恶魔短杖",
-        "en": "Sambar Sceptre",
-        "uniques": []
+        "en": "Sambar Sceptre"
     },
     {
         "zh": "冷光长剑",
-        "en": "Baselard",
-        "uniques": []
+        "en": "Baselard"
     },
     {
         "zh": "士兵长剑",
-        "en": "Battle Sword",
-        "uniques": []
+        "en": "Battle Sword"
     },
     {
         "zh": "权贵之剑",
-        "en": "Graceful Sword",
-        "uniques": []
+        "en": "Graceful Sword"
     },
     {
         "zh": "青铜短剑",
-        "en": "Copper Sword",
-        "uniques": []
+        "en": "Copper Sword"
     },
     {
         "zh": "阔剑",
@@ -2678,128 +2593,103 @@
     },
     {
         "zh": "远古之剑",
-        "en": "Ancient Sword",
-        "uniques": []
+        "en": "Ancient Sword"
     },
     {
         "zh": "无常魂刃",
-        "en": "Fickle Spiritblade",
-        "uniques": []
+        "en": "Fickle Spiritblade"
     },
     {
         "zh": "莫测魂刃",
-        "en": "Capricious Spiritblade",
-        "uniques": []
+        "en": "Capricious Spiritblade"
     },
     {
         "zh": "无序魂刃",
-        "en": "Anarchic Spiritblade",
-        "uniques": []
+        "en": "Anarchic Spiritblade"
     },
     {
         "zh": "钩爪剑",
-        "en": "Hook Sword",
-        "uniques": []
+        "en": "Hook Sword"
     },
     {
         "zh": "捕捉者",
-        "en": "Grappler",
-        "uniques": []
+        "en": "Grappler"
     },
     {
         "zh": "虎钩",
-        "en": "Tiger Hook",
-        "uniques": []
+        "en": "Tiger Hook"
     },
     {
         "zh": "锈刺剑",
-        "en": "Rusted Spike",
-        "uniques": []
+        "en": "Rusted Spike"
     },
     {
         "zh": "冷芒刺剑",
-        "en": "Burnished Foil",
-        "uniques": []
+        "en": "Burnished Foil"
     },
     {
         "zh": "锯齿细剑",
-        "en": "Serrated Foil",
-        "uniques": []
+        "en": "Serrated Foil"
     },
     {
         "zh": "古典刺剑",
-        "en": "Primeval Rapier",
-        "uniques": []
+        "en": "Primeval Rapier"
     },
     {
         "zh": "华丽细剑",
-        "en": "Fancy Foil",
-        "uniques": []
+        "en": "Fancy Foil"
     },
     {
         "zh": "锐锋细剑",
-        "en": "Apex Rapier",
-        "uniques": []
+        "en": "Apex Rapier"
     },
     {
         "zh": "龙骨细剑",
-        "en": "Dragonbone Rapier",
-        "uniques": []
+        "en": "Dragonbone Rapier"
     },
     {
         "zh": "强化细剑",
-        "en": "Tempered Foil",
-        "uniques": []
+        "en": "Tempered Foil"
     },
     {
         "zh": "寒光刺剑",
-        "en": "Pecoraro",
-        "uniques": []
+        "en": "Pecoraro"
     },
     {
         "zh": "螺纹细剑",
-        "en": "Spiraled Foil",
-        "uniques": []
+        "en": "Spiraled Foil"
     },
     {
         "zh": "魔喙细剑",
-        "en": "Harpy Rapier",
-        "uniques": []
+        "en": "Harpy Rapier"
     },
     {
         "zh": "钝刃细剑",
-        "en": "Battered Foil",
-        "uniques": []
+        "en": "Battered Foil"
     },
     {
         "zh": "棘刺细剑",
-        "en": "Thorn Rapier",
-        "uniques": []
+        "en": "Thorn Rapier"
     },
     {
         "zh": "龙骨细剑",
-        "en": "Wyrmbone Rapier",
-        "uniques": []
+        "en": "Wyrmbone Rapier"
     },
     {
         "zh": "小剑",
-        "en": "Smallsword",
-        "uniques": []
+        "en": "Smallsword"
     },
     {
         "zh": "花魁之剑",
-        "en": "Courtesan Sword",
-        "uniques": []
+        "en": "Courtesan Sword"
     },
     {
         "zh": "骑兵军刀",
-        "en": "Dragoon Sword",
-        "uniques": []
+        "en": "Dragoon Sword"
     },
     {
         "zh": "蛇眼法杖",
-        "en": "Serpent Wand",
-        "uniques": []
+        "en": "Serpent Wand"
     },
     {
         "zh": "灵兆法杖",
@@ -2813,108 +2703,87 @@
     },
     {
         "zh": "兽角法杖",
-        "en": "Faun's Horn",
-        "uniques": []
+        "en": "Faun's Horn"
     },
     {
         "zh": "召集法杖",
-        "en": "Convoking Wand",
-        "uniques": []
+        "en": "Convoking Wand"
     },
     {
         "zh": "装配法杖",
-        "en": "Assembler Wand",
-        "uniques": []
+        "en": "Assembler Wand"
     },
     {
         "zh": "集合法杖",
-        "en": "Congregator Wand",
-        "uniques": []
+        "en": "Congregator Wand"
     },
     {
         "zh": "蓄能法杖",
-        "en": "Accumulator Wand",
-        "uniques": []
+        "en": "Accumulator Wand"
     },
     {
         "zh": "异教法杖",
-        "en": "Pagan Wand",
-        "uniques": []
+        "en": "Pagan Wand"
     },
     {
         "zh": "异徒法杖",
-        "en": "Heathen Wand",
-        "uniques": []
+        "en": "Heathen Wand"
     },
     {
         "zh": "亵渎法杖",
-        "en": "Profane Wand",
-        "uniques": []
+        "en": "Profane Wand"
     },
     {
         "zh": "直弓",
-        "en": "Decurve Bow",
-        "uniques": []
+        "en": "Decurve Bow"
     },
     {
         "zh": "复合弓",
-        "en": "Compound Bow",
-        "uniques": []
+        "en": "Compound Bow"
     },
     {
         "zh": "狙击弓",
-        "en": "Sniper Bow",
-        "uniques": []
+        "en": "Sniper Bow"
     },
     {
         "zh": "象牙弓",
-        "en": "Ivory Bow",
-        "uniques": []
+        "en": "Ivory Bow"
     },
     {
         "zh": "贵族之弓",
-        "en": "Highborn Bow",
-        "uniques": []
+        "en": "Highborn Bow"
     },
     {
         "zh": "林野猎弓",
-        "en": "Thicket Bow",
-        "uniques": []
+        "en": "Thicket Bow"
     },
     {
         "zh": "合成弓",
-        "en": "Composite Bow",
-        "uniques": []
+        "en": "Composite Bow"
     },
     {
         "zh": "丛林猎弓",
-        "en": "Grove Bow",
-        "uniques": []
+        "en": "Grove Bow"
     },
     {
         "zh": "多面弓",
-        "en": "Hedron Bow",
-        "uniques": []
+        "en": "Hedron Bow"
     },
     {
         "zh": "铸造弓",
-        "en": "Foundry Bow",
-        "uniques": []
+        "en": "Foundry Bow"
     },
     {
         "zh": "日裔弓",
-        "en": "Solarine Bow",
-        "uniques": []
+        "en": "Solarine Bow"
     },
     {
         "zh": "反射弓",
-        "en": "Reflex Bow",
-        "uniques": []
+        "en": "Reflex Bow"
     },
     {
         "zh": "马拉克斯弓",
-        "en": "Maraketh Bow",
-        "uniques": []
+        "en": "Maraketh Bow"
     },
     {
         "zh": "恶灵长杖",
@@ -2928,13 +2797,11 @@
     },
     {
         "zh": "粗制长杖",
-        "en": "Primitive Staff",
-        "uniques": []
+        "en": "Primitive Staff"
     },
     {
         "zh": "坚木长杖",
-        "en": "Woodful Staff",
-        "uniques": []
+        "en": "Woodful Staff"
     },
     {
         "zh": "细柄长杖",
@@ -2948,272 +2815,218 @@
     },
     {
         "zh": "变形长杖",
-        "en": "Transformer Staff",
-        "uniques": []
+        "en": "Transformer Staff"
     },
     {
         "zh": "交换长杖",
-        "en": "Reciprocation Staff",
-        "uniques": []
+        "en": "Reciprocation Staff"
     },
     {
         "zh": "蓄能长杖",
-        "en": "Battery Staff",
-        "uniques": []
+        "en": "Battery Staff"
     },
     {
         "zh": "新月长杖",
-        "en": "Crescent Staff",
-        "uniques": []
+        "en": "Crescent Staff"
     },
     {
         "zh": "月神长杖",
-        "en": "Moon Staff",
-        "uniques": []
+        "en": "Moon Staff"
     },
     {
         "zh": "月蚀长杖",
-        "en": "Eclipse Staff",
-        "uniques": []
+        "en": "Eclipse Staff"
     },
     {
         "zh": "载荷之杖",
-        "en": "Capacity Rod",
-        "uniques": []
+        "en": "Capacity Rod"
     },
     {
         "zh": "潜力之杖",
-        "en": "Potentiality Rod",
-        "uniques": []
+        "en": "Potentiality Rod"
     },
     {
         "zh": "潜能之杖",
-        "en": "Eventuality Rod",
-        "uniques": []
+        "en": "Eventuality Rod"
     },
     {
         "zh": "石斧",
-        "en": "Stone Axe",
-        "uniques": []
+        "en": "Stone Axe"
     },
     {
         "zh": "权贵巨斧",
-        "en": "Noble Axe",
-        "uniques": []
+        "en": "Noble Axe"
     },
     {
         "zh": "碎玉大斧",
-        "en": "Jade Chopper",
-        "uniques": []
+        "en": "Jade Chopper"
     },
     {
         "zh": "双刃巨斧",
-        "en": "Double Axe",
-        "uniques": []
+        "en": "Double Axe"
     },
     {
         "zh": "金柄之斧",
-        "en": "Gilded Axe",
-        "uniques": []
+        "en": "Gilded Axe"
     },
     {
         "zh": "裂木巨斧",
-        "en": "Timber Axe",
-        "uniques": []
+        "en": "Timber Axe"
     },
     {
         "zh": "首要砍刀",
-        "en": "Prime Cleaver",
-        "uniques": []
+        "en": "Prime Cleaver"
     },
     {
         "zh": "磨利砍刀",
-        "en": "Honed Cleaver",
-        "uniques": []
+        "en": "Honed Cleaver"
     },
     {
         "zh": "锋锐砍刀",
-        "en": "Apex Cleaver",
-        "uniques": []
+        "en": "Apex Cleaver"
     },
     {
         "zh": "匕斧",
-        "en": "Dagger Axe",
-        "uniques": []
+        "en": "Dagger Axe"
     },
     {
         "zh": "猛禽爪斧",
-        "en": "Talon Axe",
-        "uniques": []
+        "en": "Talon Axe"
     },
     {
         "zh": "裂肉者",
-        "en": "Fleshripper",
-        "uniques": []
+        "en": "Fleshripper"
     },
     {
         "zh": "朽木巨锤",
-        "en": "Driftwood Maul",
-        "uniques": []
+        "en": "Driftwood Maul"
     },
     {
         "zh": "凶刺巨锤",
-        "en": "Spiny Maul",
-        "uniques": []
+        "en": "Spiny Maul"
     },
     {
         "zh": "华丽重锤",
-        "en": "Plated Maul",
-        "uniques": []
+        "en": "Plated Maul"
     },
     {
         "zh": "巨型重锤",
-        "en": "Colossus Mallet",
-        "uniques": []
+        "en": "Colossus Mallet"
     },
     {
         "zh": "扫荡者",
-        "en": "Piledriver",
-        "uniques": []
+        "en": "Piledriver"
     },
     {
         "zh": "祭仪巨锤",
-        "en": "Tribal Maul",
-        "uniques": []
+        "en": "Tribal Maul"
     },
     {
         "zh": "千斤锤",
-        "en": "Mallet",
-        "uniques": []
+        "en": "Mallet"
     },
     {
         "zh": "恐惧重锤",
-        "en": "Fright Maul",
-        "uniques": []
+        "en": "Fright Maul"
     },
     {
         "zh": "图腾巨锤",
-        "en": "Totemic Maul",
-        "uniques": []
+        "en": "Totemic Maul"
     },
     {
         "zh": "钝击之力凝聚器",
-        "en": "Blunt Force Condenser",
-        "uniques": []
+        "en": "Blunt Force Condenser"
     },
     {
         "zh": "破坏之力放大器",
-        "en": "Crushing Force Magnifier",
-        "uniques": []
+        "en": "Crushing Force Magnifier"
     },
     {
         "zh": "冲击之力扩散器",
-        "en": "Impact Force Propagator",
-        "uniques": []
+        "en": "Impact Force Propagator"
     },
     {
         "zh": "晨星",
-        "en": "Morning Star",
-        "uniques": []
+        "en": "Morning Star"
     },
     {
         "zh": "日光锤",
-        "en": "Solar Maul",
-        "uniques": []
+        "en": "Solar Maul"
     },
     {
         "zh": "花冠重锤",
-        "en": "Coronal Maul",
-        "uniques": []
+        "en": "Coronal Maul"
     },
     {
         "zh": "符文巨剑",
-        "en": "Engraved Greatsword",
-        "uniques": []
+        "en": "Engraved Greatsword"
     },
     {
         "zh": "凶灵巨剑",
-        "en": "Wraith Sword",
-        "uniques": []
+        "en": "Wraith Sword"
     },
     {
         "zh": "行刑巨剑",
-        "en": "Headman's Sword",
-        "uniques": []
+        "en": "Headman's Sword"
     },
     {
         "zh": "瓦尔巨剑",
-        "en": "Vaal Greatsword",
-        "uniques": []
+        "en": "Vaal Greatsword"
     },
     {
         "zh": "大剑",
-        "en": "Longsword",
-        "uniques": []
+        "en": "Longsword"
     },
     {
         "zh": "双手剑",
-        "en": "Two-Handed Sword",
-        "uniques": []
+        "en": "Two-Handed Sword"
     },
     {
         "zh": "幽魂巨剑",
-        "en": "Spectral Sword",
-        "uniques": []
+        "en": "Spectral Sword"
     },
     {
         "zh": "冷血巨剑",
-        "en": "Butcher Sword",
-        "uniques": []
+        "en": "Butcher Sword"
     },
     {
         "zh": "士兵巨剑",
-        "en": "Footman Sword",
-        "uniques": []
+        "en": "Footman Sword"
     },
     {
         "zh": "责难刀",
-        "en": "Rebuking Blade",
-        "uniques": []
+        "en": "Rebuking Blade"
     },
     {
         "zh": "爆破刀",
-        "en": "Blasting Blade",
-        "uniques": []
+        "en": "Blasting Blade"
     },
     {
         "zh": "放逐刀",
-        "en": "Banishing Blade",
-        "uniques": []
+        "en": "Banishing Blade"
     },
     {
         "zh": "弯刃",
-        "en": "Curved Blade",
-        "uniques": []
+        "en": "Curved Blade"
     },
     {
         "zh": "细刃",
-        "en": "Lithe Blade",
-        "uniques": []
+        "en": "Lithe Blade"
     },
     {
         "zh": "精致之刃",
-        "en": "Exquisite Blade",
-        "uniques": []
+        "en": "Exquisite Blade"
     },
     {
         "zh": "召唤法杖",
-        "en": "Calling Wand",
-        "uniques": []
+        "en": "Calling Wand"
     },
     {
         "zh": "盘曲法杖",
-        "en": "Coiled Wand",
-        "uniques": []
+        "en": "Coiled Wand"
     },
     {
         "zh": "能量之刃",
-        "en": "Energy Blade",
-        "uniques": []
+        "en": "Energy Blade"
     }
 ]

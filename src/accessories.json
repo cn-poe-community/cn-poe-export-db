@@ -1217,178 +1217,143 @@
     },
     {
         "zh": "海晶护符",
-        "en": "Seaglass Amulet",
-        "uniques": []
+        "en": "Seaglass Amulet"
     },
     {
         "zh": "星盘项链",
-        "en": "Astrolabe Amulet",
-        "uniques": []
+        "en": "Astrolabe Amulet"
     },
     {
         "zh": "朴实项链",
-        "en": "Simplex Amulet",
-        "uniques": []
+        "en": "Simplex Amulet"
     },
     {
         "zh": "巨颚魔符",
-        "en": "Mandible Talisman",
-        "uniques": []
+        "en": "Mandible Talisman"
     },
     {
         "zh": "虫蛹魔符",
-        "en": "Chrysalis Talisman",
-        "uniques": []
+        "en": "Chrysalis Talisman"
     },
     {
         "zh": "狂癫魔符",
-        "en": "Writhing Talisman",
-        "uniques": []
+        "en": "Writhing Talisman"
     },
     {
         "zh": "脊骨魔符",
-        "en": "Bonespire Talisman",
-        "uniques": []
+        "en": "Bonespire Talisman"
     },
     {
         "zh": "灰烬魔符",
-        "en": "Ashscale Talisman",
-        "uniques": []
+        "en": "Ashscale Talisman"
     },
     {
         "zh": "孤角魔符",
-        "en": "Lone Antler Talisman",
-        "uniques": []
+        "en": "Lone Antler Talisman"
     },
     {
         "zh": "深渊魔符",
-        "en": "Deep One Talisman",
-        "uniques": []
+        "en": "Deep One Talisman"
     },
     {
         "zh": "碎骨魔符",
-        "en": "Breakrib Talisman",
-        "uniques": []
+        "en": "Breakrib Talisman"
     },
     {
         "zh": "亡手魔符",
-        "en": "Deadhand Talisman",
-        "uniques": []
+        "en": "Deadhand Talisman"
     },
     {
         "zh": "不朽魔符",
-        "en": "Undying Flesh Talisman",
-        "uniques": []
+        "en": "Undying Flesh Talisman"
     },
     {
         "zh": "腐首魔符",
-        "en": "Rot Head Talisman",
-        "uniques": []
+        "en": "Rot Head Talisman"
     },
     {
         "zh": "幻爪魔符",
-        "en": "Hexclaw Talisman",
-        "uniques": []
+        "en": "Hexclaw Talisman"
     },
     {
         "zh": "皇骨魔符",
-        "en": "Primal Skull Talisman",
-        "uniques": []
+        "en": "Primal Skull Talisman"
     },
     {
         "zh": "断螈魔符",
-        "en": "Splitnewt Talisman",
-        "uniques": []
+        "en": "Splitnewt Talisman"
     },
     {
         "zh": "双子魔符",
-        "en": "Avian Twins Talisman",
-        "uniques": []
+        "en": "Avian Twins Talisman"
     },
     {
         "zh": "齿鲨魔符",
-        "en": "Fangjaw Talisman",
-        "uniques": []
+        "en": "Fangjaw Talisman"
     },
     {
         "zh": "尖角魔符",
-        "en": "Horned Talisman",
-        "uniques": []
+        "en": "Horned Talisman"
     },
     {
         "zh": "潜能魔符",
-        "en": "Spinefuse Talisman",
-        "uniques": []
+        "en": "Spinefuse Talisman"
     },
     {
         "zh": "三鼠魔符",
-        "en": "Three Rat Talisman",
-        "uniques": []
+        "en": "Three Rat Talisman"
     },
     {
         "zh": "双猴魔符",
-        "en": "Monkey Twins Talisman",
-        "uniques": []
+        "en": "Monkey Twins Talisman"
     },
     {
         "zh": "长牙魔符",
-        "en": "Longtooth Talisman",
-        "uniques": []
+        "en": "Longtooth Talisman"
     },
     {
         "zh": "猴掌魔符",
-        "en": "Monkey Paw Talisman",
-        "uniques": []
+        "en": "Monkey Paw Talisman"
     },
     {
         "zh": "三手魔符",
-        "en": "Three Hands Talisman",
-        "uniques": []
+        "en": "Three Hands Talisman"
     },
     {
         "zh": "低酿腰带",
-        "en": "Micro-Distillery Belt",
-        "uniques": []
+        "en": "Micro-Distillery Belt"
     },
     {
         "zh": "警戒腰带",
-        "en": "Mechalarm Belt",
-        "uniques": []
+        "en": "Mechalarm Belt"
     },
     {
         "zh": "裂隙戒指",
-        "en": "Breach Ring",
-        "uniques": []
+        "en": "Breach Ring"
     },
     {
         "zh": "朱砂之戒",
-        "en": "Vermillion Ring",
-        "uniques": []
+        "en": "Vermillion Ring"
     },
     {
         "zh": "天蓝之戒",
-        "en": "Cerulean Ring",
-        "uniques": []
+        "en": "Cerulean Ring"
     },
     {
         "zh": "青石戒指",
-        "en": "Iolite Ring",
-        "uniques": []
+        "en": "Iolite Ring"
     },
     {
         "zh": "齿轮戒指",
-        "en": "Cogwork Ring",
-        "uniques": []
+        "en": "Cogwork Ring"
     },
     {
         "zh": "地线戒指",
-        "en": "Geodesic Ring",
-        "uniques": []
+        "en": "Geodesic Ring"
     },
     {
         "zh": "赏金猎人饰品",
-        "en": "Thief's Trinket",
-        "uniques": []
+        "en": "Thief's Trinket"
     },
     {
         "zh": "戒指",
@@ -1402,32 +1367,26 @@
     },
     {
         "zh": "骨环",
-        "en": "Bone Ring",
-        "uniques": []
+        "en": "Bone Ring"
     },
     {
         "zh": "戒指：暮色",
-        "en": "Dusk Ring",
-        "uniques": []
+        "en": "Dusk Ring"
     },
     {
         "zh": "戒指：薄暮",
-        "en": "Gloam Ring",
-        "uniques": []
+        "en": "Gloam Ring"
     },
     {
         "zh": "戒指：半影",
-        "en": "Penumbra Ring",
-        "uniques": []
+        "en": "Penumbra Ring"
     },
     {
         "zh": "戒指：暗影",
-        "en": "Shadowed Ring",
-        "uniques": []
+        "en": "Shadowed Ring"
     },
     {
         "zh": "戒指：暗黑",
-        "en": "Tenebrous Ring",
-        "uniques": []
+        "en": "Tenebrous Ring"
     }
 ]

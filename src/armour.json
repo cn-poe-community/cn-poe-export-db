@@ -3461,18 +3461,15 @@
     },
     {
         "zh": "破旧外套",
-        "en": "Shabby Jerkin",
-        "uniques": []
+        "en": "Shabby Jerkin"
     },
     {
         "zh": "荣耀皮甲",
-        "en": "Glorious Leather",
-        "uniques": []
+        "en": "Glorious Leather"
     },
     {
         "zh": "连身皮甲",
-        "en": "Full Leather",
-        "uniques": []
+        "en": "Full Leather"
     },
     {
         "zh": "日光皮甲",
@@ -3486,68 +3483,55 @@
     },
     {
         "zh": "窃贼之装",
-        "en": "Thief's Garb",
-        "uniques": []
+        "en": "Thief's Garb"
     },
     {
         "zh": "鳗皮之衣",
-        "en": "Eelskin Tunic",
-        "uniques": []
+        "en": "Eelskin Tunic"
     },
     {
         "zh": "边戍皮甲",
-        "en": "Frontier Leather",
-        "uniques": []
+        "en": "Frontier Leather"
     },
     {
         "zh": "绯红之衣",
-        "en": "Crimson Raiment",
-        "uniques": []
+        "en": "Crimson Raiment"
     },
     {
         "zh": "地穴战甲",
-        "en": "Crypt Armour",
-        "uniques": []
+        "en": "Crypt Armour"
     },
     {
         "zh": "防水背心",
-        "en": "Oiled Vest",
-        "uniques": []
+        "en": "Oiled Vest"
     },
     {
         "zh": "长袖棉袄",
-        "en": "Padded Jacket",
-        "uniques": []
+        "en": "Padded Jacket"
     },
     {
         "zh": "防水外衣",
-        "en": "Oiled Coat",
-        "uniques": []
+        "en": "Oiled Coat"
     },
     {
         "zh": "炽红之衣",
-        "en": "Scarlet Raiment",
-        "uniques": []
+        "en": "Scarlet Raiment"
     },
     {
         "zh": "蜡封束衣",
-        "en": "Waxed Garb",
-        "uniques": []
+        "en": "Waxed Garb"
     },
     {
         "zh": "菱纹外衣",
-        "en": "Quilted Jacket",
-        "uniques": []
+        "en": "Quilted Jacket"
     },
     {
         "zh": "滑布外套",
-        "en": "Sleek Coat",
-        "uniques": []
+        "en": "Sleek Coat"
     },
     {
         "zh": "咒者长衣",
-        "en": "Conjurer's Vestment",
-        "uniques": []
+        "en": "Conjurer's Vestment"
     },
     {
         "zh": "绸缎背心",
@@ -3561,143 +3545,115 @@
     },
     {
         "zh": "丝绸之衣",
-        "en": "Silken Garb",
-        "uniques": []
+        "en": "Silken Garb"
     },
     {
         "zh": "博学长衣",
-        "en": "Mage's Vestment",
-        "uniques": []
+        "en": "Mage's Vestment"
     },
     {
         "zh": "丝质之袍",
-        "en": "Silk Robe",
-        "uniques": []
+        "en": "Silk Robe"
     },
     {
         "zh": "秘术法衣",
-        "en": "Cabalist Regalia",
-        "uniques": []
+        "en": "Cabalist Regalia"
     },
     {
         "zh": "丝绒背心",
-        "en": "Silken Wrap",
-        "uniques": []
+        "en": "Silken Wrap"
     },
     {
         "zh": "日光之铠",
-        "en": "Sun Plate",
-        "uniques": []
+        "en": "Sun Plate"
     },
     {
         "zh": "决斗之铠",
-        "en": "Colosseum Plate",
-        "uniques": []
+        "en": "Colosseum Plate"
     },
     {
         "zh": "庄严之铠",
-        "en": "Majestic Plate",
-        "uniques": []
+        "en": "Majestic Plate"
     },
     {
         "zh": "胸甲",
-        "en": "Chestplate",
-        "uniques": []
+        "en": "Chestplate"
     },
     {
         "zh": "连身铠甲",
-        "en": "Full Plate",
-        "uniques": []
+        "en": "Full Plate"
     },
     {
         "zh": "斗者之铠",
-        "en": "Arena Plate",
-        "uniques": []
+        "en": "Arena Plate"
     },
     {
         "zh": "领主护铠",
-        "en": "Lordly Plate",
-        "uniques": []
+        "en": "Lordly Plate"
     },
     {
         "zh": "青铜铠甲",
-        "en": "Bronze Plate",
-        "uniques": []
+        "en": "Bronze Plate"
     },
     {
         "zh": "战铠",
-        "en": "Battle Plate",
-        "uniques": []
+        "en": "Battle Plate"
     },
     {
         "zh": "细鳞背心",
-        "en": "Scale Vest",
-        "uniques": []
+        "en": "Scale Vest"
     },
     {
         "zh": "指挥者锁甲",
-        "en": "Commander's Brigandine",
-        "uniques": []
+        "en": "Commander's Brigandine"
     },
     {
         "zh": "争战鳞甲",
-        "en": "Battle Lamellar",
-        "uniques": []
+        "en": "Battle Lamellar"
     },
     {
         "zh": "龙鳞护甲",
-        "en": "Dragonscale Doublet",
-        "uniques": []
+        "en": "Dragonscale Doublet"
     },
     {
         "zh": "将军铠甲",
-        "en": "General's Brigandine",
-        "uniques": []
+        "en": "General's Brigandine"
     },
     {
         "zh": "轻锁甲",
-        "en": "Light Brigandine",
-        "uniques": []
+        "en": "Light Brigandine"
     },
     {
         "zh": "合身鳞甲",
-        "en": "Scale Doublet",
-        "uniques": []
+        "en": "Scale Doublet"
     },
     {
         "zh": "步兵锁甲",
-        "en": "Infantry Brigandine",
-        "uniques": []
+        "en": "Infantry Brigandine"
     },
     {
         "zh": "战士锁甲",
-        "en": "Soldier's Brigandine",
-        "uniques": []
+        "en": "Soldier's Brigandine"
     },
     {
         "zh": "野战薄甲",
-        "en": "Field Lamellar",
-        "uniques": []
+        "en": "Field Lamellar"
     },
     {
         "zh": "轻骑锁甲",
-        "en": "Hussar Brigandine",
-        "uniques": []
+        "en": "Hussar Brigandine"
     },
     {
         "zh": "扼杀链甲",
-        "en": "Grasping Mail",
-        "uniques": []
+        "en": "Grasping Mail"
     },
     {
         "zh": "锁链背心",
-        "en": "Chainmail Vest",
-        "uniques": []
+        "en": "Chainmail Vest"
     },
     {
         "zh": "锁子长甲",
-        "en": "Chain Hauberk",
-        "uniques": []
+        "en": "Chain Hauberk"
     },
     {
         "zh": "虔诚链甲",
@@ -3711,28 +3667,23 @@
     },
     {
         "zh": "链甲外衣",
-        "en": "Chainmail Tunic",
-        "uniques": []
+        "en": "Chainmail Tunic"
     },
     {
         "zh": "环甲外套",
-        "en": "Ringmail Coat",
-        "uniques": []
+        "en": "Ringmail Coat"
     },
     {
         "zh": "护体锁甲",
-        "en": "Chainmail Doublet",
-        "uniques": []
+        "en": "Chainmail Doublet"
     },
     {
         "zh": "连身环甲",
-        "en": "Full Ringmail",
-        "uniques": []
+        "en": "Full Ringmail"
     },
     {
         "zh": "连身锁甲",
-        "en": "Full Chainmail",
-        "uniques": []
+        "en": "Full Chainmail"
     },
     {
         "zh": "逃亡之靴",
@@ -3756,68 +3707,55 @@
     },
     {
         "zh": "裹趾凉鞋",
-        "en": "Wrapped Boots",
-        "uniques": []
+        "en": "Wrapped Boots"
     },
     {
         "zh": "伏击之靴",
-        "en": "Ambush Boots",
-        "uniques": []
+        "en": "Ambush Boots"
     },
     {
         "zh": "唤云之靴",
-        "en": "Cloudwhisper Boots",
-        "uniques": []
+        "en": "Cloudwhisper Boots"
     },
     {
         "zh": "破风之靴",
-        "en": "Windbreak Boots",
-        "uniques": []
+        "en": "Windbreak Boots"
     },
     {
         "zh": "御风之靴",
-        "en": "Stormrider Boots",
-        "uniques": []
+        "en": "Stormrider Boots"
     },
     {
         "zh": "符文胫甲",
-        "en": "Runic Greaves",
-        "uniques": []
+        "en": "Runic Greaves"
     },
     {
         "zh": "缎布便鞋",
-        "en": "Satin Slippers",
-        "uniques": []
+        "en": "Satin Slippers"
     },
     {
         "zh": "绣布便鞋",
-        "en": "Samite Slippers",
-        "uniques": []
+        "en": "Samite Slippers"
     },
     {
         "zh": "踏暮之鞋",
-        "en": "Duskwalk Slippers",
-        "uniques": []
+        "en": "Duskwalk Slippers"
     },
     {
         "zh": "夜风之鞋",
-        "en": "Nightwind Slippers",
-        "uniques": []
+        "en": "Nightwind Slippers"
     },
     {
         "zh": "探梦之鞋",
-        "en": "Dreamquest Slippers",
-        "uniques": []
+        "en": "Dreamquest Slippers"
     },
     {
         "zh": "铁锻胫甲",
-        "en": "Iron Greaves",
-        "uniques": []
+        "en": "Iron Greaves"
     },
     {
         "zh": "冷钢胫甲",
-        "en": "Steel Greaves",
-        "uniques": []
+        "en": "Steel Greaves"
     },
     {
         "zh": "瓦尔胫甲",
@@ -3831,43 +3769,35 @@
     },
     {
         "zh": "钢影长靴",
-        "en": "Steelscale Boots",
-        "uniques": []
+        "en": "Steelscale Boots"
     },
     {
         "zh": "链甲长靴",
-        "en": "Chain Boots",
-        "uniques": []
+        "en": "Chain Boots"
     },
     {
         "zh": "环甲筒靴",
-        "en": "Ringmail Boots",
-        "uniques": []
+        "en": "Ringmail Boots"
     },
     {
         "zh": "狂热者长靴",
-        "en": "Zealot Boots",
-        "uniques": []
+        "en": "Zealot Boots"
     },
     {
         "zh": "劣金之履",
-        "en": "Basemetal Treads",
-        "uniques": []
+        "en": "Basemetal Treads"
     },
     {
         "zh": "乌钢之履",
-        "en": "Darksteel Treads",
-        "uniques": []
+        "en": "Darksteel Treads"
     },
     {
         "zh": "踏烟之履",
-        "en": "Brimstone Treads",
-        "uniques": []
+        "en": "Brimstone Treads"
     },
     {
         "zh": "擒拿手套",
-        "en": "Gripped Gloves",
-        "uniques": []
+        "en": "Gripped Gloves"
     },
     {
         "zh": "丝绸手套",
@@ -3891,93 +3821,75 @@
     },
     {
         "zh": "药剂师手套",
-        "en": "Apothecary's Gloves",
-        "uniques": []
+        "en": "Apothecary's Gloves"
     },
     {
         "zh": "生皮手套",
-        "en": "Rawhide Gloves",
-        "uniques": []
+        "en": "Rawhide Gloves"
     },
     {
         "zh": "鲨皮手套",
-        "en": "Sharkskin Gloves",
-        "uniques": []
+        "en": "Sharkskin Gloves"
     },
     {
         "zh": "匿踪手套",
-        "en": "Stealth Gloves",
-        "uniques": []
+        "en": "Stealth Gloves"
     },
     {
         "zh": "猎人护手",
-        "en": "Trapper Mitts",
-        "uniques": []
+        "en": "Trapper Mitts"
     },
     {
         "zh": "笨重手套",
-        "en": "Gauche Gloves",
-        "uniques": []
+        "en": "Gauche Gloves"
     },
     {
         "zh": "南风手套",
-        "en": "Southswing Gloves",
-        "uniques": []
+        "en": "Southswing Gloves"
     },
     {
         "zh": "左旋手套",
-        "en": "Sinistral Gloves",
-        "uniques": []
+        "en": "Sinistral Gloves"
     },
     {
         "zh": "符文手套",
-        "en": "Runic Gloves",
-        "uniques": []
+        "en": "Runic Gloves"
     },
     {
         "zh": "雷线手套",
-        "en": "Leyline Gloves",
-        "uniques": []
+        "en": "Leyline Gloves"
     },
     {
         "zh": "灵风手套",
-        "en": "Aetherwind Gloves",
-        "uniques": []
+        "en": "Aetherwind Gloves"
     },
     {
         "zh": "枢纽手套",
-        "en": "Nexus Gloves",
-        "uniques": []
+        "en": "Nexus Gloves"
     },
     {
         "zh": "坚铁护手",
-        "en": "Plated Gauntlets",
-        "uniques": []
+        "en": "Plated Gauntlets"
     },
     {
         "zh": "古钢护手",
-        "en": "Antique Gauntlets",
-        "uniques": []
+        "en": "Antique Gauntlets"
     },
     {
         "zh": "环甲手套",
-        "en": "Ringmail Gloves",
-        "uniques": []
+        "en": "Ringmail Gloves"
     },
     {
         "zh": "沉重手甲",
-        "en": "Taxing Gauntlets",
-        "uniques": []
+        "en": "Taxing Gauntlets"
     },
     {
         "zh": "磨人手甲",
-        "en": "Gruelling Gauntlets",
-        "uniques": []
+        "en": "Gruelling Gauntlets"
     },
     {
         "zh": "衰弱手甲",
-        "en": "Debilitation Gauntlets",
-        "uniques": []
+        "en": "Debilitation Gauntlets"
     },
     {
         "zh": "狼首皮盔",
@@ -3991,43 +3903,35 @@
     },
     {
         "zh": "猎者之兜",
-        "en": "Hunter Hood",
-        "uniques": []
+        "en": "Hunter Hood"
     },
     {
         "zh": "贵族三角帽",
-        "en": "Noble Tricorne",
-        "uniques": []
+        "en": "Noble Tricorne"
     },
     {
         "zh": "幽惧之面",
-        "en": "Scare Mask",
-        "uniques": []
+        "en": "Scare Mask"
     },
     {
         "zh": "飓风之冠",
-        "en": "Gale Crown",
-        "uniques": []
+        "en": "Gale Crown"
     },
     {
         "zh": "寒冬之冠",
-        "en": "Winter Crown",
-        "uniques": []
+        "en": "Winter Crown"
     },
     {
         "zh": "暴雪之冠",
-        "en": "Blizzard Crown",
-        "uniques": []
+        "en": "Blizzard Crown"
     },
     {
         "zh": "符文之冠",
-        "en": "Runic Crest",
-        "uniques": []
+        "en": "Runic Crest"
     },
     {
         "zh": "刑罚头笼",
-        "en": "Torture Cage",
-        "uniques": []
+        "en": "Torture Cage"
     },
     {
         "zh": "锥顶盔",
@@ -4051,8 +3955,7 @@
     },
     {
         "zh": "角斗者之盔",
-        "en": "Gladiator Helmet",
-        "uniques": []
+        "en": "Gladiator Helmet"
     },
     {
         "zh": "掠夺者之盔",
@@ -4066,13 +3969,11 @@
     },
     {
         "zh": "残破之盔",
-        "en": "Battered Helm",
-        "uniques": []
+        "en": "Battered Helm"
     },
     {
         "zh": "轻铁护盔",
-        "en": "Sallet",
-        "uniques": []
+        "en": "Sallet"
     },
     {
         "zh": "击剑士之盔",
@@ -4086,128 +3987,103 @@
     },
     {
         "zh": "猪面头盔",
-        "en": "Pig-Faced Bascinet",
-        "uniques": []
+        "en": "Pig-Faced Bascinet"
     },
     {
         "zh": "悲伤面具",
-        "en": "Sorrow Mask",
-        "uniques": []
+        "en": "Sorrow Mask"
     },
     {
         "zh": "赎罪面具",
-        "en": "Atonement Mask",
-        "uniques": []
+        "en": "Atonement Mask"
     },
     {
         "zh": "忏悔面具",
-        "en": "Penitent Mask",
-        "uniques": []
+        "en": "Penitent Mask"
     },
     {
         "zh": "锈铁链盔",
-        "en": "Rusted Coif",
-        "uniques": []
+        "en": "Rusted Coif"
     },
     {
         "zh": "小鬼之冠",
-        "en": "Imp Crown",
-        "uniques": []
+        "en": "Imp Crown"
     },
     {
         "zh": "恶魔之冠",
-        "en": "Demon Crown",
-        "uniques": []
+        "en": "Demon Crown"
     },
     {
         "zh": "大恶魔之冠",
-        "en": "Archdemon Crown",
-        "uniques": []
+        "en": "Archdemon Crown"
     },
     {
         "zh": "斗者轻盾",
-        "en": "Battle Buckler",
-        "uniques": []
+        "en": "Battle Buckler"
     },
     {
         "zh": "钢木轻盾",
-        "en": "Ironwood Buckler",
-        "uniques": []
+        "en": "Ironwood Buckler"
     },
     {
         "zh": "圣战轻盾",
-        "en": "Crusader Buckler",
-        "uniques": []
+        "en": "Crusader Buckler"
     },
     {
         "zh": "帝国轻盾",
-        "en": "Imperial Buckler",
-        "uniques": []
+        "en": "Imperial Buckler"
     },
     {
         "zh": "铆钉轻盾",
-        "en": "Hammered Buckler",
-        "uniques": []
+        "en": "Hammered Buckler"
     },
     {
         "zh": "金面轻盾",
-        "en": "Gilded Buckler",
-        "uniques": []
+        "en": "Gilded Buckler"
     },
     {
         "zh": "橡木轻盾",
-        "en": "Oak Buckler",
-        "uniques": []
+        "en": "Oak Buckler"
     },
     {
         "zh": "吸热型轻盾",
-        "en": "Endothermic Buckler",
-        "uniques": []
+        "en": "Endothermic Buckler"
     },
     {
         "zh": "极地轻盾",
-        "en": "Polar Buckler",
-        "uniques": []
+        "en": "Polar Buckler"
     },
     {
         "zh": "适寒型轻盾",
-        "en": "Cold-attuned Buckler",
-        "uniques": []
+        "en": "Cold-attuned Buckler"
     },
     {
         "zh": "尖木刺盾",
-        "en": "Spiked Bundle",
-        "uniques": []
+        "en": "Spiked Bundle"
     },
     {
         "zh": "桤木刺盾",
-        "en": "Alder Spiked Shield",
-        "uniques": []
+        "en": "Alder Spiked Shield"
     },
     {
         "zh": "朽木刺盾",
-        "en": "Driftwood Spiked Shield",
-        "uniques": []
+        "en": "Driftwood Spiked Shield"
     },
     {
         "zh": "合金刺盾",
-        "en": "Alloyed Spiked Shield",
-        "uniques": []
+        "en": "Alloyed Spiked Shield"
     },
     {
         "zh": "华丽刺盾",
-        "en": "Ornate Spiked Shield",
-        "uniques": []
+        "en": "Ornate Spiked Shield"
     },
     {
         "zh": "红木刺盾",
-        "en": "Redwood Spiked Shield",
-        "uniques": []
+        "en": "Redwood Spiked Shield"
     },
     {
         "zh": "残枝魔盾",
-        "en": "Twig Spirit Shield",
-        "uniques": []
+        "en": "Twig Spirit Shield"
     },
     {
         "zh": "软橡魔盾",
@@ -4221,173 +4097,139 @@
     },
     {
         "zh": "紫衫魔盾",
-        "en": "Yew Spirit Shield",
-        "uniques": []
+        "en": "Yew Spirit Shield"
     },
     {
         "zh": "骨制魔盾",
-        "en": "Bone Spirit Shield",
-        "uniques": []
+        "en": "Bone Spirit Shield"
     },
     {
         "zh": "桃木魔盾",
-        "en": "Walnut Spirit Shield",
-        "uniques": []
+        "en": "Walnut Spirit Shield"
     },
     {
         "zh": "力竭魔盾",
-        "en": "Exhausting Spirit Shield",
-        "uniques": []
+        "en": "Exhausting Spirit Shield"
     },
     {
         "zh": "归纳魔盾",
-        "en": "Subsuming Spirit Shield",
-        "uniques": []
+        "en": "Subsuming Spirit Shield"
     },
     {
         "zh": "适应型魔盾",
-        "en": "Transfer-attuned Spirit Shield",
-        "uniques": []
+        "en": "Transfer-attuned Spirit Shield"
     },
     {
         "zh": "朽木塔盾",
-        "en": "Splintered Tower Shield",
-        "uniques": []
+        "en": "Splintered Tower Shield"
     },
     {
         "zh": "青铜塔盾",
-        "en": "Bronze Tower Shield",
-        "uniques": []
+        "en": "Bronze Tower Shield"
     },
     {
         "zh": "征战塔盾",
-        "en": "Girded Tower Shield",
-        "uniques": []
+        "en": "Girded Tower Shield"
     },
     {
         "zh": "荣冠塔盾",
-        "en": "Crested Tower Shield",
-        "uniques": []
+        "en": "Crested Tower Shield"
     },
     {
         "zh": "粗革塔盾",
-        "en": "Shagreen Tower Shield",
-        "uniques": []
+        "en": "Shagreen Tower Shield"
     },
     {
         "zh": "斑驳塔盾",
-        "en": "Corroded Tower Shield",
-        "uniques": []
+        "en": "Corroded Tower Shield"
     },
     {
         "zh": "铜锻塔盾",
-        "en": "Copper Tower Shield",
-        "uniques": []
+        "en": "Copper Tower Shield"
     },
     {
         "zh": "鹿皮塔盾",
-        "en": "Buckskin Tower Shield",
-        "uniques": []
+        "en": "Buckskin Tower Shield"
     },
     {
         "zh": "桃木塔盾",
-        "en": "Mahogany Tower Shield",
-        "uniques": []
+        "en": "Mahogany Tower Shield"
     },
     {
         "zh": "棘刺圆盾",
-        "en": "Spiny Round Shield",
-        "uniques": []
+        "en": "Spiny Round Shield"
     },
     {
         "zh": "杉木圆盾",
-        "en": "Fir Round Shield",
-        "uniques": []
+        "en": "Fir Round Shield"
     },
     {
         "zh": "炽红圆盾",
-        "en": "Scarlet Round Shield",
-        "uniques": []
+        "en": "Scarlet Round Shield"
     },
     {
         "zh": "光辉圆盾",
-        "en": "Splendid Round Shield",
-        "uniques": []
+        "en": "Splendid Round Shield"
     },
     {
         "zh": "枫木圆盾",
-        "en": "Maple Round Shield",
-        "uniques": []
+        "en": "Maple Round Shield"
     },
     {
         "zh": "尖刺圆盾",
-        "en": "Spiked Round Shield",
-        "uniques": []
+        "en": "Spiked Round Shield"
     },
     {
         "zh": "排热型塔盾",
-        "en": "Exothermic Tower Shield",
-        "uniques": []
+        "en": "Exothermic Tower Shield"
     },
     {
         "zh": "熔岩塔盾",
-        "en": "Magmatic Tower Shield",
-        "uniques": []
+        "en": "Magmatic Tower Shield"
     },
     {
         "zh": "适热型塔盾",
-        "en": "Heat-attuned Tower Shield",
-        "uniques": []
+        "en": "Heat-attuned Tower Shield"
     },
     {
         "zh": "椴木鸢盾",
-        "en": "Linden Kite Shield",
-        "uniques": []
+        "en": "Linden Kite Shield"
     },
     {
         "zh": "强化鸢盾",
-        "en": "Reinforced Kite Shield",
-        "uniques": []
+        "en": "Reinforced Kite Shield"
     },
     {
         "zh": "层板鸢盾",
-        "en": "Layered Kite Shield",
-        "uniques": []
+        "en": "Layered Kite Shield"
     },
     {
         "zh": "祭仪鸢盾",
-        "en": "Ceremonial Kite Shield",
-        "uniques": []
+        "en": "Ceremonial Kite Shield"
     },
     {
         "zh": "刻文鸢盾",
-        "en": "Etched Kite Shield",
-        "uniques": []
+        "en": "Etched Kite Shield"
     },
     {
         "zh": "天使鸢盾",
-        "en": "Angelic Kite Shield",
-        "uniques": []
+        "en": "Angelic Kite Shield"
     },
     {
         "zh": "冰晶箭袋",
-        "en": "Rugged Quiver",
-        "uniques": []
+        "en": "Rugged Quiver"
     },
     {
         "zh": "电光箭袋",
-        "en": "Conductive Quiver",
-        "uniques": []
+        "en": "Conductive Quiver"
     },
     {
         "zh": "轻巧箭袋",
-        "en": "Light Quiver",
-        "uniques": []
+        "en": "Light Quiver"
     },
     {
         "zh": "火炮箭袋",
-        "en": "Artillery Quiver",
-        "uniques": []
+        "en": "Artillery Quiver"
     },
     {
         "zh": "燃矢箭袋",
