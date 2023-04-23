@@ -2931,8 +2931,8 @@
     },
     {
         "id": "stat_1582728645",
-        "zh": "你被敌人击中时获得 {0} 次充能",
-        "en": "Gain {0} Charge when you are Hit by an Enemy"
+        "zh": "你被敌人击中时获得 1 次充能",
+        "en": "Gain 1 Charge when you are Hit by an Enemy"
     },
     {
         "id": "stat_1582728645",
@@ -4241,8 +4241,8 @@
     },
     {
         "id": "stat_3230795453",
-        "zh": "使用时获得 {0} 个狂怒球",
-        "en": "Gain {0} Frenzy Charge on use"
+        "zh": "使用时获得 1 个狂怒球",
+        "en": "Gain 1 Frenzy Charge on use"
     },
     {
         "id": "stat_3230795453",
@@ -4351,8 +4351,8 @@
     },
     {
         "id": "stat_2697049014",
-        "zh": "使用时获得 {0} 个暴击球",
-        "en": "Gain {0} Power Charge on use"
+        "zh": "使用时获得 1 个暴击球",
+        "en": "Gain 1 Power Charge on use"
     },
     {
         "id": "stat_2697049014",
@@ -5036,12 +5036,12 @@
     },
     {
         "id": "stat_3457100218",
-        "zh": "使用时，每个狂怒球都给予 {0} 秒猛攻状态",
+        "zh": "使用时，每个狂怒球都给予 1 秒猛攻状态",
         "en": "Gain Onslaught for {0} second per Frenzy Charge on use"
     },
     {
         "id": "stat_3457100218",
-        "zh": "使用时，每个狂怒球都给予 {0} 秒猛攻状态",
+        "zh": "使用时，每个狂怒球都给予 1 秒猛攻状态",
         "en": "Gain Onslaught for {0} seconds per Frenzy Charge on use"
     },
     {
@@ -5166,8 +5166,8 @@
     },
     {
         "id": "stat_2557247391",
-        "zh": "你消耗一具点燃的灵枢可恢复 {0} 次充能",
-        "en": "Recharges {0} Charge when you Consume an Ignited corpse"
+        "zh": "你消耗一具点燃的灵枢可恢复 1 次充能",
+        "en": "Recharges 1 Charge when you Consume an Ignited corpse"
     },
     {
         "id": "stat_2557247391",
@@ -5311,8 +5311,8 @@
     },
     {
         "id": "stat_3986030307",
-        "zh": "使用时获得 {0} 个耐力球",
-        "en": "Gain {0} Endurance Charge on use"
+        "zh": "使用时获得 1 个耐力球",
+        "en": "Gain 1 Endurance Charge on use"
     },
     {
         "id": "stat_3986030307",
@@ -7201,7 +7201,7 @@
     },
     {
         "id": "stat_2818518881",
-        "zh": "每 10 点智慧会使法术伤害提高 {0}%",
+        "zh": "每 10 点智慧会使法术伤害降低 {0}%",
         "en": "{0}% reduced Spell Damage per 10 Intelligence"
     },
     {
@@ -22346,7 +22346,7 @@
     },
     {
         "id": "stat_2881210047",
-        "zh": "受到的冰霜伤害的 {0}% 转为火焰伤害",
+        "zh": "受到的冰霜伤害的 {0}% 转为闪电伤害",
         "en": "{0}% of Cold Damage taken as Lightning Damage"
     },
     {
@@ -25506,8 +25506,8 @@
     },
     {
         "id": "stat_718638445",
-        "zh": "允许的后缀 {0}",
-        "en": "{0} Suffix Modifier allowed"
+        "zh": "允许的后缀 1",
+        "en": "1 Suffix Modifier allowed"
     },
     {
         "id": "stat_718638445",
@@ -25516,8 +25516,8 @@
     },
     {
         "id": "stat_3182714256",
-        "zh": "允许的前缀 {0}",
-        "en": "{0} Prefix Modifier allowed"
+        "zh": "允许的前缀 1",
+        "en": "1 Prefix Modifier allowed"
     },
     {
         "id": "stat_3182714256",
@@ -32231,8 +32231,8 @@
     },
     {
         "id": "stat_3503624267",
-        "zh": "【火葬】技能最多同时可额外制造 {0} 个火泉",
-        "en": "Cremation can have up to {0} additional Geyser at a time"
+        "zh": "【火葬】技能最多同时可额外制造 1 个火泉",
+        "en": "Cremation can have up to 1 additional Geyser at a time"
     },
     {
         "id": "stat_3503624267",
@@ -34721,8 +34721,8 @@
     },
     {
         "id": "stat_1460506005",
-        "zh": "【念动飞箭】额外改变 {0} 次方向",
-        "en": "Kinetic Bolt changes direction {0} additional time"
+        "zh": "【念动飞箭】额外改变 1 次方向",
+        "en": "Kinetic Bolt changes direction 1 additional time"
     },
     {
         "id": "stat_1460506005",
@@ -34856,13 +34856,13 @@
     },
     {
         "id": "stat_1993913925",
-        "zh": "【腐蚀箭矢】击中后有 {0}% 的几率造成死亡凋零，持续 {1} 秒",
-        "en": "Caustic Arrow has {0}% chance to inflict Withered on Hit for {1} second base Duration"
+        "zh": "【腐蚀箭矢】击中后有 {0}% 的几率造成死亡凋零，持续 1 秒",
+        "en": "Caustic Arrow has {0}% chance to inflict Withered on Hit for 1 second base Duration"
     },
     {
         "id": "stat_1993913925",
-        "zh": "【腐蚀箭矢】击中后造成死亡凋零，持续 {0} 秒",
-        "en": "Caustic Arrow inflicts Withered on Hit for {0} second base Duration"
+        "zh": "【腐蚀箭矢】击中后造成死亡凋零，持续 1 秒",
+        "en": "Caustic Arrow inflicts Withered on Hit for 1 second base Duration"
     },
     {
         "id": "stat_1993913925",
@@ -35191,8 +35191,8 @@
     },
     {
         "id": "stat_2977067558",
-        "zh": "【坚决战吼】获得 {0} 个额外的耐力球",
-        "en": "Enduring Cry grants {0} additional Endurance Charge"
+        "zh": "【坚决战吼】获得 1 个额外的耐力球",
+        "en": "Enduring Cry grants 1 additional Endurance Charge"
     },
     {
         "id": "stat_2977067558",
@@ -35306,7 +35306,7 @@
     },
     {
         "id": "stat_2109176627",
-        "zh": "【寒霜爆】技能会使减益效果的持续时间延长 {0}%",
+        "zh": "【寒霜爆】技能会使减益效果的持续时间缩短 {0}%",
         "en": "Frost Bomb has {0}% reduced Debuff Duration"
     },
     {
@@ -35776,8 +35776,8 @@
     },
     {
         "id": "stat_2080441723",
-        "zh": "【激励战吼】增助 {0} 次额外攻击",
-        "en": "Rallying Cry Exerts {0} additional Attack"
+        "zh": "【激励战吼】增助 1 次额外攻击",
+        "en": "Rallying Cry Exerts 1 additional Attack"
     },
     {
         "id": "stat_2080441723",
@@ -35791,8 +35791,8 @@
     },
     {
         "id": "stat_931713173",
-        "zh": "魔武战号增助额外 {0} 次攻击",
-        "en": "Battlemage's Cry Exerts {0} additional Attack"
+        "zh": "魔武战号增助额外 1 次攻击",
+        "en": "Battlemage's Cry Exerts 1 additional Attack"
     },
     {
         "id": "stat_931713173",
@@ -36206,8 +36206,8 @@
     },
     {
         "id": "stat_915160899",
-        "zh": "冰霜护盾冷却时间次数 {0}",
-        "en": "Frost Shield has {0} Cooldown Use"
+        "zh": "冰霜护盾冷却时间次数 1",
+        "en": "Frost Shield has 1 Cooldown Use"
     },
     {
         "id": "stat_915160899",
