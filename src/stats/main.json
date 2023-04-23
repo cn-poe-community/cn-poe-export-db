@@ -5037,11 +5037,11 @@
     {
         "id": "stat_3457100218",
         "zh": "使用时，每个狂怒球都给予 1 秒猛攻状态",
-        "en": "Gain Onslaught for {0} second per Frenzy Charge on use"
+        "en": "Gain Onslaught for 1 second per Frenzy Charge on use"
     },
     {
         "id": "stat_3457100218",
-        "zh": "使用时，每个狂怒球都给予 1 秒猛攻状态",
+        "zh": "使用时，每个狂怒球都给予 {0} 秒猛攻状态",
         "en": "Gain Onslaught for {0} seconds per Frenzy Charge on use"
     },
     {
@@ -26776,7 +26776,7 @@
     },
     {
         "id": "stat_1443108510",
-        "zh": "每 250 点力量会使承受的伤害降低 {0}%",
+        "zh": "每 250 点力量会使承受的伤害提高 {0}%",
         "en": "{0}% increased Damage taken per 250 Strength"
     },
     {
@@ -32441,8 +32441,8 @@
     },
     {
         "id": "stat_155429578",
-        "zh": "召唤的苦痛爬行者额外发射 {0} 的投射物",
-        "en": "Summoned Agony Crawler fires {0} additional Projectile"
+        "zh": "召唤的苦痛爬行者额外发射 1 的投射物",
+        "en": "Summoned Agony Crawler fires 1 additional Projectile"
     },
     {
         "id": "stat_155429578",
