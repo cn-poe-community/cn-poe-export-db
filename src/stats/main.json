@@ -30105,6 +30105,11 @@
         "en": "{0}% increased Explicit Critical Modifier magnitudes"
     },
     {
+        "id": "stat_2393315299",
+        "zh": "外延暴击词缀增幅降低 {0}%",
+        "en": "{0}% reduced Explicit Critical Modifier magnitudes"
+    },
+    {
         "id": "stat_4228580629",
         "zh": "被击中时有 {0}% 的几率触发【倒影之律】",
         "en": "{0}% chance to Trigger Edict of Reflection when Hit"
@@ -37795,6 +37800,11 @@
         "en": "{0}% chance to Intimidate Enemies for 4 seconds on Hit"
     },
     {
+        "id": "stat_78985352",
+        "zh": "击中威吓敌人 4 秒",
+        "en": "Intimidate Enemies for 4 seconds on Hit"
+    },
+    {
         "id": "stat_1309840354",
         "zh": "击中时施加火焰曝露，适配 {0}% 的火焰抗性",
         "en": "Inflict Fire Exposure on Hit, applying {0}% to Fire Resistance"
@@ -39908,5 +39918,10 @@
         "id": "stat_76458612",
         "zh": "你在天赋树上连接到一个职业的出发位置时，你获得：\n野蛮人：每秒生命再生 1%\n决斗者：近战打击距离 +2\n游侠：药剂充能获取率提高  20%\n暗影：攻击和施法速度加快  12%\n女巫：技能效果持续时间延长  20%\n圣堂武僧：攻击和法术伤害格挡率 +4%\n贵族：伤害提高  30%",
         "en": "While your Passive Skill Tree connects to a class' starting location, you gain:\nMarauder: 1% of Life Regenerated per second\nDuelist: +2 to Melee Strike Range\nRanger: 20% increased Flask Charges gained\nShadow: 12% increased Attack and Cast Speed\nWitch: 20% increased Skill Effect Duration\nTemplar: +4% Chance to Block Attack and Spell Damage\nScion: 30% increased Damage"
+    },
+    {
+        "id": "stat_2824722288",
+        "zh": "有一个传奇怪物出现在你面前：闪电伤害的 {0}% 转化为生命偷取",
+        "en": "While a Unique Enemy is in your Presence, {0}% of Lightning Damage Leeched as Life"
     }
 ]
