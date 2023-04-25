@@ -27626,8 +27626,8 @@
     },
     {
         "id": "stat_1343931641",
-        "zh": "有一个传奇怪物出现在你面前：你受到的感电效果提高 {0}%",
-        "en": "While a Unique Enemy is in your Presence, {0}% increased Effect of Shock on you"
+        "zh": "有一个传奇怪物出现在你面前：你受到的感电效果降低 {0}%",
+        "en": "While a Unique Enemy is in your Presence, {0}% reduced Effect of Shock on you"
     },
     {
         "id": "stat_1394771132",
@@ -39923,5 +39923,10 @@
         "id": "stat_2824722288",
         "zh": "有一个传奇怪物出现在你面前：闪电伤害的 {0}% 转化为生命偷取",
         "en": "While a Unique Enemy is in your Presence, {0}% of Lightning Damage Leeched as Life"
+    },
+    {
+        "id": "stat_614709726",
+        "zh": "有一个传奇怪物出现在你面前：技能效果持续时间延长 {0}%",
+        "en": "While a Unique Enemy is in your Presence, {0}% increased Skill Effect Duration"
     }
 ]
