@@ -13136,7 +13136,7 @@
     },
     {
         "id": "mod_24417",
-        "zh": "暴击几率提高 -3%\n+40% 攻击和法术暴击伤害加成",
+        "zh": "暴击几率提高 -3%\n+40% 全域暴击伤害加成",
         "en": "-3% to Critical Strike Chance\n+40% to Global Critical Strike Multiplier"
     },
     {
@@ -13146,12 +13146,12 @@
     },
     {
         "id": "mod_24417",
-        "zh": "+40% 攻击和法术暴击伤害加成",
+        "zh": "+40% 全域暴击伤害加成",
         "en": "+40% to Global Critical Strike Multiplier"
     },
     {
         "id": "mod_47514",
-        "zh": "暴击几率提高 -3%\n+50% 攻击和法术暴击伤害加成",
+        "zh": "暴击几率提高 -3%\n+50% 全域暴击伤害加成",
         "en": "-3% to Critical Strike Chance\n+50% to Global Critical Strike Multiplier"
     },
     {
@@ -13161,12 +13161,12 @@
     },
     {
         "id": "mod_47514",
-        "zh": "+50% 攻击和法术暴击伤害加成",
+        "zh": "+50% 全域暴击伤害加成",
         "en": "+50% to Global Critical Strike Multiplier"
     },
     {
         "id": "mod_34604",
-        "zh": "暴击几率提高 -3%\n+60% 攻击和法术暴击伤害加成",
+        "zh": "暴击几率提高 -3%\n+60% 全域暴击伤害加成",
         "en": "-3% to Critical Strike Chance\n+60% to Global Critical Strike Multiplier"
     },
     {
@@ -13176,12 +13176,12 @@
     },
     {
         "id": "mod_34604",
-        "zh": "+60% 攻击和法术暴击伤害加成",
+        "zh": "+60% 全域暴击伤害加成",
         "en": "+60% to Global Critical Strike Multiplier"
     },
     {
         "id": "mod_53788",
-        "zh": "暴击几率提高 -3%\n+60% 攻击和法术暴击伤害加成",
+        "zh": "暴击几率提高 -3%\n+60% 全域暴击伤害加成",
         "en": "-3% to Critical Strike Chance\n+60% to Global Critical Strike Multiplier"
     },
     {
@@ -13191,12 +13191,12 @@
     },
     {
         "id": "mod_53788",
-        "zh": "+60% 攻击和法术暴击伤害加成",
+        "zh": "+60% 全域暴击伤害加成",
         "en": "+60% to Global Critical Strike Multiplier"
     },
     {
         "id": "mod_55592",
-        "zh": "暴击几率提高 -3%\n+80% 攻击和法术暴击伤害加成",
+        "zh": "暴击几率提高 -3%\n+80% 全域暴击伤害加成",
         "en": "-3% to Critical Strike Chance\n+80% to Global Critical Strike Multiplier"
     },
     {
@@ -13206,12 +13206,12 @@
     },
     {
         "id": "mod_55592",
-        "zh": "+80% 攻击和法术暴击伤害加成",
+        "zh": "+80% 全域暴击伤害加成",
         "en": "+80% to Global Critical Strike Multiplier"
     },
     {
         "id": "mod_28638",
-        "zh": "暴击几率提高 -3%\n+100% 攻击和法术暴击伤害加成",
+        "zh": "暴击几率提高 -3%\n+100% 全域暴击伤害加成",
         "en": "-3% to Critical Strike Chance\n+100% to Global Critical Strike Multiplier"
     },
     {
@@ -13221,7 +13221,7 @@
     },
     {
         "id": "mod_28638",
-        "zh": "+100% 攻击和法术暴击伤害加成",
+        "zh": "+100% 全域暴击伤害加成",
         "en": "+100% to Global Critical Strike Multiplier"
     },
     {
@@ -13721,7 +13721,7 @@
     },
     {
         "id": "mod_32122",
-        "zh": "攻击速度减慢 50%\n攻击和法术无法被闪避",
+        "zh": "攻击速度减慢 50%\n击中无法被闪避",
         "en": "50% reduced Attack Speed\nHits can't be Evaded"
     },
     {
@@ -13731,12 +13731,12 @@
     },
     {
         "id": "mod_32122",
-        "zh": "攻击和法术无法被闪避",
+        "zh": "击中无法被闪避",
         "en": "Hits can't be Evaded"
     },
     {
         "id": "mod_49071",
-        "zh": "暴击几率提高 -5%\n攻击和法术无法被闪避",
+        "zh": "暴击几率提高 -5%\n击中无法被闪避",
         "en": "-5% to Critical Strike Chance\nHits can't be Evaded"
     },
     {
@@ -13746,7 +13746,7 @@
     },
     {
         "id": "mod_49071",
-        "zh": "攻击和法术无法被闪避",
+        "zh": "击中无法被闪避",
         "en": "Hits can't be Evaded"
     },
     {
@@ -14251,13 +14251,13 @@
     },
     {
         "id": "mod_62418",
-        "zh": "技能的保留效能降低 {0}%",
-        "en": "{0}% reduced Reservation Efficiency of Skills"
+        "zh": "技能的保留效能降低 15%",
+        "en": "15% reduced Reservation Efficiency of Skills"
     },
     {
         "id": "mod_62418",
-        "zh": "法术暴击率 +{0}%",
-        "en": "+{0}% to Spell Critical Strike Chance"
+        "zh": "法术暴击率 +0.8%",
+        "en": "+0.8% to Spell Critical Strike Chance"
     },
     {
         "id": "mod_14609",
@@ -22416,13 +22416,13 @@
     },
     {
         "id": "mod_40621",
-        "zh": "暴击球的持续时间缩短 {50}%\n击败敌人时获得一个暴击球",
+        "zh": "暴击球的持续时间缩短 50%\n击败敌人时获得一个暴击球",
         "en": "50% reduced Power Charge Duration\nGain a Power Charge on Kill"
     },
     {
         "id": "mod_40621",
-        "zh": "暴击球的持续时间缩短 {0}%",
-        "en": "{0}% reduced Power Charge Duration"
+        "zh": "暴击球的持续时间缩短 50%",
+        "en": "50% reduced Power Charge Duration"
     },
     {
         "id": "mod_40621",
@@ -22436,8 +22436,8 @@
     },
     {
         "id": "mod_43492",
-        "zh": "耐力球持续时间缩短 {0}%",
-        "en": "{0}% reduced Endurance Charge Duration"
+        "zh": "耐力球持续时间缩短 50%",
+        "en": "50% reduced Endurance Charge Duration"
     },
     {
         "id": "mod_43492",
@@ -27811,12 +27811,12 @@
     },
     {
         "id": "mod_24083",
-        "zh": "插入的技能石被 25 级的圣祝辅助",
+        "zh": "插入的技能石被 25 级的神圣祝福辅助",
         "en": "Socketed Gems are Supported by Level 25 Divine Blessing"
     },
     {
         "id": "mod_26284",
-        "zh": "插入的技能石被 25 级的圣祝辅助",
+        "zh": "插入的技能石被 25 级的神圣祝福辅助",
         "en": "Socketed Gems are Supported by Level 25 Divine Blessing"
     },
     {
