@@ -3,5 +3,20 @@
         "id": "impurity_cold_damage_taken_+%_final",
         "zh": "承受的冰霜伤害总降 {0}%",
         "en": "{0}% less Cold Damage taken"
+    },
+    {
+        "id": "buff_time_passed_+%",
+        "zh": "你受到的有益效果消减速度加快 {0}%",
+        "en": "Buffs on you expire {0}% faster"
+    },
+    {
+        "id": "buff_time_passed_+%",
+        "zh": "你受到的有益效果消减速度减慢 {0}%",
+        "en": "Buffs on you expire {0}% slower"
+    },
+    {
+        "id": "minion_life_recovery_rate_+%",
+        "zh": "召唤生物的生命回复率提高 {0}%",
+        "en": "Minions have {0}% increased Life Recovery rate"
     }
 ]

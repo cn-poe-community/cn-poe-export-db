@@ -23087,12 +23087,12 @@
     {
         "id": "stat_1874553720",
         "zh": "你被冰缓的持续时间延长 {0}%",
-        "en": "{0}% reduced Chill Duration on you"
+        "en": "{0}% increased Chill Duration on you"
     },
     {
         "id": "stat_1874553720",
         "zh": "你被冰缓的持续时间缩短 {0}%",
-        "en": "{0}% increased Chill Duration on you"
+        "en": "{0}% reduced Chill Duration on you"
     },
     {
         "id": "stat_2856326982",
@@ -28478,6 +28478,11 @@
         "id": "stat_3141084961",
         "zh": "有一个异界图鉴最终首领出现在你面前：召唤生物的伤害提高 {0}%",
         "en": "While a Pinnacle Atlas Boss is in your Presence, Minions deal {0}% increased Damage"
+    },
+    {
+        "id": "stat_993223747",
+        "zh": "有一个传奇怪物出现在你面前：近战击中有 {0}% 的几率提供护体状态",
+        "en": "While a Unique Enemy is in your Presence, Melee Hits have {0}% chance to Fortify"
     },
     {
         "id": "stat_993223747",
@@ -39928,5 +39933,10 @@
         "id": "stat_614709726",
         "zh": "有一个传奇怪物出现在你面前：技能效果持续时间延长 {0}%",
         "en": "While a Unique Enemy is in your Presence, {0}% increased Skill Effect Duration"
+    },
+    {
+        "id": "stat_1172401338",
+        "zh": "有一个传奇怪物出现在你面前：混沌伤害的 {0}% 转化为生命偷取",
+        "en": "While a Unique Enemy is in your Presence, {0}% of Chaos Damage Leeched as Life"
     }
 ]
