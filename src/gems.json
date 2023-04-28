@@ -3686,14 +3686,6 @@
     {
         "skills": [
             {
-                "en": "Reap",
-                "zh": "赤炼绝命"
-            }
-        ]
-    },
-    {
-        "skills": [
-            {
                 "en": "Shield Crush",
                 "zh": "盾牌碾压"
             }
@@ -4157,6 +4149,10 @@
     },
     {
         "skills": [
+            {
+                "en": "Reap",
+                "zh": "绝命之镰"
+            },
             {
                 "en": "Vaal Reap",
                 "zh": "瓦尔：绝命之镰"

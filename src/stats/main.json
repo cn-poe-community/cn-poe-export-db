@@ -171,12 +171,12 @@
     },
     {
         "id": "stat_587431675",
-        "zh": "攻击和法术暴击率提高 {0}%",
+        "zh": "全域暴击率提高 {0}%",
         "en": "{0}% increased Global Critical Strike Chance"
     },
     {
         "id": "stat_587431675",
-        "zh": "攻击和法术暴击率降低 {0}%",
+        "zh": "全域暴击率降低 {0}%",
         "en": "{0}% reduced Global Critical Strike Chance"
     },
     {
@@ -236,7 +236,7 @@
     },
     {
         "id": "stat_3556824919",
-        "zh": "{0}% 攻击和法术暴击伤害加成",
+        "zh": "{0}% 全域暴击伤害加成",
         "en": "{0}% to Global Critical Strike Multiplier"
     },
     {
@@ -2146,7 +2146,7 @@
     },
     {
         "id": "stat_4126210832",
-        "zh": "攻击和法术无法被闪避",
+        "zh": "击中无法被闪避",
         "en": "Hits can't be Evaded"
     },
     {
@@ -5136,12 +5136,12 @@
     },
     {
         "id": "stat_1939202111",
-        "zh": "对致盲的敌人时，攻击和法术暴击率提高 {0}%",
+        "zh": "对致盲敌人的暴击率提高 {0}%",
         "en": "{0}% increased Critical Strike Chance against Blinded Enemies"
     },
     {
         "id": "stat_1939202111",
-        "zh": "对致盲的敌人时，攻击和法术暴击率降低 {0}%",
+        "zh": "对致盲敌人的暴击率降低 {0}%",
         "en": "{0}% reduced Critical Strike Chance against Blinded Enemies"
     },
     {
@@ -6131,7 +6131,7 @@
     },
     {
         "id": "stat_1881314095",
-        "zh": "与周围玩家分享耐力球",
+        "zh": "与周围队友分享耐力球",
         "en": "Share Endurance Charges with nearby party members"
     },
     {
@@ -6566,7 +6566,7 @@
     },
     {
         "id": "stat_35810390",
-        "zh": "每个绿色插槽 +{0}% 攻击和法术暴击伤害加成",
+        "zh": "每个绿色插槽 +{0}% 全域暴击伤害加成",
         "en": "+{0}% to Global Critical Strike Multiplier per Green Socket"
     },
     {
@@ -7286,7 +7286,7 @@
     },
     {
         "id": "stat_2864779809",
-        "zh": "当你总计消耗超过 800 点魔力后，获得 {0}% 攻击和法术基础暴击率，持续 2 秒",
+        "zh": "当你总计消耗超过 800 点魔力后， {0}% 暴击率，持续 2 秒",
         "en": "Gain {0}% to Critical Strike Chance for 2 seconds after Spending a total of 800 Mana"
     },
     {
@@ -8951,12 +8951,12 @@
     },
     {
         "id": "stat_4181057577",
-        "zh": "攻击和法术总暴击率总增 {0}%",
+        "zh": "暴击率总增 {0}%",
         "en": "{0}% more Critical Strike Chance"
     },
     {
         "id": "stat_4181057577",
-        "zh": "攻击和法术总暴击率总降 {0}%",
+        "zh": "暴击率总降 {0}%",
         "en": "{0}% less Critical Strike Chance"
     },
     {
@@ -9041,7 +9041,7 @@
     },
     {
         "id": "stat_4091848539",
-        "zh": "格挡后的短时间内 {0} 护甲",
+        "zh": "格挡后的近期内 {0} 护甲",
         "en": "{0} Armour if you've Blocked Recently"
     },
     {
@@ -10041,7 +10041,7 @@
     },
     {
         "id": "stat_1165023334",
-        "zh": "你的攻击和法术无法被闪避",
+        "zh": "你的击中无法被闪避",
         "en": "Your hits can't be Evaded"
     },
     {
@@ -10831,7 +10831,7 @@
     },
     {
         "id": "stat_1818900806",
-        "zh": "每个暴击球 {0}% 攻击和法术基础暴击率",
+        "zh": "每个暴击球 {0}% 暴击率",
         "en": "{0}% Critical Strike Chance per Power Charge"
     },
     {
@@ -11241,12 +11241,12 @@
     },
     {
         "id": "stat_3919557483",
-        "zh": "点燃 1 个敌人后的短时间内，燃烧伤害提高 {0}%",
+        "zh": "点燃 1 个敌人后的近期内，燃烧伤害提高 {0}%",
         "en": "{0}% increased Burning Damage if you've Ignited an Enemy Recently"
     },
     {
         "id": "stat_3919557483",
-        "zh": "点燃 1 个敌人后的短时间内，燃烧伤害降低 {0}%",
+        "zh": "点燃 1 个敌人后的近期内，燃烧伤害降低 {0}%",
         "en": "{0}% reduced Burning Damage if you've Ignited an Enemy Recently"
     },
     {
@@ -11536,7 +11536,7 @@
     },
     {
         "id": "stat_1154827254",
-        "zh": "范围内若未配置力量，则每 10 点 {0}% 攻击和法术暴击伤害加成",
+        "zh": "范围内每 10 点未配置的力量，{0}% 暴击伤害加成",
         "en": "{0}% to Critical Strike Multiplier per 10 Strength on Unallocated Passives in Radius"
     },
     {
@@ -11986,7 +11986,7 @@
     },
     {
         "id": "stat_1349296959",
-        "zh": "生效期间免疫烈毒",
+        "zh": "生效期间免疫中毒",
         "en": "Immunity to Poison during Effect"
     },
     {
@@ -12236,7 +12236,7 @@
     },
     {
         "id": "stat_589991690",
-        "zh": "生效期间免疫电击",
+        "zh": "生效期间免疫感电",
         "en": "Immunity to Shock during Effect"
     },
     {
@@ -13446,7 +13446,7 @@
     },
     {
         "id": "stat_3627458291",
-        "zh": "受到【愤怒】影响时，{0}% 攻击和法术暴击伤害加成",
+        "zh": "受到【愤怒】影响时，{0}% 暴击伤害加成",
         "en": "{0}% to Critical Strike Multiplier while affected by Anger"
     },
     {
@@ -14936,7 +14936,7 @@
     },
     {
         "id": "stat_2753985507",
-        "zh": "受到【憎恨】影响时，{0}% 攻击和法术基础暴击率",
+        "zh": "受到【憎恨】影响时，{0}% 暴击率",
         "en": "{0}% to Critical Strike Chance while affected by Hatred"
     },
     {
@@ -15611,7 +15611,7 @@
     },
     {
         "id": "stat_3368671817",
-        "zh": "每个轮回球可使攻击和法术附加 {0} - {1} 基础物理伤害",
+        "zh": "每个轮回球附加 {0} - {1} 基础物理伤害",
         "en": "Adds {0} to {1} Physical Damage to Attacks and Spells per Siphoning Charge"
     },
     {
@@ -17231,12 +17231,12 @@
     },
     {
         "id": "stat_3081076859",
-        "zh": "攻击和法术暴击率每级提高 {0}%",
+        "zh": "全域暴击率每级提高 {0}%",
         "en": "{0}% increased Global Critical Strike Chance per Level"
     },
     {
         "id": "stat_3081076859",
-        "zh": "攻击和法术暴击率每级降低 {0}%",
+        "zh": "全域暴击率每级降低 {0}%",
         "en": "{0}% reduced Global Critical Strike Chance per Level"
     },
     {
@@ -17521,7 +17521,7 @@
     },
     {
         "id": "stat_2355615476",
-        "zh": "对满血敌人的攻击和法术暴击伤害提高 {0}%",
+        "zh": "对满血敌人的暴击伤害提高 {0}%",
         "en": "{0}% to Critical Strike Multiplier against Enemies that are on Full Life"
     },
     {
@@ -17716,7 +17716,7 @@
     },
     {
         "id": "stat_3992636701",
-        "zh": "受到【猫之势】影响时，{0}% 攻击和法术基础暴击率",
+        "zh": "受到【猫之势】影响时，{0}% 暴击率",
         "en": "{0}% to Critical Strike Chance while affected by Aspect of the Cat"
     },
     {
@@ -19766,12 +19766,12 @@
     },
     {
         "id": "stat_1345659139",
-        "zh": "对中毒敌人的攻击和法术暴击率提高 {0}%",
+        "zh": "对中毒敌人的暴击率提高 {0}%",
         "en": "{0}% increased Critical Strike Chance against Poisoned Enemies"
     },
     {
         "id": "stat_1345659139",
-        "zh": "对中毒敌人的攻击和法术暴击率降低 {0}%",
+        "zh": "对中毒敌人的暴击率降低 {0}%",
         "en": "{0}% reduced Critical Strike Chance against Poisoned Enemies"
     },
     {
@@ -20261,7 +20261,7 @@
     },
     {
         "id": "stat_90597215",
-        "zh": "你的攻击和法术无法被致盲的敌人所闪避",
+        "zh": "被致盲的敌人无法闪避你的击中",
         "en": "Your Hits can't be Evaded by Blinded Enemies"
     },
     {
@@ -21136,12 +21136,12 @@
     },
     {
         "id": "stat_2282705842",
-        "zh": "对流血敌人的攻击和法术暴击率提高 {0}%",
+        "zh": "对流血敌人的暴击率提高 {0}%",
         "en": "{0}% increased Critical Strike Chance against Bleeding Enemies"
     },
     {
         "id": "stat_2282705842",
-        "zh": "对流血敌人的攻击和法术暴击率降低 {0}%",
+        "zh": "对流血敌人的暴击率降低 {0}%",
         "en": "{0}% reduced Critical Strike Chance against Bleeding Enemies"
     },
     {
@@ -24896,7 +24896,7 @@
     },
     {
         "id": "stat_2477381238",
-        "zh": "敌人的攻击和法术格挡率降低 {0}%",
+        "zh": "敌人的格挡率降低 {0}%",
         "en": "{0}% reduced Enemy Block Chance"
     },
     {
@@ -25531,7 +25531,7 @@
     },
     {
         "id": "stat_240289863",
-        "zh": "药剂持续期间，{0}% 攻击和法术暴击伤害加成",
+        "zh": "药剂持续期间，{0}% 暴击伤害加成",
         "en": "{0}% to Critical Strike Multiplier during any Flask Effect"
     },
     {
@@ -26731,12 +26731,12 @@
     },
     {
         "id": "stat_4023723828",
-        "zh": "若腐化，则攻击和法术暴击几率提高 {0}%",
+        "zh": "若腐化，则全域暴击率提高 {0}%",
         "en": "{0}% increased Global Critical Strike Chance if Corrupted"
     },
     {
         "id": "stat_4023723828",
-        "zh": "若腐化，则攻击和法术暴击几率降低 {0}%",
+        "zh": "若腐化，则全域暴击率降低 {0}%",
         "en": "{0}% reduced Global Critical Strike Chance if Corrupted"
     },
     {
@@ -30256,7 +30256,7 @@
     },
     {
         "id": "stat_2583039202",
-        "zh": "【飞刃风暴】的每片刀刃 {0}% 攻击和法术暴击伤害加成",
+        "zh": "【飞刃风暴】的每片刀刃 {0}% 暴击伤害加成",
         "en": "Blade Vortex has {0}% to Critical Strike Multiplier for each blade"
     },
     {
@@ -35466,7 +35466,7 @@
     },
     {
         "id": "stat_3946561324",
-        "zh": "【惩击】有 {0}% 的几率电击另一个目标",
+        "zh": "【惩击】有 {0}% 的几率闪电打击另一个目标",
         "en": "Smite has a {0}% chance for lightning to strike another target"
     },
     {
@@ -38256,7 +38256,7 @@
     },
     {
         "id": "stat_1383929411",
-        "zh": "攻击被冰冻的敌人获得等同于{0}%冰霜伤害的额外火焰伤害",
+        "zh": "击中冰冻的敌人获得等同于 {0}% 冰霜伤害的额外火焰伤害",
         "en": "Gain {0}% of Cold Damage as Extra Fire Damage against Frozen Enemies"
     },
     {
@@ -38636,7 +38636,7 @@
     },
     {
         "id": "indexable_support_142",
-        "zh": "插入的技能石被 {0} 级的【圣祝】辅助",
+        "zh": "插入的技能石被 {0} 级的【神圣祝福】辅助",
         "en": "Socketed Gems are Supported by Level {0} Divine Blessing"
     },
     {
@@ -38711,7 +38711,7 @@
     },
     {
         "id": "stat_3274973940",
-        "zh": "插入的技能石被 {0} 级的圣祝辅助",
+        "zh": "插入的技能石被 {0} 级的神圣祝福辅助",
         "en": "Socketed Gems are Supported by Level {0} Divine Blessing"
     },
     {
@@ -38821,7 +38821,7 @@
     },
     {
         "id": "stat_2889807051",
-        "zh": "近战击中视为暴走能量\n暴走",
+        "zh": "近战击中视为暴走击败\n暴走",
         "en": "Melee Hits count as Rampage Kills\nRampage"
     },
     {
