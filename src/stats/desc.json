@@ -18,5 +18,10 @@
         "id": "minion_life_recovery_rate_+%",
         "zh": "召唤生物的生命回复率提高 {0}%",
         "en": "Minions have {0}% increased Life Recovery rate"
+    },
+    {
+        "id": "hits_against_you_overwhelm_x%_of_physical_damage_reduction",
+        "zh": "击中你时压制 {0}% 的物理伤害减免",
+        "en": "Hits against you Overwhelm {0}% of Physical Damage Reduction"
     }
 ]

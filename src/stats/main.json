@@ -510,6 +510,11 @@
         "en": "Gain {0} Mana per Enemy Killed"
     },
     {
+        "id": "stat_1368271171",
+        "zh": "每击败一名敌人损失{0}点魔力",
+        "en": "Lose {0} Mana per Enemy Killed"
+    },
+    {
         "id": "stat_2106365538",
         "zh": "闪避值提高 {0}%",
         "en": "{0}% increased Evasion Rating"
@@ -2483,6 +2488,11 @@
         "id": "stat_2122183138",
         "zh": "魔力在你格挡时 {0}",
         "en": "{0} Mana gained when you Block"
+    },
+    {
+        "id": "stat_2122183138",
+        "zh": "魔力在你格挡时失去 {0}",
+        "en": "Lose {0} Mana when you Block"
     },
     {
         "id": "stat_2448920197",
@@ -30273,6 +30283,11 @@
         "id": "stat_363924732",
         "zh": "外延速度词缀增幅提高 {0}%",
         "en": "{0}% increased Explicit Speed Modifier magnitudes"
+    },
+    {
+        "id": "stat_363924732",
+        "zh": "外延速度词缀增幅降低 {0}%",
+        "en": "{0}% reduced Explicit Speed Modifier magnitudes"
     },
     {
         "id": "stat_257027296",

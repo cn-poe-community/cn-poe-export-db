@@ -214,5 +214,13 @@
     {
         "zh": "未鉴定",
         "en": "Unidentified"
+    },
+    {
+        "zh": "焚界者物品",
+        "en": "Searing Exarch Item"
+    },
+    {
+        "zh": "灭界者物品",
+        "en": "Eater of Worlds Item"
     }
 ]
