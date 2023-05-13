@@ -1,40 +1,5 @@
 [
     {
-        "id": "flask_property_1",
-        "zh": "受到的火焰伤害总降 {0}%",
-        "en": "{0}% less Fire Damage taken"
-    },
-    {
-        "id": "flask_property_2",
-        "zh": "承受的冰霜总伤害降低 {0}%",
-        "en": "{0}% less Cold Damage taken"
-    },
-    {
-        "id": "flask_property_3",
-        "zh": "受到的闪电伤害总降 {0}%",
-        "en": "{0}% less Lightning Damage taken"
-    },
-    {
-        "id": "flask_property_4",
-        "zh": "【迷踪】状态",
-        "en": "Phasing"
-    },
-    {
-        "id": "flask_property_5",
-        "zh": "护甲总增 {0}%",
-        "en": "{0}% more Armour"
-    },
-    {
-        "id": "flask_property_6",
-        "zh": "闪避值总增 {0}%",
-        "en": "{0}% more Evasion Rating"
-    },
-    {
-        "id": "flask_property_7",
-        "zh": "生效期间若你被晕眩，则你不会再次被晕眩",
-        "en": "Cannot be Stunned if you've been Stunned during Effect"
-    },
-    {
         "id": "flask_property_8",
         "zh": "持续 {0} 秒",
         "en": "Lasts {0} Seconds"
@@ -78,10 +43,5 @@
         "id": "flask_property_16",
         "zh": "{0} 秒内回复 {1} (augmented) 魔力",
         "en": "Recovers {1} (augmented) Mana over {0} Seconds"
-    },
-    {
-        "id": "flask_property_17",
-        "zh": "被玩家击中时移除该效果",
-        "en": "Effect is removed when Hit by a Player"
     }
 ]

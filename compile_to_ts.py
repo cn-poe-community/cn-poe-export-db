@@ -82,12 +82,12 @@ def removeRepeats(stats):
         en = stat["en"]
         if zh in stat_map:
             old_en = stat_map[zh]["en"]
-            if en!=old_en:
+            if en.casefold()!=old_en.casefold():
                 print("warning: same zh but diff en")
                 print(f"{zh}")
                 print(f"{old_en}")#old
                 print(f"{en}")#old
-                continue
+            continue
         stat_list.append(stat)
         stat_map[zh] = stat
     return stat_list

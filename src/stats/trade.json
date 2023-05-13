@@ -1,0 +1,3332 @@
+[
+    {
+        "id": "stat_228165595",
+        "zh": "插入的技能石被 {0} 级的低阶毒化辅助",
+        "en": "Socketed Gems are Supported by Level {0} Chance to Poison"
+    },
+    {
+        "id": "stat_2228279620",
+        "zh": "插入的技能石被 {0} 级的毒化辅助",
+        "en": "Socketed Gems are Supported by Level {0} Critical Strike Affliction"
+    },
+    {
+        "id": "stat_3922006600",
+        "zh": "插入的技能石被 {0} 级的赤嚣辅助",
+        "en": "Socketed Gems are Supported by Level {0} Arrogance"
+    },
+    {
+        "id": "stat_1079239905",
+        "zh": "插入的技能石被 {0} 级的赤炼辅助",
+        "en": "Socketed Gems are Supported by Level {0} Lifetap"
+    },
+    {
+        "id": "stat_725896422",
+        "zh": "插入的技能石被 10 级的【施法回响】辅助",
+        "en": "Socketed Gems are Supported by Level 10 Spell Echo"
+    },
+    {
+        "id": "stat_2178803872",
+        "zh": "插入的技能石被 {0} 级的【流血几率】辅助",
+        "en": "Socketed Gems are supported by Level {0} Chance to Bleed"
+    },
+    {
+        "id": "stat_28821524",
+        "zh": "插入的技能石被 {0} 级的【法术凝聚】辅助",
+        "en": "Socketed Gems are Supported by Level {0} Intensify"
+    },
+    {
+        "id": "indexable_support_73",
+        "zh": "插入的技能石被 {0} 级的【霜咬】辅助",
+        "en": "Socketed Gems are Supported by Level {0} Ice Bite"
+    },
+    {
+        "id": "stat_3425526049",
+        "zh": "插入的技能石被 10 级的【精准破坏】辅助",
+        "en": "Socketed Gems are Supported by Level 10 Controlled Destruction"
+    },
+    {
+        "id": "stat_3561676020",
+        "zh": "插入的技能石被 10 级的【凝聚】辅助",
+        "en": "Socketed Gems are Supported by Level 10 Intensify"
+    },
+    {
+        "id": "indexable_support_74",
+        "zh": "插入的技能石被 {0} 级的【急冻】辅助",
+        "en": "Socketed Gems are Supported by Level {0} Hypothermia"
+    },
+    {
+        "id": "indexable_support_120",
+        "zh": "插入的技能石被 {0} 级的【弹幕】辅助",
+        "en": "Socketed Gems are Supported by Level {0} Barrage"
+    },
+    {
+        "id": "indexable_support_125",
+        "zh": "插入的技能石被 {0} 级的【附加闪电伤害】辅助",
+        "en": "Socketed Gems are Supported by Level {0} Added Lightning Damage"
+    },
+    {
+        "id": "indexable_support_66",
+        "zh": "插入的技能石被 {0} 级的【提高暴击几率】辅助",
+        "en": "Socketed Gems are Supported by Level {0} Increased Critical Strikes"
+    },
+    {
+        "id": "indexable_support_1",
+        "zh": "插入的技能石被 {0} 级的【高阶多重投射】辅助",
+        "en": "Socketed Gems are Supported by Level {0} Greater Multiple Projectiles"
+    },
+    {
+        "id": "indexable_support_35",
+        "zh": "插入的技能石被 {0} 级的【邪恶投掷】辅助",
+        "en": "Socketed Gems are Supported by Level {0} Vicious Projectiles"
+    },
+    {
+        "id": "indexable_support_90",
+        "zh": "插入的技能石被 {0} 级的【元素集中】辅助",
+        "en": "Socketed Gems are Supported by Level {0} Elemental Focus"
+    },
+    {
+        "id": "indexable_support_47",
+        "zh": "插入的技能石被 {0} 级的【满血伤害】辅助",
+        "en": "Socketed Gems are Supported by Level {0} Damage on Full Life"
+    },
+    {
+        "id": "indexable_support_42",
+        "zh": "插入的技能石被 {0} 级的【施法回响】辅助",
+        "en": "Socketed Gems are Supported by Level {0} Spell Echo"
+    },
+    {
+        "id": "indexable_support_41",
+        "zh": "插入的技能石被 {0} 级的【多重打击】辅助",
+        "en": "Socketed Gems are Supported by Level {0} Multistrike"
+    },
+    {
+        "id": "indexable_support_70",
+        "zh": "插入的技能石被 {0} 级的【尖刺战杖】辅助",
+        "en": "Socketed Gems are Supported by Level {0} Impale"
+    },
+    {
+        "id": "indexable_support_127",
+        "zh": "插入的技能石被 {0} 级的【附加冰霜伤害】辅助",
+        "en": "Socketed Gems are Supported by Level {0} Added Cold Damage"
+    },
+    {
+        "id": "indexable_support_76",
+        "zh": "插入的技能石被 {0} 级的【武器元素伤害】辅助",
+        "en": "Socketed Gems are Supported by Level {0} Elemental Damage with Attacks"
+    },
+    {
+        "id": "indexable_support_15",
+        "zh": "插入的技能石被 {0} 级的【法术图腾】辅助",
+        "en": "Socketed Gems are Supported by Level {0} Spell Totem"
+    },
+    {
+        "id": "indexable_support_32",
+        "zh": "插入的技能石被 {0} 级的【零点射击】辅助",
+        "en": "Socketed Gems are Supported by Level {0} Point Blank"
+    },
+    {
+        "id": "stat_4082662318",
+        "zh": "插入的技能石被 {0} 的掠食辅助",
+        "en": "Socketed Gems are Supported by Level {0} Predator"
+    },
+    {
+        "id": "indexable_support_60",
+        "zh": "插入的技能石被 {0} 级的【闪电支配】辅助",
+        "en": "Socketed Gems are Supported by Level {0} Innervate"
+    },
+    {
+        "id": "indexable_support_92",
+        "zh": "插入的技能石被 {0} 级的【腐蚀】辅助",
+        "en": "Socketed Gems are Supported by Level {0} Decay"
+    },
+    {
+        "id": "indexable_support_98",
+        "zh": "插入的技能石被 {0} 级的【集中效应】辅助",
+        "en": "Socketed Gems are Supported by Level {0} Concentrated Effect"
+    },
+    {
+        "id": "indexable_support_114",
+        "zh": "插入的技能石被 {0} 级的【残暴】辅助",
+        "en": "Socketed Gems are Supported by Level {0} Brutality"
+    },
+    {
+        "id": "indexable_support_24",
+        "zh": "插入的技能石被 {0} 级的【启迪】辅助",
+        "en": "Socketed Gems are Supported by Level {0} Inspiration"
+    },
+    {
+        "id": "indexable_support_102",
+        "zh": "插入的技能石被 {0} 级的【近战】辅助",
+        "en": "Socketed Gems are Supported by Level {0} Close Combat"
+    },
+    {
+        "id": "indexable_support_67",
+        "zh": "插入的技能石被 {0} 级的【提高暴击伤害】辅助",
+        "en": "Socketed Gems are Supported by Level {0} Increased Critical Damage"
+    },
+    {
+        "id": "indexable_support_45",
+        "zh": "插入的技能石被 {0} 级的【近战伤害扩散】辅助",
+        "en": "Socketed Gems are Supported by Level {0} Melee Splash"
+    },
+    {
+        "id": "indexable_support_97",
+        "zh": "插入的技能石被 {0} 级的【精准破坏】辅助",
+        "en": "Socketed Gems are Supported by Level {0} Controlled Destruction"
+    },
+    {
+        "id": "indexable_support_3",
+        "zh": "插入的技能石被 {0} 级的【猛毒】辅助",
+        "en": "Socketed Gems are Supported by Level {0} Vile Toxins"
+    },
+    {
+        "id": "indexable_support_28",
+        "zh": "插入的技能石被 {0} 级的【怒火】辅助",
+        "en": "Socketed Gems are Supported by Level {0} Rage"
+    },
+    {
+        "id": "indexable_support_51",
+        "zh": "插入的技能石被 {0} 级的【闪电穿透】辅助",
+        "en": "Socketed Gems are Supported by Level {0} Lightning Penetration"
+    },
+    {
+        "id": "indexable_support_30",
+        "zh": "插入的技能石被 {0} 级的【暴击获得暴击球】辅助",
+        "en": "Socketed Gems are Supported by Level {0} Power Charge On Critical"
+    },
+    {
+        "id": "indexable_support_79",
+        "zh": "插入的技能石被 {0} 级的【护体】辅助",
+        "en": "Socketed Gems are Supported by Level {0} Fortify"
+    },
+    {
+        "id": "indexable_support_113",
+        "zh": "插入的技能石被 {0} 级的【暴击时施放】辅助",
+        "en": "Socketed Gems are Supported by Level {0} Cast On Critical Strike"
+    },
+    {
+        "id": "indexable_support_17",
+        "zh": "插入的技能石被 {0} 级的【多重范围施法】辅助",
+        "en": "Socketed Gems are Supported by Level {0} Spell Cascade"
+    },
+    {
+        "id": "indexable_support_43",
+        "zh": "插入的技能石被 {0} 级的【幻影射手】辅助",
+        "en": "Socketed Gems are Supported by Level {0} Mirage Archer"
+    },
+    {
+        "id": "indexable_support_118",
+        "zh": "插入的技能石被 {0} 级的【致盲】辅助",
+        "en": "Socketed Gems are Supported by Level {0} Blind"
+    },
+    {
+        "id": "indexable_support_46",
+        "zh": "插入的技能石被 {0} 级的【近战物理伤害】辅助",
+        "en": "Socketed Gems are Supported by Level {0} Melee Physical Damage"
+    },
+    {
+        "id": "indexable_support_95",
+        "zh": "插入的技能石被 {0} 级的【蛊咒】辅助",
+        "en": "Socketed Gems are Supported by Level {0} Hextouch"
+    },
+    {
+        "id": "indexable_support_37",
+        "zh": "插入的技能石被 {0} 级的【动量】辅助",
+        "en": "Socketed Gems are Supported by Level {0} Momentum"
+    },
+    {
+        "id": "indexable_support_121",
+        "zh": "插入的技能石被 {0} 级的【箭之新星】辅助",
+        "en": "Socketed Gems are Supported by Level {0} Arrow Nova"
+    },
+    {
+        "id": "indexable_support_14",
+        "zh": "插入的技能石被 {0} 级的【先祖召唤】辅助",
+        "en": "Socketed Gems are Supported by Level {0} Ancestral Call"
+    },
+    {
+        "id": "indexable_support_86",
+        "zh": "插入的技能石被 {0} 级的【快速攻击】辅助",
+        "en": "Socketed Gems are Supported by Level {0} Faster Attacks"
+    },
+    {
+        "id": "indexable_support_64",
+        "zh": "插入的技能石被 {0} 级的【召唤生物伤害】辅助",
+        "en": "Socketed Gems are Supported by Level {0} Minion Damage"
+    },
+    {
+        "id": "indexable_support_71",
+        "zh": "插入的技能石被 {0} 级的【献祭】辅助",
+        "en": "Socketed Gems are Supported by Level {0} Immolate"
+    },
+    {
+        "id": "indexable_support_128",
+        "zh": "插入的技能石被 {0} 级的【附加混沌伤害】辅助",
+        "en": "Socketed Gems are Supported by Level {0} Added Chaos Damage"
+    },
+    {
+        "id": "indexable_support_94",
+        "zh": "插入的技能石被 {0} 级的【致命异常状态】辅助",
+        "en": "Socketed Gems are Supported by Level {0} Deadly Ailments"
+    },
+    {
+        "id": "indexable_support_80",
+        "zh": "插入的技能石被 {0} 级的【分裂】辅助",
+        "en": "Socketed Gems are Supported by Level {0} Fork"
+    },
+    {
+        "id": "indexable_support_63",
+        "zh": "插入的技能石被 {0} 级的【召唤生物生命】辅助",
+        "en": "Socketed Gems are Supported by Level {0} Minion Life"
+    },
+    {
+        "id": "indexable_support_34",
+        "zh": "插入的技能石被 {0} 级的【物理转闪电】辅助",
+        "en": "Socketed Gems are Supported by Level {0} Physical to Lightning"
+    },
+    {
+        "id": "indexable_support_122",
+        "zh": "插入的技能石被 {0} 级的【大法师】辅助",
+        "en": "Socketed Gems are Supported by Level {0} Archmage"
+    },
+    {
+        "id": "indexable_support_40",
+        "zh": "插入的技能石被 {0} 级的【多重图腾】辅助",
+        "en": "Socketed Gems are Supported by Level {0} Multiple Totems"
+    },
+    {
+        "id": "indexable_support_23",
+        "zh": "插入的技能石被 {0} 级的【链爆地雷】辅助",
+        "en": "Socketed Gems are Supported by Level {0} Blastchain Mine"
+    },
+    {
+        "id": "indexable_support_96",
+        "zh": "插入的技能石被 {0} 级的【终结】辅助",
+        "en": "Socketed Gems are Supported by Level {0} Culling Strike"
+    },
+    {
+        "id": "indexable_support_29",
+        "zh": "插入的技能石被 {0} 级的【粉碎】辅助",
+        "en": "Socketed Gems are Supported by Level {0} Pulverise"
+    },
+    {
+        "id": "indexable_support_4",
+        "zh": "插入的技能石被 {0} 级的【释出】辅助",
+        "en": "Socketed Gems are Supported by Level {0} Unleash"
+    },
+    {
+        "id": "indexable_support_100",
+        "zh": "插入的技能石被 {0} 级的【冰霜穿透】辅助",
+        "en": "Socketed Gems are Supported by Level {0} Cold Penetration"
+    },
+    {
+        "id": "indexable_support_56",
+        "zh": "插入的技能石被 {0} 级的【击退】辅助",
+        "en": "Socketed Gems are Supported by Level {0} Knockback"
+    },
+    {
+        "id": "indexable_support_107",
+        "zh": "插入的技能石被 {0} 级的【连锁】辅助",
+        "en": "Socketed Gems are Supported by Level {0} Chain"
+    },
+    {
+        "id": "indexable_support_83",
+        "zh": "插入的技能石被 {0} 级的【狂噬】辅助",
+        "en": "Socketed Gems are Supported by Level {0} Feeding Frenzy"
+    },
+    {
+        "id": "indexable_support_38",
+        "zh": "插入的技能石被 {0} 级的【夜刃】辅助",
+        "en": "Socketed Gems are Supported by Level {0} Nightblade"
+    },
+    {
+        "id": "indexable_support_8",
+        "zh": "插入的技能石被 {0} 级的【陷阱】辅助",
+        "en": "Socketed Gems are Supported by Level {0} Trap"
+    },
+    {
+        "id": "indexable_support_55",
+        "zh": "插入的技能石被 {0} 级的【低阶多重投射】辅助",
+        "en": "Socketed Gems are Supported by Level {0} Lesser Multiple Projectiles"
+    },
+    {
+        "id": "indexable_support_124",
+        "zh": "插入的技能石被 {0} 级的【额外命中】辅助",
+        "en": "Socketed Gems are Supported by Level {0} Additional Accuracy"
+    },
+    {
+        "id": "indexable_support_116",
+        "zh": "插入的技能石被 {0} 级的【血魔法】辅助",
+        "en": "Socketed Gems are Supported by Level {0} Arrogance"
+    },
+    {
+        "id": "indexable_support_75",
+        "zh": "插入的技能石被 {0} 级的【高阶齐射】辅助",
+        "en": "Socketed Gems are Supported by Level {0} Greater Volley"
+    },
+    {
+        "id": "indexable_support_50",
+        "zh": "插入的技能石被 {0} 级的【瘫痪】辅助",
+        "en": "Socketed Gems are Supported by Level {0} Maim"
+    },
+    {
+        "id": "indexable_support_82",
+        "zh": "插入的技能石被 {0} 级的【火焰穿透】辅助",
+        "en": "Socketed Gems are Supported by Level {0} Fire Penetration"
+    },
+    {
+        "id": "indexable_support_39",
+        "zh": "插入的技能石被 {0} 级的【多重陷阱】辅助",
+        "en": "Socketed Gems are Supported by Level {0} Multiple Traps"
+    },
+    {
+        "id": "indexable_support_87",
+        "zh": "插入的技能石被 {0} 级的【能量偷取】辅助",
+        "en": "Socketed Gems are Supported by Level {0} Energy Leech"
+    },
+    {
+        "id": "indexable_support_89",
+        "zh": "插入的技能石被 {0} 级的【元素扩散】辅助",
+        "en": "Socketed Gems are Supported by Level {0} Elemental Proliferation"
+    },
+    {
+        "id": "indexable_support_69",
+        "zh": "插入的技能石被 {0} 级的【增大范围】辅助",
+        "en": "Socketed Gems are Supported by Level {0} Increased Area of Effect"
+    },
+    {
+        "id": "indexable_support_104",
+        "zh": "插入的技能石被 {0} 级的【凋零之触】辅助",
+        "en": "Socketed Gems are Supported by Level {0} Withering Touch"
+    },
+    {
+        "id": "indexable_support_106",
+        "zh": "插入的技能石被 {0} 级的【几率流血】辅助",
+        "en": "Socketed Gems are Supported by Level {0} Chance to Bleed"
+    },
+    {
+        "id": "indexable_support_105",
+        "zh": "插入的技能石被 {0} 级的【几率点燃】辅助",
+        "en": "Socketed Gems are Supported by Level {0} Combustion"
+    },
+    {
+        "id": "indexable_support_126",
+        "zh": "插入的技能石被 {0} 级的【附加火焰伤害】辅助",
+        "en": "Socketed Gems are Supported by Level {0} Added Fire Damage"
+    },
+    {
+        "id": "indexable_support_85",
+        "zh": "插入的技能石被 {0} 级的【快速施法】辅助",
+        "en": "Socketed Gems are Supported by Level {0} Faster Casting"
+    },
+    {
+        "id": "indexable_support_77",
+        "zh": "插入的技能石被 {0} 级的【和善】辅助",
+        "en": "Socketed Gems are Supported by Level {0} Generosity"
+    },
+    {
+        "id": "indexable_support_26",
+        "zh": "插入的技能石被 {0} 级的【极速腐化】辅助",
+        "en": "Socketed Gems are Supported by Level {0} Swift Affliction"
+    },
+    {
+        "id": "indexable_support_65",
+        "zh": "插入的技能石被 {0} 级的【持续时间延长】辅助",
+        "en": "Socketed Gems are Supported by Level {0} Increased Duration"
+    },
+    {
+        "id": "indexable_support_27",
+        "zh": "插入的技能石被 {0} 级的【弩炮图腾】辅助",
+        "en": "Socketed Gems are Supported by Level {0} Ballista Totem"
+    },
+    {
+        "id": "indexable_support_16",
+        "zh": "插入的技能石被 {0} 级的【法术凝聚】辅助",
+        "en": "Socketed Gems are Supported by Level {0} Intensify"
+    },
+    {
+        "id": "indexable_support_36",
+        "zh": "插入的技能石被 {0} 级的【齐射】辅助",
+        "en": "Socketed Gems are Supported by Level {0} Volley"
+    },
+    {
+        "id": "indexable_support_72",
+        "zh": "插入的技能石被 {0} 级的【点燃扩散】辅助",
+        "en": "Socketed Gems are Supported by Level {0} Ignite Proliferation"
+    },
+    {
+        "id": "indexable_support_33",
+        "zh": "插入的技能石被 {0} 级的【穿透】辅助",
+        "en": "Socketed Gems are Supported by Level {0} Pierce"
+    },
+    {
+        "id": "indexable_support_13",
+        "zh": "插入的技能石被 {0} 级的【灌能吟唱】辅助",
+        "en": "Socketed Gems are Supported by Level {0} Infused Channelling"
+    },
+    {
+        "id": "indexable_support_84",
+        "zh": "插入的技能石被 {0} 级的【快速投射】辅助",
+        "en": "Socketed Gems are Supported by Level {0} Faster Projectiles"
+    },
+    {
+        "id": "indexable_support_99",
+        "zh": "插入的技能石被 {0} 级的【寒冰转烈焰】辅助",
+        "en": "Socketed Gems are Supported by Level {0} Cold to Fire"
+    },
+    {
+        "id": "indexable_support_19",
+        "zh": "插入的技能石被 {0} 级的【震波】辅助",
+        "en": "Socketed Gems are Supported by Level {0} Shockwave"
+    },
+    {
+        "id": "indexable_support_115",
+        "zh": "插入的技能石被 {0} 级的【彻骨】辅助",
+        "en": "Socketed Gems are Supported by Level {0} Bonechill"
+    },
+    {
+        "id": "indexable_support_103",
+        "zh": "插入的技能石被 {0} 级的【充能地雷】辅助",
+        "en": "Socketed Gems are Supported by Level {0} Charged Mines"
+    },
+    {
+        "id": "indexable_support_58",
+        "zh": "插入的技能石被 {0} 级的【钢铁意志】辅助",
+        "en": "Socketed Gems are Supported by Level {0} Iron Will"
+    },
+    {
+        "id": "indexable_support_59",
+        "zh": "插入的技能石被 {0} 级的【钢铁之握】辅助",
+        "en": "Socketed Gems are Supported by Level {0} Iron Grip"
+    },
+    {
+        "id": "indexable_support_44",
+        "zh": "插入的技能石被 {0} 级的【地雷网】辅助",
+        "en": "Socketed Gems are Supported by Level {0} Minefield"
+    },
+    {
+        "id": "indexable_support_108",
+        "zh": "插入的技能石被 {0} 级的【吟唱时施放】辅助",
+        "en": "Socketed Gems are Supported by Level {0} Cast while Channelling"
+    },
+    {
+        "id": "indexable_support_61",
+        "zh": "插入的技能石被 {0} 级的【炎军】辅助",
+        "en": "Socketed Gems are Supported by Level {0} Infernal Legion"
+    },
+    {
+        "id": "indexable_support_31",
+        "zh": "插入的技能石被 {0} 级的【毒化】辅助",
+        "en": "Socketed Gems are Supported by Level {0} Critical Strike Affliction"
+    },
+    {
+        "id": "indexable_support_78",
+        "zh": "插入的技能石被 {0} 级的【充能陷阱】辅助",
+        "en": "Socketed Gems are Supported by Level {0} Charged Traps"
+    },
+    {
+        "id": "indexable_support_22",
+        "zh": "插入的技能石被 {0} 级的【高爆地雷】辅助",
+        "en": "Socketed Gems are Supported by Level {0} High-Impact Mine"
+    },
+    {
+        "id": "indexable_support_62",
+        "zh": "插入的技能石被 {0} 级的【召唤生物速度】辅助",
+        "en": "Socketed Gems are Supported by Level {0} Minion Speed"
+    },
+    {
+        "id": "indexable_support_57",
+        "zh": "插入的技能石被 {0} 级的【物品稀有度增幅】辅助",
+        "en": "Socketed Gems are Supported by Level {0} Item Rarity"
+    },
+    {
+        "id": "indexable_support_91",
+        "zh": "插入的技能石被 {0} 级的【效能】辅助",
+        "en": "Socketed Gems are Supported by Level {0} Efficacy"
+    },
+    {
+        "id": "indexable_support_54",
+        "zh": "插入的技能石被 {0} 级的【低阶毒化】辅助",
+        "en": "Socketed Gems are Supported by Level {0} Chance to Poison"
+    },
+    {
+        "id": "indexable_support_10",
+        "zh": "插入的技能石被 {0} 级的【召唤幻影】辅助",
+        "en": "Socketed Gems are Supported by Level {0} Summon Phantasm"
+    },
+    {
+        "id": "indexable_support_21",
+        "zh": "插入的技能石被 {0} 级的【无情】辅助",
+        "en": "Socketed Gems are Supported by Level {0} Ruthless"
+    },
+    {
+        "id": "indexable_support_129",
+        "zh": "插入的技能石被 {0} 级的【战争铁拳】辅助",
+        "en": "Socketed Gems are Supported by Level {0} Fist of War"
+    },
+    {
+        "id": "indexable_support_25",
+        "zh": "插入的技能石被 {0} 级的【持续时间缩短】辅助",
+        "en": "Socketed Gems are Supported by Level {0} Less Duration"
+    },
+    {
+        "id": "indexable_support_134",
+        "zh": "插入的技能石被 {0} 级的【三位一体】辅助",
+        "en": "Socketed Gems are Supported by Level {0} Trinity"
+    },
+    {
+        "id": "indexable_support_7",
+        "zh": "插入的技能石被 {0} 级的【陷阱及地雷伤害】辅助",
+        "en": "Socketed Gems are Supported by Level {0} Trap and Mine Damage"
+    },
+    {
+        "id": "indexable_support_109",
+        "zh": "插入的技能石被 {0} 级的【晕眩时施放】辅助",
+        "en": "Socketed Gems are Supported by Level {0} Cast when Stunned"
+    },
+    {
+        "id": "indexable_support_5",
+        "zh": "插入的技能石被 {0} 级的【异常爆发】辅助",
+        "en": "Socketed Gems are Supported by Level {0} Unbound Ailments"
+    },
+    {
+        "id": "indexable_support_123",
+        "zh": "插入的技能石被 {0} 级的【秘术增强】辅助",
+        "en": "Socketed Gems are Supported by Level {0} Arcane Surge"
+    },
+    {
+        "id": "indexable_support_20",
+        "zh": "插入的技能石被 {0} 级的【助力之风】辅助",
+        "en": "Socketed Gems are Supported by Level {0} Second Wind"
+    },
+    {
+        "id": "indexable_support_133",
+        "zh": "插入的技能石被 {0} 级的【末日将至】辅助",
+        "en": "Socketed Gems are Supported by Level {0} Impending Doom"
+    },
+    {
+        "id": "indexable_support_52",
+        "zh": "插入的技能石被 {0} 级的【生命偷取】辅助",
+        "en": "Socketed Gems are Supported by Level {0} Life Leech"
+    },
+    {
+        "id": "indexable_support_88",
+        "zh": "插入的技能石被 {0} 级的【近战击晕获得耐力球】辅助",
+        "en": "Socketed Gems are Supported by Level {0} Endurance Charge on Melee Stun"
+    },
+    {
+        "id": "indexable_support_130",
+        "zh": "插入的技能石被 {0} 级的【迅猛烙印】辅助",
+        "en": "Socketed Gems are Supported by Level {0} Swiftbrand"
+    },
+    {
+        "id": "indexable_support_101",
+        "zh": "插入的技能石被 {0} 级的【散弹陷阱】辅助",
+        "en": "Socketed Gems are Supported by Level {0} Cluster Traps"
+    },
+    {
+        "id": "indexable_support_48",
+        "zh": "插入的技能石被 {0} 级的【肉盾】辅助",
+        "en": "Socketed Gems are Supported by Level {0} Meat Shield"
+    },
+    {
+        "id": "indexable_support_9",
+        "zh": "插入的技能石被 {0} 级的【迅整】辅助",
+        "en": "Socketed Gems are Supported by Level {0} Swift Assembly"
+    },
+    {
+        "id": "indexable_support_2",
+        "zh": "插入的技能石被 {0} 级的【虚空操纵】辅助",
+        "en": "Socketed Gems are Supported by Level {0} Void Manipulation"
+    },
+    {
+        "id": "indexable_support_112",
+        "zh": "插入的技能石被 {0} 级的【受伤时施放】辅助",
+        "en": "Socketed Gems are Supported by Level {0} Cast when Damage Taken"
+    },
+    {
+        "id": "indexable_support_93",
+        "zh": "插入的技能石被 {0} 级的【掠食】辅助",
+        "en": "Socketed Gems are Supported by Level {0} Predator"
+    },
+    {
+        "id": "indexable_support_49",
+        "zh": "插入的技能石被 {0} 级的【魔力偷取】辅助",
+        "en": "Socketed Gems are Supported by Level {0} Mana Leech"
+    },
+    {
+        "id": "indexable_support_68",
+        "zh": "插入的技能石被 {0} 级的【增加燃烧伤害】辅助",
+        "en": "Socketed Gems are Supported by Level {0} Burning Damage"
+    },
+    {
+        "id": "indexable_support_119",
+        "zh": "插入的技能石被 {0} 级的【诅咒光环】辅助",
+        "en": "Socketed Gems are Supported by Level {0} Blasphemy"
+    },
+    {
+        "id": "indexable_support_131",
+        "zh": "插入的技能石被 {0} 级的【紧急号令】辅助",
+        "en": "Socketed Gems are Supported by Level {0} Urgent Orders"
+    },
+    {
+        "id": "indexable_support_132",
+        "zh": "插入的技能石被 {0} 级的【会心一击】辅助",
+        "en": "Socketed Gems are Supported by Level {0} Pinpoint"
+    },
+    {
+        "id": "indexable_support_111",
+        "zh": "插入的技能石被 {0} 级的【死亡时施放】辅助",
+        "en": "Socketed Gems are Supported by Level {0} Cast on Death"
+    },
+    {
+        "id": "indexable_support_6",
+        "zh": "插入的技能石被 {0} 级的【陷阱冷却】辅助",
+        "en": "Socketed Gems are Supported by Level {0} Advanced Traps"
+    },
+    {
+        "id": "indexable_support_117",
+        "zh": "插入的技能石被 {0} 级的【嗜血】辅助",
+        "en": "Socketed Gems are Supported by Level {0} Bloodlust"
+    },
+    {
+        "id": "indexable_support_18",
+        "zh": "插入的技能石被 {0} 级的【投射物减速】辅助",
+        "en": "Socketed Gems are Supported by Level {0} Slower Projectiles"
+    },
+    {
+        "id": "indexable_support_53",
+        "zh": "插入的技能石被 {0} 级的【击中生命回复】辅助",
+        "en": "Socketed Gems are Supported by Level {0} Life Gain on Hit"
+    },
+    {
+        "id": "indexable_support_110",
+        "zh": "插入的技能石被 {0} 级的【近战击败时施放】辅助",
+        "en": "Socketed Gems are Supported by Level {0} Cast on Melee Kill"
+    },
+    {
+        "id": "indexable_support_12",
+        "zh": "插入的技能石被 {0} 级的【击晕】辅助",
+        "en": "Socketed Gems are Supported by Level {0} Stun"
+    },
+    {
+        "id": "indexable_support_81",
+        "zh": "插入的技能石被 {0} 级的【几率逃跑】辅助",
+        "en": "Socketed Gems are Supported by Level {0} Chance to Flee"
+    },
+    {
+        "id": "indexable_support_11",
+        "zh": "插入的技能石被 {0} 级的【元素大军】辅助",
+        "en": "Socketed Gems are Supported by Level {0} Elemental Army"
+    },
+    {
+        "id": "indexable_support_137",
+        "zh": "插入的技能石被 {0} 级的【赤炼】辅助",
+        "en": "Socketed Gems are Supported by Level {0} Lifetap"
+    },
+    {
+        "id": "indexable_support_136",
+        "zh": "插入的技能石被 {0} 级的【凌厉】辅助",
+        "en": "Socketed Gems are Supported by Level {0} Cruelty"
+    },
+    {
+        "id": "indexable_support_138",
+        "zh": "插入的技能石被 {0} 级的【弩炮集火】辅助",
+        "en": "Socketed Gems are Supported by Level {0} Focused Ballista"
+    },
+    {
+        "id": "indexable_support_140",
+        "zh": "插入的技能石被 {0} 级的【斩首】辅助",
+        "en": "Socketed Gems are Supported by Level {0} Behead"
+    },
+    {
+        "id": "indexable_support_139",
+        "zh": "插入的技能石被 {0} 级的【裂地之灵】辅助",
+        "en": "Socketed Gems are Supported by Level {0} Earthbreaker"
+    },
+    {
+        "id": "indexable_support_135",
+        "zh": "插入的技能石被 {0} 级的【血气】辅助",
+        "en": "Socketed Gems are Supported by Level {0} Bloodthirst"
+    },
+    {
+        "id": "stat_2697741965",
+        "zh": "插入的技能石被 {0} 的蛊咒辅助",
+        "en": "Socketed Gems are Supported by Level {0} Hextouch"
+    },
+    {
+        "id": "stat_921536976",
+        "zh": "插入的技能石被 {0} 级的弩炮集火辅助",
+        "en": "Socketed Gems are Supported by Level {0} Focused Ballista"
+    },
+    {
+        "id": "stat_402499111",
+        "zh": "插入的技能石被 {0} 级的【助力之风】辅助",
+        "en": "Socketed Gems are Supported by Level {0} Second Wind"
+    },
+    {
+        "id": "stat_3227145554",
+        "zh": "插入的技能石被 {0} 的末日将至辅助",
+        "en": "Socketed Gems are Supported by Level {0} Impending Doom"
+    },
+    {
+        "id": "stat_1019145105",
+        "zh": "插入的技能石被 {0} 级的斩首辅助",
+        "en": "Socketed Gems are Supported by Level {0} Behead"
+    },
+    {
+        "id": "stat_1679136",
+        "zh": "插入的技能石被 {0} 级的凌厉辅助",
+        "en": "Socketed Gems are Supported by Level {0} Cruelty"
+    },
+    {
+        "id": "stat_3111091501",
+        "zh": "插入的技能石被 {0} 级的三位一体辅助",
+        "en": "Socketed Gems are Supported by Level {0} Trinity"
+    },
+    {
+        "id": "stat_1485525812",
+        "zh": "插入的技能石被 {0} 级的【紧急号令】辅助",
+        "en": "Socketed Gems are Supported by Level {0} Urgent Orders"
+    },
+    {
+        "id": "stat_3652278215",
+        "zh": "插入的技能石被 {0} 级的【大法师】辅助",
+        "en": "Socketed Gems are Supported by Level {0} Archmage"
+    },
+    {
+        "id": "stat_2127532091",
+        "zh": "插入的技能石被 {0} 级的【迅猛烙印】辅助",
+        "en": "Socketed Gems are Supported by Level {0} Swiftbrand"
+    },
+    {
+        "id": "stat_1609369521",
+        "zh": "插入的技能石被 {0} 的会心一击辅助",
+        "en": "Socketed Gems are Supported by Level {0} Pinpoint"
+    },
+    {
+        "id": "stat_940684417",
+        "zh": "插入的技能石被 {0} 级的裂地崩山辅助",
+        "en": "Socketed Gems are Supported by Level {0} Earthbreaker"
+    },
+    {
+        "id": "stat_2861649515",
+        "zh": "插入的技能石被 {0} 级的【夜刃】辅助",
+        "en": "Socketed Gems are Supported by Level {0} Nightblade"
+    },
+    {
+        "id": "stat_4272276606",
+        "zh": "有一个传奇怪物出现在你面前：法术附加 {0} - {1} 基础物理伤害",
+        "en": "While a Unique Enemy is in your Presence, Adds {0} to {1} Physical Damage to Spells"
+    },
+    {
+        "id": "stat_1980216452",
+        "zh": "有一个传奇怪物出现在你面前：护甲提高 {0}%",
+        "en": "While a Unique Enemy is in your Presence, {0}% increased Armour"
+    },
+    {
+        "id": "stat_3549954477",
+        "zh": "有一个传奇怪物出现在你面前：获得额外火焰伤害， 其数值等同于物理伤害的 {0}%",
+        "en": "While a Unique Enemy is in your Presence, Gain {0}% of Physical Damage as Extra Fire Damage"
+    },
+    {
+        "id": "stat_2847070982",
+        "zh": "有一个传奇怪物出现在你面前：每 {0} 秒获得一个狂怒球",
+        "en": "While a Unique Enemy is in your Presence, Gain a Frenzy Charge every {0} seconds"
+    },
+    {
+        "id": "stat_4039774101",
+        "zh": "有一个传奇怪物出现在你面前：【尊严】的光环效果提高 {0}%",
+        "en": "While a Unique Enemy is in your Presence, Pride has {0}% increased Aura Effect"
+    },
+    {
+        "id": "stat_1623369100",
+        "zh": "有一个传奇怪物出现在你面前：{0}% 的物理伤害转换为混沌伤害",
+        "en": "While a Unique Enemy is in your Presence, {0}% of Physical Damage Converted to Chaos Damage"
+    },
+    {
+        "id": "stat_3303144948",
+        "zh": "有一个传奇怪物出现在你面前：【优雅】的光环效果提高 {0}%",
+        "en": "While a Unique Enemy is in your Presence, Grace has {0}% increased Aura Effect"
+    },
+    {
+        "id": "stat_380027104",
+        "zh": "有一个传奇怪物出现在你面前：{0}% 的物理伤害转换为火焰伤害",
+        "en": "While a Unique Enemy is in your Presence, {0}% of Physical Damage Converted to Fire Damage"
+    },
+    {
+        "id": "stat_3801851872",
+        "zh": "有一个异界图鉴最终首领出现在你面前：承受伤害按照每 {0} 点智慧总降 1%",
+        "en": "While a Pinnacle Atlas Boss is in your Presence, 1% less Damage Taken per {0} Intelligence"
+    },
+    {
+        "id": "stat_1516326076",
+        "zh": "有一个传奇怪物出现在你面前：地雷投掷速度加快 {0}%",
+        "en": "While a Unique Enemy is in your Presence, {0}% increased Mine Throwing Speed"
+    },
+    {
+        "id": "stat_1060820709",
+        "zh": "有一个传奇怪物出现在你面前：迅捷的光环效果提高 {0}%",
+        "en": "While a Unique Enemy is in your Presence, Haste has {0}% increased Aura Effect"
+    },
+    {
+        "id": "stat_4128294206",
+        "zh": "有一个异界图鉴最终首领出现在你面前：魔像的增益效果提高 {0}%",
+        "en": "While a Pinnacle Atlas Boss is in your Presence, {0}% increased Effect of Buffs granted by your Golems"
+    },
+    {
+        "id": "stat_2425364074",
+        "zh": "有一个异界图鉴最终首领出现在你面前：魔力再生率随每个暴击球提高 {0}%",
+        "en": "While a Pinnacle Atlas Boss is in your Presence, {0}% increased Mana Regeneration Rate per Power Charge"
+    },
+    {
+        "id": "stat_475859964",
+        "zh": "有一个传奇怪物出现在你面前：命中值按照每个狂怒球 {0}",
+        "en": "While a Unique Enemy is in your Presence, {0} to Accuracy Rating per Frenzy Charge"
+    },
+    {
+        "id": "stat_3786274521",
+        "zh": "有一个异界图鉴最终首领出现在你面前：【冰霜净化】的光环效果提高 {0}%",
+        "en": "While a Pinnacle Atlas Boss is in your Presence, Purity of Ice has {0}% increased Aura Effect"
+    },
+    {
+        "id": "stat_1870961528",
+        "zh": "有一个异界图鉴最终首领出现在你面前：{0}% 火焰持续伤害加成",
+        "en": "While a Pinnacle Atlas Boss is in your Presence, {0}% to Fire Damage over Time Multiplier"
+    },
+    {
+        "id": "stat_3199183447",
+        "zh": "有一个传奇怪物出现在你面前：【冻伤】的诅咒效果提高 {0}%",
+        "en": "While a Unique Enemy is in your Presence, {0}% increased Frostbite Curse Effect"
+    },
+    {
+        "id": "stat_3553907672",
+        "zh": "有一个传奇怪物出现在你面前：{0}% 几率避免中毒",
+        "en": "While a Unique Enemy is in your Presence, {0}% chance to Avoid being Poisoned"
+    },
+    {
+        "id": "stat_1030674088",
+        "zh": "有一个异界图鉴最终首领出现在你面前：有 {0}% 的几率点燃",
+        "en": "While a Pinnacle Atlas Boss is in your Presence, {0}% chance to Ignite"
+    },
+    {
+        "id": "stat_1576689223",
+        "zh": "有一个异界图鉴最终首领出现在你面前：冰霜伤害提高 {0}%",
+        "en": "While a Pinnacle Atlas Boss is in your Presence, {0}% increased Cold Damage"
+    },
+    {
+        "id": "stat_841219865",
+        "zh": "有一个传奇怪物出现在你面前：{0}% 物理持续伤害加成",
+        "en": "While a Unique Enemy is in your Presence, {0}% to Physical Damage over Time Multiplier"
+    },
+    {
+        "id": "stat_532792006",
+        "zh": "有一个异界图鉴最终首领出现在你面前：击中时有 {0}% 的几率使目标中毒",
+        "en": "While a Pinnacle Atlas Boss is in your Presence, {0}% chance to Poison on Hit"
+    },
+    {
+        "id": "stat_1918094957",
+        "zh": "有一个传奇怪物出现在你面前：获得额外闪电伤害， 其数值等同于物理伤害的 {0}%",
+        "en": "While a Unique Enemy is in your Presence, Gain {0}% of Physical Damage as Extra Lightning Damage"
+    },
+    {
+        "id": "stat_668321613",
+        "zh": "有一个异界图鉴最终首领出现在你面前：冷却回复速度加快 {0}%",
+        "en": "While a Pinnacle Atlas Boss is in your Presence, {0}% increased Cooldown Recovery Rate"
+    },
+    {
+        "id": "stat_1747983672",
+        "zh": "有一个传奇怪物出现在你面前：闪电魔像给予你的增益效果提高 {0}%",
+        "en": "While a Unique Enemy is in your Presence, {0}% increased Effect of the Buff granted by your Lightning Golems"
+    },
+    {
+        "id": "stat_1388739249",
+        "zh": "有一个异界图鉴最终首领出现在你面前：手部装备和脚部装备提供的能量护盾上限提高 {0}%",
+        "en": "While a Pinnacle Atlas Boss is in your Presence, {0}% increased Maximum Energy Shield from Equipped Gloves and Boots"
+    },
+    {
+        "id": "stat_661603414",
+        "zh": "有一个传奇怪物出现在你面前：给法术附加 {0} 到 {1} 点火焰伤害",
+        "en": "While a Unique Enemy is in your Presence, Adds {0} to {1} Fire Damage to Spells"
+    },
+    {
+        "id": "stat_906749304",
+        "zh": "有一个异界图鉴最终首领出现在你面前：坚决战吼的冷却回复率提高 {0}%",
+        "en": "While a Pinnacle Atlas Boss is in your Presence, Enduring Cry has {0}% increased Cooldown Recovery Rate"
+    },
+    {
+        "id": "stat_1870591253",
+        "zh": "有一个异界图鉴最终首领出现在你面前：伤害按照每 100 点敏捷提高 {0}%",
+        "en": "While a Pinnacle Atlas Boss is in your Presence, {0}% increased Damage per 100 Dexterity"
+    },
+    {
+        "id": "stat_64193828",
+        "zh": "有一个传奇怪物出现在你面前：攻击有 {0}% 的几率导致流血",
+        "en": "While a Unique Enemy is in your Presence, Attacks have {0}% chance to cause Bleeding"
+    },
+    {
+        "id": "stat_371531651",
+        "zh": "有一个传奇怪物出现在你面前：法术附加 {0} - {1} 基础闪电伤害",
+        "en": "While a Unique Enemy is in your Presence, Adds {0} to {1} Lightning Damage to Spells"
+    },
+    {
+        "id": "stat_168204696",
+        "zh": "有一个异界图鉴最终首领出现在你面前：寒冰魔像给予你的增益效果提高 {0}%",
+        "en": "While a Pinnacle Atlas Boss is in your Presence, {0}% increased Effect of the Buff granted by your Ice Golems"
+    },
+    {
+        "id": "stat_4122616021",
+        "zh": "有一个异界图鉴最终首领出现在你面前：致盲效果提高{0}%",
+        "en": "While a Pinnacle Atlas Boss is in your Presence, {0}% increased Blind Effect"
+    },
+    {
+        "id": "stat_1328859059",
+        "zh": "有一个异界图鉴最终首领出现在你面前：闪电伤害提高 {0}%",
+        "en": "While a Pinnacle Atlas Boss is in your Presence, {0}% increased Lightning Damage"
+    },
+    {
+        "id": "stat_1217759839",
+        "zh": "有一个传奇怪物出现在你面前：魔力回复率提高 {0}%",
+        "en": "While a Unique Enemy is in your Presence, {0}% increased Mana Recovery rate"
+    },
+    {
+        "id": "stat_1553385903",
+        "zh": "有一个异界图鉴最终首领出现在你面前：【闪电之捷】的增益效果提高 {0}%",
+        "en": "While a Pinnacle Atlas Boss is in your Presence, Herald of Thunder has {0}% increased Buff Effect"
+    },
+    {
+        "id": "stat_2112874376",
+        "zh": "有一个传奇怪物出现在你面前：{0}% 火焰持续伤害加成",
+        "en": "While a Unique Enemy is in your Presence, {0}% to Fire Damage over Time Multiplier"
+    },
+    {
+        "id": "stat_38083709",
+        "zh": "有一个异界图鉴最终首领出现在你面前：【衰弱】的诅咒效果提高 {0}%",
+        "en": "While a Pinnacle Atlas Boss is in your Presence, {0}% increased Enfeeble Curse Effect"
+    },
+    {
+        "id": "stat_3401410854",
+        "zh": "有一个传奇怪物出现在你面前：攻击速度加快 {0}%",
+        "en": "While a Unique Enemy is in your Presence, {0}% increased Attack Speed"
+    },
+    {
+        "id": "stat_725501141",
+        "zh": "有一个传奇怪物出现在你面前：{0}% 攻击伤害格挡率",
+        "en": "While a Unique Enemy is in your Presence, {0}% Chance to Block Attack Damage"
+    },
+    {
+        "id": "stat_1114962813",
+        "zh": "有一个传奇怪物出现在你面前：能量护盾上限提高 {0}%",
+        "en": "While a Unique Enemy is in your Presence, {0}% increased maximum Energy Shield"
+    },
+    {
+        "id": "stat_995369618",
+        "zh": "有一个异界图鉴最终首领出现在你面前：你造成的中毒的伤害生效速度加快 {0}%",
+        "en": "While a Pinnacle Atlas Boss is in your Presence, Poisons you inflict deal Damage {0}% faster"
+    },
+    {
+        "id": "stat_789714862",
+        "zh": "有一个传奇怪物出现在你面前：{0}% 闪电抗性上限",
+        "en": "While a Unique Enemy is in your Presence, {0}% to maximum Lightning Resistance"
+    },
+    {
+        "id": "stat_2876365933",
+        "zh": "有一个传奇怪物出现在你面前：击中时施加闪电曝露，适配 {0}% 的闪电抗性",
+        "en": "While a Unique Enemy is in your Presence, Inflict Lightning Exposure on Hit, applying {0}% to Lightning Resistance"
+    },
+    {
+        "id": "stat_2752131673",
+        "zh": "有一个异界图鉴最终首领出现在你面前：【纪律】的光环效果提高 {0}%",
+        "en": "While a Pinnacle Atlas Boss is in your Presence, Discipline has {0}% increased Aura Effect"
+    },
+    {
+        "id": "stat_2358153166",
+        "zh": "有一个传奇怪物出现在你面前：{0}% 所有元素抗性",
+        "en": "While a Unique Enemy is in your Presence, {0}% to all Elemental Resistances"
+    },
+    {
+        "id": "stat_2193147166",
+        "zh": "有一个传奇怪物出现在你面前：每个耐力球可使伤害提高 {0}%",
+        "en": "While a Unique Enemy is in your Presence, {0}% increased Damage per Endurance Charge"
+    },
+    {
+        "id": "stat_4047779849",
+        "zh": "有一个传奇怪物出现在你面前：【极地装甲】的增益效果提高 {0}%",
+        "en": "While a Unique Enemy is in your Presence, {0}% increased Arctic Armour Buff Effect"
+    },
+    {
+        "id": "stat_937462392",
+        "zh": "有一个传奇怪物出现在你面前：【衰弱】的诅咒效果提高 {0}%",
+        "en": "While a Unique Enemy is in your Presence, {0}% increased Enfeeble Curse Effect"
+    },
+    {
+        "id": "stat_2986495340",
+        "zh": "有一个传奇怪物出现在你面前：位移技能的冷却回复率提高 {0}%",
+        "en": "While a Unique Enemy is in your Presence, {0}% increased Cooldown Recovery Rate of Travel Skills"
+    },
+    {
+        "id": "stat_3173180145",
+        "zh": "有一个传奇怪物出现在你面前：魔武战号的增益效果提高 {0}%",
+        "en": "While a Unique Enemy is in your Presence, {0}% increased Battlemage's Cry Buff Effect"
+    },
+    {
+        "id": "stat_951862199",
+        "zh": "有一个异界图鉴最终首领出现在你面前：每 {0} 秒获得一个耐力球",
+        "en": "While a Pinnacle Atlas Boss is in your Presence, Gain an Endurance Charge every {0} seconds"
+    },
+    {
+        "id": "stat_2532279515",
+        "zh": "有一个异界图鉴最终首领出现在你面前：伤害按照每 100 点智慧提高 {0}%",
+        "en": "While a Pinnacle Atlas Boss is in your Presence, {0}% increased Damage per 100 Intelligence"
+    },
+    {
+        "id": "stat_298106626",
+        "zh": "有一个异界图鉴最终首领出现在你面前：近战击中提供护体状态",
+        "en": "While a Pinnacle Atlas Boss is in your Presence, Melee Hits Fortify"
+    },
+    {
+        "id": "stat_874990741",
+        "zh": "有一个传奇怪物出现在你面前：有 {0}% 的几率点燃",
+        "en": "While a Unique Enemy is in your Presence, {0}% chance to Ignite"
+    },
+    {
+        "id": "stat_510803146",
+        "zh": "有一个异界图鉴最终首领出现在你面前：混沌魔像给予你的增益效果提高 {0}%",
+        "en": "While a Pinnacle Atlas Boss is in your Presence, {0}% increased Effect of the Buff granted by your Chaos Golems"
+    },
+    {
+        "id": "stat_505694848",
+        "zh": "有一个传奇怪物出现在你面前：你的咒印效果效果提高 {0}%",
+        "en": "While a Unique Enemy is in your Presence, {0}% increased Effect of your Marks"
+    },
+    {
+        "id": "stat_664899091",
+        "zh": "有一个异界图鉴最终首领出现在你面前：你身上的秘术增强效果提高 {0}%",
+        "en": "While a Pinnacle Atlas Boss is in your Presence, {0}% increased Effect of Arcane Surge on you"
+    },
+    {
+        "id": "stat_2240274773",
+        "zh": "有一个传奇怪物出现在你面前：{0}% 冰霜抗性",
+        "en": "While a Unique Enemy is in your Presence, {0}% to Cold Resistance"
+    },
+    {
+        "id": "stat_3854721949",
+        "zh": "有一个异界图鉴最终首领出现在你面前：有 {0}% 的几率在击中时使敌人陷入熄灭状态",
+        "en": "While a Pinnacle Atlas Boss is in your Presence, {0}% chance to Extinguish Enemies on Hit"
+    },
+    {
+        "id": "stat_2413932980",
+        "zh": "有一个传奇怪物出现在你面前：灵巧效果提高 {0}%",
+        "en": "While a Unique Enemy is in your Presence, {0}% increased Elusive Effect"
+    },
+    {
+        "id": "stat_2909740133",
+        "zh": "有一个传奇怪物出现在你面前：压制 {0}% 物理伤害减免",
+        "en": "While a Unique Enemy is in your Presence, Overwhelm {0}% Physical Damage Reduction"
+    },
+    {
+        "id": "stat_632297605",
+        "zh": "有一个异界图鉴最终首领出现在你面前：获得额外闪电伤害， 其数值等同于物理伤害的 {0}%",
+        "en": "While a Pinnacle Atlas Boss is in your Presence, Gain {0}% of Physical Damage as Extra Lightning Damage"
+    },
+    {
+        "id": "stat_2796083262",
+        "zh": "有一个传奇怪物出现在你面前：{0}% 几率避免被点燃",
+        "en": "While a Unique Enemy is in your Presence, {0}% chance to Avoid being Ignited"
+    },
+    {
+        "id": "stat_4014428128",
+        "zh": "有一个异界图鉴最终首领出现在你面前：攻击有 {0}% 的几率导致流血",
+        "en": "While a Pinnacle Atlas Boss is in your Presence, Attacks have {0}% chance to cause Bleeding"
+    },
+    {
+        "id": "stat_1771822543",
+        "zh": "有一个传奇怪物出现在你面前：移动时留下脆弱地面，持续 {0} 秒",
+        "en": "While a Unique Enemy is in your Presence, Drops Brittle Ground while moving, lasting {0} seconds"
+    },
+    {
+        "id": "stat_1850144024",
+        "zh": "有一个异界图鉴最终首领出现在你面前：【雷霆】的光环效果提高 {0}%",
+        "en": "While a Pinnacle Atlas Boss is in your Presence, Wrath has {0}% increased Aura Effect"
+    },
+    {
+        "id": "stat_3389591826",
+        "zh": "有一个传奇怪物出现在你面前：承受伤害按照每 {0} 点力量总降 1%",
+        "en": "While a Unique Enemy is in your Presence, 1% less Damage Taken per {0} Strength"
+    },
+    {
+        "id": "stat_2016247664",
+        "zh": "有一个传奇怪物出现在你面前：施法速度加快 {0}%",
+        "en": "While a Unique Enemy is in your Presence, {0}% increased Cast Speed"
+    },
+    {
+        "id": "stat_3225230656",
+        "zh": "有一个异界图鉴最终首领出现在你面前：生命按照每个耐力球每秒再生 {0}%",
+        "en": "While a Pinnacle Atlas Boss is in your Presence, Regenerate {0}% of Life per second per Endurance Charge"
+    },
+    {
+        "id": "stat_2080582538",
+        "zh": "有一个传奇怪物出现在你面前：将所受伤害的{0}%吸纳为生命",
+        "en": "While a Unique Enemy is in your Presence, {0}% of Damage taken Recouped as Life"
+    },
+    {
+        "id": "stat_850668052",
+        "zh": "有一个异界图鉴最终首领出现在你面前：位移技能的冷却回复率提高 {0}%",
+        "en": "While a Pinnacle Atlas Boss is in your Presence, {0}% increased Cooldown Recovery Rate of Travel Skills"
+    },
+    {
+        "id": "stat_990874979",
+        "zh": "有一个异界图鉴最终首领出现在你面前：{0}% 几率避免被晕眩",
+        "en": "While a Pinnacle Atlas Boss is in your Presence, {0}% chance to Avoid being Stunned"
+    },
+    {
+        "id": "stat_3972399670",
+        "zh": "有一个异界图鉴最终首领出现在你面前：攻击附加 {0} - {1} 基础火焰伤害",
+        "en": "While a Pinnacle Atlas Boss is in your Presence, Adds {0} to {1} Fire Damage to Attacks"
+    },
+    {
+        "id": "stat_2610114836",
+        "zh": "有一个异界图鉴最终首领出现在你面前：{0}% 几率避免致流血",
+        "en": "While a Pinnacle Atlas Boss is in your Presence, {0}% chance to Avoid Bleeding"
+    },
+    {
+        "id": "stat_235328972",
+        "zh": "有一个异界图鉴最终首领出现在你面前：移动时留下脆弱地面，持续 {0} 秒",
+        "en": "While a Pinnacle Atlas Boss is in your Presence, Drops Brittle Ground while moving, lasting {0} seconds"
+    },
+    {
+        "id": "stat_109112452",
+        "zh": "有一个传奇怪物出现在你面前：【灰烬之捷】的增益效果提高 {0}%",
+        "en": "While a Unique Enemy is in your Presence, Herald of Ash has {0}% increased Buff Effect"
+    },
+    {
+        "id": "stat_3042217102",
+        "zh": "有一个异界图鉴最终首领出现在你面前：你被点燃的持续时间缩短 {0}%",
+        "en": "While a Pinnacle Atlas Boss is in your Presence, {0}% reduced Ignite Duration on you"
+    },
+    {
+        "id": "stat_3985862221",
+        "zh": "有一个传奇怪物出现在你面前：你被冰冻的持续时间缩短 {0}%",
+        "en": "While a Unique Enemy is in your Presence, {0}% reduced Freeze Duration on you"
+    },
+    {
+        "id": "stat_438468314",
+        "zh": "有一个异界图鉴最终首领出现在你面前：巨石魔像给予你的增益效果提高 {0}%",
+        "en": "While a Pinnacle Atlas Boss is in your Presence, {0}% increased Effect of the Buff granted by your Stone Golems"
+    },
+    {
+        "id": "stat_40584863",
+        "zh": "有一个异界图鉴最终首领出现在你面前：【惩戒】的诅咒效果提高 {0}%",
+        "en": "While a Pinnacle Atlas Boss is in your Presence, {0}% increased Punishment Curse Effect"
+    },
+    {
+        "id": "stat_3588695478",
+        "zh": "有一个传奇怪物出现在你面前：寒冰魔像给予你的增益效果提高 {0}%",
+        "en": "While a Unique Enemy is in your Presence, {0}% increased Effect of the Buff granted by your Ice Golems"
+    },
+    {
+        "id": "stat_1300694383",
+        "zh": "有一个异界图鉴最终首领出现在你面前：承受的物理伤害有 {0}% 吸纳为生命",
+        "en": "While a Pinnacle Atlas Boss is in your Presence, {0}% of Physical Damage taken Recouped as Life"
+    },
+    {
+        "id": "stat_3718361973",
+        "zh": "有一个异界图鉴最终首领出现在你面前：物理伤害的 {0}% 转换为闪电伤害",
+        "en": "While a Pinnacle Atlas Boss is in your Presence, {0}% of Physical Damage Converted to Lightning Damage"
+    },
+    {
+        "id": "stat_673499528",
+        "zh": "有一个异界图鉴最终首领出现在你面前：{0}% 全部抗性上限",
+        "en": "While a Pinnacle Atlas Boss is in your Presence, {0}% to all maximum Resistances"
+    },
+    {
+        "id": "stat_636616197",
+        "zh": "有一个传奇怪物出现在你面前：烙印的附着范围扩大 {0}%",
+        "en": "While a Unique Enemy is in your Presence, {0}% increased Brand Attachment range"
+    },
+    {
+        "id": "stat_475684070",
+        "zh": "有一个传奇怪物出现在你面前：{0}% 火焰抗性上限",
+        "en": "While a Unique Enemy is in your Presence, {0}% to maximum Fire Resistance"
+    },
+    {
+        "id": "stat_2466412811",
+        "zh": "有一个异界图鉴最终首领出现在你面前：受到击中物理伤害的 {0}% 转化为冰霜伤害",
+        "en": "While a Pinnacle Atlas Boss is in your Presence, {0}% of Physical Damage from Hits taken as Cold Damage"
+    },
+    {
+        "id": "stat_4189960647",
+        "zh": "有一个传奇怪物出现在你面前：召唤生物的伤害提高 {0}%",
+        "en": "While a Unique Enemy is in your Presence, Minions deal {0}% increased Damage"
+    },
+    {
+        "id": "stat_4057257145",
+        "zh": "有一个异界图鉴最终首领出现在你面前：召唤生物的最大生命提高 {0}%",
+        "en": "While a Pinnacle Atlas Boss is in your Presence, Minions have {0}% increased maximum Life"
+    },
+    {
+        "id": "stat_399528178",
+        "zh": "有一个传奇怪物出现在你面前：【雷霆】的光环效果提高 {0}%",
+        "en": "While a Unique Enemy is in your Presence, Wrath has {0}% increased Aura Effect"
+    },
+    {
+        "id": "stat_1445513967",
+        "zh": "有一个异界图鉴最终首领出现在你面前：【闪电净化】的光环效果提高 {0}%",
+        "en": "While a Pinnacle Atlas Boss is in your Presence, Purity of Lightning has {0}% increased Aura Effect"
+    },
+    {
+        "id": "stat_3827973062",
+        "zh": "有一个异界图鉴最终首领出现在你面前：地雷投掷速度加快 {0}%",
+        "en": "While a Pinnacle Atlas Boss is in your Presence, {0}% increased Mine Throwing Speed"
+    },
+    {
+        "id": "stat_376260015",
+        "zh": "有一个异界图鉴最终首领出现在你面前：增助攻击的伤害提高 {0}%",
+        "en": "While a Pinnacle Atlas Boss is in your Presence, Exerted Attacks deal {0}% increased Damage"
+    },
+    {
+        "id": "stat_3610955422",
+        "zh": "有一个传奇怪物出现在你面前：你身上的药剂效果提高 {0}%",
+        "en": "While a Unique Enemy is in your Presence, Flasks applied to you have {0}% increased Effect"
+    },
+    {
+        "id": "stat_348693938",
+        "zh": "有一个传奇怪物出现在你面前：【元素净化】的光环效果提高 {0}%",
+        "en": "While a Unique Enemy is in your Presence, Purity of Elements has {0}% increased Aura Effect"
+    },
+    {
+        "id": "stat_3477311591",
+        "zh": "有一个异界图鉴最终首领出现在你面前：攻击附加 {0} - {1} 基础物理伤害",
+        "en": "While a Pinnacle Atlas Boss is in your Presence, Adds {0} to {1} Physical Damage to Attacks"
+    },
+    {
+        "id": "stat_738837643",
+        "zh": "有一个传奇怪物出现在你面前：你造成的流血的伤害生效速度加快 {0}%",
+        "en": "While a Unique Enemy is in your Presence, Bleeding you inflict deals Damage {0}% faster"
+    },
+    {
+        "id": "stat_433740375",
+        "zh": "有一个异界图鉴最终首领出现在你面前：你受到的感电效果提高 {0}%",
+        "en": "While a Pinnacle Atlas Boss is in your Presence, {0}% increased Effect of Shock on you"
+    },
+    {
+        "id": "stat_1722486495",
+        "zh": "有一个传奇怪物出现在你面前：巨石魔像给予你的增益效果提高 {0}%",
+        "en": "While a Unique Enemy is in your Presence, {0}% increased Effect of the Buff granted by your Stone Golems"
+    },
+    {
+        "id": "stat_1668340466",
+        "zh": "有一个异界图鉴最终首领出现在你面前：【脆弱】的诅咒效果提高 {0}%",
+        "en": "While a Pinnacle Atlas Boss is in your Presence, {0}% increased Vulnerability Curse Effect"
+    },
+    {
+        "id": "stat_1394267723",
+        "zh": "有一个传奇怪物出现在你面前：【易燃】的诅咒效果提高 {0}%",
+        "en": "While a Unique Enemy is in your Presence, {0}% increased Flammability Curse Effect"
+    },
+    {
+        "id": "stat_1324460486",
+        "zh": "有一个异界图鉴最终首领出现在你面前：【坚定】的光环效果提高 {0}%",
+        "en": "While a Pinnacle Atlas Boss is in your Presence, Determination has {0}% increased Aura Effect"
+    },
+    {
+        "id": "stat_3401199213",
+        "zh": "有一个传奇怪物出现在你面前：{0}% 几率避免被感电",
+        "en": "While a Unique Enemy is in your Presence, {0}% chance to Avoid being Shocked"
+    },
+    {
+        "id": "stat_3019083030",
+        "zh": "有一个传奇怪物出现在你面前：移动速度加快 {0}%",
+        "en": "While a Unique Enemy is in your Presence, {0}% increased Movement Speed"
+    },
+    {
+        "id": "stat_2996280658",
+        "zh": "有一个异界图鉴最终首领出现在你面前：{0}% 法术伤害格挡几率",
+        "en": "While a Pinnacle Atlas Boss is in your Presence, {0}% Chance to Block Spell Damage"
+    },
+    {
+        "id": "stat_2825010848",
+        "zh": "有一个异界图鉴最终首领出现在你面前：攻击伤害的暴击伤害加成 {0}%",
+        "en": "While a Pinnacle Atlas Boss is in your Presence, {0}% to Critical Strike Multiplier for Attack Damage"
+    },
+    {
+        "id": "stat_3183308031",
+        "zh": "有一个异界图鉴最终首领出现在你面前：伤害按照每 100 点力量提高 {0}%",
+        "en": "While a Pinnacle Atlas Boss is in your Presence, {0}% increased Damage per 100 Strength"
+    },
+    {
+        "id": "stat_26879978",
+        "zh": "有一个传奇怪物出现在你面前：攻击伤害的暴击伤害加成 {0}%",
+        "en": "While a Unique Enemy is in your Presence, {0}% to Critical Strike Multiplier for Attack Damage"
+    },
+    {
+        "id": "stat_550672859",
+        "zh": "有一个异界图鉴最终首领出现在你面前：伤害穿透 {0}% 的闪电抗性",
+        "en": "While a Pinnacle Atlas Boss is in your Presence, Damage Penetrates {0}% Lightning Resistance"
+    },
+    {
+        "id": "stat_2638071469",
+        "zh": "有一个传奇怪物出现在你面前：【脆弱】的诅咒效果提高 {0}%",
+        "en": "While a Unique Enemy is in your Presence, {0}% increased Vulnerability Curse Effect"
+    },
+    {
+        "id": "stat_862077496",
+        "zh": "有一个异界图鉴最终首领出现在你面前：血肉奉献效果提高 {0}%",
+        "en": "While a Pinnacle Atlas Boss is in your Presence, Flesh Offering has {0}% increased Effect"
+    },
+    {
+        "id": "stat_4222133389",
+        "zh": "有一个异界图鉴最终首领出现在你面前：魔力再生率提高 {0}%",
+        "en": "While a Pinnacle Atlas Boss is in your Presence, {0}% increased Mana Regeneration Rate"
+    },
+    {
+        "id": "stat_867827325",
+        "zh": "有一个异界图鉴最终首领出现在你面前：造成的异常状态持续时间延长 {0}%",
+        "en": "While a Pinnacle Atlas Boss is in your Presence, {0}% increased Duration of Ailments on Enemies"
+    },
+    {
+        "id": "stat_911929910",
+        "zh": "有一个异界图鉴最终首领出现在你面前：{0}% 几率避免被点燃",
+        "en": "While a Pinnacle Atlas Boss is in your Presence, {0}% chance to Avoid being Ignited"
+    },
+    {
+        "id": "stat_783010498",
+        "zh": "有一个异界图鉴最终首领出现在你面前：烈焰魔像给予你的增益效果提高 {0}%",
+        "en": "While a Pinnacle Atlas Boss is in your Presence, {0}% increased Effect of the Buff granted by your Flame Golems"
+    },
+    {
+        "id": "stat_4065516297",
+        "zh": "有一个异界图鉴最终首领出现在你面前：攻击击中时有 {0}% 的几率造成瘫痪",
+        "en": "While a Pinnacle Atlas Boss is in your Presence, Attacks have {0}% chance to Maim on Hit"
+    },
+    {
+        "id": "stat_3945581778",
+        "zh": "有一个异界图鉴最终首领出现在你面前：【威吓战吼】的冷却回复速度加快 {0}%",
+        "en": "While a Pinnacle Atlas Boss is in your Presence, Intimidating Cry has {0}% increased Cooldown Recovery Rate"
+    },
+    {
+        "id": "stat_3904394775",
+        "zh": "有一个异界图鉴最终首领出现在你面前：受到击中物理伤害的 {0}% 转化为混沌伤害",
+        "en": "While a Pinnacle Atlas Boss is in your Presence, {0}% of Physical Damage from Hits taken as Chaos Damage"
+    },
+    {
+        "id": "stat_1926772156",
+        "zh": "有一个传奇怪物出现在你面前：【火焰净化】的光环效果提高 {0}%",
+        "en": "While a Unique Enemy is in your Presence, Purity of Fire has {0}% increased Aura Effect"
+    },
+    {
+        "id": "stat_3330140563",
+        "zh": "有一个异界图鉴最终首领出现在你面前：头部装备和手部装备提供的护甲值提高 {0}%",
+        "en": "While a Pinnacle Atlas Boss is in your Presence, {0}% increased Armour from Equipped Helmet and Gloves"
+    },
+    {
+        "id": "stat_3206883665",
+        "zh": "有一个异界图鉴最终首领出现在你面前：法术附加 {0} - {1} 基础混沌伤害",
+        "en": "While a Pinnacle Atlas Boss is in your Presence, Adds {0} to {1} Chaos Damage to Spells"
+    },
+    {
+        "id": "stat_2714750784",
+        "zh": "有一个异界图鉴最终首领出现在你面前：{0}% 几率避免中毒",
+        "en": "While a Pinnacle Atlas Boss is in your Presence, {0}% chance to Avoid being Poisoned"
+    },
+    {
+        "id": "stat_3567752586",
+        "zh": "有一个异界图鉴最终首领出现在你面前：{0}% 的物理伤害转换为冰霜伤害",
+        "en": "While a Pinnacle Atlas Boss is in your Presence, {0}% of Physical Damage Converted to Cold Damage"
+    },
+    {
+        "id": "stat_2661498709",
+        "zh": "有一个异界图鉴最终首领出现在你面前：{0}% 几率避免被冰冻",
+        "en": "While a Pinnacle Atlas Boss is in your Presence, {0}% chance to Avoid being Frozen"
+    },
+    {
+        "id": "stat_1799586622",
+        "zh": "有一个异界图鉴最终首领出现在你面前：被先祖战吼增助的攻击伤害提高 {0}%",
+        "en": "While a Pinnacle Atlas Boss is in your Presence, Attacks Exerted by Ancestral Cry deal {0}% increased Damage"
+    },
+    {
+        "id": "stat_1609260458",
+        "zh": "有一个异界图鉴最终首领出现在你面前：【寒冰之捷】的增益效果提高 {0}%",
+        "en": "While a Pinnacle Atlas Boss is in your Presence, Herald of Ice has {0}% increased Buff Effect"
+    },
+    {
+        "id": "stat_1296291315",
+        "zh": "有一个异界图鉴最终首领出现在你面前：移动时留下力竭地面，持续 {0} 秒",
+        "en": "While a Pinnacle Atlas Boss is in your Presence, Drops Sapped Ground while moving, lasting {0} seconds"
+    },
+    {
+        "id": "stat_604515066",
+        "zh": "有一个异界图鉴最终首领出现在你面前：有 {0}% 的几率在法术击中时使敌人缓速",
+        "en": "While a Pinnacle Atlas Boss is in your Presence, {0}% chance to Hinder Enemies on Hit with Spells"
+    },
+    {
+        "id": "stat_3322913142",
+        "zh": "有一个传奇怪物出现在你面前：{0}% 几率避免被晕眩",
+        "en": "While a Unique Enemy is in your Presence, {0}% chance to Avoid being Stunned"
+    },
+    {
+        "id": "stat_2399066987",
+        "zh": "有一个异界图鉴最终首领出现在你面前：灵魂奉献效果提高 {0}%",
+        "en": "While a Pinnacle Atlas Boss is in your Presence, Spirit Offering has {0}% increased Effect"
+    },
+    {
+        "id": "stat_4098747485",
+        "zh": "有一个异界图鉴最终首领出现在你面前：施法速度加快 {0}%",
+        "en": "While a Pinnacle Atlas Boss is in your Presence, {0}% increased Cast Speed"
+    },
+    {
+        "id": "stat_3954869480",
+        "zh": "有一个异界图鉴最终首领出现在你面前：给法术附加 {0} 到 {1} 点火焰伤害",
+        "en": "While a Pinnacle Atlas Boss is in your Presence, Adds {0} to {1} Fire Damage to Spells"
+    },
+    {
+        "id": "stat_3004272949",
+        "zh": "有一个异界图鉴最终首领出现在你面前：击中有 {0}% 的几率威吓敌人 4 秒",
+        "en": "While a Pinnacle Atlas Boss is in your Presence, {0}% chance to Intimidate Enemies for 4 seconds on Hit"
+    },
+    {
+        "id": "stat_2809900883",
+        "zh": "有一个异界图鉴最终首领出现在你面前：召唤生物的移动速度加快 {0}%",
+        "en": "While a Pinnacle Atlas Boss is in your Presence, Minions have {0}% increased Movement Speed"
+    },
+    {
+        "id": "stat_1016130575",
+        "zh": "有一个异界图鉴最终首领出现在你面前：攻击附加 {0} - {1} 基础冰霜伤害",
+        "en": "While a Pinnacle Atlas Boss is in your Presence, Adds {0} to {1} Cold Damage to Attacks"
+    },
+    {
+        "id": "stat_794753348",
+        "zh": "有一个异界图鉴最终首领出现在你面前：战吼的增益效果提高 {0}%",
+        "en": "While a Pinnacle Atlas Boss is in your Presence, {0}% increased Warcry Buff Effect"
+    },
+    {
+        "id": "stat_4117139221",
+        "zh": "有一个异界图鉴最终首领出现在你面前：魔力回复率提高 {0}%",
+        "en": "While a Pinnacle Atlas Boss is in your Presence, {0}% increased Mana Recovery rate"
+    },
+    {
+        "id": "stat_2525287976",
+        "zh": "有一个异界图鉴最终首领出现在你面前：将所受伤害的{0}%吸纳为生命",
+        "en": "While a Pinnacle Atlas Boss is in your Presence, {0}% of Damage taken Recouped as Life"
+    },
+    {
+        "id": "stat_1381761351",
+        "zh": "有一个传奇怪物出现在你面前：【激励战吼】的增益效果提高 {0}%",
+        "en": "While a Unique Enemy is in your Presence, {0}% increased Rallying Cry Buff Effect"
+    },
+    {
+        "id": "stat_2095999895",
+        "zh": "有一个异界图鉴最终首领出现在你面前：【导电】的诅咒效果提高 {0}%",
+        "en": "While a Pinnacle Atlas Boss is in your Presence, {0}% increased Conductivity Curse Effect"
+    },
+    {
+        "id": "stat_485268361",
+        "zh": "有一个异界图鉴最终首领出现在你面前：法术附加 {0} - {1} 基础物理伤害",
+        "en": "While a Pinnacle Atlas Boss is in your Presence, Adds {0} to {1} Physical Damage to Spells"
+    },
+    {
+        "id": "stat_4213793369",
+        "zh": "有一个异界图鉴最终首领出现在你面前：技能的魔力保留效能提高 {0}%",
+        "en": "While a Pinnacle Atlas Boss is in your Presence, {0}% increased Mana Reservation Efficiency of Skills"
+    },
+    {
+        "id": "stat_3874289",
+        "zh": "有一个异界图鉴最终首领出现在你面前：法术附加 {0} - {1} 基础闪电伤害",
+        "en": "While a Pinnacle Atlas Boss is in your Presence, Adds {0} to {1} Lightning Damage to Spells"
+    },
+    {
+        "id": "stat_3547319552",
+        "zh": "有一个传奇怪物出现在你面前：【导电】的诅咒效果提高 {0}%",
+        "en": "While a Unique Enemy is in your Presence, {0}% increased Conductivity Curse Effect"
+    },
+    {
+        "id": "stat_2980409921",
+        "zh": "有一个异界图鉴最终首领出现在你面前：头部装备和脚部装备提供的闪避值提高 {0}%",
+        "en": "While a Pinnacle Atlas Boss is in your Presence, {0}% increased Evasion Rating from Equipped Helmet and Boots"
+    },
+    {
+        "id": "stat_2491353340",
+        "zh": "有一个传奇怪物出现在你面前：冷却回复速度加快 {0}%",
+        "en": "While a Unique Enemy is in your Presence, {0}% increased Cooldown Recovery Rate"
+    },
+    {
+        "id": "stat_1829486532",
+        "zh": "有一个传奇怪物出现在你面前：行动速度加快 {0}%",
+        "en": "While a Unique Enemy is in your Presence, {0}% increased Action Speed"
+    },
+    {
+        "id": "stat_1283684786",
+        "zh": "有一个传奇怪物出现在你面前：受到击中物理伤害的 {0}% 转化为火焰伤害",
+        "en": "While a Unique Enemy is in your Presence, {0}% of Physical Damage from Hits taken as Fire Damage"
+    },
+    {
+        "id": "stat_2570471069",
+        "zh": "有一个传奇怪物出现在你面前：近期内被你击中的敌人的生命再生率降低 {0}%",
+        "en": "While a Unique Enemy is in your Presence, Enemies you've Hit Recently have {0}% reduced Life Regeneration rate"
+    },
+    {
+        "id": "stat_2558323947",
+        "zh": "有一个传奇怪物出现在你面前：你技能的非诅咒类光环效果提高 {0}%",
+        "en": "While a Unique Enemy is in your Presence, {0}% increased effect of Non-Curse Auras from your Skills"
+    },
+    {
+        "id": "stat_3870554516",
+        "zh": "有一个异界图鉴最终首领出现在你面前：将承受的闪电伤害的 {0}% 吸纳为生命",
+        "en": "While a Pinnacle Atlas Boss is in your Presence, {0}% of Lightning Damage taken Recouped as Life"
+    },
+    {
+        "id": "stat_2545907302",
+        "zh": "有一个异界图鉴最终首领出现在你面前：全局物理伤害提高 {0}%",
+        "en": "While a Pinnacle Atlas Boss is in your Presence, {0}% increased Global Physical Damage"
+    },
+    {
+        "id": "stat_3490650294",
+        "zh": "有一个异界图鉴最终首领出现在你面前：获得额外混沌伤害，其数值等同于物理伤害的 {0}%",
+        "en": "While a Pinnacle Atlas Boss is in your Presence, Gain {0}% of Physical Damage as Extra Chaos Damage"
+    },
+    {
+        "id": "stat_817495383",
+        "zh": "有一个异界图鉴最终首领出现在你面前：法术伤害提高 {0}%",
+        "en": "While a Pinnacle Atlas Boss is in your Presence, {0}% increased Spell Damage"
+    },
+    {
+        "id": "stat_485385046",
+        "zh": "有一个传奇怪物出现在你面前：【时空锁链】的诅咒效果提高 {0}%",
+        "en": "While a Unique Enemy is in your Presence, {0}% increased Temporal Chains Curse Effect"
+    },
+    {
+        "id": "stat_4054012096",
+        "zh": "有一个异界图鉴最终首领出现在你面前：移动时留下烧灼地面，持续 {0} 秒",
+        "en": "While a Pinnacle Atlas Boss is in your Presence, Drops Scorched Ground while moving, lasting {0} seconds"
+    },
+    {
+        "id": "stat_3788782813",
+        "zh": "有一个异界图鉴最终首领出现在你面前：你技能的非诅咒类光环效果提高 {0}%",
+        "en": "While a Pinnacle Atlas Boss is in your Presence, {0}% increased effect of Non-Curse Auras from your Skills"
+    },
+    {
+        "id": "stat_2444070126",
+        "zh": "有一个传奇怪物出现在你面前：攻击附加 {0} - {1} 基础混沌伤害",
+        "en": "While a Unique Enemy is in your Presence, Adds {0} to {1} Chaos Damage to Attacks"
+    },
+    {
+        "id": "stat_2423625781",
+        "zh": "有一个传奇怪物出现在你面前：命中值提高 {0}%",
+        "en": "While a Unique Enemy is in your Presence, {0}% increased Global Accuracy Rating"
+    },
+    {
+        "id": "stat_2775855429",
+        "zh": "有一个异界图鉴最终首领出现在你面前：【绝望】的诅咒效果提高 {0}%",
+        "en": "While a Pinnacle Atlas Boss is in your Presence, {0}% increased Despair Curse Effect"
+    },
+    {
+        "id": "stat_2393004388",
+        "zh": "有一个传奇怪物出现在你面前：受到击中物理伤害的 {0}% 转化为混沌伤害",
+        "en": "While a Unique Enemy is in your Presence, {0}% of Physical Damage from Hits taken as Chaos Damage"
+    },
+    {
+        "id": "stat_2527345629",
+        "zh": "有一个异界图鉴最终首领出现在你面前：闪电魔像给予你的增益效果提高 {0}%",
+        "en": "While a Pinnacle Atlas Boss is in your Presence, {0}% increased Effect of the Buff granted by your Lightning Golems"
+    },
+    {
+        "id": "stat_2220831041",
+        "zh": "有一个传奇怪物出现在你面前：移动时留下力竭地面，持续 {0} 秒",
+        "en": "While a Unique Enemy is in your Presence, Drops Sapped Ground while moving, lasting {0} seconds"
+    },
+    {
+        "id": "stat_2251857767",
+        "zh": "有一个异界图鉴最终首领出现在你面前：行动速度加快 {0}%",
+        "en": "While a Pinnacle Atlas Boss is in your Presence, {0}% increased Action Speed"
+    },
+    {
+        "id": "stat_221690080",
+        "zh": "有一个异界图鉴最终首领出现在你面前：【元素净化】的光环效果提高 {0}%",
+        "en": "While a Pinnacle Atlas Boss is in your Presence, Purity of Elements has {0}% increased Aura Effect"
+    },
+    {
+        "id": "stat_2127607252",
+        "zh": "有一个传奇怪物出现在你面前：冰霜伤害提高 {0}%",
+        "en": "While a Unique Enemy is in your Presence, {0}% increased Cold Damage"
+    },
+    {
+        "id": "stat_1749598944",
+        "zh": "有一个传奇怪物出现在你面前：{0}% 的伤害优先从魔力扣除",
+        "en": "While a Unique Enemy is in your Presence, {0}% of Damage is taken from Mana before Life"
+    },
+    {
+        "id": "stat_1739741837",
+        "zh": "有一个传奇怪物出现在你面前：将承受的冰霜伤害的 {0}% 吸纳为生命",
+        "en": "While a Unique Enemy is in your Presence, {0}% of Cold Damage taken Recouped as Life"
+    },
+    {
+        "id": "stat_144453866",
+        "zh": "有一个传奇怪物出现在你面前：击中有 {0}% 的几率威吓敌人 4 秒",
+        "en": "While a Unique Enemy is in your Presence, {0}% chance to Intimidate Enemies for 4 seconds on Hit"
+    },
+    {
+        "id": "stat_1327020319",
+        "zh": "有一个传奇怪物出现在你面前：【怨毒光环】的光环效果提高 {0}%",
+        "en": "While a Unique Enemy is in your Presence, Malevolence has {0}% increased Aura Effect"
+    },
+    {
+        "id": "stat_2068042138",
+        "zh": "有一个异界图鉴最终首领出现在你面前：【冻伤】的诅咒效果提高 {0}%",
+        "en": "While a Pinnacle Atlas Boss is in your Presence, {0}% increased Frostbite Curse Effect"
+    },
+    {
+        "id": "stat_1699220089",
+        "zh": "有一个传奇怪物出现在你面前：击中时施加冰霜曝露，适配 {0}% 的冰霜抗性",
+        "en": "While a Unique Enemy is in your Presence, Inflict Cold Exposure on Hit, applying {0}% to Cold Resistance"
+    },
+    {
+        "id": "stat_1018817416",
+        "zh": "有一个传奇怪物出现在你面前：法术附加 {0} - {1} 基础冰霜伤害",
+        "en": "While a Unique Enemy is in your Presence, Adds {0} to {1} Cold Damage to Spells"
+    },
+    {
+        "id": "stat_1477049675",
+        "zh": "有一个传奇怪物出现在你面前：伤害穿透 {0}% 冰霜抗性",
+        "en": "While a Unique Enemy is in your Presence, Damage Penetrates {0}% Cold Resistance"
+    },
+    {
+        "id": "stat_1472965536",
+        "zh": "有一个传奇怪物出现在你面前：血肉与岩石的效果区域扩大 {0}%",
+        "en": "While a Unique Enemy is in your Presence, Flesh and Stone has {0}% increased Area of Effect"
+    },
+    {
+        "id": "stat_1481249164",
+        "zh": "有一个传奇怪物出现在你面前：生命回复率提高 {0}%",
+        "en": "While a Unique Enemy is in your Presence, {0}% increased Life Recovery rate"
+    },
+    {
+        "id": "stat_1132843482",
+        "zh": "有一个传奇怪物出现在你面前：奉献效果提高 {0}%",
+        "en": "While a Unique Enemy is in your Presence, {0}% increased effect of Offerings"
+    },
+    {
+        "id": "stat_1513279759",
+        "zh": "有一个异界图鉴最终首领出现在你面前：晕眩门槛提高 {0}%",
+        "en": "While a Pinnacle Atlas Boss is in your Presence, {0}% increased Stun Threshold"
+    },
+    {
+        "id": "stat_1682072497",
+        "zh": "有一个传奇怪物出现在你面前：承受伤害按照每 {0} 点敏捷总降 1%",
+        "en": "While a Unique Enemy is in your Presence, 1% less Damage Taken per {0} Dexterity"
+    },
+    {
+        "id": "stat_1138753695",
+        "zh": "有一个异界图鉴最终首领出现在你面前：你的咒印效果效果提高 {0}%",
+        "en": "While a Pinnacle Atlas Boss is in your Presence, {0}% increased Effect of your Marks"
+    },
+    {
+        "id": "stat_1146717028",
+        "zh": "有一个传奇怪物出现在你面前：将承受的闪电伤害的 {0}% 吸纳为生命",
+        "en": "While a Unique Enemy is in your Presence, {0}% of Lightning Damage taken Recouped as Life"
+    },
+    {
+        "id": "stat_2034940983",
+        "zh": "有一个异界图鉴最终首领出现在你面前：【火焰净化】的光环效果提高 {0}%",
+        "en": "While a Pinnacle Atlas Boss is in your Presence, Purity of Fire has {0}% increased Aura Effect"
+    },
+    {
+        "id": "stat_1167349834",
+        "zh": "有一个异界图鉴最终首领出现在你面前：愤怒光环的效果提高 {0}%",
+        "en": "While a Pinnacle Atlas Boss is in your Presence, Anger has {0}% increased Aura Effect"
+    },
+    {
+        "id": "stat_1343931641",
+        "zh": "有一个传奇怪物出现在你面前：你受到的感电效果降低 {0}%",
+        "en": "While a Unique Enemy is in your Presence, {0}% reduced Effect of Shock on you"
+    },
+    {
+        "id": "stat_1394771132",
+        "zh": "有一个传奇怪物出现在你面前：每个暴击球可使伤害提高 {0}%",
+        "en": "While a Unique Enemy is in your Presence, {0}% increased Damage per Power Charge"
+    },
+    {
+        "id": "stat_1425454108",
+        "zh": "有一个异界图鉴最终首领出现在你面前：获得额外冰霜伤害， 其数值等同于物理伤害的 {0}%",
+        "en": "While a Pinnacle Atlas Boss is in your Presence, Gain {0}% of Physical Damage as Extra Cold Damage"
+    },
+    {
+        "id": "stat_1554912650",
+        "zh": "有一个传奇怪物出现在你面前：法术附加 {0} - {1} 基础混沌伤害",
+        "en": "While a Unique Enemy is in your Presence, Adds {0} to {1} Chaos Damage to Spells"
+    },
+    {
+        "id": "stat_760444887",
+        "zh": "有一个传奇怪物出现在你面前：魔力再生率提高 {0}%",
+        "en": "While a Unique Enemy is in your Presence, {0}% increased Mana Regeneration Rate"
+    },
+    {
+        "id": "stat_4084536353",
+        "zh": "有一个异界图鉴最终首领出现在你面前：{0}% 物理持续伤害加成",
+        "en": "While a Pinnacle Atlas Boss is in your Presence, {0}% to Physical Damage over Time Multiplier"
+    },
+    {
+        "id": "stat_3521653836",
+        "zh": "有一个传奇怪物出现在你面前：{0}% 火焰抗性",
+        "en": "While a Unique Enemy is in your Presence, {0}% to Fire Resistance"
+    },
+    {
+        "id": "stat_3178090061",
+        "zh": "有一个异界图鉴最终首领出现在你面前：受到的反射伤害降低 {0}%",
+        "en": "While a Pinnacle Atlas Boss is in your Presence, {0}% reduced Reflected Damage taken"
+    },
+    {
+        "id": "stat_2917444195",
+        "zh": "有一个传奇怪物出现在你面前：腐化魔像给与你的增益效果提高 {0}%",
+        "en": "While a Unique Enemy is in your Presence, {0}% increased Effect of the Buff granted by your Carrion Golems"
+    },
+    {
+        "id": "stat_2391907787",
+        "zh": "有一个传奇怪物出现在你面前：攻击击中时有 {0}% 的几率穿刺敌人",
+        "en": "While a Unique Enemy is in your Presence, {0}% chance to Impale Enemies on Hit with Attacks"
+    },
+    {
+        "id": "stat_1894390763",
+        "zh": "有一个传奇怪物出现在你面前：伤害按照每 100 点智慧提高 {0}%",
+        "en": "While a Unique Enemy is in your Presence, {0}% increased Damage per 100 Intelligence"
+    },
+    {
+        "id": "stat_1708506642",
+        "zh": "有一个传奇怪物出现在你面前：击中时有 {0}% 的几率恐惧敌人 4 秒",
+        "en": "While a Unique Enemy is in your Presence, {0}% chance to Unnerve Enemies for 4 seconds on Hit"
+    },
+    {
+        "id": "stat_1629531681",
+        "zh": "有一个异界图鉴最终首领出现在你面前：击中时施加火焰曝露，适配 {0}% 的火焰抗性",
+        "en": "While a Pinnacle Atlas Boss is in your Presence, Inflict Fire Exposure on Hit, applying {0}% to Fire Resistance"
+    },
+    {
+        "id": "stat_1358320252",
+        "zh": "有一个传奇怪物出现在你面前：{0}% 法术伤害格挡几率",
+        "en": "While a Unique Enemy is in your Presence, {0}% Chance to Block Spell Damage"
+    },
+    {
+        "id": "stat_1884100040",
+        "zh": "有一个异界图鉴最终首领出现在你面前：非瓦尔打击技能以周围额外 {0} 名敌人为目标",
+        "en": "While a Pinnacle Atlas Boss is in your Presence, Non-Vaal Strike Skills target {0} additional nearby Enemy"
+    },
+    {
+        "id": "stat_1855179125",
+        "zh": "有一个异界图鉴最终首领出现在你面前：每个狂怒球可使伤害提高 {0}%",
+        "en": "While a Pinnacle Atlas Boss is in your Presence, {0}% increased Damage per Frenzy Charge"
+    },
+    {
+        "id": "stat_1917716710",
+        "zh": "有一个异界图鉴最终首领出现在你面前：能量护盾上限提高 {0}%",
+        "en": "While a Pinnacle Atlas Boss is in your Presence, {0}% increased maximum Energy Shield"
+    },
+    {
+        "id": "stat_1941017392",
+        "zh": "有一个传奇怪物出现在你面前：受到的反射伤害降低 {0}%",
+        "en": "While a Unique Enemy is in your Presence, {0}% reduced Reflected Damage taken"
+    },
+    {
+        "id": "stat_1714653952",
+        "zh": "有一个异界图鉴最终首领出现在你面前：被震地战吼增助的攻击的伤害提高 {0}%",
+        "en": "While a Pinnacle Atlas Boss is in your Presence, Attacks Exerted by Seismic Cry deal {0}% increased Damage"
+    },
+    {
+        "id": "stat_3953801646",
+        "zh": "有一个异界图鉴最终首领出现在你面前：攻击附加 {0} - {1} 基础混沌伤害",
+        "en": "While a Pinnacle Atlas Boss is in your Presence, Adds {0} to {1} Chaos Damage to Attacks"
+    },
+    {
+        "id": "stat_2033289503",
+        "zh": "有一个传奇怪物出现在你面前：图腾放置速度加快 {0}%",
+        "en": "While a Unique Enemy is in your Presence, {0}% increased Totem Placement speed"
+    },
+    {
+        "id": "stat_1455812442",
+        "zh": "有一个异界图鉴最终首领出现在你面前：魔武战号的增益效果提高 {0}%",
+        "en": "While a Pinnacle Atlas Boss is in your Presence, {0}% increased Battlemage's Cry Buff Effect"
+    },
+    {
+        "id": "stat_3695602451",
+        "zh": "有一个异界图鉴最终首领出现在你面前：【时空锁链】的诅咒效果提高 {0}%",
+        "en": "While a Pinnacle Atlas Boss is in your Presence, {0}% increased Temporal Chains Curse Effect"
+    },
+    {
+        "id": "stat_3593717239",
+        "zh": "有一个传奇怪物出现在你面前：【寒冰之捷】的增益效果提高 {0}%",
+        "en": "While a Unique Enemy is in your Presence, Herald of Ice has {0}% increased Buff Effect"
+    },
+    {
+        "id": "stat_3407071583",
+        "zh": "有一个异界图鉴最终首领出现在你面前：近期内被你击中的敌人的生命再生率降低 {0}%",
+        "en": "While a Pinnacle Atlas Boss is in your Presence, Enemies you've Hit Recently have {0}% reduced Life Regeneration rate"
+    },
+    {
+        "id": "stat_2619970520",
+        "zh": "有一个异界图鉴最终首领出现在你面前：{0}% 冰霜持续伤害加成",
+        "en": "While a Pinnacle Atlas Boss is in your Presence, {0}% to Cold Damage over Time Multiplier"
+    },
+    {
+        "id": "stat_1505297139",
+        "zh": "有一个传奇怪物出现在你面前：被震地战吼增助的攻击的伤害提高 {0}%",
+        "en": "While a Unique Enemy is in your Presence, Attacks Exerted by Seismic Cry deal {0}% increased Damage"
+    },
+    {
+        "id": "stat_133006298",
+        "zh": "有一个异界图鉴最终首领出现在你面前：【将军之吼】的冷却回复速度加快 {0}%",
+        "en": "While a Pinnacle Atlas Boss is in your Presence, General's Cry has {0}% increased Cooldown Recovery Rate"
+    },
+    {
+        "id": "stat_93625449",
+        "zh": "有一个传奇怪物出现在你面前：召唤生物的移动速度加快 {0}%",
+        "en": "While a Unique Enemy is in your Presence, Minions have {0}% increased Movement Speed"
+    },
+    {
+        "id": "stat_604852150",
+        "zh": "有一个传奇怪物出现在你面前：全局物理伤害提高 {0}%",
+        "en": "While a Unique Enemy is in your Presence, {0}% increased Global Physical Damage"
+    },
+    {
+        "id": "stat_568930056",
+        "zh": "有一个异界图鉴最终首领出现在你面前：效果区域扩大 {0}%",
+        "en": "While a Pinnacle Atlas Boss is in your Presence, {0}% increased Area of Effect"
+    },
+    {
+        "id": "stat_4218330172",
+        "zh": "有一个传奇怪物出现在你面前：【憎恨】的光环效果提高 {0}%",
+        "en": "While a Unique Enemy is in your Presence, Hatred has {0}% increased Aura Effect"
+    },
+    {
+        "id": "stat_403285636",
+        "zh": "有一个异界图鉴最终首领出现在你面前：伤害穿透 {0}% 冰霜抗性",
+        "en": "While a Pinnacle Atlas Boss is in your Presence, Damage Penetrates {0}% Cold Resistance"
+    },
+    {
+        "id": "stat_3591219299",
+        "zh": "有一个传奇怪物出现在你面前：烈焰魔像给予你的增益效果提高 {0}%",
+        "en": "While a Unique Enemy is in your Presence, {0}% increased Effect of the Buff granted by your Flame Golems"
+    },
+    {
+        "id": "stat_1774377226",
+        "zh": "有一个异界图鉴最终首领出现在你面前：炼狱战吼的效果区域扩大 {0}%",
+        "en": "While a Pinnacle Atlas Boss is in your Presence, Infernal Cry has {0}% increased Area of Effect"
+    },
+    {
+        "id": "stat_2349328837",
+        "zh": "有一个传奇怪物出现在你面前：你造成的点燃的伤害生效速度加快 {0}%",
+        "en": "While a Unique Enemy is in your Presence, Ignites you inflict deal Damage {0}% faster"
+    },
+    {
+        "id": "stat_2386062386",
+        "zh": "有一个异界图鉴最终首领出现在你面前：闪避值提高 {0}%",
+        "en": "While a Pinnacle Atlas Boss is in your Presence, {0}% increased Evasion Rating"
+    },
+    {
+        "id": "stat_2163876658",
+        "zh": "有一个异界图鉴最终首领出现在你面前：【尊严】的光环效果提高 {0}%",
+        "en": "While a Pinnacle Atlas Boss is in your Presence, Pride has {0}% increased Aura Effect"
+    },
+    {
+        "id": "stat_3499126604",
+        "zh": "有一个传奇怪物出现在你面前：【冰霜净化】的光环效果提高 {0}%",
+        "en": "While a Unique Enemy is in your Presence, Purity of Ice has {0}% increased Aura Effect"
+    },
+    {
+        "id": "stat_2181576428",
+        "zh": "有一个异界图鉴最终首领出现在你面前：将承受的冰霜伤害的 {0}% 吸纳为生命",
+        "en": "While a Pinnacle Atlas Boss is in your Presence, {0}% of Cold Damage taken Recouped as Life"
+    },
+    {
+        "id": "stat_2634574895",
+        "zh": "有一个传奇怪物出现在你面前：{0}% 混沌持续伤害加成",
+        "en": "While a Unique Enemy is in your Presence, {0}% to Chaos Damage over Time Multiplier"
+    },
+    {
+        "id": "stat_3393490212",
+        "zh": "有一个异界图鉴最终首领出现在你面前：血肉与岩石的效果区域扩大 {0}%",
+        "en": "While a Pinnacle Atlas Boss is in your Presence, Flesh and Stone has {0}% increased Area of Effect"
+    },
+    {
+        "id": "stat_2255001736",
+        "zh": "有一个传奇怪物出现在你面前：战吼施法速度加快 {0}%",
+        "en": "While a Unique Enemy is in your Presence, {0}% increased Warcry Speed"
+    },
+    {
+        "id": "stat_2809284200",
+        "zh": "有一个异界图鉴最终首领出现在你面前：每个暴击球可使伤害提高 {0}%",
+        "en": "While a Pinnacle Atlas Boss is in your Presence, {0}% increased Damage per Power Charge"
+    },
+    {
+        "id": "stat_2838459808",
+        "zh": "有一个异界图鉴最终首领出现在你面前：攻击击中时有 {0}% 的几率穿刺敌人",
+        "en": "While a Pinnacle Atlas Boss is in your Presence, {0}% chance to Impale Enemies on Hit with Attacks"
+    },
+    {
+        "id": "stat_2446980928",
+        "zh": "有一个异界图鉴最终首领出现在你面前：攻击速度加快 {0}%",
+        "en": "While a Pinnacle Atlas Boss is in your Presence, {0}% increased Attack Speed"
+    },
+    {
+        "id": "stat_2526554500",
+        "zh": "有一个异界图鉴最终首领出现在你面前：奉献效果提高 {0}%",
+        "en": "While a Pinnacle Atlas Boss is in your Presence, {0}% increased effect of Offerings"
+    },
+    {
+        "id": "stat_2703923310",
+        "zh": "有一个异界图鉴最终首领出现在你面前：每 {0} 秒获得一个暴击球",
+        "en": "While a Pinnacle Atlas Boss is in your Presence, Gain a Power Charge every {0} seconds"
+    },
+    {
+        "id": "stat_2782184338",
+        "zh": "有一个异界图鉴最终首领出现在你面前：火焰伤害提高 {0}%",
+        "en": "While a Pinnacle Atlas Boss is in your Presence, {0}% increased Fire Damage"
+    },
+    {
+        "id": "stat_2792560229",
+        "zh": "有一个传奇怪物出现在你面前：坚决战吼的冷却回复率提高 {0}%",
+        "en": "While a Unique Enemy is in your Presence, Enduring Cry has {0}% increased Cooldown Recovery Rate"
+    },
+    {
+        "id": "stat_2521809744",
+        "zh": "有一个传奇怪物出现在你面前：攻击附加 {0} - {1} 基础物理伤害",
+        "en": "While a Unique Enemy is in your Presence, Adds {0} to {1} Physical Damage to Attacks"
+    },
+    {
+        "id": "stat_3044748809",
+        "zh": "有一个传奇怪物出现在你面前：召唤生物的最大生命提高 {0}%",
+        "en": "While a Unique Enemy is in your Presence, Minions have {0}% increased maximum Life"
+    },
+    {
+        "id": "stat_2433754249",
+        "zh": "有一个传奇怪物出现在你面前：击中时有 {0}% 的几率使目标中毒",
+        "en": "While a Unique Enemy is in your Presence, {0}% chance to Poison on Hit"
+    },
+    {
+        "id": "stat_2216092051",
+        "zh": "有一个异界图鉴最终首领出现在你面前：承受伤害按照每 {0} 点敏捷总降 1%",
+        "en": "While a Pinnacle Atlas Boss is in your Presence, 1% less Damage Taken per {0} Dexterity"
+    },
+    {
+        "id": "stat_2070979181",
+        "zh": "有一个异界图鉴最终首领出现在你面前：混沌伤害提高 {0}%",
+        "en": "While a Pinnacle Atlas Boss is in your Presence, {0}% increased Chaos Damage"
+    },
+    {
+        "id": "stat_944522962",
+        "zh": "有一个异界图鉴最终首领出现在你面前：{0}% 混沌抗性上限",
+        "en": "While a Pinnacle Atlas Boss is in your Presence, {0}% to maximum Chaos Resistance"
+    },
+    {
+        "id": "stat_3599488608",
+        "zh": "有一个传奇怪物出现在你面前：血肉奉献效果提高 {0}%",
+        "en": "While a Unique Enemy is in your Presence, Flesh Offering has {0}% increased Effect"
+    },
+    {
+        "id": "stat_3611265227",
+        "zh": "有一个传奇怪物出现在你面前：战吼的增益效果提高 {0}%",
+        "en": "While a Unique Enemy is in your Presence, {0}% increased Warcry Buff Effect"
+    },
+    {
+        "id": "stat_3796902731",
+        "zh": "有一个传奇怪物出现在你面前：承受的物理伤害有 {0}% 吸纳为生命",
+        "en": "While a Unique Enemy is in your Presence, {0}% of Physical Damage taken Recouped as Life"
+    },
+    {
+        "id": "stat_503887731",
+        "zh": "有一个传奇怪物出现在你面前：【苦痛之捷】的增益效果提高 {0}%",
+        "en": "While a Unique Enemy is in your Presence, Herald of Agony has {0}% increased Buff Effect"
+    },
+    {
+        "id": "stat_4136821316",
+        "zh": "有一个传奇怪物出现在你面前：法术伤害提高 {0}%",
+        "en": "While a Unique Enemy is in your Presence, {0}% increased Spell Damage"
+    },
+    {
+        "id": "stat_4061200499",
+        "zh": "有一个传奇怪物出现在你面前：攻击伤害提高 {0}%",
+        "en": "While a Unique Enemy is in your Presence, {0}% increased Attack Damage"
+    },
+    {
+        "id": "stat_3415855998",
+        "zh": "有一个异界图鉴最终首领出现在你面前：{0}% 冰霜抗性上限",
+        "en": "While a Pinnacle Atlas Boss is in your Presence, {0}% to maximum Cold Resistance"
+    },
+    {
+        "id": "stat_3062531896",
+        "zh": "有一个传奇怪物出现在你面前：{0}% 全部抗性上限",
+        "en": "While a Unique Enemy is in your Presence, {0}% to all maximum Resistances"
+    },
+    {
+        "id": "stat_3425675761",
+        "zh": "有一个传奇怪物出现在你面前：伤害穿透 {0}% 火焰抗性",
+        "en": "While a Unique Enemy is in your Presence, Damage Penetrates {0}% Fire Resistance"
+    },
+    {
+        "id": "stat_3444931985",
+        "zh": "有一个传奇怪物出现在你面前：{0}% 冰霜抗性上限",
+        "en": "While a Unique Enemy is in your Presence, {0}% to maximum Cold Resistance"
+    },
+    {
+        "id": "stat_3171354842",
+        "zh": "有一个传奇怪物出现在你面前：获得额外冰霜伤害， 其数值等同于物理伤害的 {0}%",
+        "en": "While a Unique Enemy is in your Presence, Gain {0}% of Physical Damage as Extra Cold Damage"
+    },
+    {
+        "id": "stat_3045509476",
+        "zh": "有一个异界图鉴最终首领出现在你面前：【灰烬之捷】的增益效果提高 {0}%",
+        "en": "While a Pinnacle Atlas Boss is in your Presence, Herald of Ash has {0}% increased Buff Effect"
+    },
+    {
+        "id": "stat_4045839821",
+        "zh": "有一个异界图鉴最终首领出现在你面前：投射物会穿透 1 个额外目标",
+        "en": "While a Pinnacle Atlas Boss is in your Presence, Projectiles Pierce an additional Target"
+    },
+    {
+        "id": "stat_4045839821",
+        "zh": "有一个异界图鉴最终首领出现在你面前：投射物会穿透 {0} 个额外目标",
+        "en": "While a Pinnacle Atlas Boss is in your Presence, Projectiles Pierce {0} additional Targets"
+    },
+    {
+        "id": "stat_4224921626",
+        "zh": "有一个传奇怪物出现在你面前：伤害按照每 100 点力量提高 {0}%",
+        "en": "While a Unique Enemy is in your Presence, {0}% increased Damage per 100 Strength"
+    },
+    {
+        "id": "stat_2761472996",
+        "zh": "有一个异界图鉴最终首领出现在你面前：生命回复率提高 {0}%",
+        "en": "While a Pinnacle Atlas Boss is in your Presence, {0}% increased Life Recovery rate"
+    },
+    {
+        "id": "stat_26006636",
+        "zh": "有一个异界图鉴最终首领出现在你面前：能量护盾充能率提高 {0}%",
+        "en": "While a Pinnacle Atlas Boss is in your Presence, {0}% increased Energy Shield Recharge Rate"
+    },
+    {
+        "id": "stat_3457821036",
+        "zh": "有一个异界图鉴最终首领出现在你面前：你施加的死亡凋零耗竭速度加快 {0}%",
+        "en": "While a Pinnacle Atlas Boss is in your Presence, Withered you Inflict expires {0}% faster"
+    },
+    {
+        "id": "stat_3457821036",
+        "zh": "有一个异界图鉴最终首领出现在你面前：你施加的死亡凋零耗竭速度减慢 {0}%",
+        "en": "While a Pinnacle Atlas Boss is in your Presence, Withered you Inflict expires {0}% slower"
+    },
+    {
+        "id": "stat_649027123",
+        "zh": "有一个传奇怪物出现在你面前：【闪电之捷】的增益效果提高 {0}%",
+        "en": "While a Unique Enemy is in your Presence, Herald of Thunder has {0}% increased Buff Effect"
+    },
+    {
+        "id": "stat_732411542",
+        "zh": "有一个传奇怪物出现在你面前：击中时施加火焰曝露，适配 {0}% 的火焰抗性",
+        "en": "While a Unique Enemy is in your Presence, Inflict Fire Exposure on Hit, applying {0}% to Fire Resistance"
+    },
+    {
+        "id": "stat_2143647966",
+        "zh": "有一个传奇怪物出现在你面前：将承受的火焰伤害的 {0}% 吸纳为生命",
+        "en": "While a Unique Enemy is in your Presence, {0}% of Fire Damage taken Recouped as Life"
+    },
+    {
+        "id": "stat_2086047206",
+        "zh": "有一个异界图鉴最终首领出现在你面前：命中值提高 {0}%",
+        "en": "While a Pinnacle Atlas Boss is in your Presence, {0}% increased Global Accuracy Rating"
+    },
+    {
+        "id": "stat_1762412317",
+        "zh": "有一个异界图鉴最终首领出现在你面前：击中时施加闪电曝露，适配 {0}% 的闪电抗性",
+        "en": "While a Pinnacle Atlas Boss is in your Presence, Inflict Lightning Exposure on Hit, applying {0}% to Lightning Resistance"
+    },
+    {
+        "id": "stat_1175129684",
+        "zh": "有一个异界图鉴最终首领出现在你面前：伤害穿透 {0}% 火焰抗性",
+        "en": "While a Pinnacle Atlas Boss is in your Presence, Damage Penetrates {0}% Fire Resistance"
+    },
+    {
+        "id": "stat_2391109128",
+        "zh": "有一个异界图鉴最终首领出现在你面前：烙印的附着范围扩大 {0}%",
+        "en": "While a Pinnacle Atlas Boss is in your Presence, {0}% increased Brand Attachment range"
+    },
+    {
+        "id": "stat_1080711147",
+        "zh": "有一个异界图鉴最终首领出现在你面前：腐化魔像给与你的增益效果提高 {0}%",
+        "en": "While a Pinnacle Atlas Boss is in your Presence, {0}% increased Effect of the Buff granted by your Carrion Golems"
+    },
+    {
+        "id": "stat_848890513",
+        "zh": "有一个传奇怪物出现在你面前：受到击中物理伤害的 {0}% 转化为冰霜伤害",
+        "en": "While a Unique Enemy is in your Presence, {0}% of Physical Damage from Hits taken as Cold Damage"
+    },
+    {
+        "id": "stat_3556129896",
+        "zh": "有一个传奇怪物出现在你面前：{0}% 闪电抗性",
+        "en": "While a Unique Enemy is in your Presence, {0}% to Lightning Resistance"
+    },
+    {
+        "id": "stat_3924473787",
+        "zh": "有一个传奇怪物出现在你面前：投射物会穿透 1 个额外目标",
+        "en": "While a Unique Enemy is in your Presence, Projectiles Pierce an additional Target"
+    },
+    {
+        "id": "stat_3924473787",
+        "zh": "有一个传奇怪物出现在你面前：投射物会穿透 {0} 个额外目标",
+        "en": "While a Unique Enemy is in your Presence, Projectiles Pierce {0} additional Targets"
+    },
+    {
+        "id": "stat_2029969019",
+        "zh": "有一个异界图鉴最终首领出现在你面前：【元素要害】的诅咒效果提高 {0}%",
+        "en": "While a Pinnacle Atlas Boss is in your Presence, {0}% increased Elemental Weakness Curse Effect"
+    },
+    {
+        "id": "stat_2669364207",
+        "zh": "有一个传奇怪物出现在你面前：你所施放诅咒的效果提高 {0}%",
+        "en": "While a Unique Enemy is in your Presence, {0}% increased Effect of your Curses"
+    },
+    {
+        "id": "stat_3209267362",
+        "zh": "有一个异界图鉴最终首领出现在你面前：你受到的猛攻效果增强 {0}%",
+        "en": "While a Pinnacle Atlas Boss is in your Presence, {0}% increased Effect of Onslaught on you"
+    },
+    {
+        "id": "stat_2441896589",
+        "zh": "有一个传奇怪物出现在你面前：每 {0} 秒获得一个耐力球",
+        "en": "While a Unique Enemy is in your Presence, Gain an Endurance Charge every {0} seconds"
+    },
+    {
+        "id": "stat_2159248495",
+        "zh": "有一个传奇怪物出现在你面前：魔像的增益效果提高 {0}%",
+        "en": "While a Unique Enemy is in your Presence, {0}% increased Effect of Buffs granted by your Golems"
+    },
+    {
+        "id": "stat_1918872160",
+        "zh": "有一个传奇怪物出现在你面前：魔力再生率随每个暴击球提高 {0}%",
+        "en": "While a Unique Enemy is in your Presence, {0}% increased Mana Regeneration Rate per Power Charge"
+    },
+    {
+        "id": "stat_1270539481",
+        "zh": "有一个异界图鉴最终首领出现在你面前：攻击击中时获得 1 点怒火，每 {0} 秒发生一次",
+        "en": "While a Pinnacle Atlas Boss is in your Presence, Gain 1 Rage on Hit with Attacks, no more than once every {0} seconds"
+    },
+    {
+        "id": "stat_4093169696",
+        "zh": "有一个传奇怪物出现在你面前：【纯净之捷】的增益效果提高 {0}%",
+        "en": "While a Unique Enemy is in your Presence, Herald of Purity has {0}% increased Buff Effect"
+    },
+    {
+        "id": "stat_4146719724",
+        "zh": "有一个异界图鉴最终首领出现在你面前：有 {0}% 的几率造成冻结状态",
+        "en": "While a Pinnacle Atlas Boss is in your Presence, {0}% chance to Freeze"
+    },
+    {
+        "id": "stat_4155771029",
+        "zh": "有一个异界图鉴最终首领出现在你面前：你身上的药剂效果提高 {0}%",
+        "en": "While a Pinnacle Atlas Boss is in your Presence, Flasks applied to you have {0}% increased Effect"
+    },
+    {
+        "id": "stat_46472075",
+        "zh": "有一个传奇怪物出现在你面前：每 {0} 秒获得一个暴击球",
+        "en": "While a Unique Enemy is in your Presence, Gain a Power Charge every {0} seconds"
+    },
+    {
+        "id": "stat_535580777",
+        "zh": "有一个传奇怪物出现在你面前：伤害按照每 100 点敏捷提高 {0}%",
+        "en": "While a Unique Enemy is in your Presence, {0}% increased Damage per 100 Dexterity"
+    },
+    {
+        "id": "stat_1524679549",
+        "zh": "有一个传奇怪物出现在你面前：非瓦尔打击技能以周围额外 {0} 名敌人为目标",
+        "en": "While a Unique Enemy is in your Presence, Non-Vaal Strike Skills target {0} additional nearby Enemy"
+    },
+    {
+        "id": "stat_575726461",
+        "zh": "有一个传奇怪物出现在你面前：{0}% 混沌抗性上限",
+        "en": "While a Unique Enemy is in your Presence, {0}% to maximum Chaos Resistance"
+    },
+    {
+        "id": "stat_621576159",
+        "zh": "有一个传奇怪物出现在你面前：{0}% 冰霜持续伤害加成",
+        "en": "While a Unique Enemy is in your Presence, {0}% to Cold Damage over Time Multiplier"
+    },
+    {
+        "id": "stat_1033279468",
+        "zh": "有一个异界图鉴最终首领出现在你面前：【怨毒光环】的光环效果提高 {0}%",
+        "en": "While a Pinnacle Atlas Boss is in your Presence, Malevolence has {0}% increased Aura Effect"
+    },
+    {
+        "id": "stat_1371764251",
+        "zh": "有一个异界图鉴最终首领出现在你面前：护甲提高 {0}%",
+        "en": "While a Pinnacle Atlas Boss is in your Presence, {0}% increased Armour"
+    },
+    {
+        "id": "stat_74135418",
+        "zh": "有一个异界图鉴最终首领出现在你面前：{0}% 混沌抗性",
+        "en": "While a Pinnacle Atlas Boss is in your Presence, {0}% to Chaos Resistance"
+    },
+    {
+        "id": "stat_81526858",
+        "zh": "有一个异界图鉴最终首领出现在你面前：【优雅】的光环效果提高 {0}%",
+        "en": "While a Pinnacle Atlas Boss is in your Presence, Grace has {0}% increased Aura Effect"
+    },
+    {
+        "id": "stat_125264229",
+        "zh": "有一个异界图鉴最终首领出现在你面前：承受伤害按照每 {0} 点力量总降 1%",
+        "en": "While a Pinnacle Atlas Boss is in your Presence, 1% less Damage Taken per {0} Strength"
+    },
+    {
+        "id": "stat_92591094",
+        "zh": "有一个异界图鉴最终首领出现在你面前：能量护盾回复率提高 {0}%",
+        "en": "While a Pinnacle Atlas Boss is in your Presence, {0}% increased Energy Shield Recovery rate"
+    },
+    {
+        "id": "stat_100371300",
+        "zh": "有一个异界图鉴最终首领出现在你面前：图腾放置速度加快 {0}%",
+        "en": "While a Pinnacle Atlas Boss is in your Presence, {0}% increased Totem Placement speed"
+    },
+    {
+        "id": "stat_942266300",
+        "zh": "有一个传奇怪物出现在你面前：【将军之吼】的冷却回复速度加快 {0}%",
+        "en": "While a Unique Enemy is in your Presence, General's Cry has {0}% increased Cooldown Recovery Rate"
+    },
+    {
+        "id": "stat_908556575",
+        "zh": "有一个传奇怪物出现在你面前：【闪电净化】的光环效果提高 {0}%",
+        "en": "While a Unique Enemy is in your Presence, Purity of Lightning has {0}% increased Aura Effect"
+    },
+    {
+        "id": "stat_620552892",
+        "zh": "有一个传奇怪物出现在你面前：获得额外混沌伤害，其数值等同于物理伤害的 {0}%",
+        "en": "While a Unique Enemy is in your Presence, Gain {0}% of Physical Damage as Extra Chaos Damage"
+    },
+    {
+        "id": "stat_498250787",
+        "zh": "有一个异界图鉴最终首领出现在你面前：生命再生率提高 {0}%",
+        "en": "While a Pinnacle Atlas Boss is in your Presence, {0}% increased Life Regeneration rate"
+    },
+    {
+        "id": "stat_1053495752",
+        "zh": "有一个异界图鉴最终首领出现在你面前：你造成的点燃的伤害生效速度加快 {0}%",
+        "en": "While a Pinnacle Atlas Boss is in your Presence, Ignites you inflict deal Damage {0}% faster"
+    },
+    {
+        "id": "stat_1116269888",
+        "zh": "有一个传奇怪物出现在你面前：攻击的魔力消耗降低 {0}%",
+        "en": "While a Unique Enemy is in your Presence, {0}% reduced Mana Cost of Attacks"
+    },
+    {
+        "id": "stat_942478380",
+        "zh": "有一个传奇怪物出现在你面前：暴风之盾的增益效果提高 {0}%",
+        "en": "While a Unique Enemy is in your Presence, Tempest Shield has {0}% increased Buff Effect"
+    },
+    {
+        "id": "stat_928972227",
+        "zh": "有一个异界图鉴最终首领出现在你面前：你被冰冻的持续时间缩短 {0}%",
+        "en": "While a Pinnacle Atlas Boss is in your Presence, {0}% reduced Freeze Duration on you"
+    },
+    {
+        "id": "stat_2150799098",
+        "zh": "有一个传奇怪物出现在你面前：药剂每 3 秒获得 1 次使用机会",
+        "en": "While a Unique Enemy is in your Presence, Flasks gain a Charge every 3 seconds"
+    },
+    {
+        "id": "stat_2150799098",
+        "zh": "有一个传奇怪物出现在你面前：药剂每 3 秒获得 {0} 次使用机会",
+        "en": "While a Unique Enemy is in your Presence, Flasks gain {0} Charges every 3 seconds"
+    },
+    {
+        "id": "stat_865433929",
+        "zh": "有一个传奇怪物出现在你面前：法术伤害的暴击伤害加成 {0}%",
+        "en": "While a Unique Enemy is in your Presence, {0}% to Critical Strike Multiplier for Spell Damage"
+    },
+    {
+        "id": "stat_2163155983",
+        "zh": "有一个异界图鉴最终首领出现在你面前：{0}% 混沌持续伤害加成",
+        "en": "While a Pinnacle Atlas Boss is in your Presence, {0}% to Chaos Damage over Time Multiplier"
+    },
+    {
+        "id": "stat_3764409984",
+        "zh": "有一个异界图鉴最终首领出现在你面前：{0}% 的物理伤害转换为火焰伤害",
+        "en": "While a Pinnacle Atlas Boss is in your Presence, {0}% of Physical Damage Converted to Fire Damage"
+    },
+    {
+        "id": "stat_266654028",
+        "zh": "有一个传奇怪物出现在你面前：晕眩门槛提高 {0}%",
+        "en": "While a Unique Enemy is in your Presence, {0}% increased Stun Threshold"
+    },
+    {
+        "id": "stat_740797388",
+        "zh": "有一个异界图鉴最终首领出现在你面前：每个耐力球可使伤害提高 {0}%",
+        "en": "While a Pinnacle Atlas Boss is in your Presence, {0}% increased Damage per Endurance Charge"
+    },
+    {
+        "id": "stat_587322642",
+        "zh": "有一个传奇怪物出现在你面前：能量护盾回复率提高 {0}%",
+        "en": "While a Unique Enemy is in your Presence, {0}% increased Energy Shield Recovery rate"
+    },
+    {
+        "id": "stat_3671920033",
+        "zh": "有一个异界图鉴最终首领出现在你面前：攻击的魔力消耗降低 {0}%",
+        "en": "While a Pinnacle Atlas Boss is in your Presence, {0}% reduced Mana Cost of Attacks"
+    },
+    {
+        "id": "stat_3598887112",
+        "zh": "有一个传奇怪物出现在你面前：被先祖战吼增助的攻击伤害提高 {0}%",
+        "en": "While a Unique Enemy is in your Presence, Attacks Exerted by Ancestral Cry deal {0}% increased Damage"
+    },
+    {
+        "id": "stat_553122931",
+        "zh": "有一个传奇怪物出现在你面前：承受伤害按照每 {0} 点智慧总降 1%",
+        "en": "While a Unique Enemy is in your Presence, 1% less Damage Taken per {0} Intelligence"
+    },
+    {
+        "id": "stat_505327219",
+        "zh": "有一个异界图鉴最终首领出现在你面前：召唤生物承受的反射伤害降低 {0}%",
+        "en": "While a Pinnacle Atlas Boss is in your Presence, Minions take {0}% reduced Reflected Damage"
+    },
+    {
+        "id": "stat_771845579",
+        "zh": "有一个传奇怪物出现在你面前：【元素要害】的诅咒效果提高 {0}%",
+        "en": "While a Unique Enemy is in your Presence, {0}% increased Elemental Weakness Curse Effect"
+    },
+    {
+        "id": "stat_3341892633",
+        "zh": "有一个传奇怪物出现在你面前：造成的异常状态持续时间延长 {0}%",
+        "en": "While a Unique Enemy is in your Presence, {0}% increased Duration of Ailments on Enemies"
+    },
+    {
+        "id": "stat_4018420421",
+        "zh": "有一个异界图鉴最终首领出现在你面前：击中时有 {0}% 的几率恐惧敌人 4 秒",
+        "en": "While a Pinnacle Atlas Boss is in your Presence, {0}% chance to Unnerve Enemies for 4 seconds on Hit"
+    },
+    {
+        "id": "stat_3823702653",
+        "zh": "有一个异界图鉴最终首领出现在你面前：{0}% 几率避免被感电",
+        "en": "While a Pinnacle Atlas Boss is in your Presence, {0}% chance to Avoid being Shocked"
+    },
+    {
+        "id": "stat_3326567914",
+        "zh": "有一个异界图鉴最终首领出现在你面前：{0}% 攻击伤害格挡率",
+        "en": "While a Pinnacle Atlas Boss is in your Presence, {0}% Chance to Block Attack Damage"
+    },
+    {
+        "id": "stat_3262721796",
+        "zh": "有一个传奇怪物出现在你面前：你施加的死亡凋零耗竭速度加快 {0}%",
+        "en": "While a Unique Enemy is in your Presence, Withered you Inflict expires {0}% faster"
+    },
+    {
+        "id": "stat_3262721796",
+        "zh": "有一个传奇怪物出现在你面前：你施加的死亡凋零耗竭速度减慢 {0}%",
+        "en": "While a Unique Enemy is in your Presence, Withered you Inflict expires {0}% slower"
+    },
+    {
+        "id": "stat_1096728982",
+        "zh": "有一个传奇怪物出现在你面前：有 {0}% 的几率造成冻结状态",
+        "en": "While a Unique Enemy is in your Presence, {0}% chance to Freeze"
+    },
+    {
+        "id": "stat_2293353005",
+        "zh": "有一个异界图鉴最终首领出现在你面前：【奋锐光环】的光环效果提高 {0}%",
+        "en": "While a Pinnacle Atlas Boss is in your Presence, Zealotry has {0}% increased Aura Effect"
+    },
+    {
+        "id": "stat_2290911895",
+        "zh": "有一个传奇怪物出现在你面前：骸骨奉献效果提高 {0}%",
+        "en": "While a Unique Enemy is in your Presence, Bone Offering has {0}% increased Effect"
+    },
+    {
+        "id": "stat_2067485824",
+        "zh": "有一个传奇怪物出现在你面前：攻击附加 {0} - {1} 基础火焰伤害",
+        "en": "While a Unique Enemy is in your Presence, Adds {0} to {1} Fire Damage to Attacks"
+    },
+    {
+        "id": "stat_1516273114",
+        "zh": "有一个传奇怪物出现在你面前：物理伤害的 {0}% 转换为闪电伤害",
+        "en": "While a Unique Enemy is in your Presence, {0}% of Physical Damage Converted to Lightning Damage"
+    },
+    {
+        "id": "stat_4191234472",
+        "zh": "有一个传奇怪物出现在你面前：法术暴击率提高 {0}%",
+        "en": "While a Unique Enemy is in your Presence, {0}% increased Critical Strike Chance for Spells"
+    },
+    {
+        "id": "stat_3998961962",
+        "zh": "有一个传奇怪物出现在你面前：法术伤害压制率 {0}%",
+        "en": "While a Unique Enemy is in your Presence, {0}% chance to Suppress Spell Damage"
+    },
+    {
+        "id": "stat_3806837783",
+        "zh": "有一个传奇怪物出现在你面前：能量护盾充能率提高 {0}%",
+        "en": "While a Unique Enemy is in your Presence, {0}% increased Energy Shield Recharge Rate"
+    },
+    {
+        "id": "stat_2668120423",
+        "zh": "有一个传奇怪物出现在你面前：闪电伤害提高 {0}%",
+        "en": "While a Unique Enemy is in your Presence, {0}% increased Lightning Damage"
+    },
+    {
+        "id": "stat_323292443",
+        "zh": "有一个异界图鉴最终首领出现在你面前：【易燃】的诅咒效果提高 {0}%",
+        "en": "While a Pinnacle Atlas Boss is in your Presence, {0}% increased Flammability Curse Effect"
+    },
+    {
+        "id": "stat_2955927568",
+        "zh": "有一个异界图鉴最终首领出现在你面前：法术伤害的暴击伤害加成 {0}%",
+        "en": "While a Pinnacle Atlas Boss is in your Presence, {0}% to Critical Strike Multiplier for Spell Damage"
+    },
+    {
+        "id": "stat_1133929401",
+        "zh": "有一个异界图鉴最终首领出现在你面前：{0}% 火焰抗性上限",
+        "en": "While a Pinnacle Atlas Boss is in your Presence, {0}% to maximum Fire Resistance"
+    },
+    {
+        "id": "stat_1253537227",
+        "zh": "有一个异界图鉴最终首领出现在你面前：【憎恨】的光环效果提高 {0}%",
+        "en": "While a Pinnacle Atlas Boss is in your Presence, Hatred has {0}% increased Aura Effect"
+    },
+    {
+        "id": "stat_3550578554",
+        "zh": "有一个传奇怪物出现在你面前：【奋锐光环】的光环效果提高 {0}%",
+        "en": "While a Unique Enemy is in your Presence, Zealotry has {0}% increased Aura Effect"
+    },
+    {
+        "id": "stat_3423886807",
+        "zh": "有一个传奇怪物出现在你面前：有 {0}% 的几率在法术击中时使敌人缓速",
+        "en": "While a Unique Enemy is in your Presence, {0}% chance to Hinder Enemies on Hit with Spells"
+    },
+    {
+        "id": "stat_3264420229",
+        "zh": "有一个传奇怪物出现在你面前：{0}% 几率避免元素异常状态",
+        "en": "While a Unique Enemy is in your Presence, {0}% chance to Avoid Elemental Ailments"
+    },
+    {
+        "id": "stat_3141084961",
+        "zh": "有一个异界图鉴最终首领出现在你面前：召唤生物的伤害提高 {0}%",
+        "en": "While a Pinnacle Atlas Boss is in your Presence, Minions deal {0}% increased Damage"
+    },
+    {
+        "id": "stat_993223747",
+        "zh": "有一个传奇怪物出现在你面前：近战击中有 {0}% 的几率提供护体状态",
+        "en": "While a Unique Enemy is in your Presence, Melee Hits have {0}% chance to Fortify"
+    },
+    {
+        "id": "stat_993223747",
+        "zh": "有一个传奇怪物出现在你面前：近战击中提供护体状态",
+        "en": "While a Unique Enemy is in your Presence, Melee Hits Fortify"
+    },
+    {
+        "id": "stat_2998245080",
+        "zh": "有一个异界图鉴最终首领出现在你面前：法术伤害压制率 {0}%",
+        "en": "While a Pinnacle Atlas Boss is in your Presence, {0}% chance to Suppress Spell Damage"
+    },
+    {
+        "id": "stat_2925105924",
+        "zh": "有一个异界图鉴最终首领出现在你面前：攻击附加 {0} - {1} 基础闪电伤害",
+        "en": "While a Pinnacle Atlas Boss is in your Presence, Adds {0} to {1} Lightning Damage to Attacks"
+    },
+    {
+        "id": "stat_744196525",
+        "zh": "有一个传奇怪物出现在你面前：{0}% 混沌抗性",
+        "en": "While a Unique Enemy is in your Presence, {0}% to Chaos Resistance"
+    },
+    {
+        "id": "stat_560848642",
+        "zh": "有一个异界图鉴最终首领出现在你面前：每 {0} 秒获得一个狂怒球",
+        "en": "While a Pinnacle Atlas Boss is in your Presence, Gain a Frenzy Charge every {0} seconds"
+    },
+    {
+        "id": "stat_2651293339",
+        "zh": "有一个传奇怪物出现在你面前：{0}% 几率避免致流血",
+        "en": "While a Unique Enemy is in your Presence, {0}% chance to Avoid Bleeding"
+    },
+    {
+        "id": "stat_493814995",
+        "zh": "有一个传奇怪物出现在你面前：移动时留下烧灼地面，持续 {0} 秒",
+        "en": "While a Unique Enemy is in your Presence, Drops Scorched Ground while moving, lasting {0} seconds"
+    },
+    {
+        "id": "stat_491577732",
+        "zh": "有一个传奇怪物出现在你面前：你受到的猛攻效果增强 {0}%",
+        "en": "While a Unique Enemy is in your Presence, {0}% increased Effect of Onslaught on you"
+    },
+    {
+        "id": "stat_2621869142",
+        "zh": "有一个传奇怪物出现在你面前：闪电伤害击中时有 {0}% 的几率使敌人受到感电效果影响",
+        "en": "While a Unique Enemy is in your Presence, {0}% chance to Shock"
+    },
+    {
+        "id": "stat_2520245478",
+        "zh": "有一个传奇怪物出现在你面前：你被点燃的持续时间缩短 {0}%",
+        "en": "While a Unique Enemy is in your Presence, {0}% reduced Ignite Duration on you"
+    },
+    {
+        "id": "stat_4171615823",
+        "zh": "有一个传奇怪物出现在你面前：【惩戒】的诅咒效果提高 {0}%",
+        "en": "While a Unique Enemy is in your Presence, {0}% increased Punishment Curse Effect"
+    },
+    {
+        "id": "stat_2459490852",
+        "zh": "有一个异界图鉴最终首领出现在你面前：闪电伤害击中时有 {0}% 的几率使敌人受到感电效果影响",
+        "en": "While a Pinnacle Atlas Boss is in your Presence, {0}% chance to Shock"
+    },
+    {
+        "id": "stat_2415020123",
+        "zh": "有一个传奇怪物出现在你面前：每个狂怒球可使伤害提高 {0}%",
+        "en": "While a Unique Enemy is in your Presence, {0}% increased Damage per Frenzy Charge"
+    },
+    {
+        "id": "stat_3001066983",
+        "zh": "有一个异界图鉴最终首领出现在你面前：【苦痛之捷】的增益效果提高 {0}%",
+        "en": "While a Pinnacle Atlas Boss is in your Presence, Herald of Agony has {0}% increased Buff Effect"
+    },
+    {
+        "id": "stat_3947691353",
+        "zh": "有一个异界图鉴最终首领出现在你面前：受到击中物理伤害的 {0}% 转化为闪电伤害",
+        "en": "While a Pinnacle Atlas Boss is in your Presence, {0}% of Physical Damage from Hits taken as Lightning Damage"
+    },
+    {
+        "id": "stat_4057155645",
+        "zh": "有一个传奇怪物出现在你面前：攻击附加 {0} - {1} 基础冰霜伤害",
+        "en": "While a Unique Enemy is in your Presence, Adds {0} to {1} Cold Damage to Attacks"
+    },
+    {
+        "id": "stat_3887072924",
+        "zh": "有一个传奇怪物出现在你面前：{0}% 几率避免被冰冻",
+        "en": "While a Unique Enemy is in your Presence, {0}% chance to Avoid being Frozen"
+    },
+    {
+        "id": "stat_3828039449",
+        "zh": "有一个传奇怪物出现在你面前：你造成的中毒的伤害生效速度加快 {0}%",
+        "en": "While a Unique Enemy is in your Presence, Poisons you inflict deal Damage {0}% faster"
+    },
+    {
+        "id": "stat_3005679448",
+        "zh": "有一个异界图鉴最终首领出现在你面前：【纯净之捷】的增益效果提高 {0}%",
+        "en": "While a Pinnacle Atlas Boss is in your Presence, Herald of Purity has {0}% increased Buff Effect"
+    },
+    {
+        "id": "stat_3744585764",
+        "zh": "有一个异界图鉴最终首领出现在你面前：【极地装甲】的增益效果提高 {0}%",
+        "en": "While a Pinnacle Atlas Boss is in your Presence, {0}% increased Arctic Armour Buff Effect"
+    },
+    {
+        "id": "stat_3394288644",
+        "zh": "有一个传奇怪物出现在你面前：闪避值提高 {0}%",
+        "en": "While a Unique Enemy is in your Presence, {0}% increased Evasion Rating"
+    },
+    {
+        "id": "stat_334238649",
+        "zh": "有一个传奇怪物出现在你面前：【纪律】的光环效果提高 {0}%",
+        "en": "While a Unique Enemy is in your Presence, Discipline has {0}% increased Aura Effect"
+    },
+    {
+        "id": "stat_3291139981",
+        "zh": "有一个传奇怪物出现在你面前：增助攻击的伤害提高 {0}%",
+        "en": "While a Unique Enemy is in your Presence, Exerted Attacks deal {0}% increased Damage"
+    },
+    {
+        "id": "stat_1807607778",
+        "zh": "有一个传奇怪物出现在你面前：混沌魔像给予你的增益效果提高 {0}%",
+        "en": "While a Unique Enemy is in your Presence, {0}% increased Effect of the Buff granted by your Chaos Golems"
+    },
+    {
+        "id": "stat_1840069423",
+        "zh": "有一个异界图鉴最终首领出现在你面前：攻击暴击率提高 {0}%",
+        "en": "While a Pinnacle Atlas Boss is in your Presence, {0}% increased Critical Strike Chance for Attacks"
+    },
+    {
+        "id": "stat_3995172058",
+        "zh": "有一个异界图鉴最终首领出现在你面前：受到击中物理伤害的 {0}% 转化为火焰伤害",
+        "en": "While a Pinnacle Atlas Boss is in your Presence, {0}% of Physical Damage from Hits taken as Fire Damage"
+    },
+    {
+        "id": "stat_4241033239",
+        "zh": "有一个异界图鉴最终首领出现在你面前：{0}% 几率避免元素异常状态",
+        "en": "While a Pinnacle Atlas Boss is in your Presence, {0}% chance to Avoid Elemental Ailments"
+    },
+    {
+        "id": "stat_469487616",
+        "zh": "有一个异界图鉴最终首领出现在你面前：压制 {0}% 物理伤害减免",
+        "en": "While a Pinnacle Atlas Boss is in your Presence, Overwhelm {0}% Physical Damage Reduction"
+    },
+    {
+        "id": "stat_3163099942",
+        "zh": "有一个传奇怪物出现在你面前：你身上的秘术增强效果提高 {0}%",
+        "en": "While a Unique Enemy is in your Presence, {0}% increased Effect of Arcane Surge on you"
+    },
+    {
+        "id": "stat_2950684886",
+        "zh": "有一个传奇怪物出现在你面前：非伤害型异常状态效果提高 {0}%",
+        "en": "While a Unique Enemy is in your Presence, {0}% increased Effect of Non-Damaging Ailments"
+    },
+    {
+        "id": "stat_2601015548",
+        "zh": "有一个异界图鉴最终首领出现在你面前：暴风之盾的增益效果提高 {0}%",
+        "en": "While a Pinnacle Atlas Boss is in your Presence, Tempest Shield has {0}% increased Buff Effect"
+    },
+    {
+        "id": "stat_2479119864",
+        "zh": "有一个传奇怪物出现在你面前：陷阱投掷速度加快 {0}%",
+        "en": "While a Unique Enemy is in your Presence, {0}% increased Trap Throwing Speed"
+    },
+    {
+        "id": "stat_2408490382",
+        "zh": "有一个传奇怪物出现在你面前：头部装备和脚部装备提供的闪避值提高 {0}%",
+        "en": "While a Unique Enemy is in your Presence, {0}% increased Evasion Rating from Equipped Helmet and Boots"
+    },
+    {
+        "id": "stat_1916766878",
+        "zh": "有一个传奇怪物出现在你面前：生命再生率提高 {0}%",
+        "en": "While a Unique Enemy is in your Presence, {0}% increased Life Regeneration rate"
+    },
+    {
+        "id": "stat_2358903592",
+        "zh": "有一个传奇怪物出现在你面前：技能的魔力保留效能提高 {0}%",
+        "en": "While a Unique Enemy is in your Presence, {0}% increased Mana Reservation Efficiency of Skills"
+    },
+    {
+        "id": "stat_2111629859",
+        "zh": "有一个传奇怪物出现在你面前：攻击附加 {0} - {1} 基础闪电伤害",
+        "en": "While a Unique Enemy is in your Presence, Adds {0} to {1} Lightning Damage to Attacks"
+    },
+    {
+        "id": "stat_2063107864",
+        "zh": "有一个异界图鉴最终首领出现在你面前：【激励战吼】的增益效果提高 {0}%",
+        "en": "While a Pinnacle Atlas Boss is in your Presence, {0}% increased Rallying Cry Buff Effect"
+    },
+    {
+        "id": "stat_2117066923",
+        "zh": "有一个异界图鉴最终首领出现在你面前：战吼施法速度加快 {0}%",
+        "en": "While a Pinnacle Atlas Boss is in your Presence, {0}% increased Warcry Speed"
+    },
+    {
+        "id": "stat_1299790658",
+        "zh": "有一个异界图鉴最终首领出现在你面前：{0}% 火焰抗性",
+        "en": "While a Pinnacle Atlas Boss is in your Presence, {0}% to Fire Resistance"
+    },
+    {
+        "id": "stat_2204282073",
+        "zh": "有一个异界图鉴最终首领出现在你面前：{0}% 的物理伤害转换为混沌伤害",
+        "en": "While a Pinnacle Atlas Boss is in your Presence, {0}% of Physical Damage Converted to Chaos Damage"
+    },
+    {
+        "id": "stat_2366356855",
+        "zh": "有一个传奇怪物出现在你面前：【坚定】的光环效果提高 {0}%",
+        "en": "While a Unique Enemy is in your Presence, Determination has {0}% increased Aura Effect"
+    },
+    {
+        "id": "stat_196824923",
+        "zh": "有一个传奇怪物出现在你面前：受到击中物理伤害的 {0}% 转化为闪电伤害",
+        "en": "While a Unique Enemy is in your Presence, {0}% of Physical Damage from Hits taken as Lightning Damage"
+    },
+    {
+        "id": "stat_1702124724",
+        "zh": "有一个异界图鉴最终首领出现在你面前：移动速度加快 {0}%",
+        "en": "While a Pinnacle Atlas Boss is in your Presence, {0}% increased Movement Speed"
+    },
+    {
+        "id": "stat_1598254831",
+        "zh": "有一个传奇怪物出现在你面前：伤害穿透 {0}% 的闪电抗性",
+        "en": "While a Unique Enemy is in your Presence, Damage Penetrates {0}% Lightning Resistance"
+    },
+    {
+        "id": "stat_1586470077",
+        "zh": "有一个传奇怪物出现在你面前：头部装备和手部装备提供的护甲值提高 {0}%",
+        "en": "While a Unique Enemy is in your Presence, {0}% increased Armour from Equipped Helmet and Gloves"
+    },
+    {
+        "id": "stat_1519845279",
+        "zh": "有一个异界图鉴最终首领出现在你面前：药剂每 3 秒获得 1 次使用机会",
+        "en": "While a Pinnacle Atlas Boss is in your Presence, Flasks gain a Charge every 3 seconds"
+    },
+    {
+        "id": "stat_1519845279",
+        "zh": "有一个异界图鉴最终首领出现在你面前：药剂每 3 秒获得 {0} 次使用机会",
+        "en": "While a Pinnacle Atlas Boss is in your Presence, Flasks gain {0} Charges every 3 seconds"
+    },
+    {
+        "id": "stat_2814835155",
+        "zh": "有一个传奇怪物出现在你面前：灵魂奉献效果提高 {0}%",
+        "en": "While a Unique Enemy is in your Presence, Spirit Offering has {0}% increased Effect"
+    },
+    {
+        "id": "stat_2909684383",
+        "zh": "有一个传奇怪物出现在你面前：【绝望】的诅咒效果提高 {0}%",
+        "en": "While a Unique Enemy is in your Presence, {0}% increased Despair Curse Effect"
+    },
+    {
+        "id": "stat_1350472585",
+        "zh": "有一个异界图鉴最终首领出现在你面前：你所施放诅咒的效果提高 {0}%",
+        "en": "While a Pinnacle Atlas Boss is in your Presence, {0}% increased Effect of your Curses"
+    },
+    {
+        "id": "stat_1335630001",
+        "zh": "有一个异界图鉴最终首领出现在你面前：获得额外火焰伤害， 其数值等同于物理伤害的 {0}%",
+        "en": "While a Pinnacle Atlas Boss is in your Presence, Gain {0}% of Physical Damage as Extra Fire Damage"
+    },
+    {
+        "id": "stat_1153825002",
+        "zh": "有一个传奇怪物出现在你面前：{0}% 的物理伤害转换为冰霜伤害",
+        "en": "While a Unique Enemy is in your Presence, {0}% of Physical Damage Converted to Cold Damage"
+    },
+    {
+        "id": "stat_1123587207",
+        "zh": "有一个传奇怪物出现在你面前：生命按照每个耐力球每秒再生 {0}%",
+        "en": "While a Unique Enemy is in your Presence, Regenerate {0}% of Life per second per Endurance Charge"
+    },
+    {
+        "id": "stat_3133935886",
+        "zh": "有一个异界图鉴最终首领出现在你面前：攻击伤害提高 {0}%",
+        "en": "While a Pinnacle Atlas Boss is in your Presence, {0}% increased Attack Damage"
+    },
+    {
+        "id": "stat_3199255605",
+        "zh": "有一个传奇怪物出现在你面前：炼狱战吼的效果区域扩大 {0}%",
+        "en": "While a Unique Enemy is in your Presence, Infernal Cry has {0}% increased Area of Effect"
+    },
+    {
+        "id": "stat_3349767748",
+        "zh": "有一个异界图鉴最终首领出现在你面前：法术附加 {0} - {1} 基础冰霜伤害",
+        "en": "While a Pinnacle Atlas Boss is in your Presence, Adds {0} to {1} Cold Damage to Spells"
+    },
+    {
+        "id": "stat_3658662726",
+        "zh": "有一个异界图鉴最终首领出现在你面前：击中时施加冰霜曝露，适配 {0}% 的冰霜抗性",
+        "en": "While a Pinnacle Atlas Boss is in your Presence, Inflict Cold Exposure on Hit, applying {0}% to Cold Resistance"
+    },
+    {
+        "id": "stat_2169620689",
+        "zh": "有一个异界图鉴最终首领出现在你面前：敌人晕眩门槛降低 {0}%",
+        "en": "While a Pinnacle Atlas Boss is in your Presence, {0}% reduced Enemy Stun Threshold"
+    },
+    {
+        "id": "stat_490830332",
+        "zh": "有一个异界图鉴最终首领出现在你面前：命中值按照每个狂怒球 {0}",
+        "en": "While a Pinnacle Atlas Boss is in your Presence, {0} to Accuracy Rating per Frenzy Charge"
+    },
+    {
+        "id": "stat_3774100463",
+        "zh": "有一个异界图鉴最终首领出现在你面前：骸骨奉献效果提高 {0}%",
+        "en": "While a Pinnacle Atlas Boss is in your Presence, Bone Offering has {0}% increased Effect"
+    },
+    {
+        "id": "stat_3864103630",
+        "zh": "有一个异界图鉴最终首领出现在你面前：{0}% 冰霜抗性",
+        "en": "While a Pinnacle Atlas Boss is in your Presence, {0}% to Cold Resistance"
+    },
+    {
+        "id": "stat_3980173235",
+        "zh": "有一个异界图鉴最终首领出现在你面前：{0}% 闪电抗性",
+        "en": "While a Pinnacle Atlas Boss is in your Presence, {0}% to Lightning Resistance"
+    },
+    {
+        "id": "stat_4106235309",
+        "zh": "有一个异界图鉴最终首领出现在你面前：你造成的流血的伤害生效速度加快 {0}%",
+        "en": "While a Pinnacle Atlas Boss is in your Presence, Bleeding you inflict deals Damage {0}% faster"
+    },
+    {
+        "id": "stat_4136085904",
+        "zh": "有一个异界图鉴最终首领出现在你面前：{0}% 闪电抗性上限",
+        "en": "While a Pinnacle Atlas Boss is in your Presence, {0}% to maximum Lightning Resistance"
+    },
+    {
+        "id": "stat_4288334466",
+        "zh": "有一个传奇怪物出现在你面前：手部装备和脚部装备提供的能量护盾上限提高 {0}%",
+        "en": "While a Unique Enemy is in your Presence, {0}% increased Maximum Energy Shield from Equipped Gloves and Boots"
+    },
+    {
+        "id": "stat_720015764",
+        "zh": "有一个传奇怪物出现在你面前：攻击击中时有 {0}% 的几率造成瘫痪",
+        "en": "While a Unique Enemy is in your Presence, Attacks have {0}% chance to Maim on Hit"
+    },
+    {
+        "id": "stat_778803098",
+        "zh": "有一个传奇怪物出现在你面前：愤怒光环的效果提高 {0}%",
+        "en": "While a Unique Enemy is in your Presence, Anger has {0}% increased Aura Effect"
+    },
+    {
+        "id": "stat_1847660463",
+        "zh": "有一个传奇怪物出现在你面前：效果区域扩大 {0}%",
+        "en": "While a Unique Enemy is in your Presence, {0}% increased Area of Effect"
+    },
+    {
+        "id": "stat_1412947753",
+        "zh": "有一个异界图鉴最终首领出现在你面前：法术暴击率提高 {0}%",
+        "en": "While a Pinnacle Atlas Boss is in your Presence, {0}% increased Critical Strike Chance for Spells"
+    },
+    {
+        "id": "stat_1613190388",
+        "zh": "有一个异界图鉴最终首领出现在你面前：将承受的火焰伤害的 {0}% 吸纳为生命",
+        "en": "While a Pinnacle Atlas Boss is in your Presence, {0}% of Fire Damage taken Recouped as Life"
+    },
+    {
+        "id": "stat_1065477979",
+        "zh": "有一个异界图鉴最终首领出现在你面前：迅捷的光环效果提高 {0}%",
+        "en": "While a Pinnacle Atlas Boss is in your Presence, Haste has {0}% increased Aura Effect"
+    },
+    {
+        "id": "stat_1016769968",
+        "zh": "有一个异界图鉴最终首领出现在你面前：非伤害型异常状态效果提高 {0}%",
+        "en": "While a Pinnacle Atlas Boss is in your Presence, {0}% increased Effect of Non-Damaging Ailments"
+    },
+    {
+        "id": "stat_2875239648",
+        "zh": "有一个传奇怪物出现在你面前：混沌伤害提高 {0}%",
+        "en": "While a Unique Enemy is in your Presence, {0}% increased Chaos Damage"
+    },
+    {
+        "id": "stat_699673918",
+        "zh": "有一个异界图鉴最终首领出现在你面前：{0}% 的伤害优先从魔力扣除",
+        "en": "While a Pinnacle Atlas Boss is in your Presence, {0}% of Damage is taken from Mana before Life"
+    },
+    {
+        "id": "stat_886650454",
+        "zh": "有一个传奇怪物出现在你面前：致盲效果提高{0}%",
+        "en": "While a Unique Enemy is in your Presence, {0}% increased Blind Effect"
+    },
+    {
+        "id": "stat_4163073767",
+        "zh": "有一个传奇怪物出现在你面前：有 {0}% 的几率在击中时使敌人陷入熄灭状态",
+        "en": "While a Unique Enemy is in your Presence, {0}% chance to Extinguish Enemies on Hit"
+    },
+    {
+        "id": "stat_1590336483",
+        "zh": "有一个传奇怪物出现在你面前：火焰伤害提高 {0}%",
+        "en": "While a Unique Enemy is in your Presence, {0}% increased Fire Damage"
+    },
+    {
+        "id": "stat_944211673",
+        "zh": "有一个传奇怪物出现在你面前：敌人晕眩门槛降低 {0}%",
+        "en": "While a Unique Enemy is in your Presence, {0}% reduced Enemy Stun Threshold"
+    },
+    {
+        "id": "stat_2251516251",
+        "zh": "有一个异界图鉴最终首领出现在你面前：{0}% 所有元素抗性",
+        "en": "While a Pinnacle Atlas Boss is in your Presence, {0}% to all Elemental Resistances"
+    },
+    {
+        "id": "stat_3710240762",
+        "zh": "有一个传奇怪物出现在你面前：攻击暴击率提高 {0}%",
+        "en": "While a Unique Enemy is in your Presence, {0}% increased Critical Strike Chance for Attacks"
+    },
+    {
+        "id": "stat_3173079195",
+        "zh": "有一个异界图鉴最终首领出现在你面前：灵巧效果提高 {0}%",
+        "en": "While a Pinnacle Atlas Boss is in your Presence, {0}% increased Elusive Effect"
+    },
+    {
+        "id": "stat_2076129434",
+        "zh": "有一个传奇怪物出现在你面前：攻击击中时获得 1 点怒火，每 {0} 秒发生一次",
+        "en": "While a Unique Enemy is in your Presence, Gain 1 Rage on Hit with Attacks, no more than once every {0} seconds"
+    },
+    {
+        "id": "stat_1499657170",
+        "zh": "有一个传奇怪物出现在你面前：召唤生物承受的反射伤害降低 {0}%",
+        "en": "While a Unique Enemy is in your Presence, Minions take {0}% reduced Reflected Damage"
+    },
+    {
+        "id": "stat_547463927",
+        "zh": "有一个异界图鉴最终首领出现在你面前：陷阱投掷速度加快 {0}%",
+        "en": "While a Pinnacle Atlas Boss is in your Presence, {0}% increased Trap Throwing Speed"
+    },
+    {
+        "id": "stat_3381588096",
+        "zh": "有一个传奇怪物出现在你面前：【威吓战吼】的冷却回复速度加快 {0}%",
+        "en": "While a Unique Enemy is in your Presence, Intimidating Cry has {0}% increased Cooldown Recovery Rate"
+    },
+    {
+        "id": "stat_3948993189",
+        "zh": "增加的小天赋获得：斧类攻击造成的击中和异常状态伤害提高 12%\n增加的小天赋获得：剑类攻击造成的击中和异常状态伤害提高 12%",
+        "en": "Added Small Passive Skills grant: Axe Attacks deal 12% increased Damage with Hits and Ailments\nAdded Small Passive Skills grant: Sword Attacks deal 12% increased Damage with Hits and Ailments"
+    },
+    {
+        "id": "stat_3948993189",
+        "zh": "增加的小天赋获得：长杖攻击造成的击中和异常状态伤害提高 12%\n增加的小天赋获得：锤类或短杖攻击造成的击中和异常状态伤害提高 12%",
+        "en": "Added Small Passive Skills grant: Staff Attacks deal 12% increased Damage with Hits and Ailments\nAdded Small Passive Skills grant: Mace or Sceptre Attacks deal 12% increased Damage with Hits and Ailments"
+    },
+    {
+        "id": "stat_3948993189",
+        "zh": "增加的小天赋获得：爪类攻击造成的击中和异常状态伤害提高 12%\n增加的小天赋获得：匕首攻击造成的击中和异常状态伤害提高 12%",
+        "en": "Added Small Passive Skills grant: Claw Attacks deal 12% increased Damage with Hits and Ailments\nAdded Small Passive Skills grant: Dagger Attacks deal 12% increased Damage with Hits and Ailments"
+    },
+    {
+        "id": "stat_3948993189",
+        "zh": "增加的小天赋获得：弓类伤害提高 12%\n增加的小天赋获得：弓类技能的持续伤害效果提高 12%",
+        "en": "Added Small Passive Skills grant: 12% increased Damage with Bows\nAdded Small Passive Skills grant: 12% increased Damage Over Time with Bow Skills"
+    },
+    {
+        "id": "stat_3948993189",
+        "zh": "增加的小天赋获得：法杖攻击造成的击中和异常状态伤害提高 12%",
+        "en": "Added Small Passive Skills grant: Wand Attacks deal 12% increased Damage with Hits and Ailments"
+    },
+    {
+        "id": "stat_3948993189",
+        "zh": "增加的小天赋获得：双手武器的攻击伤害提高 12%",
+        "en": "Added Small Passive Skills grant: 12% increased Damage with Two Handed Weapons"
+    },
+    {
+        "id": "stat_3948993189",
+        "zh": "增加的小天赋获得：攻击伤害在双持武器时提高 12%",
+        "en": "Added Small Passive Skills grant: 12% increased Attack Damage while Dual Wielding"
+    },
+    {
+        "id": "stat_3948993189",
+        "zh": "增加的小天赋获得：持盾牌时造成的攻击伤害提高 12%",
+        "en": "Added Small Passive Skills grant: 12% increased Attack Damage while holding a Shield"
+    },
+    {
+        "id": "stat_3948993189",
+        "zh": "增加的小天赋获得：攻击伤害提高 10%",
+        "en": "Added Small Passive Skills grant: 10% increased Attack Damage"
+    },
+    {
+        "id": "stat_3948993189",
+        "zh": "增加的小天赋获得：法术伤害提高 10%",
+        "en": "Added Small Passive Skills grant: 10% increased Spell Damage"
+    },
+    {
+        "id": "stat_3948993189",
+        "zh": "增加的小天赋获得：元素伤害提高 10%",
+        "en": "Added Small Passive Skills grant: 10% increased Elemental Damage"
+    },
+    {
+        "id": "stat_3948993189",
+        "zh": "增加的小天赋获得：物理伤害提高 12%",
+        "en": "Added Small Passive Skills grant: 12% increased Physical Damage"
+    },
+    {
+        "id": "stat_3948993189",
+        "zh": "增加的小天赋获得：火焰伤害提高 12%",
+        "en": "Added Small Passive Skills grant: 12% increased Fire Damage"
+    },
+    {
+        "id": "stat_3948993189",
+        "zh": "增加的小天赋获得：闪电伤害提高 12%",
+        "en": "Added Small Passive Skills grant: 12% increased Lightning Damage"
+    },
+    {
+        "id": "stat_3948993189",
+        "zh": "增加的小天赋获得：冰霜伤害提高 12%",
+        "en": "Added Small Passive Skills grant: 12% increased Cold Damage"
+    },
+    {
+        "id": "stat_3948993189",
+        "zh": "增加的小天赋获得：混沌伤害提高 12%",
+        "en": "Added Small Passive Skills grant: 12% increased Chaos Damage"
+    },
+    {
+        "id": "stat_3948993189",
+        "zh": "增加的小天赋获得：召唤生物的伤害提高 10%",
+        "en": "Added Small Passive Skills grant: Minions deal 10% increased Damage"
+    },
+    {
+        "id": "stat_3948993189",
+        "zh": "增加的小天赋获得：燃烧伤害提高 12%",
+        "en": "Added Small Passive Skills grant: 12% increased Burning Damage"
+    },
+    {
+        "id": "stat_3948993189",
+        "zh": "增加的小天赋获得：持续混沌伤害提高 12%",
+        "en": "Added Small Passive Skills grant: 12% increased Chaos Damage over Time"
+    },
+    {
+        "id": "stat_3948993189",
+        "zh": "增加的小天赋获得：持续物理伤害提高 12%",
+        "en": "Added Small Passive Skills grant: 12% increased Physical Damage over Time"
+    },
+    {
+        "id": "stat_3948993189",
+        "zh": "增加的小天赋获得：持续冰霜伤害提高 12%",
+        "en": "Added Small Passive Skills grant: 12% increased Cold Damage over Time"
+    },
+    {
+        "id": "stat_3948993189",
+        "zh": "增加的小天赋获得：持续伤害提高 10%",
+        "en": "Added Small Passive Skills grant: 10% increased Damage over Time"
+    },
+    {
+        "id": "stat_3948993189",
+        "zh": "增加的小天赋获得：非伤害型异常状态效果提高 10%",
+        "en": "Added Small Passive Skills grant: 10% increased Effect of Non-Damaging Ailments"
+    },
+    {
+        "id": "stat_3948993189",
+        "zh": "增加的小天赋获得：你技能的非诅咒类光环效果提高 3%",
+        "en": "Added Small Passive Skills grant: 3% increased effect of Non-Curse Auras from your Skills"
+    },
+    {
+        "id": "stat_3948993189",
+        "zh": "增加的小天赋获得：你所施放诅咒的效果提高 {0}%",
+        "en": "Added Small Passive Skills grant: {0}% increased Effect of your Curses"
+    },
+    {
+        "id": "stat_3948993189",
+        "zh": "增加的小天赋获得：受捷影响时，伤害提高 10%",
+        "en": "Added Small Passive Skills grant: 10% increased Damage while affected by a Herald"
+    },
+    {
+        "id": "stat_3948993189",
+        "zh": "增加的小天赋获得：你受捷影响时，召唤生物的伤害提高 10%",
+        "en": "Added Small Passive Skills grant: Minions deal 10% increased Damage while you are affected by a Herald"
+    },
+    {
+        "id": "stat_3948993189",
+        "zh": "增加的小天赋获得：增助攻击的伤害提高 20%",
+        "en": "Added Small Passive Skills grant: Exerted Attacks deal 20% increased Damage"
+    },
+    {
+        "id": "stat_3948993189",
+        "zh": "增加的小天赋获得：暴击率提高 15%",
+        "en": "Added Small Passive Skills grant: 15% increased Critical Strike Chance"
+    },
+    {
+        "id": "stat_3948993189",
+        "zh": "增加的小天赋获得：召唤生物的最大生命提高 12%",
+        "en": "Added Small Passive Skills grant: Minions have 12% increased maximum Life"
+    },
+    {
+        "id": "stat_3948993189",
+        "zh": "增加的小天赋获得：范围伤害提高 10%",
+        "en": "Added Small Passive Skills grant: 10% increased Area Damage"
+    },
+    {
+        "id": "stat_3948993189",
+        "zh": "增加的小天赋获得：投射物伤害提高 10%",
+        "en": "Added Small Passive Skills grant: 10% increased Projectile Damage"
+    },
+    {
+        "id": "stat_3948993189",
+        "zh": "增加的小天赋获得：陷阱伤害提高 12%\n增加的小天赋获得：地雷伤害提高 12%",
+        "en": "Added Small Passive Skills grant: 12% increased Trap Damage\nAdded Small Passive Skills grant: 12% increased Mine Damage"
+    },
+    {
+        "id": "stat_3948993189",
+        "zh": "增加的小天赋获得：图腾伤害提高 12%",
+        "en": "Added Small Passive Skills grant: 12% increased Totem Damage"
+    },
+    {
+        "id": "stat_3948993189",
+        "zh": "增加的小天赋获得：烙印伤害提高 12%",
+        "en": "Added Small Passive Skills grant: 12% increased Brand Damage"
+    },
+    {
+        "id": "stat_3948993189",
+        "zh": "增加的小天赋获得：持续吟唱技能伤害提高 12%",
+        "en": "Added Small Passive Skills grant: Channelling Skills deal 12% increased Damage"
+    },
+    {
+        "id": "stat_3948993189",
+        "zh": "增加的小天赋获得：药剂效果的持续时间延长 6%",
+        "en": "Added Small Passive Skills grant: 6% increased Flask Effect Duration"
+    },
+    {
+        "id": "stat_3948993189",
+        "zh": "增加的小天赋获得：药剂给予的生命恢复提高 10%\n增加的小天赋获得：药剂给予的魔力恢复提高 10%",
+        "en": "Added Small Passive Skills grant: 10% increased Life Recovery from Flasks\nAdded Small Passive Skills grant: 10% increased Mana Recovery from Flasks"
+    },
+    {
+        "id": "stat_3948993189",
+        "zh": "增加的小天赋获得：生命上限提高 4%",
+        "en": "Added Small Passive Skills grant: 4% increased maximum Life"
+    },
+    {
+        "id": "stat_3948993189",
+        "zh": "增加的小天赋获得：能量护盾上限提高 6%",
+        "en": "Added Small Passive Skills grant: 6% increased maximum Energy Shield"
+    },
+    {
+        "id": "stat_3948993189",
+        "zh": "增加的小天赋获得：魔力上限提高 6%",
+        "en": "Added Small Passive Skills grant: 6% increased maximum Mana"
+    },
+    {
+        "id": "stat_3948993189",
+        "zh": "增加的小天赋获得：护甲提高 15%",
+        "en": "Added Small Passive Skills grant: 15% increased Armour"
+    },
+    {
+        "id": "stat_3948993189",
+        "zh": "增加的小天赋获得：闪避值提高 15%",
+        "en": "Added Small Passive Skills grant: 15% increased Evasion Rating"
+    },
+    {
+        "id": "stat_3948993189",
+        "zh": "增加的小天赋获得：+1% 攻击伤害格挡几率",
+        "en": "Added Small Passive Skills grant: +1% Chance to Block Attack Damage"
+    },
+    {
+        "id": "stat_3948993189",
+        "zh": "增加的小天赋获得：1% 法术伤害格挡几率",
+        "en": "Added Small Passive Skills grant: 1% Chance to Block Spell Damage"
+    },
+    {
+        "id": "stat_3948993189",
+        "zh": "增加的小天赋获得：+15% 火焰抗性",
+        "en": "Added Small Passive Skills grant: +15% to Fire Resistance"
+    },
+    {
+        "id": "stat_3948993189",
+        "zh": "增加的小天赋获得：+15% 冰霜抗性",
+        "en": "Added Small Passive Skills grant: +15% to Cold Resistance"
+    },
+    {
+        "id": "stat_3948993189",
+        "zh": "增加的小天赋获得：+15% 闪电抗性",
+        "en": "Added Small Passive Skills grant: +15% to Lightning Resistance"
+    },
+    {
+        "id": "stat_3948993189",
+        "zh": "增加的小天赋获得：+12% 混沌抗性",
+        "en": "Added Small Passive Skills grant: +12% to Chaos Resistance"
+    },
+    {
+        "id": "stat_3948993189",
+        "zh": "增加的小天赋获得：法术伤害压制率 +2%",
+        "en": "Added Small Passive Skills grant: +2% chance to Suppress Spell Damage"
+    },
+    {
+        "id": "stat_3948993189",
+        "zh": "增加的小天赋获得：+10 力量",
+        "en": "Added Small Passive Skills grant: +10 to Strength"
+    },
+    {
+        "id": "stat_3948993189",
+        "zh": "增加的小天赋获得：+10 敏捷",
+        "en": "Added Small Passive Skills grant: +10 to Dexterity"
+    },
+    {
+        "id": "stat_3948993189",
+        "zh": "增加的小天赋获得：+10 智慧",
+        "en": "Added Small Passive Skills grant: +10 to Intelligence"
+    },
+    {
+        "id": "stat_3948993189",
+        "zh": "增加的小天赋获得：技能的魔力保留效能提高 6%",
+        "en": "Added Small Passive Skills grant: 6% increased Mana Reservation Efficiency of Skills"
+    },
+    {
+        "id": "indexable_support_141",
+        "zh": "插入的技能石被 {0} 级的【击中咒印】辅助",
+        "en": "Socketed Gems are Supported by Level {0} Mark On Hit"
+    },
+    {
+        "id": "indexable_support_142",
+        "zh": "插入的技能石被 {0} 级的【神圣祝福】辅助",
+        "en": "Socketed Gems are Supported by Level {0} Divine Blessing"
+    },
+    {
+        "id": "indexable_support_143",
+        "zh": "插入的技能石被 {0} 级的【恒祝】辅助",
+        "en": "Socketed Gems are Supported by Level {0} Eternal Blessing"
+    },
+    {
+        "id": "indexable_support_144",
+        "zh": "插入的技能石被 {0} 级的【强化聚能】辅助",
+        "en": "Socketed Gems are Supported by Level {0} Overcharge"
+    },
+    {
+        "id": "indexable_support_145",
+        "zh": "插入的技能石被 {0} 级的【诅咒之地】辅助",
+        "en": "Socketed Gems are Supported by Level {0} Cursed Ground"
+    },
+    {
+        "id": "indexable_support_146",
+        "zh": "插入的技能石被 {0} 级的【魔蛊绽放】辅助",
+        "en": "Socketed Gems are Supported by Level {0} Hex Bloom"
+    },
+    {
+        "id": "stat_3274973940",
+        "zh": "插入的技能石被 {0} 级的神圣祝福辅助",
+        "en": "Socketed Gems are Supported by Level {0} Divine Blessing"
+    },
+    {
+        "id": "stat_3062849155",
+        "zh": "插入的技能石被 {0} 级的恒祝辅助",
+        "en": "Socketed Gems are Supported by Level {0} Eternal Blessing"
+    },
+    {
+        "id": "stat_2828309116",
+        "zh": "有一个异界图鉴最终首领出现在你面前：技能效果持续时间延长 {0}%",
+        "en": "While a Pinnacle Atlas Boss is in your Presence, {0}% increased Skill Effect Duration"
+    },
+    {
+        "id": "stat_1954944666",
+        "zh": "有一个异界图鉴最终首领出现在你面前：火焰伤害的 {0}% 转化为生命偷取",
+        "en": "While a Pinnacle Atlas Boss is in your Presence, {0}% of Fire Damage Leeched as Life"
+    },
+    {
+        "id": "stat_1896842319",
+        "zh": "有一个异界图鉴最终首领出现在你面前：闪电伤害的 {0}% 转化为生命偷取",
+        "en": "While a Pinnacle Atlas Boss is in your Presence, {0}% of Lightning Damage Leeched as Life"
+    },
+    {
+        "id": "stat_339123312",
+        "zh": "有一个异界图鉴最终首领出现在你面前：冰霜伤害的 {0}% 转化为生命偷取",
+        "en": "While a Pinnacle Atlas Boss is in your Presence, {0}% of Cold Damage Leeched as Life"
+    },
+    {
+        "id": "stat_10259064",
+        "zh": "有一个异界图鉴最终首领出现在你面前：混沌伤害的 {0}% 转化为生命偷取",
+        "en": "While a Pinnacle Atlas Boss is in your Presence, {0}% of Chaos Damage Leeched as Life"
+    },
+    {
+        "id": "stat_2500914030",
+        "zh": "有一个异界图鉴最终首领出现在你面前：物理伤害的 {0}% 转化为生命偷取",
+        "en": "While a Pinnacle Atlas Boss is in your Presence, {0}% of Physical Damage Leeched as Life"
+    },
+    {
+        "id": "stat_2543269407",
+        "zh": "有一个传奇怪物出现在你面前：你施加的冻结会扩散给范围 {0} 内的其它敌人",
+        "en": "While a Unique Enemy is in your Presence, Freezes you inflict spread to other Enemies within a Radius of {0}"
+    },
+    {
+        "id": "stat_1698847655",
+        "zh": "有一个传奇怪物出现在你面前：你造成的点燃，也会点燃周围 {0} 范围内的敌人",
+        "en": "While a Unique Enemy is in your Presence, Ignites you inflict spread to other Enemies within a Radius of {0}"
+    },
+    {
+        "id": "indexable_support_148",
+        "zh": "插入的技能石被 {0} 级的【棱光魔爆】辅助",
+        "en": "Socketed Gems are Supported by Level {0} Prismatic Burst"
+    },
+    {
+        "id": "stat_2868404935",
+        "zh": "有一个传奇怪物出现在你面前：你造成的感电，也会影响周围 {0} 范围内的敌人",
+        "en": "While a Unique Enemy is in your Presence, Shocks you inflict spread to other Enemies within a Radius of {0}"
+    },
+    {
+        "id": "stat_3343791355",
+        "zh": "有一个异界图鉴最终首领出现在你面前：你造成的点燃，也会点燃周围 {0} 范围内的敌人",
+        "en": "While a Pinnacle Atlas Boss is in your Presence, Ignites you inflict spread to other Enemies within a Radius of {0}"
+    },
+    {
+        "id": "stat_2443166200",
+        "zh": "有一个传奇怪物出现在你面前：物理伤害的 {0}% 转化为生命偷取",
+        "en": "While a Unique Enemy is in your Presence, {0}% of Physical Damage Leeched as Life"
+    },
+    {
+        "id": "stat_3357881628",
+        "zh": "有一个传奇怪物出现在你面前：冰霜伤害的 {0}% 转化为生命偷取",
+        "en": "While a Unique Enemy is in your Presence, {0}% of Cold Damage Leeched as Life"
+    },
+    {
+        "id": "indexable_support_147",
+        "zh": "插入的技能石被 {0} 级的【法铸箭矢】辅助",
+        "en": "Socketed Gems are Supported by Level {0} Manaforged Arrows"
+    },
+    {
+        "id": "stat_1436051850",
+        "zh": "有一个异界图鉴最终首领出现在你面前：你施加的冻结会扩散给范围 {0} 内的其它敌人",
+        "en": "While a Pinnacle Atlas Boss is in your Presence, Freezes you inflict spread to other Enemies within a Radius of {0}"
+    },
+    {
+        "id": "stat_2824722288",
+        "zh": "有一个传奇怪物出现在你面前：闪电伤害的 {0}% 转化为生命偷取",
+        "en": "While a Unique Enemy is in your Presence, {0}% of Lightning Damage Leeched as Life"
+    },
+    {
+        "id": "stat_614709726",
+        "zh": "有一个传奇怪物出现在你面前：技能效果持续时间延长 {0}%",
+        "en": "While a Unique Enemy is in your Presence, {0}% increased Skill Effect Duration"
+    },
+    {
+        "id": "stat_1172401338",
+        "zh": "有一个传奇怪物出现在你面前：混沌伤害的 {0}% 转化为生命偷取",
+        "en": "While a Unique Enemy is in your Presence, {0}% of Chaos Damage Leeched as Life"
+    }
+]
