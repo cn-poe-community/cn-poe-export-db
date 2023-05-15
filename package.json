@@ -1,0 +1,24 @@
+{
+  "name": "cn-poe-export-db",
+  "version": "0.0.6",
+  "description": "db files of cn-poe-export",
+  "main": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "build": "rimraf dist && rollup -c rollup.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/cn-poe-community/cn-poe-export-db"
+  },
+  "author": "me1ting",
+  "license": "MIT",
+  "devDependencies": {
+    "@rollup/plugin-terser": "^0.4.1",
+    "rimraf": "^5.0.0",
+    "rollup": "^3.21.7"
+  },
+    "files": [
+    "dist/**/*"
+  ]
+}

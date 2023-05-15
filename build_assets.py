@@ -1,42 +1,8 @@
 import json
 import os
-import shutil
 
-src = "src"
-dist = "dist/ts"
-
-imports = 'import { Attribute } from "../type/attribute.type";\n\
-import { BaseType } from "../type/basetype.type";\n\
-import { Gem } from "../type/gem.type";\n\
-import { Node } from "../type/passiveskill.type";\n\
-import { Property } from "../type/property.type";\n\
-import { Requirement, RequirementSuffix } from "../type/requirement.type";\n\
-import { Stat } from "../type/stat.type";\n'
-
-types = {}
-types["accessories.json"] = "BaseType[]"
-types["armour.json"] = "BaseType[]"
-types["attributes.json"] = "Attribute[]"
-types["flasks.json"] = "BaseType[]"
-types["gems.json"] = "Gem[]"
-types["jewels.json"] = "BaseType[]"
-types["properties.json"] = "Property[]"
-types["requirements.json"] = "Requirement[]"
-types["requirement_suffixes.json"] = "RequirementSuffix[]"
-types["weapons.json"] = "BaseType[]"
-types["stats.json"] = "Stat[]"
-types["ascendant.json"] = "Node[]"
-types["keystones.json"] = "Node[]"
-types["notables.json"] = "Node[]"
-
-
-def emptyDir(dir):
-    try:
-        shutil.rmtree(dist)
-    except:
-        print("dist is cleaned")
-    os.mkdir(dist, 0o666)
-
+src = "assets/"
+dist = "src/assets.js"
 
 def load_json(file):
     with open(file, 'rt', encoding='utf-8') as f:
@@ -45,10 +11,10 @@ def load_json(file):
     return data
 
 
-def json2code(json, variableName, type):
+def json2code(json, variableName):
     if variableName == "requirement_suffixes":
         variableName = "requirementSuffixes"
-    return f"export const {variableName}: {type} = {json};"
+    return f"export const {variableName} = {json};"
 
 
 def make_stats():
@@ -66,15 +32,15 @@ def make_stats():
         en = keystone["en"]
         all_data.append({"zh":f"{zh}范围内的天赋可以在\n未连结至天赋树的情况下配置","en":f"Passives in Radius of {en} can be Allocated\nwithout being connected to your tree"})
 
-    all_data = removeId(all_data)
-    all_data = removeRepeats(all_data)
+    all_data = remove_id(all_data)
+    all_data = remove_repeats(all_data)
 
     return all_data
 
-def removeId(stats):
+def remove_id(stats):
     return [{"zh": item["zh"], "en": item["en"]} for item in stats]
 
-def removeRepeats(stats):
+def remove_repeats(stats):
     stat_list =[]
     stat_map = {}
     for stat in stats:
@@ -92,14 +58,14 @@ def removeRepeats(stats):
         stat_map[zh] = stat
     return stat_list
 
-def make():
-    content = [imports]
+def generate():
+    content = []
     for file_name in os.listdir(src):
         source = os.path.join(src, file_name)
         if os.path.isfile(source) and file_name.endswith(".json"):
             data = load_json(source)
             pure_name = file_name[:-5]
-            code = json2code(data, pure_name, types[file_name])
+            code = json2code(data, pure_name)
             content.append(code)
 
     for file_name in os.listdir(os.path.join(src, "passiveskills")):
@@ -107,16 +73,14 @@ def make():
         if os.path.isfile(source) and file_name.endswith(".json"):
             data = load_json(source)
             pure_name = file_name[:-5]
-            code = json2code(data, pure_name, types[file_name])
+            code = json2code(data, pure_name)
             content.append(code)
 
     stats = make_stats()
-    stats_code = json2code(stats, "stats", types["stats.json"])
+    stats_code = json2code(stats, "stats")
 
     content.append(stats_code)
-    with open(os.path.join(dist, "assets.ts"), 'wt', encoding="utf-8", newline="\n") as f:
+    with open(dist, 'wt', encoding="utf-8", newline="\n") as f:
         f.write("\n".join(content))
 
-
-emptyDir(dist)
-make()
+generate()
