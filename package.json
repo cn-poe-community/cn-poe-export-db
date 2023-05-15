@@ -1,11 +1,12 @@
 {
   "name": "cn-poe-export-db",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "db files of cn-poe-export",
   "main": "dist/index.js",
   "type": "module",
   "scripts": {
-    "build": "rimraf dist && rollup -c rollup.config.js"
+    "build": "rimraf dist && rollup -c rollup.config.js",
+    "prepare": "yarn build"
   },
   "repository": {
     "type": "git",
