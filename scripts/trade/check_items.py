@@ -24,7 +24,7 @@ def load_db_items():
     files = ["accessories.json", "armour.json",
              "flasks.json", "jewels.json", "weapons.json"]
     for file in files:
-        json = load_json("../src/"+file)
+        json = load_json("../../assets/"+file)
         for item in json:
             basetype = item["zh"]
             basetypes.add(basetype)
@@ -36,7 +36,7 @@ def load_db_items():
 
 def check_items():
     load_db_items()
-    data = load_json("../docs/trade/new/zh_items.json")
+    data = load_json("../../docs/trade/zh_items.json")
     labelIds = ["accessories", "armour", "flasks", "jewels", "weapons"]
     for id in labelIds:
         entries = getEntries(data, id)

@@ -14,19 +14,20 @@ def getEntries(data, labelId):
         id = part["id"]
         if id == labelId:
             return part["entries"]
-        
-skills = set()
+
 
 def load_skills():
-    db = load_json("../src/gems.json")
+    skills = set()
+    db = load_json("../../assets/gems.json")
     for gem in db:
         list = gem["skills"]
         for skill in list:
             skills.add(skill["zh"])
+    return skills
 
 def check():
-    load_skills()
-    data = load_json("../docs/trade/new/zh_items.json")
+    skills = load_skills()
+    data = load_json("../../docs/trade/zh_items.json")
     entries = getEntries(data,"gems")
     for entry in entries:
         type:str = entry["type"]

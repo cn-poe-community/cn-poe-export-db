@@ -1,6 +1,10 @@
 dist/
 docs/desc/en_stat_descriptions.txt
 docs/desc/zh_stat_descriptions.txt
+docs/trade/zh_stats.json
+docs/trade/en_stats.json
+docs/trade/zh_items.json
+docs/trade/en_items.json
 docs/tree/en_tree.json
 docs/tree/zh_tree.json
 node_modules/
