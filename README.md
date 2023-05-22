@@ -1,7 +1,26 @@
-# poe-cn-export-db
-poe-cn-export项目的数据库。
+# cn-poe-export-db
+cn-poe-export项目的数据库。
 
-若需要变更，先更新本仓库，后将更新内容复制到poe-cn-export中。
+# usage
+## javascript
+作为iife使用（如果版本更新，请将版本号替换为最新版本）：
+```html
+<script src="https://unpkg.com/cn-poe-export-db@0.0.7/dist/db.global.js"></script>
+<script>
+const gems = CnPoeExportDb.gems;
+//...
+</script>
+```
+作为esm模块使用，安装：
+```
+npm install cn-poe-export-db --save
+```
+使用：
+```js
+import CnPoeExportDb from cn-poe-export-db;
+const gems = CnPoeExportDb.gems;
+//...
+```
 
 # 已知问题
 存在一些中文的翻译问题，需要客户端修复后才能较好的解决。
