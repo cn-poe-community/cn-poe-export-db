@@ -1,5 +1,7 @@
 dist/
 docs/desc/en_stat_descriptions.txt
 docs/desc/zh_stat_descriptions.txt
+docs/tree/en_tree.json
+docs/tree/zh_tree.json
 node_modules/
 src/assets.js
