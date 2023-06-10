@@ -1,13 +1,16 @@
 # cn-poe-export-db
+
 cn-poe-export项目的数据库。
 
 # usage
+
 ## javascript
+
 作为iife使用（如果版本更新，请将版本号替换为最新版本）：
 ```html
 <script src="https://unpkg.com/cn-poe-export-db@0.0.7/dist/db.global.js"></script>
 <script>
-const gems = CnPoeExportDb.gems;
+const {gems} = CnPoeExportDb;
 //...
 </script>
 ```
@@ -18,20 +21,24 @@ npm install cn-poe-export-db --save
 使用：
 ```js
 import CnPoeExportDb from cn-poe-export-db;
-const gems = CnPoeExportDb.gems;
+const {gems} = CnPoeExportDb;
 //...
 ```
 
 # 已知问题
+
 存在一些中文的翻译问题，需要客户端修复后才能较好的解决。
 
 ## 升华
+
 贵族与刺客存在重复的`暗影`升华，受影响的物品包括`禁断之肉`、`禁断之火`，数据库将贵族版本修正为`暗影（贵族）`，需要前端hack。
 
 ## 涂油
+
 存在一些重复的天赋大点名称，与之相关的涂油词缀无法翻译。
 
 ## 词缀
+
 存在以下中文翻译错误：
 
 - 重复的`没有物理伤害`，戴亚迪安的晨曦，武器的异度天灾词缀上的应当为`不造成物理伤害`，数据库已修正，需要前端hack，难度较大

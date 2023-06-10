@@ -1,4 +1,5 @@
 # 脚本说明
+
 目前使用了以下脚本：
 
 - crucible/init_crucible.py：根据 trade data 生成 assets/stats/crucible.json
