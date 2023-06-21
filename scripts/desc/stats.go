@@ -64,18 +64,6 @@ func hackZhStatDescContent(content string) string {
 
 func hackDescs(descs []*desc.Desc) {
 	for _, d := range descs {
-		// 雷鸣洗礼的`受到的冰霜伤害的 40% 转为火焰伤害`，应当为`受到的冰霜伤害的 40% 转为闪电伤害`
-		// 与`受到的冰霜伤害的 {0}% 转为火焰伤害`冲突
-		// 需要translator进行hack
-		if d.Id == "cold_hit_and_dot_damage_%_taken_as_lightning" {
-			if d.Texts[desc.LangZh][0].Template == "受到的冰霜伤害的 {0}% 转为火焰伤害" {
-				d.Texts[desc.LangZh][0].Template = "受到的冰霜伤害的 {0}% 转为闪电伤害"
-			} else {
-				log.Printf("hack missed: %v", d.Id)
-			}
-			continue
-		}
-
 		// 血影的`每个狂怒球可使攻击速度减慢 4%`，应当为`每个狂怒球可使攻击和施法速度减慢 4%`
 		// 与`每个狂怒球可使攻击速度加快 {0}%`,`每个狂怒球可使攻击速度减慢 {0}%`冲突
 		// 需要translator进行hack
@@ -179,5 +167,5 @@ func main() {
 		log.Fatal(err)
 	}
 
-	os.WriteFile("../../src/stats/desc.json", data, 0666)
+	os.WriteFile("../../assets/stats/desc.json", data, 0666)
 }

@@ -83,8 +83,8 @@ def append_mod(id, zh, en):
 
 
 if __name__ == "__main__":
-    zh_file = "../../docs/trade/new/zh_stats.json"
-    en_file = "../../docs/trade/new/en_stats.json"
+    zh_file = "../../docs/trade/zh_stats.json"
+    en_file = "../../docs/trade/en_stats.json"
 
     zh_data = load_json(zh_file)
     en_data = load_json(en_file)
@@ -94,7 +94,7 @@ if __name__ == "__main__":
 
     init(en_entries, zh_entries)
 
-    db_path = "../../src/stats/crucible.json"
+    db_path = "../../assets/stats/crucible.json"
 
     with open(db_path, 'wt', encoding="utf-8") as f:
         f.write(json.dumps(stats, ensure_ascii=False, indent=4))

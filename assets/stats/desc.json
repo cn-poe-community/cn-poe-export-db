@@ -1126,7 +1126,7 @@
   },
   {
     "id": "local_display_socketed_gems_supported_by_level_x_chance_to_ignite",
-    "zh": "此物品上的技能石受到 {0} 级的 灼烧 辅助",
+    "zh": "此物品上的技能石受到 {0} 级的 燃尽 辅助",
     "en": "Socketed Gems are Supported by Level {0} Combustion"
   },
   {
@@ -4501,7 +4501,7 @@
   },
   {
     "id": "local_flask_during_effect_enemy_damage_taken_+%_on_consecrated_ground",
-    "zh": "生效期间产生的奉献地面使敌人承受的伤害提高 {0}%",
+    "zh": "生效期间产生的奉献地面使敌人受到的伤害提高 {0}%",
     "en": "Consecrated Ground created during Effect applies {0}% increased Damage taken to Enemies"
   },
   {
@@ -4591,12 +4591,12 @@
   },
   {
     "id": "local_flask_reflect_damage_taken_+%_during_flask_effect",
-    "zh": "生效期间，承受的反射伤害提高 {0}%",
+    "zh": "生效期间，受到的反射伤害提高 {0}%",
     "en": "{0}% increased Reflected Damage taken during Effect"
   },
   {
     "id": "local_flask_reflect_damage_taken_+%_during_flask_effect",
-    "zh": "生效期间，承受的反射伤害降低 {0}%",
+    "zh": "生效期间，受到的反射伤害降低 {0}%",
     "en": "{0}% reduced Reflected Damage taken during Effect"
   },
   {
@@ -4911,12 +4911,12 @@
   },
   {
     "id": "local_flask_enemies_ignited_during_flask_effect_damage_taken_+%",
-    "zh": "生效期间，被你点燃的敌人承受的伤害提高 {0}%",
+    "zh": "生效期间，被你点燃的敌人受到的伤害提高 {0}%",
     "en": "Enemies Ignited by you during Effect take {0}% increased Damage"
   },
   {
     "id": "local_flask_enemies_ignited_during_flask_effect_damage_taken_+%",
-    "zh": "生效期间，被你点燃的敌人承受的伤害降低 {0}%",
+    "zh": "生效期间，被你点燃的敌人受到的伤害降低 {0}%",
     "en": "Enemies Ignited by you during Effect take {0}% reduced Damage"
   },
   {
@@ -8121,12 +8121,12 @@
   },
   {
     "id": "mastery_extra_damage_taken_from_suppressed_crit_+%_final",
-    "zh": "你承受的暴击伤害被压制时，其额外伤害提高 {0}%",
+    "zh": "你受到的暴击伤害被压制时，其额外伤害提高 {0}%",
     "en": "You take {0}% increased Extra Damage from Suppressed Critical Strikes"
   },
   {
     "id": "mastery_extra_damage_taken_from_suppressed_crit_+%_final",
-    "zh": "你承受的暴击伤害被压制时，其额外伤害降低 {0}%",
+    "zh": "你受到的暴击伤害被压制时，其额外伤害降低 {0}%",
     "en": "You take {0}% reduced Extra Damage from Suppressed Critical Strikes"
   },
   {
@@ -11681,12 +11681,12 @@
   },
   {
     "id": "chance_to_inflict_frostburn_%",
-    "zh": "{0}% 的几率造成脆弱",
+    "zh": "{0}% 的几率造成易碎",
     "en": "{0}% chance to inflict Brittle"
   },
   {
     "id": "chance_to_inflict_frostburn_%",
-    "zh": "必定造成脆弱",
+    "zh": "必定造成易碎",
     "en": "Always inflict Brittle"
   },
   {
@@ -11711,12 +11711,12 @@
   },
   {
     "id": "chance_to_inflict_sapped_%",
-    "zh": "{0}% 的几率造成精疲力尽",
+    "zh": "{0}% 的几率造成力竭",
     "en": "{0}% chance to Sap Enemies"
   },
   {
     "id": "chance_to_inflict_sapped_%",
-    "zh": "必定造成精疲力尽",
+    "zh": "必定造成力竭",
     "en": "Always Sap Enemies"
   },
   {
@@ -13081,22 +13081,22 @@
   },
   {
     "id": "area_damage_taken_from_hits_+%",
-    "zh": "被击中时承受的范围伤害提高 {0}%",
+    "zh": "被击中时受到的范围伤害提高 {0}%",
     "en": "{0}% increased Area Damage taken from Hits"
   },
   {
     "id": "area_damage_taken_from_hits_+%",
-    "zh": "被击中时承受的范围伤害降低 {0}%",
+    "zh": "被击中时受到的范围伤害降低 {0}%",
     "en": "{0}% reduced Area Damage taken from Hits"
   },
   {
     "id": "damage_taken_+%_from_hits",
-    "zh": "被击中时承受的伤害提高 {0}%",
+    "zh": "被击中时受到的伤害提高 {0}%",
     "en": "{0}% increased Damage taken from Hits"
   },
   {
     "id": "damage_taken_+%_from_hits",
-    "zh": "被击中时承受的伤害降低 {0}%",
+    "zh": "被击中时受到的伤害降低 {0}%",
     "en": "{0}% reduced Damage taken from Hits"
   },
   {
@@ -13306,7 +13306,7 @@
   },
   {
     "id": "should_use_alternate_fortify",
-    "zh": "护体本身并不能降低你承受的伤害",
+    "zh": "护体本身并不能降低你受到的伤害",
     "en": "You do not inherently take less Damage for having Fortification"
   },
   {
@@ -13576,7 +13576,7 @@
   },
   {
     "id": "bleeding_damage_on_self_converted_to_chaos",
-    "zh": "你承受的流血伤害改为混沌伤害",
+    "zh": "你受到的流血伤害改为混沌伤害",
     "en": "You take Chaos Damage instead of Physical Damage from Bleeding"
   },
   {
@@ -13636,7 +13636,7 @@
   },
   {
     "id": "frozen_monsters_take_increased_damage",
-    "zh": "被你冰冻的敌人承受的伤害提高 20% ",
+    "zh": "被你冰冻的敌人受到的伤害提高 20% ",
     "en": "Enemies Frozen by you take 20% increased Damage"
   },
   {
@@ -15726,7 +15726,7 @@
   },
   {
     "id": "deal_no_non_physical_damage",
-    "zh": "造成非物理伤害",
+    "zh": "不造成非物理伤害",
     "en": "Deal no Non-Physical Damage"
   },
   {
@@ -16051,7 +16051,7 @@
   },
   {
     "id": "chaos_damage_taken_+",
-    "zh": "{0} 承受的混沌伤害",
+    "zh": "{0} 受到的混沌伤害",
     "en": "{0} Chaos Damage taken"
   },
   {
@@ -16241,7 +16241,7 @@
   },
   {
     "id": "all_damage_taken_can_chill",
-    "zh": "受到的所有攻击伤害会使你冰缓",
+    "zh": "受到的所有击中伤害会使你冰缓",
     "en": "All Damage Taken from Hits can Chill you"
   },
   {
@@ -16621,12 +16621,12 @@
   },
   {
     "id": "damage_taken_+%_per_frenzy_charge",
-    "zh": "每个狂怒球会使承受的伤害提高 {0}%",
+    "zh": "每个狂怒球会使受到的伤害提高 {0}%",
     "en": "{0}% increased Damage taken per Frenzy Charge"
   },
   {
     "id": "damage_taken_+%_per_frenzy_charge",
-    "zh": "每个狂怒球会使承受的伤害降低 {0}%",
+    "zh": "每个狂怒球会使受到的伤害降低 {0}%",
     "en": "{0}% reduced Damage taken per Frenzy Charge"
   },
   {
@@ -17346,22 +17346,22 @@
   },
   {
     "id": "base_fire_damage_heals",
-    "zh": "你承受的治疗会转化为承受火焰伤害",
+    "zh": "你受到的火焰伤害会转化为治疗",
     "en": "Taking Fire Damage instead heals you"
   },
   {
     "id": "base_cold_damage_heals",
-    "zh": "你承受的治疗会转化为承受冰霜伤害",
+    "zh": "你受到的冰霜伤害会转化为治疗",
     "en": "Taking Cold Damage instead heals you"
   },
   {
     "id": "base_lightning_damage_heals",
-    "zh": "你承受的治疗会转化为承受闪电伤害",
+    "zh": "你受到的闪电伤害会转化为治疗",
     "en": "Taking Lightning Damage instead heals you"
   },
   {
     "id": "base_elemental_damage_heals",
-    "zh": "你承受的治疗会转化为承受元素伤害",
+    "zh": "你受到的元素伤害会转化为治疗",
     "en": "Taking Elemental Damage instead heals you"
   },
   {
@@ -17901,7 +17901,7 @@
   },
   {
     "id": "you_count_as_low_life_while_affected_by_vulnerability",
-    "zh": "受到【脆弱】诅咒时，非满血时被视作低血状态",
+    "zh": "受到【脆弱】诅咒时，视作低血状态",
     "en": "You count as on Low Life while you are Cursed with Vulnerability"
   },
   {
@@ -18326,7 +18326,7 @@
   },
   {
     "id": "life_leech_applies_to_enemies_%",
-    "zh": "生命偷取造成伤害的 {0}% 转化为混沌伤害",
+    "zh": "对敌人造成等同于 {0}% 生命偷取的混沌伤害",
     "en": "{0}% of Life Leech applies to Enemies as Chaos Damage"
   },
   {
@@ -18536,12 +18536,12 @@
   },
   {
     "id": "taunted_enemies_damage_taken_+%",
-    "zh": "受到你嘲讽的敌人所承受的伤害提高 {0}%",
+    "zh": "受到你嘲讽的敌人所受到的伤害提高 {0}%",
     "en": "Enemies Taunted by you take {0}% increased Damage"
   },
   {
     "id": "taunted_enemies_damage_taken_+%",
-    "zh": "受到你嘲讽的敌人所承受的伤害降低 {0}%",
+    "zh": "受到你嘲讽的敌人所受到的伤害降低 {0}%",
     "en": "Enemies Taunted by you take {0}% reduced Damage"
   },
   {
@@ -18746,7 +18746,7 @@
   },
   {
     "id": "extra_damage_taken_from_crit_-%_if_taken_critical_strike_recently",
-    "zh": "你承受的额外暴击伤害在你近期内承受过暴击的情况下降低 {0}%",
+    "zh": "你受到的额外暴击伤害在你近期内受到过暴击的情况下降低 {0}%",
     "en": "You take {0}% reduced Extra Damage from Critical Strikes if you've taken a Critical Strike Recently"
   },
   {
@@ -19351,12 +19351,12 @@
   },
   {
     "id": "damage_taken_+%_for_4_seconds_on_kill",
-    "zh": "若你近期内有击败敌人，则承受的伤害提高 {0}%",
+    "zh": "若你近期内有击败敌人，则受到的伤害提高 {0}%",
     "en": "{0}% increased Damage taken if you've Killed Recently"
   },
   {
     "id": "damage_taken_+%_for_4_seconds_on_kill",
-    "zh": "若你近期内有击败敌人，则承受的伤害降低 {0}%",
+    "zh": "若你近期内有击败敌人，则受到的伤害降低 {0}%",
     "en": "{0}% reduced Damage taken if you've Killed Recently"
   },
   {
@@ -19881,22 +19881,22 @@
   },
   {
     "id": "lightning_damage_taken_+%",
-    "zh": "承受的闪电伤害提高 {0}%",
+    "zh": "受到的闪电伤害提高 {0}%",
     "en": "{0}% increased Lightning Damage taken"
   },
   {
     "id": "lightning_damage_taken_+%",
-    "zh": "承受的闪电伤害降低 {0}%",
+    "zh": "受到的闪电伤害降低 {0}%",
     "en": "{0}% reduced Lightning Damage taken"
   },
   {
     "id": "cold_damage_taken_+%",
-    "zh": "承受的冰霜伤害提高 {0}%",
+    "zh": "受到的冰霜伤害提高 {0}%",
     "en": "{0}% increased Cold Damage taken"
   },
   {
     "id": "cold_damage_taken_+%",
-    "zh": "承受的冰霜伤害降低 {0}%",
+    "zh": "受到的冰霜伤害降低 {0}%",
     "en": "{0}% reduced Cold Damage taken"
   },
   {
@@ -19951,7 +19951,7 @@
   },
   {
     "id": "local_display_nearby_enemies_scorched",
-    "zh": "周围敌人被灼烧",
+    "zh": "周围敌人被烧灼",
     "en": "Nearby Enemies are Scorched"
   },
   {
@@ -21416,7 +21416,7 @@
   },
   {
     "id": "arrows_fork",
-    "zh": "箭矢分叉",
+    "zh": "箭矢分裂",
     "en": "Arrows Fork"
   },
   {
@@ -21631,12 +21631,12 @@
   },
   {
     "id": "damage_taken_+%_to_an_element_for_4_seconds_when_hit_by_damage_from_an_element",
-    "zh": "近期内，每个击中你的元素可使你所承受的该元素伤害提高 {0}%",
+    "zh": "近期内，每个击中你的元素可使你所受到的该元素伤害提高 {0}%",
     "en": "For each Element you've been hit by Damage of Recently, {0}% increased Damage taken of that Element"
   },
   {
     "id": "damage_taken_+%_to_an_element_for_4_seconds_when_hit_by_damage_from_an_element",
-    "zh": "近期内，每个击中你的元素可使你所承受的该元素伤害降低 {0}%",
+    "zh": "近期内，每个击中你的元素可使你所受到的该元素伤害降低 {0}%",
     "en": "For each Element you've been hit by Damage of Recently, {0}% reduced Damage taken of that Element"
   },
   {
@@ -22931,7 +22931,7 @@
   },
   {
     "id": "enemies_damage_taken_+%_while_cursed",
-    "zh": "受到你诅咒的敌人承受的伤害提高 {0}%",
+    "zh": "受到你诅咒的敌人受到的伤害提高 {0}%",
     "en": "Enemies you Curse take {0}% increased Damage"
   },
   {
@@ -23106,12 +23106,12 @@
   },
   {
     "id": "totem_aura_enemy_fire_and_physical_damage_taken_+%",
-    "zh": "在你图腾周围，敌人承受的物理和火焰伤害提高 {0}%",
+    "zh": "在你图腾周围，敌人受到的物理和火焰伤害提高 {0}%",
     "en": "Enemies near your Totems take {0}% increased Physical and Fire Damage"
   },
   {
     "id": "totem_aura_enemy_fire_and_physical_damage_taken_+%",
-    "zh": "在你图腾周围，敌人承受的物理和火焰伤害降低 {0}%",
+    "zh": "在你图腾周围，敌人受到的物理和火焰伤害降低 {0}%",
     "en": "Enemies near your Totems take {0}% reduced Physical and Fire Damage"
   },
   {
@@ -25561,12 +25561,12 @@
   },
   {
     "id": "elemental_damage_taken_+%_while_on_consecrated_ground",
-    "zh": "在奉献地面上时，承受的元素伤害提高 {0}%",
+    "zh": "在奉献地面上时，受到的元素伤害提高 {0}%",
     "en": "Take {0}% increased Elemental Damage while on Consecrated Ground"
   },
   {
     "id": "elemental_damage_taken_+%_while_on_consecrated_ground",
-    "zh": "在奉献地面上时，承受的元素伤害降低 {0}%",
+    "zh": "在奉献地面上时，受到的元素伤害降低 {0}%",
     "en": "Take {0}% reduced Elemental Damage while on Consecrated Ground"
   },
   {
@@ -26206,12 +26206,12 @@
   },
   {
     "id": "frost_bolt_nova_damage_+%",
-    "zh": "【旋涡】伤害提高 {0}%",
+    "zh": "【漩涡】伤害提高 {0}%",
     "en": "{0}% increased Vortex Damage"
   },
   {
     "id": "frost_bolt_nova_damage_+%",
-    "zh": "【旋涡】伤害降低 {0}%",
+    "zh": "【漩涡】伤害降低 {0}%",
     "en": "{0}% reduced Vortex Damage"
   },
   {
@@ -26276,12 +26276,12 @@
   },
   {
     "id": "frost_bolt_nova_radius_+%",
-    "zh": "【旋涡】范围扩大 {0}%",
+    "zh": "【漩涡】范围扩大 {0}%",
     "en": "{0}% increased Vortex Area of Effect"
   },
   {
     "id": "frost_bolt_nova_radius_+%",
-    "zh": "【旋涡】范围缩小 {0}%",
+    "zh": "【漩涡】范围缩小 {0}%",
     "en": "{0}% reduced Vortex Area of Effect"
   },
   {
@@ -26931,12 +26931,12 @@
   },
   {
     "id": "physical_damage_taken_+%_while_at_maximum_endurance_charges",
-    "zh": "承受的物理伤害在耐力球达到上限时提高 {0}%",
+    "zh": "受到的物理伤害在耐力球达到上限时提高 {0}%",
     "en": "{0}% increased Physical Damage taken while at maximum Endurance Charges"
   },
   {
     "id": "physical_damage_taken_+%_while_at_maximum_endurance_charges",
-    "zh": "承受的物理伤害在耐力球达到上限时降低 {0}%",
+    "zh": "受到的物理伤害在耐力球达到上限时降低 {0}%",
     "en": "{0}% reduced Physical Damage taken while at maximum Endurance Charges"
   },
   {
@@ -28221,12 +28221,12 @@
   },
   {
     "id": "extra_damage_taken_from_crit_+%_from_poisoned_enemy",
-    "zh": "你承受的来自中毒敌人的暴击额外伤害提高 {0}%",
+    "zh": "你受到的来自中毒敌人的暴击额外伤害提高 {0}%",
     "en": "You take {0}% increased Extra Damage from Critical Strikes by Poisoned Enemies"
   },
   {
     "id": "extra_damage_taken_from_crit_+%_from_poisoned_enemy",
-    "zh": "你承受的来自中毒敌人的暴击额外伤害降低 {0}%",
+    "zh": "你受到的来自中毒敌人的暴击额外伤害降低 {0}%",
     "en": "You take {0}% reduced Extra Damage from Critical Strikes by Poisoned Enemies"
   },
   {
@@ -28261,7 +28261,7 @@
   },
   {
     "id": "shock_minimum_damage_taken_increase_%",
-    "zh": "你击中造成的感电效果始终使承受的伤害提高至少 {0}%",
+    "zh": "你击中造成的感电效果始终使受到的伤害提高至少 {0}%",
     "en": "Shocks from your Hits always increase Damage taken by at least {0}%"
   },
   {
@@ -28626,7 +28626,7 @@
   },
   {
     "id": "additional_maximum_all_elemental_resistances_%_if_all_equipment_grants_armour",
-    "zh": "若装备的头盔、胸甲、手套和靴子都有护甲，所有抗性上限 {0}%",
+    "zh": "若装备的头盔、胸甲、手套和靴子都有护甲，元素抗性上限 {0}%",
     "en": "{0}% to all maximum Elemental Resistances if Equipped Helmet, Body Armour, Gloves, and Boots all have Armour"
   },
   {
@@ -28851,12 +28851,12 @@
   },
   {
     "id": "all_damage_taken_can_sap",
-    "zh": "承受的所有击中伤害都使你精疲力尽",
+    "zh": "被击中时受到的所有伤害都使你力竭",
     "en": "All Damage taken from Hits can Sap you"
   },
   {
     "id": "all_damage_taken_can_scorch",
-    "zh": "被击中时承受的都使你灼烧",
+    "zh": "被击中时受到的所有伤害都能使你烧灼",
     "en": "All Damage taken from Hits can Scorch you"
   },
   {
@@ -28881,7 +28881,7 @@
   },
   {
     "id": "always_frostburn_while_affected_by_hatred",
-    "zh": "受到憎恨光环影响时始终造成脆弱",
+    "zh": "受到憎恨光环影响时始终造成易碎",
     "en": "Always inflict Brittle while affected by Hatred"
   },
   {
@@ -28901,7 +28901,7 @@
   },
   {
     "id": "always_sap_while_affected_by_wrath",
-    "zh": "受到雷霆光环影响时始终造成精疲力尽",
+    "zh": "受到雷霆光环影响时始终造成力竭",
     "en": "Always Sap while affected by Wrath"
   },
   {
@@ -29021,12 +29021,12 @@
   },
   {
     "id": "animated_guardian_damage_taken_+%_final",
-    "zh": "幻灵守卫承受的伤害总增 {0}%",
+    "zh": "幻灵守卫受到的伤害总增 {0}%",
     "en": "Animated Guardian takes {0}% more Damage"
   },
   {
     "id": "animated_guardian_damage_taken_+%_final",
-    "zh": "幻灵守卫承受的伤害总降 {0}%",
+    "zh": "幻灵守卫受到的伤害总降 {0}%",
     "en": "Animated Guardian takes {0}% less Damage"
   },
   {
@@ -30091,7 +30091,7 @@
   },
   {
     "id": "attack_block_%_per_200_fire_hit_damage_taken_recently",
-    "zh": "攻击伤害格挡率按照近期内被击中所承受的每 200 点火焰伤害 {0}%",
+    "zh": "攻击伤害格挡率按照近期内被击中所受到的每 200 点火焰伤害 {0}%",
     "en": "{0}% Chance to Block Attack Damage for every 200 Fire Damage taken from Hits Recently"
   },
   {
@@ -30606,12 +30606,12 @@
   },
   {
     "id": "steel_ammo_consumed_per_use_with_attacks_that_fire_projectiles",
-    "zh": "发射火焰投射物的攻击最多消耗 1 个额外钢刃碎片",
+    "zh": "发射投射物的攻击最多消耗 1 个额外钢刃碎片",
     "en": "Attacks that Fire Projectiles Consume up to 1 additional Steel Shard"
   },
   {
     "id": "steel_ammo_consumed_per_use_with_attacks_that_fire_projectiles",
-    "zh": "发射火焰投射物的攻击最多消耗 {0} 个额外钢刃碎片",
+    "zh": "发射投射物的攻击最多消耗 {0} 个额外钢刃碎片",
     "en": "Attacks that Fire Projectiles Consume up to {0} additional Steel Shards"
   },
   {
@@ -31291,12 +31291,12 @@
   },
   {
     "id": "base_physical_damage_over_time_taken_+%",
-    "zh": "承受的持续物理伤害效果提高 {0}%",
+    "zh": "受到的持续物理伤害效果提高 {0}%",
     "en": "{0}% increased Physical Damage taken over time"
   },
   {
     "id": "base_physical_damage_over_time_taken_+%",
-    "zh": "承受的持续物理伤害效果降低 {0}%",
+    "zh": "受到的持续物理伤害效果降低 {0}%",
     "en": "{0}% reduced Physical Damage taken over time"
   },
   {
@@ -31486,12 +31486,12 @@
   },
   {
     "id": "blackhole_damage_taken_+%",
-    "zh": "虚空法球射程内的敌人基于跟虚空法球的距离，承受的伤害最多提高 {0}%",
+    "zh": "虚空法球射程内的敌人基于跟虚空法球的距离，受到的伤害最多提高 {0}%",
     "en": "Enemies in Void Sphere's range take up to {0}% increased Damage, based on distance from the Void Sphere"
   },
   {
     "id": "blackhole_damage_taken_+%",
-    "zh": "虚空法球射程内的敌人基于跟虚空法球的距离，承受的伤害最多降低 {0}%",
+    "zh": "虚空法球射程内的敌人基于跟虚空法球的距离，受到的伤害最多降低 {0}%",
     "en": "Enemies in Void Sphere's range take up to {0}% reduced Damage, based on distance from the Void Sphere"
   },
   {
@@ -31781,7 +31781,7 @@
   },
   {
     "id": "blight_arc_tower_chance_to_sap_%",
-    "zh": "你的【电弧之塔】有 {0}% 的几率施加【精疲力尽】",
+    "zh": "你的【电弧之塔】有 {0}% 的几率施加力竭",
     "en": "Your Arc Towers have {0}% chance to inflict Sap"
   },
   {
@@ -31971,7 +31971,7 @@
   },
   {
     "id": "blight_flamethrower_tower_chance_to_scorch_%",
-    "zh": "你的【掷火之塔】有 {0}% 的几率施加【灼烧】",
+    "zh": "你的【掷火之塔】有 {0}% 的几率施加烧灼",
     "en": "Your Flamethrower Towers have {0}% chance to inflict Scorch"
   },
   {
@@ -32001,7 +32001,7 @@
   },
   {
     "id": "blight_freezebolt_tower_chance_to_brittle_%",
-    "zh": "你的【冰箭之塔】有 {0}% 的几率施加【脆弱】",
+    "zh": "你的【冰箭之塔】有 {0}% 的几率施加易碎",
     "en": "Your Freezebolt Towers have {0}% chance to inflict Brittle"
   },
   {
@@ -32066,12 +32066,12 @@
   },
   {
     "id": "blight_glacialcage_tower_enemy_damage_taken_+%",
-    "zh": "冰笼内的敌人承受的伤害提高 {0}%",
+    "zh": "冰笼内的敌人受到的伤害提高 {0}%",
     "en": "Enemies inside Glacial Cage take {0}% increased Damage"
   },
   {
     "id": "blight_glacialcage_tower_enemy_damage_taken_+%",
-    "zh": "冰笼内的敌人承受的伤害降低 {0}%",
+    "zh": "冰笼内的敌人受到的伤害降低 {0}%",
     "en": "Enemies inside Glacial Cage take {0}% reduced Damage"
   },
   {
@@ -32971,7 +32971,7 @@
   },
   {
     "id": "boots_implicit_ground_brittle_duration_ms",
-    "zh": "移动时留下脆弱地面，持续 {0} 秒",
+    "zh": "移动时留下易碎地面，持续 {0} 秒",
     "en": "Drops Brittle Ground while moving, lasting {0} seconds"
   },
   {
@@ -34671,12 +34671,12 @@
   },
   {
     "id": "chance_to_inflict_brittle_on_enemy_on_block_%",
-    "zh": "你格挡敌人的伤害时，有 {0}% 的几率给它们施加脆弱",
+    "zh": "你格挡敌人的伤害时，有 {0}% 的几率给它们施加易碎",
     "en": "{0}% chance to inflict Brittle on Enemies when you Block their Damage"
   },
   {
     "id": "chance_to_inflict_brittle_on_enemy_on_block_%",
-    "zh": "你格挡敌人的伤害时，给它们施加脆弱",
+    "zh": "你格挡敌人的伤害时，给它们施加易碎",
     "en": "Inflict Brittle on Enemies when you Block their Damage"
   },
   {
@@ -34696,22 +34696,22 @@
   },
   {
     "id": "chance_to_inflict_sap_on_enemy_on_block_%",
-    "zh": "你格挡敌人的伤害时，有 {0}% 的几率使它们精疲力尽",
+    "zh": "你格挡敌人的伤害时，有 {0}% 的几率使它们力竭",
     "en": "{0}% chance to Sap Enemies when you Block their Damage"
   },
   {
     "id": "chance_to_inflict_sap_on_enemy_on_block_%",
-    "zh": "你格挡敌人的伤害时使它们精疲力尽",
+    "zh": "你格挡敌人的伤害时使它们力竭",
     "en": "Sap Enemies when you Block their Damage"
   },
   {
     "id": "chance_to_inflict_scorch_on_enemy_on_block_%",
-    "zh": "你格挡敌人的伤害时，有 {0}% 的几率灼烧敌人",
+    "zh": "你格挡敌人的伤害时，有 {0}% 的几率烧灼敌人",
     "en": "{0}% chance to Scorch Enemies when you Block their Damage"
   },
   {
     "id": "chance_to_inflict_scorch_on_enemy_on_block_%",
-    "zh": "你格挡敌人的伤害时灼烧敌人",
+    "zh": "你格挡敌人的伤害时烧灼敌人",
     "en": "Scorch Enemies when you Block their Damage"
   },
   {
@@ -34741,12 +34741,12 @@
   },
   {
     "id": "chance_to_sap_%_vs_enemies_in_chilling_areas",
-    "zh": "有 {0}% 的几率使冰缓区域中的敌人【精疲力尽】",
+    "zh": "有 {0}% 的几率使冰缓区域中的敌人力竭",
     "en": "{0}% chance to Sap Enemies in Chilling Areas"
   },
   {
     "id": "chance_to_sap_%_vs_enemies_in_chilling_areas",
-    "zh": "始终使冰缓区域中的敌人【精疲力尽】",
+    "zh": "始终使冰缓区域中的敌人力竭",
     "en": "Always Sap Enemies in Chilling Areas"
   },
   {
@@ -34826,12 +34826,12 @@
   },
   {
     "id": "chaos_damage_%_taken_from_mana_before_life",
-    "zh": "有 {0}% 承受的混沌伤害优先从魔力扣除",
+    "zh": "有 {0}% 受到的混沌伤害优先从魔力扣除",
     "en": "{0}% of Chaos Damage is taken from Mana before Life"
   },
   {
     "id": "chaos_damage_%_taken_from_mana_before_life",
-    "zh": "承受的混沌伤害优先从魔力扣除",
+    "zh": "受到的混沌伤害优先从魔力扣除",
     "en": "Chaos Damage is taken from Mana before Life"
   },
   {
@@ -35116,7 +35116,7 @@
   },
   {
     "id": "chills_from_your_hits_cause_shattering",
-    "zh": "被你的攻击冰缓的敌人可以像冰冻一样击碎",
+    "zh": "被你击中而冰缓的敌人可以像冰冻一样击碎",
     "en": "Enemies Chilled by your Hits can be Shattered as though Frozen"
   },
   {
@@ -35391,7 +35391,7 @@
   },
   {
     "id": "cold_damage_taken_goes_to_life_over_4_seconds_%",
-    "zh": "将承受的冰霜伤害的 {0}% 吸纳为生命",
+    "zh": "将受到的冰霜伤害的 {0}% 吸纳为生命",
     "en": "{0}% of Cold Damage taken Recouped as Life"
   },
   {
@@ -35501,12 +35501,12 @@
   },
   {
     "id": "cold_reflect_damage_taken_+%_while_affected_by_purity_of_ice",
-    "zh": "受到【冰霜净化】影响时，承受的反射冰霜伤害提高 {0}%",
+    "zh": "受到【冰霜净化】影响时，受到的反射冰霜伤害提高 {0}%",
     "en": "{0}% increased Reflected Cold Damage taken while affected by Purity of Ice"
   },
   {
     "id": "cold_reflect_damage_taken_+%_while_affected_by_purity_of_ice",
-    "zh": "受到【冰霜净化】影响时，承受的反射冰霜伤害降低 {0}%",
+    "zh": "受到【冰霜净化】影响时，受到的反射冰霜伤害降低 {0}%",
     "en": "{0}% reduced Reflected Cold Damage taken while affected by Purity of Ice"
   },
   {
@@ -35581,22 +35581,22 @@
   },
   {
     "id": "consecrated_ground_enemy_damage_taken_+%",
-    "zh": "你创造的【奉献地面】可以使敌人承受的伤害提高 {0}%",
+    "zh": "你创造的【奉献地面】可以使敌人受到的伤害提高 {0}%",
     "en": "Consecrated Ground you create applies {0}% increased Damage taken to Enemies"
   },
   {
     "id": "consecrated_ground_enemy_damage_taken_+%",
-    "zh": "你创造的【奉献地面】可以使敌人承受的伤害降低 {0}%",
+    "zh": "你创造的【奉献地面】可以使敌人受到的伤害降低 {0}%",
     "en": "Consecrated Ground you create applies {0}% reduced Damage taken to Enemies"
   },
   {
     "id": "consecrated_ground_enemy_damage_taken_+%_while_affected_by_zealotry",
-    "zh": "当你受到奋锐光环影响时，创造的【奉献地面】可以使敌人承受的伤害提高 {0}%",
+    "zh": "当你受到奋锐光环影响时，创造的【奉献地面】可以使敌人受到的伤害提高 {0}%",
     "en": "Consecrated Ground you create while affected by Zealotry causes enemies to take {0}% increased Damage"
   },
   {
     "id": "consecrated_ground_enemy_damage_taken_+%_while_affected_by_zealotry",
-    "zh": "当你受到奋锐光环影响时，创造的【奉献地面】可以使敌人承受的伤害降低 {0}%",
+    "zh": "当你受到奋锐光环影响时，创造的【奉献地面】可以使敌人受到的伤害降低 {0}%",
     "en": "Consecrated Ground you create while affected by Zealotry causes enemies to take {0}% reduced Damage"
   },
   {
@@ -36806,12 +36806,12 @@
   },
   {
     "id": "damage_over_time_taken_+%_while_you_have_at_least_20_fortification",
-    "zh": "承受的持续伤害在至少有 20 层护体的情况下提高 {0}%",
+    "zh": "受到的持续伤害在至少有 20 层护体的情况下提高 {0}%",
     "en": "{0}% increased Damage over Time Taken while you have at least 20 Fortification"
   },
   {
     "id": "damage_over_time_taken_+%_while_you_have_at_least_20_fortification",
-    "zh": "承受的持续伤害在至少有 20 层护体的情况下降低 {0}%",
+    "zh": "受到的持续伤害在至少有 20 层护体的情况下降低 {0}%",
     "en": "{0}% reduced Damage over Time Taken while you have at least 20 Fortification"
   },
   {
@@ -37356,12 +37356,12 @@
   },
   {
     "id": "damage_taken_+%_while_affected_by_elusive",
-    "zh": "承受的伤害在灵巧状态下提高 {0}%",
+    "zh": "受到的伤害在灵巧状态下提高 {0}%",
     "en": "{0}% increased Damage taken while Elusive"
   },
   {
     "id": "damage_taken_+%_while_affected_by_elusive",
-    "zh": "承受的伤害在灵巧状态下降低 {0}%",
+    "zh": "受到的伤害在灵巧状态下降低 {0}%",
     "en": "{0}% reduced Damage taken while Elusive"
   },
   {
@@ -37386,52 +37386,52 @@
   },
   {
     "id": "damage_taken_over_time_+%_final_during_life_flask_effect",
-    "zh": "承受的持续伤害在任意生命药剂生效期间总增 {0}%",
+    "zh": "受到的持续伤害在任意生命药剂生效期间总增 {0}%",
     "en": "{0}% more Damage over Time taken during Effect of any Life Flask"
   },
   {
     "id": "damage_taken_over_time_+%_final_during_life_flask_effect",
-    "zh": "承受的持续伤害在任意生命药剂生效期间总降 {0}%",
+    "zh": "受到的持续伤害在任意生命药剂生效期间总降 {0}%",
     "en": "{0}% less Damage over Time taken during Effect of any Life Flask"
   },
   {
     "id": "damage_taken_per_250_dexterity_+%",
-    "zh": "每 250 点敏捷会使承受的伤害提高 {0}%",
+    "zh": "每 250 点敏捷会使受到的伤害提高 {0}%",
     "en": "{0}% increased Damage taken per 250 Dexterity"
   },
   {
     "id": "damage_taken_per_250_dexterity_+%",
-    "zh": "每 250 点敏捷会使承受的伤害降低 {0}%",
+    "zh": "每 250 点敏捷会使受到的伤害降低 {0}%",
     "en": "{0}% reduced Damage taken per 250 Dexterity"
   },
   {
     "id": "damage_taken_per_250_intelligence_+%",
-    "zh": "每 250 点智慧会使承受的伤害提高 {0}%",
+    "zh": "每 250 点智慧会使受到的伤害提高 {0}%",
     "en": "{0}% increased Damage taken per 250 Intelligence"
   },
   {
     "id": "damage_taken_per_250_intelligence_+%",
-    "zh": "每 250 点智慧会使承受的伤害降低 {0}%",
+    "zh": "每 250 点智慧会使受到的伤害降低 {0}%",
     "en": "{0}% reduced Damage taken per 250 Intelligence"
   },
   {
     "id": "damage_taken_per_250_strength_+%",
-    "zh": "每 250 点力量会使承受的伤害提高 {0}%",
+    "zh": "每 250 点力量会使受到的伤害提高 {0}%",
     "en": "{0}% increased Damage taken per 250 Strength"
   },
   {
     "id": "damage_taken_per_250_strength_+%",
-    "zh": "每 250 点力量会使承受的伤害降低 {0}%",
+    "zh": "每 250 点力量会使受到的伤害降低 {0}%",
     "en": "{0}% reduced Damage taken per 250 Strength"
   },
   {
     "id": "damage_taken_per_ghost_dance_stack_+%",
-    "zh": "每层【鬼影缠身】会使承受的伤害提高 {0}%",
+    "zh": "每层【鬼影缠身】会使受到的伤害提高 {0}%",
     "en": "{0}% increased Damage taken per Ghost Shroud"
   },
   {
     "id": "damage_taken_per_ghost_dance_stack_+%",
-    "zh": "每层【鬼影缠身】会使承受的伤害降低 {0}%",
+    "zh": "每层【鬼影缠身】会使受到的伤害降低 {0}%",
     "en": "{0}% reduced Damage taken per Ghost Shroud"
   },
   {
@@ -37456,52 +37456,52 @@
   },
   {
     "id": "damage_taken_+%_final_per_gale_force",
-    "zh": "每个飓风之力都使承受的伤害总增 {0}%",
+    "zh": "每个飓风之力都使受到的伤害总增 {0}%",
     "en": "{0}% more Damage taken per Gale Force"
   },
   {
     "id": "damage_taken_+%_final_per_gale_force",
-    "zh": "每个飓风之力都使承受的伤害总降 {0}%",
+    "zh": "每个飓风之力都使受到的伤害总降 {0}%",
     "en": "{0}% less Damage taken per Gale Force"
   },
   {
     "id": "damage_taken_+%_final_per_totem",
-    "zh": "每个召唤的图腾使承受的伤害总增 {0}%",
+    "zh": "每个召唤的图腾使受到的伤害总增 {0}%",
     "en": "{0}% more Damage Taken per Summoned Totem"
   },
   {
     "id": "damage_taken_+%_final_per_totem",
-    "zh": "每个召唤的图腾使承受的伤害总降 {0}%",
+    "zh": "每个召唤的图腾使受到的伤害总降 {0}%",
     "en": "{0}% less Damage Taken per Summoned Totem"
   },
   {
     "id": "damage_taken_+%_if_have_been_frozen_recently",
-    "zh": "若你近期内被冻结，则承受的伤害提高 {0}%",
+    "zh": "若你近期内被冻结，则受到的伤害提高 {0}%",
     "en": "{0}% increased Damage taken if you've been Frozen Recently"
   },
   {
     "id": "damage_taken_+%_if_have_been_frozen_recently",
-    "zh": "若你近期内被冻结，则承受的伤害降低 {0}%",
+    "zh": "若你近期内被冻结，则受到的伤害降低 {0}%",
     "en": "{0}% reduced Damage taken if you've been Frozen Recently"
   },
   {
     "id": "damage_taken_+%_if_have_not_been_hit_recently",
-    "zh": "若你近期内没有被击中，则承受的伤害提高 {0}%",
+    "zh": "若你近期内没有被击中，则受到的伤害提高 {0}%",
     "en": "{0}% increased Damage taken if you haven't been Hit Recently"
   },
   {
     "id": "damage_taken_+%_if_have_not_been_hit_recently",
-    "zh": "若你近期内没有被击中，则承受的伤害降低 {0}%",
+    "zh": "若你近期内没有被击中，则受到的伤害降低 {0}%",
     "en": "{0}% reduced Damage taken if you haven't been Hit Recently"
   },
   {
     "id": "damage_taken_+%_on_full_life",
-    "zh": "承受的伤害在满血时提高 {0}%",
+    "zh": "受到的伤害在满血时提高 {0}%",
     "en": "{0}% increased Damage taken while on Full Life"
   },
   {
     "id": "damage_taken_+%_on_full_life",
-    "zh": "承受的伤害在满血时降低 {0}%",
+    "zh": "受到的伤害在满血时降低 {0}%",
     "en": "{0}% reduced Damage taken while on Full Life"
   },
   {
@@ -37526,12 +37526,12 @@
   },
   {
     "id": "damage_taken_+%_while_phasing",
-    "zh": "迷踪状态下，承受的伤害提高 {0}%",
+    "zh": "迷踪状态下，受到的伤害提高 {0}%",
     "en": "{0}% increased Damage taken while Phasing"
   },
   {
     "id": "damage_taken_+%_while_phasing",
-    "zh": "迷踪状态下，承受的伤害降低 {0}%",
+    "zh": "迷踪状态下，受到的伤害降低 {0}%",
     "en": "{0}% reduced Damage taken while Phasing"
   },
   {
@@ -38651,32 +38651,32 @@
   },
   {
     "id": "elemental_damage_taken_+%_final_per_raised_zombie",
-    "zh": "每有 1 个再生腐尸，承受的元素伤害总增 {0}%",
+    "zh": "每有 1 个再生腐尸，受到的元素伤害总增 {0}%",
     "en": "{0}% more Elemental Damage taken per Raised Zombie"
   },
   {
     "id": "elemental_damage_taken_+%_final_per_raised_zombie",
-    "zh": "每有 1 个再生腐尸，承受的元素伤害总降 {0}%",
+    "zh": "每有 1 个再生腐尸，受到的元素伤害总降 {0}%",
     "en": "{0}% less Elemental Damage taken per Raised Zombie"
   },
   {
     "id": "elemental_damage_taken_from_hits_+%_per_endurance_charge",
-    "zh": "被击中时承受的元素伤害按照每个耐力球提高 {0}%",
+    "zh": "被击中时受到的元素伤害按照每个耐力球提高 {0}%",
     "en": "{0}% increased Elemental Damage taken from Hits per Endurance Charge"
   },
   {
     "id": "elemental_damage_taken_from_hits_+%_per_endurance_charge",
-    "zh": "被击中时承受的元素伤害按照每个耐力球降低 {0}%",
+    "zh": "被击中时受到的元素伤害按照每个耐力球降低 {0}%",
     "en": "{0}% reduced Elemental Damage taken from Hits per Endurance Charge"
   },
   {
     "id": "elemental_damage_taken_+%_if_been_hit_recently",
-    "zh": "承受的元素伤害在你近期内被击中的情况下提高 {0}%",
+    "zh": "近期被击中时受到的元素伤害提高 {0}%",
     "en": "{0}% increased Elemental Damage taken if you have been Hit Recently"
   },
   {
     "id": "elemental_damage_taken_+%_if_been_hit_recently",
-    "zh": "承受的元素伤害在你近期内被击中的情况下降低 {0}%",
+    "zh": "近期被击中时受到的元素伤害降低 {0}%",
     "en": "{0}% reduced Elemental Damage taken if you have been Hit Recently"
   },
   {
@@ -38691,12 +38691,12 @@
   },
   {
     "id": "elemental_damage_taken_+%_if_you_have_an_endurance_charge",
-    "zh": "你拥有耐力球时，承受的元素伤害提高 {0}%",
+    "zh": "你拥有耐力球时，受到的元素伤害提高 {0}%",
     "en": "{0}% increased Elemental Damage taken while you have an Endurance Charge"
   },
   {
     "id": "elemental_damage_taken_+%_if_you_have_an_endurance_charge",
-    "zh": "你拥有耐力球时，承受的元素伤害降低 {0}%",
+    "zh": "你拥有耐力球时，受到的元素伤害降低 {0}%",
     "en": "{0}% reduced Elemental Damage taken while you have an Endurance Charge"
   },
   {
@@ -38746,12 +38746,12 @@
   },
   {
     "id": "elemental_hit_and_wild_strike_chance_to_inflict_scorch_brittle_sap_%",
-    "zh": "元素打击和野性打击击中有 {0}% 的几率造成灼烧、脆弱、精疲力尽",
+    "zh": "元素打击和野性打击击中有 {0}% 的几率造成烧灼、易碎、力竭",
     "en": "{0}% chance for Elemental Hit and Wild Strike Hits to inflict Scorch, Brittle and Sapped"
   },
   {
     "id": "elemental_hit_and_wild_strike_chance_to_inflict_scorch_brittle_sap_%",
-    "zh": "元素打击和野性打击击中造成灼烧、脆弱、精疲力尽",
+    "zh": "元素打击和野性打击击中造成烧灼、易碎、力竭",
     "en": "Always inflict Scorch, Brittle and Sapped with Elemental Hit and Wild Strike Hits"
   },
   {
@@ -38806,12 +38806,12 @@
   },
   {
     "id": "elemental_reflect_damage_taken_+%_while_affected_by_purity_of_elements",
-    "zh": "受到【元素净化】影响时，承受的反射元素伤害提高 {0}%",
+    "zh": "受到【元素净化】影响时，受到的反射元素伤害提高 {0}%",
     "en": "{0}% increased Reflected Elemental Damage taken while affected by Purity of Elements"
   },
   {
     "id": "elemental_reflect_damage_taken_+%_while_affected_by_purity_of_elements",
-    "zh": "受到【元素净化】影响时，承受的反射元素伤害减低 {0}%",
+    "zh": "受到【元素净化】影响时，受到的反射元素伤害降低 {0}%",
     "en": "{0}% reduced Reflected Elemental Damage taken while affected by Purity of Elements"
   },
   {
@@ -38976,7 +38976,7 @@
   },
   {
     "id": "enemies_chilled_by_hits_deal_damage_lessened_by_chill_effect",
-    "zh": "被你的命中冰缓的敌人造成的伤害降低，效果相当于冰缓效果的一半",
+    "zh": "被你击中而冰缓的敌人造成的伤害降低，效果相当于冰缓效果的一半",
     "en": "Enemies Chilled by your Hits lessen their Damage dealt by half of Chill Effect"
   },
   {
@@ -40236,7 +40236,7 @@
   },
   {
     "id": "fire_damage_taken_goes_to_life_over_4_seconds_%",
-    "zh": "将承受的火焰伤害的 {0}% 吸纳为生命",
+    "zh": "将受到的火焰伤害的 {0}% 吸纳为生命",
     "en": "{0}% of Fire Damage taken Recouped as Life"
   },
   {
@@ -40306,12 +40306,12 @@
   },
   {
     "id": "fire_reflect_damage_taken_+%_while_affected_by_purity_of_fire",
-    "zh": "受到【火焰净化】影响时，承受的反射火焰伤害提高 {0}%",
+    "zh": "受到【火焰净化】影响时，受到的反射火焰伤害提高 {0}%",
     "en": "{0}% increased Reflected Fire Damage taken while affected by Purity of Fire"
   },
   {
     "id": "fire_reflect_damage_taken_+%_while_affected_by_purity_of_fire",
-    "zh": "受到【火焰净化】影响时，承受的反射火焰伤害降低 {0}%",
+    "zh": "受到【火焰净化】影响时，受到的反射火焰伤害降低 {0}%",
     "en": "{0}% reduced Reflected Fire Damage taken while affected by Purity of Fire"
   },
   {
@@ -40376,7 +40376,7 @@
   },
   {
     "id": "fireball_chance_to_scorch_%",
-    "zh": "【火球】有 {0}% 的几率导致灼烧",
+    "zh": "【火球】有 {0}% 的几率导致烧灼",
     "en": "Fireball has {0}% chance to Scorch"
   },
   {
@@ -40536,12 +40536,12 @@
   },
   {
     "id": "flame_totem_consecrated_ground_enemy_damage_taken_+%",
-    "zh": "圣焰图腾创造的【奉献地面】可以使敌人承受的伤害提高 {0}%",
+    "zh": "圣焰图腾创造的【奉献地面】可以使敌人受到的伤害提高 {0}%",
     "en": "Consecrated Ground from Holy Flame Totem applies {0}% increased Damage taken to Enemies"
   },
   {
     "id": "flame_totem_consecrated_ground_enemy_damage_taken_+%",
-    "zh": "圣焰图腾创造的【奉献地面】可以使敌人承受的伤害降低 {0}%",
+    "zh": "圣焰图腾创造的【奉献地面】可以使敌人受到的伤害降低 {0}%",
     "en": "Consecrated Ground from Holy Flame Totem applies {0}% reduced Damage taken to Enemies"
   },
   {
@@ -41766,7 +41766,7 @@
   },
   {
     "id": "gain_scorching_sapping_brittle_confluxes_while_two_highest_attributes_equal",
-    "zh": "若你最高的两种属性相等，则你获得灼热汇流、脆弱汇流、力竭汇流",
+    "zh": "若你最高的两种属性相等，则你获得烧灼汇流、易碎汇流、力竭汇流",
     "en": "You have Scorching Conflux, Brittle Conflux and Sapping Conflux while your two highest Attributes are equal"
   },
   {
@@ -42161,12 +42161,12 @@
   },
   {
     "id": "grant_void_arrow_every_x_ms",
-    "zh": "¿¿¿¿¿¿¿¿¿¿",
+    "zh": "每秒获得 1 枚【虚空之矢】",
     "en": "Gain a Void Charge every second"
   },
   {
     "id": "grant_void_arrow_every_x_ms",
-    "zh": "¿ {0} ¿¿¿¿¿¿¿¿¿",
+    "zh": "每 {0} 获得 1 枚【虚空之矢】",
     "en": "Gain a Void Charge every {0} seconds"
   },
   {
@@ -42711,12 +42711,12 @@
   },
   {
     "id": "heist_contract_guarding_monsters_take_damage_+%",
-    "zh": "守卫承受的伤害提高 {0}%",
+    "zh": "守卫受到的伤害提高 {0}%",
     "en": "Guards take {0}% increased Damage"
   },
   {
     "id": "heist_contract_guarding_monsters_take_damage_+%",
-    "zh": "守卫承受的伤害降低 {0}%",
+    "zh": "守卫承受到的伤害降低 {0}%",
     "en": "Guards take {0}% reduced Damage"
   },
   {
@@ -42786,12 +42786,12 @@
   },
   {
     "id": "heist_contract_patrol_take_damage_+%",
-    "zh": "巡逻队承受的伤害提高 {0}%",
+    "zh": "巡逻队受到的伤害提高 {0}%",
     "en": "Patrol Packs take {0}% increased damage"
   },
   {
     "id": "heist_contract_patrol_take_damage_+%",
-    "zh": "巡逻队承受的伤害降低 {0}%",
+    "zh": "巡逻队受到的伤害降低 {0}%",
     "en": "Patrol Packs take {0}% reduced damage"
   },
   {
@@ -42806,12 +42806,12 @@
   },
   {
     "id": "heist_contract_side_area_monsters_take_damage_+%",
-    "zh": "奖励室怪物承受的伤害提高 {0}%",
+    "zh": "奖励室怪物受到的伤害提高 {0}%",
     "en": "Reward Room Monsters take {0}% increased Damage"
   },
   {
     "id": "heist_contract_side_area_monsters_take_damage_+%",
-    "zh": "奖励室怪物承受的伤害降低 {0}%",
+    "zh": "奖励室怪物受到的伤害降低 {0}%",
     "en": "Reward Room Monsters take {0}% reduced Damage"
   },
   {
@@ -44261,12 +44261,12 @@
   },
   {
     "id": "ice_siphon_trap_damage_taken_+%_per_beam",
-    "zh": "【虹吸陷阱】的光线连接到你，每有一条其他光线，都会使你承受的伤害提高 {0}%",
+    "zh": "【虹吸陷阱】的光线连接到你，每有一条其他光线，都会使你受到的伤害提高 {0}%",
     "en": "Siphoning Trap's beam to you grants {0}% increased Damage taken for each other beam"
   },
   {
     "id": "ice_siphon_trap_damage_taken_+%_per_beam",
-    "zh": "【虹吸陷阱】的光线连接到你，每有一条其他光线，都会使你承受的伤害降低 {0}%",
+    "zh": "【虹吸陷阱】的光线连接到你，每有一条其他光线，都会使你受到的伤害降低 {0}%",
     "en": "Siphoning Trap's beam to you grants {0}% reduced Damage taken for each other beam"
   },
   {
@@ -44391,12 +44391,12 @@
   },
   {
     "id": "immortal_call_elemental_damage_taken_+%_final_per_endurance_charge_consumed_permyriad",
-    "zh": "每移除一个耐力球都使不朽怒嚎承受的总元素伤害总增 {0}%",
+    "zh": "不朽怒嚎每消耗一个耐力球，就使受到的元素伤害总增 {0}%",
     "en": "Immortal Call Grants {0}% more Elemental Damage taken per Endurance Charge removed"
   },
   {
     "id": "immortal_call_elemental_damage_taken_+%_final_per_endurance_charge_consumed_permyriad",
-    "zh": "每移除一个耐力球都使不朽怒嚎承受的总元素伤害总降 {0}%",
+    "zh": "不朽怒嚎每消耗一个耐力球，就使受到的元素伤害总降 {0}%",
     "en": "Immortal Call Grants {0}% less Elemental Damage taken per Endurance Charge removed"
   },
   {
@@ -44616,12 +44616,12 @@
   },
   {
     "id": "impurity_cold_damage_taken_+%_final",
-    "zh": "承受的冰霜伤害总增 {0}%",
+    "zh": "受到的冰霜伤害总增 {0}%",
     "en": "{0}% more Cold Damage taken"
   },
   {
     "id": "impurity_cold_damage_taken_+%_final",
-    "zh": "承受的冰霜伤害总降 {0}%",
+    "zh": "受到的冰霜伤害总降 {0}%",
     "en": "{0}% less Cold Damage taken"
   },
   {
@@ -45831,7 +45831,7 @@
   },
   {
     "id": "lightning_damage_taken_goes_to_life_over_4_seconds_%",
-    "zh": "将承受的闪电伤害的 {0}% 吸纳为生命",
+    "zh": "将受到的闪电伤害的 {0}% 吸纳为生命",
     "en": "{0}% of Lightning Damage taken Recouped as Life"
   },
   {
@@ -45896,7 +45896,7 @@
   },
   {
     "id": "lightning_hit_and_dot_damage_%_taken_as_fire",
-    "zh": "承受的闪电伤害有 {0}% 视为火焰伤害",
+    "zh": "受到的闪电伤害有 {0}% 视为火焰伤害",
     "en": "{0}% of Lightning Damage taken as Fire Damage"
   },
   {
@@ -45911,17 +45911,17 @@
   },
   {
     "id": "lightning_reflect_damage_taken_+%_while_affected_by_purity_of_lightning",
-    "zh": "受到【闪电净化】影响时，承受的反射火焰伤害提高 {0}%",
+    "zh": "受到【闪电净化】影响时，受到的反射闪电伤害提高 {0}%",
     "en": "{0}% increased Reflected Lightning Damage taken while affected by Purity of Lightning"
   },
   {
     "id": "lightning_reflect_damage_taken_+%_while_affected_by_purity_of_lightning",
-    "zh": "受到【闪电净化】影响时，承受的反射火焰伤害降低 {0}%",
+    "zh": "受到【闪电净化】影响时，受到的反射闪电伤害降低 {0}%",
     "en": "{0}% reduced Reflected Lightning Damage taken while affected by Purity of Lightning"
   },
   {
     "id": "lightning_resistance_does_not_apply_to_lighting_damage",
-    "zh": "闪电抗性不对承受的闪电伤害生效",
+    "zh": "闪电抗性不对受到的闪电伤害生效",
     "en": "Lightning Resistance does not affect Lightning Damage taken"
   },
   {
@@ -46161,12 +46161,12 @@
   },
   {
     "id": "link_skills_grant_damage_taken_+%",
-    "zh": "你的羁绊对象承受的伤害提高 {0}%",
+    "zh": "你的羁绊对象受到的伤害提高 {0}%",
     "en": "Your Linked Targets take {0}% increased Damage"
   },
   {
     "id": "link_skills_grant_damage_taken_+%",
-    "zh": "你的羁绊对象承受的伤害降低 {0}%",
+    "zh": "你的羁绊对象受到的伤害降低 {0}%",
     "en": "Your Linked Targets take {0}% reduced Damage"
   },
   {
@@ -48216,7 +48216,7 @@
   },
   {
     "id": "local_display_nearby_enemy_elemental_damage_taken_+%",
-    "zh": "周围敌人承受的元素伤害提高 {0}%",
+    "zh": "周围敌人受到的元素伤害提高 {0}%",
     "en": "Nearby Enemies take {0}% increased Elemental Damage"
   },
   {
@@ -48241,12 +48241,12 @@
   },
   {
     "id": "local_display_nearby_enemy_physical_damage_taken_+%",
-    "zh": "周围敌人承受的物理伤害提高 {0}%",
+    "zh": "周围敌人受到的物理伤害提高 {0}%",
     "en": "Nearby Enemies take {0}% increased Physical Damage"
   },
   {
     "id": "local_display_nearby_enemy_physical_damage_taken_+%",
-    "zh": "周围敌人承受的物理伤害降低 {0}%",
+    "zh": "周围敌人受到的物理伤害降低 {0}%",
     "en": "Nearby Enemies take {0}% reduced Physical Damage"
   },
   {
@@ -48541,12 +48541,12 @@
   },
   {
     "id": "local_left_ring_slot_projectiles_from_spells_cannot_chain",
-    "zh": "左戒指栏位：法术的投射物无法弹射",
+    "zh": "左戒指栏位：法术的投射物无法连锁弹射",
     "en": "Left ring slot: Projectiles from Spells cannot Chain"
   },
   {
     "id": "local_left_ring_slot_projectiles_from_spells_fork",
-    "zh": "左戒指栏位：分裂类法术的投射物无法弹射",
+    "zh": "左戒指栏位：法术的投射物会分裂",
     "en": "Left ring slot: Projectiles from Spells Fork"
   },
   {
@@ -48681,7 +48681,7 @@
   },
   {
     "id": "local_right_ring_slot_number_of_additional_chains_for_spell_projectiles",
-    "zh": "右戒指栏位：法术的投射物会额外弹射 {0} 次",
+    "zh": "右戒指栏位：法术的投射物连锁弹射 {0} 次",
     "en": "Right ring slot: Projectiles from Spells Chain +{0} times"
   },
   {
@@ -50001,12 +50001,12 @@
   },
   {
     "id": "marked_enemy_damage_taken_+%",
-    "zh": "被标记的敌人承受的伤害提高 {0}%",
+    "zh": "被标记的敌人受到的伤害提高 {0}%",
     "en": "Marked Enemy takes {0}% increased Damage"
   },
   {
     "id": "marked_enemy_damage_taken_+%",
-    "zh": "被标记的敌人的伤害降低 {0}%",
+    "zh": "被标记的敌人受到的伤害降低 {0}%",
     "en": "Marked Enemy takes {0}% reduced Damage"
   },
   {
@@ -50291,12 +50291,12 @@
   },
   {
     "id": "melee_damage_+%_at_close_range",
-    "zh": "近战伤害在近程击中时提高 {0}%",
+    "zh": "近战伤害在近距离击中时提高 {0}%",
     "en": "{0}% increased Melee Damage with Hits at Close Range"
   },
   {
     "id": "melee_damage_+%_at_close_range",
-    "zh": "近战伤害在近程击中时降低 {0}%",
+    "zh": "近战伤害在近距离击中时降低 {0}%",
     "en": "{0}% reduced Melee Damage with Hits at Close Range"
   },
   {
@@ -51286,12 +51286,12 @@
   },
   {
     "id": "minions_reflected_damage_taken_+%",
-    "zh": "召唤生物承受的反射伤害提高 {0}%",
+    "zh": "召唤生物受到的反射伤害提高 {0}%",
     "en": "Minions take {0}% increased Reflected Damage"
   },
   {
     "id": "minions_reflected_damage_taken_+%",
-    "zh": "召唤生物承受的反射伤害降低 {0}%",
+    "zh": "召唤生物受到的反射伤害降低 {0}%",
     "en": "Minions take {0}% reduced Reflected Damage"
   },
   {
@@ -51331,7 +51331,7 @@
   },
   {
     "id": "modifiers_to_number_of_projectiles_instead_apply_to_splitting",
-    "zh": "调整投射物数量的词缀改为\n作用于向目标发射投射物的分裂数量",
+    "zh": "调整投射物数量的词缀改为\n调整投射物裂化飞向的目标数量",
     "en": "Modifiers to number of Projectiles instead apply\nto the number of targets Projectiles Split towards"
   },
   {
@@ -51821,7 +51821,7 @@
   },
   {
     "id": "close_range_enemies_avoid_your_projectiles",
-    "zh": "投射物不能弹开近程的敌人",
+    "zh": "投射物无视近距离的敌人",
     "en": "Projectiles cannot collide with Enemies at Close Range"
   },
   {
@@ -52381,12 +52381,12 @@
   },
   {
     "id": "passive_mastery_damage_taken_over_time_+%_final",
-    "zh": "承受的持续伤害总增 {0}%",
+    "zh": "受到的持续伤害总增 {0}%",
     "en": "{0}% more Damage Taken from Damage over Time"
   },
   {
     "id": "passive_mastery_damage_taken_over_time_+%_final",
-    "zh": "承受的持续伤害总降 {0}%",
+    "zh": "受到的持续伤害总降 {0}%",
     "en": "{0}% less Damage Taken from Damage over Time"
   },
   {
@@ -52676,12 +52676,12 @@
   },
   {
     "id": "physical_and_chaos_damage_taken_+%_final_while_not_unhinged",
-    "zh": "理智状态下，承受的物理和混沌伤害总增 {0}%",
+    "zh": "理智状态下，受到的物理和混沌伤害总增 {0}%",
     "en": "{0}% more Physical and Chaos Damage Taken while Sane"
   },
   {
     "id": "physical_and_chaos_damage_taken_+%_final_while_not_unhinged",
-    "zh": "理智状态下，承受的物理和混沌伤害总降 {0}%",
+    "zh": "理智状态下，受到的物理和混沌伤害总降 {0}%",
     "en": "{0}% less Physical and Chaos Damage Taken while Sane"
   },
   {
@@ -52826,7 +52826,7 @@
   },
   {
     "id": "physical_damage_reduction_%_per_hit_you_have_taken_recently",
-    "zh": "近期每受到 1 次伤害，下次承受的物理伤害減少 {0}%，最多 5%",
+    "zh": "近期每次被击中，受到的物理伤害减少 {0}%，最多 5%",
     "en": "{0}% additional Physical Damage Reduction for each Hit you've taken Recently up to a maximum of 5%"
   },
   {
@@ -52901,7 +52901,7 @@
   },
   {
     "id": "physical_damage_taken_recouped_as_life_%",
-    "zh": "承受的物理伤害有 {0}% 吸纳为生命",
+    "zh": "将受到的物理伤害的 {0}% 吸纳为生命",
     "en": "{0}% of Physical Damage taken Recouped as Life"
   },
   {
@@ -52946,7 +52946,7 @@
   },
   {
     "id": "physical_hit_and_dot_damage_%_taken_as_fire",
-    "zh": "承受的物理伤害有 {0}% 视为火焰伤害",
+    "zh": "受到的物理伤害有 {0}% 视为火焰伤害",
     "en": "{0}% of Physical Damage taken as Fire Damage"
   },
   {
@@ -52986,12 +52986,12 @@
   },
   {
     "id": "plague_bearer_chaos_damage_taken_+%_while_incubating",
-    "zh": "瘟疫使徒在孕育时，使承受的混沌伤害提高 {0}%",
+    "zh": "瘟疫使徒在孕育时，使受到的混沌伤害提高 {0}%",
     "en": "Plague Bearer Grants {0}% increased Chaos Damage taken while Incubating"
   },
   {
     "id": "plague_bearer_chaos_damage_taken_+%_while_incubating",
-    "zh": "瘟疫使徒在孕育时，使承受的混沌伤害降低 {0}%",
+    "zh": "瘟疫使徒在孕育时，使受到的混沌伤害降低 {0}%",
     "en": "Plague Bearer Grants {0}% reduced Chaos Damage taken while Incubating"
   },
   {
@@ -54276,12 +54276,12 @@
   },
   {
     "id": "reflected_physical_damage_taken_+%_while_affected_by_determination",
-    "zh": "受到【坚定】影响时，承受的反射物理伤害提高 {0}%",
+    "zh": "受到【坚定】影响时，受到的反射物理伤害提高 {0}%",
     "en": "{0}% increased Reflected Physical Damage taken while affected by Determination"
   },
   {
     "id": "reflected_physical_damage_taken_+%_while_affected_by_determination",
-    "zh": "受到【坚定】影响时，承受的反射物理伤害降低 {0}%",
+    "zh": "受到【坚定】影响时，受到的反射物理伤害降低 {0}%",
     "en": "{0}% reduced Reflected Physical Damage taken while affected by Determination"
   },
   {
@@ -54551,12 +54551,12 @@
   },
   {
     "id": "sabotuer_mines_apply_damage_taken_+%_to_nearby_enemies_up_to_10%",
-    "zh": "每个地雷使它附近敌人承受的伤害提高 {0}%，最高 10%",
+    "zh": "每个地雷使它附近敌人受到的伤害提高 {0}%，最高 10%",
     "en": "Each Mine applies {0}% increased Damage taken to Enemies near it, up to 10%"
   },
   {
     "id": "sabotuer_mines_apply_damage_taken_+%_to_nearby_enemies_up_to_10%",
-    "zh": "每个地雷使它附近敌人承受伤害降低 {0}%，最低 10%",
+    "zh": "每个地雷使它附近敌人受到的伤害降低 {0}%，最高 10%",
     "en": "Each Mine applies {0}% reduced Damage taken to Enemies near it, up to 10%"
   },
   {
@@ -54581,12 +54581,12 @@
   },
   {
     "id": "sanctify_consecrated_ground_enemy_damage_taken_+%",
-    "zh": "净化烈焰创造的【奉献地面】可以使敌人承受的伤害提高 {0}%",
+    "zh": "净化烈焰创造的【奉献地面】可以使敌人受到的伤害提高 {0}%",
     "en": "Consecrated Ground from Purifying Flame applies {0}% increased Damage taken to Enemies"
   },
   {
     "id": "sanctify_consecrated_ground_enemy_damage_taken_+%",
-    "zh": "净化烈焰创造的【奉献地面】可以使敌人承受的伤害降低 {0}%",
+    "zh": "净化烈焰创造的【奉献地面】可以使敌人受到的伤害降低 {0}%",
     "en": "Consecrated Ground from Purifying Flame applies {0}% reduced Damage taken to Enemies"
   },
   {
@@ -54601,27 +54601,27 @@
   },
   {
     "id": "sap_on_critical_strike_with_lightning_skills",
-    "zh": "闪电技能的暴击使敌人精疲力尽",
+    "zh": "闪电技能的暴击使敌人力竭",
     "en": "Critical Strikes with Lightning Skills Sap the Enemy"
   },
   {
     "id": "scorch_effect_+%",
-    "zh": "灼烧效果提高 {0}%",
+    "zh": "烧灼效果提高 {0}%",
     "en": "{0}% increased Effect of Scorch"
   },
   {
     "id": "scorch_effect_+%",
-    "zh": "灼烧效果降低 {0}%",
+    "zh": "烧灼效果降低 {0}%",
     "en": "{0}% reduced Effect of Scorch"
   },
   {
     "id": "scorch_enemies_in_close_range_on_block",
-    "zh": "你格挡近程敌人时灼烧它们",
+    "zh": "你格挡近距离敌人时烧灼它们",
     "en": "Scorch Enemies in Close Range when you Block"
   },
   {
     "id": "scorched_enemies_explode_on_death_for_8%_life_as_fire_degen_chance",
-    "zh": "你击败灼烧的敌人时有 {0}% 的几率使周围所有敌人燃烧 4 秒，\n每秒造成被击败敌人 8% 生命的火焰伤害",
+    "zh": "你击败烧灼的敌人时有 {0}% 的几率使周围所有敌人燃烧 4 秒，\n每秒造成被击败敌人 8% 生命的火焰伤害",
     "en": "{0}% chance when you Kill a Scorched Enemy to Burn Each surrounding\nEnemy for 4 seconds, dealing 8% of the Killed Enemy's Life as Fire Damage per second"
   },
   {
@@ -54671,12 +54671,12 @@
   },
   {
     "id": "self_critical_strike_multiplier_+%_while_ignited",
-    "zh": "从暴击承受的额外伤害在被点燃时提高 {0}%",
+    "zh": "被点燃时，受到的暴击伤害提高 {0}%",
     "en": "{0}% increased Extra Damage taken from Critical Strikes while Ignited"
   },
   {
     "id": "self_critical_strike_multiplier_+%_while_ignited",
-    "zh": "从暴击承受的额外伤害在被点燃时降低 {0}%",
+    "zh": "被点燃时，受到的暴击伤害降低 {0}%",
     "en": "{0}% reduced Extra Damage taken from Critical Strikes while Ignited"
   },
   {
@@ -54791,7 +54791,7 @@
   },
   {
     "id": "shattering_steel_fortify_on_hit_close_range",
-    "zh": "破碎铁刃近程击中时提供护体状态",
+    "zh": "破碎铁刃近距离击中时提供护体状态",
     "en": "Hits at Close Range with Shattering Steel Fortify"
   },
   {
@@ -54866,12 +54866,12 @@
   },
   {
     "id": "shock_and_freeze_apply_elemental_damage_taken_+%",
-    "zh": "被你冻结或感电的敌人承受的元素伤害提高 {0}%",
+    "zh": "被你冻结或感电的敌人受到的元素伤害提高 {0}%",
     "en": "Enemies Shocked or Frozen by you take {0}% increased Elemental Damage"
   },
   {
     "id": "shock_and_freeze_apply_elemental_damage_taken_+%",
-    "zh": "被你冻结或感电的敌人承受的元素伤害降低 {0}%",
+    "zh": "被你冻结或感电的敌人受到的元素伤害降低 {0}%",
     "en": "Enemies Shocked or Frozen by you take {0}% reduced Elemental Damage"
   },
   {
@@ -57461,12 +57461,12 @@
   },
   {
     "id": "totems_nearby_enemies_damage_taken_+%",
-    "zh": "每个图腾都使其周围敌人承受的伤害提高 {0}%",
+    "zh": "每个图腾都使其周围敌人受到的伤害提高 {0}%",
     "en": "Each Totem applies {0}% increased Damage taken to Enemies near it"
   },
   {
     "id": "totems_nearby_enemies_damage_taken_+%",
-    "zh": "每个图腾都使其周围敌人承受的伤害降低 {0}%",
+    "zh": "每个图腾都使其周围敌人受到的伤害降低 {0}%",
     "en": "Each Totem applies {0}% reduced Damage taken to Enemies near it"
   },
   {
@@ -58146,12 +58146,12 @@
   },
   {
     "id": "utility_flask_cold_damage_taken_+%_final",
-    "zh": "承受的冰霜伤害总增 {0}%",
+    "zh": "受到的冰霜伤害总增 {0}%",
     "en": "{0}% more Cold Damage taken"
   },
   {
     "id": "utility_flask_cold_damage_taken_+%_final",
-    "zh": "承受的冰霜伤害总降 {0}%",
+    "zh": "受到的冰霜伤害总降 {0}%",
     "en": "{0}% less Cold Damage taken"
   },
   {
