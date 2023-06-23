@@ -44,3 +44,7 @@ const {gems} = CnPoeExportDb;
 - 重复的`没有物理伤害`，戴亚迪安的晨曦，武器的异度天灾词缀上的应当为`不造成物理伤害`，数据库已修正，需要前端hack，难度较大
 - 重复的`【断金之刃】的伤害提高`，`【断金之刃】的伤害降低`，其中一个应当是`破碎铁刃...`，没法区分
 - 重复的`每个狂怒球可使攻击速度减慢 4%`，血影上的应当为`每个狂怒球可使攻击和施法速度减慢 4%`，数据库已修正，需要前端hack
+
+# credits
+
+`tools/ExtractBundledGGPK3` comes from [LibGGPK3](https://github.com/aianlinb/LibGGPK3).
