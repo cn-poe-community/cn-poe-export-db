@@ -1,14 +1,81 @@
 package main
 
 import (
+	"bufio"
+	"dbutils/pkg/dat"
 	"dbutils/pkg/desc"
+	"dbutils/pkg/extract"
 	"dbutils/pkg/file"
+	"dbutils/pkg/gem"
 	"dbutils/pkg/stat"
 	"encoding/json"
+	"fmt"
 	"log"
 	"os"
+	"path/filepath"
 	"strings"
 )
+
+var extractor = "../../tools/ExtractBundledGGPK3/ExtractBundledGGPK3.exe"
+var txGgpk = `D:\WeGameApps\流放之路\Content.ggpk`
+var globalGgpk = `D:\Program Files (x86)\Grinding Gear Games\Path of Exile\Content.ggpk`
+
+var dat2jsonl = `../../tools/dat2jsonl/dat2jsonl.exe`
+var schema = "../../tools/dat2jsonl/schema.min.json"
+
+var saveRoot = `../../docs/ggpk`
+var statDescriptionsPath = "Metadata/StatDescriptions/stat_descriptions.txt"
+var zhIndexableSupportGemsPath = `Data\Simplified Chinese\IndexableSupportGems.dat64`
+var indexableSupportGemsPath = `Data\IndexableSupportGems.dat64`
+
+var txStatDescriptionsFile = filepath.Join(saveRoot, "tx", statDescriptionsPath)
+var globalStatDescriptionsFile = filepath.Join(saveRoot, "global", statDescriptionsPath)
+var zhIndexableSupportGemsFile = filepath.Join(saveRoot, "tx", zhIndexableSupportGemsPath)
+var enIndexableSupportGemsFile = filepath.Join(saveRoot, "global", indexableSupportGemsPath)
+
+var zhIndexableSupportGemsJsonl = zhIndexableSupportGemsFile + ".jsonl"
+var enIndexableSupportGemsJsonl = enIndexableSupportGemsFile + ".jsonl"
+
+func ExtractFiles() {
+	quitIfError(extract.Extract(extractor, txGgpk, statDescriptionsPath, txStatDescriptionsFile))
+	quitIfError(extract.Extract(extractor, globalGgpk, statDescriptionsPath, globalStatDescriptionsFile))
+	quitIfError(extract.Extract(extractor, txGgpk, zhIndexableSupportGemsPath, zhIndexableSupportGemsFile))
+	quitIfError(extract.Extract(extractor, globalGgpk, indexableSupportGemsPath, enIndexableSupportGemsFile))
+
+	quitIfError(dat.DatToJsonl(dat2jsonl, zhIndexableSupportGemsFile, "IndexableSupportGems", schema, zhIndexableSupportGemsJsonl))
+	quitIfError(dat.DatToJsonl(dat2jsonl, enIndexableSupportGemsFile, "IndexableSupportGems", schema, enIndexableSupportGemsJsonl))
+}
+
+func quitIfError(err error) {
+	if err != nil {
+		log.Fatal(err)
+	}
+}
+
+func CreateStats() {
+	globalStatDescContent := file.ReadFileUTF16(globalStatDescriptionsFile)
+	txStatDescContent := file.ReadFileUTF16(txStatDescriptionsFile)
+
+	globalStatDescContent = hackEnStatDescContent(globalStatDescContent)
+	txStatDescContent = hackZhStatDescContent(txStatDescContent)
+
+	descs := desc.Load(strings.Split(globalStatDescContent, "\r\n"), strings.Split(txStatDescContent, "\r\n"))
+	descs = removeSkipedDesc(descs)
+	hackDescs(descs)
+
+	stats := desc.ToStats(descs)
+
+	stats = appendRandomIndexableSupportStats(stats)
+
+	checkDuplicateZh(stats)
+
+	data, err := json.MarshalIndent(stats, "", "  ")
+	if err != nil {
+		log.Fatal(err)
+	}
+
+	os.WriteFile("../../assets/stats/desc.json", data, 0666)
+}
 
 var hackEnStatDescContentEntries = [][2]string{
 	{`#|60 "Gain {0} Vaal Soul Per Second during effect" per_minute_to_per_second 1`,
@@ -47,7 +114,7 @@ var hackZhStatDescContentEntries = [][2]string{
 		"\t2\r\n\t\t1|# \"图腾放置速度加快 {0}%\"\r\n#|-1 \"图腾放置速度减慢 {0}%\"\r\n"},
 	{"\t\t1|# \"若你近期内有击败敌人，则效果区域扩大 {0}%，最多 50%\" reminderstring ReminderTextRecently\r\n\t\t#|-1 \"若你近期内有击败敌人，则效果区域缩小 {0}%\" negate 1  reminderstring ReminderTextRecently\r\n",
 		"\t\t1|# \"若你近期内有击败敌人，则效果区域扩大 {0}%，最多 50%\" reminderstring ReminderTextRecently\r\n\t\t#|-1 \"若你近期内有击败敌人，则效果区域缩小 {0}%，最多 50%\" negate 1  reminderstring ReminderTextRecently\r\n"},
-	{"【毒雨】可以额外发射 1 个箭矢", "【毒雨】可以额外发射 {0} 个箭矢"},
+	{`1 "【毒雨】可以额外发射 1 个箭矢"`, `1 "【毒雨】可以额外发射 {0} 个箭矢"`},
 	{`1|# "如果诅咒持续时间已经过去 25%，\n则你诅咒的敌人的移动速度被减缓 25%"`, `1|# "如果诅咒持续时间已经过去 25%，\n则你诅咒的敌人的移动速度被减缓 {0}%"`},
 }
 
@@ -129,6 +196,89 @@ func removeSkipedDesc(descs []*desc.Desc) []*desc.Desc {
 	return newDescs
 }
 
+var randomIndexableSupportStatId1 = "local_random_support_gem_level local_random_support_gem_index"
+var randomIndexableSupportStatId2 = "local_random_support_gem_level_1 local_random_support_gem_index_1"
+
+func appendRandomIndexableSupportStats(stats []*stat.Stat) []*stat.Stat {
+	newStats := make([]*stat.Stat, 0, len(stats))
+
+	matched := false
+	for _, stat := range stats {
+		if stat.Id == randomIndexableSupportStatId1 || stat.Id == randomIndexableSupportStatId2 {
+			if stat.Zh == "插入的技能石被 {0} 级的【{1}】辅助" && stat.En == "Socketed Gems are Supported by Level {0} {1}" {
+				matched = true
+			} else {
+				log.Fatal("random indexable support stats template changed")
+			}
+		} else {
+			newStats = append(newStats, stat)
+		}
+	}
+
+	if !matched {
+		log.Println("warning: no template of random indexable support stats")
+		return stats
+	}
+
+	indexableSupportGems := loadIndexableSupportGems()
+	for _, gem := range indexableSupportGems {
+		newStats = append(newStats, &stat.Stat{
+			Id: randomIndexableSupportStatId1,
+			Zh: fmt.Sprintf("插入的技能石被 {0} 级的【%s】辅助", gem.Zh),
+			En: fmt.Sprintf("Socketed Gems are Supported by Level {0} %s", gem.En),
+		})
+	}
+
+	return newStats
+}
+
+func loadIndexableSupportGems() []*gem.IndexableSupportGem {
+	zhEntries := loadIndexableSupportGemJsonl(zhIndexableSupportGemsJsonl)
+	enEntries := loadIndexableSupportGemJsonl(enIndexableSupportGemsJsonl)
+
+	gems, err := mergeIndexableSupportGemJsonl(enEntries, zhEntries)
+	if err != nil {
+		log.Fatal(err)
+	}
+	return gems
+}
+
+func loadIndexableSupportGemJsonl(filename string) []*gem.IndexableSupportGemJsonlEntry {
+	f, err := os.Open(filename)
+	if err != nil {
+		log.Fatal(err)
+	}
+	defer f.Close()
+
+	scanner := bufio.NewScanner(f)
+	entries := []*gem.IndexableSupportGemJsonlEntry{}
+	for scanner.Scan() {
+		line := strings.TrimSpace(scanner.Text())
+		if len(line) > 0 {
+			entry := &gem.IndexableSupportGemJsonlEntry{}
+			err := json.Unmarshal([]byte(line), entry)
+			if err != nil {
+				log.Fatal(err)
+			}
+			entries = append(entries, entry)
+		}
+	}
+
+	return entries
+}
+
+func mergeIndexableSupportGemJsonl(enEntryList, zhEntryList []*gem.IndexableSupportGemJsonlEntry) ([]*gem.IndexableSupportGem, error) {
+	if len(enEntryList) < len(zhEntryList) {
+		return nil, fmt.Errorf("shorter enEntryList")
+	}
+	result := []*gem.IndexableSupportGem{}
+	for i, enEntry := range enEntryList {
+		zhEntry := zhEntryList[i]
+		result = append(result, &gem.IndexableSupportGem{Index: enEntry.Index, Zh: zhEntry.Name, En: enEntry.Name})
+	}
+	return result, nil
+}
+
 func checkDuplicateZh(stats []*stat.Stat) {
 	records := map[string]string{}
 
@@ -145,27 +295,11 @@ func checkDuplicateZh(stats []*stat.Stat) {
 	}
 }
 
+/*
+ * 从ggpk中提取需要的文件，解析文件，hack解析结果，生成最终的词缀数据库文件。
+ *
+ */
 func main() {
-	enStatDescFile := "../../docs/desc/en_stat_descriptions.txt"
-	zhStatDescFile := "../../docs/desc/zh_stat_descriptions.txt"
-
-	enStatDescContent := file.ReadFileUTF16(enStatDescFile)
-	zhStatDescContent := file.ReadFileUTF16(zhStatDescFile)
-
-	enStatDescContent = hackEnStatDescContent(enStatDescContent)
-	zhStatDescContent = hackZhStatDescContent(zhStatDescContent)
-
-	descs := desc.Load(strings.Split(enStatDescContent, "\r\n"), strings.Split(zhStatDescContent, "\r\n"))
-	descs = removeSkipedDesc(descs)
-	hackDescs(descs)
-
-	stats := desc.ToStats(descs)
-	checkDuplicateZh(stats)
-
-	data, err := json.MarshalIndent(stats, "", "  ")
-	if err != nil {
-		log.Fatal(err)
-	}
-
-	os.WriteFile("../../assets/stats/desc.json", data, 0666)
+	ExtractFiles()
+	CreateStats()
 }

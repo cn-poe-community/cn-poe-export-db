@@ -1,6 +1,5 @@
 dist/
-docs/desc/en_stat_descriptions.txt
-docs/desc/zh_stat_descriptions.txt
+docs/ggpk/
 docs/trade/zh_stats.json
 docs/trade/en_stats.json
 docs/trade/zh_items.json
