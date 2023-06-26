@@ -48,3 +48,5 @@ const {gems} = CnPoeExportDb;
 # credits
 
 `tools/ExtractBundledGGPK3` comes from [LibGGPK3](https://github.com/aianlinb/LibGGPK3).
+`tools/dat2jsonl` comes from [void-battery](https://github.com/afq984/void-battery)
+`tools/dat2jsonl/schema.min.json` comes from [dat-schema](https://github.com/poe-tool-dev/dat-schema)
