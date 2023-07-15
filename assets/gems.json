@@ -3299,7 +3299,7 @@
         "skills": [
             {
                 "en": "Sniper's Mark",
-                "zh": "狙击之印"
+                "zh": "狙击印记"
             }
         ]
     },
@@ -3923,7 +3923,7 @@
         "skills": [
             {
                 "en": "Mark On Hit Support",
-                "zh": "击中附加诅咒（辅）"
+                "zh": "击中时施加印记（辅）"
             }
         ]
     },
@@ -3931,7 +3931,7 @@
         "skills": [
             {
                 "en": "Alchemist's Mark",
-                "zh": "炼金师之印"
+                "zh": "炼金师印记"
             }
         ]
     },

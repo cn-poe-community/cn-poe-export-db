@@ -1351,7 +1351,7 @@
   },
   {
     "id": "local_display_socketed_gems_supported_by_level_x_mark_on_hit",
-    "zh": "插入的技能石被 {0} 级的击中咒印辅助",
+    "zh": "插入的技能石被 {0} 级的击中时施加印记辅助",
     "en": "Socketed Gems are Supported by Level {0} Mark On Hit"
   },
   {
@@ -2851,7 +2851,7 @@
   },
   {
     "id": "local_display_grants_skill_projectile_weakness_level",
-    "zh": "提供 {0} 级狙击之印",
+    "zh": "获得 {0} 级狙击印记",
     "en": "Grants Level {0} Sniper's Mark Skill"
   },
   {
@@ -3171,17 +3171,17 @@
   },
   {
     "id": "curse_on_hit_level_assassins_mark",
-    "zh": "触发 {0} 级暗影印记，条件为你击中稀有或传奇敌人且没有咒印",
+    "zh": "当你击中的稀有或传奇敌人没有被标记，触发 {0} 级暗影印记",
     "en": "Trigger Level {0} Assassin's Mark when you Hit a Rare or Unique Enemy and have no Mark"
   },
   {
     "id": "curse_on_hit_level_poachers_mark",
-    "zh": "触发 {0} 级盗猎者印记，条件为你击中稀有或传奇敌人且没有咒印",
+    "zh": "当你击中的稀有或传奇敌人没有被标记，触发 {0} 级盗猎者印记",
     "en": "Trigger Level {0} Poacher's Mark when you Hit a Rare or Unique Enemy and have no Mark"
   },
   {
     "id": "curse_on_hit_level_poachers_mark_bypass_hexproof",
-    "zh": "触发 {0} 级盗猎者印记，条件为你击中稀有或传奇敌人且没有咒印",
+    "zh": "当你击中的稀有或传奇敌人没有被标记，触发 {0} 级盗猎者印记",
     "en": "Trigger Level {0} Poacher's Mark when you Hit a Rare or Unique Enemy and have no Mark"
   },
   {
@@ -3381,7 +3381,7 @@
   },
   {
     "id": "local_display_trigger_level_X_assassins_mark_when_you_hit_rare_or_unique_enemy",
-    "zh": "触发 {0} 级暗影印记，条件为你击中稀有或传奇敌人且没有咒印",
+    "zh": "当你击中的稀有或传奇敌人没有被标记，触发 {0} 级暗影印记",
     "en": "Trigger Level {0} Assassin's Mark when you Hit a Rare or Unique Enemy and have no Mark"
   },
   {
@@ -3406,7 +3406,7 @@
   },
   {
     "id": "local_display_trigger_level_X_poachers_mark_when_you_hit_rare_or_unique_enemy",
-    "zh": "触发 {0} 级盗猎者印记，条件为你击中稀有或传奇敌人且没有咒印",
+    "zh": "当你击中的稀有或传奇敌人没有被标记，触发 {0} 级盗猎者印记",
     "en": "Trigger Level {0} Poacher's Mark when you Hit a Rare or Unique Enemy and have no Mark"
   },
   {
@@ -3416,7 +3416,7 @@
   },
   {
     "id": "local_display_trigger_level_X_warlords_mark_when_you_hit_rare_or_unique_enemy",
-    "zh": "触发 {0} 级督军印记，条件为你击中稀有或传奇敌人且没有咒印",
+    "zh": "当你击中的稀有或传奇敌人没有被标记，触发 {0} 级督军印记",
     "en": "Trigger Level {0} Warlord's Mark when you Hit a Rare or Unique Enemy and have no Mark"
   },
   {
@@ -12316,7 +12316,7 @@
   },
   {
     "id": "skill_area_of_effect_+%_per_power_charge",
-    "zh": "每个暴击球可使效果区域的扩大 {0}%",
+    "zh": "每个暴击球使效果区域扩大 {0}%",
     "en": "{0}% increased Area of Effect per Power Charge"
   },
   {
@@ -12896,12 +12896,12 @@
   },
   {
     "id": "mark_skill_cast_speed_+%",
-    "zh": "咒印技能的施法速度加快 {0}%",
+    "zh": "印记技能的施法速度加快 {0}%",
     "en": "Mark Skills have {0}% increased Cast Speed"
   },
   {
     "id": "mark_skill_cast_speed_+%",
-    "zh": "咒印技能的施法速度减慢 {0}%",
+    "zh": "印记技能的施法速度减慢 {0}%",
     "en": "Mark Skills have {0}% reduced Cast Speed"
   },
   {
@@ -13926,7 +13926,7 @@
   },
   {
     "id": "gain_phasing_for_4_seconds_on_begin_es_recharge",
-    "zh": "若你近期内有能量护盾开始回复，则获得【迷踪】状态",
+    "zh": "若你的能量护盾近期内开始充能，则获得【迷踪】状态",
     "en": "You have Phasing if Energy Shield Recharge has started Recently"
   },
   {
@@ -14551,12 +14551,12 @@
   },
   {
     "id": "mark_skills_curse_effect_+%",
-    "zh": "你的咒印效果效果提高 {0}%",
+    "zh": "你的印记技能的效果提高 {0}%",
     "en": "{0}% increased Effect of your Marks"
   },
   {
     "id": "mark_skills_curse_effect_+%",
-    "zh": "你的咒印效果效果降低 {0}%",
+    "zh": "你的印记技能的效果降低 {0}%",
     "en": "{0}% reduced Effect of your Marks"
   },
   {
@@ -19926,7 +19926,7 @@
   },
   {
     "id": "local_display_nearby_enemies_are_blinded",
-    "zh": "周围敌人都陷入目盲状态",
+    "zh": "周围敌人被致盲",
     "en": "Nearby Enemies are Blinded"
   },
   {
@@ -20956,12 +20956,12 @@
   },
   {
     "id": "attack_and_cast_speed_+%_for_4_seconds_on_begin_es_recharge",
-    "zh": "近期内若有能量护盾开始回复，则攻击和施法速度加快 {0}%",
+    "zh": "若你的能量护盾近期内开始充能，则攻击和施法速度加快 {0}%",
     "en": "{0}% increased Attack and Cast Speed if Energy\nShield Recharge has started Recently"
   },
   {
     "id": "attack_and_cast_speed_+%_for_4_seconds_on_begin_es_recharge",
-    "zh": "近期内若有能量护盾开始回复，则攻击和施法速度减慢 {0}%",
+    "zh": "若你的能量护盾近期内开始充能，则攻击和施法速度减慢 {0}%",
     "en": "{0}% reduced Attack and Cast Speed if Energy\nShield Recharge has started Recently"
   },
   {
@@ -21376,12 +21376,12 @@
   },
   {
     "id": "virtual_energy_shield_delay_-%",
-    "zh": "能量护盾提早 {0}% 开始恢复",
+    "zh": "能量护盾提前 {0}% 开始充能",
     "en": "{0}% faster start of Energy Shield Recharge"
   },
   {
     "id": "virtual_energy_shield_delay_-%",
-    "zh": "能量护盾延后 {0}% 开始恢复",
+    "zh": "能量护盾延后 {0}% 开始充能",
     "en": "{0}% slower start of Energy Shield Recharge"
   },
   {
@@ -24216,12 +24216,12 @@
   },
   {
     "id": "projectile_weakness_duration_+%",
-    "zh": "狙击之印的持续时间延长 {0}%",
+    "zh": "狙击印记的持续时间延长 {0}%",
     "en": "Sniper's Mark has {0}% increased Duration"
   },
   {
     "id": "projectile_weakness_duration_+%",
-    "zh": "狙击之印的持续时间缩短 {0}%",
+    "zh": "狙击印记的持续时间缩短 {0}%",
     "en": "Sniper's Mark has {0}% reduced Duration"
   },
   {
@@ -25081,12 +25081,12 @@
   },
   {
     "id": "projectile_weakness_curse_effect_+%",
-    "zh": "狙击之印的诅咒效果提高 {0}%",
+    "zh": "狙击印记的效果提高 {0}%",
     "en": "Sniper's Mark has {0}% increased Curse Effect"
   },
   {
     "id": "projectile_weakness_curse_effect_+%",
-    "zh": "狙击之印的诅咒效果降低 {0}%",
+    "zh": "狙击印记的效果降低 {0}%",
     "en": "Sniper's Mark has {0}% reduced Curse Effect"
   },
   {
@@ -28346,12 +28346,12 @@
   },
   {
     "id": "accuracy_rating_against_marked_enemies_+%",
-    "zh": "对咒印敌人的命中值提高 {0}%",
+    "zh": "对被标记敌人的命中值提高 {0}%",
     "en": "{0}% increased Accuracy Rating against Marked Enemy"
   },
   {
     "id": "accuracy_rating_against_marked_enemies_+%",
-    "zh": "对咒印敌人的命中值降低 {0}%",
+    "zh": "对被标记敌人的命中值降低 {0}%",
     "en": "{0}% reduced Accuracy Rating against Marked Enemy"
   },
   {
@@ -30441,12 +30441,12 @@
   },
   {
     "id": "attack_speed_+%_if_cast_a_mark_spell_recently",
-    "zh": "若你近期施放过咒印法术，攻击速度加快 {0}%",
+    "zh": "若你近期施放过印记法术，攻击速度加快 {0}%",
     "en": "{0}% increased Attack Speed if you've cast a Mark Spell Recently"
   },
   {
     "id": "attack_speed_+%_if_cast_a_mark_spell_recently",
-    "zh": "若你近期施放过咒印法术，攻击速度减慢 {0}%",
+    "zh": "若你近期施放过印记法术，攻击速度减慢 {0}%",
     "en": "{0}% reduced Attack Speed if you've cast a Mark Spell Recently"
   },
   {
@@ -31266,7 +31266,7 @@
   },
   {
     "id": "base_off_hand_chance_to_blind_on_hit_%",
-    "zh": "有 {0}% 的几率用副手击中使敌人目盲",
+    "zh": "使用副手击中时，有 {0}% 的几率致盲敌人",
     "en": "{0}% chance to Blind Enemies with Off Hand Hits"
   },
   {
@@ -32676,12 +32676,12 @@
   },
   {
     "id": "blind_does_not_affect_chance_to_hit",
-    "zh": "目盲不影响你的击中率",
+    "zh": "被致盲不影响你的击中率",
     "en": "Blind does not affect your Chance to Hit"
   },
   {
     "id": "blind_does_not_affect_light_radius",
-    "zh": "目盲不影响你的照亮范围",
+    "zh": "被致盲不影响你的照亮范围",
     "en": "Blind does not affect your Light Radius"
   },
   {
@@ -32711,7 +32711,7 @@
   },
   {
     "id": "blind_reflected_to_self",
-    "zh": "你施加的目盲反作用到你身上",
+    "zh": "你施加的致盲被反射",
     "en": "Blind you inflict is Reflected to you"
   },
   {
@@ -33221,7 +33221,7 @@
   },
   {
     "id": "cannot_be_blinded_while_affected_by_precision",
-    "zh": "在受精准影响时不会陷入目盲状态",
+    "zh": "在受精准影响时不会被致盲",
     "en": "Cannot be Blinded while affected by Precision"
   },
   {
@@ -36746,7 +36746,7 @@
   },
   {
     "id": "damage_from_hits_always_and_only_bypasses_energy_shield_when_not_blocked",
-    "zh": "从格挡的攻击中受到的伤害无法忽略能量护盾\n从未格挡的攻击中受到的伤害始终忽略能量护盾",
+    "zh": "受到来自格挡的击中伤害无法忽略能量护盾\n受到来自未格挡的击中伤害始终忽略能量护盾",
     "en": "Damage taken from Blocked Hits cannot bypass Energy Shield\nDamage taken from Unblocked hits always bypasses Energy Shield"
   },
   {
@@ -37436,12 +37436,12 @@
   },
   {
     "id": "damage_taken_+%_final_from_enemies_near_marked_enemy",
-    "zh": "若有敌人被你施加咒印，则它周围的敌人对你造成的伤害总增 {0}%",
+    "zh": "被标记敌人的周围敌人对你造成的伤害总增 {0}%",
     "en": "{0}% more Damage taken from other Enemies near your Marked Enemy"
   },
   {
     "id": "damage_taken_+%_final_from_enemies_near_marked_enemy",
-    "zh": "若有敌人被你施加咒印，则它周围的敌人对你造成的伤害总降 {0}%",
+    "zh": "被标记敌人的周围敌人对你造成的伤害总降 {0}%",
     "en": "{0}% less Damage taken from other Enemies near your Marked Enemy"
   },
   {
@@ -37586,12 +37586,12 @@
   },
   {
     "id": "deadeye_damage_taken_+%_final_from_marked_enemy",
-    "zh": "承受咒印敌人的伤害总增 {0}%",
+    "zh": "受到被标记敌人的伤害总增 {0}%",
     "en": "{0}% more Damage taken from Marked Enemy"
   },
   {
     "id": "deadeye_damage_taken_+%_final_from_marked_enemy",
-    "zh": "承受咒印敌人的伤害总降 {0}%",
+    "zh": "受到被标记敌人的伤害总降 {0}%",
     "en": "{0}% less Damage taken from Marked Enemy"
   },
   {
@@ -38826,7 +38826,7 @@
   },
   {
     "id": "elemental_skill_chance_to_blind_nearby_enemies_%",
-    "zh": "使用元素技能时，有 {0}% 的几率使周围的敌人【目盲】",
+    "zh": "使用元素技能时，有 {0}% 的几率致盲敌人",
     "en": "{0}% chance to Blind nearby Enemies when you use an Elemental Skill"
   },
   {
@@ -38956,7 +38956,7 @@
   },
   {
     "id": "enemies_blinded_by_you_while_blinded_have_malediction",
-    "zh": "你在【目盲】状态下，被你致盲的敌人受到【恶语术】影响",
+    "zh": "你被致盲时，被你致盲的敌人受到【恶语术】影响",
     "en": "Enemies Blinded by you while you are Blinded have Malediction"
   },
   {
@@ -39091,7 +39091,7 @@
   },
   {
     "id": "enemies_near_marked_enemy_are_blinded",
-    "zh": "在被你标记的敌人周围的敌人陷入目盲状态",
+    "zh": "被标记敌人的周围敌人被致盲",
     "en": "Enemies near your Marked Enemy are Blinded"
   },
   {
@@ -39316,12 +39316,12 @@
   },
   {
     "id": "energy_shield_delay_-%_while_affected_by_discipline",
-    "zh": "受到【纪律】影响时，能量护盾提早 {0}% 开始恢复",
+    "zh": "受到【纪律】影响时，能量护盾提前 {0}% 开始充能",
     "en": "{0}% faster start of Energy Shield Recharge while affected by Discipline"
   },
   {
     "id": "energy_shield_delay_-%_while_affected_by_discipline",
-    "zh": "受到【纪律】影响时，能量护盾推迟 {0}% 开始恢复",
+    "zh": "受到【纪律】影响时，能量护盾延后 {0}% 开始充能",
     "en": "{0}% slower start of Energy Shield Recharge while affected by Discipline"
   },
   {
@@ -39416,7 +39416,7 @@
   },
   {
     "id": "energy_shield_recharge_start_when_stunned",
-    "zh": "你被晕眩时能量护盾开始回复",
+    "zh": "你被晕眩时能量护盾开始充能",
     "en": "Energy Shield Recharge starts when you are Stunned"
   },
   {
@@ -41361,7 +41361,7 @@
   },
   {
     "id": "gain_elusive_on_reaching_low_life",
-    "zh": "生命值变低时获得灵巧",
+    "zh": "低血时获得灵巧",
     "en": "Gain Elusive on reaching Low Life"
   },
   {
@@ -41456,7 +41456,7 @@
   },
   {
     "id": "gain_frenzy_charge_on_hit_%_while_blinded",
-    "zh": "目盲时有{0}%的几率在击中时获得一个狂怒球",
+    "zh": "被致盲时击中有{0}%的几率获得一个狂怒球",
     "en": "{0}% chance to gain a Frenzy Charge on Hit while Blinded"
   },
   {
@@ -41681,7 +41681,7 @@
   },
   {
     "id": "gain_phasing_while_you_have_low_life",
-    "zh": "你在生命值低时有迷踪效果",
+    "zh": "你在低血时有迷踪效果",
     "en": "You have Phasing while on Low Life"
   },
   {
@@ -42151,12 +42151,12 @@
   },
   {
     "id": "grant_void_arrow_every_x_ms",
-    "zh": "每秒获得 1 枚【虚空之矢】",
+    "zh": "¿¿¿¿¿¿¿¿¿¿",
     "en": "Gain a Void Charge every second"
   },
   {
     "id": "grant_void_arrow_every_x_ms",
-    "zh": "每 {0} 获得 1 枚【虚空之矢】",
+    "zh": "¿ {0} ¿¿¿¿¿¿¿¿¿",
     "en": "Gain a Void Charge every {0} seconds"
   },
   {
@@ -48546,12 +48546,12 @@
   },
   {
     "id": "local_life_gain_per_target_vs_blinded_enemies",
-    "zh": "使用此武器每击中一名目盲敌人获得{0}点生命值",
+    "zh": "使用此武器每击中一个被致盲的敌人获得{0}点生命值",
     "en": "Gain {0} Life per Blinded Enemy Hit with this Weapon"
   },
   {
     "id": "local_life_gain_per_target_vs_blinded_enemies",
-    "zh": "使用此武器每击中一名目盲敌人损失{0}点生命值",
+    "zh": "使用此武器每击中一个被致盲的敌人损失{0}点生命值",
     "en": "Lose {0} Life per Blinded Enemy Hit with this Weapon"
   },
   {
@@ -49951,32 +49951,32 @@
   },
   {
     "id": "mark_skill_duration_+%",
-    "zh": "咒印技能的技能效果持续时间提高 {0}%",
+    "zh": "印记技能的效果持续时间提高 {0}%",
     "en": "Mark Skills have {0}% increased Skill Effect Duration"
   },
   {
     "id": "mark_skill_duration_+%",
-    "zh": "咒印技能的技能效果持续时间降低 {0}%",
+    "zh": "印记技能的效果持续时间降低 {0}%",
     "en": "Mark Skills have {0}% reduced Skill Effect Duration"
   },
   {
     "id": "mark_skill_mana_cost_+%",
-    "zh": "咒印技能的魔力消耗提高 {0}%",
+    "zh": "印记技能的魔力消耗提高 {0}%",
     "en": "{0}% increased Mana Cost of Mark Skills"
   },
   {
     "id": "mark_skill_mana_cost_+%",
-    "zh": "咒印技能的魔力消耗降低 {0}%",
+    "zh": "印记技能的魔力消耗降低 {0}%",
     "en": "{0}% reduced Mana Cost of Mark Skills"
   },
   {
     "id": "marked_enemies_cannot_deal_critical_strikes",
-    "zh": "咒印敌人无法造成暴击",
+    "zh": "被标记的敌人无法造成暴击",
     "en": "Marked Enemy cannot deal Critical Strikes"
   },
   {
     "id": "marked_enemies_cannot_regenerate_life",
-    "zh": "咒印敌人无法恢复生命",
+    "zh": "被标记的敌人无法恢复生命",
     "en": "Marked Enemy cannot Regenerate Life"
   },
   {
@@ -50001,7 +50001,7 @@
   },
   {
     "id": "marks_you_inflict_remain_after_death",
-    "zh": "垂死的敌人不会移除你施加的咒印",
+    "zh": "垂死的敌人不会移除你施加的印记",
     "en": "Marks you inflict are not removed from Dying Enemies"
   },
   {
@@ -51496,12 +51496,12 @@
   },
   {
     "id": "movement_speed_+%_if_cast_a_mark_spell_recently",
-    "zh": "移动速度在你近期内施放过咒印法术的情况下加快 {0}%",
+    "zh": "移动速度在你近期内施放过印记法术的情况下加快 {0}%",
     "en": "{0}% increased Movement Speed if you've cast a Mark Spell Recently"
   },
   {
     "id": "movement_speed_+%_if_cast_a_mark_spell_recently",
-    "zh": "移动速度在你近期内施放过咒印法术的情况下减慢 {0}%",
+    "zh": "移动速度在你近期内施放过印记法术的情况下减慢 {0}%",
     "en": "{0}% reduced Movement Speed if you've cast a Mark Spell Recently"
   },
   {
@@ -51791,7 +51791,7 @@
   },
   {
     "id": "nearby_enemies_are_blinded_while_you_have_active_physical_aegis",
-    "zh": "周围敌人在物理神盾没有耗尽时目盲",
+    "zh": "周围敌人在物理神盾没有耗尽时被致盲",
     "en": "Nearby Enemies are Blinded while Physical Aegis is not depleted"
   },
   {
@@ -51946,7 +51946,7 @@
   },
   {
     "id": "non_cursed_enemies_you_curse_are_blinded_for_4_seconds",
-    "zh": "被你施加非光环诅咒的非诅咒敌人目盲 4 秒",
+    "zh": "未被诅咒的敌人被你施加非光环诅咒时，被致盲 4 秒",
     "en": "Non-Cursed Enemies you inflict Non-Aura Curses on are Blinded for 4 seconds"
   },
   {
@@ -57756,7 +57756,7 @@
   },
   {
     "id": "unaffected_by_blind",
-    "zh": "不受目盲影响",
+    "zh": "不受致盲影响",
     "en": "Unaffected by Blind"
   },
   {
@@ -59226,12 +59226,12 @@
   },
   {
     "id": "your_marks_transfer_to_nearby_enemies_on_death_%_chance",
-    "zh": "被标记的敌人被击败后，你的咒印转移给另一个敌人",
+    "zh": "被标记的敌人被击败后，你的印记转移给另一个敌人",
     "en": "Your Mark Transfers to another Enemy when Marked Enemy dies"
   },
   {
     "id": "your_marks_transfer_to_nearby_enemies_on_death_%_chance",
-    "zh": "被标记的敌人被击败后，你的咒印有 {0}% 的几率转移给另一个敌人",
+    "zh": "被标记的敌人被击败后，你的印记有 {0}% 的几率转移给另一个敌人",
     "en": "Your Mark has a {0}% chance to Transfer to another Enemy when Marked Enemy dies"
   },
   {
@@ -60611,7 +60611,7 @@
   },
   {
     "id": "local_random_support_gem_level local_random_support_gem_index",
-    "zh": "插入的技能石被 {0} 级的【击中咒印】辅助",
+    "zh": "插入的技能石被 {0} 级的【击中时施加印记】辅助",
     "en": "Socketed Gems are Supported by Level {0} Mark On Hit"
   },
   {
