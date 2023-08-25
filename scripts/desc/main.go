@@ -24,9 +24,9 @@ var dat2jsonl = `../../tools/dat2jsonl/dat2jsonl.exe`
 var schema = "../../tools/dat2jsonl/schema.min.json"
 
 var saveRoot = `../../docs/ggpk`
-var statDescriptionsPath = "Metadata/StatDescriptions/stat_descriptions.txt"
-var zhIndexableSupportGemsPath = `Data\Simplified Chinese\IndexableSupportGems.dat64`
-var indexableSupportGemsPath = `Data\IndexableSupportGems.dat64`
+var statDescriptionsPath = "metadata/statdescriptions/stat_descriptions.txt"
+var zhIndexableSupportGemsPath = `data\simplified chinese\indexablesupportgems.dat64`
+var indexableSupportGemsPath = `data\indexablesupportgems.dat64`
 
 var txStatDescriptionsFile = filepath.Join(saveRoot, "tx", statDescriptionsPath)
 var globalStatDescriptionsFile = filepath.Join(saveRoot, "global", statDescriptionsPath)

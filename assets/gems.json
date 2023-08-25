@@ -4206,5 +4206,121 @@
                 "zh": "疾步"
             }
         ]
+    },
+    {
+        "skills": [
+            {
+                "en": "Avenging Flame",
+                "zh": "复仇之焰"
+            },
+            {
+                "en": "Flamewood Support",
+                "zh": "焚木烈火（辅）"
+            }
+        ]
+    },
+    {
+        "skills": [
+            {
+                "en": "Voltatility Support",
+                "zh": "无常（辅）"
+            }
+        ]
+    },
+    {
+        "skills": [
+            {
+                "en": "Controlled Blaze Support",
+                "zh": "精准炽炎（辅）"
+            }
+        ]
+    },
+    {
+        "skills": [
+            {
+                "en": "Corrupting Cry Support",
+                "zh": "腐化战吼（辅）"
+            }
+        ]
+    },
+    {
+        "skills": [
+            {
+                "en": "Guardian's Blessing Support",
+                "zh": "守卫祝福（辅）"
+            }
+        ]
+    },
+    {
+        "skills": [
+            {
+                "en": "Trauma Support",
+                "zh": "内伤（辅）"
+            }
+        ]
+    },
+    {
+        "skills": [
+            {
+                "en": "Locus Mine Support",
+                "zh": "核心地雷（辅）"
+            }
+        ]
+    },
+    {
+        "skills": [
+            {
+                "en": "Sadism Support",
+                "zh": "凌虐（辅）"
+            }
+        ]
+    },
+    {
+        "skills": [
+            {
+                "en": "Returning Projectiles Support",
+                "zh": "投射物归返（辅）"
+            }
+        ]
+    },
+    {
+        "skills": [
+            {
+                "en": "Devour Support",
+                "zh": "吞噬（辅）"
+            }
+        ]
+    },
+    {
+        "skills": [
+            {
+                "en": "Fresh Meat Support",
+                "zh": "鲜肉（辅）"
+            }
+        ]
+    },
+    {
+        "skills": [
+            {
+                "en": "Sacrifice Support",
+                "zh": "牺牲（辅）"
+            }
+        ]
+    },
+    {
+        "skills": [
+            {
+                "en": "Frigid Bond Support",
+                "zh": "冰冽连接（辅）"
+            }
+        ]
+    },
+    {
+        "skills": [
+            {
+                "en": "Spellblade Support",
+                "zh": "碎影魔刃（辅）"
+            }
+        ]
     }
 ]

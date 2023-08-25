@@ -70,21 +70,6 @@
         "zh": "希望壁垒"
     },
     {
-        "id": "61355",
-        "en": "Ramako, Sun's Light",
-        "zh": "雷默科，太阳之光"
-    },
-    {
-        "id": "50692",
-        "en": "Ngamahu, Flame's Advance",
-        "zh": "火徒.努葛玛呼"
-    },
-    {
-        "id": "1731",
-        "en": "Hinekora, Death's Fury",
-        "zh": "死之狂怒.辛格拉"
-    },
-    {
         "id": "17988",
         "en": "Untiring",
         "zh": "不知疲倦"
@@ -175,6 +160,11 @@
         "zh": "森林之力.塔赫亚"
     },
     {
+        "id": "61355",
+        "en": "Ramako, Sun's Light",
+        "zh": "雷默科，太阳之光"
+    },
+    {
         "id": "32249",
         "en": "Valako, Storm's Embrace",
         "zh": "瓦拉克，风暴之拥"
@@ -183,6 +173,16 @@
         "id": "31667",
         "en": "Arohongui, Moon's Presence",
         "zh": "月使.亚欧红古"
+    },
+    {
+        "id": "50692",
+        "en": "Ngamahu, Flame's Advance",
+        "zh": "火徒.努葛玛呼"
+    },
+    {
+        "id": "1731",
+        "en": "Hinekora, Death's Fury",
+        "zh": "死之狂怒.辛格拉"
     },
     {
         "id": "39790",

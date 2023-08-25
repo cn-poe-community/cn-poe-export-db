@@ -1104,6 +1104,10 @@
             {
                 "zh": "葛尔贡的凝视",
                 "en": "Gorgon's Gaze"
+            },
+            {
+                "zh": "阿寇亚之凝视",
+                "en": "Akoya's Gaze"
             }
         ]
     },
@@ -2040,6 +2044,10 @@
             {
                 "zh": "西里之逝",
                 "en": "Hyrri's Demise"
+            },
+            {
+                "zh": "阿华纳之牙",
+                "en": "Ahuana's Bite"
             }
         ]
     },
@@ -2722,6 +2730,10 @@
             {
                 "zh": "红刃蹂躏靴",
                 "en": "Redblade Tramplers"
+            },
+            {
+                "zh": "卡胡图罗阿之确信",
+                "en": "Kahuturoa's Certainty"
             }
         ]
     },
@@ -3573,7 +3585,13 @@
     },
     {
         "zh": "庄严之铠",
-        "en": "Majestic Plate"
+        "en": "Majestic Plate",
+        "uniques": [
+            {
+                "zh": "尤图拉之贪噬",
+                "en": "Utula's Hunger"
+            }
+        ]
     },
     {
         "zh": "胸甲",
@@ -4023,7 +4041,13 @@
     },
     {
         "zh": "钢木轻盾",
-        "en": "Ironwood Buckler"
+        "en": "Ironwood Buckler",
+        "uniques": [
+            {
+                "zh": "基洛瓦之风暴",
+                "en": "Kiloava's Bluster"
+            }
+        ]
     },
     {
         "zh": "圣战轻盾",

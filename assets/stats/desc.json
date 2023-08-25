@@ -771,8 +771,8 @@
   },
   {
     "id": "local_socketed_skill_gem_level_+1_per_x_player_levels",
-    "zh": "人物等级每到达 {0} 级，该插槽内的【主动技能石】等级 +1",
-    "en": "+1 to Level of Socketed Active Skill Gems per {0} Player Levels"
+    "zh": "人物等级每达到 {0} 级，镶嵌的技能宝石等级 +1",
+    "en": "+1 to Level of Socketed Skill Gems per {0} Player Levels"
   },
   {
     "id": "local_socketed_gems_in_red_sockets_get_level_+",
@@ -896,8 +896,8 @@
   },
   {
     "id": "local_socketed_active_skill_gem_level_+",
-    "zh": "此物品上装备的【主动技能石】等级 {0}",
-    "en": "{0} to Level of Socketed Active Skill Gems"
+    "zh": "镶嵌的技能宝石等级提高 {0}",
+    "en": "{0} to Level of Socketed Skill Gems"
   },
   {
     "id": "local_socketed_non_vaal_gem_level_+",
@@ -956,8 +956,8 @@
   },
   {
     "id": "local_socketed_active_skill_gem_quality_+",
-    "zh": "插入的主动宝石品质{0}%",
-    "en": "{0}% to Quality of Socketed Active Skill Gems"
+    "zh": "镶嵌的技能宝石品质提高 {0}%",
+    "en": "{0}% to Quality of Socketed Skill Gems"
   },
   {
     "id": "local_socketed_area_of_effect_gem_quality_+",
@@ -1140,6 +1140,16 @@
     "en": "Socketed Gems are Supported by Level {0} Close Combat"
   },
   {
+    "id": "local_display_socketed_gems_supported_by_level_x_controlled_blaze",
+    "zh": "插槽中的宝石受 {0} 级精准炽炎辅助",
+    "en": "Socketed Gems are Supported by Level {0} Controlled Blaze"
+  },
+  {
+    "id": "local_display_socketed_gems_supported_by_level_x_corrupting_cry",
+    "zh": "插槽中的宝石受 {0} 级腐化战吼辅助",
+    "en": "Socketed Gems are Supported by Level {0} Corrupting Cry"
+  },
+  {
     "id": "local_display_socketed_gems_supported_by_level_x_culling_strike",
     "zh": "此物品上的技能石受到 {0} 级的 终结 辅助",
     "en": "Socketed Gems are Supported by Level {0} Culling Strike"
@@ -1168,6 +1178,11 @@
     "id": "local_display_socketed_gems_supported_by_level_x_decay",
     "zh": "此物品上的技能石受到 {0} 级的 腐蚀 辅助",
     "en": "Socketed Gems are Supported by Level {0} Decay"
+  },
+  {
+    "id": "local_display_socketed_gems_supported_by_level_x_devour",
+    "zh": "插槽中的宝石受 {0} 级吞噬辅助",
+    "en": "Socketed Gems are Supported by Level {0} Devour"
   },
   {
     "id": "local_display_socketed_gems_supported_by_level_x_earthbreaker",
@@ -1230,6 +1245,11 @@
     "en": "Socketed Gems are Supported by Level {0} Fist of War"
   },
   {
+    "id": "local_display_socketed_gems_supported_by_level_x_flamewood",
+    "zh": "插槽中的宝石受 {0} 级焚木烈火辅助",
+    "en": "Socketed Gems are Supported by Level {0} Flamewood"
+  },
+  {
     "id": "local_display_socketed_gems_supported_by_level_x_focussed_ballista",
     "zh": "插入的技能石被 {0} 级的弩炮集火辅助",
     "en": "Socketed Gems are Supported by Level {0} Focused Ballista"
@@ -1245,6 +1265,16 @@
     "en": "Socketed Gems are Supported by Level {0} Charged Traps"
   },
   {
+    "id": "local_display_socketed_gems_supported_by_level_x_fresh_meat",
+    "zh": "插槽中的宝石受 {0} 级鲜肉辅助",
+    "en": "Socketed Gems are Supported by Level {0} Fresh Meat"
+  },
+  {
+    "id": "local_display_socketed_gems_supported_by_level_x_frigid_bond",
+    "zh": "插槽中的宝石受 {0} 级冰冽连接辅助",
+    "en": "Socketed Gems are Supported by Level {0} Frigid Bond"
+  },
+  {
     "id": "local_display_socketed_gems_supported_by_level_x_greater_multiple_projectiles",
     "zh": "此物品上的技能石受到 {0} 级的 高阶多重投射 辅助",
     "en": "Socketed Gems are Supported by Level {0} Greater Multiple Projectiles"
@@ -1258,6 +1288,11 @@
     "id": "local_display_socketed_gems_supported_by_level_x_greater_volley",
     "zh": "此物品上的技能石受到 {0} 级的 高阶齐射 辅助",
     "en": "Socketed Gems are Supported by Level {0} Greater Volley"
+  },
+  {
+    "id": "local_display_socketed_gems_supported_by_level_x_guardians_blessing",
+    "zh": "插槽中的宝石受 {0} 级守卫祝福辅助",
+    "en": "Socketed Gems are Supported by Level {0} Guardian's Blessing"
   },
   {
     "id": "local_display_socketed_gems_supported_by_level_x_hex_bloom",
@@ -1338,6 +1373,11 @@
     "id": "local_display_socketed_gems_supported_by_level_x_lightning_penetration",
     "zh": "此物品上的技能石受到 {0} 级的 闪电穿透 辅助",
     "en": "Socketed Gems are Supported by Level {0} Lightning Penetration"
+  },
+  {
+    "id": "local_display_socketed_gems_supported_by_level_x_locus_mine",
+    "zh": "插槽中的宝石受 {0} 级核心地雷辅助",
+    "en": "Socketed Gems are Supported by Level {0} Locus Mine"
   },
   {
     "id": "local_display_socketed_gems_supported_by_level_x_maim",
@@ -1480,9 +1520,24 @@
     "en": "Socketed Gems are Supported by Level {0} High-Impact Mine"
   },
   {
+    "id": "local_display_socketed_gems_supported_by_level_x_returning_projectiles",
+    "zh": "插槽中的宝石受 {0} 级投射物归返辅助",
+    "en": "Socketed Gems are Supported by Level {0} Returning Projectiles"
+  },
+  {
     "id": "local_display_socketed_gems_supported_by_level_x_ruthless",
     "zh": "此物品上的技能石受到 {0} 级的 无情 辅助",
     "en": "Socketed Gems are Supported by Level {0} Ruthless"
+  },
+  {
+    "id": "local_display_socketed_gems_supported_by_level_x_sacrifice",
+    "zh": "插槽中的宝石受 {0} 级牺牲辅助",
+    "en": "Socketed Gems are Supported by Level {0} Sacrifice"
+  },
+  {
+    "id": "local_display_socketed_gems_supported_by_level_x_sadism",
+    "zh": "插槽中的宝石受 {0} 级凌虐辅助",
+    "en": "Socketed Gems are Supported by Level {0} Sadism"
   },
   {
     "id": "local_display_socketed_gems_supported_by_level_x_second_wind",
@@ -1513,6 +1568,11 @@
     "id": "local_display_socketed_gems_supported_by_level_x_spell_focus",
     "zh": "此物品上的技能石受到 {0} 级的 法术凝聚 辅助",
     "en": "Socketed Gems are Supported by Level {0} Intensify"
+  },
+  {
+    "id": "local_display_socketed_gems_supported_by_level_x_spellblade",
+    "zh": "插槽中的宝石受 {0} 级碎影魔刃辅助",
+    "en": "Socketed Gems are Supported by Level {0} Spellblade"
   },
   {
     "id": "local_display_socketed_gems_supported_by_level_x_spirit_strike",
@@ -1550,6 +1610,11 @@
     "en": "Socketed Gems are Supported by Level {0} Advanced Traps"
   },
   {
+    "id": "local_display_socketed_gems_supported_by_level_x_trauma",
+    "zh": "插槽中的宝石受 {0} 级内伤辅助",
+    "en": "Socketed Gems are Supported by Level {0} Trauma"
+  },
+  {
     "id": "local_display_socketed_gems_supported_by_level_x_trinity",
     "zh": "插入的技能石被 {0} 级的三位一体辅助",
     "en": "Socketed Gems are Supported by Level {0} Trinity"
@@ -1573,6 +1638,11 @@
     "id": "local_display_socketed_gems_supported_by_level_x_void_manipulation",
     "zh": "此物品上的技能石受到 {0} 级的 虚空操纵 辅助",
     "en": "Socketed Gems are Supported by Level {0} Void Manipulation"
+  },
+  {
+    "id": "local_display_socketed_gems_supported_by_level_x_volatility",
+    "zh": "插槽中的宝石受 {0} 级无常辅助",
+    "en": "Socketed Gems are Supported by Level {0} Volatility"
   },
   {
     "id": "local_display_socketed_gems_supported_by_level_x_chaos_attacks",
@@ -2610,9 +2680,14 @@
     "en": "Skills from Equipped Boots Leech 2% of Damage as Life"
   },
   {
+    "id": "chieftain_body_armour_supported_by_level_x_ancestral_call",
+    "zh": "装备身体护甲的技能受 {0} 级先祖召唤辅助",
+    "en": "Skills from Equipped Body Armour are Supported by Level {0} Ancestral Call"
+  },
+  {
     "id": "chieftain_body_armour_supported_by_level_x_fist_of_war",
-    "zh": "[DNT]装备身体护甲的技能受 {0} 级战争铁拳辅助",
-    "en": "[DNT] Skills from Equipped Body Armour are Supported by Level {0} Fist of War"
+    "zh": "装备身体护甲的技能受 {0} 级的战争铁拳辅助",
+    "en": "Skills from Equipped Body Armour are Supported by Level {0} Fist of War"
   },
   {
     "id": "scion_helmet_skill_maximum_totems_+",
@@ -2743,6 +2818,16 @@
     "id": "local_display_summon_harbinger_x_on_equip",
     "zh": "获得【召唤高等残暴先驱者】",
     "en": "Grants Summon Greater Harbinger of Brutality Skill"
+  },
+  {
+    "id": "display_monster_has_chilled_ground_trail_daemon",
+    "zh": "足迹留下冰缓地面",
+    "en": "Chilled Ground Trail"
+  },
+  {
+    "id": "display_monster_has_proximity_shield_daemon",
+    "zh": "灵能之盾",
+    "en": "Proximity Shield"
   },
   {
     "id": "local_display_grants_skill_conductivity_level",
@@ -2878,6 +2963,56 @@
     "id": "local_display_grants_skill_icestorm_level",
     "zh": "获得 {0} 级的主动技能【冰风暴】，且可被此道具上的技能石辅助",
     "en": "Grants Level {0} Icestorm Skill"
+  },
+  {
+    "id": "chance_to_gain_arohonguis_embrace_%_on_kill",
+    "zh": "击败敌人时有 {0}% 的几率触发召唤伊基阿霍之魂",
+    "en": "{0}% chance to Trigger Summon Spirit of Ikiaho on Kill"
+  },
+  {
+    "id": "chance_to_gain_hinekoras_embrace_%_on_kill",
+    "zh": "击败敌人时有 {0}% 的几率触发召唤陶哈努库之魂",
+    "en": "{0}% chance to Trigger Summon Spirit of Tawhanuku on Kill"
+  },
+  {
+    "id": "chance_to_gain_kitavas_embrace_%_on_kill",
+    "zh": "击败敌人时有 {0}% 的几率触发召唤尤图拉之魂",
+    "en": "{0}% chance to Trigger Summon Spirit of Utula on Kill"
+  },
+  {
+    "id": "chance_to_gain_ngamahus_embrace_%_on_kill",
+    "zh": "击败敌人时有 {0}% 的几率触发召唤冈姆之魂",
+    "en": "{0}% chance to Trigger Summon Spirit of Kaom on Kill"
+  },
+  {
+    "id": "chance_to_gain_ramakos_embrace_%_on_kill",
+    "zh": "击败敌人时有 {0}% 的几率触发召唤阿华纳之魂",
+    "en": "{0}% chance to Trigger Summon Spirit of Ahuana on Kill"
+  },
+  {
+    "id": "chance_to_gain_rongokurais_embrace_%_on_kill",
+    "zh": "击败敌人时有 {0}% 的几率触发召唤卡胡图罗阿之魂",
+    "en": "{0}% chance to Trigger Summon Spirit of Kahuturoa on Kill"
+  },
+  {
+    "id": "chance_to_gain_tasalios_embrace_%_on_kill",
+    "zh": "击败敌人时有 {0}% 的几率触发召唤拉其塔之魂",
+    "en": "{0}% chance to Trigger Summon Spirit of Rakiata on Kill"
+  },
+  {
+    "id": "chance_to_gain_tawhoas_embrace_%_on_kill",
+    "zh": "击败敌人时有 {0}% 的几率触发召唤玛塔之魂",
+    "en": "{0}% chance to Trigger Summon Spirit of Maata on Kill"
+  },
+  {
+    "id": "chance_to_gain_tukohamas_embrace_%_on_kill",
+    "zh": "击败敌人时有 {0}% 的几率触发召唤阿寇亚之魂",
+    "en": "{0}% chance to Trigger Summon Spirit of Akoya on Kill"
+  },
+  {
+    "id": "chance_to_gain_valakos_embrace_%_on_kill",
+    "zh": "击败敌人时有 {0}% 的几率触发召唤基洛瓦之魂",
+    "en": "{0}% chance to Trigger Summon Spirit of Kiloava on Kill"
   },
   {
     "id": "local_display_cast_level_1_summon_lesser_shrine_on_kill_%",
@@ -3036,8 +3171,8 @@
   },
   {
     "id": "local_display_grants_skill_mirage_chieftain",
-    "zh": "你在靠近敌人使用非瓦尔猛击时触发 {0} 级的【塔赫亚神选】",
-    "en": "Trigger Level {0} Tawhoa's Chosen when you Attack with a Non-Vaal Slam Skill near an Enemy"
+    "zh": "你在敌人周围使用非瓦尔猛击或打击技能攻击时\n触发 {0} 级的塔赫亚神选",
+    "en": "Trigger Level {0} Tawhoa's Chosen when you Attack with\na Non-Vaal Slam or Strike Skill near an Enemy"
   },
   {
     "id": "local_display_grants_skill_pride_level",
@@ -3058,6 +3193,11 @@
     "id": "local_display_grants_skill_spider_aspect_level",
     "zh": "获得 {0} 级的主动技能【蛛之势】",
     "en": "Grants Level {0} Aspect of the Spider Skill"
+  },
+  {
+    "id": "local_display_grants_skill_summon_radiant_sentinel",
+    "zh": "获得 {0} 级的主动技能召唤光辉哨兵",
+    "en": "Grants Level {0} Summon Sentinel of Radiance Skill"
   },
   {
     "id": "local_display_grants_skill_touch_of_fire_level",
@@ -3093,6 +3233,56 @@
     "id": "local_display_grants_skill_zealotry_level",
     "zh": "获得 {0} 级的主动技能【奋锐光环】",
     "en": "Grants Level {0} Zealotry Skill"
+  },
+  {
+    "id": "local_display_tattoo_trigger_level_x_ahuana",
+    "zh": "压制传奇敌人的法术伤害时\n触发召唤阿华纳之魂技能",
+    "en": "Trigger Summon Spirit of Ahuana Skill when you Suppress\nSpell Damage from a Unique Enemy"
+  },
+  {
+    "id": "local_display_tattoo_trigger_level_x_akoya",
+    "zh": "传奇敌人在场时达到怒火上限\n会触发召唤阿寇亚之魂技能",
+    "en": "Trigger Summon Spirit of Akoya Skill when you reach Maximum Rage while\na Unique Enemy is in your Presence"
+  },
+  {
+    "id": "local_display_tattoo_trigger_level_x_ikiaho",
+    "zh": "传奇敌人在场时使用旅行技能\n会触发召唤伊基阿霍之魂",
+    "en": "Trigger Summon Spirit of Ikiaho Skill when you use a Travel\nSkill while a Unique Enemy is in your Presence"
+  },
+  {
+    "id": "local_display_tattoo_trigger_level_x_kahuturoa",
+    "zh": "受到传奇敌人的暴击时\n触发召唤卡胡图罗阿之魂技能",
+    "en": "Trigger Summon Spirit of Kahuturoa Skill when you take\na Critical Strike from a Unique Enemy"
+  },
+  {
+    "id": "local_display_tattoo_trigger_level_x_kaom",
+    "zh": "传奇敌人在场时有图腾被击败\n会触发召唤冈姆之魂技能",
+    "en": "Trigger Summon Spirit of Kaom Skill when a Totem dies while\na Unique Enemy is in your Presence"
+  },
+  {
+    "id": "local_display_tattoo_trigger_level_x_kiloava",
+    "zh": "格挡传奇敌人的伤害时触发召唤基洛瓦之魂技能",
+    "en": "Trigger Summon Spirit of Kiloava Skill when you Block Damage from a Unique Enemy"
+  },
+  {
+    "id": "local_display_tattoo_trigger_level_x_maata",
+    "zh": "传奇敌人在场时进入低血状态\n会触发召唤玛塔之魂技能",
+    "en": "Trigger Summon Spirit of Maata Skill when you reach Low Life while\na Unique Enemy is in your Presence"
+  },
+  {
+    "id": "local_display_tattoo_trigger_level_x_rakiata",
+    "zh": "对被标记的传奇敌人暴击时触发召唤拉其塔之魂",
+    "en": "Trigger Summon Spirit of Rakiata Skill on Critical Strike against Marked Unique Enemy"
+  },
+  {
+    "id": "local_display_tattoo_trigger_level_x_tawhanuku",
+    "zh": "传奇敌人在场时能量护盾开始充能会触发召唤陶哈努库之魂技能",
+    "en": "Trigger Summon Spirit of Tawhanuku Skill when Energy Shield Recharge starts while a Unique Enemy is in your Presence"
+  },
+  {
+    "id": "local_display_tattoo_trigger_level_x_utula",
+    "zh": "受到传奇敌人的残暴打击时触发召唤尤图拉之魂技能",
+    "en": "Trigger Summon Spirit of Utula Skill on taking a Savage Hit from a Unique Enemy"
   },
   {
     "id": "local_display_trigger_level_20_summon_spectral_wolf_on_crit_with_this_weapon_%_chance",
@@ -8891,8 +9081,8 @@
   },
   {
     "id": "summon_skeleton_gem_level_+",
-    "zh": "所有召唤魔侍技能石等级 {0}",
-    "en": "{0} to Level of all Summon Skeleton Gems"
+    "zh": "所有召唤魔侍宝石等级 {0}",
+    "en": "{0} to Level of all Summon Skeletons Gems"
   },
   {
     "id": "base_resist_all_elements_%",
@@ -11430,6 +11620,11 @@
     "en": "{0}% chance to Knock Enemies Back on hit"
   },
   {
+    "id": "base_global_chance_to_knockback_%",
+    "zh": "击中时击退敌人",
+    "en": "Knock Enemies back on Hit"
+  },
+  {
     "id": "projectile_damage_+%",
     "zh": "投射物伤害提高 {0}%",
     "en": "{0}% increased Projectile Damage"
@@ -12746,8 +12941,8 @@
   },
   {
     "id": "cannot_resist_cold_damage",
-    "zh": "冰霜抗性失效",
-    "en": "Cannot Resist Cold Damage"
+    "zh": "没有冰霜抗性",
+    "en": "No Cold Resistance"
   },
   {
     "id": "minions_get_shield_stats_instead_of_you",
@@ -15035,16 +15230,6 @@
     "en": "Vaal Attack Skills you Use yourself Cost Rage instead of requiring Souls"
   },
   {
-    "id": "spell_damage_modifiers_apply_to_skill_dot",
-    "zh": "法术伤害的词缀效果同样套用于持续伤害",
-    "en": "Modifiers to Spell Damage apply to this Skill's Damage Over Time effect"
-  },
-  {
-    "id": "projectile_damage_modifiers_apply_to_skill_dot",
-    "zh": "投射物伤害的词缀效果同样套用于持续伤害",
-    "en": "Modifiers to Projectile Damage apply to this Skill's Damage Over Time effect"
-  },
-  {
     "id": "local_display_aura_base_chaos_damage_to_deal_per_minute",
     "zh": "每秒对周围敌人造成 {0} 混沌伤害",
     "en": "Deals {0} Chaos Damage per second to nearby Enemies"
@@ -15516,8 +15701,8 @@
   },
   {
     "id": "supported_active_skill_gem_level_+",
-    "zh": "{0} 主动技能石等级",
-    "en": "{0} to Level of Supported Active Skill Gems"
+    "zh": "被辅助技能宝石等级提高 {0}",
+    "en": "{0} to Level of Supported Skill Gems"
   },
   {
     "id": "physical_damage_reduction_rating_per_level",
@@ -15931,8 +16116,8 @@
   },
   {
     "id": "supported_active_skill_gem_quality_%",
-    "zh": "辅助的主动技能石 {0}% 品质",
-    "en": "{0}% to Quality of Supported Active Skill Gems"
+    "zh": "被辅助技能宝石品质提高 {0}%",
+    "en": "{0}% to Quality of Supported Skill Gems"
   },
   {
     "id": "phase_through_objects",
@@ -16371,13 +16556,13 @@
   },
   {
     "id": "supported_active_skill_gem_expereince_gained_+%",
-    "zh": "所辅助的主动技能石获得的经验值提高 {0}%",
-    "en": "Supported Active Skill Gems gain {0}% increased Experience"
+    "zh": "被辅助的技能宝石获得的经验提高 {0}%",
+    "en": "Supported Skill Gems gain {0}% increased Experience"
   },
   {
     "id": "supported_active_skill_gem_expereince_gained_+%",
-    "zh": "所辅助的主动技能石所获得的经验值降低 {0}%",
-    "en": "Supported Active Skill Gems gain {0}% reduced Experience"
+    "zh": "被辅助的技能宝石获得的经验降低 {0}%",
+    "en": "Supported Skill Gems gain {0}% reduced Experience"
   },
   {
     "id": "freeze_as_though_dealt_damage_+%",
@@ -18370,9 +18555,9 @@
     "en": "Action Speed cannot be modified to below base value"
   },
   {
-    "id": "action_speed_+%_minimum_value",
+    "id": "hellscape_boots_action_speed_+%_minimum_value",
     "zh": "行动速度不能调整至低于基础值的 {0}%",
-    "en": "Action Speed cannot be modified to below {0}% base value"
+    "en": "Action Speed cannot be modified to below {0}% of base value"
   },
   {
     "id": "movement_speed_cannot_be_reduced_below_base",
@@ -22910,11 +23095,6 @@
     "en": "Modifiers to Minion Movement Speed also affect you"
   },
   {
-    "id": "modifiers_to_minion_resistances_also_affect_you",
-    "zh": "你能获得召唤生物的抗性词缀效果",
-    "en": "Modifiers to Minion Resistances also affect you"
-  },
-  {
     "id": "occultist_gain_%_of_non_chaos_damage_as_chaos_damage_per_curse_on_target_on_kill_for_4_seconds",
     "zh": "在你击败敌人时，按照敌人身上的每个诅咒，\n在接下来 4 秒将 {0}% 的非混沌伤害转化为额外混沌伤害",
     "en": "When you Kill an Enemy, for each Curse on that Enemy, gain {0}%\nof Non-Chaos Damage as extra Chaos Damage for 4 seconds"
@@ -23055,14 +23235,19 @@
     "en": "Grants Armour equal to {0}% of your Reserved Life to you and nearby Allies"
   },
   {
+    "id": "guardian_reserved_mana_granted_to_you_and_allies_as_armour_%",
+    "zh": "给予你和周围友军相当于你 {0}% 保留魔力的护甲",
+    "en": "Grants Armour equal to {0}% of your Reserved Mana to you and nearby Allies"
+  },
+  {
     "id": "guardian_reserved_mana_%_given_to_you_and_nearby_allies_as_base_maximum_energy_shield",
     "zh": "给予你和周围友军等同你 {0}% 魔力保留的额外能量护盾",
     "en": "Grants maximum Energy Shield equal to {0}% of your Reserved Mana to\nyou and nearby Allies"
   },
   {
     "id": "guardian_remove_curses_and_status_ailments_every_10_seconds",
-    "zh": "每 5 秒就会移除身上诅咒和元素异常状态",
-    "en": "Every 5 seconds, remove Curses and Elemental Ailments from you"
+    "zh": "每隔 4 秒，移除你身上的诅咒和元素异常状态",
+    "en": "Every 4 seconds, remove Curses and Elemental Ailments from you"
   },
   {
     "id": "guardian_gain_life_regeneration_per_minute_%_for_1_second_every_10_seconds",
@@ -28950,6 +29135,31 @@
     "en": "Ancestor Totems have {0}% reduced Activation range"
   },
   {
+    "id": "ancestral_chance_for_no_respawn_timer_on_death_%",
+    "zh": "被击败时有 {0}% 的几率立即复活",
+    "en": "{0}% chance on Death to Revive immediately"
+  },
+  {
+    "id": "ancestral_channelling_damage_+%_against_totems",
+    "zh": "放逐对先祖图腾造成的伤害提高 {0}%",
+    "en": "Banishing deals {0}% increased Damage to Ancestral Totems"
+  },
+  {
+    "id": "ancestral_channelling_damage_+%_against_totems",
+    "zh": "放逐对先祖图腾造成的伤害降低 {0}%",
+    "en": "Banishing deals {0}% reduced Damage to Ancestral Totems"
+  },
+  {
+    "id": "ancestral_channelling_interrupt_duration_+%",
+    "zh": "对放逐先祖图腾的敌人造成的打断持续时间延长 {0}%",
+    "en": "{0}% increased Interruption Duration against Enemies Banishing Ancestral Totems"
+  },
+  {
+    "id": "ancestral_channelling_interrupt_duration_+%",
+    "zh": "对放逐先祖图腾的敌人造成的打断持续时间缩短 {0}%",
+    "en": "{0}% reduced Interruption Duration against Enemies Banishing Ancestral Totems"
+  },
+  {
     "id": "ancestral_cry_attacks_exerted_+",
     "zh": "先祖战吼增助额外 1 次攻击",
     "en": "Ancestral Cry Exerts 1 additional Attack"
@@ -28968,6 +29178,96 @@
     "id": "ancestral_cry_minimum_power",
     "zh": "【先祖战吼】最少有 {0} 点威力值",
     "en": "Ancestral Cry has a minimum of {0} Power"
+  },
+  {
+    "id": "ancestral_defensive_teammates_gain_charges",
+    "zh": "守护者友军每 6 秒获得一个耐力球、狂怒球或暴击球",
+    "en": "Defender Teammates gain an Endurance, Frenzy or Power Charge every 6 seconds"
+  },
+  {
+    "id": "ancestral_defensive_teammates_gain_charges",
+    "zh": "守护者友军每 6 秒获得 {0} 个耐力球、狂怒球或暴击球",
+    "en": "Defender Teammates gain {0} Endurance, Frenzy or Power Charges every 6 seconds"
+  },
+  {
+    "id": "ancestral_life_regeneration_rate_per_minute_%_while_channelling_totem",
+    "zh": "放逐先祖图腾时每秒再生 {0}% 的生命",
+    "en": "Regenerate {0}% of Life per second while Banishing an Ancestral Totem"
+  },
+  {
+    "id": "ancestral_maximum_life_+%_on_respawn",
+    "zh": "复活后生命上限提高 {0}%",
+    "en": "{0}% increased Maximum Life when Revived"
+  },
+  {
+    "id": "ancestral_monster_respawn_timer_+%",
+    "zh": "复活时间延长 {0}%",
+    "en": "{0}% increased Time to Revive"
+  },
+  {
+    "id": "ancestral_monster_respawn_timer_+%",
+    "zh": "复活时间缩短 {0}%",
+    "en": "{0}% reduced Time to Revive"
+  },
+  {
+    "id": "ancestral_offensive_teammates_gain_adrenaline_for_x_ms_on_match_start",
+    "zh": "进攻者友军生成时获得一秒的肾上腺素",
+    "en": "Attacker Teammates gain Adrenaline for a second when spawned"
+  },
+  {
+    "id": "ancestral_offensive_teammates_gain_adrenaline_for_x_ms_on_match_start",
+    "zh": "进攻者友军生成时获得 {0} 秒的肾上腺素",
+    "en": "Attacker Teammates gain Adrenaline for {0} seconds when spawned"
+  },
+  {
+    "id": "ancestral_slain_enemies_respawn_timer_+",
+    "zh": "被击败的敌人复活时间 +1 秒",
+    "en": "Slain Enemies have +1 second to their Time to Revive"
+  },
+  {
+    "id": "ancestral_slain_enemies_respawn_timer_+",
+    "zh": "被击败的敌人复活时间 +{0} 秒",
+    "en": "Slain Enemies have +{0} seconds to their Time to Revive"
+  },
+  {
+    "id": "ancestral_stun_nearby_enemies_on_respawn",
+    "zh": "你复活时使周围的敌人晕眩",
+    "en": "Stun nearby Enemies when you Revive"
+  },
+  {
+    "id": "ancestral_totem_being_channelled_doesnt_prevent_your_respawn_timer",
+    "zh": "先祖图腾遭受放逐时不会使你的复活时间暂停",
+    "en": "Your Ancestral Totem being Banished doesn't pause your Time to Revive"
+  },
+  {
+    "id": "ancestral_totem_cannot_recover_life_while_being_channelled",
+    "zh": "你的先祖图腾遭受放逐时无法回复生命",
+    "en": "Your Ancestral Totem cannot recover Life while being Banished"
+  },
+  {
+    "id": "ancestral_totem_life_+%",
+    "zh": "先祖图腾的生命提高 {0}%",
+    "en": "{0}% increased Ancestral Totem Life"
+  },
+  {
+    "id": "ancestral_totem_life_+%",
+    "zh": "先祖图腾的生命降低 {0}%",
+    "en": "{0}% reduced Ancestral Totem Life"
+  },
+  {
+    "id": "ancestral_totem_life_regeneration_rate_per_minute_%",
+    "zh": "先祖图腾每秒再生 {0}% 的生命",
+    "en": "Ancestral Totems regenerate {0}% of Life per second"
+  },
+  {
+    "id": "ancestral_totem_periodically_freezes_nearby_enemies",
+    "zh": "你的先祖图腾周期性冻结周围的敌人",
+    "en": "Your Ancestral Totem periodically Freezes nearby Enemies"
+  },
+  {
+    "id": "ancestral_totem_trigger_enduring_cry_on_low_life",
+    "zh": "先祖图腾进入低血状态时触发坚决战吼",
+    "en": "Ancestral Totem Triggers Enduring Cry on reaching Low Life"
   },
   {
     "id": "anger_mana_reservation_efficiency_-2%_per_1",
@@ -29870,6 +30170,16 @@
     "en": "{0}% reduced Attack and Cast Speed while Elusive"
   },
   {
+    "id": "attack_and_cast_speed_+%_while_not_near_ancestral_totem",
+    "zh": "未在先祖图腾附近时，攻击速度和施法速度提高 {0}%",
+    "en": "{0}% increased Attack and Cast Speed while not near an Ancestral Totem"
+  },
+  {
+    "id": "attack_and_cast_speed_+%_while_not_near_ancestral_totem",
+    "zh": "未在先祖图腾附近时，攻击速度和施法速度降低 {0}%",
+    "en": "{0}% reduced Attack and Cast Speed while not near an Ancestral Totem"
+  },
+  {
     "id": "attack_and_cast_speed_per_ghost_dance_stack_+%",
     "zh": "每层鬼影缠身可使攻击和施法速度加快 {0}%",
     "en": "{0}% increased Attack and Cast Speed per Ghost Shroud"
@@ -30116,13 +30426,13 @@
   },
   {
     "id": "attack_chance_to_blind_on_hit_%_vs_bleeding_enemies",
-    "zh": "[DNT]攻击击中时有 {0}% 的几率致盲流血的敌人",
-    "en": "[DNT] Attacks have {0}% chance to Blind with Hits against Bleeding Enemies"
+    "zh": "攻击击中流血的敌人时有 {0}% 的几率造成致盲",
+    "en": "Attack Hits against Bleeding Enemies have {0}% chance to Blind"
   },
   {
     "id": "attack_chance_to_maim_on_hit_%_vs_blinded_enemies",
-    "zh": "[DNT]攻击击中时有 {0}% 的几率瘫痪致盲的敌人",
-    "en": "[DNT] Attacks have {0}% chance to Maim on Hit against Blinded Enemies"
+    "zh": "攻击击中致盲的敌人时有 {0}% 的几率造成瘫痪",
+    "en": "Attack Hits against Blinded Enemies have {0}% chance to Maim"
   },
   {
     "id": "attack_critical_strike_chance_+%",
@@ -30201,8 +30511,8 @@
   },
   {
     "id": "attack_damage_lucky_if_blocked_in_past_20_seconds_while_dual_wielding",
-    "zh": "[DNT]双持时如果你在过去20秒内格挡过，则攻击伤害特别幸运",
-    "en": "[DNT] Attack Damage is Lucky if you've Blocked in the past 20 seconds while Dual Wielding"
+    "zh": "若你在过去 20 秒内格挡过，双持攻击伤害特别幸运",
+    "en": "Attack Damage while Dual Wielding is Lucky if you've Blocked in the past 20 seconds"
   },
   {
     "id": "attack_damage_+1%_per_300_of_min_of_armour_or_evasion",
@@ -30698,6 +31008,16 @@
     "id": "aura_effect_on_self_from_skills_+%_per_herald_effecting_you",
     "zh": "每有一个影响你的捷光环，你的技能产生的\n光环效果对你降低{0}%，",
     "en": "Auras from your Skills have {0}% reduced Effect on you for\neach Herald affecting you"
+  },
+  {
+    "id": "auras_grant_life_mana_es_recovery_rate_+%_to_you_and_your_allies",
+    "zh": "你技能的光环可使你和友军的生命、\n魔力和能量护盾回复速度提高 {0}%",
+    "en": "Auras from your Skills grant {0}% increased Recovery Rate of Life,\nMana and Energy Shield to you and Allies"
+  },
+  {
+    "id": "auras_grant_life_mana_es_recovery_rate_+%_to_you_and_your_allies",
+    "zh": "你技能的光环可使你和友军的生命、\n魔力和能量护盾回复速度降低 {0}%",
+    "en": "Auras from your Skills grant {0}% reduced Recovery Rate of Life,\nMana and Energy Shield to you and Allies"
   },
   {
     "id": "avians_flight_duration_ms_+",
@@ -31652,7 +31972,7 @@
   {
     "id": "blast_rain_artillery_ballista_poison_damage_+100%_final_chance",
     "zh": "爆裂箭雨或火力弩炮造成的中毒有 {0}% 的几率额外造成100%的伤害",
-    "en": "{0}% chance for Poisons inflicted with Blast Rain or Artillery Ballsita to deal 100% more Damage"
+    "en": "{0}% chance for Poisons inflicted with Blast Rain or Artillery Ballista to deal 100% more Damage"
   },
   {
     "id": "blazing_salvo_damage_+%",
@@ -32741,8 +33061,8 @@
   },
   {
     "id": "block_chance_from_equipped_shield_is_%",
-    "zh": "[DNT]盾牌的格挡几率为 {0}%",
-    "en": "[DNT] Block chance from your Shield is {0}%"
+    "zh": "装备盾牌时基础格挡几率为 {0}%，不使用盾牌的数值",
+    "en": "Gain {0}% Base Chance to Block from Equipped Shield instead of the Shield's value"
   },
   {
     "id": "block_%_if_blocked_an_attack_recently",
@@ -33205,6 +33525,11 @@
     "en": "Maximum 1 Buff from an Active Ancestor Totem at a time"
   },
   {
+    "id": "can_trigger_summon_elemental_relic_on_nearby_ally_kill_or_on_hit_rare_or_unique",
+    "zh": "你或周围友军击败敌人时，或击中稀有或传奇敌人时，有 25% 的几率触发 20 级的召唤元素遗物",
+    "en": "25% chance to Trigger Level 20 Summon Elemental Relic when you or a nearby Ally Kill an Enemy, or Hit a Rare or Unique Enemy"
+  },
+  {
     "id": "cannot_adapt_to_cold",
     "zh": "不能适应冰霜伤害",
     "en": "Cannot Adapt to Cold Damage"
@@ -33218,6 +33543,11 @@
     "id": "cannot_adapt_to_lightning",
     "zh": "不能适应闪电伤害",
     "en": "Cannot Adapt to Lightning Damage"
+  },
+  {
+    "id": "cannot_be_bled_by_bleeding_enemies",
+    "zh": "流血的敌人无法对你造成流血",
+    "en": "Bleeding enemies cannot inflict Bleeding on you"
   },
   {
     "id": "cannot_be_blinded_while_affected_by_precision",
@@ -33263,6 +33593,11 @@
     "id": "cannot_be_frozen_with_dex_higher_than_int",
     "zh": "若敏捷高于智慧，则无法被冰冻",
     "en": "Cannot be Frozen if Dexterity is higher than Intelligence"
+  },
+  {
+    "id": "cannot_be_ignited_by_ignited_enemies",
+    "zh": "被点燃的敌人无法对你造成点燃",
+    "en": "Ignited enemies cannot Ignite you"
   },
   {
     "id": "cannot_be_ignited_if_you_have_been_ignited_recently",
@@ -33413,6 +33748,11 @@
     "id": "cannot_gain_corrupted_blood_while_you_have_at_least_5_stacks",
     "zh": "若你身上至少有 5 层腐化之血，则腐化之血不能再施加给你",
     "en": "Corrupted Blood cannot be inflicted on you if you have at least 5 Corrupted Blood Debuffs on you"
+  },
+  {
+    "id": "cannot_gain_damaging_ailments",
+    "zh": "无法对你造成伤害异常状态",
+    "en": "Damaging Ailments cannot be inflicted on you"
   },
   {
     "id": "cannot_gain_rage_during_soul_gain_prevention",
@@ -35885,6 +36225,16 @@
     "en": "Cover Enemies in Frost on Hit"
   },
   {
+    "id": "display_cover_nearby_enemies_in_ash_if_havent_moved_in_past_X_seconds",
+    "zh": "若你在过去一秒内没有移动，周围敌人灰烬缠身",
+    "en": "Nearby Enemies are Covered in Ash if you haven't moved in the past second"
+  },
+  {
+    "id": "display_cover_nearby_enemies_in_ash_if_havent_moved_in_past_X_seconds",
+    "zh": "若你在过去 {0} 秒内没有移动，周围敌人灰烬缠身",
+    "en": "Nearby Enemies are Covered in Ash if you haven't moved in the past {0} seconds"
+  },
+  {
     "id": "crackling_lance_cast_speed_+%",
     "zh": "电殛长枪的施法速度加快 {0}%",
     "en": "Crackling Lance has {0}% increased Cast Speed"
@@ -36701,13 +37051,13 @@
   },
   {
     "id": "damage_+%_final_to_you_and_nearby_allies_per_nearby_corpses_up_to_10%",
-    "zh": "[DNT]附近的每一个灵柩使你和周围友军受到的伤害总增 {0}%，最多 10%。",
-    "en": "[DNT] {0}% more Damage to you and nearby Allies per nearby corpse, up to 10%"
+    "zh": "周围每个灵柩使你和周围友军造成的伤害总增 {0}%，最多 10%",
+    "en": "For each nearby corpse, you and nearby Allies deal {0}% more Damage, up to a maximum of 10%"
   },
   {
     "id": "damage_+%_final_to_you_and_nearby_allies_per_nearby_corpses_up_to_10%",
-    "zh": "[DNT]附近的每一个灵柩使你和周围友军受到的伤害总降 {0}%，最多 10%。",
-    "en": "[DNT] {0}% less Damage to you and nearby Allies per nearby corpse, up to 10%"
+    "zh": "周围每个灵柩使你和周围友军造成的伤害总降 {0}%",
+    "en": "For each nearby corpse, you and nearby Allies deal {0}% less Damage"
   },
   {
     "id": "damage_+%_per_poison_stack",
@@ -37315,6 +37665,11 @@
     "en": "{0}% of Damage is taken from Mana before Life while Focused"
   },
   {
+    "id": "damage_removed_from_radiant_sentinel_before_life_or_es_%",
+    "zh": "击中伤害的 {0}% 在你承受之前，由你的光辉哨兵的生命承受",
+    "en": "{0}% of Damage from Hits is taken from your Sentinel of Radiance's Life before you"
+  },
+  {
     "id": "damage_removed_from_spectres_before_life_or_es_%",
     "zh": "有 {0}% 被击中的伤害优先由你的灵体承受",
     "en": "{0}% of Damage from Hits is taken from your Spectres' Life before you"
@@ -37665,6 +38020,16 @@
     "en": "Debilitate Enemies for {0} Seconds when you Suppress their Spell Damage"
   },
   {
+    "id": "debilitate_when_hit_ms",
+    "zh": "击中使敌人疲惫一秒",
+    "en": "Debilitate Enemies for a second when Hit"
+  },
+  {
+    "id": "debilitate_when_hit_ms",
+    "zh": "击中使敌人疲惫 {0} 秒",
+    "en": "Debilitates Enemies for {0} seconds when Hit"
+  },
+  {
     "id": "debuff_time_passed_-%_while_affected_by_haste",
     "zh": "受到【迅捷】影响时，你身上的负面效果消退速度减慢 {0}%",
     "en": "Debuffs on you expire {0}% slower while affected by Haste"
@@ -37965,6 +38330,11 @@
     "en": "Remove Corrupted Blood when you use a Guard Skill"
   },
   {
+    "id": "display_additive_damage_modifiers_in_large_radius_of_non_unique_jewels_instead_apply_to_fire_damage",
+    "zh": "非传奇珠宝使大范围内其他伤害类型的增幅和减益转换为作用于火焰伤害",
+    "en": "Non-Unique Jewels cause Increases and Reductions to other Damage Types in a Large Radius to be Transformed to apply to Fire Damage"
+  },
+  {
     "id": "display_altar_chaos_aura",
     "zh": "周围敌人获得额外混沌伤害，等于物理伤害的{0}%",
     "en": "Nearby Enemies Gain {0}% of their Physical Damage as Extra Chaos Damage"
@@ -38203,6 +38573,56 @@
     "id": "display_memory_line_torment_rares_uniques_are_possessed",
     "zh": "在这些区域找到的稀有和传奇怪物被附身，它们的召唤生物被触碰",
     "en": "Rare and Unique Monsters found in Areas are Possessed and their Minions are Touched"
+  },
+  {
+    "id": "display_monster_has_cannot_recover_life_aura",
+    "zh": "周围敌人无法回复生命",
+    "en": "Nearby Enemies cannot Recover Life"
+  },
+  {
+    "id": "display_monster_has_flask_gain_aura",
+    "zh": "周围友军玩家每 3 秒获得一层药剂充能",
+    "en": "Nearby Ally Players gain a Flask Charge every 3 seconds"
+  },
+  {
+    "id": "display_monster_has_flask_gain_aura",
+    "zh": "周围友军玩家每 3 秒获得 {0} 层药剂充能",
+    "en": "Nearby Ally Players gain {0} Flask Charges every 3 seconds"
+  },
+  {
+    "id": "display_monster_has_hinder_daemon",
+    "zh": "使周围敌人缓速",
+    "en": "Hinders Nearby Enemies"
+  },
+  {
+    "id": "display_monster_has_lightning_thorns_daemon",
+    "zh": "闪电护盾",
+    "en": "Lightning Thorns"
+  },
+  {
+    "id": "display_monster_has_periodic_freeze_daemon",
+    "zh": "周期性冻结周围的敌人",
+    "en": "Periodically Freeze nearby Enemies"
+  },
+  {
+    "id": "display_monster_has_righteous_fire_daemon",
+    "zh": "正义之火\n正义之火中的敌人火焰抗性上限 -10%",
+    "en": "Righteous Fire\nEnemies in the Righteous Fire have -10% to maximum Fire Resistance"
+  },
+  {
+    "id": "display_monster_has_shroud_walker_daemon",
+    "zh": "迷雾之体",
+    "en": "Shroud Walker"
+  },
+  {
+    "id": "display_monster_has_tailwind_aura",
+    "zh": "你和周围友军获得提速尾流",
+    "en": "You and nearby Allies have Tailwind"
+  },
+  {
+    "id": "display_passives_in_large_radius_of_non_unique_jewels_grant_additional_strength",
+    "zh": "非传奇珠宝使大范围内的小型和核心天赋\n同时提供 {0} 力量",
+    "en": "Non-Unique Jewels cause Small and Notable Passive Skills in a Large Radius to\nalso grant {0} to Strength"
   },
   {
     "id": "display_strongbox_drops_additional_shaper_or_elder_cards",
@@ -38971,8 +39391,8 @@
   },
   {
     "id": "enemies_chilled_by_hits_take_damage_increased_by_chill_effect",
-    "zh": "被你的命中冰缓的敌人受到的伤害提高，效果相当于冰缓效果的一半",
-    "en": "Enemies Chilled by your Hits increase Damage taken by half of Chill Effect"
+    "zh": "被你的击中冰缓的敌人受到的伤害提高，效果相当于冰缓效果",
+    "en": "Enemies Chilled by your Hits have Damage taken increased by Chill Effect"
   },
   {
     "id": "enemies_chilled_by_your_hits_are_shocked",
@@ -39283,6 +39703,16 @@
     "id": "enemy_extra_damage_rolls_when_on_full_life",
     "zh": "你在满血时，敌人击中你的伤害会特别不幸",
     "en": "Damage of Enemies Hitting you is Unlucky while you are on Full Life"
+  },
+  {
+    "id": "enemy_hits_%_chance_to_treat_elemental_resistances_as_90%",
+    "zh": "抵御敌人击中时有 {0}% 的几率将元素抗性视作 90%",
+    "en": "{0}% chance for Elemental Resistances to count as being 90% against Enemy Hits"
+  },
+  {
+    "id": "enemy_hits_%_chance_to_treat_elemental_resistances_as_90%",
+    "zh": "抵御敌人击中时将元素抗性视作 90%",
+    "en": "Elemental Resistances count as being 90% against Enemy Hits"
   },
   {
     "id": "enemy_life_regeneration_rate_+%_for_4_seconds_on_hit",
@@ -39780,6 +40210,11 @@
     "en": "{0}% reduced Evasion Rating while you have Energy Shield"
   },
   {
+    "id": "every_4_seconds_%_chance_freeze_non_frozen_enemies_for_300ms",
+    "zh": "每隔 4 秒，有 {0}% 的几率使周围未冻结的敌人冻结 0.4 秒",
+    "en": "Every 4 seconds, {0}% chance to Freeze nearby Non-Frozen Enemies for 0.4 seconds"
+  },
+  {
     "id": "every_4_seconds_regenerate_%_of_armour_and_evasion_as_life_over_1_second",
     "zh": "每隔 4 秒，在 1 秒内恢复相当于护甲和闪避值 {0}% 的生命",
     "en": "Every 4 seconds, Regenerate Life equal to {0}% of Armour and Evasion Rating over 1 second"
@@ -39840,9 +40275,24 @@
     "en": "Burning Enemies you kill have a {0}% chance to Explode, dealing a tenth of their maximum Life as Fire Damage"
   },
   {
+    "id": "explode_enemies_for_10%_life_as_fire_on_kill_chance_%",
+    "zh": "被你击败的敌人有 {0}% 的几率爆炸，造成其生命上限十分之一的火焰伤害",
+    "en": "Enemies you Kill have a {0}% chance to Explode, dealing a tenth of their maximum Life as Fire Damage"
+  },
+  {
     "id": "explode_enemies_for_10%_life_as_physical_on_kill_chance_%_while_using_pride",
     "zh": "使用尊严时消灭的敌人有{0}%的几率爆炸，造成相当于最大生命值十分之一的物理伤害",
     "en": "Enemies you Kill while using Pride have {0}% chance to Explode, dealing a tenth of their maximum Life as Physical Damage"
+  },
+  {
+    "id": "explode_enemies_for_500%_life_as_fire_on_kill_%_chance",
+    "zh": "被你击败的敌人有 {0}% 的几率爆炸，造成其生命上限 500% 的火焰伤害",
+    "en": "Enemies you Kill have {0}% chance to Explode, dealing 500% of their maximum Life as Fire Damage"
+  },
+  {
+    "id": "explode_on_death_for_%_life_as_fire_damage",
+    "zh": "被击败时爆炸，造成生命上限 {0}% 的火焰伤害",
+    "en": "Explode on Death, dealing {0}% of Maximum Life as Fire Damage"
   },
   {
     "id": "explosive_arrow_duration_+%",
@@ -41795,6 +42245,11 @@
     "en": "Eat a Soul when you Hit a Unique Enemy, no more than once every {0} seconds"
   },
   {
+    "id": "gain_spell_cost_as_energy_shield_every_fifth_cast",
+    "zh": "每第五次施放法术使你获得\n等同于其预支花费的能量护盾",
+    "en": "Spells cause you to gain Energy Shield equal to their Upfront\nCost every fifth time you Pay it"
+  },
+  {
     "id": "gain_spell_cost_as_mana_every_fifth_cast",
     "zh": "法术使你获得魔力，等于其每五次预支消耗魔力时的消耗",
     "en": "Spells cause you to gain Mana equal to their Upfront Cost every fifth time you Pay it"
@@ -42235,6 +42690,11 @@
     "en": "[DNT] Every 4 seconds, remove all Curses"
   },
   {
+    "id": "guardian_every_4_seconds_remove_elemental_ailments_on_you",
+    "zh": "[DNT]每隔 4 秒，移除你身上的元素异常状态",
+    "en": "[DNT] Every 4 seconds, Remove Elemental Ailments from you"
+  },
+  {
     "id": "guardian_with_5_nearby_allies_you_and_allies_have_onslaught",
     "zh": "当周围有至少 5 个友军，你和周围的友军获得【猛攻】状态",
     "en": "While there are at least five nearby Allies, you and nearby Allies have Onslaught"
@@ -42251,8 +42711,8 @@
   },
   {
     "id": "hard_mode_utility_flask_gain_charges_while_active",
-    "zh": "[DNT]功能药剂激活时可以获得充能",
-    "en": "[DNT] Utility Flasks can gain charges while Active"
+    "zh": "功能药剂可以在药剂生效期间获得充能",
+    "en": "Utility Flasks can gain Charges During their Flask Effect"
   },
   {
     "id": "harvest_encounter_fluid_granted_+%",
@@ -43945,6 +44405,11 @@
     "en": "Enemies Hindered by you take {0}% reduced Chaos Damage"
   },
   {
+    "id": "hinekora_belt_every_5_seconds_rotating_buff",
+    "zh": "每隔 5 秒，获得以下效果之一，持续 5 秒：\n你的击中始终为暴击\n对你的击中始终为暴击\n攻击无法击中你\n对你的攻击必定击中\n你的击中伤害特别幸运\n对你的击中伤害特别幸运",
+    "en": "Every 5 seconds, gain one of the following for 5 seconds:\nYour Hits are always Critical Strikes\nHits against you are always Critical Strikes\nAttacks cannot Hit you\nAttacks against you always Hit\nYour Damage with Hits is Lucky\nDamage of Hits against you is Lucky"
+  },
+  {
     "id": "hit_and_ailment_damage_+%_vs_bleeding_enemies",
     "zh": "对流血敌人的击中和异常状态伤害提高 {0}%",
     "en": "{0}% increased Damage with Hits and Ailments against Bleeding Enemies"
@@ -44388,6 +44853,11 @@
     "id": "immortal_call_elemental_damage_taken_+%_final_per_endurance_charge_consumed_permyriad",
     "zh": "不朽怒嚎每消耗一个耐力球，就使受到的元素伤害总降 {0}%",
     "en": "Immortal Call Grants {0}% less Elemental Damage taken per Endurance Charge removed"
+  },
+  {
+    "id": "immune_to_all_status_ailments",
+    "zh": "免疫所有异常状态",
+    "en": "Immune to all Ailments"
   },
   {
     "id": "immune_to_bleeding_if_helmet_grants_higher_armour_than_evasion",
@@ -44925,6 +45395,11 @@
     "en": "Impales on Enemies you Kill Reflect Damage to surrounding Enemies"
   },
   {
+    "id": "killing_blow_consumes_corpse_restore_10%_life_chance_%",
+    "zh": "击败敌人有 {0}% 的几率消耗灵柩并回复 10% 的生命",
+    "en": "Killing Blows have {0}% chance to Consume corpses to recover 10% of Maximum Life"
+  },
+  {
     "id": "kills_count_twice_for_rampage_%",
     "zh": "击败敌人时有 {0}% 的几率计算两次【暴走能量】层数",
     "en": "{0}% chance for Kills to count twice for Rampage"
@@ -45265,6 +45740,11 @@
     "en": "Life Flask Effects are not removed when Unreserved Life is Filled\nLife Flask Effects do not Queue"
   },
   {
+    "id": "life_flask_recovery_is_instant_while_on_low_life",
+    "zh": "低血时使用生命药剂立即回复",
+    "en": "Life Flasks used while on Low Life apply Recovery Instantly"
+  },
+  {
     "id": "life_flasks_gain_X_charges_every_3_seconds_if_you_have_not_used_a_life_flask_recently",
     "zh": "若你近期内没使用生命药剂，则生命药剂每 3 秒获得 {0} 充能",
     "en": "Life Flasks gain {0} Charges every 3 seconds if you haven't used a Life Flask Recently"
@@ -45380,6 +45860,11 @@
     "en": "{0}% of Spell Damage Leeched as Life while you have Arcane Surge"
   },
   {
+    "id": "life_leech_is_instant_for_exerted_attacks",
+    "zh": "增助攻击的生命偷取立即生效",
+    "en": "Life Leech from Exerted Attacks is instant"
+  },
+  {
     "id": "life_leech_on_damage_taken_%_permyriad",
     "zh": "受到的击中伤害的 {0}% 转化为生命偷取",
     "en": "{0}% of Damage Taken from Hits is Leeched as Life"
@@ -45445,9 +45930,14 @@
     "en": "{0} Maximum Life per Level"
   },
   {
+    "id": "life_recoup_also_applies_to_energy_shield",
+    "zh": "所受伤害吸纳为生命时还会吸纳为能量护盾",
+    "en": "Damage taken Recouped as Life is also Recouped as Energy Shield"
+  },
+  {
     "id": "life_recoup_applies_to_energy_shield_instead",
-    "zh": "[DNT]生命回收改为吸纳能量护盾",
-    "en": "[DNT] Life Recoup recoups Energy Shield instead"
+    "zh": "吸纳生命改为吸纳能量护盾",
+    "en": "Recoup Energy Shield instead of Life"
   },
   {
     "id": "life_recovery_from_flasks_instead_applies_to_nearby_allies_%",
@@ -46130,6 +46620,16 @@
     "en": "{0}% reduced Mana Cost of Link Skills"
   },
   {
+    "id": "link_skills_allies_in_beam_lucky_elemental_damage",
+    "zh": "羁绊目标或羁绊光束中的友军造成的击中元素伤害特别幸运",
+    "en": "Elemental Damage with Hits dealt by Linked Targets or Allies in your Link Beams is Lucky"
+  },
+  {
+    "id": "link_skills_allies_in_beam_max_elemental_resistance_%",
+    "zh": "羁绊目标和羁绊光束中的友军的所有元素抗性上限 {0}%",
+    "en": "Linked Targets and Allies in your Link Beams have {0}% to all Maximum Elemental Resistances"
+  },
+  {
     "id": "link_skills_can_target_animate_guardian",
     "zh": "羁绊法术能够以幻灵守卫为目标",
     "en": "Link Skills can target Animated Guardian"
@@ -46138,6 +46638,16 @@
     "id": "link_skills_can_target_minions",
     "zh": "羁绊技能能以可受伤的召唤生物为目标",
     "en": "Link Skills can target Damageable Minions"
+  },
+  {
+    "id": "link_skills_enemies_in_beam_aoe_cannot_inflict_elemental_ailments",
+    "zh": "你的羁绊光束中的敌人不能造成元素异常状态",
+    "en": "Enemies in your Link Beams cannot apply Elemental Ailments"
+  },
+  {
+    "id": "link_skills_enemies_in_beam_elemental_resistance_%",
+    "zh": "你的羁绊光束中的敌人所有元素抗性 {0}%",
+    "en": "Enemies in your Link Beams have {0}% to all Elemental Resistances"
   },
   {
     "id": "link_skills_grant_damage_+%",
@@ -48745,6 +49255,11 @@
     "en": "Grants {0} to Strength per 2% Quality"
   },
   {
+    "id": "local_treat_enemy_resistances_as_negated_on_elemental_damage_hit",
+    "zh": "将敌方怪物的元素抗性值视作反转",
+    "en": "Treats Enemy Monster Elemental Resistance values as inverted"
+  },
+  {
     "id": "local_unique_can_have_crucible_unique_staff_passive_tree_mods",
     "zh": "拥有一套仅包含辅助天赋的熔炉天赋树\n若该词缀被移除，熔炉天赋树会被移除",
     "en": "Has a Crucible Passive Skill Tree with only Support Passive Skills\nCrucible Passive Skill Tree is removed if this Modifier is removed"
@@ -49265,6 +49780,16 @@
     "en": "With at least 40 Dexterity in Radius, Split Arrow fires Projectiles in Parallel"
   },
   {
+    "id": "local_unique_jewel_tattoos_in_radius_effect_+%",
+    "zh": "范围内的文身效果提高 {0}%",
+    "en": "{0}% increased effect of Tattoos in Radius"
+  },
+  {
+    "id": "local_unique_jewel_tattoos_in_radius_effect_+%",
+    "zh": "范围内的文身效果降低 {0}%",
+    "en": "{0}% reduced effect of Tattoos in Radius"
+  },
+  {
     "id": "local_unique_jewel_viper_strike_chance_to_gain_unholy_might_%_on_hit_per_poison_stack_on_enemy_with_50_dex_in_radius",
     "zh": "若范围内含有 40 点敏捷，【毒蛇打击】每次造成中毒时有 {0}% 的几率获得 4 秒不洁之力",
     "en": "With at least 40 Dexterity in Radius, Viper Strike has a {0}% chance per Poison on Enemy to grant Unholy Might for 4 seconds on Hit"
@@ -49573,6 +50098,11 @@
     "id": "mana_degeneration_per_minute_%",
     "zh": "每秒失去 {0}% 魔力",
     "en": "Lose {0}% of Mana per Second"
+  },
+  {
+    "id": "mana_flask_recovery_is_instant_while_on_low_mana",
+    "zh": "低魔时使用魔力药剂立即回复",
+    "en": "Mana Flasks used while on Low Mana apply Recovery Instantly"
   },
   {
     "id": "mana_flasks_gain_X_charges_every_3_seconds",
@@ -50115,6 +50645,11 @@
     "en": "{0}% reduced Maximum total Life, Mana and Energy Shield Recovery per second from Leech"
   },
   {
+    "id": "maximum_life_+_if_no_life_modifiers_on_equipment_except_body_armour",
+    "zh": "若装备的其他物品没有生命词缀，生命上限 {0}",
+    "en": "{0} to maximum Life if there are no Life Modifiers on other Equipped Items"
+  },
+  {
     "id": "maximum_life_leech_amount_per_leech_%_max_life",
     "zh": "每次偷取生命，最大生命的最大回复 {0}%",
     "en": "{0}% of Maximum Life to maximum Recovery per Life Leech"
@@ -50218,16 +50753,6 @@
     "id": "maximum_number_of_blades_left_in_ground",
     "zh": "产生徘徊之刃的技能的徘徊之刃上限 {0}",
     "en": "Skills that leave Lingering Blades have {0} to Maximum Lingering Blades"
-  },
-  {
-    "id": "maximum_physical_attack_damage_on_crit_+%_final",
-    "zh": "[DNT]暴击的物理攻击伤害上限总增 {0}%",
-    "en": "[DNT] {0}% more Maximum Physical Attack Damage with Critical Strikes"
-  },
-  {
-    "id": "maximum_physical_attack_damage_on_crit_+%_final",
-    "zh": "[DNT]暴击的物理攻击伤害上限总降 {0}%",
-    "en": "[DNT] {0}% less Maximum Physical Attack Damage with Critical Strikes"
   },
   {
     "id": "maximum_physical_attack_damage_+%_final",
@@ -50688,16 +51213,6 @@
     "id": "minimum_frenzy_power_endurance_charges",
     "zh": "耐力球、狂怒球、暴击球下限 {0}",
     "en": "{0} to Minimum Endurance, Frenzy and Power Charges"
-  },
-  {
-    "id": "minimum_physical_attack_damage_on_crit_+%_final",
-    "zh": "[DNT]暴击的物理攻击伤害下限总增 {0}%",
-    "en": "[DNT] {0}% more Minimum Physical Attack Damage with Critical Strikes"
-  },
-  {
-    "id": "minimum_physical_attack_damage_on_crit_+%_final",
-    "zh": "[DNT]暴击的物理攻击伤害下限总降 {0}%",
-    "en": "[DNT] {0}% less Minimum Physical Attack Damage with Critical Strikes"
   },
   {
     "id": "minimum_power_charges_at_devotion_threshold",
@@ -51290,6 +51805,11 @@
     "en": "Minions take Chaos Damage equal to {0}% of their Life over one second Life when Created"
   },
   {
+    "id": "minions_use_your_main_hand_base_crit_chance_from_weapon",
+    "zh": "召唤生物的基础攻击暴击几率\n等于你的主手武器暴击几率",
+    "en": "Minions' Base Attack Critical Strike Chance is equal to the Critical\nStrike Chance of your Main Hand Weapon"
+  },
+  {
     "id": "mirage_archer_duration_+%",
     "zh": "幻影弓手持续时间延长 {0}%",
     "en": "{0}% increased Mirage Archer Duration"
@@ -51298,6 +51818,11 @@
     "id": "mirage_archer_duration_+%",
     "zh": "幻影弓手持续时间缩短 {0}%",
     "en": "{0}% reduced Mirage Archer Duration"
+  },
+  {
+    "id": "missing_unreserved_life_%_gained_as_life_before_hit",
+    "zh": "被敌人击中前获得已损失未保留生命的 {0}%",
+    "en": "Gain {0}% of Missing Unreserved Life before being Hit by an Enemy"
   },
   {
     "id": "mod_granted_passive_hash",
@@ -51318,6 +51843,16 @@
     "id": "mod_granted_passive_hash_4",
     "zh": "配置 {0}",
     "en": "Allocates {0}"
+  },
+  {
+    "id": "modifiers_to_fire_resistance_also_apply_to_cold_lightning_resistance_at_%_value",
+    "zh": "火焰抗性修正的 {0}% 也作用于冰霜和闪电抗性",
+    "en": "Modifiers to Fire Resistance also apply to Cold and Lightning Resistances at {0}% of their Value"
+  },
+  {
+    "id": "modifiers_to_maximum_fire_resistance_apply_to_maximum_cold_and_lightning_resistance",
+    "zh": "火焰抗性上限修正也作用于冰霜和闪电抗性上限",
+    "en": "Modifiers to Maximum Fire Resistance also apply to Maximum Cold and Lightning Resistances"
   },
   {
     "id": "modifiers_to_number_of_projectiles_instead_apply_to_splitting",
@@ -51776,8 +52311,8 @@
   },
   {
     "id": "nearby_corpses_explode_dealing_%_maximum_life_physical_damage_on_warcry",
-    "zh": "[DNT]当你使用战吼时，周围的灵柩爆炸，造成相当于其生命 {0}% 的物理伤害",
-    "en": "[DNT] Nearby corpses explode for {0}% of their Life as Physical Damage when you use a Warcry"
+    "zh": "当你使用战吼时，周围的灵柩爆炸，造成其生命 {0}% 的物理伤害",
+    "en": "Nearby corpses Explode when you Warcry, dealing {0}% of their Life as Physical Damage"
   },
   {
     "id": "nearby_enemies_all_exposure_%_while_phasing",
@@ -51796,8 +52331,8 @@
   },
   {
     "id": "nearby_enemies_are_chilled_and_shocked_while_you_are_near_a_corpse",
-    "zh": "[DNT]当你的周围有灵柩时，周围敌人获得冰缓和感电",
-    "en": "[DNT] Nearby Enemies are Chilled and Shocked while you are near a corpse"
+    "zh": "当你的周围有灵柩时，周围敌人获得冰缓和感电",
+    "en": "Nearby Enemies are Chilled and Shocked while you are near a corpse"
   },
   {
     "id": "nearby_enemies_are_crushed_while_you_have_X_rage",
@@ -51813,6 +52348,11 @@
     "id": "close_range_enemies_avoid_your_projectiles",
     "zh": "投射物无视近距离的敌人",
     "en": "Projectiles cannot collide with Enemies at Close Range"
+  },
+  {
+    "id": "nearby_enemies_fire_dot_resistance_is_%_while_you_are_stationary",
+    "zh": "静止时周围敌方怪物\n对持续伤害的火焰抗性为 {0}%",
+    "en": "Nearby Enemy Monsters' Fire Resistance against\nDamage over Time is {0}% while you are Stationary"
   },
   {
     "id": "nearby_enemies_have_cold_exposure_while_you_are_affected_by_herald_of_ice",
@@ -51835,9 +52375,9 @@
     "en": "Nearby Enemies have Lightning Resistance equal to yours"
   },
   {
-    "id": "nearby_monsters_have_no_fire_resistance_to_dot_while_stationary",
-    "zh": "[DNT]周围的敌人怪物静止时，其火焰抗性对持续伤害无效",
-    "en": "[DNT] Nearby Enemy Monsters have no Fire Resistance to Damage over Time while Stationary"
+    "id": "nearby_enemies_no_fire_dot_resistance_while_you_are_stationary",
+    "zh": "静止时周围敌方怪物\n对持续伤害没有火焰抗性",
+    "en": "Nearby Enemy Monsters have no Fire Resistance against\nDamage over Time while you are Stationary"
   },
   {
     "id": "nearby_party_members_max_endurance_charges_is_equal_to_yours",
@@ -52018,6 +52558,11 @@
     "id": "ascendancy_non_damaging_elemental_ailment_proliferation_radius",
     "zh": "你造成的非伤害性元素异常状态会传播到半径{0}内的敌人身上",
     "en": "Non-Damaging Elemental Ailments you inflict spread to nearby enemies in a radius of {0}"
+  },
+  {
+    "id": "non_exerted_attacks_deal_no_damage",
+    "zh": "非增助攻击无法造成伤害",
+    "en": "Non-Exerted Attacks deal no Damage"
   },
   {
     "id": "non_piercing_projectiles_critical_strike_chance_+%",
@@ -52463,6 +53008,26 @@
     "id": "passive_mastery_stun_duration_+%_final_with_two_hand_weapon",
     "zh": "双手武器的晕眩持续时间总降 {0}%",
     "en": "{0}% less Stun Duration with Two Handed Weapons"
+  },
+  {
+    "id": "passive_skill_hits_stun_as_if_dealing_melee_fire_damage_+%_final",
+    "zh": "击中造成相当于近战火焰伤害总增 {0}% 的晕眩效果",
+    "en": "Hits Stun as though dealing {0}% more Melee Fire Damage"
+  },
+  {
+    "id": "passive_skill_hits_stun_as_if_dealing_melee_fire_damage_+%_final",
+    "zh": "击中造成相当于近战火焰伤害总降 {0}% 的晕眩效果",
+    "en": "Hits Stun as though dealing {0}% less Melee Fire Damage"
+  },
+  {
+    "id": "passive_skill_ignites_from_stunning_melee_hits_deal_damage_+%_final",
+    "zh": "晕眩近战击中造成的点燃伤害总增 {0}%",
+    "en": "Ignites from Stunning Melee Hits deal {0}% more Damage"
+  },
+  {
+    "id": "passive_skill_ignites_from_stunning_melee_hits_deal_damage_+%_final",
+    "zh": "晕眩近战击中造成的点燃伤害总降 {0}%",
+    "en": "Ignites from Stunning Melee Hits deal {0}% less Damage"
   },
   {
     "id": "pathfinder_flask_life_to_recover_+%_final",
@@ -54025,6 +54590,11 @@
     "en": "Gain a Flask Charge when you deal a Critical Strike while affected by Precision"
   },
   {
+    "id": "recoup_%_of_damage_taken_by_your_totems_as_life",
+    "zh": "将图腾所受伤害的 {0}% 吸纳为生命",
+    "en": "Recoup {0}% of Damage Taken by your Totems as Life"
+  },
+  {
     "id": "recoup_effects_apply_over_3_seconds_instead",
     "zh": "回收效果改为在3秒内生效",
     "en": "Recoup Effects instead occur over 3 seconds"
@@ -54108,6 +54678,11 @@
     "id": "recover_es_as_well_as_life_from_life_regeneration",
     "zh": "生命再生同样回复能量护盾",
     "en": "Life Regeneration also Recovers Energy Shield"
+  },
+  {
+    "id": "recover_life_for_ancestral_totem_equal_to_damage_taken_from_hits",
+    "zh": "受到的敌人击中伤害转化为先祖图腾的生命回复",
+    "en": "Damage taken from Enemy Hits is recovered as Life by your Ancestral Totem"
   },
   {
     "id": "recover_maximum_life_on_enemy_killed_chance_%",
@@ -54485,6 +55060,16 @@
     "en": "Recover {0}% of Mana and Energy Shield when you Focus"
   },
   {
+    "id": "returned_projectile_speed_+%",
+    "zh": "返回的投射物的速度提高 {0}%",
+    "en": "Returning Projectiles have {0}% increased Speed"
+  },
+  {
+    "id": "returned_projectile_speed_+%",
+    "zh": "返回的投射物的速度降低 {0}%",
+    "en": "Returning Projectiles have {0}% reduced Speed"
+  },
+  {
     "id": "returning_projectiles_always_pierce",
     "zh": "返回的投射物贯穿所有目标",
     "en": "Returning Projectiles Pierce all Targets"
@@ -54778,6 +55363,11 @@
     "id": "shatter_on_kill_vs_poisoned_enemies",
     "zh": "被你的击中所击败的中毒敌人会破碎",
     "en": "Poisoned Enemies you Kill with Hits Shatter"
+  },
+  {
+    "id": "shatter_on_killing_blow_chance_%",
+    "zh": "击败敌人有 {0}% 的几率将其像冻结一样击碎",
+    "en": "Killing Blows have {0}% chance to Shatter Enemies as though Frozen"
   },
   {
     "id": "shattering_steel_fortify_on_hit_close_range",
@@ -55271,8 +55861,8 @@
   },
   {
     "id": "skeletons_are_permanent_minions",
-    "zh": "召唤的魔侍武士将会一直跟着你",
-    "en": "Summoned Skeleton Warriors are Permanent and Follow you"
+    "zh": "召唤的魔侍武士将会一直跟着你\n召唤魔侍所召唤的魔侍武士数量不多于 1 个",
+    "en": "Summoned Skeleton Warriors are Permanent and Follow you\nSummon Skeletons cannot Summon more than 1 Skeleton Warrior"
   },
   {
     "id": "skill_effect_duration_+%_while_affected_by_malevolence",
@@ -57175,6 +57765,11 @@
     "en": "Take no Extra Damage from Critical Strikes if you've cast Enfeeble in the past 10 seconds"
   },
   {
+    "id": "take_no_fire_damage_over_time_if_stopped_taking_fire_damage_over_time_recently",
+    "zh": "若你近期停止受到燃烧伤害，不会受到燃烧伤害",
+    "en": "Take no Burning Damage if you've stopped taking Burning Damage Recently"
+  },
+  {
     "id": "talisman_implicit_projectiles_pierce_1_additional_target_per_10",
     "zh": "投射物会穿透 {0} 个额外目标",
     "en": "Projectiles Pierce {0} additional Targets"
@@ -57420,6 +58015,11 @@
     "en": "Your Totems have {0} to Maximum Energy Shield"
   },
   {
+    "id": "totem_physical_attack_damage_leeched_as_life_to_you_permyriad",
+    "zh": "你的图腾造成物理攻击伤害的 {0}% 转化为你的生命偷取",
+    "en": "{0}% of Physical Attack Damage dealt by your Totems is Leeched to you as Life"
+  },
+  {
     "id": "totem_placement_range_+%",
     "zh": "图腾放置范围扩大 {0}%",
     "en": "{0}% increased Totem Placement range"
@@ -57450,6 +58050,11 @@
     "en": "Totems Explode on Death, dealing {0}% of their Life as Physical Damage"
   },
   {
+    "id": "totems_explode_on_death_for_%_life_as_physical_divide_20",
+    "zh": "图腾被击败时爆炸，造成等于它 {0}% 生命的物理伤害",
+    "en": "Totems Explode on Death, dealing {0}% of their Life as Physical Damage"
+  },
+  {
     "id": "totems_nearby_enemies_damage_taken_+%",
     "zh": "每个图腾都使其周围敌人受到的伤害提高 {0}%",
     "en": "Each Totem applies {0}% increased Damage taken to Enemies near it"
@@ -57460,14 +58065,24 @@
     "en": "Each Totem applies {0}% reduced Damage taken to Enemies near it"
   },
   {
+    "id": "totems_regenerate_1_life_per_x_player_life_regeneration",
+    "zh": "生命每秒回复 {0}，图腾生命每秒再生 1 点",
+    "en": "Totems Regenerate 1 Life per second per {0} of your Life Recovery per second from Regeneration"
+  },
+  {
     "id": "totems_regenerate_%_life_per_minute",
     "zh": "图腾每秒再生 {0}% 生命",
     "en": "Totems Regenerate {0}% of Life per second"
   },
   {
     "id": "totems_taunt_enemies_around_them_for_x_seconds_when_summoned",
-    "zh": "图腾召唤出来时在接下来 {0} 秒嘲讽周围敌人",
-    "en": "Totems Taunt Enemies around them for {0} second when Summoned"
+    "zh": "图腾被召唤时嘲讽周围敌人 1 秒",
+    "en": "Totems Taunt Enemies around them for 1 second when Summoned"
+  },
+  {
+    "id": "totems_taunt_enemies_around_them_for_x_seconds_when_summoned",
+    "zh": "图腾被召唤时嘲讽周围敌人 {0} 秒",
+    "en": "Totems Taunt Enemies around them for {0} seconds when Summoned"
   },
   {
     "id": "toxic_rain_damage_+%",
@@ -57810,6 +58425,11 @@
     "en": "Unaffected by Curses while affected by Zealotry"
   },
   {
+    "id": "unaffected_by_damaging_ailments",
+    "zh": "不受伤害异常状态影响",
+    "en": "Unaffected by Damaging Ailments"
+  },
+  {
     "id": "unaffected_by_desecrated_ground",
     "zh": "不受腐化地面影响",
     "en": "Unaffected by Desecrated Ground"
@@ -58078,6 +58698,16 @@
     "id": "unique_monster_dropped_item_rarity_+%",
     "zh": "击败传奇敌人的掉落物品稀有度降低 {0}%",
     "en": "{0}% reduced Rarity of Items found from Slain Unique Enemies"
+  },
+  {
+    "id": "unique_quiver_chill_as_though_damage_+%_final",
+    "zh": "对敌人造成相当于伤害总增 {0}% 的冰缓效果",
+    "en": "Chill Enemies as though dealing {0}% more Damage"
+  },
+  {
+    "id": "unique_quiver_chill_as_though_damage_+%_final",
+    "zh": "对敌人造成相当于伤害总降 {0}% 的冰缓效果",
+    "en": "Chill Enemies as though dealing {0}% less Damage"
   },
   {
     "id": "unique_recover_%_maximum_life_on_x_altenator",
@@ -58987,12 +59617,12 @@
   {
     "id": "you_and_allies_additional_block_%_if_have_attacked_recently",
     "zh": "若你近期内有进行攻击，你和周围友军有 {0}% 的几率格挡攻击伤害",
-    "en": "If you've Attacked Recently, you\nand nearby Allies have {0}% Chance to Block Attack Damage"
+    "en": "If you've Attacked Recently, you and nearby Allies have {0}% Chance to Block Attack Damage"
   },
   {
     "id": "you_and_allies_additional_spell_block_%_if_cast_spell_recently",
     "zh": "若你近期内有施放法术，你和周围友军有 {0}% 的几率格挡法术伤害",
-    "en": "If you've Cast a Spell Recently, you\nand nearby Allies have {0}% Chance to Block Spell Damage"
+    "en": "If you've Cast a Spell Recently, you and nearby Allies have {0}% Chance to Block Spell Damage"
   },
   {
     "id": "you_and_nearby_allies_armour_+_if_have_impaled_recently",
@@ -59235,6 +59865,11 @@
     "en": "Your Mark has a {0}% chance to Transfer to another Enemy when Marked Enemy dies"
   },
   {
+    "id": "your_minions_gain_added_physical_damage_equal_to_%_of_energy_shield_on_helmet",
+    "zh": "为召唤生物附加相当于你装备头盔的能量护盾上限 {0}% 的物理伤害",
+    "en": "Minions gain Added Physical Damage equal to {0}% of Maximum Energy Shield on your Equipped Helmet"
+  },
+  {
     "id": "your_movement_skills_are_disabled",
     "zh": "你被禁止使用移动技能",
     "en": "Your Movement Skills are Disabled"
@@ -59388,6 +60023,11 @@
     "id": "zero_chaos_resistance",
     "zh": "混沌抗性归零",
     "en": "Chaos Resistance is Zero"
+  },
+  {
+    "id": "local_nearby_enemies_base_physical_damage_%_to_convert_to_fire",
+    "zh": "周围敌人将物理伤害的 {0}% 转化为火焰伤害",
+    "en": "Nearby Enemies Convert {0}% of their Physical Damage to Fire"
   },
   {
     "id": "zombie_caustic_cloud_on_death_maximum_life_per_minute_to_deal_as_chaos_damage_%",
@@ -60648,5 +61288,75 @@
     "id": "local_random_support_gem_level local_random_support_gem_index",
     "zh": "插入的技能石被 {0} 级的【棱光魔爆】辅助",
     "en": "Socketed Gems are Supported by Level {0} Prismatic Burst"
+  },
+  {
+    "id": "local_random_support_gem_level local_random_support_gem_index",
+    "zh": "插入的技能石被 {0} 级的【投射物归返】辅助",
+    "en": "Socketed Gems are Supported by Level {0} Returning Projectiles"
+  },
+  {
+    "id": "local_random_support_gem_level local_random_support_gem_index",
+    "zh": "插入的技能石被 {0} 级的【内伤】辅助",
+    "en": "Socketed Gems are Supported by Level {0} Trauma"
+  },
+  {
+    "id": "local_random_support_gem_level local_random_support_gem_index",
+    "zh": "插入的技能石被 {0} 级的【碎影魔刃】辅助",
+    "en": "Socketed Gems are Supported by Level {0} Spellblade"
+  },
+  {
+    "id": "local_random_support_gem_level local_random_support_gem_index",
+    "zh": "插入的技能石被 {0} 级的【吞噬】辅助",
+    "en": "Socketed Gems are Supported by Level {0} Devour"
+  },
+  {
+    "id": "local_random_support_gem_level local_random_support_gem_index",
+    "zh": "插入的技能石被 {0} 级的【鲜肉】辅助",
+    "en": "Socketed Gems are Supported by Level {0} Fresh Meat"
+  },
+  {
+    "id": "local_random_support_gem_level local_random_support_gem_index",
+    "zh": "插入的技能石被 {0} 级的【焚木烈火】辅助",
+    "en": "Socketed Gems are Supported by Level {0} Flamewood"
+  },
+  {
+    "id": "local_random_support_gem_level local_random_support_gem_index",
+    "zh": "插入的技能石被 {0} 级的【腐化战吼】辅助",
+    "en": "Socketed Gems are Supported by Level {0} Corrupting Cry"
+  },
+  {
+    "id": "local_random_support_gem_level local_random_support_gem_index",
+    "zh": "插入的技能石被 {0} 级的【无常】辅助",
+    "en": "Socketed Gems are Supported by Level {0} Voltatility"
+  },
+  {
+    "id": "local_random_support_gem_level local_random_support_gem_index",
+    "zh": "插入的技能石被 {0} 级的【守卫祝福】辅助",
+    "en": "Socketed Gems are Supported by Level {0} Guardian's Blessing"
+  },
+  {
+    "id": "local_random_support_gem_level local_random_support_gem_index",
+    "zh": "插入的技能石被 {0} 级的【牺牲】辅助",
+    "en": "Socketed Gems are Supported by Level {0} Sacrifice"
+  },
+  {
+    "id": "local_random_support_gem_level local_random_support_gem_index",
+    "zh": "插入的技能石被 {0} 级的【冰冽连接】辅助",
+    "en": "Socketed Gems are Supported by Level {0} Frigid Bond"
+  },
+  {
+    "id": "local_random_support_gem_level local_random_support_gem_index",
+    "zh": "插入的技能石被 {0} 级的【核心地雷】辅助",
+    "en": "Socketed Gems are Supported by Level {0} Locus Mine"
+  },
+  {
+    "id": "local_random_support_gem_level local_random_support_gem_index",
+    "zh": "插入的技能石被 {0} 级的【凌虐】辅助",
+    "en": "Socketed Gems are Supported by Level {0} Sadism"
+  },
+  {
+    "id": "local_random_support_gem_level local_random_support_gem_index",
+    "zh": "插入的技能石被 {0} 级的【精准炽炎】辅助",
+    "en": "Socketed Gems are Supported by Level {0} Controlled Blaze"
   }
 ]

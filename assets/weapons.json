@@ -640,6 +640,10 @@
             {
                 "zh": "死神之手",
                 "en": "Death's Hand"
+            },
+            {
+                "zh": "玛塔之指教",
+                "en": "Maata's Teaching"
             }
         ]
     },
@@ -2959,7 +2963,13 @@
     },
     {
         "zh": "符文巨剑",
-        "en": "Engraved Greatsword"
+        "en": "Engraved Greatsword",
+        "uniques": [
+            {
+                "zh": "拉其塔之舞",
+                "en": "Rakiata's Dance"
+            }
+        ]
     },
     {
         "zh": "凶灵巨剑",

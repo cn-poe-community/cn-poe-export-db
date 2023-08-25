@@ -125,6 +125,21 @@
         "zh": "鱼叉猎手"
     },
     {
+        "id": "30439",
+        "en": "Lava Lash",
+        "zh": "熔岩之力"
+    },
+    {
+        "id": "55194",
+        "en": "Settling Ash",
+        "zh": "沉降灰烬"
+    },
+    {
+        "id": "19794",
+        "en": "Concussive Force",
+        "zh": "震荡之力"
+    },
+    {
         "id": "53757",
         "en": "Shamanistic Fury",
         "zh": "萨满之怒"
@@ -275,9 +290,9 @@
         "zh": "护卫"
     },
     {
-        "id": "7440",
-        "en": "Harvester of Foes",
-        "zh": "斩敌者"
+        "id": "49645",
+        "en": "Cauterisation",
+        "zh": "焰灼血肉"
     },
     {
         "id": "24324",
@@ -365,9 +380,9 @@
         "zh": "神圣启蒙"
     },
     {
-        "id": "38922",
-        "en": "Goliath",
-        "zh": "巨人之力"
+        "id": "7440",
+        "en": "Harvester of Foes",
+        "zh": "斩敌者"
     },
     {
         "id": "39743",
@@ -408,6 +423,11 @@
         "id": "13922",
         "en": "Steadfast",
         "zh": "坚韧不拔"
+    },
+    {
+        "id": "38922",
+        "en": "Goliath",
+        "zh": "巨人之力"
     },
     {
         "id": "49445",
@@ -510,16 +530,6 @@
         "zh": "亡灵之约"
     },
     {
-        "id": "63033",
-        "en": "Bannerman",
-        "zh": "旗手"
-    },
-    {
-        "id": "33718",
-        "en": "Champion of the Cause",
-        "zh": "起源"
-    },
-    {
         "id": "39986",
         "en": "Defiled Forces",
         "zh": "污秽大军"
@@ -535,19 +545,29 @@
         "zh": "战士之道"
     },
     {
+        "id": "22133",
+        "en": "Invigorating Blaze",
+        "zh": "欢欣炽炎"
+    },
+    {
         "id": "57839",
         "en": "Blade of Cunning",
         "zh": "巧刃"
     },
     {
-        "id": "30439",
-        "en": "Lava Lash",
-        "zh": "熔岩之力"
-    },
-    {
         "id": "56029",
         "en": "Agility",
         "zh": "灵敏"
+    },
+    {
+        "id": "63033",
+        "en": "Bannerman",
+        "zh": "旗手"
+    },
+    {
+        "id": "33718",
+        "en": "Champion of the Cause",
+        "zh": "起源"
     },
     {
         "id": "65273",
