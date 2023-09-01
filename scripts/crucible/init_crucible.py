@@ -52,7 +52,6 @@ def init(en_entries, zh_entries):
         if "\n" not in zh:
             append_mod(id, zh, en)
         else:
-            # crucible stats should add all sub stats into stats
             sub_zh_list = zh.split("\n")
             sub_en_list = en.split("\n")
             for i, sub_zh in enumerate(sub_zh_list):

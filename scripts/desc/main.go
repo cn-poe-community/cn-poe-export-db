@@ -17,33 +17,34 @@ import (
 )
 
 var extractor = "../../tools/ExtractBundledGGPK3/ExtractBundledGGPK3.exe"
-var txGgpk = `D:\WeGameApps\流放之路\Content.ggpk`
-var globalGgpk = `D:\Program Files (x86)\Grinding Gear Games\Path of Exile\Content.ggpk`
+var zhContentGgpk = "D:/WeGameApps/流放之路/Content.ggpk"
+var contentGgpk = "D:/Program Files (x86)/Grinding Gear Games/Path of Exile/Content.ggpk"
 
-var dat2jsonl = `../../tools/dat2jsonl/dat2jsonl.exe`
+var dat2jsonl = "../../tools/dat2jsonl/dat2jsonl.exe"
 var schema = "../../tools/dat2jsonl/schema.min.json"
 
-var saveRoot = `../../docs/ggpk`
-var statDescriptionsPath = "metadata/statdescriptions/stat_descriptions.txt"
-var zhIndexableSupportGemsPath = `data\simplified chinese\indexablesupportgems.dat64`
-var indexableSupportGemsPath = `data\indexablesupportgems.dat64`
+var saveRoot = "../../docs/ggpk"
 
-var txStatDescriptionsFile = filepath.Join(saveRoot, "tx", statDescriptionsPath)
-var globalStatDescriptionsFile = filepath.Join(saveRoot, "global", statDescriptionsPath)
-var zhIndexableSupportGemsFile = filepath.Join(saveRoot, "tx", zhIndexableSupportGemsPath)
-var enIndexableSupportGemsFile = filepath.Join(saveRoot, "global", indexableSupportGemsPath)
+var statDescriptionsPath = "metadata/statdescriptions/stat_descriptions.txt"
+var zhIndexableSupportGemsPath = "data/simplified chinese/indexablesupportgems.dat64"
+var indexableSupportGemsPath = "data/indexablesupportgems.dat64"
+
+var zhStatDescriptionsFile = filepath.Join(saveRoot, "zh", statDescriptionsPath)
+var statDescriptionsFile = filepath.Join(saveRoot, "en", statDescriptionsPath)
+var zhIndexableSupportGemsFile = filepath.Join(saveRoot, "zh", zhIndexableSupportGemsPath)
+var indexableSupportGemsFile = filepath.Join(saveRoot, "en", indexableSupportGemsPath)
 
 var zhIndexableSupportGemsJsonl = zhIndexableSupportGemsFile + ".jsonl"
-var enIndexableSupportGemsJsonl = enIndexableSupportGemsFile + ".jsonl"
+var indexableSupportGemsJsonl = indexableSupportGemsFile + ".jsonl"
 
 func ExtractFiles() {
-	quitIfError(extract.Extract(extractor, txGgpk, statDescriptionsPath, txStatDescriptionsFile))
-	quitIfError(extract.Extract(extractor, globalGgpk, statDescriptionsPath, globalStatDescriptionsFile))
-	quitIfError(extract.Extract(extractor, txGgpk, zhIndexableSupportGemsPath, zhIndexableSupportGemsFile))
-	quitIfError(extract.Extract(extractor, globalGgpk, indexableSupportGemsPath, enIndexableSupportGemsFile))
+	quitIfError(extract.Extract(extractor, zhContentGgpk, statDescriptionsPath, zhStatDescriptionsFile))
+	quitIfError(extract.Extract(extractor, contentGgpk, statDescriptionsPath, statDescriptionsFile))
+	quitIfError(extract.Extract(extractor, zhContentGgpk, zhIndexableSupportGemsPath, zhIndexableSupportGemsFile))
+	quitIfError(extract.Extract(extractor, contentGgpk, indexableSupportGemsPath, indexableSupportGemsFile))
 
 	quitIfError(dat.DatToJsonl(dat2jsonl, zhIndexableSupportGemsFile, "IndexableSupportGems", schema, zhIndexableSupportGemsJsonl))
-	quitIfError(dat.DatToJsonl(dat2jsonl, enIndexableSupportGemsFile, "IndexableSupportGems", schema, enIndexableSupportGemsJsonl))
+	quitIfError(dat.DatToJsonl(dat2jsonl, indexableSupportGemsFile, "IndexableSupportGems", schema, indexableSupportGemsJsonl))
 }
 
 func quitIfError(err error) {
@@ -53,13 +54,13 @@ func quitIfError(err error) {
 }
 
 func CreateStats() {
-	globalStatDescContent := file.ReadFileUTF16(globalStatDescriptionsFile)
-	txStatDescContent := file.ReadFileUTF16(txStatDescriptionsFile)
+	statDescContent := file.ReadFileUTF16(statDescriptionsFile)
+	zhStatDescContent := file.ReadFileUTF16(zhStatDescriptionsFile)
 
-	globalStatDescContent = hackEnStatDescContent(globalStatDescContent)
-	txStatDescContent = hackZhStatDescContent(txStatDescContent)
+	statDescContent = hackEnStatDescContent(statDescContent)
+	zhStatDescContent = hackZhStatDescContent(zhStatDescContent)
 
-	descs := desc.Load(strings.Split(globalStatDescContent, "\r\n"), strings.Split(txStatDescContent, "\r\n"))
+	descs := desc.Load(strings.Split(statDescContent, "\r\n"), strings.Split(zhStatDescContent, "\r\n"))
 	descs = removeSkipedDesc(descs)
 	hackDescs(descs)
 
@@ -234,7 +235,7 @@ func appendRandomIndexableSupportStats(stats []*stat.Stat) []*stat.Stat {
 
 func loadIndexableSupportGems() []*gem.IndexableSupportGem {
 	zhEntries := loadIndexableSupportGemJsonl(zhIndexableSupportGemsJsonl)
-	enEntries := loadIndexableSupportGemJsonl(enIndexableSupportGemsJsonl)
+	enEntries := loadIndexableSupportGemJsonl(indexableSupportGemsJsonl)
 
 	gems, err := mergeIndexableSupportGemJsonl(enEntries, zhEntries)
 	if err != nil {
