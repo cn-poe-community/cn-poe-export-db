@@ -95,7 +95,7 @@ def is_ascii(s):
 
 def check_non_ascii_names_and_types():
     files = ["accessories.json", "armour.json",
-             "flasks.json", "jewels.json", "weapons.json"]
+             "flasks.json", "jewels.json", "weapons.json", "tattoos.json"]
 
     checked_non_ascii_types = set(["Maelström Staff"])
     checked_non_ascii_names = set(["Doppelgänger Guise", "Mjölner"])
