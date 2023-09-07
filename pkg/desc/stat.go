@@ -31,19 +31,22 @@ func (t *Text) fillFixedParamToTemplate() string {
 				val /= 1000
 			} else if p.Props["per_minute_to_per_second"] {
 				val /= 60
+			} else if p.Props["locations_to_metres"] {
+				val /= 10
 			}
 
 			if p.Props["negate"] {
 				val *= -1
 			}
 
-			if val > 1 {
-				log.Printf("warning: big param val: %d, of: %s", val, t.Template)
+			if !(val == 1 || val == -1 || val == 0) {
+				log.Printf("warning: param val may be wrong: %d, of: %s", val, t.Template)
 			}
 
 			tmpl = strings.ReplaceAll(tmpl, fmt.Sprintf("{%d}", i), strconv.Itoa(val))
 			tmpl = strings.ReplaceAll(tmpl, fmt.Sprintf("{%d:d}", i), strconv.Itoa(val))
 			tmpl = strings.ReplaceAll(tmpl, fmt.Sprintf("{%d:+d}", i), fmt.Sprintf("%+d", val))
+			tmpl = strings.ReplaceAll(tmpl, fmt.Sprintf("{%d:+}", i), fmt.Sprintf("%+d", val))
 		}
 	}
 	return tmpl

@@ -26,25 +26,40 @@ var schema = "../../tools/dat2jsonl/schema.min.json"
 var saveRoot = "../../docs/ggpk"
 
 var statDescriptionsPath = "metadata/statdescriptions/stat_descriptions.txt"
+var passiveSkillStatDescsPath = "metadata/statdescriptions/passive_skill_stat_descriptions.txt"
 var zhIndexableSupportGemsPath = "data/simplified chinese/indexablesupportgems.dat64"
 var indexableSupportGemsPath = "data/indexablesupportgems.dat64"
+var zhIndexableSkillGemsPath = "data/simplified chinese/indexableskillgems.dat64"
+var indexableSkillGemsPath = "data/indexableskillgems.dat64"
 
 var zhStatDescriptionsFile = filepath.Join(saveRoot, "zh", statDescriptionsPath)
 var statDescriptionsFile = filepath.Join(saveRoot, "en", statDescriptionsPath)
+var zhPassiveSkillStatDescsFile = filepath.Join(saveRoot, "zh", passiveSkillStatDescsPath)
+var passiveSkillStatDescsFile = filepath.Join(saveRoot, "en", passiveSkillStatDescsPath)
 var zhIndexableSupportGemsFile = filepath.Join(saveRoot, "zh", zhIndexableSupportGemsPath)
 var indexableSupportGemsFile = filepath.Join(saveRoot, "en", indexableSupportGemsPath)
+var zhIndexableSkillGemsFile = filepath.Join(saveRoot, "zh", zhIndexableSkillGemsPath)
+var indexableSkillGemsFile = filepath.Join(saveRoot, "en", indexableSkillGemsPath)
 
 var zhIndexableSupportGemsJsonl = zhIndexableSupportGemsFile + ".jsonl"
 var indexableSupportGemsJsonl = indexableSupportGemsFile + ".jsonl"
+var zhIndexableSkillGemsJsonl = zhIndexableSkillGemsFile + ".jsonl"
+var indexableSkillGemsJsonl = indexableSkillGemsFile + ".jsonl"
 
 func ExtractFiles() {
 	quitIfError(extract.Extract(extractor, zhContentGgpk, statDescriptionsPath, zhStatDescriptionsFile))
 	quitIfError(extract.Extract(extractor, contentGgpk, statDescriptionsPath, statDescriptionsFile))
+	quitIfError(extract.Extract(extractor, zhContentGgpk, passiveSkillStatDescsPath, zhPassiveSkillStatDescsFile))
+	quitIfError(extract.Extract(extractor, contentGgpk, passiveSkillStatDescsPath, passiveSkillStatDescsFile))
 	quitIfError(extract.Extract(extractor, zhContentGgpk, zhIndexableSupportGemsPath, zhIndexableSupportGemsFile))
 	quitIfError(extract.Extract(extractor, contentGgpk, indexableSupportGemsPath, indexableSupportGemsFile))
+	quitIfError(extract.Extract(extractor, zhContentGgpk, zhIndexableSkillGemsPath, zhIndexableSkillGemsFile))
+	quitIfError(extract.Extract(extractor, contentGgpk, indexableSkillGemsPath, indexableSkillGemsFile))
 
 	quitIfError(dat.DatToJsonl(dat2jsonl, zhIndexableSupportGemsFile, "IndexableSupportGems", schema, zhIndexableSupportGemsJsonl))
 	quitIfError(dat.DatToJsonl(dat2jsonl, indexableSupportGemsFile, "IndexableSupportGems", schema, indexableSupportGemsJsonl))
+	quitIfError(dat.DatToJsonl(dat2jsonl, zhIndexableSkillGemsFile, "IndexableSkillGems", schema, zhIndexableSkillGemsJsonl))
+	quitIfError(dat.DatToJsonl(dat2jsonl, indexableSkillGemsFile, "IndexableSkillGems", schema, indexableSkillGemsJsonl))
 }
 
 func quitIfError(err error) {
@@ -54,19 +69,28 @@ func quitIfError(err error) {
 }
 
 func CreateStats() {
-	statDescContent := file.ReadFileUTF16(statDescriptionsFile)
-	zhStatDescContent := file.ReadFileUTF16(zhStatDescriptionsFile)
+	statDescsContent := file.ReadFileUTF16(statDescriptionsFile)
+	zhStatDescsContent := file.ReadFileUTF16(zhStatDescriptionsFile)
 
-	statDescContent = hackEnStatDescContent(statDescContent)
-	zhStatDescContent = hackZhStatDescContent(zhStatDescContent)
+	statDescsContent = hackEnStatDescContent(statDescsContent)
+	zhStatDescsContent = hackZhStatDescContent(zhStatDescsContent)
 
-	descs := desc.Load(strings.Split(statDescContent, "\r\n"), strings.Split(zhStatDescContent, "\r\n"))
+	descs := desc.Load(strings.Split(statDescsContent, "\r\n"), strings.Split(zhStatDescsContent, "\r\n"))
+
+	passiveSkillStatDescsContent := file.ReadFileUTF16(passiveSkillStatDescsFile)
+	zhPassiveSkillStatDescsContent := file.ReadFileUTF16(zhPassiveSkillStatDescsFile)
+
+	passiveSkillDescs := desc.Load(strings.Split(passiveSkillStatDescsContent, "\r\n"), strings.Split(zhPassiveSkillStatDescsContent, "\r\n"))
+
+	descs = append(descs, passiveSkillDescs...)
+
 	descs = removeSkipedDesc(descs)
 	hackDescs(descs)
 
 	stats := desc.ToStats(descs)
 
 	stats = appendRandomIndexableSupportStats(stats)
+	stats = appendRandomIndexableSkillStats(stats)
 
 	checkDuplicateZh(stats)
 
@@ -83,6 +107,12 @@ var hackEnStatDescContentEntries = [][2]string{
 		`60 "Gain {0} Vaal Soul Per Second during effect" per_minute_to_per_second 1`},
 	{`1|# "[DNT] Area contains {0} additional Common Chest Marker"`,
 		`1 "[DNT] Area contains {0} additional Common Chest Marker"`},
+	{`10 "Freezes you inflict spread to other Enemies within {0} metre"` + "\r\n",
+		`10 "Freezes you inflict spread to other Enemies within {0} metre" locations_to_metres 1` + "\r\n"},
+	{`10 "Freezes inflicted on you spread to Enemies within {0} metre"` + "\r\n",
+		`10 "Freezes inflicted on you spread to Enemies within {0} metre" locations_to_metres 1` + "\r\n"},
+	{`10 "{0:+d} metre to Discharge radius"` + "\r\n",
+		`10 "{0:+d} metre to Discharge radius" locations_to_metres 1` + "\r\n"},
 }
 
 func hackEnStatDescContent(content string) string {
@@ -115,8 +145,16 @@ var hackZhStatDescContentEntries = [][2]string{
 		"\t2\r\n\t\t1|# \"图腾放置速度加快 {0}%\"\r\n#|-1 \"图腾放置速度减慢 {0}%\"\r\n"},
 	{"\t\t1|# \"若你近期内有击败敌人，则效果区域扩大 {0}%，最多 50%\" reminderstring ReminderTextRecently\r\n\t\t#|-1 \"若你近期内有击败敌人，则效果区域缩小 {0}%\" negate 1  reminderstring ReminderTextRecently\r\n",
 		"\t\t1|# \"若你近期内有击败敌人，则效果区域扩大 {0}%，最多 50%\" reminderstring ReminderTextRecently\r\n\t\t#|-1 \"若你近期内有击败敌人，则效果区域缩小 {0}%，最多 50%\" negate 1  reminderstring ReminderTextRecently\r\n"},
-	{`1 "【毒雨】可以额外发射 1 个箭矢"`, `1 "【毒雨】可以额外发射 {0} 个箭矢"`},
-	{`1|# "如果诅咒持续时间已经过去 25%，\n则你诅咒的敌人的移动速度被减缓 25%"`, `1|# "如果诅咒持续时间已经过去 25%，\n则你诅咒的敌人的移动速度被减缓 {0}%"`},
+	{`1 "【毒雨】可以额外发射 1 个箭矢"`,
+		`1 "【毒雨】可以额外发射 {0} 个箭矢"`},
+	{`1|# "如果诅咒持续时间已经过去 25%，\n则你诅咒的敌人的移动速度被减缓 25%"`,
+		`1|# "如果诅咒持续时间已经过去 25%，\n则你诅咒的敌人的移动速度被减缓 {0}%"`},
+	{`10 "你造成的冻结会扩散给 {0} 米内的其他敌人"` + "\r\n",
+		`10 "你造成的冻结会扩散给 {0} 米内的其他敌人" locations_to_metres 1` + "\r\n"},
+	{`10 "对你造成的冻结会扩散给 {0} 米内的其他敌人"` + "\r\n",
+		`10 "对你造成的冻结会扩散给 {0} 米内的其他敌人" locations_to_metres 1` + "\r\n"},
+	{`10 "解放范围 {0:+d} 米"` + "\r\n",
+		`10 "解放范围 {0:+d} 米" locations_to_metres 1` + "\r\n"},
 }
 
 func hackZhStatDescContent(content string) string {
@@ -276,6 +314,94 @@ func mergeIndexableSupportGemJsonl(enEntryList, zhEntryList []*gem.IndexableSupp
 	for i, enEntry := range enEntryList {
 		zhEntry := zhEntryList[i]
 		result = append(result, &gem.IndexableSupportGem{Index: enEntry.Index, Zh: zhEntry.Name, En: enEntry.Name})
+	}
+	return result, nil
+}
+
+var randomIndexableSkillStatId = "random_skill_gem_level_+_level random_skill_gem_level_+_index"
+
+func appendRandomIndexableSkillStats(stats []*stat.Stat) []*stat.Stat {
+	newStats := make([]*stat.Stat, 0, len(stats))
+
+	matched := false
+	for _, stat := range stats {
+		if stat.Id == randomIndexableSkillStatId {
+			if stat.Zh == "所有 {1} 宝石等级 +{0}" && stat.En == "+{0} to Level of all {1} Gems" ||
+				stat.Zh == "所有 {1} 宝石等级 -{0}" && stat.En == "-{0} to Level of all {1} Gems" {
+				matched = true
+			} else {
+				log.Fatal("random indexable support stats template changed")
+			}
+		} else {
+			newStats = append(newStats, stat)
+		}
+	}
+
+	if !matched {
+		log.Println("warning: no template of random indexable support stats")
+		return stats
+	}
+
+	indexableSkillGems := loadIndexableSkillGems()
+	for _, gem := range indexableSkillGems {
+		newStats = append(newStats, &stat.Stat{
+			Id: randomIndexableSkillStatId,
+			Zh: fmt.Sprintf("所有 %s 宝石等级 +{0}", gem.Zh),
+			En: fmt.Sprintf("+{0} to Level of all %s Gems", gem.En),
+		})
+		newStats = append(newStats, &stat.Stat{
+			Id: randomIndexableSkillStatId,
+			Zh: fmt.Sprintf("所有 %s 宝石等级 -{0}", gem.Zh),
+			En: fmt.Sprintf("-{0} to Level of all %s Gems", gem.En),
+		})
+	}
+
+	return newStats
+}
+
+func loadIndexableSkillGems() []*gem.IndexableSkillGem {
+	zhEntries := loadIndexableSkillGemJsonl(zhIndexableSkillGemsJsonl)
+	enEntries := loadIndexableSkillGemJsonl(indexableSkillGemsJsonl)
+
+	gems, err := mergeIndexableSkillGemJsonl(enEntries, zhEntries)
+	if err != nil {
+		log.Fatal(err)
+	}
+	return gems
+}
+
+func loadIndexableSkillGemJsonl(filename string) []*gem.IndexableSkillGemJsonlEntry {
+	f, err := os.Open(filename)
+	if err != nil {
+		log.Fatal(err)
+	}
+	defer f.Close()
+
+	scanner := bufio.NewScanner(f)
+	entries := []*gem.IndexableSkillGemJsonlEntry{}
+	for scanner.Scan() {
+		line := strings.TrimSpace(scanner.Text())
+		if len(line) > 0 {
+			entry := &gem.IndexableSkillGemJsonlEntry{}
+			err := json.Unmarshal([]byte(line), entry)
+			if err != nil {
+				log.Fatal(err)
+			}
+			entries = append(entries, entry)
+		}
+	}
+
+	return entries
+}
+
+func mergeIndexableSkillGemJsonl(enEntryList, zhEntryList []*gem.IndexableSkillGemJsonlEntry) ([]*gem.IndexableSkillGem, error) {
+	if len(enEntryList) < len(zhEntryList) {
+		return nil, fmt.Errorf("shorter enEntryList")
+	}
+	result := []*gem.IndexableSkillGem{}
+	for i, enEntry := range enEntryList {
+		zhEntry := zhEntryList[i]
+		result = append(result, &gem.IndexableSkillGem{Index: enEntry.Index, Zh: zhEntry.Name1, En: enEntry.Name1})
 	}
 	return result, nil
 }

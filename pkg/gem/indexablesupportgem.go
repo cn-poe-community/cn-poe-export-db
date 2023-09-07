@@ -10,3 +10,14 @@ type IndexableSupportGem struct {
 	Zh    string
 	En    string
 }
+
+type IndexableSkillGemJsonlEntry struct {
+	Index int
+	Name1 string
+}
+
+type IndexableSkillGem struct {
+	Index int
+	Zh    string
+	En    string
+}

@@ -57,7 +57,7 @@ func Parse(lines []string) []*Desc {
 	textCount := 0
 	for i, line := range lines {
 		line = strings.TrimSpace(line)
-		if line == "" || strings.HasPrefix(line, "no_description") {
+		if line == "" || strings.HasPrefix(line, "no_description") || strings.HasPrefix(line, "include") {
 			continue
 		}
 

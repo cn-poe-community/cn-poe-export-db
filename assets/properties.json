@@ -76,8 +76,8 @@
         "en": "Energy Shield"
     },
     {
-        "zh": "武器范围",
-        "en": "Weapon Range"
+        "zh": "武器范围：{0} 米",
+        "en": "Weapon Range: {0} metres"
     },
     {
         "zh": "闪避值",
