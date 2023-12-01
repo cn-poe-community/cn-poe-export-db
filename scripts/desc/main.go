@@ -41,10 +41,10 @@ var indexableSupportGemsFile = filepath.Join(saveRoot, "en", indexableSupportGem
 var zhIndexableSkillGemsFile = filepath.Join(saveRoot, "zh", zhIndexableSkillGemsPath)
 var indexableSkillGemsFile = filepath.Join(saveRoot, "en", indexableSkillGemsPath)
 
-var zhIndexableSupportGemsJsonl = zhIndexableSupportGemsFile + ".jsonl"
-var indexableSupportGemsJsonl = indexableSupportGemsFile + ".jsonl"
-var zhIndexableSkillGemsJsonl = zhIndexableSkillGemsFile + ".jsonl"
-var indexableSkillGemsJsonl = indexableSkillGemsFile + ".jsonl"
+var zhIndexableSupportGemsJson = zhIndexableSupportGemsFile + ".json"
+var indexableSupportGemsJson = indexableSupportGemsFile + ".json"
+var zhIndexableSkillGemsJson = zhIndexableSkillGemsFile + ".json"
+var indexableSkillGemsJson = indexableSkillGemsFile + ".json"
 
 func ExtractFiles() {
 	quitIfError(extract.Extract(extractor, zhContentGgpk, statDescriptionsPath, zhStatDescriptionsFile))
@@ -56,10 +56,10 @@ func ExtractFiles() {
 	quitIfError(extract.Extract(extractor, zhContentGgpk, zhIndexableSkillGemsPath, zhIndexableSkillGemsFile))
 	quitIfError(extract.Extract(extractor, contentGgpk, indexableSkillGemsPath, indexableSkillGemsFile))
 
-	quitIfError(dat.DatToJsonl(dat2jsonl, zhIndexableSupportGemsFile, "IndexableSupportGems", schema, zhIndexableSupportGemsJsonl))
-	quitIfError(dat.DatToJsonl(dat2jsonl, indexableSupportGemsFile, "IndexableSupportGems", schema, indexableSupportGemsJsonl))
-	quitIfError(dat.DatToJsonl(dat2jsonl, zhIndexableSkillGemsFile, "IndexableSkillGems", schema, zhIndexableSkillGemsJsonl))
-	quitIfError(dat.DatToJsonl(dat2jsonl, indexableSkillGemsFile, "IndexableSkillGems", schema, indexableSkillGemsJsonl))
+	quitIfError(dat.DatToJson(dat2jsonl, zhIndexableSupportGemsFile, "IndexableSupportGems", schema))
+	quitIfError(dat.DatToJson(dat2jsonl, indexableSupportGemsFile, "IndexableSupportGems", schema))
+	quitIfError(dat.DatToJson(dat2jsonl, zhIndexableSkillGemsFile, "IndexableSkillGems", schema))
+	quitIfError(dat.DatToJson(dat2jsonl, indexableSkillGemsFile, "IndexableSkillGems", schema))
 }
 
 func quitIfError(err error) {
@@ -272,8 +272,8 @@ func appendRandomIndexableSupportStats(stats []*stat.Stat) []*stat.Stat {
 }
 
 func loadIndexableSupportGems() []*gem.IndexableSupportGem {
-	zhEntries := loadIndexableSupportGemJsonl(zhIndexableSupportGemsJsonl)
-	enEntries := loadIndexableSupportGemJsonl(indexableSupportGemsJsonl)
+	zhEntries := loadIndexableSupportGemJsonl(zhIndexableSupportGemsJson)
+	enEntries := loadIndexableSupportGemJsonl(indexableSupportGemsJson)
 
 	gems, err := mergeIndexableSupportGemJsonl(enEntries, zhEntries)
 	if err != nil {
@@ -360,8 +360,8 @@ func appendRandomIndexableSkillStats(stats []*stat.Stat) []*stat.Stat {
 }
 
 func loadIndexableSkillGems() []*gem.IndexableSkillGem {
-	zhEntries := loadIndexableSkillGemJsonl(zhIndexableSkillGemsJsonl)
-	enEntries := loadIndexableSkillGemJsonl(indexableSkillGemsJsonl)
+	zhEntries := loadIndexableSkillGemJsonl(zhIndexableSkillGemsJson)
+	enEntries := loadIndexableSkillGemJsonl(indexableSkillGemsJson)
 
 	gems, err := mergeIndexableSkillGemJsonl(enEntries, zhEntries)
 	if err != nil {

@@ -5,16 +5,11 @@ import (
 	"os/exec"
 )
 
-func DatToJsonl(exe string, dat string, tableName string, schema string, saveFile string) error {
-	cmd := exec.Command(exe, "--dat", dat, "--table-name", tableName, "--schema", schema)
+func DatToJson(exe string, dat string, tableName string, schema string) error {
+	cmd := exec.Command(exe, "-d", dat, "-t", tableName, "-s", schema)
 
 	cmd.Stderr = os.Stderr
-	outfile, err := os.Create(saveFile)
-	if err != nil {
-		return err
-	}
-	defer outfile.Close()
-	cmd.Stdout = outfile
+	cmd.Stdout = os.Stdout
 
 	return cmd.Run()
 }

@@ -7,13 +7,12 @@ import (
 )
 
 func TestDat2Jsonl(t *testing.T) {
-	exe := "../../tools/dat2jsonl/dat2jsonl.exe"
-	datFile := "IndexableSupportGems.dat64"
+	exe := "../../tools/poedat/poedat.exe"
+	datFile := "../../docs/ggpk/zh/data/simplified chinese/IndexableSupportGems.dat64"
 	tableName := "IndexableSupportGems"
-	schema := "../../tools/dat2jsonl/schema.min.json"
-	saveFile := "table.jsonl"
+	schema := "../../tools/poedat/schema.min.json"
 
-	err := dat.DatToJsonl(exe, datFile, tableName, schema, saveFile)
+	err := dat.DatToJson(exe, datFile, tableName, schema)
 	if err != nil {
 		log.Fatal(err)
 	}

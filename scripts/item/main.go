@@ -26,8 +26,8 @@ var zhBaseItemTypesPath = "data/simplified chinese/baseitemtypes.dat64"
 var baseItemTypesFile = filepath.Join(saveRoot, "en", baseItemTypesPath)
 var zhBaseItemTypesFile = filepath.Join(saveRoot, "zh", zhBaseItemTypesPath)
 
-var baseItemTypesJsonl = baseItemTypesFile + ".jsonl"
-var zhBaseItemTypesJsonl = zhBaseItemTypesFile + ".jsonl"
+var baseItemTypesJson = baseItemTypesFile + ".json"
+var zhBaseItemTypesJson = zhBaseItemTypesFile + ".json"
 
 var tattoosFile = "../../assets/tattoos.json"
 
@@ -35,8 +35,8 @@ func extractFiles() {
 	quitIfError(extract.Extract(extractor, contentGgpk, baseItemTypesPath, baseItemTypesFile))
 	quitIfError(extract.Extract(extractor, zhContentGgpk, zhBaseItemTypesPath, zhBaseItemTypesFile))
 
-	quitIfError(dat.DatToJsonl(dat2jsonl, baseItemTypesFile, "BaseItemTypes", schema, baseItemTypesJsonl))
-	quitIfError(dat.DatToJsonl(dat2jsonl, zhBaseItemTypesFile, "BaseItemTypes", schema, zhBaseItemTypesJsonl))
+	quitIfError(dat.DatToJson(dat2jsonl, baseItemTypesFile, "BaseItemTypes", schema))
+	quitIfError(dat.DatToJson(dat2jsonl, zhBaseItemTypesFile, "BaseItemTypes", schema))
 }
 
 func quitIfError(err error) {
@@ -85,8 +85,8 @@ func initTattoos() {
 }
 
 func loadBaseItemTypes() []*BaseItemType {
-	enEntries := loadBaseItemTypeJsonl(baseItemTypesJsonl)
-	zhEntries := loadBaseItemTypeJsonl(zhBaseItemTypesJsonl)
+	enEntries := loadBaseItemTypeJsonl(baseItemTypesJson)
+	zhEntries := loadBaseItemTypeJsonl(zhBaseItemTypesJson)
 
 	baseItemTypes, err := mergeIndexableSupportGemJsonl(enEntries, zhEntries)
 	if err != nil {
