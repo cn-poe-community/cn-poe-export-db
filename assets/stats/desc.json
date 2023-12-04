@@ -38445,6 +38445,31 @@
     "en": "Eldritch Tentacles"
   },
   {
+    "id": "display_altleague_event",
+    "zh": "你地图中的罪魂可以附身玩家，持续 20 秒\n你地图中的罪魂无法附身怪物",
+    "en": "Tormented Spirits in your Maps can Possess Players for 20 seconds\nTormented Spirits in your Maps cannot Possess Monsters"
+  },
+  {
+    "id": "display_altleague_event",
+    "zh": "你地图中的菌潮怪物受到玩家及其召唤生物的伤害总降 75%\n你地图中菌潮防御塔和它们的召唤生物伤害总增 300%",
+    "en": "Blight Monsters in your Maps take 75% less Damage from Players and their Minions\nBlight Towers and their Minions in your Maps deal 300% more Damage"
+  },
+  {
+    "id": "display_altleague_event",
+    "zh": "你地图中的战乱之殇遭遇战没有计时\n击破静滞中的怪物或宝箱会逐渐引发分裂\n你地图中的战乱之殇遭遇战会在分裂出现时开始",
+    "en": "Legion Encounters in your Maps have no Timer\nBreaking out Monsters and Chests that are in stasis progressively causes a Schism\nLegion Encounters in your Maps begin once the Schism has occurred"
+  },
+  {
+    "id": "display_altleague_event",
+    "zh": "你地图中的惊悸迷雾永不消散\n你的地图中无法找到雾魇宝珠\n你的地图中无法找到梦魇拟像裂片",
+    "en": "Delirium Fog in your Maps never dissipates\nDelirium Orbs cannot be found in your Maps\nSimulacrum Splinters cannot be found in your Maps"
+  },
+  {
+    "id": "display_altleague_event",
+    "zh": "地图中的穿越传送门无法生成传奇首领\n你地图中的穿越传送门的融合范围总降 50%",
+    "en": "Beyond Portals in your Maps cannot spawn Unique Bosses\nBeyond Portals in your Maps have 50% less Merging Radius"
+  },
+  {
     "id": "display_area_contains_alluring_vaal_side_area",
     "zh": "区域内有诱人的腐化区域",
     "en": "Area contains an Alluring Vaal Side Area"
@@ -51022,12 +51047,12 @@
   {
     "id": "melee_range_+_with_dagger",
     "zh": "爪类近战打击范围 +1 米",
-    "en": "+1 metre to Melee Strike Range with Claws"
+    "en": "+1 metre to Melee Strike Range with Daggers"
   },
   {
     "id": "melee_range_+_with_dagger",
     "zh": "爪类近战打击范围 {0} 米",
-    "en": "{0} metres to Melee Strike Range with Claws"
+    "en": "{0} metres to Melee Strike Range with Daggers"
   },
   {
     "id": "melee_range_+_with_mace",

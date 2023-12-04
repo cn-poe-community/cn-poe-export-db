@@ -49,4 +49,4 @@ const {gems} = CnPoeExportDb;
 
 `tools/ExtractBundledGGPK3` comes from [LibGGPK3](https://github.com/aianlinb/LibGGPK3)
 
-`tools/dat2jsonl/schema.min.json` comes from [dat-schema](https://github.com/poe-tool-dev/dat-schema)
+[dat-schema](https://github.com/poe-tool-dev/dat-schema)

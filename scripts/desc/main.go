@@ -1,13 +1,12 @@
 package main
 
 import (
-	"bufio"
-	"dbutils/pkg/dat"
+	"dbutils/pkg/config"
 	"dbutils/pkg/desc"
-	"dbutils/pkg/extract"
-	"dbutils/pkg/file"
 	"dbutils/pkg/gem"
 	"dbutils/pkg/stat"
+	"dbutils/pkg/utils/errorutil"
+	"dbutils/pkg/utils/fileutil"
 	"encoding/json"
 	"fmt"
 	"log"
@@ -16,69 +15,47 @@ import (
 	"strings"
 )
 
-var extractor = "../../tools/ExtractBundledGGPK3/ExtractBundledGGPK3.exe"
-var zhContentGgpk = "D:/WeGameApps/流放之路/Content.ggpk"
-var contentGgpk = "D:/Program Files (x86)/Grinding Gear Games/Path of Exile/Content.ggpk"
-
-var dat2jsonl = "../../tools/dat2jsonl/dat2jsonl.exe"
-var schema = "../../tools/dat2jsonl/schema.min.json"
-
-var saveRoot = "../../docs/ggpk"
-
 var statDescriptionsPath = "metadata/statdescriptions/stat_descriptions.txt"
 var passiveSkillStatDescsPath = "metadata/statdescriptions/passive_skill_stat_descriptions.txt"
-var zhIndexableSupportGemsPath = "data/simplified chinese/indexablesupportgems.dat64"
-var indexableSupportGemsPath = "data/indexablesupportgems.dat64"
-var zhIndexableSkillGemsPath = "data/simplified chinese/indexableskillgems.dat64"
-var indexableSkillGemsPath = "data/indexableskillgems.dat64"
 
-var zhStatDescriptionsFile = filepath.Join(saveRoot, "zh", statDescriptionsPath)
-var statDescriptionsFile = filepath.Join(saveRoot, "en", statDescriptionsPath)
-var zhPassiveSkillStatDescsFile = filepath.Join(saveRoot, "zh", passiveSkillStatDescsPath)
-var passiveSkillStatDescsFile = filepath.Join(saveRoot, "en", passiveSkillStatDescsPath)
-var zhIndexableSupportGemsFile = filepath.Join(saveRoot, "zh", zhIndexableSupportGemsPath)
-var indexableSupportGemsFile = filepath.Join(saveRoot, "en", indexableSupportGemsPath)
-var zhIndexableSkillGemsFile = filepath.Join(saveRoot, "zh", zhIndexableSkillGemsPath)
-var indexableSkillGemsFile = filepath.Join(saveRoot, "en", indexableSkillGemsPath)
+var statDescriptionsFile string
+var passiveSkillStatDescsFile string
+var txStatDescriptionsFile string
+var txPassiveSkillStatDescsFile string
 
-var zhIndexableSupportGemsJson = zhIndexableSupportGemsFile + ".json"
-var indexableSupportGemsJson = indexableSupportGemsFile + ".json"
-var zhIndexableSkillGemsJson = zhIndexableSkillGemsFile + ".json"
-var indexableSkillGemsJson = indexableSkillGemsFile + ".json"
+var indexableSupportGemsFile string
+var indexableSkillGemsFile string
+var txIndexableSupportGemsFile string
+var txIndexableSkillGemsFile string
 
-func ExtractFiles() {
-	quitIfError(extract.Extract(extractor, zhContentGgpk, statDescriptionsPath, zhStatDescriptionsFile))
-	quitIfError(extract.Extract(extractor, contentGgpk, statDescriptionsPath, statDescriptionsFile))
-	quitIfError(extract.Extract(extractor, zhContentGgpk, passiveSkillStatDescsPath, zhPassiveSkillStatDescsFile))
-	quitIfError(extract.Extract(extractor, contentGgpk, passiveSkillStatDescsPath, passiveSkillStatDescsFile))
-	quitIfError(extract.Extract(extractor, zhContentGgpk, zhIndexableSupportGemsPath, zhIndexableSupportGemsFile))
-	quitIfError(extract.Extract(extractor, contentGgpk, indexableSupportGemsPath, indexableSupportGemsFile))
-	quitIfError(extract.Extract(extractor, zhContentGgpk, zhIndexableSkillGemsPath, zhIndexableSkillGemsFile))
-	quitIfError(extract.Extract(extractor, contentGgpk, indexableSkillGemsPath, indexableSkillGemsFile))
+var descFile string
 
-	quitIfError(dat.DatToJson(dat2jsonl, zhIndexableSupportGemsFile, "IndexableSupportGems", schema))
-	quitIfError(dat.DatToJson(dat2jsonl, indexableSupportGemsFile, "IndexableSupportGems", schema))
-	quitIfError(dat.DatToJson(dat2jsonl, zhIndexableSkillGemsFile, "IndexableSkillGems", schema))
-	quitIfError(dat.DatToJson(dat2jsonl, indexableSkillGemsFile, "IndexableSkillGems", schema))
-}
+func init() {
+	c := config.LoadConfig("../config.json")
+	statDescriptionsFile = filepath.Join(c.ProjectRoot, "docs/ggpk", statDescriptionsPath)
+	passiveSkillStatDescsFile = filepath.Join(c.ProjectRoot, "docs/ggpk", passiveSkillStatDescsPath)
+	txStatDescriptionsFile = filepath.Join(c.ProjectRoot, "docs/ggpk/tx", statDescriptionsPath)
+	txPassiveSkillStatDescsFile = filepath.Join(c.ProjectRoot, "docs/ggpk/tx", passiveSkillStatDescsPath)
 
-func quitIfError(err error) {
-	if err != nil {
-		log.Fatal(err)
-	}
+	indexableSupportGemsFile = filepath.Join(c.ProjectRoot, "docs/ggpk", "data/indexablesupportgems.dat64.json")
+	indexableSkillGemsFile = filepath.Join(c.ProjectRoot, "docs/ggpk", "data/indexableskillgems.dat64.json")
+	txIndexableSupportGemsFile = filepath.Join(c.ProjectRoot, "docs/ggpk/tx", "data/simplified chinese/indexablesupportgems.dat64.json")
+	txIndexableSkillGemsFile = filepath.Join(c.ProjectRoot, "docs/ggpk/tx", "data/simplified chinese/indexableskillgems.dat64.json")
+
+	descFile = filepath.Join(c.ProjectRoot, "assets/stats/desc.json")
 }
 
 func CreateStats() {
-	statDescsContent := file.ReadFileUTF16(statDescriptionsFile)
-	zhStatDescsContent := file.ReadFileUTF16(zhStatDescriptionsFile)
+	statDescsContent := fileutil.ReadUtf16Lb(statDescriptionsFile)
+	zhStatDescsContent := fileutil.ReadUtf16Lb(txStatDescriptionsFile)
 
 	statDescsContent = hackEnStatDescContent(statDescsContent)
 	zhStatDescsContent = hackZhStatDescContent(zhStatDescsContent)
 
 	descs := desc.Load(strings.Split(statDescsContent, "\r\n"), strings.Split(zhStatDescsContent, "\r\n"))
 
-	passiveSkillStatDescsContent := file.ReadFileUTF16(passiveSkillStatDescsFile)
-	zhPassiveSkillStatDescsContent := file.ReadFileUTF16(zhPassiveSkillStatDescsFile)
+	passiveSkillStatDescsContent := fileutil.ReadUtf16Lb(passiveSkillStatDescsFile)
+	zhPassiveSkillStatDescsContent := fileutil.ReadUtf16Lb(txPassiveSkillStatDescsFile)
 
 	passiveSkillDescs := desc.Load(strings.Split(passiveSkillStatDescsContent, "\r\n"), strings.Split(zhPassiveSkillStatDescsContent, "\r\n"))
 
@@ -95,11 +72,9 @@ func CreateStats() {
 	checkDuplicateZh(stats)
 
 	data, err := json.MarshalIndent(stats, "", "  ")
-	if err != nil {
-		log.Fatal(err)
-	}
+	errorutil.QuitIfError(err)
 
-	os.WriteFile("../../assets/stats/desc.json", data, 0666)
+	os.WriteFile(descFile, data, 0o666)
 }
 
 var hackEnStatDescContentEntries = [][2]string{
@@ -107,12 +82,8 @@ var hackEnStatDescContentEntries = [][2]string{
 		`60 "Gain {0} Vaal Soul Per Second during effect" per_minute_to_per_second 1`},
 	{`1|# "[DNT] Area contains {0} additional Common Chest Marker"`,
 		`1 "[DNT] Area contains {0} additional Common Chest Marker"`},
-	{`10 "Freezes you inflict spread to other Enemies within {0} metre"` + "\r\n",
-		`10 "Freezes you inflict spread to other Enemies within {0} metre" locations_to_metres 1` + "\r\n"},
 	{`10 "Freezes inflicted on you spread to Enemies within {0} metre"` + "\r\n",
 		`10 "Freezes inflicted on you spread to Enemies within {0} metre" locations_to_metres 1` + "\r\n"},
-	{`10 "{0:+d} metre to Discharge radius"` + "\r\n",
-		`10 "{0:+d} metre to Discharge radius" locations_to_metres 1` + "\r\n"},
 }
 
 func hackEnStatDescContent(content string) string {
@@ -149,12 +120,8 @@ var hackZhStatDescContentEntries = [][2]string{
 		`1 "【毒雨】可以额外发射 {0} 个箭矢"`},
 	{`1|# "如果诅咒持续时间已经过去 25%，\n则你诅咒的敌人的移动速度被减缓 25%"`,
 		`1|# "如果诅咒持续时间已经过去 25%，\n则你诅咒的敌人的移动速度被减缓 {0}%"`},
-	{`10 "你造成的冻结会扩散给 {0} 米内的其他敌人"` + "\r\n",
-		`10 "你造成的冻结会扩散给 {0} 米内的其他敌人" locations_to_metres 1` + "\r\n"},
 	{`10 "对你造成的冻结会扩散给 {0} 米内的其他敌人"` + "\r\n",
 		`10 "对你造成的冻结会扩散给 {0} 米内的其他敌人" locations_to_metres 1` + "\r\n"},
-	{`10 "解放范围 {0:+d} 米"` + "\r\n",
-		`10 "解放范围 {0:+d} 米" locations_to_metres 1` + "\r\n"},
 }
 
 func hackZhStatDescContent(content string) string {
@@ -194,6 +161,26 @@ func hackDescs(descs []*desc.Desc) {
 		if d.Id == "base_deal_no_physical_damage" {
 			if d.Texts[desc.LangZh][0].Template == "没有物理伤害" {
 				d.Texts[desc.LangZh][0].Template = "不造成物理伤害"
+			}
+		}
+
+		// 最新引入的bug，中文词缀重复出现
+		if len(d.Texts[desc.LangZh]) > len(d.Texts[desc.LangEn]) {
+			zhTextsLen := len(d.Texts[desc.LangZh])
+			if zhTextsLen%2 == 0 {
+				zhTexts := d.Texts[desc.LangZh]
+				i, j := 0, zhTextsLen/2
+				for j < zhTextsLen {
+					if zhTexts[i].Template != zhTexts[j].Template || zhTexts[i].ParamsStr != zhTexts[j].ParamsStr {
+						break
+					}
+					j++
+					i++
+				}
+
+				if j == zhTextsLen {
+					d.Texts[desc.LangZh] = zhTexts[:zhTextsLen/2]
+				}
 			}
 		}
 	}
@@ -259,7 +246,7 @@ func appendRandomIndexableSupportStats(stats []*stat.Stat) []*stat.Stat {
 		return stats
 	}
 
-	indexableSupportGems := loadIndexableSupportGems()
+	indexableSupportGems := gem.LoadIndexableSupportGemsFromGgpk(indexableSupportGemsFile, txIndexableSupportGemsFile)
 	for _, gem := range indexableSupportGems {
 		newStats = append(newStats, &stat.Stat{
 			Id: randomIndexableSupportStatId1,
@@ -269,53 +256,6 @@ func appendRandomIndexableSupportStats(stats []*stat.Stat) []*stat.Stat {
 	}
 
 	return newStats
-}
-
-func loadIndexableSupportGems() []*gem.IndexableSupportGem {
-	zhEntries := loadIndexableSupportGemJsonl(zhIndexableSupportGemsJson)
-	enEntries := loadIndexableSupportGemJsonl(indexableSupportGemsJson)
-
-	gems, err := mergeIndexableSupportGemJsonl(enEntries, zhEntries)
-	if err != nil {
-		log.Fatal(err)
-	}
-	return gems
-}
-
-func loadIndexableSupportGemJsonl(filename string) []*gem.IndexableSupportGemJsonlEntry {
-	f, err := os.Open(filename)
-	if err != nil {
-		log.Fatal(err)
-	}
-	defer f.Close()
-
-	scanner := bufio.NewScanner(f)
-	entries := []*gem.IndexableSupportGemJsonlEntry{}
-	for scanner.Scan() {
-		line := strings.TrimSpace(scanner.Text())
-		if len(line) > 0 {
-			entry := &gem.IndexableSupportGemJsonlEntry{}
-			err := json.Unmarshal([]byte(line), entry)
-			if err != nil {
-				log.Fatal(err)
-			}
-			entries = append(entries, entry)
-		}
-	}
-
-	return entries
-}
-
-func mergeIndexableSupportGemJsonl(enEntryList, zhEntryList []*gem.IndexableSupportGemJsonlEntry) ([]*gem.IndexableSupportGem, error) {
-	if len(enEntryList) < len(zhEntryList) {
-		return nil, fmt.Errorf("shorter enEntryList")
-	}
-	result := []*gem.IndexableSupportGem{}
-	for i, enEntry := range enEntryList {
-		zhEntry := zhEntryList[i]
-		result = append(result, &gem.IndexableSupportGem{Index: enEntry.Index, Zh: zhEntry.Name, En: enEntry.Name})
-	}
-	return result, nil
 }
 
 var randomIndexableSkillStatId = "random_skill_gem_level_+_level random_skill_gem_level_+_index"
@@ -342,7 +282,7 @@ func appendRandomIndexableSkillStats(stats []*stat.Stat) []*stat.Stat {
 		return stats
 	}
 
-	indexableSkillGems := loadIndexableSkillGems()
+	indexableSkillGems := gem.LoadIndexableSkillGemsFromGgpk(indexableSkillGemsFile, txIndexableSkillGemsFile)
 	for _, gem := range indexableSkillGems {
 		newStats = append(newStats, &stat.Stat{
 			Id: randomIndexableSkillStatId,
@@ -357,53 +297,6 @@ func appendRandomIndexableSkillStats(stats []*stat.Stat) []*stat.Stat {
 	}
 
 	return newStats
-}
-
-func loadIndexableSkillGems() []*gem.IndexableSkillGem {
-	zhEntries := loadIndexableSkillGemJsonl(zhIndexableSkillGemsJson)
-	enEntries := loadIndexableSkillGemJsonl(indexableSkillGemsJson)
-
-	gems, err := mergeIndexableSkillGemJsonl(enEntries, zhEntries)
-	if err != nil {
-		log.Fatal(err)
-	}
-	return gems
-}
-
-func loadIndexableSkillGemJsonl(filename string) []*gem.IndexableSkillGemJsonlEntry {
-	f, err := os.Open(filename)
-	if err != nil {
-		log.Fatal(err)
-	}
-	defer f.Close()
-
-	scanner := bufio.NewScanner(f)
-	entries := []*gem.IndexableSkillGemJsonlEntry{}
-	for scanner.Scan() {
-		line := strings.TrimSpace(scanner.Text())
-		if len(line) > 0 {
-			entry := &gem.IndexableSkillGemJsonlEntry{}
-			err := json.Unmarshal([]byte(line), entry)
-			if err != nil {
-				log.Fatal(err)
-			}
-			entries = append(entries, entry)
-		}
-	}
-
-	return entries
-}
-
-func mergeIndexableSkillGemJsonl(enEntryList, zhEntryList []*gem.IndexableSkillGemJsonlEntry) ([]*gem.IndexableSkillGem, error) {
-	if len(enEntryList) < len(zhEntryList) {
-		return nil, fmt.Errorf("shorter enEntryList")
-	}
-	result := []*gem.IndexableSkillGem{}
-	for i, enEntry := range enEntryList {
-		zhEntry := zhEntryList[i]
-		result = append(result, &gem.IndexableSkillGem{Index: enEntry.Index, Zh: zhEntry.Name1, En: enEntry.Name1})
-	}
-	return result, nil
 }
 
 func checkDuplicateZh(stats []*stat.Stat) {
@@ -427,6 +320,5 @@ func checkDuplicateZh(stats []*stat.Stat) {
  *
  */
 func main() {
-	ExtractFiles()
 	CreateStats()
 }

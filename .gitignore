@@ -1,10 +1,5 @@
 dist/
-docs/ggpk/
-docs/trade/zh_stats.json
-docs/trade/en_stats.json
-docs/trade/zh_items.json
-docs/trade/en_items.json
-docs/tree/en_tree.json
-docs/tree/zh_tree.json
+docs/
 node_modules/
 src/assets.js
+scripts/config.json

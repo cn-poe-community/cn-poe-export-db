@@ -1,18 +1,8 @@
 import json
+import os
 import sys
 import urllib.request
 import re
-
-en_tree_url = "https://www.pathofexile.com/passive-skill-tree"
-zh_tree_url = "https://poe.game.qq.com/passive-skill-tree"
-
-
-en_tree_file = "../../docs/tree/en_tree.json"
-zh_tree_file = "../../docs/tree/zh_tree.json"
-
-notables_json_file = "../../assets/passiveskills/notables.json"
-keystones_json_file = "../../assets/passiveskills/keystones.json"
-ascendant_json_file = "../../assets/passiveskills/ascendant.json"
 
 def load_json(file):
     with open(file, 'rt', encoding='utf-8') as f:
@@ -20,36 +10,18 @@ def load_json(file):
         data = json.loads(content)
     return data
 
+config: dict = load_json("../config.json")
+project_root = config.get("projectRoot")
 
-def download_trees():
-    en_tree = download_tree(en_tree_url, en_tree_file)
-    zh_tree = download_tree(zh_tree_url, zh_tree_file)
-    return en_tree, zh_tree
+tree_file = os.path.join(project_root, "docs/tree/tree.json")
+tx_tree_file = os.path.join(project_root, "docs/tree/zh_tree.json")
+
+notables_json_file = os.path.join(project_root, "assets/passiveskills/notables.json")
+keystones_json_file = os.path.join(project_root, "assets/passiveskills/keystones.json")
+ascendant_json_file = os.path.join(project_root, "assets/passiveskills/ascendant.json")
 
 def load_trees():
-    return load_json(en_tree_file),load_json(zh_tree_file)
-
-USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36"
-
-
-def download_tree(url: str, save_path: str):
-    print(f"downloading {url}")
-    req = urllib.request.Request(url, headers={'User-agent': USER_AGENT})
-    with urllib.request.urlopen(req) as response:
-        html = response.read().decode('utf-8')
-        tree_text = get_tree_from_html(html)
-        with open(f'{save_path}', 'wt', encoding="utf-8") as f:
-            f.write(tree_text)
-        print(f"downloaded {url} to {save_path}")
-        return json.loads(tree_text)
-
-
-def get_tree_from_html(html: str) -> str:
-    html = html.replace("\n", "")
-    pattern = re.compile(
-        r"var passiveSkillTreeData = (\{.+?\});")
-    m = pattern.search(html)
-    return m.group(1)
+    return load_json(tree_file), load_json(tx_tree_file)
 
 
 def init_notable_nodes(en_nodes, zh_nodes):
@@ -185,11 +157,8 @@ def check_repeated_zh_ascendants(node_list):
 
 
 if __name__ == "__main__":
-    if len(sys.argv)>1 and sys.argv[1] == "-un":
-        en_tree,zh_tree = load_trees()
-    else:
-        en_tree, zh_tree = download_trees()
-    
+    en_tree, zh_tree = load_trees()
+
     en_nodes, zh_nodes = en_tree["nodes"], zh_tree["nodes"]
     init_notable_nodes(en_nodes, zh_nodes)
     init_keystone_nodes(en_nodes, zh_nodes)

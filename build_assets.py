@@ -11,11 +11,24 @@ def load_json(file):
         data = json.loads(content)
     return data
 
+def snake_to_camel(name:str):
+    result = ''
+    capitalize_next = False
+    for char in name:
+        if char == '_':
+            capitalize_next = True
+        else:
+            if capitalize_next:
+                result += char.upper()
+                capitalize_next = False
+            else:
+                result += char
+    return result
 
-def json2code(json, variableName):
-    if variableName == "requirement_suffixes":
-        variableName = "requirementSuffixes"
-    return f"export const {variableName} = {json};"
+
+def json2js(json, variable_name):
+    name = snake_to_camel(variable_name)
+    return f"export const {name} = {json};"
 
 
 def make_stats():
@@ -70,7 +83,7 @@ def generate():
         if os.path.isfile(source) and file_name.endswith(".json"):
             data = load_json(source)
             pure_name = file_name[:-5]
-            code = json2code(data, pure_name)
+            code = json2js(data, pure_name)
             content.append(code)
 
     for file_name in os.listdir(os.path.join(src, "passiveskills")):
@@ -78,11 +91,19 @@ def generate():
         if os.path.isfile(source) and file_name.endswith(".json"):
             data = load_json(source)
             pure_name = file_name[:-5]
-            code = json2code(data, pure_name)
+            code = json2js(data, pure_name)
+            content.append(code)
+
+    for file_name in os.listdir(os.path.join(src, "gems")):
+        source = os.path.join(src, "gems", file_name)
+        if os.path.isfile(source) and file_name.endswith(".json"):
+            data = load_json(source)
+            pure_name = file_name[:-5]
+            code = json2js(data, pure_name)
             content.append(code)
 
     stats = make_stats()
-    stats_code = json2code(stats, "stats")
+    stats_code = json2js(stats, "stats")
 
     content.append(stats_code)
     with open(dist, 'wt', encoding="utf-8", newline="\n") as f:
@@ -129,5 +150,7 @@ def check_non_ascii_names_and_types():
         print(f"warning: new non-ascii uniques: {new_names}")
 
 
-generate()
-check_non_ascii_names_and_types()
+
+if __name__ == "__main__":
+    generate()
+    check_non_ascii_names_and_types()

@@ -1,59 +1,25 @@
 package main
 
 import (
-	"bufio"
-	"dbutils/pkg/dat"
-	"dbutils/pkg/extract"
+	"dbutils/pkg/config"
+	"dbutils/pkg/item"
+	"dbutils/pkg/utils/errorutil"
 	"encoding/json"
-	"log"
 	"os"
 	"path/filepath"
 	"strings"
 )
 
-var extractor = "../../tools/ExtractBundledGGPK3/ExtractBundledGGPK3.exe"
-var contentGgpk = "D:/Program Files (x86)/Grinding Gear Games/Path of Exile/Content.ggpk"
-var zhContentGgpk = "D:/WeGameApps/流放之路/Content.ggpk"
+var baseItemTypesFile string
+var txBaseItemTypesFile string
+var tattoosFile string
 
-var dat2jsonl = "../../tools/dat2jsonl/dat2jsonl.exe"
-var schema = "../../tools/dat2jsonl/schema.min.json"
+func init() {
+	c := config.LoadConfig("../config.json")
+	baseItemTypesFile = filepath.Join(c.ProjectRoot, "docs/ggpk", "data/baseitemtypes.dat64.json")
+	txBaseItemTypesFile = filepath.Join(c.ProjectRoot, "docs/ggpk/tx", "data/simplified chinese/baseitemtypes.dat64.json")
 
-var saveRoot = "../../docs/ggpk"
-
-var baseItemTypesPath = "data/baseitemtypes.dat64"
-var zhBaseItemTypesPath = "data/simplified chinese/baseitemtypes.dat64"
-
-var baseItemTypesFile = filepath.Join(saveRoot, "en", baseItemTypesPath)
-var zhBaseItemTypesFile = filepath.Join(saveRoot, "zh", zhBaseItemTypesPath)
-
-var baseItemTypesJson = baseItemTypesFile + ".json"
-var zhBaseItemTypesJson = zhBaseItemTypesFile + ".json"
-
-var tattoosFile = "../../assets/tattoos.json"
-
-func extractFiles() {
-	quitIfError(extract.Extract(extractor, contentGgpk, baseItemTypesPath, baseItemTypesFile))
-	quitIfError(extract.Extract(extractor, zhContentGgpk, zhBaseItemTypesPath, zhBaseItemTypesFile))
-
-	quitIfError(dat.DatToJson(dat2jsonl, baseItemTypesFile, "BaseItemTypes", schema))
-	quitIfError(dat.DatToJson(dat2jsonl, zhBaseItemTypesFile, "BaseItemTypes", schema))
-}
-
-func quitIfError(err error) {
-	if err != nil {
-		log.Fatal(err)
-	}
-}
-
-type BaseItemTypeJsonlEntry struct {
-	HASH32 int32
-	Name   string
-}
-
-type BaseItemType struct {
-	HASH32 int32
-	En     string
-	Zh     string
+	tattoosFile = filepath.Join(c.ProjectRoot, "assets/tattoos.json")
 }
 
 type Tattoo struct {
@@ -64,10 +30,10 @@ type Tattoo struct {
 var enTattooKeyword = "Tattoo"
 var zhTattooKeyword = "文身"
 
-func initTattoos() {
-	baseItemTypes := loadBaseItemTypes()
+func initTattoos(itemTypes []*item.BaseItemType) {
+
 	tattoos := []*Tattoo{}
-	for _, itemType := range baseItemTypes {
+	for _, itemType := range itemTypes {
 		if strings.Contains(itemType.En, enTattooKeyword) && strings.Contains(itemType.Zh, zhTattooKeyword) {
 			tattoos = append(tattoos, &Tattoo{
 				En: itemType.En,
@@ -77,73 +43,12 @@ func initTattoos() {
 	}
 
 	data, err := json.MarshalIndent(tattoos, "", "  ")
-	if err != nil {
-		log.Fatal(err)
-	}
+	errorutil.QuitIfError(err)
 
-	os.WriteFile(tattoosFile, data, 0666)
-}
-
-func loadBaseItemTypes() []*BaseItemType {
-	enEntries := loadBaseItemTypeJsonl(baseItemTypesJson)
-	zhEntries := loadBaseItemTypeJsonl(zhBaseItemTypesJson)
-
-	baseItemTypes, err := mergeIndexableSupportGemJsonl(enEntries, zhEntries)
-	if err != nil {
-		log.Fatal(err)
-	}
-	return baseItemTypes
-}
-
-func loadBaseItemTypeJsonl(filename string) []*BaseItemTypeJsonlEntry {
-	f, err := os.Open(filename)
-	if err != nil {
-		log.Fatal(err)
-	}
-	defer f.Close()
-
-	scanner := bufio.NewScanner(f)
-	entries := []*BaseItemTypeJsonlEntry{}
-	for scanner.Scan() {
-		line := strings.TrimSpace(scanner.Text())
-		if len(line) > 0 {
-			entry := &BaseItemTypeJsonlEntry{}
-			err := json.Unmarshal([]byte(line), entry)
-			if err != nil {
-				log.Fatal(err)
-			}
-			entries = append(entries, entry)
-		}
-	}
-
-	return entries
-}
-
-func mergeIndexableSupportGemJsonl(enEntryList, zhEntryList []*BaseItemTypeJsonlEntry) ([]*BaseItemType, error) {
-	enEntriesIndexByHash32 := map[int32]*BaseItemTypeJsonlEntry{}
-	for _, entry := range enEntryList {
-		enEntriesIndexByHash32[entry.HASH32] = entry
-	}
-
-	result := []*BaseItemType{}
-
-	for _, zhEntry := range zhEntryList {
-		baseItemType := &BaseItemType{
-			HASH32: zhEntry.HASH32,
-			Zh:     zhEntry.Name,
-		}
-		hash32 := zhEntry.HASH32
-		if enEntry, ok := enEntriesIndexByHash32[hash32]; ok {
-			baseItemType.En = enEntry.Name
-		}
-
-		result = append(result, baseItemType)
-	}
-
-	return result, nil
+	os.WriteFile(tattoosFile, data, 0o666)
 }
 
 func main() {
-	extractFiles()
-	initTattoos()
+	baseItemTypes := item.LoadBaseItemTypesFromGggpk(baseItemTypesFile, txBaseItemTypesFile)
+	initTattoos(baseItemTypes)
 }
