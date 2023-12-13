@@ -1416,5 +1416,25 @@
     {
         "zh": "戒指：暗黑",
         "en": "Tenebrous Ring"
+    },
+    {
+        "zh": "复合戒指",
+        "en": "Composite Ring"
+    },
+    {
+        "zh": "渐变戒指",
+        "en": "Ratcheting Ring"
+    },
+    {
+        "zh": "螺纹戒指",
+        "en": "Helical Ring"
+    },
+    {
+        "zh": "聚焦项链",
+        "en": "Focused Amulet"
+    },
+    {
+        "zh": "集成戒指",
+        "en": "Manifold Ring"
     }
 ]
