@@ -1,5 +1,5 @@
 dist/
 docs/
 node_modules/
-src/assets.js
+src/assets.ts
 scripts/config.json

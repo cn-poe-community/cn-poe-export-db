@@ -2,7 +2,7 @@ import json
 import os
 
 src = "assets/"
-dist = "src/assets.js"
+dist = "src/assets.ts"
 
 
 def load_json(file):
