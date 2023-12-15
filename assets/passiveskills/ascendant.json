@@ -220,6 +220,56 @@
         "zh": "忏悔之兆"
     },
     {
+        "id": "8982",
+        "en": "Sanguimancy",
+        "zh": "滴血为咒"
+    },
+    {
+        "id": "20931",
+        "en": "Crimson Power",
+        "zh": "腥红之力"
+    },
+    {
+        "id": "52780",
+        "en": "Cannibalised Faith",
+        "zh": "蚕食信仰"
+    },
+    {
+        "id": "699",
+        "en": "Foul Pact",
+        "zh": "邪秽契约"
+    },
+    {
+        "id": "57850",
+        "en": "Warlock Power",
+        "zh": "术士之力"
+    },
+    {
+        "id": "58281",
+        "en": "Blood Hunt",
+        "zh": "猎血寻腥"
+    },
+    {
+        "id": "45727",
+        "en": "Soul Splitting",
+        "zh": "灵魂裂解"
+    },
+    {
+        "id": "28601",
+        "en": "Creeping Lobotomy",
+        "zh": "悚然切除"
+    },
+    {
+        "id": "52417",
+        "en": "Black Mass",
+        "zh": "黑暗布道"
+    },
+    {
+        "id": "10538",
+        "en": "Choir of the Damned",
+        "zh": "诅咒合颂"
+    },
+    {
         "id": "4194",
         "en": "Berserker",
         "zh": "暴徒"
@@ -228,6 +278,16 @@
         "id": "57052",
         "en": "Chieftain",
         "zh": "酋长"
+    },
+    {
+        "id": "63623",
+        "en": "Might of the Bear",
+        "zh": "伟岸熊威"
+    },
+    {
+        "id": "34229",
+        "en": "Howl of the Wolf",
+        "zh": "惊魂狼啸"
     },
     {
         "id": "42144",
@@ -308,6 +368,41 @@
         "id": "8281",
         "en": "Elementalist",
         "zh": "元素使"
+    },
+    {
+        "id": "8243",
+        "en": "Wildwood Blessing",
+        "zh": "荒林祝福"
+    },
+    {
+        "id": "34814",
+        "en": "Lesson of the Seasons",
+        "zh": "四季之训"
+    },
+    {
+        "id": "5220",
+        "en": "Oath of the Maji",
+        "zh": "众神之誓"
+    },
+    {
+        "id": "41197",
+        "en": "Coated Blade",
+        "zh": "涂抹小刀"
+    },
+    {
+        "id": "34637",
+        "en": "Nature's Concoction",
+        "zh": "自然灵药"
+    },
+    {
+        "id": "63362",
+        "en": "Intensifying Suffusion",
+        "zh": "持久弥散"
+    },
+    {
+        "id": "29212",
+        "en": "Detect Evil",
+        "zh": "追缉邪恶"
     },
     {
         "id": "10099",

@@ -82,8 +82,8 @@ def append_mod(id, zh, en):
 
 
 if __name__ == "__main__":
-    zh_file = "../../docs/trade/zh_stats.json"
-    en_file = "../../docs/trade/en_stats.json"
+    zh_file = "../../docs/trade/tx/stats"
+    en_file = "../../docs/trade/stats"
 
     zh_data = load_json(zh_file)
     en_data = load_json(en_file)

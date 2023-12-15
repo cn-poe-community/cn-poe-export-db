@@ -96,10 +96,6 @@
     "zh": "亵渎之矛"
   },
   {
-    "en": "Snipe",
-    "zh": "狙击"
-  },
-  {
     "en": "Caustic Arrow",
     "zh": "腐蚀箭矢"
   },
@@ -1000,10 +996,6 @@
     "zh": "和善(辅)"
   },
   {
-    "en": "Herald of Blood",
-    "zh": "赤血之捷"
-  },
-  {
     "en": "Herald of Ash",
     "zh": "灰烬之捷"
   },
@@ -1873,7 +1865,7 @@
   },
   {
     "en": "Awakened Empower Support",
-    "zh": "赋能（强辅）"
+    "zh": "赋予（强辅）"
   },
   {
     "en": "Awakened Enlighten Support",
@@ -1881,7 +1873,7 @@
   },
   {
     "en": "Awakened Enhance Support",
-    "zh": "强化（强辅）"
+    "zh": "增幅（强辅）"
   },
   {
     "en": "Infernal Legion Support",
@@ -2201,7 +2193,7 @@
   },
   {
     "en": "Overcharge Support",
-    "zh": "充能支架"
+    "zh": "过载（辅）"
   },
   {
     "en": "Cursed Ground Support",
@@ -2849,7 +2841,7 @@
   },
   {
     "en": "Vaal Molten Strike",
-    "zh": "瓦尔：熔火打击"
+    "zh": "瓦尔：熔岩之击"
   },
   {
     "en": "Frozen Legion",

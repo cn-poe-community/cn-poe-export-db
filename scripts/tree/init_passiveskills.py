@@ -14,7 +14,7 @@ config: dict = load_json("../config.json")
 project_root = config.get("projectRoot")
 
 tree_file = os.path.join(project_root, "docs/tree/tree.json")
-tx_tree_file = os.path.join(project_root, "docs/tree/zh_tree.json")
+tx_tree_file = os.path.join(project_root, "docs/tree/tx/tree.json")
 
 notables_json_file = os.path.join(project_root, "assets/passiveskills/notables.json")
 keystones_json_file = os.path.join(project_root, "assets/passiveskills/keystones.json")
