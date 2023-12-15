@@ -228,6 +228,10 @@
             {
                 "zh": "血肉融合",
                 "en": "Melding of the Flesh"
+            },
+            {
+                "zh": "无力【仿品】",
+                "en": "Replica Powerlessness"
             }
         ]
     },
@@ -438,6 +442,14 @@
             {
                 "zh": "战士的史诗",
                 "en": "Warrior's Tale"
+            },
+            {
+                "zh": "脆弱【仿品】",
+                "en": "Replica Fragility"
+            },
+            {
+                "zh": "浮华",
+                "en": "The Adorned"
             }
         ]
     },
@@ -652,6 +664,10 @@
             {
                 "zh": "先祖的远视",
                 "en": "Ancestral Vision"
+            },
+            {
+                "zh": "和平主义【仿品】",
+                "en": "Replica Pacifism"
             }
         ]
     },

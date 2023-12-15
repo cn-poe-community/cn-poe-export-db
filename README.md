@@ -50,3 +50,5 @@ const {gems} = CnPoeExportDb;
 `tools/ExtractBundledGGPK3` comes from [LibGGPK3](https://github.com/aianlinb/LibGGPK3)
 
 [dat-schema](https://github.com/poe-tool-dev/dat-schema)
+
+[poedb](https://poedb.tw/) 传奇物品和基底物品数据来源

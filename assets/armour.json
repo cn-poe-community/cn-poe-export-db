@@ -1750,6 +1750,10 @@
             {
                 "zh": "寒焰",
                 "en": "Heatshiver"
+            },
+            {
+                "zh": "寒焰【仿品】",
+                "en": "Replica Heatshiver"
             }
         ]
     },
@@ -2070,6 +2074,10 @@
             {
                 "zh": "雪盲恩惠",
                 "en": "The Snowblind Grace"
+            },
+            {
+                "zh": "西里的战衣【仿品】",
+                "en": "Replica Hyrri's Ire"
             }
         ]
     },
@@ -2902,6 +2910,10 @@
             {
                 "zh": "苍空之爪",
                 "en": "Saqawal's Talons"
+            },
+            {
+                "zh": "博运步伐",
+                "en": "Gamblesprint"
             }
         ]
     },
@@ -3040,6 +3052,10 @@
             {
                 "zh": "血誓",
                 "en": "The Covenant"
+            },
+            {
+                "zh": "血誓【仿品】",
+                "en": "Replica Covenant"
             }
         ]
     },
@@ -3256,6 +3272,10 @@
             {
                 "zh": "疾风的沉思",
                 "en": "The Peregrine"
+            },
+            {
+                "zh": "敲诈笑颜",
+                "en": "The Trickster's Smile"
             }
         ]
     },
@@ -3581,7 +3601,13 @@
     },
     {
         "zh": "决斗之铠",
-        "en": "Colosseum Plate"
+        "en": "Colosseum Plate",
+        "uniques": [
+            {
+                "zh": "独断专行",
+                "en": "Pragmatism"
+            }
+        ]
     },
     {
         "zh": "庄严之铠",
