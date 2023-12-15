@@ -17,11 +17,14 @@ import (
 
 var statDescriptionsPath = "metadata/statdescriptions/stat_descriptions.txt"
 var passiveSkillStatDescsPath = "metadata/statdescriptions/passive_skill_stat_descriptions.txt"
+var tinctureStatDescsPath = "metadata/statdescriptions/tincture_stat_descriptions.txt"
 
 var statDescriptionsFile string
 var passiveSkillStatDescsFile string
+var tinctureStatDescsFile string
 var txStatDescriptionsFile string
 var txPassiveSkillStatDescsFile string
+var txTinctureStatDescsFile string
 
 var indexableSupportGemsFile string
 var indexableSkillGemsFile string
@@ -34,8 +37,10 @@ func init() {
 	c := config.LoadConfig("../config.json")
 	statDescriptionsFile = filepath.Join(c.ProjectRoot, "docs/ggpk", statDescriptionsPath)
 	passiveSkillStatDescsFile = filepath.Join(c.ProjectRoot, "docs/ggpk", passiveSkillStatDescsPath)
+	tinctureStatDescsFile = filepath.Join(c.ProjectRoot, "docs/ggpk", tinctureStatDescsPath)
 	txStatDescriptionsFile = filepath.Join(c.ProjectRoot, "docs/ggpk/tx", statDescriptionsPath)
 	txPassiveSkillStatDescsFile = filepath.Join(c.ProjectRoot, "docs/ggpk/tx", passiveSkillStatDescsPath)
+	txTinctureStatDescsFile = filepath.Join(c.ProjectRoot, "docs/ggpk/tx", tinctureStatDescsPath)
 
 	indexableSupportGemsFile = filepath.Join(c.ProjectRoot, "docs/ggpk", "data/indexablesupportgems.dat64.json")
 	indexableSkillGemsFile = filepath.Join(c.ProjectRoot, "docs/ggpk", "data/indexableskillgems.dat64.json")
@@ -60,6 +65,13 @@ func CreateStats() {
 	passiveSkillDescs := desc.Load(strings.Split(passiveSkillStatDescsContent, "\r\n"), strings.Split(zhPassiveSkillStatDescsContent, "\r\n"))
 
 	descs = append(descs, passiveSkillDescs...)
+
+	tinctureStatDescsContent := fileutil.ReadUtf16Lb(tinctureStatDescsFile)
+	zhTinctureStatDescsContent := fileutil.ReadUtf16Lb(txTinctureStatDescsFile)
+
+	tinctureDescs := desc.Load(strings.Split(tinctureStatDescsContent, "\r\n"), strings.Split(zhTinctureStatDescsContent, "\r\n"))
+
+	descs = append(descs, tinctureDescs...)
 
 	descs = removeSkipedDesc(descs)
 	hackDescs(descs)

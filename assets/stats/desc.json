@@ -61835,6 +61835,386 @@
     "en": "Strength's Damage bonus applies to all Spell Damage as well"
   },
   {
+    "id": "all_damage_with_weapons_can_freeze",
+    "zh": "所有伤害可以造成冻结",
+    "en": "All Damage can Freeze"
+  },
+  {
+    "id": "all_damage_with_weapons_can_ignite",
+    "zh": "所有伤害可以造成点燃",
+    "en": "All Damage can Ignite"
+  },
+  {
+    "id": "all_damage_with_weapons_can_poison",
+    "zh": "所有伤害可以造成中毒",
+    "en": "All Damage can Poison"
+  },
+  {
+    "id": "all_damage_with_weapons_can_shock",
+    "zh": "所有伤害可以造成感电",
+    "en": "All Damage can Shock"
+  },
+  {
+    "id": "always_stun_enemies_that_are_on_full_life_with_weapons",
+    "zh": "击中满血敌人并造成伤害时必定使其晕眩",
+    "en": "Damaging Hits always Stun Enemies that are on Full Life"
+  },
+  {
+    "id": "apply_X_wither_stacks_for_2_seconds_vs_enemies_that_are_on_full_life_with_weapons",
+    "zh": "击中满血敌人时施加 {0} 层死亡凋零减益，持续 2 秒",
+    "en": "Hits Inflict {0} Withered Debuffs for 2 seconds on Enemies that are on Full Life"
+  },
+  {
+    "id": "base_killed_monster_from_weapon_attack_dropped_item_rarity_+%",
+    "zh": "击败敌人后掉落物品的稀有度提高 {0}%",
+    "en": "{0}% increased Rarity of Items Dropped by Slain Enemies"
+  },
+  {
+    "id": "base_killed_monster_from_weapon_attack_dropped_item_rarity_+%",
+    "zh": "击败敌人后掉落物品的稀有度降低 {0}%",
+    "en": "{0}% reduced Rarity of Items Dropped by Slain Enemies"
+  },
+  {
+    "id": "base_mana_gained_on_weapon_kill",
+    "zh": "每击败一名敌人获得{0}点魔力",
+    "en": "Gain {0} Mana per Enemy Killed"
+  },
+  {
+    "id": "base_mana_gained_on_weapon_kill",
+    "zh": "每击败一名敌人损失{0}点魔力",
+    "en": "Lose {0} Mana per Enemy Killed"
+  },
+  {
+    "id": "chance_to_apply_grasping_vines_on_weapon_hit_%",
+    "zh": "击中时有 {0}% 的几率施加一层缓速藤蔓",
+    "en": "{0}% chance to inflict a Grasping Vine on Hit"
+  },
+  {
+    "id": "chance_to_apply_grasping_vines_on_weapon_hit_%",
+    "zh": "击中时施加一层缓速藤蔓",
+    "en": "Inflict a Grasping Vine on Hit"
+  },
+  {
+    "id": "create_consecrated_ground_on_weapon_hit_%_vs_rare_or_unique_enemy",
+    "zh": "击击中稀有或传奇敌人时，有 {0}% 的几率创造【奉献地面】，持续 8 秒",
+    "en": "{0}% chance to create Consecrated Ground when you Hit a Rare or Unique Enemy, lasting 8 seconds"
+  },
+  {
+    "id": "culling_strike_with_weapons",
+    "zh": "终结",
+    "en": "Culling Strike"
+  },
+  {
+    "id": "explode_enemies_for_10%_life_as_fire_on_weapon_kill_chance_%",
+    "zh": "击败敌人时有 {0}% 的几率使其爆炸，造成其生命上限十分之一的火焰伤害",
+    "en": "Killing Blows have a {0}% chance for Enemies to Explode, dealing a tenth of their maximum Life as Fire Damage"
+  },
+  {
+    "id": "flask_charges_granted_from_weapon_kills_+%",
+    "zh": "消灭获得的药剂充能提高 {0}%",
+    "en": "{0}% increased Flask Charges gained from Kills"
+  },
+  {
+    "id": "flask_charges_granted_from_weapon_kills_+%",
+    "zh": "消灭获得的药剂充能降低 {0}%",
+    "en": "{0}% reduced Flask Charges gained from Kills"
+  },
+  {
+    "id": "gain_1_rare_monster_mod_on_killing_blow_with_weapons_for_60_seconds_%_chance",
+    "zh": "击败稀有敌人时有 {0}% 的几率\n获得它的一项属性词缀，持续 60 秒",
+    "en": "Killing Blows against Rare Monsters have a {0}% chance\nto grant one of their Modifiers for 60 seconds"
+  },
+  {
+    "id": "gain_rage_on_hitting_rare_unique_enemy_with_weapon_%",
+    "zh": "击中稀有或传奇敌人时，有 {0}% 的几率获得 1 点怒火",
+    "en": "{0}% chance to gain 1 Rage when you Hit a Rare or Unique Enemy"
+  },
+  {
+    "id": "gain_rage_on_hitting_rare_unique_enemy_with_weapon_%",
+    "zh": "击中稀有或传奇敌人时，会获得 1 点怒火",
+    "en": "Gain 1 Rage when you Hit a Rare or Unique Enemy"
+  },
+  {
+    "id": "leech_%_is_instant_with_weapons_vs_low_life_enemies",
+    "zh": "对低血敌人的 {0}% 的偷取立即生效",
+    "en": "{0}% of Leech is Instant against Low Life Enemies"
+  },
+  {
+    "id": "life_leech_on_overkill_weapon_damage_%",
+    "zh": "溢出伤害的 {0}% 转为生命偷取",
+    "en": "{0}% of Overkill Damage is Leeched as Life"
+  },
+  {
+    "id": "mana_regeneration_rate_+%_if_enemy_shocked_with_weapon_recently",
+    "zh": "若你近期内使敌人感电，则魔力回复速度加快 {0}%",
+    "en": "{0}% increased Mana Regeneration Rate if you have Shocked an Enemy Recently"
+  },
+  {
+    "id": "mana_regeneration_rate_+%_if_enemy_shocked_with_weapon_recently",
+    "zh": "若你近期内使敌人感电，则魔力回复速度减慢 {0}%",
+    "en": "{0}% reduced Mana Regeneration Rate if you have Shocked an Enemy Recently"
+  },
+  {
+    "id": "melee_splash_with_weapons melee_splash_area_of_effect_+%",
+    "zh": "近战打击技能对周围目标造成溅射伤害",
+    "en": "Melee Strike Skills deal Splash Damage to surrounding targets"
+  },
+  {
+    "id": "melee_splash_with_weapons melee_splash_area_of_effect_+%",
+    "zh": "近战打击技能对周围目标造成溅射伤害，其效果范围扩大 {0}%",
+    "en": "Melee Strike Skills deal Splash Damage to surrounding targets, with {0}% increased Area of Effect"
+  },
+  {
+    "id": "melee_splash_with_weapons melee_splash_area_of_effect_+%",
+    "zh": "近战打击技能对周围目标造成溅射伤害，其效果范围缩小 {0}%",
+    "en": "Melee Strike Skills deal Splash Damage to surrounding targets, with {0}% reduced Area of Effect"
+  },
+  {
+    "id": "melee_weapon_range_+",
+    "zh": "近战打击范围 +1 米",
+    "en": "+1 metre to Melee Strike Range"
+  },
+  {
+    "id": "melee_weapon_range_+",
+    "zh": "近战打击范围 {0} 米",
+    "en": "{0} metres to Melee Strike Range"
+  },
+  {
+    "id": "number_of_additional_projectiles_with_weapon_attacks_if_you_have_been_hit_recently",
+    "zh": "若你近期被击中，武器攻击发射一枚额外投射物",
+    "en": "Weapon Attacks fire an additional Projectile if you've been Hit Recently"
+  },
+  {
+    "id": "number_of_additional_projectiles_with_weapon_attacks_if_you_have_been_hit_recently",
+    "zh": "若你近期被击中，武器攻击发射 {0} 枚额外投射物",
+    "en": "Weapon Attacks fire {0} additional Projectiles if you've been Hit Recently"
+  },
+  {
+    "id": "overwhelm_%_physical_damage_reduction_with_weapons_%",
+    "zh": "压制 {0}% 的物理伤害减免",
+    "en": "Overwhelm {0}% of Physical Damage Reduction"
+  },
+  {
+    "id": "phasing_for_4_seconds_on_weapon_kill_%",
+    "zh": "击败敌人时有 {0}% 的几率获得 4 秒【迷踪】状态",
+    "en": "{0}% chance to gain Phasing for 4 seconds on Kill"
+  },
+  {
+    "id": "phasing_for_4_seconds_on_weapon_kill_%",
+    "zh": "击败敌人时获得 4 秒【迷踪】状态",
+    "en": "Gain Phasing for 4 seconds on Kill"
+  },
+  {
+    "id": "random_curse_on_weapon_hit_%",
+    "zh": "击中时有 {0}% 的几率用一种随机魔蛊诅咒敌人",
+    "en": "{0}% chance to Curse Enemies with a random Hex on Hit"
+  },
+  {
+    "id": "recover_%_maximum_life_on_killing_rare_or_unique_with_weapon",
+    "zh": "击败稀有或传奇敌人时回复 {0}% 的生命",
+    "en": "Recover {0}% of Life on Killing a Rare or Unique Enemy"
+  },
+  {
+    "id": "recover_%_maximum_life_on_killing_rare_or_unique_with_weapon",
+    "zh": "击败稀有或传奇敌人时失去 {0}% 的生命",
+    "en": "Lose {0}% of Life on Killing a Rare or Unique Enemy"
+  },
+  {
+    "id": "reduce_enemy_chaos_resistance_with_weapons_%",
+    "zh": "伤害穿透 {0}% 混沌抗性",
+    "en": "Damage Penetrates {0}% Chaos Resistance"
+  },
+  {
+    "id": "reduce_enemy_chaos_resistance_with_weapons_%",
+    "zh": "你的击中将混沌抗性视为比实际高 {0}%",
+    "en": "Your Hits treat Chaos Resistance as {0}% higher than actual value"
+  },
+  {
+    "id": "reduce_enemy_cold_resistance_with_weapons_%",
+    "zh": "伤害穿透 {0}% 冰霜抗性",
+    "en": "Damage Penetrates {0}% Cold Resistance"
+  },
+  {
+    "id": "reduce_enemy_cold_resistance_with_weapons_%",
+    "zh": "你的击中将冰霜抗性视为比实际高 {0}%",
+    "en": "Your Hits treat Cold Resistance as {0}% higher than actual value"
+  },
+  {
+    "id": "reduce_enemy_fire_resistance_with_weapons_%",
+    "zh": "伤害穿透 {0}% 火焰抗性",
+    "en": "Damage Penetrates {0}% Fire Resistance"
+  },
+  {
+    "id": "reduce_enemy_fire_resistance_with_weapons_%",
+    "zh": "你的击中将火焰抗性视为比实际高 {0}%",
+    "en": "Your Hits treat Fire Resistance as {0}% higher than actual value"
+  },
+  {
+    "id": "reduce_enemy_lightning_resistance_with_weapons_%",
+    "zh": "伤害穿透 {0}% 的闪电抗性",
+    "en": "Damage Penetrates {0}% Lightning Resistance"
+  },
+  {
+    "id": "reduce_enemy_lightning_resistance_with_weapons_%",
+    "zh": "你的击中将闪电抗性视为比实际高 {0}%",
+    "en": "Your Hits treat Lightning Resistance as {0}% higher than actual value"
+  },
+  {
+    "id": "refresh_bleeding_duration_on_weapon_hit_%_chance",
+    "zh": "击中有 {0}% 的几率刷新流血持续时间",
+    "en": "{0}% chance to refresh Bleeding Duration on Hit"
+  },
+  {
+    "id": "refresh_ignite_duration_on_weapon_hit_%_chance",
+    "zh": "击中有 {0}% 的几率刷新点燃的持续时间",
+    "en": "{0}% chance to refresh Ignite Duration on Hit"
+  },
+  {
+    "id": "shatter_on_weapon_kill_chance_%",
+    "zh": "击败敌人有 {0}% 的几率将其像冻结一样击碎",
+    "en": "Killing Blows have {0}% chance to Shatter Enemies as though Frozen"
+  },
+  {
+    "id": "weapon_skill_area_of_effect_+%_if_enemy_killed_recently",
+    "zh": "若你近期内有击败敌人，则效果区域扩大 {0}%",
+    "en": "{0}% increased Area of Effect if you've Killed Recently"
+  },
+  {
+    "id": "weapon_skill_area_of_effect_+%_if_enemy_killed_recently",
+    "zh": "若你近期内有击败敌人，则效果区域缩小 {0}%",
+    "en": "{0}% reduced Area of Effect if you've Killed Recently"
+  },
+  {
+    "id": "steal_endurance_charges_on_hit_%_with_weapons",
+    "zh": "击中时有 {0}% 的几率偷取耐力球",
+    "en": "{0}% chance to Steal Endurance Charges on Hit"
+  },
+  {
+    "id": "steal_endurance_charges_on_hit_%_with_weapons",
+    "zh": "击中时偷取耐力球",
+    "en": "Hits Steal Endurance Charges"
+  },
+  {
+    "id": "steal_frenzy_charges_on_hit_%_with_weapons",
+    "zh": "击中时有 {0}% 的几率偷取狂怒球",
+    "en": "{0}% chance to Steal Frenzy Charges on Hit"
+  },
+  {
+    "id": "steal_frenzy_charges_on_hit_%_with_weapons",
+    "zh": "击中时偷取狂怒球",
+    "en": "Hits Steal Frenzy Charges"
+  },
+  {
+    "id": "steal_power_charges_on_hit_%_with_weapons",
+    "zh": "击中时有 {0}% 的几率偷取暴击球",
+    "en": "{0}% chance to Steal Power Charges on Hit"
+  },
+  {
+    "id": "steal_power_charges_on_hit_%_with_weapons",
+    "zh": "击中时偷取暴击球",
+    "en": "Hits Steal Power Charges"
+  },
+  {
+    "id": "tincture_bleeding_damage_+%_final_vs_non_bleeding_enemies",
+    "zh": "对未流血的敌人造成的流血伤害总增 {0}%",
+    "en": "Bleeding you inflict on non-Bleeding Enemies deals {0}% more Damage"
+  },
+  {
+    "id": "tincture_bleeding_damage_+%_final_vs_non_bleeding_enemies",
+    "zh": "对未流血的敌人造成的流血伤害总降 {0}%",
+    "en": "Bleeding you inflict on non-Bleeding Enemies deals {0}% less Damage"
+  },
+  {
+    "id": "weapon_additional_critical_strike_chance_percent_against_full_life_enemies",
+    "zh": "对满血敌人的暴击几率 {0}%",
+    "en": "{0}% to Critical Strike Chance against Enemies that are on Full Life"
+  },
+  {
+    "id": "weapon_attack_poison_on_non_poisoned_enemies_damage_+%",
+    "zh": "你对非中毒敌人施加的【中毒】伤害提高 {0}%",
+    "en": "Poisons you inflict on non-Poisoned Enemies deal {0}% increased Damage"
+  },
+  {
+    "id": "weapon_attack_poison_on_non_poisoned_enemies_damage_+%",
+    "zh": "你对非中毒敌人施加的【中毒】伤害降低 {0}%",
+    "en": "Poisons you inflict on non-Poisoned Enemies deal {0}% reduced Damage"
+  },
+  {
+    "id": "weapon_attack_speed_+%_if_have_blocked_recently",
+    "zh": "若你近期内有过格挡，则攻击速度加快 {0}%",
+    "en": "{0}% increased Attack Speed if you have Blocked Recently"
+  },
+  {
+    "id": "weapon_attack_speed_+%_if_have_blocked_recently",
+    "zh": "若你近期内有过格挡，则攻击速度减慢 {0}%",
+    "en": "{0}% reduced Attack Speed if you have Blocked Recently"
+  },
+  {
+    "id": "weapon_chill_minimum_slow_%",
+    "zh": "你击中造成的冰缓效果始终使行动速度降低至少 {0}%",
+    "en": "Chills from your Hits always reduce Action Speed by at least {0}%"
+  },
+  {
+    "id": "weapon_cover_in_ash_on_hit_for_X_seconds_vs_full_life_enemies",
+    "zh": "击中满血敌人时使其灰烬缠身，持续 {0} 秒",
+    "en": "Cover Enemies in Ash on Hit for {0} seconds against Enemies that are on Full Life"
+  },
+  {
+    "id": "weapon_cover_in_frost_on_hit_for_X_seconds_vs_full_life_enemies",
+    "zh": "击中满血敌人时使其冰霜缠身，持续 {0} 秒",
+    "en": "Cover Enemies in Frost on Hit for {0} seconds against Enemies that are on Full Life"
+  },
+  {
+    "id": "weapon_critical_strike_multiplier_vs_enemies_on_full_life_+",
+    "zh": "对满血敌人的暴击伤害提高 {0}%",
+    "en": "{0}% to Critical Strike Multiplier against Enemies that are on Full Life"
+  },
+  {
+    "id": "weapon_crush_on_hit_for_X_seconds_vs_full_life_enemies",
+    "zh": "击中满血敌人时碾压，持续 {0} 秒",
+    "en": "Crush Enemies for {0} seconds when you Hit them while they are on Full Life"
+  },
+  {
+    "id": "weapon_damage_+%_vs_enemies_that_are_on_low_life",
+    "zh": "对低血敌人造成的伤害提高 {0}%",
+    "en": "{0}% increased Damage against Enemies that are on Low Life"
+  },
+  {
+    "id": "weapon_damage_+%_per_non_instant_spell_cast_in_past_8_seconds",
+    "zh": "你在过去 8 秒内每施放一个非瞬发法术，伤害提高 {0}%",
+    "en": "{0}% increased Damage for each Non-Instant Spell you've Cast in the past 8 seconds"
+  },
+  {
+    "id": "weapon_damage_+%_per_non_instant_spell_cast_in_past_8_seconds",
+    "zh": "你在过去 8 秒内每施放一个非瞬发法术，伤害降低 {0}%",
+    "en": "(0)% reduced Damage for each Non-Instant Spell you've Cast in the past 8 seconds"
+  },
+  {
+    "id": "weapon_hits_cannot_be_evaded_while_on_low_life",
+    "zh": "低血时你的击中无法被闪避",
+    "en": "Your hits can't be Evaded while you are on Low Life"
+  },
+  {
+    "id": "weapon_kill_chance_to_gain_onslaught_on_kill_for_10_seconds_%",
+    "zh": "击败敌人时有 {0}% 的几率获得猛攻 10 秒",
+    "en": "{0}% chance to gain Onslaught for 10 seconds on Killing Blow"
+  },
+  {
+    "id": "weapon_kill_chance_to_gain_onslaught_on_kill_for_10_seconds_%",
+    "zh": "击败敌人时获得猛攻 10 秒",
+    "en": "Gain Onslaught for 10 seconds on Killing Blow"
+  },
+  {
+    "id": "weapon_projectile_chain_from_terrain_chance_%",
+    "zh": "投射物击中地形有 {0}% 的几率产生连锁效果",
+    "en": "Projectiles have {0}% chance to be able to Chain when colliding with terrain"
+  },
+  {
+    "id": "weapon_projectile_chain_from_terrain_chance_%",
+    "zh": "投射物击中地形产生连锁效果",
+    "en": "Projectiles can Chain when colliding with terrain"
+  },
+  {
     "id": "local_random_support_gem_level local_random_support_gem_index",
     "zh": "插入的技能石被 {0} 级的【高阶多重投射】辅助",
     "en": "Socketed Gems are Supported by Level {0} Greater Multiple Projectiles"

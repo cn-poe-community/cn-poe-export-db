@@ -51,4 +51,4 @@ const {gems} = CnPoeExportDb;
 
 [dat-schema](https://github.com/poe-tool-dev/dat-schema)
 
-[poedb](https://poedb.tw/) 传奇物品和基底物品数据来源
+[poedb](https://poedb.tw/) 赛季新增传奇物品和基底物品数据来源
