@@ -10,16 +10,14 @@ import (
 	"strings"
 )
 
+var c *config.Config
 var baseItemTypesFile string
 var txBaseItemTypesFile string
-var tattoosFile string
 
 func init() {
-	c := config.LoadConfig("../config.json")
+	c = config.LoadConfig("../config.json")
 	baseItemTypesFile = filepath.Join(c.ProjectRoot, "docs/ggpk", "data/baseitemtypes.dat64.json")
 	txBaseItemTypesFile = filepath.Join(c.ProjectRoot, "docs/ggpk/tx", "data/simplified chinese/baseitemtypes.dat64.json")
-
-	tattoosFile = filepath.Join(c.ProjectRoot, "assets/tattoos.json")
 }
 
 type Tattoo struct {
@@ -31,6 +29,7 @@ var enTattooKeyword = "Tattoo"
 var zhTattooKeyword = "文身"
 
 func initTattoos(itemTypes []*item.BaseItemType) {
+	tattoosFile := filepath.Join(c.ProjectRoot, "assets/tattoos.json")
 
 	tattoos := []*Tattoo{}
 	for _, itemType := range itemTypes {
@@ -48,7 +47,67 @@ func initTattoos(itemTypes []*item.BaseItemType) {
 	os.WriteFile(tattoosFile, data, 0o666)
 }
 
+var enFlaskSuffix = "Flask"
+var zhFlaskSuffix = "药剂"
+var enTinctureSuffix = "Tincture"
+var zhTinctureSuffix = "酊剂"
+var flaskClassesKeys = map[int]bool{0: true, 1: true, 2: true, 33: true}
+var tinctureClassesKey = 89
+
+func initFlasks(itemTypes []*item.BaseItemType) {
+	flasksFile := filepath.Join(c.ProjectRoot, "assets/flasks.json")
+	//tincturesFile := filepath.Join(c.ProjectRoot, "assets/flasks/tinctures.json")
+
+	new_flasks := []*item.BaseItemType{}
+	for _, itemType := range itemTypes {
+		if strings.HasSuffix(itemType.En, enFlaskSuffix) &&
+			strings.HasSuffix(itemType.Zh, zhFlaskSuffix) &&
+			flaskClassesKeys[itemType.GgpkType.ItemClassesKey] {
+			new_flasks = append(new_flasks, &item.BaseItemType{
+				En: itemType.En,
+				Zh: itemType.Zh,
+			})
+		}
+	}
+
+	for _, itemType := range itemTypes {
+		if strings.HasSuffix(itemType.En, enTinctureSuffix) &&
+			strings.HasSuffix(itemType.Zh, zhTinctureSuffix) &&
+			itemType.GgpkType.ItemClassesKey == tinctureClassesKey {
+			new_flasks = append(new_flasks, &item.BaseItemType{
+				En: itemType.En,
+				Zh: itemType.Zh,
+			})
+		}
+	}
+
+	data, err := os.ReadFile(flasksFile)
+	errorutil.QuitIfError(err)
+
+	flasks := []*item.DbBaseItemType{}
+
+	err = json.Unmarshal(data, &flasks)
+	errorutil.QuitIfError(err)
+
+	flaskMap := map[string]*item.DbBaseItemType{}
+	for _, f := range flasks {
+		flaskMap[f.Zh] = f
+	}
+
+	for _, f := range new_flasks {
+		if _, ok := flaskMap[f.Zh]; !ok {
+			flasks = append(flasks, item.NewDbBaseItemType(f))
+		}
+	}
+
+	data, err = json.MarshalIndent(flasks, "", "    ")
+	errorutil.QuitIfError(err)
+
+	os.WriteFile(flasksFile, data, 0o666)
+}
+
 func main() {
 	baseItemTypes := item.LoadBaseItemTypesFromGggpk(baseItemTypesFile, txBaseItemTypesFile)
 	initTattoos(baseItemTypes)
+	initFlasks(baseItemTypes)
 }

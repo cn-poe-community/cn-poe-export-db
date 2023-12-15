@@ -9,6 +9,24 @@ type GgpkBaseItemType struct {
 type BaseItemType struct {
 	En         string
 	Zh         string
-	GgpkType   *GgpkBaseItemType
-	ZhGgpkType *GgpkBaseItemType
+	GgpkType   *GgpkBaseItemType `json:"-"`
+	ZhGgpkType *GgpkBaseItemType `json:"-"`
+}
+
+type DbUnique struct {
+	Zh string `json:"zh"`
+	En string `json:"en"`
+}
+
+type DbBaseItemType struct {
+	Zh      string      `json:"zh"`
+	En      string      `json:"en"`
+	Uniques []*DbUnique `json:"uniques,omitempty"`
+}
+
+func NewDbBaseItemType(t *BaseItemType) *DbBaseItemType {
+	return &DbBaseItemType{
+		En: t.En,
+		Zh: t.Zh,
+	}
 }
