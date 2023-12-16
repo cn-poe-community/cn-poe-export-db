@@ -802,5 +802,17 @@
                 "en": "Voices"
             }
         ]
+    },
+    {
+        "zh": "蛮熊咒符",
+        "en": "Ursine Charm"
+    },
+    {
+        "zh": "幽狼咒符",
+        "en": "Lupine Charm"
+    },
+    {
+        "zh": "暗鸦咒符",
+        "en": "Corvine Charm"
     }
 ]

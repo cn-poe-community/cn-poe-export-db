@@ -54,7 +54,7 @@ var zhTinctureSuffix = "酊剂"
 var flaskClassesKeys = map[int]bool{0: true, 1: true, 2: true, 33: true}
 var tinctureClassesKey = 89
 
-func initFlasks(itemTypes []*item.BaseItemType) {
+func updateFlasks(itemTypes []*item.BaseItemType) {
 	flasksFile := filepath.Join(c.ProjectRoot, "assets/flasks.json")
 	//tincturesFile := filepath.Join(c.ProjectRoot, "assets/flasks/tinctures.json")
 
@@ -106,8 +106,51 @@ func initFlasks(itemTypes []*item.BaseItemType) {
 	os.WriteFile(flasksFile, data, 0o666)
 }
 
+var zhCharmSuffix = "咒符"
+var charmClassesKey = 91
+
+func updateJewels(itemTypes []*item.BaseItemType) {
+	jewelsFile := filepath.Join(c.ProjectRoot, "assets/jewels.json")
+	//tincturesFile := filepath.Join(c.ProjectRoot, "assets/flasks/tinctures.json")
+
+	newJewels := []*item.BaseItemType{}
+	for _, itemType := range itemTypes {
+		if strings.HasSuffix(itemType.Zh, zhCharmSuffix) && itemType.GgpkType.ItemClassesKey == charmClassesKey {
+			newJewels = append(newJewels, &item.BaseItemType{
+				En: itemType.En,
+				Zh: itemType.Zh,
+			})
+		}
+	}
+
+	data, err := os.ReadFile(jewelsFile)
+	errorutil.QuitIfError(err)
+
+	jewels := []*item.DbBaseItemType{}
+
+	err = json.Unmarshal(data, &jewels)
+	errorutil.QuitIfError(err)
+
+	jewelMap := map[string]*item.DbBaseItemType{}
+	for _, f := range jewels {
+		jewelMap[f.Zh] = f
+	}
+
+	for _, f := range newJewels {
+		if _, ok := jewelMap[f.Zh]; !ok {
+			jewels = append(jewels, item.NewDbBaseItemType(f))
+		}
+	}
+
+	data, err = json.MarshalIndent(jewels, "", "    ")
+	errorutil.QuitIfError(err)
+
+	os.WriteFile(jewelsFile, data, 0o666)
+}
+
 func main() {
 	baseItemTypes := item.LoadBaseItemTypesFromGggpk(baseItemTypesFile, txBaseItemTypesFile)
 	initTattoos(baseItemTypes)
-	initFlasks(baseItemTypes)
+	updateFlasks(baseItemTypes)
+	updateJewels(baseItemTypes)
 }

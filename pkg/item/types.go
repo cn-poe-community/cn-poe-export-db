@@ -9,8 +9,8 @@ type GgpkBaseItemType struct {
 type BaseItemType struct {
 	En         string
 	Zh         string
-	GgpkType   *GgpkBaseItemType `json:"-"`
-	ZhGgpkType *GgpkBaseItemType `json:"-"`
+	GgpkType   *GgpkBaseItemType
+	ZhGgpkType *GgpkBaseItemType
 }
 
 type DbUnique struct {
