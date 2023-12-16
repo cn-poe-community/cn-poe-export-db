@@ -26,3 +26,13 @@ type Gem struct {
 	En string `json:"en"`
 	Zh string `json:"zh"`
 }
+
+type GgpkGemEffect struct {
+	Id   string
+	Name string
+}
+
+type GemEffect struct {
+	Zh string
+	En string
+}

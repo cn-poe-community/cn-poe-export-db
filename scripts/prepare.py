@@ -131,24 +131,29 @@ poedat = "tools/poedat/poedat.exe"
 bundled_files = [
     "metadata/statdescriptions/stat_descriptions.txt",
     "metadata/statdescriptions/passive_skill_stat_descriptions.txt",
+    "metadata/statdescriptions/tincture_stat_descriptions.txt",
     "data/indexablesupportgems.dat64",
     "data/indexableskillgems.dat64",
-    "data/baseitemtypes.dat64"
+    "data/baseitemtypes.dat64",
+    "data/gemeffects.dat64"
 ]
 
 tx_bundled_files = [
     "metadata/statdescriptions/stat_descriptions.txt",
     "metadata/statdescriptions/passive_skill_stat_descriptions.txt",
+    "metadata/statdescriptions/tincture_stat_descriptions.txt",
     "data/simplified chinese/indexablesupportgems.dat64",
     "data/simplified chinese/indexableskillgems.dat64",
-    "data/simplified chinese/baseitemtypes.dat64"
+    "data/simplified chinese/baseitemtypes.dat64",
+    "data/simplified chinese/gemeffects.dat64"
 ]
 
 
 tables = {
         "indexablesupportgems.dat64": "IndexableSupportGems",
-         "indexableskillgems.dat64":"IndexableSkillGems",
-         "baseitemtypes.dat64":"BaseItemTypes"
+         "indexableskillgems.dat64": "IndexableSkillGems",
+         "baseitemtypes.dat64": "BaseItemTypes",
+         "gemeffects.dat64": "GemEffects"
 }
 
 def extractBundledFiles():

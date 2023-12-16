@@ -504,10 +504,6 @@
     "zh": "清晰"
   },
   {
-    "en": "WIP Support",
-    "zh": "WIP Support"
-  },
-  {
     "en": "Culling Strike Support",
     "zh": "终结(辅)"
   },
@@ -970,10 +966,6 @@
   {
     "en": "Vaal Breach",
     "zh": "瓦尔：裂隙"
-  },
-  {
-    "en": "...",
-    "zh": "..."
   },
   {
     "en": "Vaal Flameblast",
@@ -1544,10 +1536,6 @@
     "zh": "奋锐光环"
   },
   {
-    "en": "[UNUSED] Handcast Rapid Fire",
-    "zh": "DNT Handcast Rapid Fire"
-  },
-  {
     "en": "Malevolence",
     "zh": "怨毒光环"
   },
@@ -1564,20 +1552,8 @@
     "zh": "钢铁之肤"
   },
   {
-    "en": "[UNUSED] Bone Armour",
-    "zh": "[UNUSED] Bone Armour"
-  },
-  {
     "en": "Dash",
     "zh": "冲刺"
-  },
-  {
-    "en": "[UNUSED] Quick Block",
-    "zh": "[DNT] Quick Block"
-  },
-  {
-    "en": "[UNUSED] Replicate",
-    "zh": "[DNT] Replicate"
   },
   {
     "en": "Bladestorm",
@@ -1598,10 +1574,6 @@
   {
     "en": "Chain Hook",
     "zh": "钩链攻击"
-  },
-  {
-    "en": "[UNUSED] Blitz",
-    "zh": "DNT Blitz"
   },
   {
     "en": "Close Combat Support",
@@ -1626,10 +1598,6 @@
   {
     "en": "Impale Support",
     "zh": "尖刺战杖"
-  },
-  {
-    "en": "[UNUSED] Slice And Dice",
-    "zh": "[DNT] Slice And Dice"
   },
   {
     "en": "Pride",
@@ -1666,10 +1634,6 @@
   {
     "en": "Predator Support",
     "zh": "掠食（辅）"
-  },
-  {
-    "en": "[UNUSED] Serpent Strike",
-    "zh": "[UNUSED] Serpent Strike"
   },
   {
     "en": "Nightblade Support",
@@ -1880,10 +1844,6 @@
     "zh": "炎军（辅）"
   },
   {
-    "en": "[UNUSED] Projectile Portal",
-    "zh": "[UNUSED] Projectile Portal"
-  },
-  {
     "en": "Spellslinger",
     "zh": "法术节魔"
   },
@@ -1898,14 +1858,6 @@
   {
     "en": "Blade Blast",
     "zh": "乱剑穿心"
-  },
-  {
-    "en": "[UNUSED] Blood Whirl",
-    "zh": "[UNUSED] Blood Whirl"
-  },
-  {
-    "en": "[UNUSED] Coiling Assault",
-    "zh": "[UNUSED] Coiling Assault"
   },
   {
     "en": "Elemental Projectiles",
@@ -2138,10 +2090,6 @@
   {
     "en": "Poisonous Concoction",
     "zh": "毒爆灵药"
-  },
-  {
-    "en": "[DNT] Call of the Wild",
-    "zh": "[DNT] Call of the Wild"
   },
   {
     "en": "Temporal Rift",
@@ -2944,10 +2892,6 @@
     "zh": "腐化战吼（辅）"
   },
   {
-    "en": "[UNUSED] Conflagration Support",
-    "zh": "[UNUSED] Conflagration Support"
-  },
-  {
     "en": "Guardian's Blessing Support",
     "zh": "守卫祝福（辅）"
   },
@@ -2990,5 +2934,713 @@
   {
     "en": "Quickstep",
     "zh": "疾步"
+  },
+  {
+    "en": "Ice Nova of Frostbolts",
+    "zh": "寒冰弹之冰霜新星"
+  },
+  {
+    "en": "Ice Nova of Deep Freeze",
+    "zh": "深寒之冰霜新星"
+  },
+  {
+    "en": "Blade Flurry of Incision",
+    "zh": "割痕之刀刃乱舞"
+  },
+  {
+    "en": "Ground Slam of Earthshaking",
+    "zh": "震地之裂地之击"
+  },
+  {
+    "en": "Cleave of Rage",
+    "zh": "怒火之劈砍"
+  },
+  {
+    "en": "Double Strike of Impaling",
+    "zh": "穿刺之双重打击"
+  },
+  {
+    "en": "Double Strike of Momentum",
+    "zh": "动量之双重打击"
+  },
+  {
+    "en": "Lacerate of Butchering",
+    "zh": "痛宰之破空斩"
+  },
+  {
+    "en": "Lacerate of Haemorrhage",
+    "zh": "血涌之破空斩"
+  },
+  {
+    "en": "Dual Strike of Ambidexterity",
+    "zh": "巧手之双持打击"
+  },
+  {
+    "en": "Frenzy of Onslaught",
+    "zh": "猛攻之狂怒"
+  },
+  {
+    "en": "Detonate Dead of Scavenging",
+    "zh": "掠命之爆灵术"
+  },
+  {
+    "en": "Detonate Dead of Chain Reaction",
+    "zh": "连锁之爆灵术"
+  },
+  {
+    "en": "Volatile Dead of Confinement",
+    "zh": "拘束之灵体火球"
+  },
+  {
+    "en": "Volatile Dead of Seething",
+    "zh": "沸燃之灵体火球"
+  },
+  {
+    "en": "Split Arrow of Splitting",
+    "zh": "分裂之分裂箭矢"
+  },
+  {
+    "en": "Cold Snap of Power",
+    "zh": "强能之霜暴"
+  },
+  {
+    "en": "Raise Zombie of Slamming",
+    "zh": "猛击之魔卫复苏"
+  },
+  {
+    "en": "Raise Zombie of Falling",
+    "zh": "殒命之魔卫复苏"
+  },
+  {
+    "en": "Caustic Arrow of Poison",
+    "zh": "剧毒之腐蚀箭矢"
+  },
+  {
+    "en": "Righteous Fire of Arcane Devotion",
+    "zh": "尊法之正义之火"
+  },
+  {
+    "en": "Discharge of Misery",
+    "zh": "苦难之解放"
+  },
+  {
+    "en": "Flicker Strike of Power",
+    "zh": "强能之闪现打击"
+  },
+  {
+    "en": "Spark of the Nova",
+    "zh": "新星之电球"
+  },
+  {
+    "en": "Spark of Unpredictability",
+    "zh": "无常之电球"
+  },
+  {
+    "en": "Ice Spear of Splitting",
+    "zh": "分裂之冰矛"
+  },
+  {
+    "en": "Raise Spectre of Transience",
+    "zh": "瞬息之召唤灵体"
+  },
+  {
+    "en": "Infernal Blow of Immolation",
+    "zh": "献祭之炼狱之击"
+  },
+  {
+    "en": "Glacial Hammer of Shattering",
+    "zh": "碎冰之冰霜之锤"
+  },
+  {
+    "en": "Viper Strike of the Mamba",
+    "zh": "曼巴之毒蛇打击"
+  },
+  {
+    "en": "Summon Skeletons of Archers",
+    "zh": "射手之召唤魔侍"
+  },
+  {
+    "en": "Summon Skeletons of Mages",
+    "zh": "法师之召唤魔侍"
+  },
+  {
+    "en": "[DNT] Heavy Strike of Clobbering",
+    "zh": "痛殴之重击"
+  },
+  {
+    "en": "Dominating Blow of Inspiring",
+    "zh": "奋发之霸气之击"
+  },
+  {
+    "en": "Rain of Arrows of Artillery",
+    "zh": "炮击之箭雨"
+  },
+  {
+    "en": "Rain of Arrows of Saturation",
+    "zh": "饱和之箭雨"
+  },
+  {
+    "en": "Firestorm of Meteors",
+    "zh": "陨星之烈炎风暴"
+  },
+  {
+    "en": "Firestorm of Pelting",
+    "zh": "碎焰之烈炎风暴"
+  },
+  {
+    "en": "Lightning Strike of Arcing",
+    "zh": "弧光之闪电打击"
+  },
+  {
+    "en": "Power Siphon of the Archmage",
+    "zh": "大法师之力量抽取"
+  },
+  {
+    "en": "Lightning Arrow of Electrocution",
+    "zh": "电殛之闪电箭矢"
+  },
+  {
+    "en": "Burning Arrow of Vigour",
+    "zh": "气焰之燃烧箭矢"
+  },
+  {
+    "en": "Icicle Mine of Fanning",
+    "zh": "扩散之冰锥地雷"
+  },
+  {
+    "en": "Icicle Mine of Sabotage",
+    "zh": "破坏之冰锥地雷"
+  },
+  {
+    "en": "Bear Trap of Skewers",
+    "zh": "钉刺之捕熊陷阱"
+  },
+  {
+    "en": "Fire Trap of Blasting",
+    "zh": "震爆之火焰陷阱"
+  },
+  {
+    "en": "Ethereal Knives of Lingering Blades",
+    "zh": "徘徊之虚空匕首"
+  },
+  {
+    "en": "Ethereal Knives of the Massacre",
+    "zh": "狂戮之虚空匕首"
+  },
+  {
+    "en": "Arc of Surging",
+    "zh": "激涌之电弧"
+  },
+  {
+    "en": "Arc of Oscillating",
+    "zh": "震荡之电弧"
+  },
+  {
+    "en": "Holy Flame Totem of Ire",
+    "zh": "怒焰之圣焰图腾"
+  },
+  {
+    "en": "Cyclone of Tumult",
+    "zh": "嚣狂之旋风斩"
+  },
+  {
+    "en": "Reave of Refraction",
+    "zh": "折射之冲击波"
+  },
+  {
+    "en": "Lightning Trap of Sparking",
+    "zh": "火花之闪电陷阱"
+  },
+  {
+    "en": "Animate Guardian of Smiting",
+    "zh": "惩击之幻化守卫"
+  },
+  {
+    "en": "Spectral Shield Throw of Shattering",
+    "zh": "碎裂之灵盾投掷"
+  },
+  {
+    "en": "Spectral Throw of Materialising",
+    "zh": "具化之灵体投掷"
+  },
+  {
+    "en": "Animate Weapon of Self Reflection",
+    "zh": "自省之幻化武器"
+  },
+  {
+    "en": "Animate Weapon of Ranged Arms",
+    "zh": "远程之幻化武器"
+  },
+  {
+    "en": "Flameblast of Celerity",
+    "zh": "敏捷之烈焰爆破"
+  },
+  {
+    "en": "Flameblast of Contraction",
+    "zh": "聚火之烈焰爆破"
+  },
+  {
+    "en": "Barrage of Volley Fire",
+    "zh": "齐发之弹幕"
+  },
+  {
+    "en": "Ball Lightning of Orbiting",
+    "zh": "周转之天雷之珠"
+  },
+  {
+    "en": "Ball Lightning of Static",
+    "zh": "静滞之天雷之珠"
+  },
+  {
+    "en": "Summon Raging Spirit of Enormity",
+    "zh": "凶恶之召唤愤怒狂灵"
+  },
+  {
+    "en": "Flame Surge of Combusting",
+    "zh": "爆燃之怒焰奔腾"
+  },
+  {
+    "en": "Glacial Cascade of the Fissure",
+    "zh": "裂隙之冰川之刺"
+  },
+  {
+    "en": "Molten Strike of the Zenith",
+    "zh": "天顶之熔岩之击"
+  },
+  {
+    "en": "Pyroclast Mine of Sabotage",
+    "zh": "破坏之火屑地雷"
+  },
+  {
+    "en": "Tornado Shot of Cloudburst",
+    "zh": "穿云之龙卷射击"
+  },
+  {
+    "en": "Lightning Tendrils of Eccentricity",
+    "zh": "离心之电能释放"
+  },
+  {
+    "en": "Lightning Tendrils of Escalation",
+    "zh": "增幅之电能释放"
+  },
+  {
+    "en": "Blink Arrow of Bombarding Clones",
+    "zh": "轰炸复制体之闪现射击"
+  },
+  {
+    "en": "Blink Arrow of Prismatic Clones",
+    "zh": "棱光复制体之闪现射击"
+  },
+  {
+    "en": "Mirror Arrow of Bombarding Clones",
+    "zh": "轰炸复制体之魅影射击"
+  },
+  {
+    "en": "Mirror Arrow of Prismatic Clones",
+    "zh": "棱光复制体之魅影射击"
+  },
+  {
+    "en": "Summon Chaos Golem of Hordes",
+    "zh": "结群之召唤混沌魔像"
+  },
+  {
+    "en": "Summon Chaos Golem of the Maelström",
+    "zh": "混渊之召唤混沌魔像"
+  },
+  {
+    "en": "Summon Ice Golem of Hordes",
+    "zh": "结群之召唤寒冰魔像"
+  },
+  {
+    "en": "Summon Ice Golem of Shattering",
+    "zh": "碎冰之召唤寒冰魔像"
+  },
+  {
+    "en": "Summon Flame Golem of Hordes",
+    "zh": "结群之召唤烈焰魔像"
+  },
+  {
+    "en": "Summon Flame Golem of the Meteor",
+    "zh": "陨星之召唤烈焰魔像"
+  },
+  {
+    "en": "Summon Lightning Golem of Hordes",
+    "zh": "结群之召唤闪电魔像"
+  },
+  {
+    "en": "Ice Crash of Cadence",
+    "zh": "错落之寒冰冲击"
+  },
+  {
+    "en": "Flame Dash of Return",
+    "zh": "归返之烈焰冲刺"
+  },
+  {
+    "en": "Frost Blades of Katabasis",
+    "zh": "冥域之冰霜之刃"
+  },
+  {
+    "en": "Wild Strike of Extremes",
+    "zh": "极限之野性打击"
+  },
+  {
+    "en": "Ice Trap of Hollowness",
+    "zh": "空洞之冰冻陷阱"
+  },
+  {
+    "en": "Galvanic Arrow of Energy",
+    "zh": "聚能之电光箭"
+  },
+  {
+    "en": "Galvanic Arrow of Surging",
+    "zh": "浪涌之电光箭"
+  },
+  {
+    "en": "Bladefall of Volleys",
+    "zh": "连绵之虚空刀雨"
+  },
+  {
+    "en": "Bladefall of Impaling",
+    "zh": "穿刺之虚空刀雨"
+  },
+  {
+    "en": "Blade Vortex of the Scythe",
+    "zh": "巨镰之飞刃风暴"
+  },
+  {
+    "en": "Frost Bomb of Instability",
+    "zh": "动荡之寒霜爆"
+  },
+  {
+    "en": "Frost Bomb of Forthcoming",
+    "zh": "延时之寒霜爆"
+  },
+  {
+    "en": "Siege Ballista of Splintering",
+    "zh": "分叉之攻城炮台"
+  },
+  {
+    "en": "Summon Stone Golem of Hordes",
+    "zh": "结群之召唤巨石魔像"
+  },
+  {
+    "en": "Summon Stone Golem of Safeguarding",
+    "zh": "卫护之召唤巨石魔像"
+  },
+  {
+    "en": "Contagion of Subsiding",
+    "zh": "痼疾之瘟疫"
+  },
+  {
+    "en": "Contagion of Transference",
+    "zh": "转移之瘟疫"
+  },
+  {
+    "en": "Blight of Contagion",
+    "zh": "传染之枯萎"
+  },
+  {
+    "en": "Blight of Atrophy",
+    "zh": "萎缩之枯萎"
+  },
+  {
+    "en": "Essence Drain of Desperation",
+    "zh": "绝望之灵魂吸取"
+  },
+  {
+    "en": "Essence Drain of Wickedness",
+    "zh": "邪门之灵魂吸取"
+  },
+  {
+    "en": "Sunder of Earthbreaking",
+    "zh": "裂地之大地震击"
+  },
+  {
+    "en": "Vortex of Projection",
+    "zh": "投射之漩涡"
+  },
+  {
+    "en": "Scorching Ray of Immolation",
+    "zh": "焚灭之灼热光线"
+  },
+  {
+    "en": "Cremation of Exhuming",
+    "zh": "掘灭之火葬"
+  },
+  {
+    "en": "Cremation of the Volcano",
+    "zh": "火山之火葬"
+  },
+  {
+    "en": "Bodyswap of Sacrifice",
+    "zh": "牺牲之灵体转换"
+  },
+  {
+    "en": "Tectonic Slam of Cataclysm",
+    "zh": "灾变之破釜一击"
+  },
+  {
+    "en": "Explosive Trap of Shrapnel",
+    "zh": "破片之爆炸陷阱"
+  },
+  {
+    "en": "Explosive Trap of Magnitude",
+    "zh": "剧烈之爆炸陷阱"
+  },
+  {
+    "en": "Lightning Spire Trap of Zapping",
+    "zh": "震荡之电塔陷阱"
+  },
+  {
+    "en": "Lightning Spire Trap of Overloading",
+    "zh": "超载之电塔陷阱"
+  },
+  {
+    "en": "Seismic Trap of Swells",
+    "zh": "膨胀之震波陷阱"
+  },
+  {
+    "en": "Consecrated Path of Endurance",
+    "zh": "强韧之奉献之路"
+  },
+  {
+    "en": "Smite of Divine Judgement",
+    "zh": "圣裁之惩击"
+  },
+  {
+    "en": "Scourge Arrow of Menace",
+    "zh": "威胁之天灾之箭"
+  },
+  {
+    "en": "Toxic Rain of Sporeburst",
+    "zh": "孢子迸发之毒雨"
+  },
+  {
+    "en": "Toxic Rain of Withering",
+    "zh": "凋零之毒雨"
+  },
+  {
+    "en": "Lancing Steel of Spraying",
+    "zh": "飞射之断金之刃"
+  },
+  {
+    "en": "Storm Brand of Indecision",
+    "zh": "无定之风暴烙印"
+  },
+  {
+    "en": "Shattering Steel of Ammunition",
+    "zh": "备弹之破碎铁刃"
+  },
+  {
+    "en": "Armageddon Brand of Volatility",
+    "zh": "无常之末日烙印"
+  },
+  {
+    "en": "Armageddon Brand of Recall",
+    "zh": "回溯之末日烙印"
+  },
+  {
+    "en": "Purifying Flame of Revelations",
+    "zh": "启示之净化烈焰"
+  },
+  {
+    "en": "Soulrend of Reaping",
+    "zh": "收割之裂魂术"
+  },
+  {
+    "en": "Soulrend of the Spiral",
+    "zh": "螺旋之裂魂术"
+  },
+  {
+    "en": "Bane of Condemnation",
+    "zh": "罪罚之混沌之毒"
+  },
+  {
+    "en": "Divine Ire of Holy Lightning",
+    "zh": "神雷之圣怨"
+  },
+  {
+    "en": "Divine Ire of Disintegration",
+    "zh": "瓦解之圣怨"
+  },
+  {
+    "en": "Bladestorm of Uncertainty",
+    "zh": "无定之剑刃风暴"
+  },
+  {
+    "en": "Perforate of Duality",
+    "zh": "对偶之凿击"
+  },
+  {
+    "en": "Perforate of Bloodshed",
+    "zh": "喋血之凿击"
+  },
+  {
+    "en": "[DNT] Chain Hook of Pulling",
+    "zh": "拉扯之钩链攻击"
+  },
+  {
+    "en": "Frostblink of Wintry Blast",
+    "zh": "冰爆之冰霜闪现"
+  },
+  {
+    "en": "Summon Carrion Golem of Hordes",
+    "zh": "结群之召唤腐化魔像"
+  },
+  {
+    "en": "Summon Carrion Golem of Scavenging",
+    "zh": "敛骸之召唤腐化魔像"
+  },
+  {
+    "en": "Shrapnel Ballista of Steel",
+    "zh": "刚刃之散射弩炮"
+  },
+  {
+    "en": "Stormbind of Teleportation",
+    "zh": "传送之缚雷之纹"
+  },
+  {
+    "en": "Kinetic Bolt of Fragmentation",
+    "zh": "碎裂之念动飞箭"
+  },
+  {
+    "en": "Blade Blast of Unloading",
+    "zh": "倾泻之乱剑穿心"
+  },
+  {
+    "en": "Blade Blast of Dagger Detonation",
+    "zh": "轰匕之乱剑穿心"
+  },
+  {
+    "en": "Penance Brand of Dissipation",
+    "zh": "辐照之忏悔烙印"
+  },
+  {
+    "en": "Penance Brand of Conduction",
+    "zh": "传导之忏悔烙印"
+  },
+  {
+    "en": "Earthshatter of Fragility",
+    "zh": "脆弱之尖刺战吼"
+  },
+  {
+    "en": "Earthshatter of Prominence",
+    "zh": "涌升之尖刺战吼"
+  },
+  {
+    "en": "[DNT] Blazing Salvo of Wildfire",
+    "zh": "野火之怒炎穿心"
+  },
+  {
+    "en": "Void Sphere of Rending",
+    "zh": "撕碎之虚空法球"
+  },
+  {
+    "en": "Crackling Lance of Branching",
+    "zh": "分叉之电殛长枪"
+  },
+  {
+    "en": "Crackling Lance of Disintegration",
+    "zh": "瓦解之电殛长枪"
+  },
+  {
+    "en": "Splitting Steel of Ammunition",
+    "zh": "备弹之分裂钢刃"
+  },
+  {
+    "en": "[DNT] Flame Wall of Forking",
+    "zh": "分叉投射之烈焰之墙"
+  },
+  {
+    "en": "[DNT] Flame Wall of Surging",
+    "zh": "焰涌之烈焰之墙"
+  },
+  {
+    "en": "Hexblast of Contradiction",
+    "zh": "悖论之魔蛊爆炸"
+  },
+  {
+    "en": "Hexblast of Havoc",
+    "zh": "浩劫之魔蛊爆炸"
+  },
+  {
+    "en": "Exsanguinate of Transmission",
+    "zh": "传输之赤炼魔光"
+  },
+  {
+    "en": "Rage Vortex of Berserking",
+    "zh": "狂暴之怒火漩涡"
+  },
+  {
+    "en": "Absolution of Inspiring",
+    "zh": "奋发之赦罪"
+  },
+  {
+    "en": "Forbidden Rite of Soul Sacrifice",
+    "zh": "祭魂之禁断典仪"
+  },
+  {
+    "en": "Blade Trap of Greatswords",
+    "zh": "巨剑之剑刃陷阱"
+  },
+  {
+    "en": "Blade Trap of Laceration",
+    "zh": "裂伤之剑刃陷阱"
+  },
+  {
+    "en": "Storm Rain of the Conduit",
+    "zh": "引雷之暴雨箭"
+  },
+  {
+    "en": "Storm Rain of the Fence",
+    "zh": "栅篱之暴雨箭"
+  },
+  {
+    "en": "Shield Crush of the Chieftain",
+    "zh": "酋长之盾牌碾压"
+  },
+  {
+    "en": "Summon Reaper of Revenants",
+    "zh": "亡魂之召唤追命死灵"
+  },
+  {
+    "en": "Summon Reaper of Eviscerating",
+    "zh": "裂骨之召唤追命死灵"
+  },
+  {
+    "en": "Boneshatter of Complex Trauma",
+    "zh": "重创之七伤破"
+  },
+  {
+    "en": "Boneshatter of Carnage",
+    "zh": "不坏之七伤破"
+  },
+  {
+    "en": "Explosive Concoction of Destruction",
+    "zh": "毁灭之爆破灵药"
+  },
+  {
+    "en": "Eye of Winter of Finality",
+    "zh": "暮冬之凛冬之眼"
+  },
+  {
+    "en": "Eye of Winter of Transience",
+    "zh": "瞬息之凛冬之眼"
+  },
+  {
+    "en": "Lightning Conduit of the Heavens",
+    "zh": "苍穹之闪电通道"
+  },
+  {
+    "en": "Galvanic Field of Intensity",
+    "zh": "剧烈之电流场"
+  },
+  {
+    "en": "Volcanic Fissure of Snaking",
+    "zh": "蜿蜒之火山裂缝"
+  },
+  {
+    "en": "Frozen Legion of Rallying",
+    "zh": "集结之冰封军团"
   }
 ]

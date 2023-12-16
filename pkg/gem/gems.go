@@ -70,3 +70,39 @@ func mergeGgpkIndexableSkillGems(enEntryList, zhEntryList []*GgpkIndexableSkillG
 	}
 	return result, nil
 }
+
+func LoadGemEffectsFromGgpk(gemEffectsFile, zhGemEffectsFile string) []*GemEffect {
+	enEntries := loadGgpkGemEffects(gemEffectsFile)
+	zhEntries := loadGgpkGemEffects(zhGemEffectsFile)
+
+	gems, err := mergeGgpkGemEffects(enEntries, zhEntries)
+	errorutil.QuitIfError(err)
+	return gems
+}
+
+func loadGgpkGemEffects(filename string) []*GgpkGemEffect {
+	data, err := os.ReadFile(filename)
+	errorutil.QuitIfError(err)
+
+	var entries []*GgpkGemEffect
+
+	json.Unmarshal(data, &entries)
+
+	return entries
+}
+
+func mergeGgpkGemEffects(enEntryList, zhEntryList []*GgpkGemEffect) ([]*GemEffect, error) {
+	if len(enEntryList) < len(zhEntryList) {
+		return nil, fmt.Errorf("shorter enEntryList")
+	}
+
+	result := []*GemEffect{}
+	for i, enEntry := range enEntryList {
+		zhEntry := zhEntryList[i]
+		if enEntry.Id != zhEntry.Id {
+			errorutil.QuitIfError(fmt.Errorf("id doesnot match of gem effects: %s", zhEntry.Id))
+		}
+		result = append(result, &GemEffect{Zh: zhEntry.Name, En: enEntry.Name})
+	}
+	return result, nil
+}
