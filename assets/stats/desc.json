@@ -50125,6 +50125,16 @@
     "en": "Notable Passive Skills in Radius grant nothing"
   },
   {
+    "id": "local_unique_jewel_passive_jewel_socket_mod_effect_+%_with_corrupted_magic_jewel_socketed",
+    "zh": "若非来自星团珠宝，含有已腐化的魔法珠宝的\n珠宝插槽天赋效果提高 {0}%",
+    "en": "{0}% increased Effect of Jewel Socket Passive Skills containing\nCorrupted Magic Jewels, if not from Cluster Jewels"
+  },
+  {
+    "id": "local_unique_jewel_passive_jewel_socket_mod_effect_+%_with_corrupted_magic_jewel_socketed",
+    "zh": "若非来自星团珠宝，含有已腐化的魔法珠宝的\n珠宝插槽天赋效果降低 {0}%",
+    "en": "{0}% reduced Effect of Jewel Socket Passive Skills containing\nCorrupted Magic Jewels, if not from Cluster Jewels"
+  },
+  {
     "id": "local_unique_jewel_galvanic_arrow_area_damage_+%_with_40_dex_in_radius",
     "zh": "若范围内至少有 40 点敏捷，【电光箭】的范围伤害提高 {0}%",
     "en": "With at least 40 Dexterity in Radius, Galvanic Arrow deals {0}% increased Area Damage"

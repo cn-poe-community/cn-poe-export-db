@@ -4223,7 +4223,13 @@
     },
     {
         "zh": "枫木圆盾",
-        "en": "Maple Round Shield"
+        "en": "Maple Round Shield",
+        "uniques": [
+            {
+                "zh": "破落的庇护",
+                "en": "The Flawed Refuge"
+            }
+        ]
     },
     {
         "zh": "尖刺圆盾",

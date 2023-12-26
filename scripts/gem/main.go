@@ -49,19 +49,16 @@ func initGems(baseTypes []*item.BaseItemType, gemEffects []*gem.GemEffect) {
 	transfiguredGems := []*gem.Gem{}
 	transfiguredGemMap := map[string]*gem.Gem{}
 	for _, effect := range gemEffects {
-		names := possibleGemNames(effect.Zh)
-		if len(names) > 0 {
-			for _, name := range names {
-				if _, ok := gemMap[name]; ok { // 如果子名称是合法的宝石名称
-					if _, ok := transfiguredGemMap[effect.Zh]; !ok { //避免重复添加
-						g := &gem.Gem{
-							En: effect.En,
-							Zh: effect.Zh,
-						}
-						transfiguredGems = append(transfiguredGems, g)
-						transfiguredGemMap[g.Zh] = g
+		zh := effect.Zh
+		if !stringutil.IsASCII(zh) {
+			if _, ok := gemMap[zh]; !ok {
+				if _, ok := transfiguredGemMap[zh]; !ok {
+					g := &gem.Gem{
+						En: effect.En,
+						Zh: effect.Zh,
 					}
-					break
+					transfiguredGems = append(transfiguredGems, g)
+					transfiguredGemMap[g.Zh] = g
 				}
 			}
 		}
@@ -73,20 +70,6 @@ func initGems(baseTypes []*item.BaseItemType, gemEffects []*gem.GemEffect) {
 	errorutil.QuitIfError(err)
 
 	os.WriteFile(gemsFile, data, 0o666)
-}
-
-func possibleGemNames(zh string) []string {
-	if stringutil.IsASCII(zh) {
-		return nil
-	}
-
-	var result []string
-	for i, r := range zh {
-		if r == '之' && len(zh) > i+3 {
-			result = append(result, zh[i+3:])
-		}
-	}
-	return result
 }
 
 func main() {

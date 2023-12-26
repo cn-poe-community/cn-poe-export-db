@@ -906,6 +906,10 @@
             {
                 "zh": "圣徒胫骨",
                 "en": "Femurs of the Saints"
+            },
+            {
+                "zh": "暗影的重负",
+                "en": "The Burden of Shadows"
             }
         ]
     },
@@ -2579,7 +2583,13 @@
     },
     {
         "zh": "权贵之剑",
-        "en": "Graceful Sword"
+        "en": "Graceful Sword",
+        "uniques": [
+            {
+                "zh": "掳名之锋",
+                "en": "Nametaker"
+            }
+        ]
     },
     {
         "zh": "青铜短剑",
