@@ -12050,11 +12050,6 @@
     "en": "All hits are Critical Strikes"
   },
   {
-    "id": "wall_maximum_length quality_display_alt_flame_wall_is_gem",
-    "zh": "墙的长度延长 {0}",
-    "en": "Increases wall length by {0}"
-  },
-  {
     "id": "attack_and_cast_speed_+%",
     "zh": "攻击与施法速度加快 {0}%",
     "en": "{0}% increased Attack and Cast Speed"
@@ -26450,13 +26445,13 @@
     "en": "Second form has {0}% less Projectile Speed"
   },
   {
-    "id": "lightning_arrow_maximum_number_of_extra_targets quality_display_lightning_arrow_is_gem",
-    "zh": "【闪电箭矢】可以击中目标周围的一名额外敌人",
-    "en": "Lightning Arrow hits an additional Enemy"
+    "id": "lightning_arrow_maximum_number_of_extra_targets",
+    "zh": "闪电箭矢击中额外 1 个敌人",
+    "en": "Lightning Arrow hits 1 additional Enemy"
   },
   {
-    "id": "lightning_arrow_maximum_number_of_extra_targets quality_display_lightning_arrow_is_gem",
-    "zh": "【闪电箭矢】可以击中目标周围的 {0} 名额外敌人",
+    "id": "lightning_arrow_maximum_number_of_extra_targets",
+    "zh": "闪电箭矢击中额外 {0} 个敌人",
     "en": "Lightning Arrow hits {0} additional Enemies"
   },
   {
@@ -26648,16 +26643,6 @@
     "id": "double_slash_radius_+%",
     "zh": "【破空斩】范围缩小 {0}%",
     "en": "{0}% reduced Lacerate Area of Effect"
-  },
-  {
-    "id": "charged_attack_damage_per_stack_+%_final quality_display_charged_attack_is_gem",
-    "zh": "每一阶会使击中和异常状态伤害总增 {0}%",
-    "en": "{0}% more Damage with Hits and Ailments for each stage"
-  },
-  {
-    "id": "charged_attack_damage_per_stack_+%_final quality_display_charged_attack_is_gem",
-    "zh": "每一阶会使击中和异常状态伤害总降 {0}%",
-    "en": "{0}% less Damage with Hits and Ailments for each stage"
   },
   {
     "id": "frost_bolt_cast_speed_+%",
@@ -32158,6 +32143,16 @@
     "id": "blade_trap_skill_area_of_effect_+%",
     "zh": "剑刃陷阱的效果区域缩小 {0}%",
     "en": "{0}% reduced Blade Trap Area of Effect"
+  },
+  {
+    "id": "blade_trap_skill_area_of_effect_+%_final",
+    "zh": "剑刃陷阱的效果范围总增 {0}%",
+    "en": "{0}% more Blade Trap Area of Effect"
+  },
+  {
+    "id": "blade_trap_skill_area_of_effect_+%_final",
+    "zh": "剑刃陷阱的效果范围总降 {0}%",
+    "en": "{0}% less Blade Trap Area of Effect"
   },
   {
     "id": "blade_vortex_blade_blast_impale_on_hit_%_chance",
@@ -39005,11 +39000,6 @@
     "en": "Dual Strike has {0}% to Critical Strike Multiplier while wielding a Dagger"
   },
   {
-    "id": "dual_strike_damage_+%_final_against_enemies_on_full_life quality_display_dual_strike_is_gem",
-    "zh": "对满血敌人造成的击中和异常状态伤害总增 {0}%",
-    "en": "{0}% more Damage with Hits and Ailments against Enemies that are on Full Life"
-  },
-  {
     "id": "dual_strike_intimidate_on_hit_while_wielding_axe",
     "zh": "持握斧类时，【双持打击】击中威吓敌人 4 秒",
     "en": "Dual Strike Intimidates Enemies for 4 seconds on Hit while wielding an Axe"
@@ -44555,19 +44545,14 @@
     "en": "Herald of Purity has {0}% reduced Reservation"
   },
   {
-    "id": "herald_of_thunder_bolt_frequency_+% quality_display_herald_of_thunder_is_gem",
+    "id": "herald_of_thunder_bolt_frequency_+%",
     "zh": "风暴击中敌人的频率提高 {0}%",
     "en": "Storms Hit Enemies with {0}% increased Frequency"
   },
   {
-    "id": "herald_of_thunder_bolt_frequency_+% quality_display_herald_of_thunder_is_gem",
-    "zh": "闪电之捷的风暴击中敌人的频率提高 {0}%",
-    "en": "Herald of Thunder's Storms Hit Enemies with {0}% increased Frequency"
-  },
-  {
-    "id": "herald_of_thunder_bolt_frequency_+% quality_display_herald_of_thunder_is_gem",
-    "zh": "闪电之捷的风暴击中敌人的频率降低 {0}%",
-    "en": "Herald of Thunder's Storms Hit Enemies with {0}% reduced Frequency"
+    "id": "herald_of_thunder_bolt_frequency_+%",
+    "zh": "风暴击中敌人的频率降低 {0}%",
+    "en": "Storms Hit Enemies with {0}% reduced Frequency"
   },
   {
     "id": "herald_of_thunder_buff_effect_+%",
@@ -50127,12 +50112,12 @@
   {
     "id": "local_unique_jewel_passive_jewel_socket_mod_effect_+%_with_corrupted_magic_jewel_socketed",
     "zh": "若非来自星团珠宝，含有已腐化的魔法珠宝的\n珠宝插槽天赋效果提高 {0}%",
-    "en": "{0}% increased Effect of Jewel Socket Passive Skills containing\nCorrupted Magic Jewels, if not from Cluster Jewels"
+    "en": "{0}% increased Effect of Jewel Socket Passive Skills containing Corrupted Magic Jewels"
   },
   {
     "id": "local_unique_jewel_passive_jewel_socket_mod_effect_+%_with_corrupted_magic_jewel_socketed",
     "zh": "若非来自星团珠宝，含有已腐化的魔法珠宝的\n珠宝插槽天赋效果降低 {0}%",
-    "en": "{0}% reduced Effect of Jewel Socket Passive Skills containing\nCorrupted Magic Jewels, if not from Cluster Jewels"
+    "en": "{0}% reduced Effect of Jewel Socket Passive Skills containing Corrupted Magic Jewels"
   },
   {
     "id": "local_unique_jewel_galvanic_arrow_area_damage_+%_with_40_dex_in_radius",
@@ -56951,8 +56936,8 @@
   },
   {
     "id": "spectres_have_base_duration_ms",
-    "zh": "灵体的基础持续时间为 {0} 秒",
-    "en": "Spectres have a Base Duration of {0} seconds"
+    "zh": "灵体的基础持续时间为 {0} 秒\n灵体无法在区域之间转移",
+    "en": "Spectres have a Base Duration of {0} seconds\nSpectres do not travel between Areas"
   },
   {
     "id": "spell_additional_critical_strike_chance_permyriad",
@@ -64576,12 +64561,12 @@
   },
   {
     "id": "random_skill_gem_level_+_level random_skill_gem_level_+_index",
-    "zh": "所有 寄生·菌潮 宝石等级 +{0}",
+    "zh": "所有 枯萎 宝石等级 +{0}",
     "en": "+{0} to Level of all Blight Gems"
   },
   {
     "id": "random_skill_gem_level_+_level random_skill_gem_level_+_index",
-    "zh": "所有 寄生·菌潮 宝石等级 -{0}",
+    "zh": "所有 枯萎 宝石等级 -{0}",
     "en": "-{0} to Level of all Blight Gems"
   },
   {
