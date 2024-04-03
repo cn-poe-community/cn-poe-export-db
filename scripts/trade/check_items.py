@@ -36,7 +36,7 @@ def load_db_items():
 
 def check_items():
     load_db_items()
-    data = load_json("../../docs/trade/zh_items.json")
+    data = load_json("../../docs/trade/tx/items")
     labelIds = ["accessories", "armour", "flasks", "jewels", "weapons"]
     for id in labelIds:
         entries = getEntries(data, id)

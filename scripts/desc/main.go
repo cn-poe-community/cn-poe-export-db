@@ -153,13 +153,13 @@ func hackDescs(descs []*desc.Desc) {
 		// 与`每个狂怒球可使攻击速度加快 {0}%`,`每个狂怒球可使攻击速度减慢 {0}%`冲突
 		// 需要translator进行hack
 		if d.Id == "attack_and_cast_speed_+%_per_frenzy_charge" {
-			if d.Texts[desc.LangZh][0].Template == "每个狂怒球可使攻击速度加快 {0}%" {
-				d.Texts[desc.LangZh][0].Template = "每个狂怒球可使攻击和施法速度加快 {0}%"
+			if d.Texts[desc.LangZh][0].Template == "每个狂怒球使攻击速度加快 {0}%" {
+				d.Texts[desc.LangZh][0].Template = "每个狂怒球使攻击和施法速度加快 {0}%"
 			} else {
 				log.Panicf("hack missed: %v", d.Id)
 			}
-			if d.Texts[desc.LangZh][1].Template == "每个狂怒球可使攻击速度减慢 {0}%" {
-				d.Texts[desc.LangZh][1].Template = "每个狂怒球可使攻击和施法速度减慢 {0}%"
+			if d.Texts[desc.LangZh][1].Template == "每个狂怒球使攻击速度减慢 {0}%" {
+				d.Texts[desc.LangZh][1].Template = "每个狂怒球使攻击和施法速度减慢 {0}%"
 			} else {
 				log.Panicf("hack missed: %v", d.Id)
 			}
@@ -220,6 +220,9 @@ var skipedDescIds = map[string]bool{
 	// 【断金之刃】的伤害提高，【断金之刃】的伤害降低
 	"shattering_steel_damage_+%": true,
 	"lancing_steel_damage_+%":    true,
+	// S25赛季内容的怪物词缀，与装备无关，而且目前存在bug
+	"chance_%_to_convert_armour_to_chromatic_orb": true,
+	"chance_%_to_convert_weapon_to_chaos_orb":     true,
 }
 
 func removeSkipedDesc(descs []*desc.Desc) []*desc.Desc {

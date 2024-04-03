@@ -114,6 +114,7 @@ def download_schema():
     print(f"downloading {schema_url}")
     req = urllib.request.Request(
         schema_url, headers={'User-agent': USER_AGENT})
+    req.set_proxy(config["httpProxy"], 'http')
     with urllib.request.urlopen(req) as response:
         content = response.read().decode('utf-8')
         with open(saved_path, 'wt', encoding="utf-8") as f:

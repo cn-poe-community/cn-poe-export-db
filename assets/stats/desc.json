@@ -1110,6 +1110,11 @@
     "en": "Socketed Gems are Supported by Level {0} Divine Blessing"
   },
   {
+    "id": "local_display_socketed_gems_supported_by_level_x_automation",
+    "zh": "插槽中的宝石受 {0} 级自动化辅助",
+    "en": "Socketed Gems are Supported by Level {0} Automation"
+  },
+  {
     "id": "local_display_socketed_gems_supported_by_level_x_barrage",
     "zh": "插槽内的技能石被等级 {0} 的【弹幕】辅助",
     "en": "Socketed Gems are Supported by Level {0} Barrage"
@@ -1138,6 +1143,11 @@
     "id": "local_display_socketed_gems_supported_by_level_x_brutality",
     "zh": "此物品上的技能石受到 {0} 级的 残暴 辅助",
     "en": "Socketed Gems are Supported by Level {0} Brutality"
+  },
+  {
+    "id": "local_display_socketed_gems_supported_by_level_x_call_to_arms",
+    "zh": "插槽中的宝石受 {0} 级武装召唤辅助",
+    "en": "Socketed Gems are Supported by Level {0} Call To Arms"
   },
   {
     "id": "local_display_socketed_gems_supported_by_level_x_cast_on_damage_taken",
@@ -1568,6 +1578,11 @@
     "id": "local_display_socketed_gems_supported_by_level_x_ruthless",
     "zh": "此物品上的技能石受到 {0} 级的 无情 辅助",
     "en": "Socketed Gems are Supported by Level {0} Ruthless"
+  },
+  {
+    "id": "local_display_socketed_gems_supported_by_level_x_sacred_wisps",
+    "zh": "插槽中的宝石受 {0} 级圣洁鬼灵辅助",
+    "en": "Socketed Gems are Supported by Level {0} Sacred Wisps"
   },
   {
     "id": "local_display_socketed_gems_supported_by_level_x_sacrifice",
@@ -2476,12 +2491,12 @@
   },
   {
     "id": "local_display_socketed_travel_skills_damage_+%_final",
-    "zh": "插入的位移技能的伤害总增 {0}%",
+    "zh": "插入的旅行技能的伤害总增 {0}%",
     "en": "Socketed Travel Skills deal {0}% more Damage"
   },
   {
     "id": "local_display_socketed_travel_skills_damage_+%_final",
-    "zh": "插入的位移技能的伤害总降 {0}%",
+    "zh": "插入的旅行技能的伤害总降 {0}%",
     "en": "Socketed Travel Skills deal {0}% less Damage"
   },
   {
@@ -4270,14 +4285,14 @@
     "en": "Gain {0} Power Charges on use"
   },
   {
-    "id": "local_flask_gain_x_seconds_of_onslaught_per_frenzy_charge",
-    "zh": "使用时，每个狂怒球都给予 1 秒猛攻状态",
-    "en": "Gain Onslaught for 1 second per Frenzy Charge on use"
+    "id": "local_flask_gain_x_seconds_of_onslaught_per_frenzy_charge_consumed",
+    "zh": "使用时每消耗一个狂怒球，获得 1 秒猛攻",
+    "en": "Gain Onslaught for 1 second per Frenzy Charge consumed on use"
   },
   {
-    "id": "local_flask_gain_x_seconds_of_onslaught_per_frenzy_charge",
-    "zh": "使用时，每个狂怒球都给予 {0} 秒猛攻状态",
-    "en": "Gain Onslaught for {0} seconds per Frenzy Charge on use"
+    "id": "local_flask_gain_x_seconds_of_onslaught_per_frenzy_charge_consumed",
+    "zh": "使用时每消耗一个狂怒球，获得 {0} 秒猛攻",
+    "en": "Gain Onslaught for {0} seconds per Frenzy Charge consumed on use"
   },
   {
     "id": "local_flask_gain_x_vaal_souls_on_use",
@@ -4496,7 +4511,7 @@
   },
   {
     "id": "local_flask_use_on_travel_skill_used",
-    "zh": "你使用位移技能时自动使用",
+    "zh": "你使用旅行技能时自动使用",
     "en": "Used when you Use a Travel Skill"
   },
   {
@@ -7941,7 +7956,7 @@
   },
   {
     "id": "cast_speed_+%_per_power_charge",
-    "zh": "每个暴击球可使施法速度加快 {0}%",
+    "zh": "每个暴击球使施法速度加快 {0}%",
     "en": "{0}% increased Cast Speed per Power Charge"
   },
   {
@@ -10396,7 +10411,7 @@
   },
   {
     "id": "movement_velocity_+%_per_frenzy_charge",
-    "zh": "每个狂怒球可使移动速度加快 {0}%",
+    "zh": "每个狂怒球使移动速度加快 {0}%",
     "en": "{0}% increased Movement Speed per Frenzy Charge"
   },
   {
@@ -11121,12 +11136,12 @@
   },
   {
     "id": "stun_recovery_+%_per_frenzy_charge",
-    "zh": "每个狂怒球可使晕眩回复和格挡回复提高 {0}%",
+    "zh": "每个狂怒球使晕眩回复和格挡回复提高 {0}%",
     "en": "{0}% increased Stun and Block Recovery per Frenzy Charge"
   },
   {
     "id": "stun_recovery_+%_per_frenzy_charge",
-    "zh": "每个狂怒球可使晕眩回复和格挡回复降低 {0}%",
+    "zh": "每个狂怒球使晕眩回复和格挡回复降低 {0}%",
     "en": "{0}% reduced Stun and Block Recovery per Frenzy Charge"
   },
   {
@@ -11761,12 +11776,12 @@
   },
   {
     "id": "cast_speed_+%_per_frenzy_charge",
-    "zh": "每个狂怒球可使施法速度加快 {0}%",
+    "zh": "每个狂怒球使施法速度加快 {0}%",
     "en": "{0}% increased Cast Speed per Frenzy Charge"
   },
   {
     "id": "cast_speed_+%_per_frenzy_charge",
-    "zh": "每个狂怒球可使施法速度减慢 {0}%",
+    "zh": "每个狂怒球使施法速度减慢 {0}%",
     "en": "{0}% reduced Cast Speed per Frenzy Charge"
   },
   {
@@ -12061,42 +12076,42 @@
   },
   {
     "id": "attack_speed_+%_per_frenzy_charge",
-    "zh": "每个狂怒球可使攻击速度加快 {0}%",
+    "zh": "每个狂怒球使攻击速度加快 {0}%",
     "en": "{0}% increased Attack Speed per Frenzy Charge"
   },
   {
     "id": "attack_speed_+%_per_frenzy_charge",
-    "zh": "每个狂怒球可使攻击速度减慢 {0}%",
+    "zh": "每个狂怒球使攻击速度减慢 {0}%",
     "en": "{0}% reduced Attack Speed per Frenzy Charge"
   },
   {
     "id": "attack_and_cast_speed_+%_per_frenzy_charge",
-    "zh": "每个狂怒球可使攻击和施法速度加快 {0}%",
+    "zh": "每个狂怒球使攻击和施法速度加快 {0}%",
     "en": "{0}% increased Attack and Cast Speed per Frenzy Charge"
   },
   {
     "id": "attack_and_cast_speed_+%_per_frenzy_charge",
-    "zh": "每个狂怒球可使攻击和施法速度减慢 {0}%",
+    "zh": "每个狂怒球使攻击和施法速度减慢 {0}%",
     "en": "{0}% reduced Attack and Cast Speed per Frenzy Charge"
   },
   {
     "id": "base_attack_speed_+%_per_frenzy_charge",
-    "zh": "每个狂怒球可使攻击速度加快 {0}%",
+    "zh": "每个狂怒球使攻击速度加快 {0}%",
     "en": "{0}% increased Attack Speed per Frenzy Charge"
   },
   {
     "id": "base_attack_speed_+%_per_frenzy_charge",
-    "zh": "每个狂怒球可使攻击速度减慢 {0}%",
+    "zh": "每个狂怒球使攻击速度减慢 {0}%",
     "en": "{0}% reduced Attack Speed per Frenzy Charge"
   },
   {
     "id": "accuracy_rating_+%_per_frenzy_charge",
-    "zh": "每个狂怒球可使命中值提高 {0}%",
+    "zh": "每个狂怒球使命中值提高 {0}%",
     "en": "{0}% increased Accuracy Rating per Frenzy Charge"
   },
   {
     "id": "accuracy_rating_+%_per_frenzy_charge",
-    "zh": "每个狂怒球可使命中值降低 {0}%",
+    "zh": "每个狂怒球使命中值降低 {0}%",
     "en": "{0}% reduced Accuracy Rating per Frenzy Charge"
   },
   {
@@ -12646,27 +12661,27 @@
   },
   {
     "id": "elemental_damage_+%_per_frenzy_charge",
-    "zh": "每个狂怒球可使元素伤害提高 {0}%",
+    "zh": "每个狂怒球使元素伤害提高 {0}%",
     "en": "{0}% increased Elemental Damage per Frenzy Charge"
   },
   {
     "id": "physical_damage_per_endurance_charge_+%",
-    "zh": "每个耐力球可使物理伤害提高 {0}%",
+    "zh": "每个耐力球使物理伤害提高 {0}%",
     "en": "{0}% increased Physical Damage per Endurance Charge"
   },
   {
     "id": "physical_damage_per_endurance_charge_+%",
-    "zh": "每个耐力球可使物理伤害降低 {0}%",
+    "zh": "每个耐力球使物理伤害降低 {0}%",
     "en": "{0}% reduced Physical Damage per Endurance Charge"
   },
   {
     "id": "spell_damage_+%_per_power_charge",
-    "zh": "每个暴击球可使法术伤害提高 {0}%",
+    "zh": "每个暴击球使法术伤害提高 {0}%",
     "en": "{0}% increased Spell Damage per Power Charge"
   },
   {
     "id": "wand_damage_+%_per_power_charge",
-    "zh": "每个暴击球可使法杖攻击伤害提高 {0}%",
+    "zh": "每个暴击球使法杖攻击伤害提高 {0}%",
     "en": "{0}% increased Wand Damage per Power Charge"
   },
   {
@@ -13606,7 +13621,7 @@
   },
   {
     "id": "spell_suppression_chance_%_per_fortification",
-    "zh": "法术伤害压制率按照每层护身 {0}%",
+    "zh": "法术伤害压制率按照每层护体 {0}%",
     "en": "{0}% chance to Suppress Spell Damage per Fortification"
   },
   {
@@ -15001,7 +15016,7 @@
   },
   {
     "id": "enemy_on_low_life_damage_taken_+%_per_frenzy_charge",
-    "zh": "每个狂怒球可使敌人在低血时受到的伤害提高 {0}%",
+    "zh": "每个狂怒球使敌人在低血时受到的伤害提高 {0}%",
     "en": "Enemies on Low Life take {0}% increased Damage per Frenzy Charge"
   },
   {
@@ -15026,12 +15041,12 @@
   },
   {
     "id": "projectile_speed_+%_per_frenzy_charge",
-    "zh": "每个狂怒球可使投射物速度加快 {0}%",
+    "zh": "每个狂怒球使投射物速度加快 {0}%",
     "en": "{0}% increased Projectile Speed per Frenzy Charge"
   },
   {
     "id": "projectile_damage_+%_per_power_charge",
-    "zh": "每个暴击球可使投射物伤害提高 {0}%",
+    "zh": "每个暴击球使投射物伤害提高 {0}%",
     "en": "{0}% increased Projectile Damage per Power Charge"
   },
   {
@@ -16156,12 +16171,12 @@
   },
   {
     "id": "damage_+%_vs_enemies_on_low_life_per_frenzy_charge",
-    "zh": "对低血敌人，每个狂怒球可使伤害提高 {0}%",
+    "zh": "对低血敌人，每个狂怒球使伤害提高 {0}%",
     "en": "{0}% increased Damage per Frenzy Charge with Hits against Enemies on Low Life"
   },
   {
     "id": "damage_+%_vs_enemies_on_low_life_per_frenzy_charge",
-    "zh": "对低血敌人，每个狂怒球可使伤害降低 {0}%",
+    "zh": "对低血敌人，每个狂怒球使伤害降低 {0}%",
     "en": "{0}% reduced Damage per Frenzy Charge with Hits against Enemies on Low Life"
   },
   {
@@ -16356,12 +16371,12 @@
   },
   {
     "id": "unique_gain_onslaught_when_hit_duration_ms_per_endurance_charge",
-    "zh": "被击中时，每个耐力球可使你获得 1 秒的【猛攻】状态",
+    "zh": "被击中时，每个耐力球使你获得 1 秒的【猛攻】状态",
     "en": "You gain Onslaught for 1 second per Endurance Charge when Hit"
   },
   {
     "id": "unique_gain_onslaught_when_hit_duration_ms_per_endurance_charge",
-    "zh": "被击中时，每个耐力球可使你获得 {0} 秒的【猛攻】状态",
+    "zh": "被击中时，每个耐力球使你获得 {0} 秒的【猛攻】状态",
     "en": "You gain Onslaught for {0} seconds per Endurance Charge when Hit"
   },
   {
@@ -17396,22 +17411,22 @@
   },
   {
     "id": "damage_vs_enemies_on_full_life_per_power_charge_+%",
-    "zh": "对满血敌人，每个暴击球可使伤害提高 {0}%",
+    "zh": "对满血敌人，每个暴击球使伤害提高 {0}%",
     "en": "{0}% increased Damage per Power Charge with Hits against Enemies on Full Life"
   },
   {
     "id": "damage_vs_enemies_on_full_life_per_power_charge_+%",
-    "zh": "对满血敌人，每个暴击球可使伤害降低 {0}%",
+    "zh": "对满血敌人，每个暴击球使伤害降低 {0}%",
     "en": "{0}% reduced Damage per Power Charge with Hits against Enemies on Full Life"
   },
   {
     "id": "damage_vs_enemies_on_low_life_per_power_charge_+%",
-    "zh": "对低血敌人，每个暴击球可使伤害提高 {0}%",
+    "zh": "对低血敌人，每个暴击球使伤害提高 {0}%",
     "en": "{0}% increased Damage per Power Charge with Hits against Enemies on Low Life"
   },
   {
     "id": "damage_vs_enemies_on_low_life_per_power_charge_+%",
-    "zh": "对低血敌人，每个暴击球可使伤害降低 {0}%",
+    "zh": "对低血敌人，每个暴击球使伤害降低 {0}%",
     "en": "{0}% reduced Damage per Power Charge with Hits against Enemies on Low Life"
   },
   {
@@ -18677,7 +18692,7 @@
   {
     "id": "action_speed_cannot_be_reduced_below_base",
     "zh": "你的行动速度无法被减速至基础以下",
-    "en": "Action Speed cannot be modified to below base value"
+    "en": "Action Speed cannot be modified to below Base Value"
   },
   {
     "id": "hellscape_boots_action_speed_+%_minimum_value",
@@ -18687,7 +18702,7 @@
   {
     "id": "movement_speed_cannot_be_reduced_below_base",
     "zh": "你的移动速度加成不会让你减速至基础速度以下",
-    "en": "Movement Speed cannot be modified to below base value"
+    "en": "Movement Speed cannot be modified to below Base Value"
   },
   {
     "id": "damage_+%_while_fortified",
@@ -18706,12 +18721,12 @@
   },
   {
     "id": "damage_+%_per_endurance_charge",
-    "zh": "每个耐力球可使伤害提高 {0}%",
+    "zh": "每个耐力球使伤害提高 {0}%",
     "en": "{0}% increased Damage per Endurance Charge"
   },
   {
     "id": "damage_+%_per_endurance_charge",
-    "zh": "每个耐力球可使伤害降低 {0}%",
+    "zh": "每个耐力球使伤害降低 {0}%",
     "en": "{0}% reduced Damage per Endurance Charge"
   },
   {
@@ -18826,22 +18841,22 @@
   },
   {
     "id": "taunted_enemies_chance_to_be_stunned_+%",
-    "zh": "受到你嘲讽的敌人被你晕眩的几率提高 {0}%",
+    "zh": "被你嘲讽的敌人被晕眩的几率提高 {0}%",
     "en": "Enemies you Taunt have a {0}% increased chance to be Stunned"
   },
   {
     "id": "taunted_enemies_chance_to_be_stunned_+%",
-    "zh": "受到你嘲讽的敌人被你晕眩的几率降低 {0}%",
+    "zh": "被你嘲讽的敌人被晕眩的几率降低 {0}%",
     "en": "Enemies you Taunt have a {0}% reduced chance to be Stunned"
   },
   {
     "id": "taunted_enemies_damage_taken_+%",
-    "zh": "受到你嘲讽的敌人所受到的伤害提高 {0}%",
+    "zh": "被你嘲讽的敌人受到的伤害提高 {0}%",
     "en": "Enemies Taunted by you take {0}% increased Damage"
   },
   {
     "id": "taunted_enemies_damage_taken_+%",
-    "zh": "受到你嘲讽的敌人所受到的伤害降低 {0}%",
+    "zh": "被你嘲讽的敌人受到的伤害降低 {0}%",
     "en": "Enemies Taunted by you take {0}% reduced Damage"
   },
   {
@@ -19341,22 +19356,22 @@
   },
   {
     "id": "attack_damage_+%_per_frenzy_charge",
-    "zh": "每个狂怒球可使攻击伤害提高 {0}%",
+    "zh": "每个狂怒球使攻击伤害提高 {0}%",
     "en": "{0}% increased Attack Damage per Frenzy Charge"
   },
   {
     "id": "attack_damage_+%_per_frenzy_charge",
-    "zh": "每个狂怒球可使攻击伤害降低 {0}%",
+    "zh": "每个狂怒球使攻击伤害降低 {0}%",
     "en": "{0}% reduced Attack Damage per Frenzy Charge"
   },
   {
     "id": "damage_+%_per_frenzy_charge",
-    "zh": "每个狂怒球可使伤害提高 {0}%",
+    "zh": "每个狂怒球使伤害提高 {0}%",
     "en": "{0}% increased Damage per Frenzy Charge"
   },
   {
     "id": "damage_+%_per_frenzy_charge",
-    "zh": "每个狂怒球可使伤害降低 {0}%",
+    "zh": "每个狂怒球使伤害降低 {0}%",
     "en": "{0}% reduced Damage per Frenzy Charge"
   },
   {
@@ -20150,14 +20165,14 @@
     "en": "Grant Onslaught to nearby Enemies on Kill"
   },
   {
-    "id": "chance_to_grant_nearby_enemies_unholy_might_on_kill_%",
-    "zh": "击败敌人时有 {0}% 的几率给予周围敌人不洁之力",
-    "en": "{0}% chance to grant Unholy Might to nearby Enemies on Kill"
+    "id": "chance_to_grant_nearby_enemies_old_unholy_might_on_kill_%",
+    "zh": "击败敌人时有 {0}% 的几率使周围的敌人获得混沌之威",
+    "en": "{0}% chance to grant Chaotic Might to nearby Enemies on Kill"
   },
   {
-    "id": "chance_to_grant_nearby_enemies_unholy_might_on_kill_%",
-    "zh": "击败敌人时给予周围敌人不洁之力",
-    "en": "Grant Unholy Might to nearby Enemies on Kill"
+    "id": "chance_to_grant_nearby_enemies_old_unholy_might_on_kill_%",
+    "zh": "击败敌人时使周围的敌人获得混沌之威",
+    "en": "Grant Chaotic Might to nearby Enemies on Kill"
   },
   {
     "id": "chance_to_grant_power_charge_to_nearby_allies_on_kill_%",
@@ -23246,7 +23261,7 @@
   },
   {
     "id": "enemies_damage_taken_+%_while_cursed",
-    "zh": "受到你诅咒的敌人受到的伤害提高 {0}%",
+    "zh": "被你诅咒的敌人受到的伤害提高 {0}%",
     "en": "Enemies you Curse take {0}% increased Damage"
   },
   {
@@ -23291,13 +23306,13 @@
   },
   {
     "id": "critical_strike_chance_against_enemies_on_full_life_+%",
-    "zh": "暴击率对满血敌人提高 {0}%",
-    "en": "{0}% increased Critical Strike Chance against Enemies on Full Life"
+    "zh": "对满血敌人的暴击几率提高 {0}%",
+    "en": "{0}% increased Critical Strike Chance against Enemies that are on Full Life"
   },
   {
     "id": "critical_strike_chance_against_enemies_on_full_life_+%",
-    "zh": "暴击率对满血敌人降低 {0}%",
-    "en": "{0}% reduced Critical Strike Chance against Enemies on Full Life"
+    "zh": "对满血敌人的暴击几率降低 {0}%",
+    "en": "{0}% reduced Critical Strike Chance against Enemies that are on Full Life"
   },
   {
     "id": "attack_critical_strike_damage_life_leech_permyriad",
@@ -23411,7 +23426,7 @@
   },
   {
     "id": "active_skill_attack_speed_+%_final_per_frenzy_charge",
-    "zh": "每个狂怒球可使攻击速度总增 {0}%",
+    "zh": "每个狂怒球使攻击速度总增 {0}%",
     "en": "{0}% more Attack Speed per Frenzy Charge"
   },
   {
@@ -25116,12 +25131,12 @@
   },
   {
     "id": "flicker_strike_damage_+%_per_frenzy_charge",
-    "zh": "每个狂怒球可使【闪现打击】的伤害提高 {0}%",
+    "zh": "每个狂怒球使【闪现打击】的伤害提高 {0}%",
     "en": "{0}% increased Flicker Strike Damage per Frenzy Charge"
   },
   {
     "id": "flicker_strike_damage_+%_per_frenzy_charge",
-    "zh": "每个狂怒球可使【闪现打击】的伤害降低 {0}%",
+    "zh": "每个狂怒球使【闪现打击】的伤害降低 {0}%",
     "en": "{0}% reduced Flicker Strike Damage per Frenzy Charge"
   },
   {
@@ -25201,12 +25216,12 @@
   },
   {
     "id": "frenzy_damage_+%_per_frenzy_charge",
-    "zh": "每个狂怒球可使狂怒伤害提高 {0}%",
+    "zh": "每个狂怒球使狂怒伤害提高 {0}%",
     "en": "{0}% increased Frenzy Damage per Frenzy Charge"
   },
   {
     "id": "frenzy_damage_+%_per_frenzy_charge",
-    "zh": "每个狂怒球可使狂怒伤害降低 {0}%",
+    "zh": "每个狂怒球使狂怒伤害降低 {0}%",
     "en": "{0}% reduced Frenzy Damage per Frenzy Charge"
   },
   {
@@ -25921,7 +25936,7 @@
   },
   {
     "id": "enemies_chaos_resistance_%_while_cursed",
-    "zh": "受到你诅咒的敌人 {0}% 混沌抗性",
+    "zh": "被你诅咒的敌人 {0}% 混沌抗性",
     "en": "Enemies you Curse have {0}% to Chaos Resistance"
   },
   {
@@ -26811,12 +26826,12 @@
   },
   {
     "id": "melee_damage_+%_per_endurance_charge",
-    "zh": "每 1 个耐力球可使近战伤害提高 {0}%",
+    "zh": "每 1 个耐力球使近战伤害提高 {0}%",
     "en": "{0}% increased Melee Damage per Endurance Charge"
   },
   {
     "id": "melee_damage_+%_per_endurance_charge",
-    "zh": "每 1 个耐力球可使近战伤害減少 {0}%",
+    "zh": "每 1 个耐力球使近战伤害減少 {0}%",
     "en": "{0}% reduced Melee Damage per Endurance Charge"
   },
   {
@@ -26836,8 +26851,8 @@
   },
   {
     "id": "movement_speed_+%_if_used_a_warcry_recently",
-    "zh": "若你近期内使用过战吼，则移动速度加快 {0}%",
-    "en": "{0}% increased Movement Speed if you've used a Warcry Recently"
+    "zh": "若你近期使用过战吼，移动速度提高 {0}%",
+    "en": "{0}% increased Movement Speed if you've Warcried Recently"
   },
   {
     "id": "life_leech_from_attack_damage_permyriad_vs_poisoned_enemies",
@@ -27966,7 +27981,7 @@
   },
   {
     "id": "life_leech_from_any_damage_permyriad_per_siphoning_charge",
-    "zh": "每个轮回球可使伤害的 {0}% 转化为生命偷取",
+    "zh": "每个轮回球使伤害的 {0}% 转化为生命偷取",
     "en": "{0}% of Damage Leeched as Life per Siphoning Charge"
   },
   {
@@ -28211,12 +28226,12 @@
   },
   {
     "id": "travel_skill_cooldown_speed_+%",
-    "zh": "位移技能的冷却回复率提高 {0}%",
+    "zh": "旅行技能的冷却回复率提高 {0}%",
     "en": "{0}% increased Cooldown Recovery Rate of Travel Skills"
   },
   {
     "id": "travel_skill_cooldown_speed_+%",
-    "zh": "位移技能的冷却回复率降低 {0}%",
+    "zh": "旅行技能的冷却回复率降低 {0}%",
     "en": "{0}% reduced Cooldown Recovery Rate of Travel Skills"
   },
   {
@@ -28271,12 +28286,12 @@
   },
   {
     "id": "elemental_damage_+%_per_divine_charge",
-    "zh": "每个神圣球可使元素伤害提高 {0}%",
+    "zh": "每个神圣球使元素伤害提高 {0}%",
     "en": "{0}% increased Elemental Damage per Divine Charge"
   },
   {
     "id": "elemental_damage_+%_per_divine_charge",
-    "zh": "每个神圣球可使元素伤害降低 {0}%",
+    "zh": "每个神圣球使元素伤害降低 {0}%",
     "en": "{0}% reduced Elemental Damage per Divine Charge"
   },
   {
@@ -28291,12 +28306,12 @@
   },
   {
     "id": "travel_skills_cooldown_speed_+%_per_frenzy_charge",
-    "zh": "每个狂怒球使位移技能的冷却回复速度加快 {0}%",
+    "zh": "每个狂怒球使旅行技能的冷却回复速度加快 {0}%",
     "en": "{0}% increased Cooldown Recovery Rate of Travel Skills per Frenzy Charge"
   },
   {
     "id": "travel_skills_cooldown_speed_+%_per_frenzy_charge",
-    "zh": "每个狂怒球使位移技能的冷却回复速度减慢 {0}%",
+    "zh": "每个狂怒球使旅行技能的冷却回复速度减慢 {0}%",
     "en": "{0}% reduced Cooldown Recovery Rate of Travel Skills per Frenzy Charge"
   },
   {
@@ -28311,12 +28326,12 @@
   },
   {
     "id": "lose_a_frenzy_charge_on_travel_skill_use_%_chance",
-    "zh": "当你使用位移技能时，有 {0}% 的几率失去一个狂怒球",
+    "zh": "当你使用旅行技能时，有 {0}% 的几率失去一个狂怒球",
     "en": "{0}% chance to lose a Frenzy Charge when you use a Travel Skill"
   },
   {
     "id": "lose_a_frenzy_charge_on_travel_skill_use_%_chance",
-    "zh": "当你使用位移技能时失去一个狂怒球",
+    "zh": "当你使用旅行技能时失去一个狂怒球",
     "en": "Lose a Frenzy Charge when you use a Travel Skill"
   },
   {
@@ -28546,12 +28561,12 @@
   },
   {
     "id": "extra_damage_taken_from_crit_+%_from_cursed_enemy",
-    "zh": "受诅咒的敌人的暴击对你造成的伤害提高 {0}%",
+    "zh": "受诅咒的敌人的暴击对你造成的额外伤害提高 {0}%",
     "en": "You take {0}% increased Extra Damage from Critical Strikes by Cursed Enemies"
   },
   {
     "id": "extra_damage_taken_from_crit_+%_from_cursed_enemy",
-    "zh": "受诅咒的敌人的暴击对你造成的伤害降低 {0}%",
+    "zh": "受诅咒的敌人的暴击对你造成的额外伤害降低 {0}%",
     "en": "You take {0}% reduced Extra Damage from Critical Strikes by Cursed Enemies"
   },
   {
@@ -28671,22 +28686,22 @@
   },
   {
     "id": "absolution_duration_+%",
-    "zh": "赦罪哨卫的持续时间提高 {0}%",
+    "zh": "赦罪哨兵的持续时间提高 {0}%",
     "en": "{0}% increased Sentinel of Absolution Duration"
   },
   {
     "id": "absolution_duration_+%",
-    "zh": "赦罪哨卫的持续时间降低 {0}%",
+    "zh": "赦罪哨兵的持续时间降低 {0}%",
     "en": "{0}% reduced Sentinel of Absolution Duration"
   },
   {
     "id": "absolution_minion_area_of_effect_+%",
-    "zh": "赦罪召唤的哨卫效果区域扩大 {0}%",
+    "zh": "赦罪召唤的哨兵效果区域扩大 {0}%",
     "en": "Summoned Sentinels of Absolution have {0}% increased Area of Effect"
   },
   {
     "id": "absolution_minion_area_of_effect_+%",
-    "zh": "赦罪召唤的哨卫效果区域缩小 {0}%",
+    "zh": "赦罪召唤的哨兵效果区域缩小 {0}%",
     "en": "Summoned Sentinels of Absolution have {0}% reduced Area of Effect"
   },
   {
@@ -28738,6 +28753,11 @@
     "id": "accuracy_rating_per_level",
     "zh": "每级使命中值 {0}",
     "en": "{0} to Accuracy Rating per Level"
+  },
+  {
+    "id": "accuracy_rating_+_per_2_dexterity",
+    "zh": "每 2 点敏捷使命中值 {0}",
+    "en": "{0} to Accuracy Rating per 2 Dexterity"
   },
   {
     "id": "accuracy_rating_+_per_frenzy_charge",
@@ -28797,7 +28817,7 @@
   {
     "id": "action_speed_cannot_be_slowed_below_base_if_cast_temporal_chains_in_past_10_seconds",
     "zh": "如果你在过去 10 秒内施放过时空锁链，则行动速度减缓不会低于基础速度",
-    "en": "Action Speed cannot be Slowed below Base Value if you've cast Temporal Chains in the past 10 seconds"
+    "en": "Action Speed cannot be modified to below Base Value if you've cast Temporal Chains in the past 10 seconds"
   },
   {
     "id": "action_speed_-%",
@@ -29105,6 +29125,11 @@
     "en": "{0}% additional Physical Damage Reduction while moving"
   },
   {
+    "id": "additional_spectres_per_ghastly_eye_jewel",
+    "zh": "每镶嵌一个苍白之凝珠宝，灵体数量上限 {0}",
+    "en": "{0} to maximum number of Spectres per Socketed Ghastly Eye Jewel"
+  },
+  {
     "id": "additional_spell_block_%_per_power_charge",
     "zh": "法术伤害格挡率按照每个暴击球 {0}%",
     "en": "{0}% Chance to Block Spell Damage per Power Charge"
@@ -29123,6 +29148,11 @@
     "id": "additional_strength_per_allocated_mastery",
     "zh": "力量按照配置的每个专精天赋 {0}",
     "en": "{0} to Strength per Allocated Mastery Passive Skill"
+  },
+  {
+    "id": "additional_stun_threshold_based_on_%_of_energy_shield",
+    "zh": "附加相当于能量护盾 {0}% 的晕眩阈值",
+    "en": "{0}% of your Energy Shield is added to your Stun Threshold"
   },
   {
     "id": "additive_armour_modifiers_apply_to_energy_shield_recharge_rate_at_%_value",
@@ -29796,12 +29826,12 @@
   },
   {
     "id": "area_of_effect_+%_per_endurance_charge",
-    "zh": "每个耐力球可使效果区域扩大 {0}%",
+    "zh": "每个耐力球使效果区域扩大 {0}%",
     "en": "{0}% increased Area of Effect per Endurance Charge"
   },
   {
     "id": "area_of_effect_+%_per_endurance_charge",
-    "zh": "每个耐力球可使效果区域缩小 {0}%",
+    "zh": "每个耐力球使效果区域缩小 {0}%",
     "en": "{0}% reduced Area of Effect per Endurance Charge"
   },
   {
@@ -30350,6 +30380,21 @@
     "en": "{0}% reduced Damage with Ailments from Attack Skills while wielding a Wand"
   },
   {
+    "id": "attack_and_cast_speed_+%_per_alive_packmate",
+    "zh": "怪物群中每个存活的怪物使攻击和施法速度提高 {0}%",
+    "en": "{0}% increased Attack and Cast Speed for each alive Monster in Pack"
+  },
+  {
+    "id": "attack_and_cast_speed_+%_per_alive_packmate",
+    "zh": "怪物群中每个存活的怪物使攻击和施法速度提高 {0}%",
+    "en": "{0}% increased Attack and Cast Speed  for each alive Monster in Pack"
+  },
+  {
+    "id": "attack_and_cast_speed_+%_to_grant_packmate_on_death",
+    "zh": "被击败时使怪物群的怪物攻击和施法速度提高 {0}%",
+    "en": "{0}% increased Attack and Cast Speed granted to Pack members on death"
+  },
+  {
     "id": "attack_and_cast_speed_+%_while_affected_by_a_mana_flask",
     "zh": "攻击和施法速度在任意魔力药剂生效期间加快 {0}%",
     "en": "{0}% increased Attack and Cast Speed during Effect of any Mana Flask"
@@ -30416,22 +30461,22 @@
   },
   {
     "id": "attack_and_cast_speed_+%_per_endurance_charge",
-    "zh": "每个耐力球可使攻击和施法速度加快 {0}%",
+    "zh": "每个耐力球使攻击和施法速度加快 {0}%",
     "en": "{0}% increased Attack and Cast Speed per Endurance Charge"
   },
   {
     "id": "attack_and_cast_speed_+%_per_endurance_charge",
-    "zh": "每个耐力球可使攻击和施法速度减慢 {0}%",
+    "zh": "每个耐力球使攻击和施法速度减慢 {0}%",
     "en": "{0}% reduced Attack and Cast Speed per Endurance Charge"
   },
   {
     "id": "attack_and_cast_speed_+%_per_power_charge",
-    "zh": "每个暴击球可使攻击和施法速度加快 {0}%",
+    "zh": "每个暴击球使攻击和施法速度加快 {0}%",
     "en": "{0}% increased Attack and Cast Speed per Power Charge"
   },
   {
     "id": "attack_and_cast_speed_+%_per_power_charge",
-    "zh": "每个暴击球可使攻击和施法速度减慢 {0}%",
+    "zh": "每个暴击球使攻击和施法速度减慢 {0}%",
     "en": "{0}% reduced Attack and Cast Speed per Power Charge"
   },
   {
@@ -30856,7 +30901,7 @@
   },
   {
     "id": "attack_minimum_added_physical_damage_if_have_crit_recently attack_maximum_added_physical_damage_if_have_crit_recently",
-    "zh": "近期内若造成暴击\n则给攻击附加 {0} - {1} 物理伤害",
+    "zh": "若你近期内造成过暴击\n则给攻击附加 {0} - {1} 物理伤害",
     "en": "Adds {0} to {1} Physical Damage to Attacks if you've\ndealt a Critical Strike Recently"
   },
   {
@@ -30928,6 +30973,16 @@
     "id": "attack_speed_+%_per_explicit_map_mod_affecting_area",
     "zh": "每有 1 个地图物品属性影响该地区，则攻击速度加快 {0}%",
     "en": "{0}% increased Attack Speed for each Map Item Modifier affecting the Area"
+  },
+  {
+    "id": "attack_speed_+%_per_fortification",
+    "zh": "每层护体使攻击速度提高 {0}%",
+    "en": "{0}% increased Attack Speed per Fortification"
+  },
+  {
+    "id": "attack_speed_+%_per_fortification",
+    "zh": "每层护体使攻击速度降低 {0}%",
+    "en": "{0}% reduced Attack Speed per Fortification"
   },
   {
     "id": "attack_speed_+%_while_in_sand_stance",
@@ -31173,6 +31228,11 @@
     "id": "attacks_impale_on_hit_%_chance",
     "zh": "攻击击中时穿刺敌人",
     "en": "Impale Enemies on Hit with Attacks"
+  },
+  {
+    "id": "attacks_inflict_unnerve_on_crit",
+    "zh": "攻击暴击时造成恐惧 4 秒",
+    "en": "Attacks inflict Unnerve on Critical Strike for 4 seconds"
   },
   {
     "id": "attacks_intimidate_on_hit_%",
@@ -31805,6 +31865,11 @@
     "en": "{0} to maximum number of Summoned Holy Relics"
   },
   {
+    "id": "base_number_of_sacred_wisps_allowed",
+    "zh": "圣洁鬼灵的数量上限 {0}\n召唤鬼灵的数量 {0}",
+    "en": "{0} to maximum number of Sacred Wisps\n{0} to number of Sacred Wisps Summoned"
+  },
+  {
     "id": "base_number_of_sigils_allowed_per_target",
     "zh": "你的技能可以对敌人附着一个额外烙印",
     "en": "Your Skills can have an additional Brand Attached to an Enemy"
@@ -32256,12 +32321,12 @@
   },
   {
     "id": "bleed_damage_+%_per_endurance_charge",
-    "zh": "每个耐力球可使流血伤害提高 {0}%",
+    "zh": "每个耐力球使流血伤害提高 {0}%",
     "en": "{0}% increased Damage with Bleeding per Endurance Charge"
   },
   {
     "id": "bleed_damage_+%_per_endurance_charge",
-    "zh": "每个耐力球可使流血伤害降低 {0}%",
+    "zh": "每个耐力球使流血伤害降低 {0}%",
     "en": "{0}% reduced Damage with Bleeding per Endurance Charge"
   },
   {
@@ -34250,6 +34315,101 @@
     "en": "Nearby Allies count as having Fortification equal to yours"
   },
   {
+    "id": "chance_%_to_convert_armour_to_blessed_orb",
+    "zh": "掉落受福甲有 {0}% 的几率被转化为祝福石",
+    "en": "Dropped Armour has {0}% chance to be converted to a Blessed Orb"
+  },
+  {
+    "id": "chance_%_to_convert_armour_to_cartographers_chisel",
+    "zh": "掉落的护甲有 {0}% 的几率被转化为制图钉",
+    "en": "Dropped Armour has {0}% chance to be converted to a Cartographer's Chisel"
+  },
+  {
+    "id": "chance_%_to_convert_armour_to_fusing_orb",
+    "zh": "掉落的护甲有 {0}% 的几率被转化为链结石",
+    "en": "Dropped Armour has {0}% chance to be converted to an Orb of Fusing"
+  },
+  {
+    "id": "chance_%_to_convert_armour_to_jewellers_orb",
+    "zh": "掉落的护甲有 {0}% 的几率被转化为工匠石",
+    "en": "Dropped Armour has {0}% chance to be converted to a Jeweller's Orb"
+  },
+  {
+    "id": "chance_%_to_convert_armour_to_orb_of_alteration",
+    "zh": "掉落的护甲有 {0}% 的几率被转化为改造石",
+    "en": "Dropped Armour has {0}% chance to be converted to an Orb of Alteration"
+  },
+  {
+    "id": "chance_%_to_convert_armour_to_orb_of_binding",
+    "zh": "掉落的护甲有 {0}% 的几率被转化为高阶点金石",
+    "en": "Dropped Armour has {0}% chance to be converted to an Orb of Binding"
+  },
+  {
+    "id": "chance_%_to_convert_armour_to_orb_of_horizons",
+    "zh": "掉落的护甲有 {0}% 的几率被转化为平行石",
+    "en": "Dropped Armour has {0}% chance to be converted to an Orb of Horizons"
+  },
+  {
+    "id": "chance_%_to_convert_armour_to_orb_of_scouring",
+    "zh": "掉落的护甲有 {0}% 的几率被转化为重铸石",
+    "en": "Dropped Armour has {0}% chance to be converted to an Orb of Scouring"
+  },
+  {
+    "id": "chance_%_to_convert_armour_to_orb_of_unmaking",
+    "zh": "掉落的护甲有 {0}% 的几率被转化为粉碎石",
+    "en": "Dropped Armour has {0}% chance to be converted to an Orb of Unmaking"
+  },
+  {
+    "id": "chance_%_to_convert_jewellery_to_divine_orb",
+    "zh": "掉落的饰品的 {0}% 的几率被转化为神圣石",
+    "en": "Dropped Jewellery has {0}% chance to be converted to a Divine Orb"
+  },
+  {
+    "id": "chance_%_to_convert_jewellery_to_exalted_orb",
+    "zh": "掉落的饰品的 {0}% 的几率被转化为崇高石",
+    "en": "Dropped Jewellery has {0}% chance to be converted to an Exalted Orb"
+  },
+  {
+    "id": "chance_%_to_convert_jewellery_to_orb_of_annulment",
+    "zh": "掉落的饰品有 {0}% 的几率被转化为剥离石",
+    "en": "Dropped Jewellery has {0}% chance to be converted to an Orb of Annulment"
+  },
+  {
+    "id": "chance_%_to_convert_weapon_to_enkindling_orb",
+    "zh": "掉落的武器有 {0}% 的几率被转化为启明石",
+    "en": "Dropped Weapons have {0}% chance to be converted to an Enkindling Orb"
+  },
+  {
+    "id": "chance_%_to_convert_weapon_to_gemcutters_prism",
+    "zh": "掉落的武器有 {0}% 的几率被转化为珠宝匠的棱镜",
+    "en": "Dropped Weapons have {0}% chance to be converted to a Gemcutter's Prism"
+  },
+  {
+    "id": "chance_%_to_convert_weapon_to_glassblowers_bauble",
+    "zh": "掉落的武器有 {0}% 的几率被转化为玻璃弹珠",
+    "en": "Dropped Weapons have {0}% chance to be converted to a Glassblowers Bauble"
+  },
+  {
+    "id": "chance_%_to_convert_weapon_to_instilling_orb",
+    "zh": "掉落的武器有 {0}% 的几率被转化为灌顶珠",
+    "en": "Dropped Weapons have {0}% chance to be converted to an Instilling Orb"
+  },
+  {
+    "id": "chance_%_to_convert_weapon_to_orb_of_regret",
+    "zh": "掉落的武器有 {0}% 的几率被转化为后悔石",
+    "en": "Dropped Weapons have {0}% chance to be converted to an Orb of Regret"
+  },
+  {
+    "id": "chance_%_to_convert_weapon_to_regal_orb",
+    "zh": "掉落的武器有 {0}% 的几率被转化为富豪石",
+    "en": "Dropped Weapons have {0}% chance to be converted to a Regal Orb"
+  },
+  {
+    "id": "chance_%_to_convert_weapon_to_vaal_orb",
+    "zh": "掉落的武器有 {0}% 的几率被转化为瓦尔宝珠",
+    "en": "Dropped Weapons have {0}% chance to be converted to a Vaal Orb"
+  },
+  {
     "id": "chance_%_to_drop_additional_awakened_sextant",
     "zh": "有 {0}% 几率掉落一个额外的觉醒六分仪",
     "en": "{0}% chance to drop an additional Awakened Sextant"
@@ -34545,6 +34705,11 @@
     "en": "{0}% chance to drop an additional Scarab"
   },
   {
+    "id": "chance_%_to_drop_additional_scarab_abyss",
+    "zh": "有 {0}% 几率掉落一个额外的深渊圣甲虫",
+    "en": "{0}% chance to drop an additional Abyss Scarab"
+  },
+  {
     "id": "chance_%_to_drop_additional_scarab_abyss_gilded",
     "zh": "有 {0}% 几率掉落一个额外的镀金的深渊圣甲虫",
     "en": "{0}% chance to drop an additional Gilded Abyss Scarab"
@@ -34558,6 +34723,16 @@
     "id": "chance_%_to_drop_additional_scarab_abyss_rusted",
     "zh": "有 {0}% 几率掉落一个额外的锈蚀的深渊圣甲虫",
     "en": "{0}% chance to drop an additional Rusted Abyss Scarab"
+  },
+  {
+    "id": "chance_%_to_drop_additional_scarab_anarchy",
+    "zh": "有 {0}% 几率掉落一个额外的混乱圣甲虫",
+    "en": "{0}% chance to drop an additional Anarchy Scarab"
+  },
+  {
+    "id": "chance_%_to_drop_additional_scarab_beasts",
+    "zh": "有 {0}% 几率掉落一个额外的猎魔圣甲虫",
+    "en": "{0}% chance to drop an additional Bestiary Scarab"
   },
   {
     "id": "chance_%_to_drop_additional_scarab_beasts_gilded",
@@ -34575,6 +34750,21 @@
     "en": "{0}% chance to drop an additional Rusted Bestiary Scarab"
   },
   {
+    "id": "chance_%_to_drop_additional_scarab_betrayal",
+    "zh": "有 {0}% 几率掉落一个额外的背叛者圣甲虫",
+    "en": "{0}% chance to drop an additional Betrayal Scarab"
+  },
+  {
+    "id": "chance_%_to_drop_additional_scarab_beyond",
+    "zh": "有 {0}% 几率掉落一个额外的超越圣甲虫",
+    "en": "{0}% chance to drop an additional Beyond Scarab"
+  },
+  {
+    "id": "chance_%_to_drop_additional_scarab_blight",
+    "zh": "有 {0}% 几率掉落一个额外的菌潮圣甲虫",
+    "en": "{0}% chance to drop an additional Blight Scarab"
+  },
+  {
     "id": "chance_%_to_drop_additional_scarab_blight_gilded",
     "zh": "有 {0}% 几率掉落一个额外的镀金的菌潮圣甲虫",
     "en": "{0}% chance to drop an additional Gilded Blight Scarab"
@@ -34588,6 +34778,11 @@
     "id": "chance_%_to_drop_additional_scarab_blight_rusted",
     "zh": "有 {0}% 几率掉落一个额外的锈蚀的菌潮圣甲虫",
     "en": "{0}% chance to drop an additional Rusted Blight Scarab"
+  },
+  {
+    "id": "chance_%_to_drop_additional_scarab_breach",
+    "zh": "有 {0}% 几率掉落一个额外的裂隙圣甲虫",
+    "en": "{0}% chance to drop an additional Breach Scarab"
   },
   {
     "id": "chance_%_to_drop_additional_scarab_breach_gilded",
@@ -34605,6 +34800,16 @@
     "en": "{0}% chance to drop an additional Rusted Breach Scarab"
   },
   {
+    "id": "chance_%_to_drop_additional_scarab_delirium",
+    "zh": "有 {0}% 几率掉落一个额外的惊悸迷雾圣甲虫",
+    "en": "{0}% chance to drop an additional Delirium Scarab"
+  },
+  {
+    "id": "chance_%_to_drop_additional_scarab_divination",
+    "zh": "有 {0}% 几率掉落一个额外的神恩圣甲虫",
+    "en": "{0}% chance to drop an additional Divination Scarab"
+  },
+  {
     "id": "chance_%_to_drop_additional_scarab_divination_cards_gilded",
     "zh": "有 {0}% 几率掉落一个额外的镀金的神恩圣甲虫",
     "en": "{0}% chance to drop an additional Gilded Divination Scarab"
@@ -34618,6 +34823,11 @@
     "id": "chance_%_to_drop_additional_scarab_divination_cards_rusted",
     "zh": "有 {0}% 几率掉落一个额外的锈蚀的神恩圣甲虫",
     "en": "{0}% chance to drop an additional Rusted Divination Scarab"
+  },
+  {
+    "id": "chance_%_to_drop_additional_scarab_domination",
+    "zh": "有 {0}% 几率掉落一个额外的支配圣甲虫",
+    "en": "{0}% chance to drop an additional Domination Scarab"
   },
   {
     "id": "chance_%_to_drop_additional_scarab_elder_gilded",
@@ -34635,6 +34845,21 @@
     "en": "{0}% chance to drop an additional Rusted Elder Scarab"
   },
   {
+    "id": "chance_%_to_drop_additional_scarab_essence",
+    "zh": "有 {0}% 几率掉落一个额外的精华圣甲虫",
+    "en": "{0}% chance to drop an additional Essence Scarab"
+  },
+  {
+    "id": "chance_%_to_drop_additional_scarab_expedition",
+    "zh": "有 {0}% 几率掉落一个额外的先祖秘藏圣甲虫",
+    "en": "{0}% chance to drop an additional Expedition Scarab"
+  },
+  {
+    "id": "chance_%_to_drop_additional_scarab_harbinger",
+    "zh": "有 {0}% 几率掉落一个额外的先驱圣甲虫",
+    "en": "{0}% chance to drop an additional Harbinger Scarab"
+  },
+  {
     "id": "chance_%_to_drop_additional_scarab_harbinger_gilded",
     "zh": "有 {0}% 几率掉落一个额外的镀金的先驱圣甲虫",
     "en": "{0}% chance to drop an additional Gilded Harbinger Scarab"
@@ -34650,6 +34875,26 @@
     "en": "{0}% chance to drop an additional Rusted Harbinger Scarab"
   },
   {
+    "id": "chance_%_to_drop_additional_scarab_harvest",
+    "zh": "有 {0}% 几率掉落一个额外的庄园圣甲虫",
+    "en": "{0}% chance to drop an additional Harvest Scarab"
+  },
+  {
+    "id": "chance_%_to_drop_additional_scarab_incursion",
+    "zh": "有 {0}% 几率掉落一个额外的穿越圣甲虫",
+    "en": "{0}% chance to drop an additional Incursion Scarab"
+  },
+  {
+    "id": "chance_%_to_drop_additional_scarab_influence",
+    "zh": "有 {0}% 几率掉落一个额外的影响圣甲虫",
+    "en": "{0}% chance to drop an additional Influence Scarab"
+  },
+  {
+    "id": "chance_%_to_drop_additional_scarab_legion",
+    "zh": "有 {0}% 几率掉落一个额外的军团圣甲虫",
+    "en": "{0}% chance to drop an additional Legion Scarab"
+  },
+  {
     "id": "chance_%_to_drop_additional_scarab_legion_gilded",
     "zh": "有 {0}% 几率掉落一个额外的镀金的军团圣甲虫",
     "en": "{0}% chance to drop an additional Gilded Legion Scarab"
@@ -34663,6 +34908,11 @@
     "id": "chance_%_to_drop_additional_scarab_legion_rusted",
     "zh": "有 {0}% 几率掉落一个额外的锈蚀的军团圣甲虫",
     "en": "{0}% chance to drop an additional Rusted Legion Scarab"
+  },
+  {
+    "id": "chance_%_to_drop_additional_scarab_maps",
+    "zh": "有 {0}% 几率掉落一个额外的制图者圣甲虫",
+    "en": "{0}% chance to drop an additional Cartography Scarab"
   },
   {
     "id": "chance_%_to_drop_additional_scarab_maps_gilded",
@@ -34695,6 +34945,11 @@
     "en": "{0}% chance to drop an additional Rusted Ultimatum Scarab"
   },
   {
+    "id": "chance_%_to_drop_additional_scarab_misc",
+    "zh": "[DNT]有 {0}% 几率掉落一个额外的杂类圣甲虫",
+    "en": "[DNT] {0}% chance to drop an additional Miscellaneous Scarab"
+  },
+  {
     "id": "chance_%_to_drop_additional_scarab_perandus_gilded",
     "zh": "有 {0}% 几率掉落一个额外的镀金的先祖秘藏圣甲虫",
     "en": "{0}% chance to drop an additional Gilded Expedition Scarab"
@@ -34708,6 +34963,11 @@
     "id": "chance_%_to_drop_additional_scarab_perandus_rusted",
     "zh": "有 {0}% 几率掉落一个额外的锈蚀的先祖秘藏圣甲虫",
     "en": "{0}% chance to drop an additional Rusted Expedition Scarab"
+  },
+  {
+    "id": "chance_%_to_drop_additional_scarab_ritual",
+    "zh": "有 {0}% 几率掉落一个额外的仪式圣甲虫",
+    "en": "{0}% chance to drop an additional Ritual Scarab"
   },
   {
     "id": "chance_%_to_drop_additional_scarab_shaper_gilded",
@@ -34725,6 +34985,11 @@
     "en": "{0}% chance to drop an additional Rusted Shaper Scarab"
   },
   {
+    "id": "chance_%_to_drop_additional_scarab_strongbox",
+    "zh": "有 {0}% 几率掉落一个额外的强袭圣甲虫",
+    "en": "{0}% chance to drop an additional Ambush Scarab"
+  },
+  {
     "id": "chance_%_to_drop_additional_scarab_strongbox_gilded",
     "zh": "有 {0}% 几率掉落一个额外的镀金的强袭圣甲虫",
     "en": "{0}% chance to drop an additional Gilded Ambush Scarab"
@@ -34738,6 +35003,11 @@
     "id": "chance_%_to_drop_additional_scarab_strongbox_rusted",
     "zh": "有 {0}% 几率掉落一个额外的锈蚀的强袭圣甲虫",
     "en": "{0}% chance to drop an additional Rusted Ambush Scarab"
+  },
+  {
+    "id": "chance_%_to_drop_additional_scarab_sulphite",
+    "zh": "有 {0}% 几率掉落一个额外的亚硫酸圣甲虫",
+    "en": "{0}% chance to drop an additional Sulphite Scarab"
   },
   {
     "id": "chance_%_to_drop_additional_scarab_sulphite_gilded",
@@ -34755,6 +35025,11 @@
     "en": "{0}% chance to drop an additional Rusted Sulphite Scarab"
   },
   {
+    "id": "chance_%_to_drop_additional_scarab_torment",
+    "zh": "有 {0}% 几率掉落一个额外的苦痛圣甲虫",
+    "en": "{0}% chance to drop an additional Torment Scarab"
+  },
+  {
     "id": "chance_%_to_drop_additional_scarab_torment_gilded",
     "zh": "有 {0}% 几率掉落一个额外的镀金的苦痛圣甲虫",
     "en": "{0}% chance to drop an additional Gilded Torment Scarab"
@@ -34768,6 +35043,16 @@
     "id": "chance_%_to_drop_additional_scarab_torment_rusted",
     "zh": "有 {0}% 几率掉落一个额外的锈蚀的苦痛圣甲虫",
     "en": "{0}% chance to drop an additional Rusted Torment Scarab"
+  },
+  {
+    "id": "chance_%_to_drop_additional_scarab_ultimatum",
+    "zh": "有 {0}% 几率掉落一个额外的致命贪婪圣甲虫",
+    "en": "{0}% chance to drop an additional Ultimatum Scarab"
+  },
+  {
+    "id": "chance_%_to_drop_additional_scarab_uniques",
+    "zh": "有 {0}% 几率掉落一个额外的遗物厅圣甲虫",
+    "en": "{0}% chance to drop an additional Reliquary Scarab"
   },
   {
     "id": "chance_%_to_drop_additional_scarab_uniques_gilded",
@@ -34901,7 +35186,7 @@
   },
   {
     "id": "chance_to_deal_double_damage_%_if_crit_with_two_handed_melee_weapon_recently",
-    "zh": "若你近期内用双手近战武器造成暴击，则有 {0}% 的几率造成双倍伤害",
+    "zh": "若你近期内用双手近战武器造成过暴击，则有 {0}% 的几率造成双倍伤害",
     "en": "{0}% chance to deal Double Damage if you've dealt a Critical Strike with a Two Handed Melee Weapon Recently"
   },
   {
@@ -35120,14 +35405,14 @@
     "en": "{0}% chance to gain Unholy Might for 4 seconds on Critical Strike"
   },
   {
-    "id": "chance_to_gain_unholy_might_on_kill_for_10_seconds_%",
-    "zh": "击败敌人时有 {0}% 的几率获得不洁之力 10 秒",
-    "en": "{0}% chance to gain Unholy Might for 10 seconds on Kill"
+    "id": "chance_to_gain_old_unholy_might_on_kill_for_10_seconds_%",
+    "zh": "击败敌人时有 {0}% 的几率获得混沌之威，持续 10 秒",
+    "en": "{0}% chance to gain Chaotic Might for 10 seconds on Kill"
   },
   {
-    "id": "chance_to_gain_unholy_might_on_kill_for_10_seconds_%",
-    "zh": "击败敌人时获得不洁之力 10 秒",
-    "en": "Gain Unholy Might for 10 seconds on Kill"
+    "id": "chance_to_gain_old_unholy_might_on_kill_for_10_seconds_%",
+    "zh": "击败敌人时获得混沌之威，持续 10 秒",
+    "en": "Gain Chaotic Might for 10 seconds on Kill"
   },
   {
     "id": "chance_to_grant_endurance_charge_to_nearby_allies_on_hit_%",
@@ -35283,6 +35568,16 @@
     "id": "chance_to_unnerve_on_hit_%",
     "zh": "击中时恐惧敌人 4 秒",
     "en": "Unnerve Enemies for 4 seconds on Hit"
+  },
+  {
+    "id": "chance_to_unnerve_on_hit_with_spells_%",
+    "zh": "法术击中时有 {0}% 的几率使敌人恐惧 4 秒",
+    "en": "{0}% chance to Unnerve Enemies for 4 seconds on Hit with Spells"
+  },
+  {
+    "id": "chance_to_unnerve_on_hit_with_spells_%",
+    "zh": "法术击中时使敌人恐惧 4 秒",
+    "en": "Spells Unnerve Enemies for 4 seconds on Hit"
   },
   {
     "id": "channelled_skill_damage_+%",
@@ -35846,12 +36141,12 @@
   },
   {
     "id": "cold_damage_+%_per_frenzy_charge",
-    "zh": "每个狂怒球可使冰霜伤害提高 {0}%",
+    "zh": "每个狂怒球使冰霜伤害提高 {0}%",
     "en": "{0}% increased Cold Damage per Frenzy Charge"
   },
   {
     "id": "cold_damage_+%_per_frenzy_charge",
-    "zh": "每个狂怒球可使冰霜伤害降低 {0}%",
+    "zh": "每个狂怒球使冰霜伤害降低 {0}%",
     "en": "{0}% reduced Cold Damage per Frenzy Charge"
   },
   {
@@ -36020,6 +36315,11 @@
     "en": "{0}% reduced Reflected Cold Damage taken while affected by Purity of Ice"
   },
   {
+    "id": "cold_resistance_cannot_be_penetrated",
+    "zh": "冰霜抗性无法被穿透",
+    "en": "Cold Resistance cannot be Penetrated"
+  },
+  {
     "id": "cold_skill_chance_to_inflict_cold_exposure_%",
     "zh": "冰霜技能有 {0}% 的几率在击中时施加冰霜曝露",
     "en": "Cold Skills have a {0}% chance to apply Cold Exposure on Hit"
@@ -36091,22 +36391,22 @@
   },
   {
     "id": "consecrated_ground_enemy_damage_taken_+%",
-    "zh": "你创造的【奉献地面】可以使敌人受到的伤害提高 {0}%",
+    "zh": "你创造的奉献地面可以使敌人受到的伤害提高 {0}%",
     "en": "Consecrated Ground you create applies {0}% increased Damage taken to Enemies"
   },
   {
     "id": "consecrated_ground_enemy_damage_taken_+%",
-    "zh": "你创造的【奉献地面】可以使敌人受到的伤害降低 {0}%",
+    "zh": "你创造的奉献地面可以使敌人受到的伤害降低 {0}%",
     "en": "Consecrated Ground you create applies {0}% reduced Damage taken to Enemies"
   },
   {
     "id": "consecrated_ground_enemy_damage_taken_+%_while_affected_by_zealotry",
-    "zh": "当你受到奋锐光环影响时，创造的【奉献地面】可以使敌人受到的伤害提高 {0}%",
+    "zh": "当你受到奋锐光环影响时，创造的奉献地面可以使敌人受到的伤害提高 {0}%",
     "en": "Consecrated Ground you create while affected by Zealotry causes enemies to take {0}% increased Damage"
   },
   {
     "id": "consecrated_ground_enemy_damage_taken_+%_while_affected_by_zealotry",
-    "zh": "当你受到奋锐光环影响时，创造的【奉献地面】可以使敌人受到的伤害降低 {0}%",
+    "zh": "当你受到奋锐光环影响时，创造的奉献地面可以使敌人受到的伤害降低 {0}%",
     "en": "Consecrated Ground you create while affected by Zealotry causes enemies to take {0}% reduced Damage"
   },
   {
@@ -36146,7 +36446,7 @@
   },
   {
     "id": "consecrated_ground_radius_on_hit_enemy_magic_rare_unique_every_3_seconds",
-    "zh": "击中魔法、稀有或传奇敌人时，创造【奉献地面】，持续 6 秒，每 3 秒只能触发一次",
+    "zh": "击中魔法、稀有或传奇敌人时，创造奉献地面，持续 6 秒，每 3 秒只能触发一次",
     "en": "Create Consecrated Ground, lasting 6 seconds, when you Hit a Magic, Rare or Unique Enemy, up to once every 3 seconds"
   },
   {
@@ -36461,12 +36761,12 @@
   },
   {
     "id": "create_consecrated_ground_on_hit_%_vs_rare_or_unique_enemy",
-    "zh": "你击中稀有或传奇敌人时，有 {0}% 的几率创造【奉献地面】，持续 8 秒",
+    "zh": "你击中稀有或传奇敌人时，有 {0}% 的几率创造奉献地面，持续 8 秒",
     "en": "{0}% chance to create Consecrated Ground when you Hit a Rare or Unique Enemy, lasting 8 seconds"
   },
   {
     "id": "create_consecrated_ground_on_kill_%",
-    "zh": "击败稀有或传奇敌人时，有 {0}% 的几率创造【奉献地面】，持续 3 秒",
+    "zh": "击败稀有或传奇敌人时，有 {0}% 的几率创造奉献地面，持续 3 秒",
     "en": "{0}% chance to create Consecrated Ground when you Kill an Enemy, lasting 3 seconds"
   },
   {
@@ -36486,7 +36786,7 @@
   },
   {
     "id": "create_profane_ground_instead_of_consecrated_ground",
-    "zh": "创造【渎神地面】来代替【奉献地面】",
+    "zh": "创造渎神地面来代替奉献地面",
     "en": "Create Profane Ground instead of Consecrated Ground"
   },
   {
@@ -36676,12 +36976,12 @@
   },
   {
     "id": "critical_strike_chance_+%_per_blitz_charge",
-    "zh": "每个疾电球可使暴击率提高 {0}%",
+    "zh": "每个疾电球使暴击率提高 {0}%",
     "en": "{0}% increased Critical Strike Chance per Blitz Charge"
   },
   {
     "id": "critical_strike_chance_+%_per_blitz_charge",
-    "zh": "每个疾电球可使暴击率降低 {0}%",
+    "zh": "每个疾电球使暴击率降低 {0}%",
     "en": "{0}% reduced Critical Strike Chance per Blitz Charge"
   },
   {
@@ -36696,22 +36996,22 @@
   },
   {
     "id": "critical_strike_chance_+%_per_endurance_charge",
-    "zh": "每个耐力球可使暴击率提高 {0}%",
+    "zh": "每个耐力球使暴击率提高 {0}%",
     "en": "{0}% increased Critical Strike Chance per Endurance Charge"
   },
   {
     "id": "critical_strike_chance_+%_per_endurance_charge",
-    "zh": "每个耐力球可使暴击率降低 {0}%",
+    "zh": "每个耐力球使暴击率降低 {0}%",
     "en": "{0}% reduced Critical Strike Chance per Endurance Charge"
   },
   {
     "id": "critical_strike_chance_+%_per_frenzy_charge",
-    "zh": "每个狂怒球可使暴击率提高 {0}%",
+    "zh": "每个狂怒球使暴击率提高 {0}%",
     "en": "{0}% increased Critical Strike Chance per Frenzy Charge"
   },
   {
     "id": "critical_strike_chance_+%_per_frenzy_charge",
-    "zh": "每个狂怒球可使暴击率降低 {0}%",
+    "zh": "每个狂怒球使暴击率降低 {0}%",
     "en": "{0}% reduced Critical Strike Chance per Frenzy Charge"
   },
   {
@@ -36736,12 +37036,12 @@
   },
   {
     "id": "critical_strike_chance_+%_per_righteous_charge",
-    "zh": "每个激励球可使暴击率提高 {0}%",
+    "zh": "每个激励球使暴击率提高 {0}%",
     "en": "{0}% increased Critical Strike Chance per Inspiration Charge"
   },
   {
     "id": "critical_strike_chance_+%_per_righteous_charge",
-    "zh": "每个激励球可使暴击率降低 {0}%",
+    "zh": "每个激励球使暴击率降低 {0}%",
     "en": "{0}% reduced Critical Strike Chance per Inspiration Charge"
   },
   {
@@ -36861,7 +37161,7 @@
   },
   {
     "id": "critical_strike_multiplier_+_if_crit_with_a_herald_skill_recently",
-    "zh": "若你近期内用捷技能造成暴击，则 {0}% 暴击伤害加成",
+    "zh": "若你近期内用捷技能造成过暴击，则 {0}% 暴击伤害加成",
     "en": "{0}% to Critical Strike Multiplier if you dealt a Critical Strike with a Herald Skill Recently"
   },
   {
@@ -36986,7 +37286,7 @@
   },
   {
     "id": "critical_strikes_do_not_always_ignite",
-    "zh": "暴击本身无法点燃",
+    "zh": "暴击不再造成点燃",
     "en": "Critical Strikes do not inherently Ignite"
   },
   {
@@ -37096,12 +37396,12 @@
   },
   {
     "id": "curse_effect_on_self_+%_while_on_consecrated_ground",
-    "zh": "在【奉献地面】上，你身上的诅咒效果提高 {0}%",
+    "zh": "在奉献地面上，你身上的诅咒效果提高 {0}%",
     "en": "{0}% increased Effect of Curses on you while on Consecrated Ground"
   },
   {
     "id": "curse_effect_on_self_+%_while_on_consecrated_ground",
-    "zh": "在【奉献地面】上，你身上的诅咒效果降低 {0}%",
+    "zh": "在奉献地面上，你身上的诅咒效果降低 {0}%",
     "en": "{0}% reduced Effect of Curses on you while on Consecrated Ground"
   },
   {
@@ -37248,6 +37548,16 @@
     "id": "damage_+%_final_if_there_is_at_most_1_rare_or_unique_enemy_nearby",
     "zh": "若周围最多有一个稀有或传奇敌人，你造成的伤害总降 {0}%",
     "en": "{0}% less Damage while there is at most one Rare or Unique Enemy nearby"
+  },
+  {
+    "id": "damage_+%_final_to_grant_packmate_on_death",
+    "zh": "被击败时使怪物群的怪物伤害总增 {0}%",
+    "en": "{0}% more Damage granted to Pack members on death"
+  },
+  {
+    "id": "damage_+%_final_to_grant_packmate_on_death",
+    "zh": "被击败时使怪物群的怪物伤害总降 {0}%",
+    "en": "{0}% less Damage granted to Pack members on death"
   },
   {
     "id": "damage_+%_final_to_you_and_nearby_allies_per_nearby_corpses_up_to_10%",
@@ -37501,12 +37811,12 @@
   },
   {
     "id": "damage_+%_if_used_travel_skill_recently",
-    "zh": "若你近期内使用过位移技能，则伤害提高 {0}%",
+    "zh": "若你近期内使用过旅行技能，则伤害提高 {0}%",
     "en": "{0}% increased Damage if you've used a Travel Skill Recently"
   },
   {
     "id": "damage_+%_if_used_travel_skill_recently",
-    "zh": "若你近期内使用过位移技能，则伤害降低 {0}%",
+    "zh": "若你近期内使用过旅行技能，则伤害降低 {0}%",
     "en": "{0}% reduced Damage if you've used a Travel Skill Recently"
   },
   {
@@ -37646,12 +37956,12 @@
   },
   {
     "id": "damage_+%_per_power_charge",
-    "zh": "每个暴击球可使伤害提高 {0}%",
+    "zh": "每个暴击球使伤害提高 {0}%",
     "en": "{0}% increased Damage per Power Charge"
   },
   {
     "id": "damage_+%_per_power_charge",
-    "zh": "每个暴击球可使伤害降低 {0}%",
+    "zh": "每个暴击球使伤害降低 {0}%",
     "en": "{0}% reduced Damage per Power Charge"
   },
   {
@@ -38536,7 +38846,7 @@
   },
   {
     "id": "display_additive_damage_modifiers_in_large_radius_of_non_unique_jewels_instead_apply_to_fire_damage",
-    "zh": "非传奇珠宝使大范围内其他伤害类型的增幅和减益转换为作用于火焰伤害",
+    "zh": "非传奇珠宝使大范围内其他伤害类型的提高和降低转换为作用于火焰伤害",
     "en": "Non-Unique Jewels cause Increases and Reductions to other Damage Types in a Large Radius to be Transformed to apply to Fire Damage"
   },
   {
@@ -38780,6 +39090,16 @@
     "en": "Rare and Unique Monsters found in Areas are Possessed and their Minions are Touched"
   },
   {
+    "id": "display_monster_has_acceleration_shrine",
+    "zh": "迅速神龛",
+    "en": "Acceleration Shrine"
+  },
+  {
+    "id": "display_monster_has_adrenaline",
+    "zh": "肾上腺素",
+    "en": "Adrenaline"
+  },
+  {
     "id": "display_monster_has_cannot_recover_life_aura",
     "zh": "周围敌人无法回复生命",
     "en": "Nearby Enemies cannot Recover Life"
@@ -38961,7 +39281,7 @@
   },
   {
     "id": "dread_banner_grants_an_additional_x_to_maximum_fortification_when_placing_the_banner_div_50",
-    "zh": "恐怖之旗在放置时使护身上限额外 +{0}",
+    "zh": "恐怖之旗在放置时使护体上限额外 +{0}",
     "en": "Dread Banner grants an additional +{0} to maximum Fortification when placing the Banner"
   },
   {
@@ -38973,6 +39293,21 @@
     "id": "dread_banner_mana_reservation_efficiency_+%",
     "zh": "恐怖之旗的魔力保留效能降低 {0}%",
     "en": "Dread Banner has {0}% reduced Mana Reservation Efficiency"
+  },
+  {
+    "id": "dropped_items_are_converted_to_divination_cards",
+    "zh": "掉落的有稀有度的物品被转化为命运卡",
+    "en": "Dropped Items with Rarity are converted to Divination Cards"
+  },
+  {
+    "id": "dropped_items_are_converted_to_maps",
+    "zh": "掉落的有稀有度的物品被转化为地图",
+    "en": "Dropped Items with Rarity are converted to Maps"
+  },
+  {
+    "id": "dropped_items_are_converted_to_scarabs_based_on_rarity",
+    "zh": "掉落的有稀有度的物品被转化为圣甲虫",
+    "en": "Dropped Items with Rarity are converted to Scarabs"
   },
   {
     "id": "dual_strike_accuracy_rating_+%_while_wielding_sword",
@@ -39181,8 +39516,8 @@
   },
   {
     "id": "elemental_damage_+%_if_used_a_warcry_recently",
-    "zh": "若你近期内有使用战吼，则元素伤害提高 {0}%",
-    "en": "{0}% increased Elemental Damage if you've used a Warcry Recently"
+    "zh": "若你近期使用过战吼，造成的元素伤害提高 {0}%",
+    "en": "{0}% increased Elemental Damage if you've Warcried Recently"
   },
   {
     "id": "elemental_damage_+%_per_10_devotion",
@@ -39226,12 +39561,12 @@
   },
   {
     "id": "elemental_damage_+%_per_power_charge",
-    "zh": "每个暴击球可使元素伤害提高 {0}%",
+    "zh": "每个暴击球使元素伤害提高 {0}%",
     "en": "{0}% increased Elemental Damage per Power charge"
   },
   {
     "id": "elemental_damage_+%_per_power_charge",
-    "zh": "每个暴击球可使元素伤害降低 {0}%",
+    "zh": "每个暴击球使元素伤害降低 {0}%",
     "en": "{0}% reduced Elemental Damage per Power charge"
   },
   {
@@ -39331,12 +39666,12 @@
   },
   {
     "id": "elemental_damage_taken_+%_per_endurance_charge",
-    "zh": "每个耐力球可使被击中时受到的元素伤害提高 {0}%",
+    "zh": "每个耐力球使被击中时受到的元素伤害提高 {0}%",
     "en": "{0}% increased Elemental Damage taken per Endurance Charge"
   },
   {
     "id": "elemental_damage_taken_+%_per_endurance_charge",
-    "zh": "每个耐力球可使被击中时受到的元素伤害降低 {0}%",
+    "zh": "每个耐力球使被击中时受到的元素伤害降低 {0}%",
     "en": "{0}% reduced Elemental Damage taken per Endurance Charge"
   },
   {
@@ -39361,12 +39696,12 @@
   },
   {
     "id": "elemental_damage_with_attack_skills_+%_per_power_charge",
-    "zh": "每个暴击球可使攻击技能的元素伤害提高 {0}%",
+    "zh": "每个暴击球使攻击技能的元素伤害提高 {0}%",
     "en": "{0}% increased Elemental Damage with Attack Skills per Power Charge"
   },
   {
     "id": "elemental_damage_with_attack_skills_+%_per_power_charge",
-    "zh": "每个暴击球可使攻击技能的元素伤害降低 {0}%",
+    "zh": "每个暴击球使攻击技能的元素伤害降低 {0}%",
     "en": "{0}% reduced Elemental Damage with Attack Skills per Power Charge"
   },
   {
@@ -39586,12 +39921,12 @@
   },
   {
     "id": "endurance_charge_on_melee_stun_damage_+%_final_per_endurance_charge",
-    "zh": "每个耐力球可使伤害总增 {0}%",
+    "zh": "每个耐力球使伤害总增 {0}%",
     "en": "{0}% more Damage per Endurance Charge"
   },
   {
     "id": "endurance_charge_on_melee_stun_damage_+%_final_per_endurance_charge",
-    "zh": "每个耐力球可使伤害总降 {0}%",
+    "zh": "每个耐力球使伤害总降 {0}%",
     "en": "{0}% less Damage per Endurance Charge"
   },
   {
@@ -39603,6 +39938,11 @@
     "id": "enduring_cry_grants_x_additional_endurance_charges",
     "zh": "【坚决战吼】获得 {0} 个额外的耐力球",
     "en": "Enduring Cry grants {0} additional Endurance Charges"
+  },
+  {
+    "id": "enemies_blinded_by_you_have_malediction",
+    "zh": "被你致盲的敌人受到恶语术影响",
+    "en": "Enemies Blinded by you have Malediction"
   },
   {
     "id": "enemies_blinded_by_you_while_blinded_have_malediction",
@@ -39715,6 +40055,11 @@
     "en": "Enemies Ignited by you have {0}% of Physical Damage they deal converted to Fire"
   },
   {
+    "id": "enemies_in_presence_and_you_count_as_moving_when_affected_by_elemental_ailments",
+    "zh": "你和在场的敌人受到元素异常状态影响时视作移动中",
+    "en": "You and Enemies in your Presence count as moving while affected by Elemental Ailments"
+  },
+  {
     "id": "enemies_killed_on_fungal_ground_explode_for_5%_chaos_damage_%_chance",
     "zh": "在真菌地表上被你击败的敌人有 {0}% 的几率爆炸，造成它们 5% 生命的混沌伤害",
     "en": "Enemies on Fungal Ground you Kill have {0}% chance to Explode, dealing 5% of their Life as Chaos Damage"
@@ -39791,7 +40136,7 @@
   },
   {
     "id": "enemies_taunted_by_you_cannot_evade_attacks",
-    "zh": "被你嘲讽的敌人无法躲避攻击",
+    "zh": "被你嘲讽的敌人无法闪避攻击",
     "en": "Enemies Taunted by you cannot Evade Attacks"
   },
   {
@@ -40481,7 +40826,7 @@
   },
   {
     "id": "expanding_fire_cone_additional_maximum_number_of_stages",
-    "zh": "【烧毁】最多 {0} 阶",
+    "zh": "烧毁最多 {0} 层",
     "en": "Incinerate has {0} to maximum stages"
   },
   {
@@ -40735,6 +41080,11 @@
     "en": "Poisons you inflict deal Damage {0}% faster"
   },
   {
+    "id": "final_pack_summons_nameless_seer",
+    "zh": "最后一个怪物群被击败时生成无名先知",
+    "en": "Final Pack spawns the Nameless Seer on Death"
+  },
+  {
     "id": "final_repeat_of_spells_area_of_effect_+%",
     "zh": "法术最后一次重复的效果区域扩大 {0}%",
     "en": "Final Repeat of Spells has {0}% increased Area of Effect"
@@ -40866,12 +41216,12 @@
   },
   {
     "id": "fire_damage_+%_per_endurance_charge",
-    "zh": "每个耐力球可使火焰伤害提高 {0}%",
+    "zh": "每个耐力球使火焰伤害提高 {0}%",
     "en": "{0}% increased Fire Damage per Endurance Charge"
   },
   {
     "id": "fire_damage_+%_per_endurance_charge",
-    "zh": "每个耐力球可使火焰伤害降低 {0}%",
+    "zh": "每个耐力球使火焰伤害降低 {0}%",
     "en": "{0}% reduced Fire Damage per Endurance Charge"
   },
   {
@@ -40998,6 +41348,11 @@
     "id": "fire_reflect_damage_taken_+%_while_affected_by_purity_of_fire",
     "zh": "受到【火焰净化】影响时，受到的反射火焰伤害降低 {0}%",
     "en": "{0}% reduced Reflected Fire Damage taken while affected by Purity of Fire"
+  },
+  {
+    "id": "fire_resistance_cannot_be_penetrated",
+    "zh": "火焰抗性无法被穿透",
+    "en": "Fire Resistance cannot be Penetrated"
   },
   {
     "id": "fire_skill_chance_to_inflict_fire_exposure_%",
@@ -41221,12 +41576,12 @@
   },
   {
     "id": "flame_totem_consecrated_ground_enemy_damage_taken_+%",
-    "zh": "圣焰图腾创造的【奉献地面】可以使敌人受到的伤害提高 {0}%",
+    "zh": "圣焰图腾创造的奉献地面可以使敌人受到的伤害提高 {0}%",
     "en": "Consecrated Ground from Holy Flame Totem applies {0}% increased Damage taken to Enemies"
   },
   {
     "id": "flame_totem_consecrated_ground_enemy_damage_taken_+%",
-    "zh": "圣焰图腾创造的【奉献地面】可以使敌人受到的伤害降低 {0}%",
+    "zh": "圣焰图腾创造的奉献地面可以使敌人受到的伤害降低 {0}%",
     "en": "Consecrated Ground from Holy Flame Totem applies {0}% reduced Damage taken to Enemies"
   },
   {
@@ -41398,6 +41753,26 @@
     "id": "flask_charges_gained_from_marked_enemy_+%",
     "zh": "被标记的敌人使你的药剂充能降低 {0}%",
     "en": "Marked Enemy grants {0}% reduced Flask Charges to you"
+  },
+  {
+    "id": "flask_duration_+%_per_level",
+    "zh": "每级使药剂效果持续时间延长 {0}%",
+    "en": "{0}% increased Flask Effect Duration per Level"
+  },
+  {
+    "id": "flask_duration_+%_per_level",
+    "zh": "每级使药剂效果持续时间缩短 {0}%",
+    "en": "{0}% reduced Flask Effect Duration per Level"
+  },
+  {
+    "id": "flask_effect_+%_per_level",
+    "zh": "每级使对你生效的药剂效果提高 {0}%",
+    "en": "Flasks applied to you have {0}% increased Effect per Level"
+  },
+  {
+    "id": "flask_effect_+%_per_level",
+    "zh": "每级使对你生效的药剂效果降低 {0}%",
+    "en": "Flasks applied to you have {0}% reduced Effect per Level"
   },
   {
     "id": "flask_life_and_mana_to_recover_+%",
@@ -42566,13 +42941,13 @@
   },
   {
     "id": "gain_soul_eater_stack_on_hit_vs_unique_cooldown_ms",
-    "zh": "击中传奇敌人时吞噬一个灵魂，每秒最多触发一次",
-    "en": "Eat a Soul when you Hit a Unique Enemy, no more than once every second"
+    "zh": "击中稀有或传奇敌人时吞噬一个灵魂，每秒最多触发一次",
+    "en": "Eat a Soul when you Hit a Rare or Unique Enemy, no more than once every second"
   },
   {
     "id": "gain_soul_eater_stack_on_hit_vs_unique_cooldown_ms",
-    "zh": "击中传奇敌人时吞噬一个灵魂，每{0}秒最多触发一次",
-    "en": "Eat a Soul when you Hit a Unique Enemy, no more than once every {0} seconds"
+    "zh": "击中稀有或传奇敌人时吞噬一个灵魂，每 {0} 秒最多触发一次",
+    "en": "Eat a Soul when you Hit a Rare or Unique Enemy, no more than once every {0} seconds"
   },
   {
     "id": "gain_spell_cost_as_energy_shield_every_fifth_cast",
@@ -42643,6 +43018,11 @@
     "id": "gain_x_rage_on_hit_with_axes_swords_1s_cooldown",
     "zh": "斧类或剑类攻击在击中时获得 {0}点【怒火】，每秒只能获得一次",
     "en": "Attacks with Axes or Swords grant {0} Rage on Hit, no more than once every second"
+  },
+  {
+    "id": "gain_x_rage_per_200_mana_spent",
+    "zh": "总共消耗 200 点魔力后获得 {0} 点怒火",
+    "en": "Gain {0} Rage after Spending a total of 200 Mana"
   },
   {
     "id": "galvanic_arrow_and_storm_rain_skill_repeat_count_if_mined",
@@ -42936,12 +43316,12 @@
   },
   {
     "id": "grant_void_arrow_every_x_ms",
-    "zh": "¿¿¿¿¿¿¿¿¿¿",
+    "zh": "每秒获得 1 枚虚空之矢",
     "en": "Gain a Void Charge every second"
   },
   {
     "id": "grant_void_arrow_every_x_ms",
-    "zh": "¿ {0} ¿¿¿¿¿¿¿¿¿",
+    "zh": "每 {0} 秒获得 1 枚虚空之矢",
     "en": "Gain a Void Charge every {0} seconds"
   },
   {
@@ -44546,13 +44926,13 @@
   },
   {
     "id": "herald_of_thunder_bolt_frequency_+%",
-    "zh": "风暴击中敌人的频率提高 {0}%",
-    "en": "Storms Hit Enemies with {0}% increased Frequency"
+    "zh": "闪电之捷的风暴击中敌人的频率提高 {0}%",
+    "en": "Herald of Thunder's Storms Hit Enemies with {0}% increased Frequency"
   },
   {
     "id": "herald_of_thunder_bolt_frequency_+%",
-    "zh": "风暴击中敌人的频率降低 {0}%",
-    "en": "Storms Hit Enemies with {0}% reduced Frequency"
+    "zh": "闪电之捷的风暴击中敌人的频率降低 {0}%",
+    "en": "Herald of Thunder's Storms Hit Enemies with {0}% reduced Frequency"
   },
   {
     "id": "herald_of_thunder_buff_effect_+%",
@@ -45456,8 +45836,13 @@
   },
   {
     "id": "increase_crit_chance_by_lowest_of_str_or_int",
-    "zh": "在力量和智慧中取低的那一个，每一点都使暴击率提高 1%",
+    "zh": "取力量和智慧之间的较低者，每 1 点可使暴击率提高 1%",
     "en": "1% increased Critical Strike Chance per point of Strength or Intelligence, whichever is lower"
+  },
+  {
+    "id": "soul_eater_maximum_stacks_+",
+    "zh": "被吞噬的灵魂数量上限 {0}",
+    "en": "{0} to maximum number of Eaten Souls"
   },
   {
     "id": "infernal_blow_explosion_applies_uncharged_debuff_on_hit_%_chance",
@@ -46200,6 +46585,11 @@
     "en": "{0}% of Fire Damage Leeched as Life while Ignited"
   },
   {
+    "id": "life_leech_from_minion_damage_%",
+    "zh": "召唤生物造成伤害的 {0}% 转化为你的生命偷取",
+    "en": "{0}% of Damage Dealt by your Minions is Leeched to you as Life"
+  },
+  {
     "id": "life_leech_from_spell_damage_permyriad_while_you_have_arcane_surge",
     "zh": "拥有【秘术增强】效果时，法术伤害的 {0}% 转化为生命偷取",
     "en": "{0}% of Spell Damage Leeched as Life while you have Arcane Surge"
@@ -46476,7 +46866,7 @@
   },
   {
     "id": "life_regeneration_rate_per_minute_%_per_power_charge",
-    "zh": "每个暴击球可使每秒回复 {0}% 生命",
+    "zh": "每个暴击球使每秒回复 {0}% 生命",
     "en": "Regenerate {0}% of Life per second per Power Charge"
   },
   {
@@ -46758,6 +47148,11 @@
     "id": "lightning_reflect_damage_taken_+%_while_affected_by_purity_of_lightning",
     "zh": "受到【闪电净化】影响时，受到的反射闪电伤害降低 {0}%",
     "en": "{0}% reduced Reflected Lightning Damage taken while affected by Purity of Lightning"
+  },
+  {
+    "id": "lightning_resistance_cannot_be_penetrated",
+    "zh": "闪电抗性无法被穿透",
+    "en": "Lightning Resistance cannot be Penetrated"
   },
   {
     "id": "lightning_resistance_does_not_apply_to_lighting_damage",
@@ -48905,6 +49300,11 @@
     "en": "Poisonous Concoction and Explosive Concoction also consume Charges from 1 Sulphur Flask, if possible"
   },
   {
+    "id": "local_crafting_bench_options_cost_nothing",
+    "zh": "该地图的地图工艺选项没有成本",
+    "en": "Map Crafting options for this Map have no cost"
+  },
+  {
     "id": "local_critical_strike_chance_+%_if_item_corrupted",
     "zh": "若腐化，则全域暴击率提高 {0}%",
     "en": "{0}% increased Global Critical Strike Chance if Corrupted"
@@ -48995,6 +49395,11 @@
     "en": "Gain a Power Charge after Spending a total of 200 Mana"
   },
   {
+    "id": "local_display_grants_skil_convocation_level",
+    "zh": "获得 {0} 级号召技能",
+    "en": "Grants Level {0} Convocation Skill"
+  },
+  {
     "id": "local_display_grants_skill_voodoo_doll",
     "zh": "获得 {0} 级召唤黑暗塑像技能",
     "en": "Grants Level {0} Summon Dark Effigy Skill"
@@ -49027,7 +49432,7 @@
   {
     "id": "local_display_nearby_allies_action_speed_cannot_be_reduced_below_base",
     "zh": "周围友军的行动速度无法被减速至基础以下",
-    "en": "Nearby Allies' Action Speed cannot be modified to below base value"
+    "en": "Nearby Allies' Action Speed cannot be modified to below Base Value"
   },
   {
     "id": "local_display_nearby_allies_critical_strike_multiplier_+",
@@ -49156,7 +49561,7 @@
   },
   {
     "id": "local_energy_shield_regeneration_per_minute_%_if_crit_recently",
-    "zh": "若你近期内用该武器造成暴击，则每秒再生 {0}% 的能量护盾",
+    "zh": "若你近期内用该武器造成过暴击，则每秒再生 {0}% 的能量护盾",
     "en": "Regenerate {0}% of Energy Shield per second if you've dealt a Critical Strike with this weapon Recently"
   },
   {
@@ -50120,6 +50525,116 @@
     "en": "{0}% reduced Effect of Jewel Socket Passive Skills containing Corrupted Magic Jewels"
   },
   {
+    "id": "local_unique_jewel_passives_in_radius_grant_additional_all_attributes",
+    "zh": "范围内的天赋还会使全属性 {0}",
+    "en": "Passive Skills in Radius also grant {0} to all Attributes"
+  },
+  {
+    "id": "local_unique_jewel_passives_in_radius_grant_base_chaos_damage_resistance_%",
+    "zh": "范围内的天赋还会使混沌抗性 {0}%",
+    "en": "Passive Skills in Radius also grant {0}% to Chaos Resistance"
+  },
+  {
+    "id": "local_unique_jewel_passives_in_radius_grant_base_maximum_life",
+    "zh": "范围内的天赋还会使生命上限 {0}",
+    "en": "Passive Skills in Radius also grant {0} to maximum Life"
+  },
+  {
+    "id": "local_unique_jewel_passives_in_radius_grant_base_maximum_mana",
+    "zh": "范围内的天赋还会使魔力上限 {0}",
+    "en": "Passive Skills in Radius also grant {0} to maximum Mana"
+  },
+  {
+    "id": "local_unique_jewel_passives_in_radius_grant_chaos_damage_+%",
+    "zh": "范围内的天赋还会使混沌伤害提高 {0}%",
+    "en": "Passive Skills in Radius also grant {0}% increased Chaos Damage"
+  },
+  {
+    "id": "local_unique_jewel_passives_in_radius_grant_chaos_damage_+%",
+    "zh": "范围内的天赋还会使混沌伤害降低 {0}%",
+    "en": "Passive Skills in Radius also grant {0}% reduced Chaos Damage"
+  },
+  {
+    "id": "local_unique_jewel_passives_in_radius_grant_cold_damage_+%",
+    "zh": "范围内的天赋还会使冰霜伤害提高 {0}%",
+    "en": "Passive Skills in Radius also grant {0}% increased Cold Damage"
+  },
+  {
+    "id": "local_unique_jewel_passives_in_radius_grant_cold_damage_+%",
+    "zh": "范围内的天赋还会使冰霜伤害降低 {0}%",
+    "en": "Passive Skills in Radius also grant {0}% reduced Cold Damage"
+  },
+  {
+    "id": "local_unique_jewel_passives_in_radius_grant_critical_strike_chance_+%",
+    "zh": "范围内的天赋还会使全局暴击几率提高 {0}%",
+    "en": "Passive Skills in Radius also grant {0}% increased Global Critical Strike Chance"
+  },
+  {
+    "id": "local_unique_jewel_passives_in_radius_grant_critical_strike_chance_+%",
+    "zh": "范围内的天赋还会使全局暴击几率降低 {0}%",
+    "en": "Passive Skills in Radius also grant {0}% reduced Global Critical Strike Chance"
+  },
+  {
+    "id": "local_unique_jewel_passives_in_radius_grant_evasion_rating_+%",
+    "zh": "范围内的天赋还会使闪避值提高 {0}%",
+    "en": "Passive Skills in Radius also grant {0}% increased Evasion Rating"
+  },
+  {
+    "id": "local_unique_jewel_passives_in_radius_grant_evasion_rating_+%",
+    "zh": "范围内的天赋还会使闪避值降低 {0}%",
+    "en": "Passive Skills in Radius also grant {0}% reduced Evasion Rating"
+  },
+  {
+    "id": "local_unique_jewel_passives_in_radius_grant_fire_damage_+%",
+    "zh": "范围内的天赋还会使火焰伤害提高 {0}%",
+    "en": "Passive Skills in Radius also grant {0}% increased Fire Damage"
+  },
+  {
+    "id": "local_unique_jewel_passives_in_radius_grant_fire_damage_+%",
+    "zh": "范围内的天赋还会使火焰伤害降低 {0}%",
+    "en": "Passive Skills in Radius also grant {0}% reduced Fire Damage"
+  },
+  {
+    "id": "local_unique_jewel_passives_in_radius_grant_lightning_damage_+%",
+    "zh": "范围内的天赋还会使闪电伤害提高 {0}%",
+    "en": "Passive Skills in Radius also grant {0}% increased Lightning Damage"
+  },
+  {
+    "id": "local_unique_jewel_passives_in_radius_grant_lightning_damage_+%",
+    "zh": "范围内的天赋还会使闪电伤害降低 {0}%",
+    "en": "Passive Skills in Radius also grant {0}% reduced Lightning Damage"
+  },
+  {
+    "id": "local_unique_jewel_passives_in_radius_grant_maximum_energy_shield_+%",
+    "zh": "范围内的天赋还会使能量护盾提高 {0}%",
+    "en": "Passive Skills in Radius also grant {0}% increased Energy Shield"
+  },
+  {
+    "id": "local_unique_jewel_passives_in_radius_grant_maximum_energy_shield_+%",
+    "zh": "范围内的天赋还会使能量护盾降低 {0}%",
+    "en": "Passive Skills in Radius also grant {0}% reduced Energy Shield"
+  },
+  {
+    "id": "local_unique_jewel_passives_in_radius_grant_physical_damage_+%",
+    "zh": "范围内的天赋还会使物理伤害提高 {0}%",
+    "en": "Passive Skills in Radius also grant {0}% increased Physical Damage"
+  },
+  {
+    "id": "local_unique_jewel_passives_in_radius_grant_physical_damage_+%",
+    "zh": "范围内的天赋还会使物理伤害降低 {0}%",
+    "en": "Passive Skills in Radius also grant {0}% reduced Physical Damage"
+  },
+  {
+    "id": "local_unique_jewel_passives_in_radius_grant_physical_damage_reduction_rating_+%",
+    "zh": "范围内的天赋还会使护甲提高 {0}%",
+    "en": "Passive Skills in Radius also grant {0}% increased Armour"
+  },
+  {
+    "id": "local_unique_jewel_passives_in_radius_grant_physical_damage_reduction_rating_+%",
+    "zh": "范围内的天赋还会使护甲降低 {0}%",
+    "en": "Passive Skills in Radius also grant {0}% reduced Armour"
+  },
+  {
     "id": "local_unique_jewel_galvanic_arrow_area_damage_+%_with_40_dex_in_radius",
     "zh": "若范围内至少有 40 点敏捷，【电光箭】的范围伤害提高 {0}%",
     "en": "With at least 40 Dexterity in Radius, Galvanic Arrow deals {0}% increased Area Damage"
@@ -50966,7 +51481,7 @@
   },
   {
     "id": "max_fortification_+1_per_5",
-    "zh": "护身上限 {0}",
+    "zh": "护体上限 {0}",
     "en": "{0} to maximum Fortification"
   },
   {
@@ -51058,6 +51573,16 @@
     "id": "maximum_leech_rate_+%",
     "zh": "偷取的每秒最大生命、魔力和能量护盾总恢复量降低 {0}%",
     "en": "{0}% reduced Maximum total Life, Mana and Energy Shield Recovery per second from Leech"
+  },
+  {
+    "id": "maximum_life_+%_per_alive_packmate",
+    "zh": "怪物群中每个存活的怪物使生命提高 {0}%",
+    "en": "{0}% increased Life for each alive Monster in Pack"
+  },
+  {
+    "id": "maximum_life_+%_to_grant_packmate_on_death",
+    "zh": "被击败时使怪物群的怪物生命提高 {0}%",
+    "en": "{0}% increased Life granted to Pack members on death"
   },
   {
     "id": "maximum_life_+%_while_no_gems_in_gloves",
@@ -51175,6 +51700,11 @@
     "en": "Gain {0}% of Maximum Mana as Extra Maximum Energy Shield while affected by Clarity"
   },
   {
+    "id": "maximum_mana_+_per_2_intelligence",
+    "zh": "每 2 点智慧使魔力上限 {0}",
+    "en": "{0} to maximum Mana per 2 Intelligence"
+  },
+  {
     "id": "maximum_mana_+%_per_abyssal_jewel_affecting_you",
     "zh": "每个影响你的【深渊珠宝】可使最大魔力提高 {0}%",
     "en": "{0}% increased Maximum Mana per Abyss Jewel affecting you"
@@ -51263,6 +51793,11 @@
     "id": "melee_damage_+%_per_second_of_warcry_affecting_you",
     "zh": "受到战吼增益效果影响时，你的近战伤害每秒提高 {0}%，最多 60%",
     "en": "{0}% increased Melee Damage for each second you've been affected by a Warcry Buff, up to a maximum of 60%"
+  },
+  {
+    "id": "melee_knockback",
+    "zh": "近战攻击击中时击退敌人",
+    "en": "Melee Attacks Knock Enemies Back on Hit"
   },
   {
     "id": "melee_movement_skill_chance_to_fortify_on_hit_%",
@@ -51536,7 +52071,7 @@
   },
   {
     "id": "minimum_added_cold_damage_if_have_crit_recently maximum_added_cold_damage_if_have_crit_recently",
-    "zh": "若你近期内造成暴击，则附加 {0} to {1} 点冰霜伤害",
+    "zh": "若你近期内造成过暴击，则附加 {0} to {1} 点冰霜伤害",
     "en": "Adds {0} to {1} Cold Damage if you've dealt a Critical Strike Recently"
   },
   {
@@ -51561,7 +52096,7 @@
   },
   {
     "id": "minimum_added_fire_damage_if_have_crit_recently maximum_added_fire_damage_if_have_crit_recently",
-    "zh": "若你近期内造成暴击，则附加 {0} to {1} 点火焰伤害",
+    "zh": "若你近期内造成过暴击，则附加 {0} to {1} 点火焰伤害",
     "en": "Adds {0} to {1} Fire Damage if you've dealt a Critical Strike Recently"
   },
   {
@@ -51586,7 +52121,7 @@
   },
   {
     "id": "minimum_added_lightning_damage_if_have_crit_recently maximum_added_lightning_damage_if_have_crit_recently",
-    "zh": "若你近期内造成暴击，则附加 {0} to {1} 点闪电伤害",
+    "zh": "若你近期内造成过暴击，则附加 {0} to {1} 点闪电伤害",
     "en": "Adds {0} to {1} Lightning Damage if you've dealt a Critical Strike Recently"
   },
   {
@@ -51616,7 +52151,7 @@
   },
   {
     "id": "minimum_added_physical_damage_if_have_crit_recently maximum_added_physical_damage_if_have_crit_recently",
-    "zh": "若你近期内造成暴击，则附加 {0} to {1} 点物理伤害",
+    "zh": "若你近期内造成过暴击，则附加 {0} to {1} 点物理伤害",
     "en": "Adds {0} to {1} Physical Damage if you've dealt a Critical Strike Recently"
   },
   {
@@ -52240,6 +52775,16 @@
     "en": "Minions have +{0}% to Critical Strike Multiplier per Withered Debuff on Enemy"
   },
   {
+    "id": "minions_have_same_maximum_num_of_charges_as_owner",
+    "zh": "召唤生物的耐力球、狂怒球和暴击球与你相同",
+    "en": "Minions have the same maximum number of Endurance, Frenzy and Power Charges as you"
+  },
+  {
+    "id": "minions_have_same_num_of_charges_as_owner",
+    "zh": "召唤生物的耐力球、狂怒球和暴击球\n视作与你相同",
+    "en": "Minions count as having the same number of\nEndurance, Frenzy and Power Charges as you"
+  },
+  {
     "id": "minions_hits_can_only_kill_ignited_enemies",
     "zh": "召唤生物只能击败被点燃的敌人",
     "en": "Minions' Hits can only Kill Ignited Enemies"
@@ -52360,6 +52905,46 @@
     "en": "Molten Strike Projectiles Chain {0} times"
   },
   {
+    "id": "monster_converts_on_death",
+    "zh": "被击败时转化",
+    "en": "Converts on Death"
+  },
+  {
+    "id": "monster_damage_+%_final_per_alive_packmate",
+    "zh": "怪物群中每个存活的怪物使伤害总增 {0}%",
+    "en": "{0}% more Damage for each alive Monster in Pack"
+  },
+  {
+    "id": "monster_damage_+%_final_per_alive_packmate",
+    "zh": "怪物群中每个存活的怪物使伤害总降 {0}%",
+    "en": "{0}% less Damage for each alive Monster in Pack"
+  },
+  {
+    "id": "monster_dropped_item_quantity_+%",
+    "zh": "掉落的物品数量提高 {0}%",
+    "en": "{0}% increased Quantity of Items Dropped"
+  },
+  {
+    "id": "monster_dropped_item_quantity_+%",
+    "zh": "掉落的物品数量降低 {0}%",
+    "en": "{0}% reduced Quantity of Items Dropped"
+  },
+  {
+    "id": "monster_dropped_item_rarity_+%",
+    "zh": "掉落的物品稀有度提高 {0}%",
+    "en": "{0}% increased Rarity of Items Dropped"
+  },
+  {
+    "id": "monster_dropped_item_rarity_+%",
+    "zh": "掉落的物品稀有度降低 {0}%",
+    "en": "{0}% reduced Rarity of Items Dropped"
+  },
+  {
+    "id": "monster_grants_no_flask_charges",
+    "zh": "消灭怪物不能获得药剂充能",
+    "en": "Monsters do not grant Flask Charges when Slain"
+  },
+  {
     "id": "primordial_altar_burning_ground_on_death_%",
     "zh": "有 {0}% 的几率在被击败时产生燃烧地面，持续 3 秒",
     "en": "{0}% chance to drop Burning Ground on Death, lasting 3 seconds"
@@ -52378,6 +52963,16 @@
     "id": "primordial_altar_chilled_ground_on_death_%",
     "zh": "在被击败时产生冰缓地面，持续 3 秒",
     "en": "Drops Chilled Ground on Death, lasting 3 seconds"
+  },
+  {
+    "id": "monster_remove_x_flask_charges_from_all_flasks",
+    "zh": "被击败时移除击败者药剂的 1 层药剂充能",
+    "en": "Remove 1 Flask Charge from killer's Flasks when slain"
+  },
+  {
+    "id": "monster_remove_x_flask_charges_from_all_flasks",
+    "zh": "被击败时移除击败者药剂的 {0} 层药剂充能",
+    "en": "Remove {0} Flask Charges from killer's Flasks when slain"
   },
   {
     "id": "monster_slain_experience_+%",
@@ -52521,12 +53116,12 @@
   },
   {
     "id": "movement_speed_+%_if_crit_recently",
-    "zh": "若你近期内造成暴击，则移动速度加快 {0}%",
+    "zh": "若你近期内造成过暴击，则移动速度加快 {0}%",
     "en": "{0}% increased Movement Speed if you've dealt a Critical Strike Recently"
   },
   {
     "id": "movement_speed_+%_if_crit_recently",
-    "zh": "若你近期内造成暴击，则移动速度减慢 {0}%",
+    "zh": "若你近期内造成过暴击，则移动速度减慢 {0}%",
     "en": "{0}% reduced Movement Speed if you've dealt a Critical Strike Recently"
   },
   {
@@ -52591,12 +53186,12 @@
   },
   {
     "id": "movement_speed_+%_per_endurance_charge",
-    "zh": "每个耐力球可使移动速度加快 {0}%",
+    "zh": "每个耐力球使移动速度加快 {0}%",
     "en": "{0}% increased Movement Speed per Endurance Charge"
   },
   {
     "id": "movement_speed_+%_per_endurance_charge",
-    "zh": "每个耐力球可使移动速度减慢 {0}%",
+    "zh": "每个耐力球使移动速度减慢 {0}%",
     "en": "{0}% reduced Movement Speed per Endurance Charge"
   },
   {
@@ -52616,12 +53211,12 @@
   },
   {
     "id": "movement_speed_+%_per_power_charge",
-    "zh": "每个暴击球可使移动速度加快 {0}%",
+    "zh": "每个暴击球使移动速度加快 {0}%",
     "en": "{0}% increased Movement Speed per Power Charge"
   },
   {
     "id": "movement_speed_+%_per_power_charge",
-    "zh": "每个暴击球可使移动速度减慢 {0}%",
+    "zh": "每个暴击球使移动速度减慢 {0}%",
     "en": "{0}% reduced Movement Speed per Power Charge"
   },
   {
@@ -52920,6 +53515,41 @@
     "en": "For each nearby corpse, you and nearby Allies Regenerate {0} Mana\nper second, up to 50 per second"
   },
   {
+    "id": "necromancer_minion_damage_+%_final",
+    "zh": "召唤生物造成的伤害总增 {0}%",
+    "en": "Minions deal {0}% more Damage"
+  },
+  {
+    "id": "necromancer_minion_damage_+%_final",
+    "zh": "召唤生物造成的伤害总降 {0}%",
+    "en": "Minions deal {0}% less Damage"
+  },
+  {
+    "id": "necropolis_corrupting_tempest_on_pack_death",
+    "zh": "怪物群被击败后生成一场腐化风暴",
+    "en": "Pack spawns a Corrupting Tempest on Death"
+  },
+  {
+    "id": "necropolis_meteor_shower_on_pack_death",
+    "zh": "怪物群被击败后生成一个陨星",
+    "en": "Pack spawns a Meteor on Death"
+  },
+  {
+    "id": "necropolis_pack_monster_level_+",
+    "zh": "怪物群等级 {0}",
+    "en": "{0} to Pack Monster Level"
+  },
+  {
+    "id": "necropolis_strongbox_on_pack_death",
+    "zh": "怪物群被击败后生成一个保险箱",
+    "en": "Pack spawns a Strongbox on Death"
+  },
+  {
+    "id": "necropolis_tormented_spirit_on_pack_death",
+    "zh": "怪物群被击败后生成一个罪魂",
+    "en": "Pack spawns a Tormented Spirit on Death"
+  },
+  {
     "id": "necrotic_footprints_from_item",
     "zh": "亡魄足迹",
     "en": "Necrotic Footprints"
@@ -53003,6 +53633,21 @@
     "id": "non_curse_aura_effect_+%_per_10_devotion",
     "zh": "每 10 点奉献使非诅咒类光环效果降低 {0}%",
     "en": "{0}% reduced effect of Non-Curse Auras per 10 Devotion"
+  },
+  {
+    "id": "non_curse_aura_effect_+%_while_linked",
+    "zh": "有羁绊目标时，你的技能的非诅咒光环效果提高 {0}%",
+    "en": "{0}% increased Effect of Non-Curse Auras from your Skills while you have a Linked Target"
+  },
+  {
+    "id": "non_curse_aura_effect_+%_while_linked",
+    "zh": "有羁绊目标时，你的技能的非诅咒光环效果降低 {0}%",
+    "en": "{0}% reduced Effect of Non-Curse Auras from your Skills while you have a Linked Target"
+  },
+  {
+    "id": "non_curse_auras_only_apply_to_you_and_linked_targets",
+    "zh": "羁绊目标始终始终处于你的技能的非诅咒光环的范围内\n技能的非诅咒光环法术仅对你和羁绊目标生效",
+    "en": "Linked Targets always count as in range of Non-Curse Auras from your Skills\nNon-Curse Auras from your Skills only apply to you and Linked Targets"
   },
   {
     "id": "non_cursed_enemies_you_curse_are_blinded_for_4_seconds",
@@ -53413,6 +54058,51 @@
     "id": "overwhelm_phys_reduction_%_while_have_sacrificial_zeal",
     "zh": "你有热情牺牲时，击中压制 {0}% 物理伤害减免",
     "en": "Hits Overwhelm {0}% of Physical Damage Reduction while you have Sacrificial Zeal"
+  },
+  {
+    "id": "pack_accompanied_by_a_harbinger",
+    "zh": "有先驱者陪伴",
+    "en": "Accompanied by a Harbinger"
+  },
+  {
+    "id": "pack_accompanied_by_a_map_boss",
+    "zh": "有地图首领陪伴",
+    "en": "Accompanied by a Map Boss"
+  },
+  {
+    "id": "pack_accompanied_by_a_rogue_exile",
+    "zh": "有盗贼流放者陪伴",
+    "en": "Accompanied by a Rogue Exile"
+  },
+  {
+    "id": "pack_create_lesser_shrine_on_death",
+    "zh": "怪物群被击败后生成一个次级神龛",
+    "en": "Pack spawns a Lesser Shrine on Death"
+  },
+  {
+    "id": "pack_is_tormented",
+    "zh": "被罪魂附身或触碰",
+    "en": "Possessed or Touched by Tormented Spirits"
+  },
+  {
+    "id": "pack_size_+%",
+    "zh": "怪物群规模提高 {0}%",
+    "en": "{0}% increased Pack Size"
+  },
+  {
+    "id": "pack_size_+%",
+    "zh": "怪物群规模降低 {0}%",
+    "en": "{0}% reduced Pack Size"
+  },
+  {
+    "id": "pack_upgrade_to_magic_chance_%",
+    "zh": "怪物群有 {0}% 的几率升级为魔法怪物",
+    "en": "{0}% chance for Pack to be upgraded to Magic"
+  },
+  {
+    "id": "pack_upgrade_to_rare_chance_%",
+    "zh": "怪物群有 {0}% 的几率升级为稀有怪物",
+    "en": "{0}% chance for Pack to be upgraded to Rare"
   },
   {
     "id": "pantheon_abberath_ignite_duration_on_self_+%_final",
@@ -54056,7 +54746,7 @@
   },
   {
     "id": "physical_dot_multiplier_+_if_crit_recently",
-    "zh": "你若近期内造成暴击，则持续物理伤害加成 {0}%",
+    "zh": "若你近期内造成过暴击，则持续物理伤害加成 {0}%",
     "en": "{0}% to Physical Damage over Time Multiplier if you've dealt a Critical Strike Recently"
   },
   {
@@ -54151,22 +54841,22 @@
   },
   {
     "id": "poison_damage_+%_per_frenzy_charge",
-    "zh": "每个狂怒球可使中毒伤害提高 {0}%",
+    "zh": "每个狂怒球使中毒伤害提高 {0}%",
     "en": "{0}% increased Damage with Poison per Frenzy Charge"
   },
   {
     "id": "poison_damage_+%_per_frenzy_charge",
-    "zh": "每个狂怒球可使中毒伤害降低 {0}%",
+    "zh": "每个狂怒球使中毒伤害降低 {0}%",
     "en": "{0}% reduced Damage with Poison per Frenzy Charge"
   },
   {
     "id": "poison_damage_+%_per_power_charge",
-    "zh": "每个暴击球可使中毒伤害提高 {0}%",
+    "zh": "每个暴击球使中毒伤害提高 {0}%",
     "en": "{0}% increased Damage with Poison per Power Charge"
   },
   {
     "id": "poison_damage_+%_per_power_charge",
-    "zh": "每个暴击球可使中毒伤害降低 {0}%",
+    "zh": "每个暴击球使中毒伤害降低 {0}%",
     "en": "{0}% reduced Damage with Poison per Power Charge"
   },
   {
@@ -54226,12 +54916,12 @@
   },
   {
     "id": "poison_duration_+%_per_power_charge",
-    "zh": "每个暴击球可使中毒持续时间延长 {0}%",
+    "zh": "每个暴击球使中毒持续时间延长 {0}%",
     "en": "{0}% increased Poison Duration per Power Charge"
   },
   {
     "id": "poison_duration_+%_per_power_charge",
-    "zh": "每个暴击球可使中毒持续时间缩短 {0}%",
+    "zh": "每个暴击球使中毒持续时间缩短 {0}%",
     "en": "{0}% reduced Poison Duration per Power Charge"
   },
   {
@@ -54950,6 +55640,16 @@
     "en": "Inherent loss of Rage is {0}% slower"
   },
   {
+    "id": "rage_grants_cast_speed_instead",
+    "zh": "怒火提高施法速度，而非攻击速度",
+    "en": "Rage grants Cast Speed instead of Attack Speed"
+  },
+  {
+    "id": "rage_grants_spell_damage_instead",
+    "zh": "怒火提高法术伤害，而非攻击伤害",
+    "en": "Rage grants Spell Damage instead of Attack Damage"
+  },
+  {
     "id": "rage_slash_sacrifice_rage_% quality_display_rage_vortex_is_gem",
     "zh": "怒火漩涡献祭的怒火 {0}%",
     "en": "Rage Vortex Sacrifices {0}% of Rage"
@@ -55456,7 +56156,7 @@
   },
   {
     "id": "regenerate_1_rage_per_x_life_regeneration",
-    "zh": "生命每秒回复{0}，怒火每秒再生1点",
+    "zh": "每 {0} 点的每秒生命再生使你的怒火获得 1 点的每秒再生",
     "en": "Regenerate 1 Rage per second for every {0} Life Recovery per second from Regeneration"
   },
   {
@@ -55751,12 +56451,12 @@
   },
   {
     "id": "sanctify_consecrated_ground_enemy_damage_taken_+%",
-    "zh": "净化烈焰创造的【奉献地面】可以使敌人受到的伤害提高 {0}%",
+    "zh": "净化烈焰创造的奉献地面可以使敌人受到的伤害提高 {0}%",
     "en": "Consecrated Ground from Purifying Flame applies {0}% increased Damage taken to Enemies"
   },
   {
     "id": "sanctify_consecrated_ground_enemy_damage_taken_+%",
-    "zh": "净化烈焰创造的【奉献地面】可以使敌人受到的伤害降低 {0}%",
+    "zh": "净化烈焰创造的奉献地面可以使敌人受到的伤害降低 {0}%",
     "en": "Consecrated Ground from Purifying Flame applies {0}% reduced Damage taken to Enemies"
   },
   {
@@ -57340,6 +58040,11 @@
     "en": "{0}% chance to Impale on Spell Hit"
   },
   {
+    "id": "spells_inflict_intimidate_on_crit",
+    "zh": "法术暴击时造成恐吓 4 秒",
+    "en": "Spells inflict Intimidate on Critical Strike for 4 seconds"
+  },
+  {
     "id": "spells_you_cast_gain_%_of_weapon_damage_as_added_spell_damage",
     "zh": "你施放的法术附加相当于该武器伤害 {0}% 的法术伤害",
     "en": "Spells you Cast have Added Spell Damage equal to {0}% of the Damage of this Weapon"
@@ -57830,9 +58535,24 @@
     "en": "{0} to Level of all Strength Skill Gems"
   },
   {
+    "id": "strike_skills_fortify_on_hit",
+    "zh": "打击技能近战击中获得护体",
+    "en": "Melee Hits from Strike Skills Fortify"
+  },
+  {
     "id": "strike_skills_knockback_on_melee_hit",
     "zh": "拥有打击技能的近战攻击总能造成击退",
     "en": "Melee Hits with Strike Skills always Knockback"
+  },
+  {
+    "id": "strongest_packmate_multiplier_+%_final",
+    "zh": "怪物群中最强的怪物伤害总增 {0}%",
+    "en": "{0}% more Damage for the Strongest Pack member"
+  },
+  {
+    "id": "strongest_packmate_multiplier_+%_final",
+    "zh": "怪物群中最强的怪物伤害总降 {0}%",
+    "en": "{0}% less Damage for the Strongest Pack member"
   },
   {
     "id": "stun_duration_on_critical_strike_+%",
@@ -57851,12 +58571,12 @@
   },
   {
     "id": "stun_duration_+%_per_endurance_charge",
-    "zh": "每个耐力球可使敌人被晕眩时间延长 {0}%",
+    "zh": "每个耐力球使敌人被晕眩时间延长 {0}%",
     "en": "{0}% increased Stun Duration on Enemies per Endurance Charge"
   },
   {
     "id": "stun_duration_+%_per_endurance_charge",
-    "zh": "每个耐力球可使敌人被晕眩时间缩短 {0}%",
+    "zh": "每个耐力球使敌人被晕眩时间缩短 {0}%",
     "en": "{0}% reduced Stun Duration on Enemies per Endurance Charge"
   },
   {
@@ -58587,7 +59307,7 @@
   {
     "id": "totems_action_speed_cannot_be_modified_below_base",
     "zh": "图腾的行动速度无法被减速至基础值以下",
-    "en": "Totems' Action Speed cannot be modified to below base value"
+    "en": "Totems' Action Speed cannot be modified to below Base Value"
   },
   {
     "id": "totem_attack_damage_leeched_as_mana_to_you_permyriad",
@@ -58701,7 +59421,7 @@
   },
   {
     "id": "totems_regenerate_1_life_per_x_player_life_regeneration",
-    "zh": "生命每秒回复 {0}，图腾生命每秒再生 1 点",
+    "zh": "每 {0} 点的每秒生命再生使你的图腾获得 1 点的每秒生命再生",
     "en": "Totems Regenerate 1 Life per second per {0} of your Life Recovery per second from Regeneration"
   },
   {
@@ -58791,12 +59511,12 @@
   },
   {
     "id": "trap_throwing_speed_+%_per_frenzy_charge",
-    "zh": "每个狂怒球可使陷阱投掷速度加快 {0}%",
+    "zh": "每个狂怒球使陷阱投掷速度加快 {0}%",
     "en": "{0}% increased Trap Throwing Speed per Frenzy Charge"
   },
   {
     "id": "trap_throwing_speed_+%_per_frenzy_charge",
-    "zh": "每个狂怒球可使陷阱投掷速度减慢 {0}%",
+    "zh": "每个狂怒球使陷阱投掷速度减慢 {0}%",
     "en": "{0}% reduced Trap Throwing Speed per Frenzy Charge"
   },
   {
@@ -58811,12 +59531,12 @@
   },
   {
     "id": "travel_skills_cannot_be_exerted",
-    "zh": "战吼技能不能增助位移技能",
+    "zh": "战吼技能不能增助旅行技能",
     "en": "Warcries cannot Exert Travel Skills"
   },
   {
     "id": "travel_skills_poison_reflected_to_self_up_to_5_poisons",
-    "zh": "若你身上的中毒效果少于 5 层\n则你的位移技能施加的中毒效果反射给你自己",
+    "zh": "若你身上的中毒效果少于 5 层\n则你的旅行技能施加的中毒效果反射给你自己",
     "en": "Poison you inflict with Travel Skills is Reflected to you if you\nhave fewer than 5 Poisons on you"
   },
   {
@@ -59696,12 +60416,12 @@
   },
   {
     "id": "wand_damage_+%_if_crit_recently",
-    "zh": "若你近期内造成暴击，则法杖伤害提高 {0}%",
+    "zh": "若你近期内造成过暴击，则法杖伤害提高 {0}%",
     "en": "{0}% increased Damage with Wands if you've dealt a Critical Strike Recently"
   },
   {
     "id": "wand_damage_+%_if_crit_recently",
-    "zh": "若你近期内造成暴击，则法杖伤害降低 {0}%",
+    "zh": "若你近期内造成过暴击，则法杖伤害降低 {0}%",
     "en": "{0}% reduced Damage with Wands if you've dealt a Critical Strike Recently"
   },
   {
@@ -59901,13 +60621,13 @@
   },
   {
     "id": "weapon_tree_local_sell_price_awakened_sextant",
-    "zh": "出售物品可额外获得一个觉醒六分仪",
-    "en": "Item sells for an additional Awakened Sextant"
+    "zh": "[DNT]出售物品可额外获得每种类型的制图者圣甲虫各一个",
+    "en": "[DNT] Item sells for an additional Cartography Scarab of every type"
   },
   {
     "id": "weapon_tree_local_sell_price_awakened_sextant",
-    "zh": "出售物品可额外获得 {0} 个觉醒六分仪",
-    "en": "Item sells for {0} additional Awakened Sextant"
+    "zh": "[DNT]出售物品可额外获得每种类型的制图者圣甲虫各 {0} 个",
+    "en": "[DNT] Item sells for {0} additional Cartography Scarabs of every type"
   },
   {
     "id": "weapon_tree_local_sell_price_blessed_orb",
@@ -60531,7 +61251,7 @@
   },
   {
     "id": "your_travel_skills_except_dash_are_disabled",
-    "zh": "禁用除冲刺外的位移技能",
+    "zh": "禁用除冲刺外的旅行技能",
     "en": "Travel Skills other than Dash are Disabled"
   },
   {
@@ -61261,7 +61981,7 @@
   },
   {
     "id": "physical_damage_+%_per_frenzy_charge",
-    "zh": "每个狂怒球可使物理伤害提高 {0}%",
+    "zh": "每个狂怒球使物理伤害提高 {0}%",
     "en": "{0}% increased Physical Damage per Frenzy Charge"
   },
   {
@@ -61486,12 +62206,12 @@
   },
   {
     "id": "consecrate_ground_on_kill_%_for_3_seconds",
-    "zh": "击败敌人时有 {0}% 的几率产生【奉献地面】，持续 8 秒",
+    "zh": "击败敌人时有 {0}% 的几率产生奉献地面，持续 8 秒",
     "en": "{0}% chance to create Consecrated Ground on Kill, lasting 8 seconds"
   },
   {
     "id": "consecrate_ground_on_kill_%_for_3_seconds",
-    "zh": "击败敌人时会产生【奉献地面】，持续 8 秒",
+    "zh": "击败敌人时会产生奉献地面，持续 8 秒",
     "en": "Create Consecrated Ground on Kill, lasting 8 seconds"
   },
   {
@@ -61531,7 +62251,7 @@
   },
   {
     "id": "display_you_have_x_fortification",
-    "zh": "你有 {0} 层护身",
+    "zh": "你有 {0} 层护体",
     "en": "You have {0} Fortification"
   },
   {
@@ -61580,6 +62300,11 @@
     "en": "{0}% reduced Effect of Shock"
   },
   {
+    "id": "trigger_detonate_mines_while_moving",
+    "zh": "当你移动时触发引爆地雷",
+    "en": "Detonate Mines is Triggered while you are moving"
+  },
+  {
     "id": "base_phasing_without_visual",
     "zh": "迷踪",
     "en": "Phasing"
@@ -61611,8 +62336,8 @@
   },
   {
     "id": "keystone_call_to_arms",
-    "zh": "战吼立即施放\n所有战吼共享冷却时间",
-    "en": "Using Warcries is Instant\nWarcries share their Cooldown"
+    "zh": "战吼不再增助攻击\n战吼还会为附近的友军提供增益",
+    "en": "Warcries no longer Exert Attacks\nWarcries also grant their buffs to nearby allies"
   },
   {
     "id": "keystone_corrupted_defences",
@@ -61636,7 +62361,7 @@
   },
   {
     "id": "keystone_elemental_overload",
-    "zh": "在过去 8 秒内造成暴击的技能造成的击中和异常状态伤害总增 40%\n你的暴击不造成额外伤害\n暴击造成的异常状态不在其内",
+    "zh": "若在过去 8 秒内你造成暴击的技能造成的击中和异常状态伤害总增 40%\n你的暴击不造成额外伤害\n暴击造成的异常状态不在其内",
     "en": "Skills that have dealt a Critical Strike in the past 8 seconds deal 40% more Elemental Damage with Hits and Ailments\nYour Critical Strikes do not deal extra Damage\nAilments never count as being from Critical Strikes"
   },
   {
@@ -61891,7 +62616,7 @@
   },
   {
     "id": "create_consecrated_ground_on_weapon_hit_%_vs_rare_or_unique_enemy",
-    "zh": "击击中稀有或传奇敌人时，有 {0}% 的几率创造【奉献地面】，持续 8 秒",
+    "zh": "击击中稀有或传奇敌人时，有 {0}% 的几率创造奉献地面，持续 8 秒",
     "en": "{0}% chance to create Consecrated Ground when you Hit a Rare or Unique Enemy, lasting 8 seconds"
   },
   {
@@ -63018,6 +63743,11 @@
     "id": "local_random_support_gem_level local_random_support_gem_index",
     "zh": "插入的技能石被 {0} 级的【精准炽炎】辅助",
     "en": "Socketed Gems are Supported by Level {0} Controlled Blaze"
+  },
+  {
+    "id": "local_random_support_gem_level local_random_support_gem_index",
+    "zh": "插入的技能石被 {0} 级的【圣洁鬼灵】辅助",
+    "en": "Socketed Gems are Supported by Level {0} Sacred Wisps"
   },
   {
     "id": "random_skill_gem_level_+_level random_skill_gem_level_+_index",
@@ -65738,5 +66468,25 @@
     "id": "random_skill_gem_level_+_level random_skill_gem_level_+_index",
     "zh": "所有 火山裂缝 宝石等级 -{0}",
     "en": "-{0} to Level of all Volcanic Fissure Gems"
+  },
+  {
+    "id": "random_skill_gem_level_+_level random_skill_gem_level_+_index",
+    "zh": "所有 自动化 宝石等级 +{0}",
+    "en": "+{0} to Level of all Automation Gems"
+  },
+  {
+    "id": "random_skill_gem_level_+_level random_skill_gem_level_+_index",
+    "zh": "所有 自动化 宝石等级 -{0}",
+    "en": "-{0} to Level of all Automation Gems"
+  },
+  {
+    "id": "random_skill_gem_level_+_level random_skill_gem_level_+_index",
+    "zh": "所有 武装召唤 宝石等级 +{0}",
+    "en": "+{0} to Level of all Call to Arms Gems"
+  },
+  {
+    "id": "random_skill_gem_level_+_level random_skill_gem_level_+_index",
+    "zh": "所有 武装召唤 宝石等级 -{0}",
+    "en": "-{0} to Level of all Call to Arms Gems"
   }
 ]

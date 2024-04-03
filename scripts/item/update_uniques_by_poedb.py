@@ -29,7 +29,7 @@ def downlaod_page(url) -> str:
 
 
 def parse_uniques_page(html) -> list:
-    pattern = r'<a class="[^\"]+?" data-hover="([^\"]+)?" href="[^\"]+">([^/<>]+?)</a>'
+    pattern = r'<a class="item_unique" data-hover="([^\"]+)?" href="[^\"]+">([^/<>]+?)</a>'
     array = re.findall(pattern, html)
     uniques = []
     if len(array) == 0:
@@ -40,6 +40,9 @@ def parse_uniques_page(html) -> list:
         preview_url: str = urllib.parse.unquote_plus(unique[0])
         fullname: str = unique[1]
         slice = fullname.rsplit(" ", maxsplit=1)
+        if len(slice)!=2:
+            print("warning: skiped ", fullname)
+            continue
         zh_name = slice[0]
         basetype = slice[1]
 
@@ -47,6 +50,7 @@ def parse_uniques_page(html) -> list:
 
         uniques.append({"preview_url": preview_url,
                        "fullname": fullname, "en": en_name, "zh": zh_name, "basetype": basetype})
+
     return uniques
 
 
@@ -110,7 +114,7 @@ def add_uniques(new_uniques):
 def is_ascii(s):
     return all(ord(c) < 128 for c in s)
 
-league_uniques_page = "https://poedb.tw/cn/Affliction_uniques"
+league_uniques_page = "https://poedb.tw/cn/Necropolis_league#%E6%AD%BB%E5%AF%82%E4%BA%A1%E5%9F%8E%E4%BC%A0%E5%A5%87"
 
 if __name__ == "__main__":
     html = downlaod_page(league_uniques_page)

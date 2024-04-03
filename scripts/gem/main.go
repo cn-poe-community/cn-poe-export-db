@@ -7,6 +7,7 @@ import (
 	"dbutils/pkg/utils/errorutil"
 	"dbutils/pkg/utils/stringutil"
 	"encoding/json"
+	"fmt"
 	"os"
 	"path/filepath"
 )
@@ -65,6 +66,21 @@ func initGems(baseTypes []*item.BaseItemType, gemEffects []*gem.GemEffect) {
 	}
 
 	gems = append(gems, transfiguredGems...)
+
+	gemMap = map[string]*gem.Gem{}
+	uniques := []*gem.Gem{}
+	//去重，由国服工作人员引入的BUG
+	for _, gem := range gems {
+		if old, ok := gemMap[gem.Zh]; ok {
+			if old.En != gem.En {
+				fmt.Println("warning: diff gems with same zh")
+			}
+		} else {
+			gemMap[gem.Zh] = gem
+			uniques = append(uniques, gem)
+		}
+	}
+	gems = uniques
 
 	data, err := json.MarshalIndent(gems, "", "  ")
 	errorutil.QuitIfError(err)

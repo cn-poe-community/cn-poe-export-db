@@ -284,7 +284,9 @@ func merge(enDescs, zhDescs []*Desc) []*Desc {
 	}
 
 	for _, d := range zhDescs {
-		d.Texts[LangEn] = enDescMap[d.Id].Texts[LangEn]
+		if enDescMap[d.Id] != nil {
+			d.Texts[LangEn] = enDescMap[d.Id].Texts[LangEn]
+		}
 	}
 
 	return zhDescs

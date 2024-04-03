@@ -1026,6 +1026,10 @@
             {
                 "zh": "无尽之距",
                 "en": "The Infinite Pursuit"
+            },
+            {
+                "zh": "骤起狂岚",
+                "en": "The Tempest Rising"
             }
         ]
     },
@@ -1156,6 +1160,10 @@
             {
                 "zh": "献祭舞鞋",
                 "en": "Dance of the Offered"
+            },
+            {
+                "zh": "维鲁索的壮怀",
+                "en": "Veruso's Ambition"
             }
         ]
     },
@@ -1546,6 +1554,10 @@
             {
                 "zh": "帝国之掌",
                 "en": "Empire's Grasp"
+            },
+            {
+                "zh": "天界拥怀",
+                "en": "The Celestial Brace"
             }
         ]
     },
@@ -2224,6 +2236,10 @@
             {
                 "zh": "奇塔弗之渴望",
                 "en": "Kitava's Thirst"
+            },
+            {
+                "zh": "吞灭之情",
+                "en": "Ravenous Passion"
             }
         ]
     },
@@ -3350,6 +3366,10 @@
             {
                 "zh": "三重扣",
                 "en": "Triad Grip"
+            },
+            {
+                "zh": "费西亚之手",
+                "en": "The Hand of Phrecia"
             }
         ]
     },
@@ -3589,7 +3609,13 @@
     },
     {
         "zh": "秘术法衣",
-        "en": "Cabalist Regalia"
+        "en": "Cabalist Regalia",
+        "uniques": [
+            {
+                "zh": "破弃信仰",
+                "en": "The Apostate"
+            }
+        ]
     },
     {
         "zh": "丝绒背心",
@@ -4031,7 +4057,13 @@
     },
     {
         "zh": "猪面头盔",
-        "en": "Pig-Faced Bascinet"
+        "en": "Pig-Faced Bascinet",
+        "uniques": [
+            {
+                "zh": "噬心饕餮",
+                "en": "The Devourer of Minds"
+            }
+        ]
     },
     {
         "zh": "悲伤面具",

@@ -58,5 +58,17 @@
     {
         "en": "Frozen Sweep",
         "zh": "冰封横扫"
+    },
+    {
+        "en": "Call to Arms Support",
+        "zh": "武装召唤（辅）"
+    },
+    {
+        "en": "Summon Sacred Wisps",
+        "zh": "召唤圣洁鬼灵"
+    },
+    {
+        "en": "Automation Support",
+        "zh": "自动化（辅）"
     }
 ]
