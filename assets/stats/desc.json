@@ -34947,7 +34947,7 @@
   {
     "id": "chance_%_to_drop_additional_scarab_misc",
     "zh": "[DNT]有 {0}% 几率掉落一个额外的杂类圣甲虫",
-    "en": "[DNT] {0}% chance to drop an additional Miscellaneous Scarab"
+    "en": "{0}% chance to drop an additional Miscellaneous Scarab"
   },
   {
     "id": "chance_%_to_drop_additional_scarab_perandus_gilded",

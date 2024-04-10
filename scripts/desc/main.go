@@ -149,7 +149,7 @@ func hackZhStatDescContent(content string) string {
 
 func hackDescs(descs []*desc.Desc) {
 	for _, d := range descs {
-		// 血影的`每个狂怒球可使攻击速度减慢 4%`，应当为`每个狂怒球可使攻击和施法速度减慢 4%`
+		// 血影的`每个狂怒球使攻击速度减慢 4%`，应当为`每个狂怒球使攻击和施法速度减慢 4%`
 		// 与`每个狂怒球可使攻击速度加快 {0}%`,`每个狂怒球可使攻击速度减慢 {0}%`冲突
 		// 需要translator进行hack
 		if d.Id == "attack_and_cast_speed_+%_per_frenzy_charge" {
