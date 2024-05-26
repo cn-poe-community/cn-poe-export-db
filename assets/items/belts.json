@@ -1,0 +1,318 @@
+[
+    {
+        "zh": "饰布腰带",
+        "en": "Cloth Belt",
+        "uniques": [
+            {
+                "zh": "阿恩的痛苦",
+                "en": "Arn's Anguish"
+            },
+            {
+                "zh": "葛拉文的秘宝",
+                "en": "Graven's Secret"
+            },
+            {
+                "zh": "奥莱西亚的喜悦",
+                "en": "Olesya's Delight"
+            },
+            {
+                "zh": "普兰德斯之印",
+                "en": "Perandus Blazon"
+            },
+            {
+                "zh": "灵魂羁绊【仿品】",
+                "en": "Replica Soul Tether"
+            },
+            {
+                "zh": "灵魂羁绊",
+                "en": "Soul Tether"
+            },
+            {
+                "zh": "嗜魂",
+                "en": "Soulthirst"
+            },
+            {
+                "zh": "日炎",
+                "en": "Sunblast"
+            },
+            {
+                "zh": "复苏之药",
+                "en": "The Druggery"
+            },
+            {
+                "zh": "流逝之时",
+                "en": "The Flow Untethered"
+            },
+            {
+                "zh": "沧海桑田",
+                "en": "The Torrent's Reclamation"
+            },
+            {
+                "zh": "仁德腰带",
+                "en": "Ceinture of Benevolence"
+            },
+            {
+                "zh": "既定命途",
+                "en": "Bound Fate"
+            },
+            {
+                "zh": "涅瓦里乌斯的传承",
+                "en": "Nevalius Inheritance"
+            }
+        ]
+    },
+    {
+        "zh": "扣链腰带",
+        "en": "Chain Belt",
+        "uniques": [
+            {
+                "zh": "变节者",
+                "en": "Ascent From Flesh"
+            },
+            {
+                "zh": "奥术之符",
+                "en": "Auxium"
+            },
+            {
+                "zh": "凝息",
+                "en": "Bated Breath"
+            },
+            {
+                "zh": "脱缚之锁",
+                "en": "Chains of Emancipation"
+            },
+            {
+                "zh": "懦夫之链",
+                "en": "Coward's Chains"
+            },
+            {
+                "zh": "懦夫之遗",
+                "en": "Coward's Legacy"
+            },
+            {
+                "zh": "马雷格罗的染血之环",
+                "en": "Maligaro's Restraint"
+            },
+            {
+                "zh": "凝息【仿品】",
+                "en": "Replica Bated Breath"
+            },
+            {
+                "zh": "坚韧之链",
+                "en": "Chain of Endurance"
+            }
+        ]
+    },
+    {
+        "zh": "水晶腰带",
+        "en": "Crystal Belt",
+        "uniques": [
+            {
+                "zh": "奥术之符",
+                "en": "Auxium"
+            },
+            {
+                "zh": "真相之担",
+                "en": "The Burden of Truth"
+            }
+        ]
+    },
+    {
+        "zh": "皮革腰带",
+        "en": "Leather Belt",
+        "uniques": [
+            {
+                "zh": "熊之束腰",
+                "en": "Bear's Girdle"
+            },
+            {
+                "zh": "巨岩指套",
+                "en": "Cyclopean Coil"
+            },
+            {
+                "zh": "暴食",
+                "en": "Gluttony"
+            },
+            {
+                "zh": "猎首",
+                "en": "Headhunter"
+            },
+            {
+                "zh": "极北",
+                "en": "Hyperboreus"
+            },
+            {
+                "zh": "永生",
+                "en": "Immortal Flesh"
+            },
+            {
+                "zh": "圣体之绳",
+                "en": "Leash of Oblation"
+            },
+            {
+                "zh": "火爆之拥",
+                "en": "Pyroshock Clasp"
+            },
+            {
+                "zh": "猎首【仿品】",
+                "en": "Replica Headhunter"
+            },
+            {
+                "zh": "不朽系命",
+                "en": "Umbilicus Immortalis"
+            },
+            {
+                "zh": "龙蜕之带",
+                "en": "Wurm's Molt"
+            }
+        ]
+    },
+    {
+        "zh": "重革腰带",
+        "en": "Heavy Belt",
+        "uniques": [
+            {
+                "zh": "狡徒束腰",
+                "en": "Belt of the Deceiver"
+            },
+            {
+                "zh": "比斯克的缰绳",
+                "en": "Bisco's Leash"
+            },
+            {
+                "zh": "多里亚尼之约",
+                "en": "Doryani's Invitation"
+            },
+            {
+                "zh": "戴亚迪安的晨曦",
+                "en": "Dyadian Dawn"
+            },
+            {
+                "zh": "法师之血",
+                "en": "Mageblood"
+            },
+            {
+                "zh": "梅吉诺德的力量泉源",
+                "en": "Meginord's Girdle"
+            },
+            {
+                "zh": "母亲的拥抱",
+                "en": "Mother's Embrace"
+            },
+            {
+                "zh": "突围者【仿品】",
+                "en": "Replica Siegebreaker"
+            },
+            {
+                "zh": "突围者",
+                "en": "Siegebreaker"
+            },
+            {
+                "zh": "奴役之索",
+                "en": "String of Servitude"
+            },
+            {
+                "zh": "幸存者的愧疚",
+                "en": "Survivor's Guilt"
+            },
+            {
+                "zh": "冈姆之束缚",
+                "en": "Kaom's Binding"
+            }
+        ]
+    },
+    {
+        "zh": "深渊腰带",
+        "en": "Stygian Vise",
+        "uniques": [
+            {
+                "zh": "夜临",
+                "en": "Darkness Enthroned"
+            }
+        ]
+    },
+    {
+        "zh": "金羽腰带",
+        "en": "Golden Obi",
+        "uniques": [
+            {
+                "zh": "升华珍宝",
+                "en": "Demigod's Bounty"
+            }
+        ]
+    },
+    {
+        "zh": "素布腰带",
+        "en": "Rustic Sash",
+        "uniques": [
+            {
+                "zh": "饥荒之结",
+                "en": "Faminebind"
+            },
+            {
+                "zh": "盛宴之结",
+                "en": "Feastbind"
+            },
+            {
+                "zh": "幻彩菱织",
+                "en": "Prismweave"
+            },
+            {
+                "zh": "幻彩菱织【仿品】",
+                "en": "Replica Prismweave"
+            },
+            {
+                "zh": "呕吐",
+                "en": "The Retch"
+            }
+        ]
+    },
+    {
+        "zh": "先锋腰带",
+        "en": "Vanguard Belt",
+        "uniques": [
+            {
+                "zh": "恒毅意志",
+                "en": "Perseverance"
+            },
+            {
+                "zh": "时光浪潮",
+                "en": "The Tides of Time"
+            }
+        ]
+    },
+    {
+        "zh": "扣钉腰带",
+        "en": "Studded Belt",
+        "uniques": [
+            {
+                "zh": "瑞斯拉萨的线圈",
+                "en": "Ryslatha's Coil"
+            },
+            {
+                "zh": "坚毅之环",
+                "en": "The Magnate"
+            },
+            {
+                "zh": "游牧之环",
+                "en": "The Nomad"
+            },
+            {
+                "zh": "谋士之环",
+                "en": "The Tactician"
+            }
+        ]
+    },
+    {
+        "zh": "低酿腰带",
+        "en": "Micro-Distillery Belt"
+    },
+    {
+        "zh": "警戒腰带",
+        "en": "Mechalarm Belt"
+    },
+    {
+        "zh": "机关腰带",
+        "en": "Mechanical Belt"
+    }
+]

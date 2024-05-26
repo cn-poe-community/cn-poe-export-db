@@ -1,10 +1,17 @@
 
-import { accessories, armour, weapons, flasks, jewels, gems, hybridSkills, attributes, properties, requirements, requirementSuffixes, ascendant, keystones, notables, stats, tattoos } from "./assets.js";
+import { amulets, belts, rings, bodyArmours, boots, gloves, helmets, quivers, shields, weapons, flasks, jewels, gems, hybridSkills, attributes, properties, requirements, requirementSuffixes, ascendant, keystones, notables, stats, tattoos } from "./assets.js";
 import { Assets } from "./types.js";
 
 const assets: Assets = {
-    accessories,
-    armour,
+    amulets,
+    belts,
+    rings,
+    bodyArmours,
+    boots,
+    gloves,
+    helmets,
+    quivers,
+    shields,
     weapons,
     flasks,
     jewels,

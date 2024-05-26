@@ -69,8 +69,15 @@ export interface Stat {
 }
 
 export interface Assets {
-    accessories: BaseType[];
-    armour: BaseType[];
+    amulets: BaseType[];
+    belts: BaseType[];
+    rings: BaseType[];
+    bodyArmours: BaseType[];
+    boots: BaseType[];
+    gloves: BaseType[];
+    helmets: BaseType[];
+    quivers: BaseType[];
+    shields: BaseType[];
     weapons: BaseType[];
     flasks: BaseType[];
     jewels: BaseType[];

@@ -1,0 +1,724 @@
+[
+    {
+        "zh": "伏击护手",
+        "en": "Ambush Mitts",
+        "uniques": [
+            {
+                "zh": "水火不容",
+                "en": "Abhorrent Interrogation"
+            },
+            {
+                "zh": "建筑师之手",
+                "en": "Architect's Hand"
+            },
+            {
+                "zh": "奴隶贩子之手",
+                "en": "Slavedriver's Hand"
+            },
+            {
+                "zh": "风暴觅者",
+                "en": "Stormseeker"
+            }
+        ]
+    },
+    {
+        "zh": "禁礼护手",
+        "en": "Carnal Mitts",
+        "uniques": [
+            {
+                "zh": "尸僵",
+                "en": "Algor Mortis"
+            },
+            {
+                "zh": "暗夜织礼",
+                "en": "Fenumus' Weave"
+            },
+            {
+                "zh": "入殓师",
+                "en": "The Embalmer"
+            },
+            {
+                "zh": "灵魂飞升",
+                "en": "Soul Ascension"
+            }
+        ]
+    },
+    {
+        "zh": "术士手套",
+        "en": "Sorcerer Gloves",
+        "uniques": [
+            {
+                "zh": "相生相克",
+                "en": "Allelopathy"
+            },
+            {
+                "zh": "相生相克【仿品】",
+                "en": "Replica Allelopathy"
+            }
+        ]
+    },
+    {
+        "zh": "扣环护手",
+        "en": "Strapped Mitts",
+        "uniques": [
+            {
+                "zh": "建筑师之手",
+                "en": "Architect's Hand"
+            },
+            {
+                "zh": "毁面者",
+                "en": "Facebreaker"
+            }
+        ]
+    },
+    {
+        "zh": "丝绸手套",
+        "en": "Silk Gloves",
+        "uniques": [
+            {
+                "zh": "安赛娜丝的安抚之语",
+                "en": "Asenath's Gentle Touch"
+            }
+        ]
+    },
+    {
+        "zh": "瓦尔护手",
+        "en": "Vaal Gauntlets",
+        "uniques": [
+            {
+                "zh": "阿兹里的捷思",
+                "en": "Atziri's Acuity"
+            },
+            {
+                "zh": "多里亚尼之拳",
+                "en": "Doryani's Fist"
+            },
+            {
+                "zh": "阿兹里的捷思【仿品】",
+                "en": "Replica Atziri's Acuity"
+            }
+        ]
+    },
+    {
+        "zh": "环带护手",
+        "en": "Clasped Mitts",
+        "uniques": [
+            {
+                "zh": "奥库娜的意志",
+                "en": "Aukuna's Will"
+            },
+            {
+                "zh": "沙尘之影",
+                "en": "Shadows and Dust"
+            }
+        ]
+    },
+    {
+        "zh": "鱼鳞手套",
+        "en": "Fishscale Gauntlets",
+        "uniques": [
+            {
+                "zh": "富贵之运",
+                "en": "Aurseize"
+            }
+        ]
+    },
+    {
+        "zh": "钢影护手",
+        "en": "Steelscale Gauntlets",
+        "uniques": [
+            {
+                "zh": "富贵之运",
+                "en": "Aurseize"
+            },
+            {
+                "zh": "陵拳",
+                "en": "Tombfist"
+            }
+        ]
+    },
+    {
+        "zh": "暗影护手",
+        "en": "Assassin's Mitts",
+        "uniques": [
+            {
+                "zh": "亵渎者之握",
+                "en": "Blasphemer's Grasp"
+            },
+            {
+                "zh": "蝮吻",
+                "en": "Snakebite"
+            },
+            {
+                "zh": "风暴赐福",
+                "en": "Storm's Gift"
+            },
+            {
+                "zh": "熵能毁灭",
+                "en": "Entropic Devastation"
+            }
+        ]
+    },
+    {
+        "zh": "火蝮鳞手套",
+        "en": "Hydrascale Gauntlets",
+        "uniques": [
+            {
+                "zh": "扼息者",
+                "en": "Breathstealer"
+            },
+            {
+                "zh": "大地之握",
+                "en": "Farrul's Pounce"
+            },
+            {
+                "zh": "坟场之链",
+                "en": "Gravebind"
+            }
+        ]
+    },
+    {
+        "zh": "仪式手套",
+        "en": "Riveted Gloves",
+        "uniques": [
+            {
+                "zh": "巨坑之令",
+                "en": "Command of the Pit"
+            }
+        ]
+    },
+    {
+        "zh": "巨人护手",
+        "en": "Titan Gauntlets",
+        "uniques": [
+            {
+                "zh": "深海魔钳",
+                "en": "Craiceann's Pincers"
+            },
+            {
+                "zh": "陨落之环",
+                "en": "Veruso's Battering Rams"
+            },
+            {
+                "zh": "冈姆的精神",
+                "en": "Kaom's Spirit"
+            }
+        ]
+    },
+    {
+        "zh": "黄金臂甲",
+        "en": "Golden Bracers",
+        "uniques": [
+            {
+                "zh": "升华之指",
+                "en": "Demigod's Touch"
+            }
+        ]
+    },
+    {
+        "zh": "缎布手套",
+        "en": "Satin Gloves",
+        "uniques": [
+            {
+                "zh": "恶魔缝补者",
+                "en": "Demon Stitcher"
+            },
+            {
+                "zh": "相生相克",
+                "en": "Allelopathy"
+            },
+            {
+                "zh": "相生相克【仿品】",
+                "en": "Replica Allelopathy"
+            }
+        ]
+    },
+    {
+        "zh": "冷钢护手",
+        "en": "Steel Gauntlets",
+        "uniques": [
+            {
+                "zh": "梅吉诺德的巨力腕甲",
+                "en": "Meginord's Vise"
+            }
+        ]
+    },
+    {
+        "zh": "丝绒手套",
+        "en": "Velvet Gloves",
+        "uniques": [
+            {
+                "zh": "德瑞的恶念",
+                "en": "Doedre's Malevolence"
+            },
+            {
+                "zh": "德瑞的精神手套",
+                "en": "Doedre's Tenure"
+            }
+        ]
+    },
+    {
+        "zh": "巨灵护手",
+        "en": "Goliath Gauntlets",
+        "uniques": [
+            {
+                "zh": "帝国之掌",
+                "en": "Empire's Grasp"
+            },
+            {
+                "zh": "天界拥怀",
+                "en": "The Celestial Brace"
+            }
+        ]
+    },
+    {
+        "zh": "铁影手套",
+        "en": "Ironscale Gauntlets",
+        "uniques": [
+            {
+                "zh": "肉体与魂灵",
+                "en": "Flesh and Spirit"
+            }
+        ]
+    },
+    {
+        "zh": "青铜护手",
+        "en": "Bronze Gauntlets",
+        "uniques": [
+            {
+                "zh": "巨灵灾星",
+                "en": "Giantsbane"
+            }
+        ]
+    },
+    {
+        "zh": "鳗皮手套",
+        "en": "Eelskin Gloves",
+        "uniques": [
+            {
+                "zh": "伟大旧神之触手",
+                "en": "Great Old One's Tentacles"
+            }
+        ]
+    },
+    {
+        "zh": "秘术手套",
+        "en": "Arcanist Gloves",
+        "uniques": [
+            {
+                "zh": "议会之握",
+                "en": "Grip of the Council"
+            },
+            {
+                "zh": "议会之握【仿品】",
+                "en": "Replica Grip of the Council"
+            }
+        ]
+    },
+    {
+        "zh": "蛇鳞手套",
+        "en": "Serpentscale Gauntlets",
+        "uniques": [
+            {
+                "zh": "血友病",
+                "en": "Haemophilia"
+            }
+        ]
+    },
+    {
+        "zh": "狂热者手套",
+        "en": "Zealot Gloves",
+        "uniques": [
+            {
+                "zh": "热诚之手",
+                "en": "Hand of the Fervent"
+            },
+            {
+                "zh": "福库尔的手【仿品】",
+                "en": "Replica Volkuur's Guidance"
+            },
+            {
+                "zh": "福库尔的手",
+                "en": "Volkuur's Guidance"
+            }
+        ]
+    },
+    {
+        "zh": "圣战手套",
+        "en": "Crusader Gloves",
+        "uniques": [
+            {
+                "zh": "神主之手",
+                "en": "Hands of the High Templar"
+            },
+            {
+                "zh": "悔悟之掌",
+                "en": "Repentance"
+            },
+            {
+                "zh": "塑界之触",
+                "en": "Shaper's Touch"
+            }
+        ]
+    },
+    {
+        "zh": "远古护手",
+        "en": "Ancient Gauntlets",
+        "uniques": [
+            {
+                "zh": "仇恨熔炉",
+                "en": "Hateforge"
+            },
+            {
+                "zh": "升华之风",
+                "en": "Winds of Change"
+            }
+        ]
+    },
+    {
+        "zh": "咒者手套",
+        "en": "Conjurer Gloves",
+        "uniques": [
+            {
+                "zh": "虚空之力",
+                "en": "Voidbringer"
+            }
+        ]
+    },
+    {
+        "zh": "羊皮手套",
+        "en": "Goathide Gloves",
+        "uniques": [
+            {
+                "zh": "李姆本",
+                "en": "Hrimburn"
+            },
+            {
+                "zh": "冰冷之眼",
+                "en": "Hrimsorrow"
+            }
+        ]
+    },
+    {
+        "zh": "绣布手套",
+        "en": "Samite Gloves",
+        "uniques": [
+            {
+                "zh": "卡莉莎的优雅之影",
+                "en": "Kalisa's Grace"
+            },
+            {
+                "zh": "卡莉莎的优雅之影【仿品】",
+                "en": "Replica Kalisa's Grace"
+            }
+        ]
+    },
+    {
+        "zh": "铁锻护手",
+        "en": "Iron Gauntlets",
+        "uniques": [
+            {
+                "zh": "意识之缘",
+                "en": "Lochtonial Caress"
+            }
+        ]
+    },
+    {
+        "zh": "暗影者护手",
+        "en": "Murder Mitts",
+        "uniques": [
+            {
+                "zh": "马奇纳护手",
+                "en": "Machina Mitts"
+            },
+            {
+                "zh": "马拉凯之记",
+                "en": "Malachai's Mark"
+            },
+            {
+                "zh": "轰天雷",
+                "en": "Thunderfist"
+            }
+        ]
+    },
+    {
+        "zh": "鹿皮手套",
+        "en": "Deerskin Gloves",
+        "uniques": [
+            {
+                "zh": "马雷格罗的玫红手套",
+                "en": "Maligaro's Virtuosity"
+            }
+        ]
+    },
+    {
+        "zh": "符文手甲",
+        "en": "Runic Gauntlets",
+        "uniques": [
+            {
+                "zh": "梅德维德的挑战",
+                "en": "Medved's Challenge"
+            }
+        ]
+    },
+    {
+        "zh": "迷踪手套",
+        "en": "Slink Gloves",
+        "uniques": [
+            {
+                "zh": "佣兵领地",
+                "en": "Mercenary's Lot"
+            }
+        ]
+    },
+    {
+        "zh": "符文笼手",
+        "en": "Runic Gages",
+        "uniques": [
+            {
+                "zh": "暗夜之握",
+                "en": "Nightgrip"
+            }
+        ]
+    },
+    {
+        "zh": "军团手套",
+        "en": "Legion Gloves",
+        "uniques": [
+            {
+                "zh": "虚空",
+                "en": "Null and Void"
+            },
+            {
+                "zh": "暴君之握",
+                "en": "Offering to the Serpent"
+            }
+        ]
+    },
+    {
+        "zh": "裹趾护手",
+        "en": "Wrapped Mitts",
+        "uniques": [
+            {
+                "zh": "恩德的迅影",
+                "en": "Ondar's Clasp"
+            }
+        ]
+    },
+    {
+        "zh": "砂影手套",
+        "en": "Nubuck Gloves",
+        "uniques": [
+            {
+                "zh": "欧斯卡姆",
+                "en": "Oskarm"
+            }
+        ]
+    },
+    {
+        "zh": "粗革手套",
+        "en": "Shagreen Gloves",
+        "uniques": [
+            {
+                "zh": "苦难探寻者",
+                "en": "Painseeker"
+            }
+        ]
+    },
+    {
+        "zh": "羊毛手套",
+        "en": "Wool Gloves",
+        "uniques": [
+            {
+                "zh": "猎宝者的护手",
+                "en": "Sadima's Touch"
+            }
+        ]
+    },
+    {
+        "zh": "战士手套",
+        "en": "Soldier Gloves",
+        "uniques": [
+            {
+                "zh": "苍空之翼",
+                "en": "Saqawal's Winds"
+            },
+            {
+                "zh": "南方",
+                "en": "Southbound"
+            }
+        ]
+    },
+    {
+        "zh": "链甲手套",
+        "en": "Chain Gloves",
+        "uniques": [
+            {
+                "zh": "悲运之缚",
+                "en": "Shackles of the Wretched"
+            }
+        ]
+    },
+    {
+        "zh": "铜影手套",
+        "en": "Bronzescale Gauntlets",
+        "uniques": [
+            {
+                "zh": "苍蟒之鳞",
+                "en": "Slitherpinch"
+            },
+            {
+                "zh": "瓦尔的灵手",
+                "en": "Vaal Caress"
+            }
+        ]
+    },
+    {
+        "zh": "龙鳞手套",
+        "en": "Dragonscale Gauntlets",
+        "uniques": [
+            {
+                "zh": "浪涌缚者",
+                "en": "Surgebinders"
+            },
+            {
+                "zh": "世界雕刻者",
+                "en": "Worldcarver"
+            }
+        ]
+    },
+    {
+        "zh": "网眼手套",
+        "en": "Mesh Gloves",
+        "uniques": [
+            {
+                "zh": "三重扣",
+                "en": "Triad Grip"
+            },
+            {
+                "zh": "费西亚之手",
+                "en": "The Hand of Phrecia"
+            }
+        ]
+    },
+    {
+        "zh": "刺绣手套",
+        "en": "Embroidered Gloves",
+        "uniques": [
+            {
+                "zh": "刁妇的圈套",
+                "en": "Vixen's Entrapment"
+            }
+        ]
+    },
+    {
+        "zh": "蝮鳞手套",
+        "en": "Wyrmscale Gauntlets",
+        "uniques": [
+            {
+                "zh": "龙族印记",
+                "en": "Wyrmsign"
+            },
+            {
+                "zh": "烈火送葬",
+                "en": "Tanu Ahi"
+            }
+        ]
+    },
+    {
+        "zh": "擒拿手套",
+        "en": "Gripped Gloves"
+    },
+    {
+        "zh": "丝绸手套",
+        "en": "Fingerless Silk Gloves",
+        "uniques": [
+            {
+                "zh": "漆黑天顶",
+                "en": "Black Zenith"
+            }
+        ]
+    },
+    {
+        "zh": "扣钉手套",
+        "en": "Spiked Gloves",
+        "uniques": [
+            {
+                "zh": "无尽盛宴",
+                "en": "Ceaseless Feast"
+            }
+        ]
+    },
+    {
+        "zh": "药剂师手套",
+        "en": "Apothecary's Gloves"
+    },
+    {
+        "zh": "生皮手套",
+        "en": "Rawhide Gloves"
+    },
+    {
+        "zh": "鲨皮手套",
+        "en": "Sharkskin Gloves"
+    },
+    {
+        "zh": "匿踪手套",
+        "en": "Stealth Gloves"
+    },
+    {
+        "zh": "猎人护手",
+        "en": "Trapper Mitts"
+    },
+    {
+        "zh": "笨重手套",
+        "en": "Gauche Gloves"
+    },
+    {
+        "zh": "南风手套",
+        "en": "Southswing Gloves"
+    },
+    {
+        "zh": "左旋手套",
+        "en": "Sinistral Gloves"
+    },
+    {
+        "zh": "符文手套",
+        "en": "Runic Gloves"
+    },
+    {
+        "zh": "雷线手套",
+        "en": "Leyline Gloves"
+    },
+    {
+        "zh": "灵风手套",
+        "en": "Aetherwind Gloves"
+    },
+    {
+        "zh": "枢纽手套",
+        "en": "Nexus Gloves"
+    },
+    {
+        "zh": "坚铁护手",
+        "en": "Plated Gauntlets"
+    },
+    {
+        "zh": "古钢护手",
+        "en": "Antique Gauntlets"
+    },
+    {
+        "zh": "环甲手套",
+        "en": "Ringmail Gloves"
+    },
+    {
+        "zh": "沉重手甲",
+        "en": "Taxing Gauntlets"
+    },
+    {
+        "zh": "磨人手甲",
+        "en": "Gruelling Gauntlets"
+    },
+    {
+        "zh": "衰弱手甲",
+        "en": "Debilitation Gauntlets"
+    }
+]

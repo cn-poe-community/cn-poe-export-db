@@ -19,6 +19,7 @@ config: dict = load_json("../config.json")
 
 project_root = config.get("projectRoot")
 
+
 def downlaod_page(url) -> str:
     print(f"downloading {url}")
     req = urllib.request.Request(url, headers={
@@ -40,7 +41,7 @@ def parse_uniques_page(html) -> list:
         preview_url: str = urllib.parse.unquote_plus(unique[0])
         fullname: str = unique[1]
         slice = fullname.rsplit(" ", maxsplit=1)
-        if len(slice)!=2:
+        if len(slice) != 2:
             print("warning: skiped ", fullname)
             continue
         zh_name = slice[0]
@@ -54,27 +55,27 @@ def parse_uniques_page(html) -> list:
     return uniques
 
 
-item_paths = ["assets/accessories.json", "assets/armour.json",
-              "assets/flasks.json", "assets/jewels.json", "assets/weapons.json"]
+items_folder = "assets/items"
 
 data_list = {}
 basetypes = {}  # 使用中文名称索引所有basetype
 
 
 def add_uniques(new_uniques):
-    new_uniques = [ u for u in new_uniques if not is_ascii(u["zh"])]
+    new_uniques = [u for u in new_uniques if not is_ascii(u["zh"])]
 
-    for p in item_paths:
-        full_path = os.path.join(project_root, p)
-        data = load_json(full_path)
-        data_list[full_path] = data
+    for file_name in os.listdir(os.path.join(project_root, items_folder)):
+        full_path = os.path.join(project_root, items_folder, file_name)
+        if os.path.isfile(full_path) and file_name.endswith(".json"):
+            data = load_json(full_path)
+            data_list[full_path] = data
 
-        for basetype in data:
-            zh = basetype["zh"]
-            if zh in basetypes:
-                basetypes[zh] = basetypes[zh].append(basetype)
-            else:
-                basetypes[zh] = [basetype]
+            for basetype in data:
+                zh = basetype["zh"]
+                if zh in basetypes:
+                    basetypes[zh] = basetypes[zh].append(basetype)
+                else:
+                    basetypes[zh] = [basetype]
 
     for new_unique in new_uniques:
         fullname = new_unique["fullname"]
@@ -104,15 +105,16 @@ def add_uniques(new_uniques):
             print(
                 f"warning: 插入了重复的暗金，因为存在重复的 basetype，请手动检查并删除多余的数据")
 
-    for p in item_paths:
-        full_path = os.path.join(project_root, p)
+    for full_path in data_list.keys():
         data = data_list[full_path]
 
         with open(full_path, 'wt', encoding="utf-8") as f:
             f.write(json.dumps(data, ensure_ascii=False, indent=4))
 
+
 def is_ascii(s):
     return all(ord(c) < 128 for c in s)
+
 
 league_uniques_page = "https://poedb.tw/cn/Necropolis_league#%E6%AD%BB%E5%AF%82%E4%BA%A1%E5%9F%8E%E4%BC%A0%E5%A5%87"
 

@@ -11,7 +11,8 @@ def load_json(file):
         data = json.loads(content)
     return data
 
-def snake_to_camel(name:str):
+
+def snake_to_camel(name: str):
     result = ''
     capitalize_next = False
     for char in name:
@@ -26,9 +27,21 @@ def snake_to_camel(name:str):
     return result
 
 
-def json2js(json, variable_name):
+def json_to_js(json, variable_name):
     name = snake_to_camel(variable_name)
     return f"export const {name} = {json};"
+
+
+def jsons_to_js(folder: str):
+    codes = []
+    for file_name in os.listdir(folder):
+        source = os.path.join(folder, file_name)
+        if os.path.isfile(source) and file_name.endswith(".json"):
+            data = load_json(source)
+            pure_name = file_name[:-5]
+            code = json_to_js(data, pure_name)
+            codes.append(code)
+    return codes
 
 
 def make_stats():
@@ -78,34 +91,20 @@ def remove_repeats(stats):
 
 def generate():
     content = []
-    for file_name in os.listdir(src):
-        source = os.path.join(src, file_name)
-        if os.path.isfile(source) and file_name.endswith(".json"):
-            data = load_json(source)
-            pure_name = file_name[:-5]
-            code = json2js(data, pure_name)
-            content.append(code)
 
-    for file_name in os.listdir(os.path.join(src, "passiveskills")):
-        source = os.path.join(src, "passiveskills", file_name)
-        if os.path.isfile(source) and file_name.endswith(".json"):
-            data = load_json(source)
-            pure_name = file_name[:-5]
-            code = json2js(data, pure_name)
-            content.append(code)
-
-    for file_name in os.listdir(os.path.join(src, "gems")):
-        source = os.path.join(src, "gems", file_name)
-        if os.path.isfile(source) and file_name.endswith(".json"):
-            data = load_json(source)
-            pure_name = file_name[:-5]
-            code = json2js(data, pure_name)
-            content.append(code)
+    for item in jsons_to_js(src):
+        content.append(item)
+    for item in jsons_to_js(os.path.join(src, "items")):
+        content.append(item)
+    for item in jsons_to_js(os.path.join(src, "passiveskills")):
+        content.append(item)
+    for item in jsons_to_js(os.path.join(src, "gems")):
+        content.append(item)
 
     stats = make_stats()
-    stats_code = json2js(stats, "stats")
-
+    stats_code = json_to_js(stats, "stats")
     content.append(stats_code)
+
     with open(dist, 'wt', encoding="utf-8", newline="\n") as f:
         f.write("\n".join(content))
 
@@ -115,8 +114,9 @@ def is_ascii(s):
 
 
 def check_non_ascii_names_and_types():
-    files = ["accessories.json", "armour.json",
-             "flasks.json", "jewels.json", "weapons.json", "tattoos.json"]
+    files = [os.path.join("items", item) for item in os.listdir(
+        os.path.join(src, "items")) if item.endswith(".json")]
+    files.append("tattoos.json")
 
     checked_non_ascii_types = set(["Maelström Staff"])
     checked_non_ascii_names = set(["Doppelgänger Guise", "Mjölner"])
@@ -150,7 +150,6 @@ def check_non_ascii_names_and_types():
         print(f"warning: new non-ascii uniques: {new_names}")
 
 
-
 if __name__ == "__main__":
-    generate()
     check_non_ascii_names_and_types()
+    generate()

@@ -1,0 +1,978 @@
+[
+    {
+        "zh": "圣战锁甲",
+        "en": "Crusader Chainmail",
+        "uniques": [
+            {
+                "zh": "安姆布的战甲",
+                "en": "Ambu's Charge"
+            },
+            {
+                "zh": "安姆布的战甲【仿品】",
+                "en": "Replica Ambu's Charge"
+            }
+        ]
+    },
+    {
+        "zh": "鹿皮外套",
+        "en": "Buckskin Tunic",
+        "uniques": [
+            {
+                "zh": "拂烬",
+                "en": "Ashrend"
+            }
+        ]
+    },
+    {
+        "zh": "祭礼束衣",
+        "en": "Sacrificial Garb",
+        "uniques": [
+            {
+                "zh": "阿兹里的威权",
+                "en": "Atziri's Splendour"
+            },
+            {
+                "zh": "暗影缝合",
+                "en": "Shadowstitch"
+            }
+        ]
+    },
+    {
+        "zh": "连身龙鳞战甲",
+        "en": "Full Wyrmscale",
+        "uniques": [
+            {
+                "zh": "兽腹",
+                "en": "Belly of the Beast"
+            }
+        ]
+    },
+    {
+        "zh": "骨制战甲",
+        "en": "Bone Armour",
+        "uniques": [
+            {
+                "zh": "血脉相连",
+                "en": "Bloodbond"
+            }
+        ]
+    },
+    {
+        "zh": "星芒战铠",
+        "en": "Astral Plate",
+        "uniques": [
+            {
+                "zh": "蹒跚巨兽",
+                "en": "Blunderbore"
+            },
+            {
+                "zh": "冥使之体",
+                "en": "Death's Oath"
+            }
+        ]
+    },
+    {
+        "zh": "铁制背心",
+        "en": "Plate Vest",
+        "uniques": [
+            {
+                "zh": "刺棘宝甲",
+                "en": "Bramblejack"
+            },
+            {
+                "zh": "荆棘之墙",
+                "en": "Wall of Brambles"
+            }
+        ]
+    },
+    {
+        "zh": "扣环皮甲",
+        "en": "Strapped Leather",
+        "uniques": [
+            {
+                "zh": "荒途",
+                "en": "Briskwrap"
+            },
+            {
+                "zh": "荒野之绕",
+                "en": "Wildwrap"
+            }
+        ]
+    },
+    {
+        "zh": "死神之装",
+        "en": "Cutthroat's Garb",
+        "uniques": [
+            {
+                "zh": "布隆的影衣",
+                "en": "Bronn's Lithe"
+            }
+        ]
+    },
+    {
+        "zh": "映彩外套",
+        "en": "Varnished Coat",
+        "uniques": [
+            {
+                "zh": "致命之体",
+                "en": "Carcass Jack"
+            },
+            {
+                "zh": "海军上将",
+                "en": "The Admiral"
+            }
+        ]
+    },
+    {
+        "zh": "圣洁锁甲",
+        "en": "Saintly Chainmail",
+        "uniques": [
+            {
+                "zh": "将军的复生",
+                "en": "Chains of Command"
+            },
+            {
+                "zh": "烈炎之心",
+                "en": "Incandescent Heart"
+            }
+        ]
+    },
+    {
+        "zh": "胜利盔甲",
+        "en": "Triumphant Lamellar",
+        "uniques": [
+            {
+                "zh": "薛鲁宾的恶作剧",
+                "en": "Cherrubim's Maleficence"
+            },
+            {
+                "zh": "大地之护",
+                "en": "Farrul's Fur"
+            },
+            {
+                "zh": "大地之护【仿品】",
+                "en": "Replica Farrul's Fur"
+            }
+        ]
+    },
+    {
+        "zh": "薄衬衣",
+        "en": "Padded Vest",
+        "uniques": [
+            {
+                "zh": "卫道之袍",
+                "en": "Cloak of Defiance"
+            }
+        ]
+    },
+    {
+        "zh": "漆彩束衣",
+        "en": "Lacquered Garb",
+        "uniques": [
+            {
+                "zh": "卫道之袍",
+                "en": "Cloak of Defiance"
+            },
+            {
+                "zh": "鲁莽防御",
+                "en": "Reckless Defence"
+            },
+            {
+                "zh": "维多里奥之绝响",
+                "en": "Victario's Influence"
+            }
+        ]
+    },
+    {
+        "zh": "学者之袍",
+        "en": "Scholar's Robe",
+        "uniques": [
+            {
+                "zh": "烈炎之袍",
+                "en": "Cloak of Flame"
+            }
+        ]
+    },
+    {
+        "zh": "智者之袍",
+        "en": "Savant's Robe",
+        "uniques": [
+            {
+                "zh": "塔温的披风",
+                "en": "Cloak of Tawm'r Isley"
+            },
+            {
+                "zh": "无常法袍",
+                "en": "Garb of the Ephemeral"
+            }
+        ]
+    },
+    {
+        "zh": "暗影之装",
+        "en": "Assassin's Garb",
+        "uniques": [
+            {
+                "zh": "卡斯普里意志",
+                "en": "Cospri's Will"
+            }
+        ]
+    },
+    {
+        "zh": "金耀之铠",
+        "en": "Golden Plate",
+        "uniques": [
+            {
+                "zh": "深海魔甲",
+                "en": "Craiceann's Carapace"
+            },
+            {
+                "zh": "贪婪之拥",
+                "en": "Greed's Embrace"
+            }
+        ]
+    },
+    {
+        "zh": "精制环甲",
+        "en": "Latticed Ringmail",
+        "uniques": [
+            {
+                "zh": "水晶墓穴",
+                "en": "Crystal Vault"
+            },
+            {
+                "zh": "冰息",
+                "en": "Icetomb"
+            }
+        ]
+    },
+    {
+        "zh": "连身龙鳞铠",
+        "en": "Full Dragonscale",
+        "uniques": [
+            {
+                "zh": "德瑞索的卫衣",
+                "en": "Daresso's Defiance"
+            }
+        ]
+    },
+    {
+        "zh": "黄金圣炎",
+        "en": "Golden Flame",
+        "uniques": [
+            {
+                "zh": "升华之灯",
+                "en": "Demigod's Beacon"
+            }
+        ]
+    },
+    {
+        "zh": "黄金战甲",
+        "en": "Golden Mantle",
+        "uniques": [
+            {
+                "zh": "升华统御",
+                "en": "Demigod's Dominance"
+            }
+        ]
+    },
+    {
+        "zh": "哨兵之衣",
+        "en": "Sentinel Jacket",
+        "uniques": [
+            {
+                "zh": "箭丽毒蛙",
+                "en": "Dendrobate"
+            },
+            {
+                "zh": "远征尽头",
+                "en": "Expedition's End"
+            }
+        ]
+    },
+    {
+        "zh": "贤者之袍",
+        "en": "Sage's Robe",
+        "uniques": [
+            {
+                "zh": "无悔之爱",
+                "en": "Dialla's Malefaction"
+            },
+            {
+                "zh": "札德图斯的圣衣",
+                "en": "Zahndethus' Cassock"
+            }
+        ]
+    },
+    {
+        "zh": "毒蛛丝之袍",
+        "en": "Widowsilk Robe",
+        "uniques": [
+            {
+                "zh": "德瑞之肤",
+                "en": "Doedre's Skin"
+            },
+            {
+                "zh": "暗夜弑衣",
+                "en": "Fenumus' Shroud"
+            },
+            {
+                "zh": "炼狱之心",
+                "en": "Infernal Mantle"
+            }
+        ]
+    },
+    {
+        "zh": "狂虐者束衣",
+        "en": "Sadist Garb",
+        "uniques": [
+            {
+                "zh": "变形者外衣",
+                "en": "Doppelgänger Guise"
+            },
+            {
+                "zh": "速度之力",
+                "en": "Inpulsa's Broken Heart"
+            },
+            {
+                "zh": "钟表匠的华服",
+                "en": "Tinkerskin"
+            }
+        ]
+    },
+    {
+        "zh": "圣者链甲",
+        "en": "Saint's Hauberk",
+        "uniques": [
+            {
+                "zh": "多里亚尼的试作甲",
+                "en": "Doryani's Prototype"
+            },
+            {
+                "zh": "孢囊守卫",
+                "en": "Sporeguard"
+            },
+            {
+                "zh": "象牙之塔",
+                "en": "The Ivory Tower"
+            }
+        ]
+    },
+    {
+        "zh": "操灵者背心",
+        "en": "Necromancer Silks",
+        "uniques": [
+            {
+                "zh": "塑血巨匠",
+                "en": "Fleshcrafter"
+            },
+            {
+                "zh": "兀鸣",
+                "en": "Vis Mortis"
+            }
+        ]
+    },
+    {
+        "zh": "狂野部族皮甲",
+        "en": "Wild Leather",
+        "uniques": [
+            {
+                "zh": "狐运强铠",
+                "en": "Fox's Fortune"
+            },
+            {
+                "zh": "狐毛铠",
+                "en": "Foxshade"
+            }
+        ]
+    },
+    {
+        "zh": "权贵环甲",
+        "en": "Elegant Ringmail",
+        "uniques": [
+            {
+                "zh": "吉尔菲的圣殿",
+                "en": "Geofri's Sanctuary"
+            },
+            {
+                "zh": "满溢之甲",
+                "en": "Loreweave"
+            },
+            {
+                "zh": "满溢之甲【仿品】",
+                "en": "Replica Loreweave"
+            }
+        ]
+    },
+    {
+        "zh": "龙鳞战甲",
+        "en": "Wyrmscale Doublet",
+        "uniques": [
+            {
+                "zh": "欺诈獠牙",
+                "en": "Gruthkul's Pelt"
+            }
+        ]
+    },
+    {
+        "zh": "星辰皮甲",
+        "en": "Zodiac Leather",
+        "uniques": [
+            {
+                "zh": "西里的战衣",
+                "en": "Hyrri's Ire"
+            },
+            {
+                "zh": "完美姿态【仿品】",
+                "en": "Replica Perfect Form"
+            },
+            {
+                "zh": "完美姿态",
+                "en": "The Perfect Form"
+            },
+            {
+                "zh": "雪盲恩惠",
+                "en": "The Snowblind Grace"
+            },
+            {
+                "zh": "西里的战衣【仿品】",
+                "en": "Replica Hyrri's Ire"
+            }
+        ]
+    },
+    {
+        "zh": "秘术长衣",
+        "en": "Occultist's Vestment",
+        "uniques": [
+            {
+                "zh": "炼狱之心",
+                "en": "Infernal Mantle"
+            },
+            {
+                "zh": "薛朗的护身长袍",
+                "en": "Shavronne's Wrappings"
+            }
+        ]
+    },
+    {
+        "zh": "征战重铠",
+        "en": "Crusader Plate",
+        "uniques": [
+            {
+                "zh": "钢铁之心",
+                "en": "Iron Heart"
+            },
+            {
+                "zh": "狮眼的视线",
+                "en": "Lioneye's Vision"
+            },
+            {
+                "zh": "钢铁要塞",
+                "en": "The Iron Fortress"
+            }
+        ]
+    },
+    {
+        "zh": "荣耀战铠",
+        "en": "Glorious Plate",
+        "uniques": [
+            {
+                "zh": "冈姆的壮志",
+                "en": "Kaom's Heart"
+            },
+            {
+                "zh": "背信弃义",
+                "en": "Perfidy"
+            },
+            {
+                "zh": "冈姆的壮志【仿品】",
+                "en": "Replica Kaom's Heart"
+            }
+        ]
+    },
+    {
+        "zh": "战争之铠",
+        "en": "War Plate",
+        "uniques": [
+            {
+                "zh": "冈姆的壮志",
+                "en": "Kaom's Heart"
+            }
+        ]
+    },
+    {
+        "zh": "征战锁甲",
+        "en": "Conquest Chainmail",
+        "uniques": [
+            {
+                "zh": "皇家卫甲",
+                "en": "Kingsguard"
+            }
+        ]
+    },
+    {
+        "zh": "精制皮甲",
+        "en": "Exquisite Leather",
+        "uniques": [
+            {
+                "zh": "金珏之缮",
+                "en": "Kintsugi"
+            },
+            {
+                "zh": "伊瑞的精通",
+                "en": "Yriel's Fostering"
+            }
+        ]
+    },
+    {
+        "zh": "华丽环甲",
+        "en": "Ornate Ringmail",
+        "uniques": [
+            {
+                "zh": "魔道之衣",
+                "en": "Lightbane Raiment"
+            }
+        ]
+    },
+    {
+        "zh": "荒野锁铠",
+        "en": "Desert Brigandine",
+        "uniques": [
+            {
+                "zh": "雷语",
+                "en": "Lightning Coil"
+            }
+        ]
+    },
+    {
+        "zh": "命运皮甲",
+        "en": "Destiny Leather",
+        "uniques": [
+            {
+                "zh": "森林之后",
+                "en": "Queen of the Forest"
+            }
+        ]
+    },
+    {
+        "zh": "血色之衣",
+        "en": "Blood Raiment",
+        "uniques": [
+            {
+                "zh": "永恒幽影【仿品】",
+                "en": "Replica Eternity Shroud"
+            },
+            {
+                "zh": "苍空之巢",
+                "en": "Saqawal's Nest"
+            },
+            {
+                "zh": "永恒幽影",
+                "en": "The Eternity Shroud"
+            }
+        ]
+    },
+    {
+        "zh": "禁礼之甲",
+        "en": "Carnal Armour",
+        "uniques": [
+            {
+                "zh": "无尽之卫【仿品】",
+                "en": "Replica Restless Ward"
+            },
+            {
+                "zh": "泯光寿衣【仿品】",
+                "en": "Replica Shroud of the Lightless"
+            },
+            {
+                "zh": "泯光寿衣",
+                "en": "Shroud of the Lightless"
+            },
+            {
+                "zh": "禁锢监狱",
+                "en": "Stasis Prison"
+            },
+            {
+                "zh": "无尽之卫",
+                "en": "The Restless Ward"
+            }
+        ]
+    },
+    {
+        "zh": "覆体环甲",
+        "en": "Loricated Ringmail",
+        "uniques": [
+            {
+                "zh": "腐朽军团",
+                "en": "Rotting Legion"
+            }
+        ]
+    },
+    {
+        "zh": "简易之袍",
+        "en": "Simple Robe",
+        "uniques": [
+            {
+                "zh": "君主之肤",
+                "en": "Skin of the Lords"
+            },
+            {
+                "zh": "忠诚之肤",
+                "en": "Skin of the Loyal"
+            },
+            {
+                "zh": "无尽之衣",
+                "en": "Tabula Rasa"
+            },
+            {
+                "zh": "千缎",
+                "en": "Thousand Ribbons"
+            }
+        ]
+    },
+    {
+        "zh": "铜锻板甲",
+        "en": "Copper Plate",
+        "uniques": [
+            {
+                "zh": "烈阳铠",
+                "en": "Solaris Lorica"
+            }
+        ]
+    },
+    {
+        "zh": "蛛丝之袍",
+        "en": "Spidersilk Robe",
+        "uniques": [
+            {
+                "zh": "祖灵之约",
+                "en": "Soul Mantle"
+            },
+            {
+                "zh": "血誓",
+                "en": "The Covenant"
+            },
+            {
+                "zh": "血誓【仿品】",
+                "en": "Replica Covenant"
+            }
+        ]
+    },
+    {
+        "zh": "瓦尔法衣",
+        "en": "Vaal Regalia",
+        "uniques": [
+            {
+                "zh": "兽毛披肩",
+                "en": "The Beast Fur Shawl"
+            },
+            {
+                "zh": "女王的饥饿",
+                "en": "The Queen's Hunger"
+            }
+        ]
+    },
+    {
+        "zh": "角斗重铠",
+        "en": "Gladiator Plate",
+        "uniques": [
+            {
+                "zh": "巨铜之顶",
+                "en": "The Brass Dome"
+            }
+        ]
+    },
+    {
+        "zh": "灭世法衣",
+        "en": "Destroyer Regalia",
+        "uniques": [
+            {
+                "zh": "灵魂甲胄",
+                "en": "The Coming Calamity"
+            }
+        ]
+    },
+    {
+        "zh": "鲨皮之衣",
+        "en": "Sharkskin Tunic",
+        "uniques": [
+            {
+                "zh": "疫鼠囚笼",
+                "en": "The Rat Cage"
+            }
+        ]
+    },
+    {
+        "zh": "光耀皮甲",
+        "en": "Coronal Leather",
+        "uniques": [
+            {
+                "zh": "雪盲恩惠",
+                "en": "The Snowblind Grace"
+            }
+        ]
+    },
+    {
+        "zh": "连身鳞甲",
+        "en": "Full Scale Armour",
+        "uniques": [
+            {
+                "zh": "毒蛇之度",
+                "en": "Viper's Scales"
+            }
+        ]
+    },
+    {
+        "zh": "圣语锁甲",
+        "en": "Holy Chainmail",
+        "uniques": [
+            {
+                "zh": "福尔的战铠",
+                "en": "Voll's Protector"
+            }
+        ]
+    },
+    {
+        "zh": "破旧外套",
+        "en": "Shabby Jerkin"
+    },
+    {
+        "zh": "荣耀皮甲",
+        "en": "Glorious Leather"
+    },
+    {
+        "zh": "连身皮甲",
+        "en": "Full Leather"
+    },
+    {
+        "zh": "日光皮甲",
+        "en": "Sun Leather",
+        "uniques": [
+            {
+                "zh": "荒途",
+                "en": "Briskwrap"
+            }
+        ]
+    },
+    {
+        "zh": "窃贼之装",
+        "en": "Thief's Garb"
+    },
+    {
+        "zh": "鳗皮之衣",
+        "en": "Eelskin Tunic"
+    },
+    {
+        "zh": "边戍皮甲",
+        "en": "Frontier Leather"
+    },
+    {
+        "zh": "绯红之衣",
+        "en": "Crimson Raiment"
+    },
+    {
+        "zh": "地穴战甲",
+        "en": "Crypt Armour"
+    },
+    {
+        "zh": "防水背心",
+        "en": "Oiled Vest"
+    },
+    {
+        "zh": "长袖棉袄",
+        "en": "Padded Jacket"
+    },
+    {
+        "zh": "防水外衣",
+        "en": "Oiled Coat"
+    },
+    {
+        "zh": "炽红之衣",
+        "en": "Scarlet Raiment"
+    },
+    {
+        "zh": "蜡封束衣",
+        "en": "Waxed Garb"
+    },
+    {
+        "zh": "菱纹外衣",
+        "en": "Quilted Jacket"
+    },
+    {
+        "zh": "滑布外套",
+        "en": "Sleek Coat"
+    },
+    {
+        "zh": "咒者长衣",
+        "en": "Conjurer's Vestment"
+    },
+    {
+        "zh": "绸缎背心",
+        "en": "Silken Vest",
+        "uniques": [
+            {
+                "zh": "代笔人",
+                "en": "Ghostwrithe"
+            }
+        ]
+    },
+    {
+        "zh": "丝绸之衣",
+        "en": "Silken Garb"
+    },
+    {
+        "zh": "博学长衣",
+        "en": "Mage's Vestment"
+    },
+    {
+        "zh": "丝质之袍",
+        "en": "Silk Robe"
+    },
+    {
+        "zh": "秘术法衣",
+        "en": "Cabalist Regalia",
+        "uniques": [
+            {
+                "zh": "破弃信仰",
+                "en": "The Apostate"
+            }
+        ]
+    },
+    {
+        "zh": "丝绒背心",
+        "en": "Silken Wrap"
+    },
+    {
+        "zh": "日光之铠",
+        "en": "Sun Plate"
+    },
+    {
+        "zh": "决斗之铠",
+        "en": "Colosseum Plate",
+        "uniques": [
+            {
+                "zh": "独断专行",
+                "en": "Pragmatism"
+            }
+        ]
+    },
+    {
+        "zh": "庄严之铠",
+        "en": "Majestic Plate",
+        "uniques": [
+            {
+                "zh": "尤图拉之贪噬",
+                "en": "Utula's Hunger"
+            }
+        ]
+    },
+    {
+        "zh": "胸甲",
+        "en": "Chestplate"
+    },
+    {
+        "zh": "连身铠甲",
+        "en": "Full Plate"
+    },
+    {
+        "zh": "斗者之铠",
+        "en": "Arena Plate"
+    },
+    {
+        "zh": "领主护铠",
+        "en": "Lordly Plate"
+    },
+    {
+        "zh": "青铜铠甲",
+        "en": "Bronze Plate"
+    },
+    {
+        "zh": "战铠",
+        "en": "Battle Plate"
+    },
+    {
+        "zh": "细鳞背心",
+        "en": "Scale Vest"
+    },
+    {
+        "zh": "指挥者锁甲",
+        "en": "Commander's Brigandine"
+    },
+    {
+        "zh": "争战鳞甲",
+        "en": "Battle Lamellar"
+    },
+    {
+        "zh": "龙鳞护甲",
+        "en": "Dragonscale Doublet"
+    },
+    {
+        "zh": "将军铠甲",
+        "en": "General's Brigandine"
+    },
+    {
+        "zh": "轻锁甲",
+        "en": "Light Brigandine"
+    },
+    {
+        "zh": "合身鳞甲",
+        "en": "Scale Doublet"
+    },
+    {
+        "zh": "步兵锁甲",
+        "en": "Infantry Brigandine"
+    },
+    {
+        "zh": "战士锁甲",
+        "en": "Soldier's Brigandine"
+    },
+    {
+        "zh": "野战薄甲",
+        "en": "Field Lamellar"
+    },
+    {
+        "zh": "轻骑锁甲",
+        "en": "Hussar Brigandine"
+    },
+    {
+        "zh": "扼杀链甲",
+        "en": "Grasping Mail"
+    },
+    {
+        "zh": "锁链背心",
+        "en": "Chainmail Vest"
+    },
+    {
+        "zh": "锁子长甲",
+        "en": "Chain Hauberk"
+    },
+    {
+        "zh": "虔诚链甲",
+        "en": "Devout Chainmail",
+        "uniques": [
+            {
+                "zh": "第四誓言",
+                "en": "The Fourth Vow"
+            }
+        ]
+    },
+    {
+        "zh": "链甲外衣",
+        "en": "Chainmail Tunic"
+    },
+    {
+        "zh": "环甲外套",
+        "en": "Ringmail Coat"
+    },
+    {
+        "zh": "护体锁甲",
+        "en": "Chainmail Doublet"
+    },
+    {
+        "zh": "连身环甲",
+        "en": "Full Ringmail"
+    },
+    {
+        "zh": "连身锁甲",
+        "en": "Full Chainmail"
+    }
+]

@@ -1,4 +1,5 @@
 import json
+import os
 
 
 def load_json(file):
@@ -21,17 +22,18 @@ uniques = {}
 
 
 def load_db_items():
-    files = ["accessories.json", "armour.json",
-             "flasks.json", "jewels.json", "weapons.json"]
-    for file in files:
-        json = load_json("../../assets/"+file)
-        for item in json:
-            basetype = item["zh"]
-            basetypes.add(basetype)
-            if "uniques" in item:
-                for u in item["uniques"]:
-                    zh_full_name = u["zh"] + " " + basetype
-                    uniques[zh_full_name] = u
+    folder = "../../assets/items"
+    for file_name in os.listdir(folder):
+        full_path = os.path.join(folder, file_name)
+        if os.path.isfile(full_path) and file_name.endswith(".json"):
+            json = load_json(full_path)
+            for item in json:
+                basetype = item["zh"]
+                basetypes.add(basetype)
+                if "uniques" in item:
+                    for u in item["uniques"]:
+                        zh_full_name = u["zh"] + " " + basetype
+                        uniques[zh_full_name] = u
 
 
 def check_items():

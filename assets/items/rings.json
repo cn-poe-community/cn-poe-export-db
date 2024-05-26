@@ -1,0 +1,584 @@
+[
+    {
+        "zh": "红玉戒指",
+        "en": "Ruby Ring",
+        "uniques": [
+            {
+                "zh": "阿克莱的草原",
+                "en": "Ahkeli's Meadow"
+            },
+            {
+                "zh": "阿克莱的高山",
+                "en": "Ahkeli's Mountain"
+            },
+            {
+                "zh": "阿克莱的山谷",
+                "en": "Ahkeli's Valley"
+            },
+            {
+                "zh": "苦痛之环",
+                "en": "Circle of Anguish"
+            },
+            {
+                "zh": "余烬之痕",
+                "en": "Emberwake"
+            },
+            {
+                "zh": "莫考之拥",
+                "en": "Mokou's Embrace"
+            },
+            {
+                "zh": "努葛玛呼之印",
+                "en": "Ngamahu's Sign"
+            },
+            {
+                "zh": "先驱的纹章",
+                "en": "Precursor's Emblem"
+            },
+            {
+                "zh": "余烬之痕【仿品】",
+                "en": "Replica Emberwake"
+            },
+            {
+                "zh": "战士的遗产",
+                "en": "Warrior's Legacy"
+            }
+        ]
+    },
+    {
+        "zh": "金光戒指",
+        "en": "Gold Ring",
+        "uniques": [
+            {
+                "zh": "贪欲之记",
+                "en": "Andvarius"
+            },
+            {
+                "zh": "绿林豪侠",
+                "en": "The Highwayman"
+            },
+            {
+                "zh": "赌神芬多",
+                "en": "Ventor's Gamble"
+            },
+            {
+                "zh": "伊克切尔的诱惑",
+                "en": "Ixchel's Temptation"
+            }
+        ]
+    },
+    {
+        "zh": "潜能之戒",
+        "en": "Unset Ring",
+        "uniques": [
+            {
+                "zh": "渔夫之辫",
+                "en": "Angler's Plait"
+            },
+            {
+                "zh": "布琳洛特印记",
+                "en": "Brinerot Mark"
+            },
+            {
+                "zh": "菁华蠕虫",
+                "en": "Essence Worm"
+            },
+            {
+                "zh": "魔诅之域",
+                "en": "Hallowed Ground"
+            },
+            {
+                "zh": "玛拉凯的巧技",
+                "en": "Malachai's Artifice"
+            },
+            {
+                "zh": "屈服印记",
+                "en": "Mark of Submission"
+            },
+            {
+                "zh": "哑风封印",
+                "en": "Mutewind Seal"
+            },
+            {
+                "zh": "渎神代理",
+                "en": "Profane Proxy"
+            },
+            {
+                "zh": "红刃之环",
+                "en": "Redblade Band"
+            },
+            {
+                "zh": "玛拉凯的巧技【仿品】",
+                "en": "Replica Malachai's Artifice"
+            },
+            {
+                "zh": "虚空慧眼【仿品】",
+                "en": "Replica Voideye"
+            },
+            {
+                "zh": "腐血的承诺",
+                "en": "Rotblood Promise"
+            },
+            {
+                "zh": "饥饿之环 ",
+                "en": "The Hungry Loop"
+            },
+            {
+                "zh": "草民",
+                "en": "The Pariah"
+            },
+            {
+                "zh": "三头威仪",
+                "en": "Triumvirate Authority"
+            },
+            {
+                "zh": "活解",
+                "en": "Vivinsect"
+            },
+            {
+                "zh": "虚空慧眼",
+                "en": "Voideye"
+            }
+        ]
+    },
+    {
+        "zh": "黄玉戒指",
+        "en": "Topaz Ring",
+        "uniques": [
+            {
+                "zh": "星界投影",
+                "en": "Astral Projector"
+            },
+            {
+                "zh": "悔恨之环",
+                "en": "Circle of Regret"
+            },
+            {
+                "zh": "基加萨鲁",
+                "en": "Kikazaru"
+            },
+            {
+                "zh": "先驱的纹章",
+                "en": "Precursor's Emblem"
+            },
+            {
+                "zh": "普藤博的草原",
+                "en": "Putembo's Meadow"
+            },
+            {
+                "zh": "普藤博的高山",
+                "en": "Putembo's Mountain"
+            },
+            {
+                "zh": "普藤博的山谷",
+                "en": "Putembo's Valley"
+            },
+            {
+                "zh": "风暴之秘",
+                "en": "Storm Secret"
+            },
+            {
+                "zh": "瓦拉库之印",
+                "en": "Valako's Sign"
+            },
+            {
+                "zh": "尼米斯",
+                "en": "Nimis"
+            }
+        ]
+    },
+    {
+        "zh": "双玉戒指",
+        "en": "Two-Stone Ring",
+        "uniques": [
+            {
+                "zh": "贝雷克的冰与雷之曲",
+                "en": "Berek's Grip"
+            },
+            {
+                "zh": "贝雷克的冰与火之歌",
+                "en": "Berek's Pass"
+            },
+            {
+                "zh": "贝雷克的火与雷之乐",
+                "en": "Berek's Respite"
+            },
+            {
+                "zh": "意志呼唤",
+                "en": "Call of the Brotherhood"
+            },
+            {
+                "zh": "先驱的纹章",
+                "en": "Precursor's Emblem"
+            },
+            {
+                "zh": "瑞佛之冠",
+                "en": "Rigwald's Crest"
+            }
+        ]
+    },
+    {
+        "zh": "紫晶戒指",
+        "en": "Amethyst Ring",
+        "uniques": [
+            {
+                "zh": "黑焰",
+                "en": "Blackflame"
+            },
+            {
+                "zh": "乡愁之环",
+                "en": "Circle of Nostalgia"
+            },
+            {
+                "zh": "亡者呼唤",
+                "en": "Death Rush"
+            },
+            {
+                "zh": "明恩的慧心",
+                "en": "Ming's Heart"
+            },
+            {
+                "zh": "原初之罪",
+                "en": "Original Sin"
+            }
+        ]
+    },
+    {
+        "zh": "锻铁戒指",
+        "en": "Iron Ring",
+        "uniques": [
+            {
+                "zh": "幽暗之语",
+                "en": "Blackheart"
+            },
+            {
+                "zh": "罪恶之环",
+                "en": "Circle of Guilt"
+            },
+            {
+                "zh": "冰牙指环",
+                "en": "Icefang Orbit"
+            },
+            {
+                "zh": "英灵宝环",
+                "en": "Le Heup of All"
+            },
+            {
+                "zh": "守卫之铭",
+                "en": "The Warden's Brand"
+            },
+            {
+                "zh": "静脉穿刺",
+                "en": "Venopuncture"
+            },
+            {
+                "zh": "虚空心灵",
+                "en": "Voidheart"
+            }
+        ]
+    },
+    {
+        "zh": "珊瑚戒指",
+        "en": "Coral Ring",
+        "uniques": [
+            {
+                "zh": "沸血",
+                "en": "Bloodboil"
+            },
+            {
+                "zh": "冈姆的远见",
+                "en": "Kaom's Sign"
+            },
+            {
+                "zh": "冈姆之路",
+                "en": "Kaom's Way"
+            },
+            {
+                "zh": "希比尔之叹",
+                "en": "Sibyl's Lament"
+            },
+            {
+                "zh": "冬日之织",
+                "en": "Winterweave"
+            },
+            {
+                "zh": "尊贵的同盟",
+                "en": "Honoured Alliance"
+            }
+        ]
+    },
+    {
+        "zh": "蓝玉戒指",
+        "en": "Sapphire Ring",
+        "uniques": [
+            {
+                "zh": "恐惧之环",
+                "en": "Circle of Fear"
+            },
+            {
+                "zh": "梦语之痕",
+                "en": "Dream Fragments"
+            },
+            {
+                "zh": "先驱的纹章",
+                "en": "Precursor's Emblem"
+            },
+            {
+                "zh": "燃焰",
+                "en": "Pyre"
+            },
+            {
+                "zh": "塔萨里奥之印【仿品】",
+                "en": "Replica Tasalio's Sign"
+            },
+            {
+                "zh": "蛇穴",
+                "en": "Snakepit"
+            },
+            {
+                "zh": "塔萨里奥之印",
+                "en": "Tasalio's Sign"
+            },
+            {
+                "zh": "乌扎萨的草原",
+                "en": "Uzaza's Meadow"
+            },
+            {
+                "zh": "乌扎萨的高山",
+                "en": "Uzaza's Mountain"
+            },
+            {
+                "zh": "乌扎萨的山谷",
+                "en": "Uzaza's Valley"
+            },
+            {
+                "zh": "乌扎萨的山谷",
+                "en": "Uzaza's Valley"
+            },
+            {
+                "zh": "虚空召唤",
+                "en": "Call of the Void"
+            }
+        ]
+    },
+    {
+        "zh": "金环",
+        "en": "Golden Hoop",
+        "uniques": [
+            {
+                "zh": "升华之眼",
+                "en": "Demigod's Eye"
+            }
+        ]
+    },
+    {
+        "zh": "海灵戒指",
+        "en": "Paua Ring",
+        "uniques": [
+            {
+                "zh": "德瑞的魔具",
+                "en": "Doedre's Damning"
+            },
+            {
+                "zh": "命中注定",
+                "en": "Fated End"
+            },
+            {
+                "zh": "普兰德斯之记",
+                "en": "Perandus Signet"
+            },
+            {
+                "zh": "普拉克斯",
+                "en": "Praxis"
+            },
+            {
+                "zh": "德瑞的魔具【仿品】",
+                "en": "Replica Doedre's Damning"
+            },
+            {
+                "zh": "灵魂绑定",
+                "en": "Soulbound"
+            }
+        ]
+    },
+    {
+        "zh": "宝钻戒指",
+        "en": "Diamond Ring",
+        "uniques": [
+            {
+                "zh": "神赐",
+                "en": "Gifts from Above"
+            },
+            {
+                "zh": "罗米拉的潜力之环",
+                "en": "Romira's Banquet"
+            },
+            {
+                "zh": "盖拉图斯印戒",
+                "en": "Grattus Signet"
+            }
+        ]
+    },
+    {
+        "zh": "月光石戒指",
+        "en": "Moonstone Ring",
+        "uniques": [
+            {
+                "zh": "结魂之环",
+                "en": "Heartbound Loop"
+            },
+            {
+                "zh": "薛朗的启示之环",
+                "en": "Shavronne's Revelation"
+            },
+            {
+                "zh": "时光之握",
+                "en": "Timeclasp"
+            },
+            {
+                "zh": "时空扭曲",
+                "en": "Timetwist"
+            },
+            {
+                "zh": "女武神",
+                "en": "Valyrium"
+            },
+            {
+                "zh": "咒逐",
+                "en": "Anathema"
+            },
+            {
+                "zh": "陶哈努库之时间",
+                "en": "Tawhanuku's Timing"
+            }
+        ]
+    },
+    {
+        "zh": "三相戒指",
+        "en": "Prismatic Ring",
+        "uniques": [
+            {
+                "zh": "罗里的幸运之灯",
+                "en": "Lori's Lantern"
+            },
+            {
+                "zh": "先驱的纹章",
+                "en": "Precursor's Emblem"
+            },
+            {
+                "zh": "元素之章",
+                "en": "The Taming"
+            },
+            {
+                "zh": "窃罪",
+                "en": "Thief's Torment"
+            },
+            {
+                "zh": "雄心轮环",
+                "en": "Circle of Ambition"
+            }
+        ]
+    },
+    {
+        "zh": "合金戒指",
+        "en": "Steel Ring",
+        "uniques": [
+            {
+                "zh": "裂界之印",
+                "en": "Mark of the Elder"
+            }
+        ]
+    },
+    {
+        "zh": "蛋白石戒指",
+        "en": "Opal Ring",
+        "uniques": [
+            {
+                "zh": "塑界之印",
+                "en": "Mark of the Shaper"
+            },
+            {
+                "zh": "风暴之炎",
+                "en": "Stormfire"
+            },
+            {
+                "zh": "毁灭激波",
+                "en": "Polaric Devastation"
+            }
+        ]
+    },
+    {
+        "zh": "裂隙戒指",
+        "en": "Breach Ring"
+    },
+    {
+        "zh": "朱砂之戒",
+        "en": "Vermillion Ring"
+    },
+    {
+        "zh": "天蓝之戒",
+        "en": "Cerulean Ring"
+    },
+    {
+        "zh": "青石戒指",
+        "en": "Iolite Ring"
+    },
+    {
+        "zh": "齿轮戒指",
+        "en": "Cogwork Ring"
+    },
+    {
+        "zh": "地线戒指",
+        "en": "Geodesic Ring"
+    },
+    {
+        "zh": "戒指",
+        "en": "Ring",
+        "uniques": [
+            {
+                "zh": "卡兰德之触",
+                "en": "Kalandra's Touch"
+            }
+        ]
+    },
+    {
+        "zh": "骨环",
+        "en": "Bone Ring"
+    },
+    {
+        "zh": "戒指：暮色",
+        "en": "Dusk Ring"
+    },
+    {
+        "zh": "戒指：薄暮",
+        "en": "Gloam Ring"
+    },
+    {
+        "zh": "戒指：半影",
+        "en": "Penumbra Ring"
+    },
+    {
+        "zh": "戒指：暗影",
+        "en": "Shadowed Ring"
+    },
+    {
+        "zh": "戒指：暗黑",
+        "en": "Tenebrous Ring"
+    },
+    {
+        "zh": "复合戒指",
+        "en": "Composite Ring"
+    },
+    {
+        "zh": "渐变戒指",
+        "en": "Ratcheting Ring"
+    },
+    {
+        "zh": "螺纹戒指",
+        "en": "Helical Ring"
+    },
+    {
+        "zh": "集成戒指",
+        "en": "Manifold Ring"
+    }
+]
