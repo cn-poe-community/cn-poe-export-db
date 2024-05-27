@@ -48,12 +48,24 @@
         "en": "Recovers {0} Life over {1} Seconds"
     },
     {
+        "zh": "{1} 秒内回复 {0} (augmented) 生命",
+        "en": "Recovers {0} (augmented) Life over {1} Seconds"
+    },
+    {
         "zh": "{1} 秒内回复 {0} 魔力",
         "en": "Recovers {0} Mana over {1} Seconds"
     },
     {
+        "zh": "{1} 秒内回复 {0} (augmented) 魔力",
+        "en": "Recovers {0} (augmented) Mana over {1} Seconds"
+    },
+    {
         "zh": "每次使用会从 {1} 充能次数中消耗 {0} 次",
         "en": "Consumes {0} of {1} Charges on use"
+    },
+    {
+        "zh": "每次使用会从 {1} 充能次数中消耗 {0} (augmented) 次",
+        "en": "Consumes {0} (augmented) of {1} Charges on use"
     },
     {
         "zh": "目前有 {0} 充能次数",
@@ -62,6 +74,10 @@
     {
         "zh": "持续 {0} 秒",
         "en": "Lasts {0} Seconds"
+    },
+    {
+        "zh": "持续 {0} (augmented) 秒",
+        "en": "Lasts {0} (augmented) Seconds"
     },
     {
         "zh": "物理伤害",
