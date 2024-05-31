@@ -6,11 +6,13 @@ import subprocess
 import sys
 import urllib.request
 
-USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36"
+USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36"
 
-def must_parent(path:str):
+
+def must_parent(path: str):
     '''确保文件所在路径存在'''
     Path(path).parent.mkdir(parents=True, exist_ok=True)
+
 
 def load_json(file):
     with open(file, 'rt', encoding='utf-8') as f:
@@ -67,21 +69,20 @@ tx_trade_urls = ["https://poe.game.qq.com/api/trade/data/stats",
                  "https://poe.game.qq.com/api/trade/data/static",
                  "https://poe.game.qq.com/api/trade/data/items"]
 
-tx_poesessid = config.get("txPoesessid")
+tx_cookie = config.get("txCookie")
 
 
 def download_trade_file(url: str, is_tx=False):
     base_name = url.split("/")[-1]
     saved_path = os.path.join(project_root, "docs/trade", base_name)
 
-
     headers = {'User-agent': USER_AGENT}
 
     if is_tx:
         saved_path = os.path.join(project_root, "docs/trade/tx", base_name)
         headers = {'User-agent': USER_AGENT,
-                   'Cookie': f'POESESSID={tx_poesessid}'}
-        
+                   'Cookie': tx_cookie}
+
     must_parent(saved_path)
 
     print(f"downloading {url}")
@@ -98,7 +99,7 @@ def download_trade_files():
         download_trade_file(url)
         pass
     for url in tx_trade_urls:
-        download_trade_file(url,True)
+        download_trade_file(url, True)
 
 # --- schema
 
@@ -114,8 +115,10 @@ def download_schema():
     print(f"downloading {schema_url}")
     req = urllib.request.Request(
         schema_url, headers={'User-agent': USER_AGENT})
-    req.set_proxy(config["httpProxy"], 'http')
-    with urllib.request.urlopen(req) as response:
+    proxy_handler = urllib.request.ProxyHandler(
+        {'http': config["httpProxy"], 'https': config["httpProxy"]})
+    opener = urllib.request.build_opener(proxy_handler)
+    with opener.open(req) as response:
         content = response.read().decode('utf-8')
         with open(saved_path, 'wt', encoding="utf-8") as f:
             f.write(content)
@@ -151,56 +154,60 @@ tx_bundled_files = [
 
 
 tables = {
-        "indexablesupportgems.dat64": "IndexableSupportGems",
-         "indexableskillgems.dat64": "IndexableSkillGems",
-         "baseitemtypes.dat64": "BaseItemTypes",
-         "gemeffects.dat64": "GemEffects"
+    "indexablesupportgems.dat64": "IndexableSupportGems",
+    "indexableskillgems.dat64": "IndexableSkillGems",
+    "baseitemtypes.dat64": "BaseItemTypes",
+    "gemeffects.dat64": "GemEffects"
 }
 
+
 def extractBundledFiles():
-    extractor_fullpath = os.path.join(project_root,extractor)
-    poedat_fullpath = os.path.join(project_root,poedat)
+    extractor_fullpath = os.path.join(project_root, extractor)
+    poedat_fullpath = os.path.join(project_root, poedat)
     schema_fullpath = os.path.join(project_root, schema_file)
 
     for file in bundled_files:
         print(f"extracting {file}")
         saved_path = os.path.join(project_root, "docs/ggpk", file)
         must_parent(saved_path)
-        code = subprocess.call([extractor_fullpath, ggpk, file,saved_path])
-        if code !=0:
+        code = subprocess.call([extractor_fullpath, ggpk, file, saved_path])
+        if code != 0:
             raise Exception(f"extracted {file} failed")
         print(f"saved {saved_path}")
 
-        basename  = file.split("/")[-1]
+        basename = file.split("/")[-1]
         if basename in tables:
             print(f"creating {saved_path}.json")
-            code = subprocess.call([poedat_fullpath, "-d",saved_path, "-s",schema_fullpath,"-t",tables.get(basename)])
+            code = subprocess.call(
+                [poedat_fullpath, "-d", saved_path, "-s", schema_fullpath, "-t", tables.get(basename)])
             if code != 0:
                 print(f"warning: create json failed")
             else:
                 print(f"created success")
-    
+
     for file in tx_bundled_files:
         print(f"extracting {file}")
         saved_path = os.path.join(project_root, "docs/ggpk/tx", file)
         must_parent(saved_path)
         code = subprocess.call([extractor_fullpath, txGgpk, file, saved_path])
-        if code !=0:
+        if code != 0:
             raise Exception(f"extracted {file} failed")
         print(f"saved {saved_path}")
 
-        basename  = file.split("/")[-1]
+        basename = file.split("/")[-1]
         if basename in tables:
             print(f"creating {saved_path}.json")
-            code = subprocess.call([poedat_fullpath, "-d",saved_path, "-s",schema_fullpath,"-t",tables.get(basename)])
+            code = subprocess.call(
+                [poedat_fullpath, "-d", saved_path, "-s", schema_fullpath, "-t", tables.get(basename)])
             if code != 0:
                 print(f"warning: create json failed")
             else:
                 print(f"created success")
 
+
 if __name__ == "__main__":
     args = sys.argv[1:]
-    if len(args)==0:
+    if len(args) == 0:
         download_trees()
         download_trade_files()
         download_schema()

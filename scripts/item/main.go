@@ -55,9 +55,7 @@ var flaskClassesKeys = map[int]bool{0: true, 1: true, 2: true, 33: true}
 var tinctureClassesKey = 89
 
 func updateFlasks(itemTypes []*item.BaseItemType) {
-	flasksFile := filepath.Join(c.ProjectRoot, "assets/flasks.json")
-	//tincturesFile := filepath.Join(c.ProjectRoot, "assets/flasks/tinctures.json")
-
+	flasksFile := filepath.Join(c.ProjectRoot, "assets/items/flasks.json")
 	new_flasks := []*item.BaseItemType{}
 	for _, itemType := range itemTypes {
 		if strings.HasSuffix(itemType.En, enFlaskSuffix) &&
@@ -110,8 +108,7 @@ var zhCharmSuffix = "咒符"
 var charmClassesKey = 91
 
 func updateJewels(itemTypes []*item.BaseItemType) {
-	jewelsFile := filepath.Join(c.ProjectRoot, "assets/jewels.json")
-	//tincturesFile := filepath.Join(c.ProjectRoot, "assets/flasks/tinctures.json")
+	jewelsFile := filepath.Join(c.ProjectRoot, "assets/items/jewels.json")
 
 	newJewels := []*item.BaseItemType{}
 	for _, itemType := range itemTypes {

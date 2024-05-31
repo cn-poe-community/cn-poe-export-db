@@ -220,18 +220,45 @@ var skipedDescIds = map[string]bool{
 	// 【断金之刃】的伤害提高，【断金之刃】的伤害降低
 	"shattering_steel_damage_+%": true,
 	"lancing_steel_damage_+%":    true,
-	// S25赛季内容的怪物词缀，与装备无关，而且目前存在bug
+	// S25赛季内容的怪物词缀，与装备无关，目前存在解析bug
 	"chance_%_to_convert_armour_to_chromatic_orb": true,
 	"chance_%_to_convert_weapon_to_chaos_orb":     true,
 }
 
+var skipedDescIdPreixes = map[string]bool{
+	// 地图词缀
+	"map_":                   true,
+	"display_area_contains_": true,
+	// 提灯
+	"chance_%_to_drop_additional_": true,
+	"chance_%_to_convert_":         true,
+	//回忆
+	"memory_line_":         true,
+	"display_memory_line_": true,
+	// 矿坑
+	"delve_biome_": true,
+	// 赤炼玄炉插槽
+	"hellscape_extra_": true,
+}
+
 func removeSkipedDesc(descs []*desc.Desc) []*desc.Desc {
 	newDescs := make([]*desc.Desc, 0, len(descs))
+out:
 	for _, d := range descs {
-		if !skipedDescIds[d.Id] &&
-			!strings.HasPrefix(d.Id, "map_") {
-			newDescs = append(newDescs, d)
+		if skipedDescIds[d.Id] {
+			continue
 		}
+		for k := range skipedDescIdPreixes {
+			if strings.HasPrefix(d.Id, k) {
+				continue out
+			}
+		}
+
+		// 夺宝词缀，但非回火、裁剪石效果词缀
+		if strings.Contains(d.Id, "heist_") && !strings.HasPrefix(d.Id, "heist_enchantment_") {
+			continue
+		}
+		newDescs = append(newDescs, d)
 	}
 
 	return newDescs
