@@ -123,7 +123,8 @@
             },
             {
                 "zh": "协约的遗物",
-                "en": "Relic of the Pact"
+                "en": "Relic of the Pact",
+                "legacy": true
             },
             {
                 "zh": "混响",
@@ -131,7 +132,8 @@
             },
             {
                 "zh": "托沃崩",
-                "en": "Tulborn"
+                "en": "Tulborn",
+                "legacy": true
             },
             {
                 "zh": "禁锢暴风",
@@ -145,7 +147,8 @@
         "uniques": [
             {
                 "zh": "艾普之怒",
-                "en": "Apep's Rage"
+                "en": "Apep's Rage",
+                "legacy": true
             },
             {
                 "zh": "托沃卧",
@@ -199,7 +202,8 @@
         "uniques": [
             {
                 "zh": "灰烬行者",
-                "en": "Ashcaller"
+                "en": "Ashcaller",
+                "legacy": true
             }
         ]
     },
@@ -411,13 +415,7 @@
     },
     {
         "zh": "鲨颚爪",
-        "en": "Sharktooth Claw",
-        "uniques": [
-            {
-                "zh": "嗜血之爪",
-                "en": "Bloodseeker"
-            }
-        ]
+        "en": "Sharktooth Claw"
     },
     {
         "zh": "戮魂重锤",
@@ -599,7 +597,8 @@
             },
             {
                 "zh": "宇蚀",
-                "en": "Eclipse Solaris"
+                "en": "Eclipse Solaris",
+                "legacy": true
             }
         ]
     },
@@ -823,7 +822,8 @@
         "uniques": [
             {
                 "zh": "幽魂之息",
-                "en": "Dying Breath"
+                "en": "Dying Breath",
+                "legacy": true
             },
             {
                 "zh": "舍吉的手柄",
@@ -871,7 +871,8 @@
         "uniques": [
             {
                 "zh": "精华收割器",
-                "en": "Essentia Sanguis"
+                "en": "Essentia Sanguis",
+                "legacy": true
             }
         ]
     },
@@ -1049,7 +1050,8 @@
         "uniques": [
             {
                 "zh": "思动之手",
-                "en": "Hand of Thought and Motion"
+                "en": "Hand of Thought and Motion",
+                "legacy": true
             }
         ]
     },
@@ -1418,10 +1420,6 @@
         "en": "Jade Hatchet",
         "uniques": [
             {
-                "zh": "月岚",
-                "en": "Moonbender's Wing"
-            },
-            {
                 "zh": "狮鹫",
                 "en": "The Gryphon"
             },
@@ -1513,7 +1511,8 @@
         "uniques": [
             {
                 "zh": "抹灭",
-                "en": "Obliteration"
+                "en": "Obliteration",
+                "legacy": true
             }
         ]
     },
@@ -1587,11 +1586,13 @@
         "uniques": [
             {
                 "zh": "囚神杵",
-                "en": "Pillar of the Caged God"
+                "en": "Pillar of the Caged God",
+                "legacy": true
             },
             {
                 "zh": "炽炎之使",
-                "en": "The Searing Touch"
+                "en": "The Searing Touch",
+                "legacy": true
             }
         ]
     },
@@ -1601,11 +1602,13 @@
         "uniques": [
             {
                 "zh": "皮斯卡托的慧眼",
-                "en": "Piscator's Vigil"
+                "en": "Piscator's Vigil",
+                "legacy": true
             },
             {
                 "zh": "托沃卧【仿品】",
-                "en": "Replica Tulfall"
+                "en": "Replica Tulfall",
+                "legacy": true
             },
             {
                 "zh": "低伏暗光",
@@ -1613,7 +1616,8 @@
             },
             {
                 "zh": "托沃卧",
-                "en": "Tulfall"
+                "en": "Tulfall",
+                "legacy": true
             }
         ]
     },
@@ -1975,7 +1979,8 @@
             },
             {
                 "zh": "乱矢之弦",
-                "en": "Chin Sol"
+                "en": "Chin Sol",
+                "legacy": true
             }
         ]
     },
@@ -1985,7 +1990,8 @@
         "uniques": [
             {
                 "zh": "禁锢暴风",
-                "en": "Storm Prison"
+                "en": "Storm Prison",
+                "legacy": true
             },
             {
                 "zh": "诗人之笔",
@@ -2003,7 +2009,8 @@
         "uniques": [
             {
                 "zh": "瓦尔传说",
-                "en": "Story of the Vaal"
+                "en": "Story of the Vaal",
+                "legacy": true
             }
         ]
     },
@@ -2147,7 +2154,8 @@
         "uniques": [
             {
                 "zh": "乌尔尼多之吻",
-                "en": "Uul-Netol's Kiss"
+                "en": "Uul-Netol's Kiss",
+                "legacy": true
             }
         ]
     },
@@ -2221,7 +2229,8 @@
         "uniques": [
             {
                 "zh": "乱世之翼",
-                "en": "Wings of Entropy"
+                "en": "Wings of Entropy",
+                "legacy": true
             }
         ]
     },
@@ -2231,7 +2240,8 @@
         "uniques": [
             {
                 "zh": "索伏的始源",
-                "en": "Xoph's Inception"
+                "en": "Xoph's Inception",
+                "legacy": true
             }
         ]
     },
@@ -2605,7 +2615,8 @@
         "uniques": [
             {
                 "zh": "韧木曲刃",
-                "en": "Grelwood Shank"
+                "en": "Grelwood Shank",
+                "legacy": true
             }
         ]
     },
@@ -2704,10 +2715,6 @@
     {
         "zh": "骑兵军刀",
         "en": "Dragoon Sword"
-    },
-    {
-        "zh": "蛇眼法杖",
-        "en": "Serpent Wand"
     },
     {
         "zh": "灵兆法杖",

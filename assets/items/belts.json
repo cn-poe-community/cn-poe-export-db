@@ -71,7 +71,8 @@
             },
             {
                 "zh": "奥术之符",
-                "en": "Auxium"
+                "en": "Auxium",
+                "legacy": true
             },
             {
                 "zh": "凝息",

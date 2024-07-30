@@ -145,7 +145,8 @@
             },
             {
                 "zh": "无尽之距",
-                "en": "The Infinite Pursuit"
+                "en": "The Infinite Pursuit",
+                "legacy": true
             },
             {
                 "zh": "骤起狂岚",
@@ -159,7 +160,8 @@
         "uniques": [
             {
                 "zh": "献祭舞鞋",
-                "en": "Dance of the Offered"
+                "en": "Dance of the Offered",
+                "legacy": true
             },
             {
                 "zh": "维鲁索的壮怀",
@@ -261,15 +263,8 @@
         "uniques": [
             {
                 "zh": "幽暗凋零",
-                "en": "Duskblight"
-            },
-            {
-                "zh": "迎暮",
-                "en": "Dusktoe"
-            },
-            {
-                "zh": "狮眼的斗志",
-                "en": "Lioneye's Paws"
+                "en": "Duskblight",
+                "legacy": true
             }
         ]
     },

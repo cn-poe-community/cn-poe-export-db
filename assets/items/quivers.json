@@ -5,7 +5,8 @@
         "uniques": [
             {
                 "zh": "冰灵之吼",
-                "en": "Asphyxia's Wrath"
+                "en": "Asphyxia's Wrath",
+                "legacy": true
             },
             {
                 "zh": "瑞佛之羽",
@@ -23,11 +24,13 @@
         "uniques": [
             {
                 "zh": "黑炎之芒",
-                "en": "Blackgleam"
+                "en": "Blackgleam",
+                "legacy": true
             },
             {
                 "zh": "狼烟",
-                "en": "The Signal Fire"
+                "en": "The Signal Fire",
+                "legacy": true
             }
         ]
     },
@@ -37,11 +40,13 @@
         "uniques": [
             {
                 "zh": "黑炎之芒",
-                "en": "Blackgleam"
+                "en": "Blackgleam",
+                "legacy": true
             },
             {
                 "zh": "狼烟",
-                "en": "The Signal Fire"
+                "en": "The Signal Fire",
+                "legacy": true
             }
         ]
     },
@@ -73,7 +78,8 @@
             },
             {
                 "zh": "虚空制箭者",
-                "en": "Voidfletcher"
+                "en": "Voidfletcher",
+                "legacy": true
             }
         ]
     },
@@ -115,7 +121,8 @@
         "uniques": [
             {
                 "zh": "马洛尼的暮光",
-                "en": "Maloney's Nightfall"
+                "en": "Maloney's Nightfall",
+                "legacy": true
             },
             {
                 "zh": "爆裂之射",
@@ -137,11 +144,13 @@
         "uniques": [
             {
                 "zh": "寒锋之卫",
-                "en": "Rearguard"
+                "en": "Rearguard",
+                "legacy": true
             },
             {
                 "zh": "魔蝎的呼唤",
-                "en": "Scorpion's Call"
+                "en": "Scorpion's Call",
+                "legacy": true
             },
             {
                 "zh": "钢铁蠕虫",
@@ -159,7 +168,8 @@
             },
             {
                 "zh": "勇者之礼",
-                "en": "Saemus' Gift"
+                "en": "Saemus' Gift",
+                "legacy": true
             },
             {
                 "zh": "灵魂打击",
@@ -193,7 +203,8 @@
             },
             {
                 "zh": "狼烟",
-                "en": "The Signal Fire"
+                "en": "The Signal Fire",
+                "legacy": true
             }
         ]
     },

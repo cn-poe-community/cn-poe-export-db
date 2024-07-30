@@ -9,7 +9,8 @@
             },
             {
                 "zh": "鲜血支配",
-                "en": "Bloodgrip"
+                "en": "Bloodgrip",
+                "legacy": true
             },
             {
                 "zh": "努葛玛呼之像",

@@ -498,10 +498,6 @@
             {
                 "zh": "金缕帽",
                 "en": "Goldrim"
-            },
-            {
-                "zh": "鼠巢",
-                "en": "Rat's Nest"
             }
         ]
     },
@@ -611,7 +607,8 @@
         "uniques": [
             {
                 "zh": "饮魂者面罩",
-                "en": "Mask of the Spirit Drinker"
+                "en": "Mask of the Spirit Drinker",
+                "legacy": true
             }
         ]
     },
@@ -713,7 +710,8 @@
         "uniques": [
             {
                 "zh": "无形火炬",
-                "en": "The Formless Flame"
+                "en": "The Formless Flame",
+                "legacy": true
             }
         ]
     },
@@ -831,7 +829,8 @@
         "uniques": [
             {
                 "zh": "深渊之唤",
-                "en": "Abyssus"
+                "en": "Abyssus",
+                "legacy": true
             }
         ]
     },

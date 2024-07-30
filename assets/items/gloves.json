@@ -49,11 +49,13 @@
         "uniques": [
             {
                 "zh": "相生相克",
-                "en": "Allelopathy"
+                "en": "Allelopathy",
+                "legacy": true
             },
             {
                 "zh": "相生相克【仿品】",
-                "en": "Replica Allelopathy"
+                "en": "Replica Allelopathy",
+                "legacy": true
             }
         ]
     },
@@ -63,7 +65,8 @@
         "uniques": [
             {
                 "zh": "建筑师之手",
-                "en": "Architect's Hand"
+                "en": "Architect's Hand",
+                "legacy": true
             },
             {
                 "zh": "毁面者",
@@ -115,13 +118,7 @@
     },
     {
         "zh": "鱼鳞手套",
-        "en": "Fishscale Gauntlets",
-        "uniques": [
-            {
-                "zh": "富贵之运",
-                "en": "Aurseize"
-            }
-        ]
+        "en": "Fishscale Gauntlets"
     },
     {
         "zh": "钢影护手",

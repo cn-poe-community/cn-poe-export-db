@@ -51,7 +51,8 @@
         "uniques": [
             {
                 "zh": "艾普之梦",
-                "en": "Apep's Slumber"
+                "en": "Apep's Slumber",
+                "legacy": true
             },
             {
                 "zh": "孔明的神算",
@@ -207,7 +208,8 @@
         "uniques": [
             {
                 "zh": "艾许之镜",
-                "en": "Esh's Mirror"
+                "en": "Esh's Mirror",
+                "legacy": true
             }
         ]
     },
@@ -275,7 +277,8 @@
         "uniques": [
             {
                 "zh": "孔明的神算",
-                "en": "Kongming's Stratagem"
+                "en": "Kongming's Stratagem",
+                "legacy": true
             }
         ]
     },
@@ -339,7 +342,8 @@
         "uniques": [
             {
                 "zh": "魔力风暴",
-                "en": "Manastorm"
+                "en": "Manastorm",
+                "legacy": true
             }
         ]
     },

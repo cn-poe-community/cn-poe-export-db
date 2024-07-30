@@ -91,7 +91,8 @@
         "uniques": [
             {
                 "zh": "荒途",
-                "en": "Briskwrap"
+                "en": "Briskwrap",
+                "legacy": true
             },
             {
                 "zh": "荒野之绕",
@@ -161,7 +162,8 @@
         "uniques": [
             {
                 "zh": "卫道之袍",
-                "en": "Cloak of Defiance"
+                "en": "Cloak of Defiance",
+                "legacy": true
             }
         ]
     },
@@ -441,7 +443,8 @@
         "uniques": [
             {
                 "zh": "炼狱之心",
-                "en": "Infernal Mantle"
+                "en": "Infernal Mantle",
+                "legacy": true
             },
             {
                 "zh": "薛朗的护身长袍",
@@ -487,13 +490,7 @@
     },
     {
         "zh": "战争之铠",
-        "en": "War Plate",
-        "uniques": [
-            {
-                "zh": "冈姆的壮志",
-                "en": "Kaom's Heart"
-            }
-        ]
+        "en": "War Plate"
     },
     {
         "zh": "征战锁甲",
@@ -703,7 +700,8 @@
         "uniques": [
             {
                 "zh": "雪盲恩惠",
-                "en": "The Snowblind Grace"
+                "en": "The Snowblind Grace",
+                "legacy": true
             }
         ]
     },
