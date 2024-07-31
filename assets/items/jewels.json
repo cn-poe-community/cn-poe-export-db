@@ -71,7 +71,8 @@
             },
             {
                 "zh": "无尽之苦",
-                "en": "Endless Misery"
+                "en": "Endless Misery",
+                "legacy": true
             },
             {
                 "zh": "潜能防护",
@@ -147,7 +148,8 @@
             },
             {
                 "zh": "不稳定承载【仿品】",
-                "en": "Replica Unstable Payload"
+                "en": "Replica Unstable Payload",
+                "legacy": true
             },
             {
                 "zh": "滚动烈焰",
@@ -155,7 +157,8 @@
             },
             {
                 "zh": "灵魂之芯",
-                "en": "Soul's Wick"
+                "en": "Soul's Wick",
+                "legacy": true
             },
             {
                 "zh": "先祖回音",
@@ -345,15 +348,18 @@
             },
             {
                 "zh": "血牺【仿品】",
-                "en": "Replica Blood Sacrifice"
+                "en": "Replica Blood Sacrifice",
+                "legacy": true
             },
             {
                 "zh": "征服者的迅捷【仿品】",
-                "en": "Replica Conqueror's Efficiency"
+                "en": "Replica Conqueror's Efficiency",
+                "legacy": true
             },
             {
                 "zh": "脆弱的繁华【仿品】",
-                "en": "Replica Fragile Bloom"
+                "en": "Replica Fragile Bloom",
+                "legacy": true
             },
             {
                 "zh": "起源力量【仿品】",
@@ -583,15 +589,18 @@
             },
             {
                 "zh": "廉价建设【仿品】",
-                "en": "Replica Cheap Construction"
+                "en": "Replica Cheap Construction",
+                "legacy": true
             },
             {
                 "zh": "鲁莽【仿品】",
-                "en": "Replica Hotheaded"
+                "en": "Replica Hotheaded",
+                "legacy": true
             },
             {
                 "zh": "纯才【仿品】",
-                "en": "Replica Pure Talent"
+                "en": "Replica Pure Talent",
+                "legacy": true
             },
             {
                 "zh": "利刃戒指",
@@ -607,7 +616,8 @@
             },
             {
                 "zh": "精神守护",
-                "en": "Spirit Guards"
+                "en": "Spirit Guards",
+                "legacy": true
             },
             {
                 "zh": "静电之源",

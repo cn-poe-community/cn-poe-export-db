@@ -344,7 +344,8 @@
         "uniques": [
             {
                 "zh": "贪欲之诱",
-                "en": "Greedtrap"
+                "en": "Greedtrap",
+                "legacy": true
             },
             {
                 "zh": "回光之迹",
@@ -502,7 +503,8 @@
         "uniques": [
             {
                 "zh": "薛朗的诡计",
-                "en": "Shavronne's Gambit"
+                "en": "Shavronne's Gambit",
+                "legacy": true
             },
             {
                 "zh": "薛朗的秘术长靴",
@@ -530,7 +532,8 @@
             },
             {
                 "zh": "日怨",
-                "en": "Sunspite"
+                "en": "Sunspite",
+                "legacy": true
             }
         ]
     },

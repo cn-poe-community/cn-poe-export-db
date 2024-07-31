@@ -23,8 +23,9 @@ type IndexableSkillGem struct {
 }
 
 type Gem struct {
-	En string `json:"en"`
-	Zh string `json:"zh"`
+	En     string `json:"en"`
+	Zh     string `json:"zh"`
+	Legacy bool   `json:"legacy,omitempty"`
 }
 
 type GgpkGemEffect struct {
@@ -33,6 +34,16 @@ type GgpkGemEffect struct {
 }
 
 type GemEffect struct {
+	Zh string
+	En string
+}
+
+type GgpkActiveSkill struct {
+	Id            string
+	DisplayedName string
+}
+
+type ActiveSkill struct {
 	Zh string
 	En string
 }

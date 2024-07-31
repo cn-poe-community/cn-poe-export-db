@@ -593,7 +593,8 @@
         "uniques": [
             {
                 "zh": "日耀之冠",
-                "en": "Corona Solaris"
+                "en": "Corona Solaris",
+                "legacy": true
             },
             {
                 "zh": "宇蚀",
@@ -780,7 +781,8 @@
             },
             {
                 "zh": "恐怖巨镰",
-                "en": "Dreadsurge"
+                "en": "Dreadsurge",
+                "legacy": true
             }
         ]
     },
@@ -808,7 +810,8 @@
             },
             {
                 "zh": "魂界终结",
-                "en": "Realm Ender"
+                "en": "Realm Ender",
+                "legacy": true
             },
             {
                 "zh": "创域",
@@ -924,7 +927,8 @@
             },
             {
                 "zh": "魔藤",
-                "en": "Mirebough"
+                "en": "Mirebough",
+                "legacy": true
             },
             {
                 "zh": "血棘【仿品】",
@@ -1040,7 +1044,8 @@
             },
             {
                 "zh": "雀跃",
-                "en": "Sanguine Gambol"
+                "en": "Sanguine Gambol",
+                "legacy": true
             }
         ]
     },
@@ -1129,7 +1134,8 @@
         "uniques": [
             {
                 "zh": "雷姆诺的挽歌",
-                "en": "Hrimnor's Dirge"
+                "en": "Hrimnor's Dirge",
+                "legacy": true
             },
             {
                 "zh": "雷姆诺的夺命凶器",
@@ -1421,7 +1427,8 @@
         "uniques": [
             {
                 "zh": "狮鹫",
-                "en": "The Gryphon"
+                "en": "The Gryphon",
+                "legacy": true
             },
             {
                 "zh": "鹰啸",
@@ -1558,7 +1565,8 @@
         "uniques": [
             {
                 "zh": "巨击之锤",
-                "en": "Panquetzaliztli"
+                "en": "Panquetzaliztli",
+                "legacy": true
             },
             {
                 "zh": "重击之锤",
@@ -1731,7 +1739,8 @@
             },
             {
                 "zh": "银枝",
-                "en": "Silverbough"
+                "en": "Silverbough",
+                "legacy": true
             },
             {
                 "zh": "幻银之弦",
@@ -1763,7 +1772,8 @@
         "uniques": [
             {
                 "zh": "开膛斧【仿品】",
-                "en": "Replica Soul Taker"
+                "en": "Replica Soul Taker",
+                "legacy": true
             },
             {
                 "zh": "开膛斧",

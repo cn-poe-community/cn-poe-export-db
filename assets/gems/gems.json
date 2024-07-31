@@ -256,6 +256,11 @@
     "zh": "近战物理伤害（辅）"
   },
   {
+    "en": "Item Quantity Support",
+    "zh": "物品数量增幅（辅）",
+    "legacy": true
+  },
+  {
     "en": "Item Rarity Support",
     "zh": "物品稀有度增幅（辅）"
   },
@@ -836,10 +841,6 @@
     "zh": "瓦尔：闪电打击"
   },
   {
-    "en": "Vaal Heavy Strike",
-    "zh": "瓦尔：重击"
-  },
-  {
     "en": "Vaal Double Strike",
     "zh": "瓦尔：双重打击"
   },
@@ -882,14 +883,6 @@
   {
     "en": "Vaal Haste",
     "zh": "瓦尔：迅捷"
-  },
-  {
-    "en": "Vaal FireTrap",
-    "zh": "瓦尔：火焰陷阱"
-  },
-  {
-    "en": "Vaal Sweep",
-    "zh": "瓦尔：横扫"
   },
   {
     "en": "Vaal Righteous Fire",
@@ -958,10 +951,6 @@
   {
     "en": "Kinetic Blast",
     "zh": "力量爆破"
-  },
-  {
-    "en": "Touch of God",
-    "zh": "天谴之拳"
   },
   {
     "en": "Physical to Lightning Support",
@@ -1168,10 +1157,6 @@
     "zh": "吟唱时施放（辅）"
   },
   {
-    "en": "Vaal Soul Harvesting",
-    "zh": "瓦尔：灵魂收割"
-  },
-  {
     "en": "Ignite Proliferation Support",
     "zh": "点燃扩散（辅）"
   },
@@ -1294,10 +1279,6 @@
   {
     "en": "Seismic Trap",
     "zh": "震波陷阱"
-  },
-  {
-    "en": "Vaal Flesh Offering",
-    "zh": "瓦尔：血肉奉献"
   },
   {
     "en": "Vaal Earthquake",
@@ -1836,14 +1817,6 @@
     "zh": "三位一体（辅）"
   },
   {
-    "en": "Death Aura",
-    "zh": "陨命光环"
-  },
-  {
-    "en": "Envy",
-    "zh": "嫉妒"
-  },
-  {
     "en": "Exsanguinate",
     "zh": "赤炼魔光"
   },
@@ -1930,10 +1903,6 @@
   {
     "en": "Behead Support",
     "zh": "斩首（辅）"
-  },
-  {
-    "en": "Blood Offering",
-    "zh": "生命奉献"
   },
   {
     "en": "Boneshatter",
@@ -2100,10 +2069,6 @@
     "zh": "瓦尔：回春图腾"
   },
   {
-    "en": "Vaal Split Arrow",
-    "zh": "瓦尔：分裂箭矢"
-  },
-  {
     "en": "Manaforged Arrows Support",
     "zh": "法铸箭矢（辅）"
   },
@@ -2180,8 +2145,8 @@
     "zh": "圣洁鬼灵（辅）"
   },
   {
-    "en": "Playtest Slam",
-    "zh": "无穷猛击"
+    "en": "Quickstep",
+    "zh": "疾步"
   },
   {
     "en": "Ice Nova of Frostbolts",
@@ -2318,10 +2283,6 @@
   {
     "en": "Summon Skeletons of Mages",
     "zh": "法师之召唤魔侍"
-  },
-  {
-    "en": "[DNT] Heavy Strike of Clobbering",
-    "zh": "痛殴之重击"
   },
   {
     "en": "Dominating Blow of Inspiring",
@@ -2756,10 +2717,6 @@
     "zh": "喋血之凿击"
   },
   {
-    "en": "[DNT] Chain Hook of Pulling",
-    "zh": "拉扯之钩链攻击"
-  },
-  {
     "en": "Frostblink of Wintry Blast",
     "zh": "冰爆之冰霜闪现"
   },
@@ -2816,10 +2773,6 @@
     "zh": "涌升之尖刺战吼"
   },
   {
-    "en": "[DNT] Blazing Salvo of Wildfire",
-    "zh": "野火之怒炎穿心"
-  },
-  {
     "en": "Void Sphere of Rending",
     "zh": "撕碎之虚空法球"
   },
@@ -2834,14 +2787,6 @@
   {
     "en": "Splitting Steel of Ammunition",
     "zh": "备弹之分裂钢刃"
-  },
-  {
-    "en": "[DNT] Flame Wall of Forking",
-    "zh": "分叉投射之烈焰之墙"
-  },
-  {
-    "en": "[DNT] Flame Wall of Surging",
-    "zh": "焰涌之烈焰之墙"
   },
   {
     "en": "Hexblast of Contradiction",

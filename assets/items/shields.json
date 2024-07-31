@@ -66,7 +66,8 @@
         "uniques": [
             {
                 "zh": "阿兹里之镜",
-                "en": "Atziri's Mirror"
+                "en": "Atziri's Mirror",
+                "legacy": true
             },
             {
                 "zh": "阿兹里的反击",
@@ -146,7 +147,8 @@
             },
             {
                 "zh": "颤栗之饥",
-                "en": "Thirst for Horrors"
+                "en": "Thirst for Horrors",
+                "legacy": true
             }
         ]
     },
@@ -267,7 +269,8 @@
             },
             {
                 "zh": "冰霜之魂",
-                "en": "Kaltensoul"
+                "en": "Kaltensoul",
+                "legacy": true
             }
         ]
     },
@@ -475,7 +478,8 @@
             },
             {
                 "zh": "橡树",
-                "en": "The Oak"
+                "en": "The Oak",
+                "legacy": true
             }
         ]
     },

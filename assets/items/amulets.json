@@ -14,7 +14,8 @@
             },
             {
                 "zh": "努葛玛呼之像",
-                "en": "Ngamahu Tiki"
+                "en": "Ngamahu Tiki",
+                "legacy": true
             },
             {
                 "zh": "圣令",
@@ -194,7 +195,8 @@
             },
             {
                 "zh": "耀阳徽记",
-                "en": "The Effigon"
+                "en": "The Effigon",
+                "legacy": true
             },
             {
                 "zh": "烈阳徽记",
@@ -376,7 +378,8 @@
             },
             {
                 "zh": "卡鲁充能",
-                "en": "Karui Charge"
+                "en": "Karui Charge",
+                "legacy": true
             },
             {
                 "zh": "卡鲁的战徽",

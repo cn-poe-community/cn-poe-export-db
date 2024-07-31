@@ -81,7 +81,8 @@
             },
             {
                 "zh": "荆棘之墙",
-                "en": "Wall of Brambles"
+                "en": "Wall of Brambles",
+                "legacy": true
             }
         ]
     },
@@ -235,7 +236,8 @@
         "uniques": [
             {
                 "zh": "水晶墓穴",
-                "en": "Crystal Vault"
+                "en": "Crystal Vault",
+                "legacy": true
             },
             {
                 "zh": "冰息",
@@ -375,7 +377,8 @@
         "uniques": [
             {
                 "zh": "狐运强铠",
-                "en": "Fox's Fortune"
+                "en": "Fox's Fortune",
+                "legacy": true
             },
             {
                 "zh": "狐毛铠",
@@ -466,7 +469,8 @@
             },
             {
                 "zh": "钢铁要塞",
-                "en": "The Iron Fortress"
+                "en": "The Iron Fortress",
+                "legacy": true
             }
         ]
     },

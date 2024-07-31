@@ -273,7 +273,8 @@
             },
             {
                 "zh": "虚空心灵",
-                "en": "Voidheart"
+                "en": "Voidheart",
+                "legacy": true
             }
         ]
     },
@@ -283,7 +284,8 @@
         "uniques": [
             {
                 "zh": "沸血",
-                "en": "Bloodboil"
+                "en": "Bloodboil",
+                "legacy": true
             },
             {
                 "zh": "冈姆的远见",
@@ -433,7 +435,8 @@
             },
             {
                 "zh": "时空扭曲",
-                "en": "Timetwist"
+                "en": "Timetwist",
+                "legacy": true
             },
             {
                 "zh": "女武神",

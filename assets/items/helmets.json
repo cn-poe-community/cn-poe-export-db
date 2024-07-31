@@ -81,7 +81,8 @@
         "uniques": [
             {
                 "zh": "安赛娜丝的优雅之歌",
-                "en": "Asenath's Chant"
+                "en": "Asenath's Chant",
+                "legacy": true
             },
             {
                 "zh": "安赛娜丝的迅敏之冠",
@@ -291,7 +292,8 @@
             },
             {
                 "zh": "烈士之冠",
-                "en": "Martyr's Crown"
+                "en": "Martyr's Crown",
+                "legacy": true
             }
         ]
     },
@@ -315,7 +317,8 @@
             },
             {
                 "zh": "丧吼",
-                "en": "Deidbellow"
+                "en": "Deidbellow",
+                "legacy": true
             }
         ]
     },
@@ -387,7 +390,8 @@
         "uniques": [
             {
                 "zh": "艾兹麦之握",
-                "en": "Ezomyte Hold"
+                "en": "Ezomyte Hold",
+                "legacy": true
             },
             {
                 "zh": "艾兹麦的荣光",
@@ -443,7 +447,8 @@
             },
             {
                 "zh": "吉尔菲的遗产",
-                "en": "Geofri's Legacy"
+                "en": "Geofri's Legacy",
+                "legacy": true
             },
             {
                 "zh": "光明偷猎者",
@@ -451,7 +456,8 @@
             },
             {
                 "zh": "禁断的军帽【仿品】",
-                "en": "Replica Forbidden Shako"
+                "en": "Replica Forbidden Shako",
+                "legacy": true
             }
         ]
     },

@@ -106,3 +106,39 @@ func mergeGgpkGemEffects(enEntryList, zhEntryList []*GgpkGemEffect) ([]*GemEffec
 	}
 	return result, nil
 }
+
+func LoadActiveSkillsFromGgpk(gemEffectsFile, zhGemEffectsFile string) []*ActiveSkill {
+	enEntries := loadGgpkActiveSkills(gemEffectsFile)
+	zhEntries := loadGgpkActiveSkills(zhGemEffectsFile)
+
+	gems, err := mergeGgpkActiveSkills(enEntries, zhEntries)
+	errorutil.QuitIfError(err)
+	return gems
+}
+
+func loadGgpkActiveSkills(filename string) []*GgpkActiveSkill {
+	data, err := os.ReadFile(filename)
+	errorutil.QuitIfError(err)
+
+	var entries []*GgpkActiveSkill
+
+	json.Unmarshal(data, &entries)
+
+	return entries
+}
+
+func mergeGgpkActiveSkills(enEntryList, zhEntryList []*GgpkActiveSkill) ([]*ActiveSkill, error) {
+	if len(enEntryList) < len(zhEntryList) {
+		return nil, fmt.Errorf("shorter enEntryList")
+	}
+
+	result := []*ActiveSkill{}
+	for i, enEntry := range enEntryList {
+		zhEntry := zhEntryList[i]
+		if enEntry.Id != zhEntry.Id {
+			errorutil.QuitIfError(fmt.Errorf("id doesnot match of gem effects: %s", zhEntry.Id))
+		}
+		result = append(result, &ActiveSkill{Zh: zhEntry.DisplayedName, En: enEntry.DisplayedName})
+	}
+	return result, nil
+}

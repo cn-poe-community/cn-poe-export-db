@@ -56,7 +56,8 @@
         "uniques": [
             {
                 "zh": "落石",
-                "en": "Cragfall"
+                "en": "Cragfall",
+                "legacy": true
             },
             {
                 "zh": "岩头",
