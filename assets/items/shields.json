@@ -723,7 +723,13 @@
     },
     {
         "zh": "征战塔盾",
-        "en": "Girded Tower Shield"
+        "en": "Girded Tower Shield",
+        "uniques": [
+            {
+                "zh": "斯瓦林",
+                "en": "Svalinn"
+            }
+        ]
     },
     {
         "zh": "荣冠塔盾",

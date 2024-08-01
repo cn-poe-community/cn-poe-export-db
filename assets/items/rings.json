@@ -579,5 +579,23 @@
     {
         "zh": "集成戒指",
         "en": "Manifold Ring"
+    },
+    {
+        "zh": "无名戒指",
+        "en": "Nameless Ring",
+        "uniques": [
+            {
+                "zh": "憎恨控诉",
+                "en": "The Hateful Accuser"
+            },
+            {
+                "zh": "心灵的息灭",
+                "en": "The Queller of Minds"
+            },
+            {
+                "zh": "利己的牧者",
+                "en": "The Selfish Shepherd"
+            }
+        ]
     }
 ]

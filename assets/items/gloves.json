@@ -700,7 +700,13 @@
     },
     {
         "zh": "古钢护手",
-        "en": "Antique Gauntlets"
+        "en": "Antique Gauntlets",
+        "uniques": [
+            {
+                "zh": "提督的傲慢",
+                "en": "Admiral's Arrogance"
+            }
+        ]
     },
     {
         "zh": "环甲手套",

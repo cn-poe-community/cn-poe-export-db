@@ -718,6 +718,10 @@
                 "zh": "无形火炬",
                 "en": "The Formless Flame",
                 "legacy": true
+            },
+            {
+                "zh": "冈姆的命令",
+                "en": "Kaom's Command"
             }
         ]
     },
@@ -919,5 +923,77 @@
     {
         "zh": "大恶魔之冠",
         "en": "Archdemon Crown"
+    },
+    {
+        "zh": "上古之面",
+        "en": "Ancient Mask"
+    },
+    {
+        "zh": "霸王战盔",
+        "en": "Conqueror's Helmet"
+    },
+    {
+        "zh": "征服之盔",
+        "en": "Conquest Helmet"
+    },
+    {
+        "zh": "恐兽皮盔",
+        "en": "Dire Pelt"
+    },
+    {
+        "zh": "神启头冠",
+        "en": "Divine Crown"
+    },
+    {
+        "zh": "信仰之盔",
+        "en": "Faithful Helmet"
+    },
+    {
+        "zh": "将军战盔",
+        "en": "General's Helmet"
+    },
+    {
+        "zh": "巨人屠夫战盔",
+        "en": "Giantslayer Helmet"
+    },
+    {
+        "zh": "灰熊皮盔",
+        "en": "Grizzly Pelt"
+    },
+    {
+        "zh": "魂萦战盔",
+        "en": "Haunted Bascinet"
+    },
+    {
+        "zh": "弄臣之面",
+        "en": "Jester Mask"
+    },
+    {
+        "zh": "骑士之盔",
+        "en": "Knight Helm"
+    },
+    {
+        "zh": "巫妖之冠",
+        "en": "Lich's Circlet"
+    },
+    {
+        "zh": "威武皮盔",
+        "en": "Majestic Pelt"
+    },
+    {
+        "zh": "月辉之冠",
+        "en": "Moonlit Circlet"
+    },
+    {
+        "zh": "圣骑士头冠",
+        "en": "Paladin Crown"
+    },
+    {
+        "zh": "阳炎之冠",
+        "en": "Sunfire Circlet"
+    },
+    {
+        "zh": "刑罚者之面",
+        "en": "Torturer's Mask"
     }
 ]

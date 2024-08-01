@@ -1250,6 +1250,10 @@
             {
                 "zh": "刚多的虚荣",
                 "en": "Kondo's Pride"
+            },
+            {
+                "zh": "活木之刃",
+                "en": "The Living Blade"
             }
         ]
     },
@@ -2483,7 +2487,13 @@
     },
     {
         "zh": "幻象之锤",
-        "en": "Phantom Mace"
+        "en": "Phantom Mace",
+        "uniques": [
+            {
+                "zh": "瑟蕾的杰作",
+                "en": "Serle's Masterwork"
+            }
+        ]
     },
     {
         "zh": "祖灵之杵",
@@ -2950,7 +2960,13 @@
     },
     {
         "zh": "扫荡者",
-        "en": "Piledriver"
+        "en": "Piledriver",
+        "uniques": [
+            {
+                "zh": "塔赫亚的砍伐",
+                "en": "Tawhoa's Felling"
+            }
+        ]
     },
     {
         "zh": "祭仪巨锤",
