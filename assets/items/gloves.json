@@ -723,5 +723,29 @@
     {
         "zh": "衰弱手甲",
         "en": "Debilitation Gauntlets"
+    },
+    {
+        "zh": "工匠手套",
+        "en": "Tinker Gloves"
+    },
+    {
+        "zh": "学徒手套",
+        "en": "Apprentice Gloves"
+    },
+    {
+        "zh": "布陷者手套",
+        "en": "Trapsetter Gloves"
+    },
+    {
+        "zh": "历战手甲",
+        "en": "Preserving Gauntlets"
+    },
+    {
+        "zh": "护卫手甲",
+        "en": "Guarding Gauntlets"
+    },
+    {
+        "zh": "御敌护手",
+        "en": "Thwarting Gauntlets"
     }
 ]
