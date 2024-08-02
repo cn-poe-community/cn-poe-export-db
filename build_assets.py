@@ -27,9 +27,9 @@ def snake_to_camel(name: str):
     return result
 
 
-def json_to_js(json, variable_name):
+def json_to_js(data, variable_name):
     name = snake_to_camel(variable_name)
-    return f"export const {name} = {json};"
+    return f"export const {name} = {json.dumps(data, ensure_ascii=False, indent=4)};"
 
 
 def jsons_to_js(folder: str):
