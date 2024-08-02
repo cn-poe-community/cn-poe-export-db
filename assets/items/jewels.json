@@ -767,7 +767,8 @@
             },
             {
                 "zh": "普兰德斯契约",
-                "en": "The Perandus Pact"
+                "en": "The Perandus Pact",
+                "legacy": true
             },
             {
                 "zh": "意义的光辉",

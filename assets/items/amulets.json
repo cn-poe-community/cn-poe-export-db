@@ -191,7 +191,8 @@
             },
             {
                 "zh": "苦行",
-                "en": "The Ascetic"
+                "en": "The Ascetic",
+                "legacy": true
             },
             {
                 "zh": "耀阳徽记",
