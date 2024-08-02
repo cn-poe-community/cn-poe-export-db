@@ -36,14 +36,17 @@ var invalidGemList = []string{"Righteous Lightning", "Wildfire", "Playtest Spell
 	"Playtest Attack", "Vortex Mine", "Discorectangle Slam", "Elemental Projectiles", "Lightning Circle",
 	"Split Projectiles Support", "Damage Infusion", "Summon Skeletons Channelled", "Vaal FireTrap",
 	"Spectral Spinning Weapon", "Riptide", "Flammable Shot", "Vaal Soul Harvesting", "Vaal Heavy Strike",
-	"Vaal Sweep", "Touch of God", "Vaal Flesh Offering", "Vaal Split Arrow",
+	"Vaal Sweep", "Touch of God", "Vaal Flesh Offering", "Vaal Split Arrow", "Increased Duration Support",
+	"Ancestral Protector", "Ancestral Warchief", "Vaal Ancestral Warchief",
 }
 
 // 已经遗产的宝石
 var legacyGemList = []string{"Item Quantity Support"}
 
 // 非宝石的技能
-var nonGemSkillList = []string{"Death Aura", "Envy", "Gluttony of Elements", "Blood Offering", "Blinding Aura"}
+var nonGemSkillList = []string{"Death Aura", "Envy", "Gluttony of Elements", "Blood Offering", "Blinding Aura",
+	"Divine Blessing Support", "Earthbreaker Support",
+}
 
 // 已经遗产的技能
 var legacySkillList = []string{"Blinding Aura"}
@@ -97,14 +100,14 @@ func loadTradableGems() ([]map[string]any, []map[string]any) {
 	var txTradableGems []map[string]any
 
 	for _, resultEntry := range itemData.Result {
-		if resultEntry.Id == "gems" {
+		if resultEntry.Id == "gem" {
 			tradableGems = resultEntry.Entries
 			break
 		}
 	}
 
 	for _, resultEntry := range txItemData.Result {
-		if resultEntry.Id == "gems" {
+		if resultEntry.Id == "gem" {
 			txTradableGems = resultEntry.Entries
 			break
 		}
@@ -169,23 +172,33 @@ func initGems(baseTypes []*item.BaseItemType, gemEffects []*gem.GemEffect,
 
 	for _, gem := range tradableGems {
 		t := formatGemZh(gem["type"].(string))
-		text := formatGemZh(gem["text"].(string))
+		var text *string
 
-		if strings.HasPrefix(t, "Vaal ") {
-			tradableGemSet[t] = true
-		} else {
-			tradableGemSet[text] = true
+		if value, ok := gem["text"]; ok {
+			textHolder := value.(string)
+			text = &textHolder
+		}
+
+		tradableGemSet[t] = true
+
+		if !strings.HasPrefix(t, "Vaal ") && text != nil { //改造宝石，非瓦尔版本
+			tradableGemSet[*text] = true
 		}
 	}
 
 	for _, gem := range txTradableGems {
 		t := formatGemZh(gem["type"].(string))
-		text := formatGemZh(gem["text"].(string))
+		var text *string
 
-		if strings.HasPrefix(t, "瓦尔：") {
-			tradableGemZhSet[t] = true
-		} else {
-			tradableGemZhSet[text] = true
+		if value, ok := gem["text"]; ok {
+			textHolder := formatGemZh(value.(string))
+			text = &textHolder
+		}
+
+		tradableGemZhSet[t] = true
+
+		if !strings.HasPrefix(t, "瓦尔：") && text != nil { //改造宝石，非瓦尔版本
+			tradableGemZhSet[*text] = true
 		}
 	}
 
@@ -229,7 +242,7 @@ func initGems(baseTypes []*item.BaseItemType, gemEffects []*gem.GemEffect,
 	}
 
 	for en, _ := range tradableGemSet {
-		if !gemSet[en] {
+		if !gemSet[en] && !invalidGemSet[en] && !nonGemSkillSet[en] {
 			log.Printf("warning: missed tradable gem: %s", en)
 		}
 	}

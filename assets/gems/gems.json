@@ -313,16 +313,28 @@
     "zh": "召唤魔侍"
   },
   {
-    "en": "Riposte",
-    "zh": "击刃"
+    "en": "Glacial Shield Swipe",
+    "zh": "冰川盾袭"
   },
   {
-    "en": "Vengeance",
-    "zh": "复仇"
+    "en": "Crushing Fist",
+    "zh": "粉碎重拳"
   },
   {
-    "en": "Reckoning",
-    "zh": "清算"
+    "en": "Swordstorm",
+    "zh": "落刃风暴"
+  },
+  {
+    "en": "Eviscerate",
+    "zh": "剔骨"
+  },
+  {
+    "en": "Divine Retribution",
+    "zh": "神圣报应"
+  },
+  {
+    "en": "Vengeful Cry",
+    "zh": "复仇咆哮"
   },
   {
     "en": "Heavy Strike",
@@ -345,8 +357,8 @@
     "zh": "召唤生物伤害（辅）"
   },
   {
-    "en": "Increased Duration Support",
-    "zh": "持续时间延长（辅）"
+    "en": "More Duration Support",
+    "zh": "持续时间总增（辅）"
   },
   {
     "en": "Cold to Fire Support",
@@ -1129,14 +1141,6 @@
     "zh": "漩涡"
   },
   {
-    "en": "Ancestral Protector",
-    "zh": "先祖卫士"
-  },
-  {
-    "en": "Ancestral Warchief",
-    "zh": "先祖战士长"
-  },
-  {
     "en": "Elemental Focus Support",
     "zh": "元素集中（辅）"
   },
@@ -1295,10 +1299,6 @@
   {
     "en": "Charged Mines Support",
     "zh": "充能地雷（辅）"
-  },
-  {
-    "en": "Vaal Ancestral Warchief",
-    "zh": "瓦尔：先祖战士长"
   },
   {
     "en": "Consecrated Path",
@@ -1778,7 +1778,7 @@
   },
   {
     "en": "Crackling Lance",
-    "zh": "电殛长枪"
+    "zh": "霹雳长枪"
   },
   {
     "en": "Frost Shield",
@@ -1865,10 +1865,6 @@
     "zh": "魔武战号"
   },
   {
-    "en": "Earthbreaker Support",
-    "zh": "裂地之灵（辅）"
-  },
-  {
     "en": "Absolution",
     "zh": "赦罪"
   },
@@ -1882,7 +1878,7 @@
   },
   {
     "en": "Manabond",
-    "zh": "缚魔电殛"
+    "zh": "缚魔电场"
   },
   {
     "en": "Blade Trap",
@@ -1959,10 +1955,6 @@
   {
     "en": "Destructive Link",
     "zh": "毁灭羁绊"
-  },
-  {
-    "en": "Divine Blessing Support",
-    "zh": "神圣祝福（辅）"
   },
   {
     "en": "Mark On Hit Support",
@@ -2137,12 +2129,24 @@
     "zh": "自动化"
   },
   {
-    "en": "Call to Arms",
-    "zh": "武装召唤"
+    "en": "Autoexertion",
+    "zh": "自动增助"
   },
   {
     "en": "Sacred Wisps Support",
     "zh": "圣洁鬼灵（辅）"
+  },
+  {
+    "en": "Overexertion Support",
+    "zh": "超能增助（辅）"
+  },
+  {
+    "en": "Expert Retaliation Support",
+    "zh": "专擅反击（辅）"
+  },
+  {
+    "en": "Rupture Support",
+    "zh": "残破（辅）"
   },
   {
     "en": "Quickstep",
@@ -2311,6 +2315,10 @@
   {
     "en": "Power Siphon of the Archmage",
     "zh": "大法师之力量抽取"
+  },
+  {
+    "en": "Puncture of Shanking",
+    "zh": "割碎之放血"
   },
   {
     "en": "Lightning Arrow of Electrocution",
@@ -2778,11 +2786,11 @@
   },
   {
     "en": "Crackling Lance of Branching",
-    "zh": "分叉之电殛长枪"
+    "zh": "分叉之霹雳长枪"
   },
   {
     "en": "Crackling Lance of Disintegration",
-    "zh": "瓦解之电殛长枪"
+    "zh": "瓦解之霹雳长枪"
   },
   {
     "en": "Splitting Steel of Ammunition",
