@@ -124,7 +124,7 @@ func parseText(line string) *Text {
 	for _, str := range pieces {
 		// some params strings are not formal
 		// such as `1|#   0 "{0}% increased Duration"`
-		if str == "" {
+		if strings.TrimSpace(str) == "" {
 			continue
 		}
 		matcher, err := parseParamMatcher(str)

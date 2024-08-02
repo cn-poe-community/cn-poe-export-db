@@ -1,20 +1,5 @@
 [
   {
-    "id": "%_physical_damage_bypasses_energy_shield",
-    "zh": "受到的物理伤害穿透能量护盾",
-    "en": "Physical Damage taken bypasses Energy Shield"
-  },
-  {
-    "id": "%_physical_damage_bypasses_energy_shield",
-    "zh": "受到的物理伤害的 {0}% 穿透能量护盾",
-    "en": "{0}% of Physical Damage taken bypasses Energy Shield"
-  },
-  {
-    "id": "+1_max_charged_attack_stages",
-    "zh": "刀刃乱舞层数上限 +1",
-    "en": "+1 to maximum Blade Flurry stages"
-  },
-  {
     "id": "local_jewel_+%_effect_per_passive_between_jewel_and_class_start",
     "zh": "从你职业的出发位置到该珠宝槽之间\n每一点配置的天赋就使该珠宝插槽的效果提高 {0}%",
     "en": "This Jewel's Socket has {0}% increased effect per Allocated Passive Skill between\nit and your Class' starting location"
@@ -461,28 +446,33 @@
   },
   {
     "id": "local_implicit_stat_magnitude_+%",
-    "zh": "固定基底词缀两倍效果加成",
-    "en": "Implicit Modifier magnitudes are doubled"
-  },
-  {
-    "id": "local_implicit_stat_magnitude_+%",
-    "zh": "固定基底词缀三倍效果加成",
-    "en": "Implicit Modifier magnitudes are tripled"
-  },
-  {
-    "id": "local_implicit_stat_magnitude_+%",
-    "zh": "{0}% 固定基底词缀效果加成",
+    "zh": "基底词缀幅度提高 {0}%",
     "en": "{0}% increased Implicit Modifier magnitudes"
   },
   {
     "id": "local_implicit_stat_magnitude_+%",
-    "zh": "{0}% 固定基底词缀效果降低",
+    "zh": "基底词缀幅度降低 {0}%",
     "en": "{0}% reduced Implicit Modifier magnitudes"
   },
   {
     "id": "local_display_grant_level_x_snipe_skill",
     "zh": "获得 {0} 级的【狙击】技能",
     "en": "Grants Level {0} Snipe Skill"
+  },
+  {
+    "id": "local_display_grants_level_X_affliction",
+    "zh": "获得 {0} 级折磨",
+    "en": "Grants level {0} Affliction"
+  },
+  {
+    "id": "local_display_grants_level_X_pacify",
+    "zh": "获得 {0} 级宁心",
+    "en": "Grants level {0} Pacify"
+  },
+  {
+    "id": "local_display_grants_level_X_penance_mark",
+    "zh": "获得 {0} 级忏悔印记",
+    "en": "Grants level {0} Penance Mark"
   },
   {
     "id": "local_cannot_have_blue_sockets",
@@ -578,6 +568,16 @@
     "id": "local_one_socket_each_colour_only",
     "zh": "各色插槽均有 1 个",
     "en": "Has one socket of each colour"
+  },
+  {
+    "id": "local_block_chance_+%",
+    "zh": "格挡几率提高 {0}%",
+    "en": "{0}% increased Chance to Block"
+  },
+  {
+    "id": "local_block_chance_+%",
+    "zh": "格挡几率降低 {0}%",
+    "en": "{0}% reduced Chance to Block"
   },
   {
     "id": "local_can_socket_gems_ignoring_colour",
@@ -1116,7 +1116,12 @@
   },
   {
     "id": "local_display_socketed_gems_supported_by_level_x_earthbreaker",
-    "zh": "插入的技能石被 {0} 级的裂地崩山辅助",
+    "zh": "插槽中的猛击宝石受 25 级裂地之灵辅助",
+    "en": "Socketed Slam Gems are Supported by Level 25 Earthbreaker"
+  },
+  {
+    "id": "local_display_socketed_gems_supported_by_level_x_earthbreaker",
+    "zh": "插槽中的宝石受 {0} 级裂地之灵辅助",
     "en": "Socketed Gems are Supported by Level {0} Earthbreaker"
   },
   {
@@ -1158,6 +1163,11 @@
     "id": "local_display_socketed_gems_supported_by_level_x_eternal_blessing",
     "zh": "插入的技能石被 {0} 级的恒祝辅助",
     "en": "Socketed Gems are Supported by Level {0} Eternal Blessing"
+  },
+  {
+    "id": "local_display_socketed_gems_supported_by_level_x_expert_retaliation",
+    "zh": "插槽中的宝石受 {0} 级专擅反击辅助",
+    "en": "Socketed Gems are Supported by Level {0} Expert Retaliation"
   },
   {
     "id": "local_display_socketed_gems_supported_by_level_x_feeding_frenzy",
@@ -1261,8 +1271,8 @@
   },
   {
     "id": "local_display_socketed_gems_supported_by_level_x_increased_duration",
-    "zh": "此物品上的技能石受到 {0} 级的 持续时间延长 辅助",
-    "en": "Socketed Gems are Supported by Level {0} Increased Duration"
+    "zh": "插槽中的宝石受 {0} 级持续时间总增辅助",
+    "en": "Socketed Gems are Supported by Level {0} More Duration"
   },
   {
     "id": "local_display_socketed_gems_supported_by_level_x_infernal_legion",
@@ -1370,6 +1380,11 @@
     "en": "Socketed Gems are Supported by Level {0} Overcharge"
   },
   {
+    "id": "local_display_socketed_gems_supported_by_level_x_overexertion",
+    "zh": "插槽中的宝石受 {0} 级超能增助辅助",
+    "en": "Socketed Gems are Supported by Level {0} Overexertion"
+  },
+  {
     "id": "local_display_socketed_gems_supported_by_level_x_parallel_projectiles",
     "zh": "此物品上的技能石受到 {0} 级的  齐射 辅助",
     "en": "Socketed Gems are Supported by Level {0} Volley"
@@ -1453,6 +1468,11 @@
     "id": "local_display_socketed_gems_supported_by_level_x_returning_projectiles",
     "zh": "插槽中的宝石受 {0} 级投射物归返辅助",
     "en": "Socketed Gems are Supported by Level {0} Returning Projectiles"
+  },
+  {
+    "id": "local_display_socketed_gems_supported_by_level_x_rupture",
+    "zh": "插槽中的宝石受 {0} 级残破辅助",
+    "en": "Socketed Gems are Supported by Level {0} Rupture"
   },
   {
     "id": "local_display_socketed_gems_supported_by_level_x_ruthless",
@@ -2155,6 +2175,11 @@
     "en": "Socketed Gems have {0}% chance to cause Enemies to Flee on Hit"
   },
   {
+    "id": "elemental_spell_damage_taken_+_per_barkskin_stack",
+    "zh": "每层树皮御体使受到法术击中的火焰，冰霜和闪电伤害 {0}",
+    "en": "{0} Fire, Cold and Lightning Damage taken from Spell Hits per Bark"
+  },
+  {
     "id": "local_display_socketed_gems_get_item_quantity_+%",
     "zh": "使用此此物品上的技能石技能击败怪物时，物品掉落数量提高 {0}%",
     "en": "Enemies slain by Socketed Gems drop {0}% increased item quantity"
@@ -2437,7 +2462,7 @@
   {
     "id": "local_display_socketed_vaal_skills_ignore_monster_phys_reduction",
     "zh": "插入的瓦尔技能击中时无视敌方怪物的物理伤害减免",
-    "en": "Hits from Socketed Vaal Skills ignore Enemy Monster Physical Damage Reduction"
+    "en": "Hits from Socketed Vaal Skills ignore Enemy Physical Damage Reduction"
   },
   {
     "id": "local_display_socketed_vaal_skills_ignore_monster_resistances",
@@ -2866,8 +2891,8 @@
   },
   {
     "id": "local_display_grants_level_X_reckoning",
-    "zh": "获得 {0} 级的主动技能【清算】，且可被此道具上的技能石辅助",
-    "en": "Grants Level {0} Reckoning Skill"
+    "zh": "获得 {0} 级粉碎重拳技能",
+    "en": "Grants Level {0} Crushing Fist Skill"
   },
   {
     "id": "local_display_grants_skill_blight_level",
@@ -3015,9 +3040,19 @@
     "en": "Grants Level {0} Precision Skill"
   },
   {
+    "id": "local_display_grants_skill_ailment_bearer",
+    "zh": "获得 {0} 级不羁化身技能",
+    "en": "Grants Level {0} Unbound Avatar Skill"
+  },
+  {
     "id": "local_display_grants_skill_barkskin",
     "zh": "获得 {0} 级树皮御体技能",
     "en": "Grants Level {0} Barkskin Skill"
+  },
+  {
+    "id": "local_display_grants_skill_battlemages_cry_level",
+    "zh": "获得 {0} 级魔武战号技能",
+    "en": "Grants Level {0} Battlemage's Cry Skill"
   },
   {
     "id": "local_display_grants_skill_bird_aspect_level",
@@ -3078,6 +3113,11 @@
     "id": "local_display_grants_skill_enduring_cry_level",
     "zh": "获得 {0} 级的主动技能【坚决战吼】",
     "en": "Grants Level {0} Enduring Cry Skill"
+  },
+  {
+    "id": "local_display_grants_skill_evisceration",
+    "zh": "获得 {0} 级剔骨技能",
+    "en": "Grants Level {0} Eviscerate Skill"
   },
   {
     "id": "local_display_grants_skill_herald_of_agony_level",
@@ -3248,6 +3288,11 @@
     "id": "local_display_tattoo_trigger_level_x_utula",
     "zh": "受到传奇敌人的残暴打击时触发召唤尤图拉之魂技能",
     "en": "Trigger Summon Spirit of Utula Skill on taking a Savage Hit from a Unique Enemy"
+  },
+  {
+    "id": "can_see_corpse_types",
+    "zh": "敌人会显示怪物类型",
+    "en": "Enemies display their Monster Category"
   },
   {
     "id": "local_display_trigger_level_20_summon_spectral_wolf_on_crit_with_this_weapon_%_chance",
@@ -4540,6 +4585,11 @@
     "en": "Adds Knockback to Melee Attacks during Effect"
   },
   {
+    "id": "local_fire_and_lightning_hit_and_dot_damage_%_taken_as_cold_during_effect",
+    "zh": "效果期间受到的火焰和闪电击中伤害的 {0}% 转化为冰霜伤害",
+    "en": "{0}% of Fire and Lightning Damage from Hits taken as Cold Damage during Effect"
+  },
+  {
     "id": "local_unique_flask_physical_damage_taken_%_as_cold_while_healing",
     "zh": "生效期间，受到物理伤害的 {0}% 转化为冰霜伤害",
     "en": "{0}% of Physical Damage from Hits taken as Cold Damage during Effect"
@@ -5333,6 +5383,11 @@
     "id": "local_strength_requirement_+%",
     "zh": "无力量需求",
     "en": "No Strength Requirement"
+  },
+  {
+    "id": "base_can_gain_banner_resource can_gain_banner_resource_while_banner_is_placed",
+    "zh": "放置旗帜不会阻止你获得胆魄",
+    "en": "Having a placed Banner does not prevent you gaining Valour"
   },
   {
     "id": "monster_base_block_%",
@@ -7881,13 +7936,13 @@
   },
   {
     "id": "spell_critical_strike_chance_+%",
-    "zh": "法术暴击率提高 {0}%",
-    "en": "{0}% increased Critical Strike Chance for Spells"
+    "zh": "法术暴击几率提高 {0}%",
+    "en": "{0}% increased Spell Critical Strike Chance"
   },
   {
     "id": "spell_critical_strike_chance_+%",
-    "zh": "法术暴击率降低 {0}%",
-    "en": "{0}% reduced Critical Strike Chance for Spells"
+    "zh": "法术暴击几率降低 {0}%",
+    "en": "{0}% reduced Spell Critical Strike Chance"
   },
   {
     "id": "critical_strike_chance_+%",
@@ -9933,6 +9988,11 @@
     "id": "recover_X_life_on_block",
     "zh": "生命在你格挡时恢复 {0} 点",
     "en": "Recover {0} Life when you Block"
+  },
+  {
+    "id": "spell_block_%_per_5_attack_block",
+    "zh": "每 5% 攻击伤害格挡几率使法术伤害格挡几率 +{0}%",
+    "en": "+{0}% Chance to Block Spell Damage per 5% Chance to Block Attack Damage"
   },
   {
     "id": "minion_recover_X_life_on_block",
@@ -13553,6 +13613,11 @@
     "id": "minion_additional_physical_damage_reduction_%",
     "zh": "召唤生物有 {0}% 额外物理伤害减免",
     "en": "Minions have {0}% additional Physical Damage Reduction"
+  },
+  {
+    "id": "elemental_damage_reduction_%_per_endurance_charge",
+    "zh": "每个耐力球使元素伤害额外降低 {0}%",
+    "en": "{0}% additional Elemental Damage Reduction per Endurance Charge"
   },
   {
     "id": "physical_damage_reduction_%_per_endurance_charge",
@@ -17285,11 +17350,6 @@
     "en": "{0}% reduced Damage with Hits and Ailments per Curse on Enemy"
   },
   {
-    "id": "cannot_gain_power_charges",
-    "zh": "无法获得暴击球",
-    "en": "Cannot gain Power Charges"
-  },
-  {
     "id": "no_maximum_power_charges",
     "zh": "最大暴击球数量为 0",
     "en": "Maximum Power Charges is 0"
@@ -17462,22 +17522,22 @@
   {
     "id": "chance_to_gain_unholy_might_on_block_% chance_to_gain_unholy_might_on_block_ms",
     "zh": "格挡时，有 {0}% 的几率获得【不洁之力】，持续 3 秒",
-    "en": "{0}% chance to gain Unholy Might on block for 3 seconds"
+    "en": "{0}% chance to gain Unholy Might on Block for 3 seconds"
   },
   {
     "id": "chance_to_gain_unholy_might_on_block_% chance_to_gain_unholy_might_on_block_ms",
     "zh": "格挡时获得【不洁之力】，持续 3 秒",
-    "en": "Gain Unholy Might on block for 3 seconds"
+    "en": "Gain Unholy Might on Block for 3 seconds"
   },
   {
     "id": "chance_to_gain_unholy_might_on_block_% chance_to_gain_unholy_might_on_block_ms",
     "zh": "格挡时，有 {0}% 的几率获得【不洁之力】，持续 {1} 秒",
-    "en": "{0}% chance to gain Unholy Might on block for {1} seconds"
+    "en": "{0}% chance to gain Unholy Might on Block for {1} seconds"
   },
   {
     "id": "chance_to_gain_unholy_might_on_block_% chance_to_gain_unholy_might_on_block_ms",
     "zh": "格挡时获得【不洁之力】，持续 {0} 秒",
-    "en": "Gain Unholy Might on block for {0} seconds"
+    "en": "Gain Unholy Might on Block for {0} seconds"
   },
   {
     "id": "local_jewel_nearby_passives_str_to_dex",
@@ -19550,17 +19610,17 @@
     "en": "{0}% additional Physical Damage Reduction with an Summoned Totem"
   },
   {
-    "id": "local_display_cast_level_x_manifest_rageblade",
+    "id": "local_display_cast_level_x_manifest_dancing_dervish",
     "zh": "暴走时触发 {0} 级幻化之刃德尔维希",
     "en": "Triggers Level {0} Manifest Dancing Dervishes on Rampage"
   },
   {
-    "id": "local_display_manifest_rageblade_disables_weapons",
+    "id": "local_display_manifest_dancing_dervish_disables_weapons",
     "zh": "幻化之刃德尔维希会禁用所有武器槽",
     "en": "Manifested Dancing Dervishes disables both weapon slots"
   },
   {
-    "id": "local_display_manifest_rageblade_destroy_on_end_rampage",
+    "id": "local_display_manifest_dancing_dervish_destroy_on_end_rampage",
     "zh": "幻化之刃德尔维希会在暴走结束时消失",
     "en": "Manifested Dancing Dervishes die when Rampage ends"
   },
@@ -21761,8 +21821,8 @@
   },
   {
     "id": "knockback_on_counterattack_%",
-    "zh": "反击时有 {0}% 的几率击退敌人",
-    "en": "{0}% chance to knockback on Counterattack"
+    "zh": "反击技能有 {0}% 的几率造成击退",
+    "en": "Retaliation Skills have {0}% chance to Knockback"
   },
   {
     "id": "chill_on_you_proliferates_to_nearby_enemies_within_x_radius",
@@ -23223,6 +23283,11 @@
     "id": "trap_damage_buildup_damage_+%_final_after_4_seconds",
     "zh": "近期内若没有放置过陷阱，则陷阱造成的击中和后续异常状态伤害总降 {0}%",
     "en": "Traps deal {0}% less Damage with Hits and Ailments if they were not Armed Recently"
+  },
+  {
+    "id": "base_attack_skill_cost_life_instead_of_mana_%",
+    "zh": "攻击技能消耗魔力的 {0}% 改为消耗生命",
+    "en": "Attack Skills Cost Life instead of {0}% of Mana Cost"
   },
   {
     "id": "local_weapon_crit_chance_is_100",
@@ -25770,9 +25835,9 @@
     "en": "You and nearby Allies have {0}% to Elemental Resistances"
   },
   {
-    "id": "you_and_allies_affected_by_your_placed_banners_regenerate_%_life_per_minute_per_stage",
-    "zh": "你和友军受到你放置的旗帜影响，\n每层每秒再生 {0}% 生命",
-    "en": "You and Allies affected by your placed Banners Regenerate {0}% of\nLife per second for each Stage"
+    "id": "you_and_allies_affected_by_your_placed_banners_regenerate_%_life_per_minute_per_resource",
+    "zh": "旗帜每消耗一点胆魄，你和旗帜周围的友军每秒再生 {0}% 的生命",
+    "en": "You and Allies near your Banner Regenerate {0}% of Life per second for each Valour consumed for that Banner"
   },
   {
     "id": "you_and_minion_attack_and_cast_speed_+%_for_4_seconds_when_corpse_destroyed",
@@ -26751,8 +26816,8 @@
   },
   {
     "id": "counter_attacks_minimum_added_physical_damage counter_attacks_maximum_added_physical_damage",
-    "zh": "反击附加 {0} - {1} 基础物理伤害",
-    "en": "Adds {0} to {1} Physical Damage to Counterattacks"
+    "zh": "反击技能附加 {0}-{1} 物理伤害",
+    "en": "Adds {0} to {1} Physical Damage to Retaliation Skills"
   },
   {
     "id": "golem_damage_+%_per_active_golem_type",
@@ -26796,8 +26861,8 @@
   },
   {
     "id": "counter_attacks_minimum_added_cold_damage counter_attacks_maximum_added_cold_damage",
-    "zh": "反击附加 {0} - {1} 基础冰霜伤害",
-    "en": "Adds {0} to {1} Cold Damage to Counterattacks"
+    "zh": "反击技能附加 {0}-{1} 冰霜伤害",
+    "en": "Adds {0} to {1} Cold Damage to Retaliation Skills"
   },
   {
     "id": "movement_speed_+%_if_pierced_recently",
@@ -28360,6 +28425,16 @@
     "en": "{0}% to all Elemental Resistances for each Empty White Socket on any Equipped Item"
   },
   {
+    "id": "display_ailment_bearer_charge_interval",
+    "zh": "击中对敌人造成元素异常状态时，获得 1 点不羁狂怒，每种异常状态类型每 0.2 秒只能触发一次\n不羁期间无法获得不羁狂怒",
+    "en": "Gain 1 Unbound Fury when you inflict an Elemental Ailment with a Hit on an Enemy, no more than once every 0.2 seconds for each type of Ailment\nCannot gain Unbound Fury while Unbound"
+  },
+  {
+    "id": "local_unique_can_be_runesmith_enchanted",
+    "zh": "可以被卡古兰符文匠附魔",
+    "en": "Can be Enchanted by a Kalguuran Runesmith"
+  },
+  {
     "id": "chill_minimum_slow_%",
     "zh": "你击中造成的冰缓效果始终使行动速度降低至少 {0}%",
     "en": "Chills from your Hits always reduce Action Speed by at least {0}%"
@@ -28458,6 +28533,16 @@
     "id": "accuracy_rating_+%_final_vs_unique_enemies_from_mastery",
     "zh": "对传奇敌人的命中值总降 {0}%",
     "en": "{0}% less Accuracy Rating against Unique Enemies"
+  },
+  {
+    "id": "gladiator_accuracy_rating_+%_final_while_wielding_sword",
+    "zh": "装备剑类武器时，命中值总增 {0}%",
+    "en": "{0}% more Accuracy Rating while wielding a Sword"
+  },
+  {
+    "id": "gladiator_accuracy_rating_+%_final_while_wielding_sword",
+    "zh": "装备剑类武器时，命中值总降 {0}%",
+    "en": "{0}% less Accuracy Rating while wielding a Sword"
   },
   {
     "id": "accuracy_rating_against_marked_enemies_+%_final_from_crucible_tree",
@@ -28930,6 +29015,46 @@
     "en": "Increases and Reductions to Minion Damage also affect you at 150% of their value"
   },
   {
+    "id": "aggravate_bleeding_older_than_ms_on_hit",
+    "zh": "攻击击中会使目标身上已消减 1 秒的流血效果变为恶性",
+    "en": "Attack Hits Aggravate any Bleeding on targets which is older than 1 second"
+  },
+  {
+    "id": "aggravate_bleeding_older_than_ms_on_hit",
+    "zh": "攻击击中会使目标身上已消减 {0} 秒的流血效果变为恶性",
+    "en": "Attack Hits Aggravate any Bleeding on targets which is older than {0} seconds"
+  },
+  {
+    "id": "aggravate_bleeding_on_attack_crit_chance_%",
+    "zh": "攻击暴击有 {0}% 的几率使目标身上的流血效果变为恶性",
+    "en": "{0}% chance to Aggravate Bleeding on targets you Critically Strike with Attacks"
+  },
+  {
+    "id": "base_aggravate_bleeding_on_attack_hit_chance_%",
+    "zh": "攻击击中有 {0}% 的几率使目标身上的流血效果变为恶性",
+    "en": "{0}% chance to Aggravate Bleeding on targets you Hit with Attacks"
+  },
+  {
+    "id": "aggravate_bleeding_on_attack_knockback_chance_%",
+    "zh": "攻击击中造成击退有 {0}% 的几率使目标身上的流血效果变为恶性",
+    "en": "{0}% chance to Aggravate Bleeding on targets you Knockback with Attacks Hits"
+  },
+  {
+    "id": "aggravate_bleeding_on_attack_stun_chance_%",
+    "zh": "攻击击中造成晕眩有 {0}% 的几率使目标身上的流血效果变为恶性",
+    "en": "{0}% chance to Aggravate Bleeding on targets you Stun with Attacks Hits"
+  },
+  {
+    "id": "aggravate_bleeding_on_exerted_attack_hit_chance_%",
+    "zh": "增助攻击的击中有 {0}% 的几率使目标身上的流血效果变为恶性",
+    "en": "{0}% chance to Aggravate Bleeding on targets you Hit with Exerted Attacks"
+  },
+  {
+    "id": "aggravate_inflicted_bleeding",
+    "zh": "你造成的流血为恶性",
+    "en": "Bleeding you inflict is Aggravated"
+  },
+  {
     "id": "agony_crawler_damage_+%",
     "zh": "【苦痛爬行者】的伤害提高 {0}%",
     "en": "Agony Crawler deals {0}% increased Damage"
@@ -28938,6 +29063,46 @@
     "id": "agony_crawler_damage_+%",
     "zh": "【苦痛爬行者】的伤害降低 {0}%",
     "en": "Agony Crawler deals {0}% reduced Damage"
+  },
+  {
+    "id": "ailment_bearer_all_damage_can_inflict_elemental_ailments",
+    "zh": "不羁期间，所有伤害可以造成所有元素异常状态",
+    "en": "All Damage can inflict all Elemental Ailments while Unbound"
+  },
+  {
+    "id": "ailment_bearer_always_freeze_shock_ignite",
+    "zh": "不羁期间，你的击中始终造成冻结、感电和点燃",
+    "en": "Your Hits always inflict Freeze, Shock and Ignite while Unbound"
+  },
+  {
+    "id": "ailment_bearer_elemental_damage_+%_final",
+    "zh": "不羁期间，元素伤害总增 {0}%",
+    "en": "{0}% more Elemental Damage while Unbound"
+  },
+  {
+    "id": "ailment_bearer_elemental_damage_+%_final",
+    "zh": "不羁期间，元素伤害总降 {0}%",
+    "en": "{0}% less Elemental Damage while Unbound"
+  },
+  {
+    "id": "ailment_bearer_ignite_freeze_shock_duration_+%",
+    "zh": "不羁期间，冻结、感电和点燃持续时间延长 {0}%",
+    "en": "{0}% increased Freeze, Shock and Ignite duration while Unbound"
+  },
+  {
+    "id": "ailment_bearer_ignite_freeze_shock_duration_+%",
+    "zh": "不羁期间，冻结、感电和点燃持续时间缩短 {0}%",
+    "en": "{0}% reduced Freeze, Shock and Ignite duration while Unbound"
+  },
+  {
+    "id": "ailment_bearer_scorch_effect_+%",
+    "zh": "不羁期间，烧灼效果提高 {0}%",
+    "en": "{0}% increased Effect of Scorch while Unbound"
+  },
+  {
+    "id": "ailment_bearer_scorch_effect_+%",
+    "zh": "不羁期间，烧灼效果降低 {0}%",
+    "en": "{0}% reduced Effect of Scorch while Unbound"
   },
   {
     "id": "alchemists_mark_curse_effect_+%",
@@ -29320,6 +29485,11 @@
     "en": "{0}% chance when you inflict Withered to inflict up to 15 Withered Debuffs instead"
   },
   {
+    "id": "apply_scorch_instead_of_ignite",
+    "zh": "击中造成的点燃改为造成烧灼",
+    "en": "Hits that would Ignite instead Scorch"
+  },
+  {
     "id": "arc_and_crackling_lance_added_cold_damage_%_mana_cost_if_payable",
     "zh": "如果魔力消耗不高于你能够消耗的最大值，电弧和电殛长枪附加相当于魔力消耗 {0}% 的冰霜伤害",
     "en": "Arc and Crackling Lance gains Added Cold Damage equal to {0}% of Mana Cost, if Mana Cost is not higher than the maximum you could spend"
@@ -29358,6 +29528,16 @@
     "id": "arcane_surge_effect_+%_while_affected_by_clarity",
     "zh": "受到清晰光环影响时，你的秘术增强效果降低{0}%",
     "en": "{0}% reduced Effect of Arcane Surge on you while affected by Clarity"
+  },
+  {
+    "id": "arcane_surge_effect_+%_per_active_totem",
+    "zh": "每召唤一个图腾，你受到的秘术增强效果提高 {0}%",
+    "en": "{0}% increased effect of Arcane Surge on you per Summoned Totem"
+  },
+  {
+    "id": "arcane_surge_effect_+%_per_active_totem",
+    "zh": "每召唤一个图腾，你受到的秘术增强效果降低 {0}%",
+    "en": "{0}% reduced effect of Arcane Surge on you per Summoned Totem"
   },
   {
     "id": "arcane_surge_on_you_spell_damage_+%_final_from_hierophant",
@@ -29458,6 +29638,16 @@
     "id": "area_damage_+%_per_12_strength",
     "zh": "每 12 点力量可使范围伤害降低 {0}%",
     "en": "{0}% reduced Area Damage per 12 Strength"
+  },
+  {
+    "id": "gladiator_area_of_effect_+%_final_while_wielding_mace",
+    "zh": "装备锤或短杖时，效果范围总增 {0}%",
+    "en": "{0}% more Area of Effect while wielding a Mace or Sceptre"
+  },
+  {
+    "id": "gladiator_area_of_effect_+%_final_while_wielding_mace",
+    "zh": "装备锤或短杖时，效果范围总降 {0}%",
+    "en": "{0}% less Area of Effect while wielding a Mace or Sceptre"
   },
   {
     "id": "area_of_effect_+%_if_below_100_intelligence",
@@ -29725,6 +29915,16 @@
     "en": "{0}% reduced Armour if you haven't been Hit Recently"
   },
   {
+    "id": "armour_+%_per_retaliation_used_in_past_10_seconds",
+    "zh": "你在过去 10 秒内每使用过一个不同的反击技能，护甲提高 {0}%",
+    "en": "{0}% increased Armour for each different Retaliation Skill you've used in the past 10 seconds"
+  },
+  {
+    "id": "armour_+%_per_retaliation_used_in_past_10_seconds",
+    "zh": "你在过去 10 秒内每使用过一个不同的反击技能，护甲降低 {0}%",
+    "en": "{0}% reduced Armour for each different Retaliation Skill you've used in the past 10 seconds"
+  },
+  {
     "id": "armour_+_per_10_unreserved_max_mana",
     "zh": "每10个未保留魔力上限带来 {0} 护甲",
     "en": "{0} Armour per 10 Unreserved Maximum Mana"
@@ -29833,6 +30033,11 @@
     "id": "armour_+%_per_50_str",
     "zh": "每 50 点力量都使护甲降低 {0}%",
     "en": "{0}% reduced Armour per 50 Strength"
+  },
+  {
+    "id": "armour_+%_per_rage",
+    "zh": "每一点怒火还会使护甲提高 {0}",
+    "en": "Every Rage also grants {0}% increased Armour"
   },
   {
     "id": "armour_+%_per_red_socket_on_main_hand_weapon",
@@ -30415,6 +30620,16 @@
     "en": "Attack Hits against Blinded Enemies have {0}% chance to Maim"
   },
   {
+    "id": "attack_cost_+%_if_you_have_at_least_20_rage",
+    "zh": "拥有至少 20 点怒火时，攻击的消耗提高 {0}%",
+    "en": "{0}% increased Cost of Attacks while you have at least 20 Rage"
+  },
+  {
+    "id": "attack_cost_+%_if_you_have_at_least_20_rage",
+    "zh": "拥有至少 20 点怒火时，攻击的消耗降低 {0}%",
+    "en": "{0}% reduced Cost of Attacks while you have at least 20 Rage"
+  },
+  {
     "id": "attack_critical_strike_chance_+%",
     "zh": "攻击暴击率提高 {0}%",
     "en": "{0}% increased Critical Strike Chance for Attacks"
@@ -30655,6 +30870,21 @@
     "en": "Attacks with this Weapon deal {0} to {1} added Physical Damage to Ignited Enemies"
   },
   {
+    "id": "attack_physical_damage_%_to_convert_to_cold",
+    "zh": "攻击物理伤害的 {0}% 转化为冰霜伤害",
+    "en": "{0}% of Attack Physical Damage Converted to Cold Damage"
+  },
+  {
+    "id": "attack_physical_damage_%_to_convert_to_fire",
+    "zh": "攻击物理伤害的 {0}% 转化为火焰伤害",
+    "en": "{0}% of Attack Physical Damage Converted to Fire Damage"
+  },
+  {
+    "id": "attack_physical_damage_%_to_convert_to_lightning",
+    "zh": "攻击物理伤害的 {0}% 转化为闪电伤害",
+    "en": "{0}% of Attack Physical Damage Converted to Lightning Damage"
+  },
+  {
     "id": "attack_projectiles_fork",
     "zh": "来自攻击的投射物会分叉",
     "en": "Projectiles from Attacks Fork"
@@ -30845,6 +31075,11 @@
     "en": "{0}% increased Attack Speed per 25 Dexterity"
   },
   {
+    "id": "attack_speed_+%_per_rage",
+    "zh": "每一点怒火还会使攻击速度加快 {0}%",
+    "en": "Every Rage also grants {0}% increased Attack Speed"
+  },
+  {
     "id": "attack_speed_+%_while_affected_by_precision",
     "zh": "受到【精准】影响时，攻击速度加快 {0}%",
     "en": "{0}% increased Attack Speed while affected by Precision"
@@ -30978,6 +31213,16 @@
     "id": "attacks_intimidate_on_hit_%",
     "zh": "攻击击中时威吓敌人 4 秒",
     "en": "Intimidate Enemies for 4 seconds on Hit with Attacks"
+  },
+  {
+    "id": "attacks_with_this_weapon_maximum_es_%_to_add_as_cold_damage",
+    "zh": "该武器的攻击附加相当于能量护盾上限 {0}% 的冰霜伤害",
+    "en": "Adds {0}% of your Maximum Energy Shield as Cold Damage to Attacks with this Weapon"
+  },
+  {
+    "id": "attacks_with_this_weapon_maximum_mana_%_to_add_as_fire_damage",
+    "zh": "该武器的攻击附加相当于魔力上限 {0}% 的火焰伤害",
+    "en": "Adds {0}% of your Maximum Mana as Fire Damage to Attacks with this Weapon"
   },
   {
     "id": "attacks_with_this_weapon_minimum_added_chaos_damage_per_10_of_your_lowest_attribute attacks_with_this_weapon_maximum_added_chaos_damage_per_10_of_your_lowest_attribute",
@@ -31200,29 +31445,74 @@
     "en": "Ball Lightning fires {0} additional Projectiles"
   },
   {
-    "id": "add_1_stage_to_banners_on_melee_hit_up_to_5_per_second",
-    "zh": "每次近战击中可以让你携带的旗帜获得 1 层效果，每秒最多 5 层",
-    "en": "Banners you are carrying gain 1 Stage on Melee Hit, up to 5 per second"
+    "id": "banner_affected_enemies_damage_taken_+%",
+    "zh": "旗帜周围的敌人受到的伤害提高 {0}%",
+    "en": "Enemies near your Banner take {0}% increased Damage"
   },
   {
-    "id": "banner_adrenaline_duration_+%",
-    "zh": "【战旗】的【肾上腺素】持续时间延长 {0}%",
-    "en": "War Banner has {0}% increased Adrenaline duration"
+    "id": "banner_affected_enemies_damage_taken_+%",
+    "zh": "旗帜周围的敌人受到的伤害降低 {0}%",
+    "en": "Enemies near your Banner take {0}% reduced Damage"
   },
   {
-    "id": "banner_adrenaline_duration_+%",
-    "zh": "【战旗】的【肾上腺素】持续时间缩短 {0}%",
-    "en": "War Banner has {0}% reduced Adrenaline duration"
+    "id": "banner_affected_enemies_explode_for_10%_life_as_physical_on_kill_chance_%",
+    "zh": "旗帜周围被击败的敌人有 {0}% 的几率爆炸，造成其生命十分之一的物理伤害",
+    "en": "Enemies Killed near your Banner have {0}% chance to Explode, dealing a tenth of their Life as Physical Damage"
   },
   {
-    "id": "banner_fortify_duration_+%",
-    "zh": "恐怖之旗的护体持续时间提高 {0}%",
-    "en": "Dread Banner has {0}% increased Fortification duration"
+    "id": "banner_affected_enemies_maimed",
+    "zh": "旗帜周围的敌人被瘫痪",
+    "en": "Enemies near your Banner are Maimed"
   },
   {
-    "id": "banner_fortify_duration_+%",
-    "zh": "恐怖之旗的护体持续时间降低 {0}%",
-    "en": "Dread Banner has {0}% reduced Fortification duration"
+    "id": "banner_area_of_effect_+%",
+    "zh": "旗帜技能的效果范围扩大 {0}%",
+    "en": "Banner Skills have {0}% increased Area of Effect"
+  },
+  {
+    "id": "banner_area_of_effect_+%",
+    "zh": "旗帜技能的效果范围缩小 {0}%",
+    "en": "Banner Skills have {0}% reduced Area of Effect"
+  },
+  {
+    "id": "banner_buff_lingers_for_X_seconds_after_leaving_area",
+    "zh": "离开效果范围后，旗帜增益在你身上持续 {0} 秒",
+    "en": "Banner Buffs Linger on you for {0} seconds after you leave the Area"
+  },
+  {
+    "id": "banner_duration_+%",
+    "zh": "旗帜技能的持续时间延长 {0}%",
+    "en": "Banner Skills have {0}% increased Duration"
+  },
+  {
+    "id": "banner_duration_+%",
+    "zh": "旗帜技能的持续时间缩短 {0}%",
+    "en": "Banner Skills have {0}% reduced Duration"
+  },
+  {
+    "id": "banner_gain_X_endurance_charges_when_placed_with_max_resources",
+    "zh": "为放置旗帜消耗最大胆魄时，获得 1 个耐力球",
+    "en": "Gain 1 Endurance Charge when you consume maximum Valour to place a Banner"
+  },
+  {
+    "id": "banner_gain_X_endurance_charges_when_placed_with_max_resources",
+    "zh": "为放置旗帜消耗最大胆魄时，获得 {0} 个耐力球",
+    "en": "Gain {0} Endurance Charges when you consume maximum Valour to place a Banner"
+  },
+  {
+    "id": "banner_gain_X_frenzy_charges_when_placed_with_max_resources",
+    "zh": "为放置旗帜消耗最大胆魄时，获得 1 个狂怒球",
+    "en": "Gain 1 Frenzy Charge when you consume maximum Valour to place a Banner"
+  },
+  {
+    "id": "banner_gain_X_frenzy_charges_when_placed_with_max_resources",
+    "zh": "为放置旗帜消耗最大胆魄时，获得 {0} 个狂怒球",
+    "en": "Gain {0} Frenzy Charges when you consume maximum Valour to place a Banner"
+  },
+  {
+    "id": "banner_gain_X_resources_on_warcry",
+    "zh": "战吼时如果可能，获得 {0} 点胆魄",
+    "en": "Gain {0} Valour when you Warcry, if able"
   },
   {
     "id": "banner_mana_reservation_+%",
@@ -31233,6 +31523,36 @@
     "id": "banner_mana_reservation_+%",
     "zh": "旗帜技能的保留效果降低 {0}%",
     "en": "{0}% reduced Reservation of Banner Skills"
+  },
+  {
+    "id": "banner_recover_X%_life_when_placed_per_5_resources",
+    "zh": "放置旗帜时，每消耗 5 点胆魄便恢复 {0}% 的生命",
+    "en": "Recover {0}% of Life per 5 Valour consumed to place a Banner"
+  },
+  {
+    "id": "banner_remove_random_ailment_when_placed_with_X_resources",
+    "zh": "为放置旗帜消耗至少 {0} 点胆魄时，为你移除一个随机异常状态",
+    "en": "Remove a random Ailment on you when you consume at least {0} Valour to place a Banner"
+  },
+  {
+    "id": "banner_resist_all_elements_%",
+    "zh": "旗帜使你和友军的所有元素抗性 {0}%",
+    "en": "Banners also grant {0}% to all Elemental Resistances to you and Allies"
+  },
+  {
+    "id": "banner_resource_gained_+%",
+    "zh": "获得的胆魄提高 {0}%",
+    "en": "{0}% increased Valour gained"
+  },
+  {
+    "id": "banner_resource_gained_+%",
+    "zh": "获得的胆魄降低 {0}%",
+    "en": "{0}% reduced Valour gained"
+  },
+  {
+    "id": "banner_resource_maximum_+",
+    "zh": "胆魄上限 {0}",
+    "en": "{0} to maximum Valour"
   },
   {
     "id": "banner_skills_mana_reservation_efficiency_-2%_per_1",
@@ -31258,16 +31578,6 @@
     "id": "banner_skills_reserve_no_mana",
     "zh": "旗帜技能没有保留效果",
     "en": "Banner Skills have no Reservation"
-  },
-  {
-    "id": "banner_taunt_duration_+%",
-    "zh": "抗争之旗的嘲讽持续时间延长 {0}%",
-    "en": "Defiance Banner has {0}% increased Taunt duration"
-  },
-  {
-    "id": "banner_taunt_duration_+%",
-    "zh": "抗争之旗的嘲讽持续时间缩短 {0}%",
-    "en": "Defiance Banner has {0}% reduced Taunt duration"
   },
   {
     "id": "barrage_and_frenzy_critical_strike_chance_+%_per_endurance_charge",
@@ -31363,6 +31673,16 @@
     "id": "base_bleed_duration_+%",
     "zh": "流血持续时间缩短 {0}%",
     "en": "{0}% reduced Bleeding Duration"
+  },
+  {
+    "id": "base_block_luck",
+    "zh": "格挡几率特别幸运",
+    "en": "Chance to Block is Lucky"
+  },
+  {
+    "id": "base_block_luck",
+    "zh": "格挡几率特别不幸",
+    "en": "Chance to Block is Unlucky"
   },
   {
     "id": "base_block_%_damage_taken",
@@ -31688,6 +32008,16 @@
     "id": "base_spell_projectile_block_%",
     "zh": "{0}% 的几率格挡投射物法术伤害",
     "en": "{0}% chance to Block Projectile Spell Damage"
+  },
+  {
+    "id": "base_tincture_mod_effect_+%",
+    "zh": "对你生效的酊剂效果提高 {0}%",
+    "en": "Tinctures applied to you have {0}% increased Effect"
+  },
+  {
+    "id": "base_tincture_mod_effect_+%",
+    "zh": "对你生效的酊剂效果降低 {0}%",
+    "en": "Tinctures applied to you have {0}% reduced Effect"
   },
   {
     "id": "base_total_number_of_sigils_allowed",
@@ -32071,8 +32401,8 @@
   },
   {
     "id": "bleed_dot_multiplier_+_per_rage_if_equipped_axe",
-    "zh": "持握斧类时，每点【怒火】都使【流血】 {0}% 持续伤害加成",
-    "en": "{0}% to Damage over Time Multiplier for Bleeding per Rage while wielding an Axe"
+    "zh": "装备斧类武器时，每一点怒火还会使流血的持续伤害加成 {0}%",
+    "en": "Each Rage also grants {0}% to Damage over Time Multiplier for Bleeding while wielding an Axe"
   },
   {
     "id": "bleeding_damage_+%_vs_maimed_enemies",
@@ -33116,8 +33446,8 @@
   },
   {
     "id": "block_chance_from_equipped_shield_is_%",
-    "zh": "装备盾牌时基础格挡几率为 {0}%，不使用盾牌的数值",
-    "en": "Gain {0}% Base Chance to Block from Equipped Shield instead of the Shield's value"
+    "zh": "装备盾牌的格挡几率为 {0}%，不使用盾牌的数值",
+    "en": "Gain {0}% Chance to Block from Equipped Shield instead of the Shield's value"
   },
   {
     "id": "block_%_damage_taken_from_elemental",
@@ -33485,6 +33815,16 @@
     "en": "{0}% reduced Burning Damage for each time you have Shocked a Non-Shocked Enemy Recently, up to a maximum of 120%"
   },
   {
+    "id": "can_apply_additional_scorch",
+    "zh": "你可以对敌人额外施加一层烧灼",
+    "en": "You can inflict an additional Scorch on each Enemy"
+  },
+  {
+    "id": "can_apply_additional_tincture",
+    "zh": "你可以额外激活一种酊剂",
+    "en": "You can have an additional Tincture active"
+  },
+  {
     "id": "can_catch_scourged_fish",
     "zh": "你可以捕获天灾鱼种",
     "en": "You can catch Scourged Fish"
@@ -33495,19 +33835,9 @@
     "en": "Maximum 1 Buff from an Active Ancestor Totem at a time"
   },
   {
-    "id": "can_see_corpse_types",
-    "zh": "敌人会显示怪物类型",
-    "en": "Enemies display their Monster Category"
-  },
-  {
     "id": "can_trigger_summon_elemental_relic_on_nearby_ally_kill_or_on_hit_rare_or_unique",
     "zh": "你或周围友军击败敌人时，或击中稀有或传奇敌人时，有 25% 的几率触发 20 级的召唤元素遗物",
     "en": "25% chance to Trigger Level 20 Summon Elemental Relic when you or a nearby Ally Kill an Enemy, or Hit a Rare or Unique Enemy"
-  },
-  {
-    "id": "can_use_tinctures",
-    "zh": "可以对你装备的武器施加酊剂。",
-    "en": "Can apply Tinctures to your Equipped Weapons"
   },
   {
     "id": "cannot_adapt_to_cold",
@@ -33733,6 +34063,11 @@
     "id": "cannot_gain_damaging_ailments",
     "zh": "无法对你造成伤害异常状态",
     "en": "Damaging Ailments cannot be inflicted on you"
+  },
+  {
+    "id": "cannot_gain_power_charges",
+    "zh": "无法获得暴击球",
+    "en": "Cannot gain Power Charges"
   },
   {
     "id": "cannot_gain_rage_during_soul_gain_prevention",
@@ -34031,8 +34366,8 @@
   },
   {
     "id": "chain_strike_gain_rage_on_hit_%_chance",
-    "zh": "钩链攻击有 {0}% 的几率在击中敌人后获得怒火 +1",
-    "en": "Chain Hook has a {0}% chance to grant +1 Rage if it Hits Enemies"
+    "zh": "钩链攻击击中敌人时产生 1 点怒火",
+    "en": "Chain Hook grants 1 Rage if it Hits Enemies"
   },
   {
     "id": "chaining_range_+%",
@@ -34090,6 +34425,11 @@
     "en": "+{0}% Chance to Block Attack Damage if you've Stunned an Enemy Recently"
   },
   {
+    "id": "chance_to_block_attack_damage_if_used_retaliation_recently_%",
+    "zh": "若你近期使用过反击技能，有 {0}% 的几率格挡攻击伤害",
+    "en": "{0}% chance to Block Attack Damage if you've used a Retaliation Skill Recently"
+  },
+  {
     "id": "chance_to_block_attack_damage_per_5%_chance_to_block_on_equipped_shield_+%",
     "zh": "攻击伤害格挡率按照已装备的盾牌上每 5% 的格挡率 +{0}%",
     "en": "+{0}% Chance to Block Attack Damage per 5% Chance to Block on Equipped Shield"
@@ -34098,6 +34438,11 @@
     "id": "chance_to_block_attacks_%_while_channelling",
     "zh": "持续吟唱时，{0}% 攻击伤害格挡几率",
     "en": "{0}% Chance to Block Attack Damage while Channelling"
+  },
+  {
+    "id": "chance_to_block_spells_%_if_used_retaliation_recently",
+    "zh": "若你近期使用过反击技能，有 {0}% 的几率格挡法术伤害",
+    "en": "{0}% chance to Block Spell Damage if you've used a Retaliation Skill Recently"
   },
   {
     "id": "chance_to_block_spells_%_if_cast_a_spell_recently",
@@ -34171,8 +34516,8 @@
   },
   {
     "id": "chance_to_deal_double_damage_%_per_4_rage",
-    "zh": "每 4 点怒火有 {0}% 的几率造成双倍伤害",
-    "en": "{0}% chance to deal Double Damage per 4 Rage"
+    "zh": "每 4 点怒火还会提供 {0}% 的几率造成双倍伤害",
+    "en": "Each 4 Rage also grants {0}% chance to deal Double Damage"
   },
   {
     "id": "chance_to_deal_double_damage_%_per_500_strength",
@@ -34213,6 +34558,11 @@
     "id": "chance_to_double_armour_effect_on_hit_%",
     "zh": "护甲值有 {0}% 的几率以 200% 进行防御",
     "en": "{0}% chance to Defend with 200% of Armour"
+  },
+  {
+    "id": "chance_to_double_armour_effect_on_hit_%_per_enemy_hit_taken_recently_capped",
+    "zh": "近期每受到一次敌人的击中，就有 {0}% 的几率\n以双倍的护甲防御，最多 30%",
+    "en": "{0}% chance to Defend with double your Armour for each\ntime you've been Hit by an Enemy Recently, up to 30%"
   },
   {
     "id": "chance_to_evade_attacks_%",
@@ -34495,9 +34845,19 @@
     "en": "Skills that leave Lingering Blades have {0}% chance to leave two Lingering Blades instead of one"
   },
   {
+    "id": "chance_to_not_gain_tincture_toxicity_%",
+    "zh": "酊剂有 {0}% 的几率不造成魔力燃烧",
+    "en": "{0}% chance for Tinctures to not inflict Mana Burn"
+  },
+  {
     "id": "chance_to_poison_on_hit_%_per_power_charge",
     "zh": "每拥有 1 个暴击球，有 {0}% 的几率造成中毒",
     "en": "{0}% chance to Poison per Power Charge"
+  },
+  {
+    "id": "chance_to_remove_1_tincture_toxicity_on_kill_%",
+    "zh": "击败敌人时有 {0}% 的几率移除 1 层魔力燃烧",
+    "en": "{0}% chance to remove 1 Mana Burn on Kill"
   },
   {
     "id": "chance_to_sap_%_vs_enemies_in_chilling_areas",
@@ -34573,6 +34933,16 @@
     "id": "chaos_damage_does_not_bypass_energy_shield_while_not_low_life",
     "zh": "未处于濒血状态时，受到的混沌伤害无法忽略能量护盾",
     "en": "Chaos Damage taken does not bypass Energy Shield while not on Low Life"
+  },
+  {
+    "id": "extra_chaos_damage_rolls",
+    "zh": "击中的混沌伤害特别幸运",
+    "en": "Chaos Damage with Hits is Lucky"
+  },
+  {
+    "id": "extra_chaos_damage_rolls",
+    "zh": "击中的混沌伤害特别不幸",
+    "en": "Chaos Damage with Hits is Unlucky"
   },
   {
     "id": "chaos_damage_over_time_heals_while_leeching_life",
@@ -35350,6 +35720,16 @@
     "en": "{0}% reduced Consecrated Ground Area"
   },
   {
+    "id": "consecrated_ground_damaging_ailment_duration_on_self_+%",
+    "zh": "你创造的奉献地面还会使你受到的\n伤害性异常状态的持续时间缩短 {0}%",
+    "en": "Consecrated Ground you create also grants\n{0}% reduced duration of Damaging Ailments on you"
+  },
+  {
+    "id": "consecrated_ground_damaging_ailment_duration_on_self_+%",
+    "zh": "你创造的奉献地面还会使你受到的\n伤害性异常状态的持续时间延长 {0}%",
+    "en": "Consecrated Ground you create also grants\n{0}% increased duration of Damaging Ailments on you"
+  },
+  {
     "id": "consecrated_ground_effect_+%",
     "zh": "你产生的奉献地面效果提高 {0}%",
     "en": "{0}% increased Effect of Consecrated Ground you create"
@@ -35636,28 +36016,28 @@
   },
   {
     "id": "counterattacks_cooldown_recovery_+%",
-    "zh": "你的反击的冷却回复率提高 {0}%",
-    "en": "Your Counterattacks have {0}% increased Cooldown Recovery Rate"
+    "zh": "反击技能的冷却回复速度提高 {0}%",
+    "en": "Retaliation Skills have {0}% increased Cooldown Recovery Rate"
   },
   {
     "id": "counterattacks_cooldown_recovery_+%",
-    "zh": "你的反击的冷却回复率降低 {0}%",
-    "en": "Your Counterattacks have {0}% reduced Cooldown Recovery Rate"
+    "zh": "反击技能的冷却回复速度降低 {0}%",
+    "en": "Retaliation Skills have {0}% reduced Cooldown Recovery Rate"
   },
   {
     "id": "counterattacks_deal_double_damage",
-    "zh": "你的反击造成双倍伤害",
-    "en": "Your Counterattacks deal Double Damage"
+    "zh": "反击攻击造成双倍伤害",
+    "en": "Retaliation Attacks deal Double Damage"
   },
   {
     "id": "counterattacks_debilitate_for_1_second_on_hit_%_chance",
-    "zh": "反击击中时疲惫敌人 1 秒",
-    "en": "Counterattacks Debilitate Enemies for 1 second on Hit"
+    "zh": "反击技能击中时使敌人疲惫 1 秒",
+    "en": "Retaliation Skills Debilitate Enemies for 1 second on Hit"
   },
   {
     "id": "counterattacks_debilitate_for_1_second_on_hit_%_chance",
-    "zh": "反击击中时有 {0}% 的几率疲惫敌人 1 秒",
-    "en": "Counterattacks have a {0}% chance to Debilitate on Hit for 1 second"
+    "zh": "反击技能击中时有 {0}% 的几率使敌人疲惫 1 秒",
+    "en": "Retaliation Skills have a {0}% chance to Debilitate on Hit for 1 second"
   },
   {
     "id": "cover_in_ash_for_x_seconds_when_igniting_enemy",
@@ -35687,6 +36067,16 @@
   {
     "id": "cover_in_frost_on_hit",
     "zh": "击中时使敌人被冰霜缠身",
+    "en": "Cover Enemies in Frost on Hit"
+  },
+  {
+    "id": "cover_in_frost_on_hit_%",
+    "zh": "击中时有 {0}% 的几率使敌人冰霜缠身",
+    "en": "{0}% chance to Cover Enemies in Frost on Hit"
+  },
+  {
+    "id": "cover_in_frost_on_hit_%",
+    "zh": "击中时使敌人冰霜缠身",
     "en": "Cover Enemies in Frost on Hit"
   },
   {
@@ -35748,6 +36138,11 @@
     "id": "create_enemy_meteor_daemon_on_flask_use_%_chance",
     "zh": "你使用药剂时被流星锁定",
     "en": "Targeted by a Meteor when you use a Flask"
+  },
+  {
+    "id": "create_fungal_ground_instead_of_consecrated_ground",
+    "zh": "产生真菌地表，而非奉献地面",
+    "en": "Create Fungal Ground instead of Consecrated Ground"
   },
   {
     "id": "display_herald_of_thunder_storm create_herald_of_thunder_storm_on_shocking_enemy",
@@ -36268,11 +36663,6 @@
     "id": "critical_strikes_penetrates_%_elemental_resistances_while_affected_by_zealotry",
     "zh": "受【奋锐光环】影响时，暴击穿透敌人 {0}% 的元素抗性",
     "en": "Critical Strikes Penetrate {0}% of Enemy Elemental Resistances while affected by Zealotry"
-  },
-  {
-    "id": "critical_strikes_that_inflict_bleeding_also_rupture",
-    "zh": "施加流血的暴击同样施加残破效果",
-    "en": "Critical Strikes which inflict Bleeding also inflict Rupture"
   },
   {
     "id": "critical_support_gem_level_+",
@@ -37160,6 +37550,16 @@
     "en": "{0}% of Damage from Hits is taken from your nearest Totem's Life before you"
   },
   {
+    "id": "damage_taken_+%_final_if_used_retaliation_recently",
+    "zh": "若你近期使用过反击技能，受到的伤害总增 {0}%",
+    "en": "{0}% more Damage taken if you've used a Retaliation Skill Recently"
+  },
+  {
+    "id": "damage_taken_+%_final_if_used_retaliation_recently",
+    "zh": "若你近期使用过反击技能，受到的伤害总降 {0}%",
+    "en": "{0}% less Damage taken if you've used a Retaliation Skill Recently"
+  },
+  {
     "id": "damage_taken_+%_for_4_seconds_after_spending_200_mana",
     "zh": "消耗总计 200 魔力后，在 4 秒内受到的伤害提高 {0}%",
     "en": "{0}% increased Damage Taken for 4 seconds after Spending a total of 200 Mana"
@@ -37188,6 +37588,11 @@
     "id": "damage_taken_+%_while_affected_by_elusive",
     "zh": "受到的伤害在灵巧状态下降低 {0}%",
     "en": "{0}% reduced Damage taken while Elusive"
+  },
+  {
+    "id": "damage_taken_+_from_suppressed_hits",
+    "zh": "受到的被压制击中的每一种类型的伤害 {0}",
+    "en": "{0} Damage taken of each Damage Type from Suppressed Hits"
   },
   {
     "id": "damage_taken_from_suppressed_hits_is_unlucky",
@@ -37420,6 +37825,16 @@
     "en": "{0}% reduced Size of Fish caught during Daytime"
   },
   {
+    "id": "deadeye_accuracy_rating_+%_final_per_frenzy_charge",
+    "zh": "每个狂怒球使命中值总增 {0}%",
+    "en": "{0}% more Accuracy Rating per Frenzy Charge"
+  },
+  {
+    "id": "deadeye_accuracy_rating_+%_final_per_frenzy_charge",
+    "zh": "每个狂怒球使命中值总降 {0}%",
+    "en": "{0}% less Accuracy Rating per Frenzy Charge"
+  },
+  {
     "id": "deadeye_damage_taken_+%_final_from_marked_enemy",
     "zh": "受到被标记敌人的伤害总增 {0}%",
     "en": "{0}% more Damage taken from Marked Enemy"
@@ -37431,8 +37846,8 @@
   },
   {
     "id": "deadeye_projectile_damage_+%_final_max_as_distance_travelled_increases",
-    "zh": "投射物的伤害随穿越的距离而提高，对目标造成的伤害总增最多 {0}%",
-    "en": "Projectiles gain Damage as they travel farther, dealing up to {0}% more Damage to targets"
+    "zh": "投射物的伤害随穿越的距离而提高，\n造成的击中和异常状态伤害最多提高 {0}%",
+    "en": "Projectiles gain Damage as they travel farther, dealing up\nto {0}% more Damage with Hits and Ailments"
   },
   {
     "id": "deal_1000_chaos_damage_per_second_for_10_seconds_on_hit",
@@ -38110,16 +38525,6 @@
     "en": "Dread Banner has {0}% reduced Aura Effect"
   },
   {
-    "id": "dread_banner_grants_an_additional_x_to_maximum_fortification_when_placing_the_banner",
-    "zh": "恐怖之旗在放置时使护体上限额外 +{0}",
-    "en": "Dread Banner grants an additional +{0} to maximum Fortification when placing the Banner"
-  },
-  {
-    "id": "dread_banner_grants_an_additional_x_to_maximum_fortification_when_placing_the_banner_div_50",
-    "zh": "恐怖之旗在放置时使护体上限额外 +{0}",
-    "en": "Dread Banner grants an additional +{0} to maximum Fortification when placing the Banner"
-  },
-  {
     "id": "dread_banner_mana_reservation_efficiency_+%",
     "zh": "恐怖之旗的魔力保留效能提高 {0}%",
     "en": "Dread Banner has {0}% increased Mana Reservation Efficiency"
@@ -38198,6 +38603,11 @@
     "id": "dual_wield_inherent_attack_speed_is_doubled_while_dual_wielding_claws",
     "zh": "装备两把爪类时，双持的攻击速度加成翻倍",
     "en": "Inherent Attack Speed bonus from Dual Wielding is doubled while wielding two Claws"
+  },
+  {
+    "id": "dual_wield_inherent_bonuses_are_doubled",
+    "zh": "双持的固有加成翻倍",
+    "en": "Inherent Bonuses from Dual Wielding are doubled"
   },
   {
     "id": "duelist_hidden_ascendancy_attack_skill_final_repeat_damage_+%_final",
@@ -38283,6 +38693,16 @@
     "id": "elemental_ailments_reflected_to_self",
     "zh": "你施加的元素异常状态反射给你自己",
     "en": "Elemental Ailments you inflict are Reflected to you"
+  },
+  {
+    "id": "elemental_damage_+%_per_different_enemy_elemental_ailment",
+    "zh": "敌人每受到一种元素异常状态影响，\n击中和异常状态造成的元素伤害提高 {0}%",
+    "en": "{0}% increased Elemental Damage with Hits and Ailments for\neach type of Elemental Ailment on Enemy"
+  },
+  {
+    "id": "elemental_damage_+%_per_different_enemy_elemental_ailment",
+    "zh": "敌人每受到一种元素异常状态影响，\n击中和异常状态造成的元素伤害降低 {0}%",
+    "en": "{0}% reduced Elemental Damage with Hits and Ailments for\neach type of Elemental Ailment on Enemy"
   },
   {
     "id": "elemental_damage_additional_rolls_lucky_shocked",
@@ -38710,6 +39130,21 @@
     "en": "{0}% reduced Elusive Effect"
   },
   {
+    "id": "elusive_loss_rate_+%",
+    "zh": "你身上的灵巧效果降低的速度减慢 {0}%",
+    "en": "Elusive on you reduces in effect {0}% slower"
+  },
+  {
+    "id": "elusive_loss_rate_+%",
+    "zh": "你身上的灵巧效果降低的速度加快 {0}%",
+    "en": "Elusive on you reduces in effect {0}% faster"
+  },
+  {
+    "id": "elusive_minimum_effect_%",
+    "zh": "灵巧效果降低到 {0}% 时从你身上移除",
+    "en": "Elusive is removed from you at {0}% effect"
+  },
+  {
     "id": "ember_projectile_spread_area_+%",
     "zh": "怒炎穿心的投射物降落区域扩大 {0}%",
     "en": "Blazing Salvo Projectiles land in a {0}% increased Area"
@@ -38766,13 +39201,13 @@
   },
   {
     "id": "enduring_cry_grants_x_additional_endurance_charges",
-    "zh": "【坚决战吼】获得 1 个额外的耐力球",
-    "en": "Enduring Cry grants 1 additional Endurance Charge"
+    "zh": "坚决战吼使你和友军额外获得 1 个耐力球",
+    "en": "Enduring Cry grants 1 additional Endurance Charge to you and Allied Players"
   },
   {
     "id": "enduring_cry_grants_x_additional_endurance_charges",
-    "zh": "【坚决战吼】获得 {0} 个额外的耐力球",
-    "en": "Enduring Cry grants {0} additional Endurance Charges"
+    "zh": "坚决战吼使你和友军额外获得 {0} 个耐力球",
+    "en": "Enduring Cry grants {0} additional Endurance Charges to you and Allied Players"
   },
   {
     "id": "enemies_blinded_by_you_have_malediction",
@@ -39270,6 +39705,16 @@
     "en": "{0}% reduced Energy Shield Recharge Rate if Equipped Amulet has an Explicit Evasion Modifier"
   },
   {
+    "id": "energy_shield_recharge_rate_+%_per_different_mastery",
+    "zh": "你每配置一种不同的专精，能量护盾充能率降低 {0}%",
+    "en": "{0}% reduced Energy Shield Recharge Rate for each different type of Mastery you have Allocated"
+  },
+  {
+    "id": "energy_shield_recharge_rate_+%_per_different_mastery",
+    "zh": "你每配置一种不同的专精，能量护盾充能率提高 {0}%",
+    "en": "{0}% increased Energy Shield Recharge Rate for each different type of Mastery you have Allocated"
+  },
+  {
     "id": "energy_shield_recharge_start_when_stunned",
     "zh": "你被晕眩时能量护盾开始充能",
     "en": "Energy Shield Recharge starts when you are Stunned"
@@ -39625,6 +40070,16 @@
     "en": "{0}% reduced Evasion Rating while moving"
   },
   {
+    "id": "evasion_rating_+%_while_tincture_active",
+    "zh": "激活酊剂效果时闪避值提高 {0}%",
+    "en": "{0}% increased Evasion Rating while you have an active Tincture"
+  },
+  {
+    "id": "evasion_rating_+%_while_tincture_active",
+    "zh": "激活酊剂效果时闪避值降低 {0}%",
+    "en": "{0}% reduced Evasion Rating while you have an active Tincture"
+  },
+  {
     "id": "evasion_rating_+%_while_you_have_energy_shield",
     "zh": "闪避值在你有能量护盾时提高 {0}%",
     "en": "{0}% increased Evasion Rating while you have Energy Shield"
@@ -39643,6 +40098,11 @@
     "id": "every_4_seconds_regenerate_%_of_armour_and_evasion_as_life_over_1_second",
     "zh": "每隔 4 秒，在 1 秒内恢复相当于护甲和闪避值 {0}% 的生命",
     "en": "Every 4 seconds, Regenerate Life equal to {0}% of Armour and Evasion Rating over 1 second"
+  },
+  {
+    "id": "every_fourth_retaliation_used_is_a_critical_strike",
+    "zh": "使用的第四个反击技能必定爆击",
+    "en": "Every fourth Retaliation Skill you use always Critically Strikes"
   },
   {
     "id": "exerted_attack_knockback_chance_%",
@@ -40060,6 +40520,16 @@
     "en": "{0}% reduced Fire Damage per Endurance Charge"
   },
   {
+    "id": "fire_damage_+%_per_fire_resistance_above_75",
+    "zh": "高于 75% 的每 1% 火焰抗性使火焰伤害提高 {0}%",
+    "en": "{0}% increased Fire Damage per 1% Fire Resistance above 75%"
+  },
+  {
+    "id": "fire_damage_+%_per_fire_resistance_above_75",
+    "zh": "高于 75% 的每 1% 火焰抗性使火焰伤害降低 {0}%",
+    "en": "{0}% reduced Fire Damage per 1% Fire Resistance above 75%"
+  },
+  {
     "id": "fire_damage_+%_per_missing_fire_resistance",
     "zh": "每失去 1% 火焰抗性，火焰伤害就提高 {0}%，最多提高 300%",
     "en": "{0}% increased Fire Damage per 1% Missing Fire Resistance, up to a maximum of 300%"
@@ -40258,6 +40728,21 @@
     "id": "firestorm_and_bladefall_chance_to_replay_when_finished_%",
     "zh": "烈炎风暴和虚空刀雨结束时有 {0}% 的几率再次影响相同区域",
     "en": "{0}% chance for Firestorm and Bladefall to affect the same area again when they finish"
+  },
+  {
+    "id": "first_X_stacks_of_tincture_toxicity_have_no_effect",
+    "zh": "对你施加的前 1 层魔力燃烧不产生效果",
+    "en": "The first 1 Mana Burn applied to you has no effect"
+  },
+  {
+    "id": "first_X_stacks_of_tincture_toxicity_have_no_effect",
+    "zh": "对你施加的前 {0} 层魔力燃烧不产生效果",
+    "en": "The first {0} Mana Burn applied to you have no effect"
+  },
+  {
+    "id": "first_and_final_barrage_projectiles_return",
+    "zh": "弹幕的首次与最终射击发射的投射物会归返",
+    "en": "First and Final shots of Barrage sequences fire Projectiles that Return to you"
   },
   {
     "id": "fish_rot_when_caught",
@@ -40590,6 +41075,16 @@
     "en": "Marked Enemy grants {0}% reduced Flask Charges to you"
   },
   {
+    "id": "flask_charges_gained_+%_per_tincture_toxicity",
+    "zh": "每层魔力燃烧使你获得的药剂充能提高 {0}%",
+    "en": "{0}% increased Flask Charges gained per Mana Burn on you"
+  },
+  {
+    "id": "flask_charges_gained_+%_per_tincture_toxicity",
+    "zh": "每层魔力燃烧使你获得的药剂充能降低 {0}%",
+    "en": "{0}% reduced Flask Charges gained per Mana Burn on you"
+  },
+  {
     "id": "flask_duration_+%_per_level",
     "zh": "每级使药剂效果持续时间延长 {0}%",
     "en": "{0}% increased Flask Effect Duration per Level"
@@ -40641,23 +41136,23 @@
   },
   {
     "id": "flasks_adjacent_to_active_tinctures_gain_X_charges_on_weapon_hit",
-    "zh": "用武器击中敌人时，与生效酊剂邻接的药水获得一层充能，每秒最多触发一次",
-    "en": "Flasks adjacent to applied Tincture gain a charge when you Hit an Enemy with a Weapon, no more than once every second"
+    "zh": "用近战武器击中敌人时，与激活酊剂\n邻接的药水获得一层充能，每秒最多触发一次",
+    "en": "Flasks adjacent to active Tinctures gain a charge when you Hit an\nEnemy with a Melee Weapon, no more than once every second"
   },
   {
     "id": "flasks_adjacent_to_active_tinctures_gain_X_charges_on_weapon_hit",
-    "zh": "用武器击中敌人时，与生效酊剂邻接的药水获得 {0} 层充能，每秒最多触发一次",
-    "en": "Flasks adjacent to applied Tincture gain {0} charges when you Hit an Enemy with a Weapon, no more than once every second"
+    "zh": "用近战武器击中敌人时，与激活酊剂\n邻接的药水获得 {0} 层充能，每秒最多触发一次",
+    "en": "Flasks adjacent to active Tinctures gain {0} charges when you Hit an\nEnemy with a Melee Weapon, no more than once every second"
   },
   {
     "id": "flasks_adjacent_to_active_tinctures_have_effect_+%_if_hit_with_weapon_recently",
     "zh": "若近期用武器击中过敌人，与生效酊剂邻接的药水效果提高 {0}%",
-    "en": "Flasks adjacent to applied Tincture have {0}% increased Effect when used if you've Hit an enemy with a Weapon Recently"
+    "en": "Flasks adjacent to applied Tincture have {0}% increased Effect when\nused if you've Hit an enemy with a Weapon Recently"
   },
   {
     "id": "flasks_adjacent_to_active_tinctures_have_effect_+%_if_hit_with_weapon_recently",
     "zh": "若近期用武器击中过敌人，与生效酊剂邻接的药水效果降低 {0}%",
-    "en": "Flasks adjacent to applied Tincture have {0}% reduced Effect when used if you've Hit an enemy with a Weapon Recently"
+    "en": "Flasks adjacent to applied Tincture have {0}% reduced Effect when\nused if you've Hit an enemy with a Weapon Recently"
   },
   {
     "id": "flasks_apply_to_your_linked_targets",
@@ -40823,6 +41318,16 @@
     "id": "freeze_duration_against_cursed_enemies_+%",
     "zh": "你对被诅咒的敌人施加的冰冻持续时间缩短 {0}%",
     "en": "{0}% reduced Duration of Freezes you inflict on Cursed Enemies"
+  },
+  {
+    "id": "freeze_minimum_duration_X_ms",
+    "zh": "被你冻结的敌人至少维持冻结状态 1 秒",
+    "en": "Enemies you Freeze remain Frozen for at least 1 second"
+  },
+  {
+    "id": "freeze_minimum_duration_X_ms",
+    "zh": "被你冻结的敌人至少维持冻结状态 {0} 秒",
+    "en": "Enemies you Freeze remain Frozen for at least {0} seconds"
   },
   {
     "id": "freezing_pulse_and_eye_of_winter_all_damage_can_poison",
@@ -41130,6 +41635,16 @@
     "en": "Gain {0} Endurance, Frenzy or Power Charges every 6 seconds"
   },
   {
+    "id": "gain_a_frenzy_charge_every_X_seconds_while_moving",
+    "zh": "移动时每秒获得一个狂怒球",
+    "en": "Gain a Frenzy Charge each second while Moving"
+  },
+  {
+    "id": "gain_a_frenzy_charge_every_X_seconds_while_moving",
+    "zh": "移动时每 {0} 秒获得一个狂怒球",
+    "en": "Gain a Frenzy Charge every {0} seconds while Moving"
+  },
+  {
     "id": "gain_absorption_charges_instead_of_power_charges",
     "zh": "获得榨取球替代暴击球",
     "en": "Gain Absorption Charges instead of Power Charges"
@@ -41223,6 +41738,11 @@
     "id": "gain_arcane_surge_for_4_seconds_when_you_create_consecrated_ground_while_affected_by_zealotry",
     "zh": "当受到【奋锐光环】影响时，你创造奉献地面会获得【秘术增强】，持续 4 秒",
     "en": "Gain Arcane Surge for 4 seconds when you create Consecrated Ground while affected by Zealotry"
+  },
+  {
+    "id": "gain_arcane_surge_on_200_life_spent",
+    "zh": "总共消耗 200 点生命后获得秘术增强",
+    "en": "Gain Arcane Surge after Spending a total of 200 Life"
   },
   {
     "id": "gain_arcane_surge_on_crit_%_chance",
@@ -41338,6 +41858,16 @@
     "id": "gain_challenger_charge_%_chance_on_kill_in_sand_stance",
     "zh": "在沙姿态下击败敌人时，会获得一个挑战球",
     "en": "Gain a Challenger Charge when you Kill an Enemy while in Sand Stance"
+  },
+  {
+    "id": "gain_20%_chance_to_explode_enemies_for_100%_life_on_kill_for_X_seconds_every_10_seconds",
+    "zh": "每过 10 秒，随机获得烈焰、冰冽或霹雳符文涌动，持续 1 秒",
+    "en": "Gain Flaming, Icy or Crackling Runesurge at random for 1 second every 10 seconds"
+  },
+  {
+    "id": "gain_20%_chance_to_explode_enemies_for_100%_life_on_kill_for_X_seconds_every_10_seconds",
+    "zh": "每过 10 秒，随机获得烈焰、冰冽或霹雳符文涌动，持续 {0} 秒",
+    "en": "Gain Flaming, Icy or Crackling Runesurge at random for {0} seconds every 10 seconds"
   },
   {
     "id": "gain_critical_strike_chance_%_for_2_seconds_when_you_spend_800_mana",
@@ -41515,6 +42045,11 @@
     "en": "When you lose Temporal Chains you gain maximum Rage"
   },
   {
+    "id": "gain_max_rage_on_rage_gain_from_hit_%_chance",
+    "zh": "击中获得怒火时，有 {0}% 改为获得最大怒火",
+    "en": "{0}% chance that if you would gain Rage on Hit, you instead gain up to your maximum Rage"
+  },
+  {
     "id": "gain_maximum_endurance_charges_when_crit_chance_%",
     "zh": "当你受到暴击时获得最大数量的耐力球",
     "en": "Gain up to maximum Endurance Charges when you take a Critical Strike"
@@ -41588,6 +42123,11 @@
     "id": "gain_onslaught_ms_on_using_a_warcry",
     "zh": "使用战吼后获得持续 {0} 秒的【猛攻】状态",
     "en": "Gain Onslaught for {0} seconds when you Warcry"
+  },
+  {
+    "id": "gain_onslaught_on_200_mana_spent",
+    "zh": "总共消耗 200 点魔力后获得猛攻",
+    "en": "Gain Onslaught after Spending a total of 200 Mana"
   },
   {
     "id": "gain_onslaught_on_hit_chance_while_at_maximum_frenzy_charges_%",
@@ -41740,6 +42280,11 @@
     "en": "Gain a Frenzy, Endurance, or Power Charge once per second while you are Stationary"
   },
   {
+    "id": "gain_random_retaliation_requirement_on_retaliation_used_chance_%",
+    "zh": "使用反击技能时有 {0}% 的几率使另一个反击技能可以使用",
+    "en": "{0}% chance when you use a Retaliation Skill for a different Retaliation Skill to become Usable"
+  },
+  {
     "id": "gain_sacrificial_zeal_on_skill_use_%_cost_as_damage_per_minute",
     "zh": "你使用技能时获得热情牺牲效果，每秒造成等于其魔力消耗 {0}% 的物理伤害",
     "en": "Gain Sacrificial Zeal when you use a Skill, dealing you {0}% of the Skill's Mana Cost as Physical Damage per Second"
@@ -41753,6 +42298,16 @@
     "id": "gain_shapers_presence_for_10_seconds_on_killing_rare_or_unique_monster",
     "zh": "击败稀有或者传奇敌人时，获得【塑界者姿态】，持续 10 秒",
     "en": "Gain Shaper's Presence for 10 seconds when you kill a Rare or Unique Enemy"
+  },
+  {
+    "id": "gain_shrine_buff_every_x_ms",
+    "zh": "每 1 秒获得一个随机神龛增益",
+    "en": "Gain a random shrine buff every 1 second"
+  },
+  {
+    "id": "gain_shrine_buff_every_x_ms",
+    "zh": "每 {0} 秒获得一个随机神龛增益",
+    "en": "Gain a random shrine buff every {0} seconds"
   },
   {
     "id": "gain_single_conflux_for_3_seconds_every_8_seconds",
@@ -41850,14 +42405,49 @@
     "en": "Lose {0} Fragile Regrowth each second"
   },
   {
+    "id": "gain_x_rage_on_attack_crit",
+    "zh": "攻击造成暴击时获得 {0} 点怒火",
+    "en": "Gain {0} Rage on Critical Strike with Attacks"
+  },
+  {
+    "id": "gain_x_rage_on_attack_hit",
+    "zh": "攻击击中时获得 {0} 点怒火",
+    "en": "Gain {0} Rage on Attack Hit"
+  },
+  {
+    "id": "gain_x_rage_on_hit_with_axes",
+    "zh": "斧类击中时获得 {0} 点怒火",
+    "en": "Gain {0} Rage on Hit with Axes"
+  },
+  {
+    "id": "gain_x_rage_on_hit_with_axes_swords",
+    "zh": "斧类或剑类击中时获得 {0} 点怒火",
+    "en": "Gain {0} Rage on Hit with Axes or Swords"
+  },
+  {
     "id": "gain_x_rage_on_hit_with_axes_swords_1s_cooldown",
-    "zh": "斧类或剑类攻击在击中时获得 {0}点【怒火】，每秒只能获得一次",
-    "en": "Attacks with Axes or Swords grant {0} Rage on Hit, no more than once every second"
+    "zh": "斧类或剑类攻击击中时获得 {0} 点怒火",
+    "en": "Attacks with Axes or Swords grant {0} Rage on Hit"
+  },
+  {
+    "id": "gain_x_rage_on_melee_crit",
+    "zh": "近战击中造成暴击时获得 {0} 点怒火",
+    "en": "Gain {0} Rage on Critical Strike with Melee Hit"
+  },
+  {
+    "id": "gain_x_rage_on_melee_hit",
+    "zh": "近战击中时获得 {0} 点怒火",
+    "en": "Gain {0} Rage on Melee Hit"
   },
   {
     "id": "gain_x_rage_per_200_mana_spent",
     "zh": "总共消耗 200 点魔力后获得 {0} 点怒火",
     "en": "Gain {0} Rage after Spending a total of 200 Mana"
+  },
+  {
+    "id": "gain_x_rage_when_hit",
+    "zh": "被敌人击中时获得 {0} 点怒火",
+    "en": "Gain {0} Rage when Hit by an Enemy"
   },
   {
     "id": "galvanic_arrow_and_storm_rain_skill_repeat_count_if_mined",
@@ -41960,6 +42550,51 @@
     "en": "{0}% of Glacial Hammer Physical Damage Converted to Cold Damage"
   },
   {
+    "id": "gladiator_critical_strike_chance_+%_final_while_wielding_dagger",
+    "zh": "装备匕首时，暴击几率总增 {0}%",
+    "en": "{0}% more Critical Strike Chance while wielding a Dagger"
+  },
+  {
+    "id": "gladiator_critical_strike_chance_+%_final_while_wielding_dagger",
+    "zh": "装备匕首时，暴击几率总降 {0}%",
+    "en": "{0}% less Critical Strike Chance while wielding a Dagger"
+  },
+  {
+    "id": "gladiator_damage_vs_rare_unique_enemies_+%_final_per_2_seconds_in_your_presence_up_to_50%",
+    "zh": "稀有和传奇怪物每在场 2 秒，对其造成的击中和异常状态伤害总增 {0}%%，最多 50%",
+    "en": "Deal {0}% more Damage with Hits and Ailments to Rare and Unique Enemies for every 2 seconds they've ever been in your Presence, up to a maximum of 50%"
+  },
+  {
+    "id": "gladiator_damage_vs_rare_unique_enemies_+%_final_per_2_seconds_in_your_presence_up_to_50%",
+    "zh": "稀有和传奇怪物每在场 2 秒，对其造成的击中和异常状态伤害总降 {0}%",
+    "en": "Deal {0}% less Damage with Hits and Ailments to Rare and Unique Enemies for every 2 seconds they've ever been in your Presence"
+  },
+  {
+    "id": "gladiator_damage_vs_rare_unique_enemies_+%_final_per_second_in_your_presence_up_to_100%",
+    "zh": "稀有和传奇怪物每在场一秒，对其造成的击中和异常状态伤害总增 {0}%，最多 100%",
+    "en": "Deal {0}% more Damage with Hits and Ailments to Rare and Unique Enemies for each second they've ever been in your Presence, up to a maximum of 100%"
+  },
+  {
+    "id": "gladiator_damage_vs_rare_unique_enemies_+%_final_per_second_in_your_presence_up_to_100%",
+    "zh": "稀有和传奇怪物每在场一秒，对其造成的击中和异常状态伤害总降 {0}%",
+    "en": "Deal {0}% less Damage with Hits and Ailments to Rare and Unique Enemies for each second they've ever been in your Presence"
+  },
+  {
+    "id": "leech_%_is_instant_while_wielding_claw",
+    "zh": "装备爪类武器时，{0}% 的偷取立即生效",
+    "en": "{0}% of Leech is Instant while wielding a Claw"
+  },
+  {
+    "id": "gladiator_damage_+%_final_against_enemies_on_low_life_while_wielding_axe",
+    "zh": "装备斧类武器时，对低血敌人造成的击中和异常状态伤害总增 {0}%",
+    "en": "{0}% more Damage with Hits and Ailments against Enemies that are on Low Life while you are wielding an Axe"
+  },
+  {
+    "id": "gladiator_damage_+%_final_against_enemies_on_low_life_while_wielding_axe",
+    "zh": "装备斧类武器时，对低血敌人造成的击中和异常状态伤害总降 {0}%",
+    "en": "{0}% less Damage with Hits and Ailments against Enemies that are on Low Life while you are wielding an Axe"
+  },
+  {
     "id": "global_attack_speed_+%_per_level",
     "zh": "每一级可使全局攻击速度加快 {0}%",
     "en": "{0}% increased Global Attack Speed per Level"
@@ -42031,8 +42666,8 @@
   },
   {
     "id": "glove_implicit_gain_rage_on_attack_hit_cooldown_ms",
-    "zh": "攻击击中时获得 1 点怒火，每 {0} 秒发生一次",
-    "en": "Gain 1 Rage on Hit with Attacks, no more than once every {0} seconds"
+    "zh": "攻击击中时获得 1 点怒火",
+    "en": "Gain 1 Rage on Hit with Attacks"
   },
   {
     "id": "golem_attack_and_cast_speed_+%",
@@ -42158,6 +42793,11 @@
     "id": "grant_void_arrow_every_x_ms",
     "zh": "每 {0} 秒获得 1 枚虚空之矢",
     "en": "Gain a Void Charge every {0} seconds"
+  },
+  {
+    "id": "grasping_vines_on_hit_while_life_flask_active_up_to_x",
+    "zh": "任意生命药剂生效期间，\n击中缓速藤蔓少于 {0} 层的敌人时施加一层缓速藤蔓",
+    "en": "Inflict a Grasping Vine on Hit against Enemies with fewer than\n{0} Grasping Vines during Effect of any Life Flask"
   },
   {
     "id": "gratuitous_violence_physical_damage_over_time_+%_final",
@@ -42947,17 +43587,32 @@
   {
     "id": "hits_ignore_enemy_monster_physical_damage_reduction_if_blocked_in_past_20_seconds",
     "zh": "击中在你过去 20 秒内成功格挡的情况下无视敌方怪物的物理伤害减免",
-    "en": "Hits ignore Enemy Monster Physical Damage Reduction if you've Blocked in the past 20 seconds"
+    "en": "Hits ignore Enemy Physical Damage Reduction if you've Blocked in the past 20 seconds"
   },
   {
     "id": "hits_ignore_enemy_monster_physical_damage_reduction_%_chance",
     "zh": "击中有 {0}% 的几率忽略敌方怪物的物理伤害减免",
-    "en": "Hits have {0}% chance to ignore Enemy Monster Physical Damage Reduction"
+    "en": "Hits have {0}% chance to ignore Enemy Physical Damage Reduction"
   },
   {
     "id": "hits_ignore_enemy_monster_physical_damage_reduction_%_chance",
     "zh": "击中忽略敌方怪物的物理伤害减免",
-    "en": "Hits ignore Enemy Monster Physical Damage Reduction"
+    "en": "Hits ignore Enemy Physical Damage Reduction"
+  },
+  {
+    "id": "hits_ignore_enemy_monster_physical_damage_reduction_%_chance_while_have_sacrificial_zeal",
+    "zh": "拥有热情牺牲时，击中有 {0}% 的几率忽略敌人的物理伤害减免",
+    "en": "Hits have {0}% chance to ignore Enemy Physical Damage Reduction while you have Sacrificial Zeal"
+  },
+  {
+    "id": "hits_ignore_enemy_monster_physical_damage_reduction_%_chance_while_have_sacrificial_zeal",
+    "zh": "拥有热情牺牲时，击中忽略敌人的物理伤害减免",
+    "en": "Hits ignore Enemy Physical Damage Reduction while you have Sacrificial Zeal"
+  },
+  {
+    "id": "hoarfrost_on_non_freezing_freezing_hit",
+    "zh": "冻结时间不足而未能造成冻结的击中会造成白霜",
+    "en": "Hits that fail to Freeze due to insufficient Freeze Duration inflict Hoarfrost"
   },
   {
     "id": "holy_and_shockwave_totem_have_physical_damage_%_to_add_as_fire_damage_when_linked_by_searing_bond",
@@ -43440,6 +44095,26 @@
     "en": "{0}% reduced Effect of Impales you inflict on non-Impaled Enemies"
   },
   {
+    "id": "impale_effect_+%_for_impales_past_1000_millisecond",
+    "zh": "你造成的穿刺效果在持续时间消减 1 秒后降低 {0}%",
+    "en": "Impales you inflict have {0}% reduced Effect once 1 second of Duration has expired"
+  },
+  {
+    "id": "impale_effect_+%_for_impales_past_1000_millisecond",
+    "zh": "你造成的穿刺效果在持续时间消减 1 秒后提高 {0}%",
+    "en": "Impales you inflict gain {0}% increased Effect once 1 second of Duration has expired"
+  },
+  {
+    "id": "impale_hits_ignore_enemy_monster_physical_damage_reduction_%_chance",
+    "zh": "对被你穿刺的敌人造成的穿刺伤害有 {0}% 的几率忽略敌人的物理伤害减免",
+    "en": "Impale Damage dealt to Enemies Impaled by you has {0}% chance to ignore Enemy Physical Damage Reduction"
+  },
+  {
+    "id": "impale_hits_ignore_enemy_monster_physical_damage_reduction_%_chance",
+    "zh": "对被你穿刺的敌人造成的穿刺伤害忽略敌人的物理伤害减免",
+    "en": "Impale Damage dealt to Enemies Impaled by you ignores Enemy Physical Damage Reduction"
+  },
+  {
     "id": "impale_inflicted_by_two_handed_weapons_debuff_effect_+%",
     "zh": "你用双手武器施加的穿刺效果提高 {0}%",
     "en": "{0}% increased Effect of Impales you inflict with Two Handed Weapons"
@@ -43795,14 +44470,14 @@
     "en": "1% increased Rarity of Items found per {0} Rampage Kills"
   },
   {
-    "id": "kaoms_primacy_gain_rage_on_attack_crit_cooldown_ms",
-    "zh": "攻击造成暴击获得 1 点怒火。每 {0} 秒只会发生一次",
-    "en": "Gain 1 Rage on Critical Hit with attacks, no more than once every {0} seconds"
+    "id": "item_is_haunted",
+    "zh": "被罪魂纠缠",
+    "en": "Haunted by Tormented Spirits"
   },
   {
-    "id": "keystone_shepherd_of_souls",
-    "zh": "灵魂牧者",
-    "en": "Shepherd of Souls"
+    "id": "kaoms_primacy_gain_rage_on_attack_crit_cooldown_ms",
+    "zh": "攻击造成暴击时获得 1 点怒火",
+    "en": "Gain 1 Rage on Critical Strike with Attacks"
   },
   {
     "id": "killed_enemies_apply_impale_damage_to_nearby_enemies_on_death_%_chance",
@@ -43813,6 +44488,16 @@
     "id": "killed_enemies_apply_impale_damage_to_nearby_enemies_on_death_%_chance",
     "zh": "被你击败的敌人身上的穿刺效果对周围敌人反射伤害",
     "en": "Impales on Enemies you Kill Reflect Damage to surrounding Enemies"
+  },
+  {
+    "id": "killed_monster_dropped_gold_+%",
+    "zh": "被击败的敌人掉落的金币数量提高 {0}%",
+    "en": "{0}% increased Quantity of Gold Dropped by Slain Enemies"
+  },
+  {
+    "id": "killed_monster_dropped_gold_+%",
+    "zh": "被击败的敌人掉落的金币数量降低 {0}%",
+    "en": "{0}% reduced Quantity of Gold Dropped by Slain Enemies"
   },
   {
     "id": "killing_blow_consumes_corpse_restore_10%_life_chance_%",
@@ -46406,8 +47091,8 @@
   },
   {
     "id": "local_affliction_notable_rapid_infusion",
-    "zh": "其中 1 个增加的天赋为【猛烈灌注】",
-    "en": "1 Added Passive Skill is Rapid Infusion"
+    "zh": "1 个添加的被动天赋为不羁专注",
+    "en": "1 Added Passive Skill is Unrestrained Focus"
   },
   {
     "id": "local_affliction_notable_rattling_bellow",
@@ -46935,6 +47620,21 @@
     "en": "With a Searching Eye Jewel Socketed, Blind Enemies for 4 seconds on Hit with Attacks"
   },
   {
+    "id": "local_can_have_X_additional_runesmith_enchantments",
+    "zh": "可拥有 1 个额外的符文锻造附魔",
+    "en": "Can have 1 additional Runesmithing Enchantment"
+  },
+  {
+    "id": "local_can_have_X_additional_runesmith_enchantments",
+    "zh": "可拥有 {0} 个额外的符文锻造附魔",
+    "en": "Can have {0} additional Runesmithing Enchantments"
+  },
+  {
+    "id": "local_can_have_any_one_hand_runesmith_enchantments",
+    "zh": "可视作所有单手武器类型并进行符文锻造",
+    "en": "Can be Runesmithed as though it were all One Handed Melee Weapon Types"
+  },
+  {
     "id": "local_can_only_socket_corrupted_gems",
     "zh": "只能在此物品上放入已腐化的技能石",
     "en": "You can only Socket Corrupted Gems in this item"
@@ -47050,6 +47750,16 @@
     "en": "Grants {0} to Dexterity per 2% Quality"
   },
   {
+    "id": "local_display_cast_fire_burst_on_hit",
+    "zh": "击中时施放 {0} 级火焰爆破",
+    "en": "Cast Level {0} Fire Burst on Hit"
+  },
+  {
+    "id": "local_display_cast_level_x_shock_ground_on_hit",
+    "zh": "击中时触发 {0} 级感电地面",
+    "en": "Trigger Level {0} Shock Ground on Hit"
+  },
+  {
     "id": "local_display_curse_enemies_with_socketed_curse_on_hit_%_chance",
     "zh": "击中时有 {0}% 的几率用插入的魔蛊诅咒敌人",
     "en": "{0}% chance to Curse Enemies with Socketed Hex Curse Gem on Hit"
@@ -47093,6 +47803,11 @@
     "id": "local_display_grants_skill_voodoo_doll",
     "zh": "获得 {0} 级召唤黑暗塑像技能",
     "en": "Grants Level {0} Summon Dark Effigy Skill"
+  },
+  {
+    "id": "local_display_grants_skill_weapon_storm",
+    "zh": "获得 {0} 级落刃风暴技能",
+    "en": "Grants Level {0} Swordstorm Skill"
   },
   {
     "id": "local_display_guardian_alternating_block_chance",
@@ -47245,6 +47960,16 @@
     "en": "Attacks with this Weapon have {0}% chance to deal Double Damage"
   },
   {
+    "id": "local_elemental_damage_+%",
+    "zh": "元素伤害提高 {0}%",
+    "en": "Has {0}% increased Elemental Damage"
+  },
+  {
+    "id": "local_elemental_damage_+%",
+    "zh": "元素伤害降低 {0}%",
+    "en": "Has {0}% reduced Elemental Damage"
+  },
+  {
     "id": "local_elemental_damage_+%_per_2%_quality",
     "zh": "每 2% 品质使元素伤害提高 {0}%",
     "en": "Grants {0}% increased Elemental Damage per 2% Quality"
@@ -47266,13 +47991,23 @@
   },
   {
     "id": "local_gain_X_rage_on_attack_hit_with_melee_abyss_jewel_socketed",
-    "zh": "镶嵌凶残之凝珠宝时，近战攻击击中产生 {0} 点怒火，每秒最多触发一次",
-    "en": "With a Murderous Eye Jewel Socketed, Melee Attacks grant {0} Rage on Hit, no more than once every second"
+    "zh": "镶嵌凶残之凝珠宝时，近战攻击击中产生 {0} 点怒火",
+    "en": "With a Murderous Eye Jewel Socketed, Melee Attacks grant {0} Rage on Hit"
   },
   {
     "id": "local_gain_fortify_on_melee_hit_chance_%_with_melee_abyss_jewel_socketed",
     "zh": "镶嵌凶残之凝珠宝时，近战击中有 {0}% 的几率获得护体",
     "en": "With a Murderous Eye Jewel Socketed, Melee Hits have {0}% chance to Fortify"
+  },
+  {
+    "id": "local_hits_ignore_enemy_monster_physical_damage_reduction_%_chance",
+    "zh": "该武器的击中有 {0}% 的几率忽略敌人的物理伤害减免",
+    "en": "Hits with this Weapon have {0}% chance to ignore Enemy Physical Damage Reduction"
+  },
+  {
+    "id": "local_hits_ignore_enemy_monster_physical_damage_reduction_%_chance",
+    "zh": "该武器的击中忽略敌人的物理伤害减免",
+    "en": "Hits with this Weapon ignore Enemy Physical Damage Reduction"
   },
   {
     "id": "local_hits_with_this_weapon_always_hit_if_have_blocked_recently",
@@ -47313,6 +48048,16 @@
     "id": "local_immune_to_curses_if_item_corrupted",
     "zh": "腐化后免疫诅咒",
     "en": "Immune to Curses if Corrupted"
+  },
+  {
+    "id": "local_implicit_modifier_magnitudes_doubled",
+    "zh": "基底词缀幅度变为双倍",
+    "en": "Implicit Modifier magnitudes are doubled"
+  },
+  {
+    "id": "local_implicit_modifier_magnitudes_tripled",
+    "zh": "基底词缀幅度变为三倍",
+    "en": "Implicit Modifier magnitudes are tripled"
   },
   {
     "id": "local_inflict_malignant_madness_on_critical_strike_%_if_eater_of_worlds_dominant",
@@ -47560,6 +48305,11 @@
     "en": "{0}% of Attack Damage Leeched as Mana"
   },
   {
+    "id": "local_mana_leech_is_instant",
+    "zh": "该武器击中的魔力偷取立即生效",
+    "en": "Mana Leech from Hits with this Weapon is Instant"
+  },
+  {
     "id": "local_maximum_energy_shield_+%_if_item_corrupted",
     "zh": "能量护盾上限在腐化的情况下提高 {0}%",
     "en": "{0}% increased maximum Energy Shield if Corrupted"
@@ -47708,6 +48458,11 @@
     "id": "local_sentinel_drone_difficulty_+%",
     "zh": "赋能减少{0}%",
     "en": "{0}% reduced Empowerment"
+  },
+  {
+    "id": "local_shield_trigger_socketed_elemental_spell_on_block_display_cooldown",
+    "zh": "格挡时触发一个镶嵌的元素法术，冷却时间 {0} 秒",
+    "en": "Trigger a Socketed Elemental Spell on Block, with a {0} second Cooldown"
   },
   {
     "id": "local_socketed_gem_level_+_per_filled_socket",
@@ -48433,6 +49188,11 @@
     "id": "local_weapon_range_+_per_10%_quality",
     "zh": "每 10% 品质使武器范围 {0} 米",
     "en": "{0} metres to Weapon Range per 10% Quality"
+  },
+  {
+    "id": "local_weapon_trigger_socketed_fire_spell_on_hit_display_cooldown",
+    "zh": "击中时触发一个镶嵌的火焰法术，冷却时间 {0} 秒",
+    "en": "Trigger a Socketed Fire Spell on Hit, with a {0} second Cooldown"
   },
   {
     "id": "lose_adrenaline_on_losing_flame_touched",
@@ -49220,6 +49980,11 @@
     "en": "{0} to Maximum Endurance Charges while affected by Determination"
   },
   {
+    "id": "maximum_endurance_frenzy_power_charges_is_0",
+    "zh": "耐力、狂怒和暴击球上限为 0",
+    "en": "Maximum Endurance, Frenzy and Power Charges is 0"
+  },
+  {
     "id": "maximum_energy_shield_from_body_armour_+%",
     "zh": "装备身体护甲的能量护盾提高 {0}%",
     "en": "{0}% increased Energy Shield from Equipped Body Armour"
@@ -49298,6 +50063,16 @@
     "id": "maximum_life_leech_rate_%_per_minute_is_doubled",
     "zh": "偷取的每秒最大生命总恢复量翻倍",
     "en": "Maximum total Life Recovery per second from Leech is doubled"
+  },
+  {
+    "id": "maximum_life_leech_rate_+%_if_crit_recently",
+    "zh": "若近期造成过暴击，偷取中获得的\n每秒最大总恢复量提高 {0}%",
+    "en": "{0}% increased Maximum total Life Recovery per second from\nLeech if you've dealt a Critical Strike recently"
+  },
+  {
+    "id": "maximum_life_leech_rate_+%_if_crit_recently",
+    "zh": "若近期造成过暴击，偷取中获得的\n每秒最大总恢复量降低 {0}%",
+    "en": "{0}% reduced Maximum total Life Recovery per second from\nLeech if you've dealt a Critical Strike recently"
   },
   {
     "id": "maximum_life_leech_rate_+%_if_have_taken_a_savage_hit_recently",
@@ -49435,6 +50210,16 @@
     "en": "{0} to Maximum Rage while wielding a Sword"
   },
   {
+    "id": "maximum_total_life_recovery_per_second_from_leech_+%_while_at_max_rage",
+    "zh": "达到怒火上限时，偷取中获得的每秒最大总恢复量提高 {0}%",
+    "en": "{0}% increased Maximum total Life Recovery per second from Leech while at maximum Rage"
+  },
+  {
+    "id": "maximum_total_life_recovery_per_second_from_leech_+%_while_at_max_rage",
+    "zh": "达到怒火上限时，偷取中获得的每秒最大总恢复量降低 {0}%",
+    "en": "{0}% reduced Maximum total Life Recovery per second from Leech while at maximum Rage"
+  },
+  {
     "id": "maximum_virulence_stacks quality_display_herald_of_agony_is_gem",
     "zh": "最大毒力 {0}",
     "en": "{0} to Maximum Virulence"
@@ -49448,6 +50233,11 @@
     "id": "melee_attack_number_of_spirit_strikes",
     "zh": "非瓦尔打击技能以周围额外 {0} 名敌人为目标",
     "en": "Non-Vaal Strike Skills target {0} additional nearby Enemies"
+  },
+  {
+    "id": "melee_attacks_usable_without_life_cost",
+    "zh": "生命不足不会使你无法使用近战攻击",
+    "en": "Insufficient Life doesn't prevent your Melee Attacks"
   },
   {
     "id": "melee_critical_strike_chance_+%_if_warcried_recently",
@@ -49483,6 +50273,11 @@
     "id": "melee_damage_+%_per_second_of_warcry_affecting_you",
     "zh": "受到战吼增益效果影响时，你的近战伤害每秒提高 {0}%，最多 60%",
     "en": "{0}% increased Melee Damage for each second you've been affected by a Warcry Buff, up to a maximum of 60%"
+  },
+  {
+    "id": "melee_hits_cannot_be_evaded_while_wielding_sword",
+    "zh": "装备剑类武器时，你的近战击中无法被闪避",
+    "en": "Your Melee Hits can't be Evaded while wielding a Sword"
   },
   {
     "id": "melee_knockback",
@@ -49620,6 +50415,11 @@
     "en": "{0} metres to Melee Strike Range with Two Handed Weapons"
   },
   {
+    "id": "melee_skill_gem_level_+",
+    "zh": "所有近战技能宝石等级提高 {0}",
+    "en": "{0} to Level of all Melee Skill Gems"
+  },
+  {
     "id": "melee_skills_area_of_effect_+%",
     "zh": "近战技能的范围扩大 {0}%",
     "en": "Melee Skills have {0}% increased Area of Effect"
@@ -49628,6 +50428,11 @@
     "id": "melee_skills_area_of_effect_+%",
     "zh": "近战技能的范围缩小 {0}%",
     "en": "Melee Skills have {0}% reduced Area of Effect"
+  },
+  {
+    "id": "melee_splash_while_wielding_mace",
+    "zh": "装备锤类武器时，近战打击技能对周围目标造成溅射伤害",
+    "en": "Melee Strike Skills deal Splash Damage to surrounding targets while wielding a Mace"
   },
   {
     "id": "melee_strike_skill_strike_previous_location",
@@ -49908,6 +50713,11 @@
     "id": "minimum_power_charges_while_on_low_life_+",
     "zh": "暴击球数量下限在低血状态下 {0}",
     "en": "{0} to Minimum Power Charges while on Low Life"
+  },
+  {
+    "id": "minimum_rage",
+    "zh": "怒火下限 +{0}",
+    "en": "+{0} to Minimum Rage"
   },
   {
     "id": "minimum_random_movement_velocity_+%_when_hit maximum_random_movement_velocity_+%_when_hit",
@@ -50208,6 +51018,16 @@
     "id": "minion_has_unholy_might",
     "zh": "召唤生物拥有不洁之力",
     "en": "Minions have Unholy Might"
+  },
+  {
+    "id": "minion_hits_ignore_enemy_monster_physical_damage_reduction_%_chance",
+    "zh": "召唤生物的击中有 {0}% 的几率忽略敌人的物理伤害减免",
+    "en": "Minions Hits have {0}% chance to ignore Enemy Physical Damage Reduction"
+  },
+  {
+    "id": "minion_hits_ignore_enemy_monster_physical_damage_reduction_%_chance",
+    "zh": "召唤生物的击中忽略敌人的物理伤害减免",
+    "en": "Minions Hits ignore Enemy Physical Damage Reduction"
   },
   {
     "id": "minion_life_increased_by_overcapped_fire_resistance",
@@ -50865,6 +51685,11 @@
     "en": "{0}% reduced Movement Speed if you have used a Vaal Skill Recently"
   },
   {
+    "id": "movement_speed_+%_per_5_rage",
+    "zh": "每 5 点怒火使移动速度提高 {0}%",
+    "en": "{0}% increased Movement Speed per 5 Rage"
+  },
+  {
     "id": "movement_speed_+%_per_chest_opened_recently",
     "zh": "近期内每打开 1 个箱子，移动速度加快 {0}%",
     "en": "{0}% increased Movement Speed per Chest opened Recently"
@@ -51271,8 +52096,8 @@
   },
   {
     "id": "no_extra_bleed_damage_while_target_is_moving",
-    "zh": "当敌人移动时，你的流血无法造成额外伤害",
-    "en": "Your Bleeding does not deal extra Damage while the Enemy is moving"
+    "zh": "你造成的流血效果在敌人移动时不造成额外伤害",
+    "en": "Bleeding you inflict does not deal extra Damage while the Enemy is moving"
   },
   {
     "id": "no_inherent_chance_to_block_while_dual_wielding",
@@ -51502,12 +52327,12 @@
   {
     "id": "number_of_additional_ignites_allowed",
     "zh": "你可以对敌人造成额外 1 个点燃效果",
-    "en": "You can inflict an additional Ignite on an Enemy"
+    "en": "You can inflict an additional Ignite on each Enemy"
   },
   {
     "id": "number_of_additional_ignites_allowed",
     "zh": "你可以对敌人造成额外 {0} 个点燃效果",
-    "en": "You can inflict {0} additional Ignites on an Enemy"
+    "en": "You can inflict {0} additional Ignites on each Enemy"
   },
   {
     "id": "number_of_additional_mines_to_place_with_at_least_500_dex",
@@ -51700,19 +52525,24 @@
     "en": "Offering Skills have {0}% reduced Duration"
   },
   {
+    "id": "offering_skills_do_not_require_corpses",
+    "zh": "你的奉献技能不需要灵柩",
+    "en": "Your Offering Skills do not require a Corpse"
+  },
+  {
     "id": "on_cast_lose_all_mana_gain_%_as_maximum_lightning_damage_for_4_seconds",
     "zh": "当你施放法术时，献祭所有魔力，获得等同于献祭魔力 {0}% 的附加最大闪电伤害，持续 4 秒",
     "en": "When you Cast a Spell, Sacrifice all Mana to gain Added Maximum Lightning Damage\nequal to {0}% of Sacrificed Mana for 4 seconds"
   },
   {
-    "id": "on_casting_banner_recover_%_of_planted_banner_stages",
-    "zh": "当你创建旗帜时，它会获得你当前放置旗帜等阶的 {0}%",
-    "en": "When you create a Banner, it gains {0}% of the Stages of your placed Banner"
+    "id": "on_leaving_banner_area_recover_%_of_planted_banner_resources",
+    "zh": "当你离开自己的旗帜范围时，恢复该旗帜消耗胆魄的 {0}%",
+    "en": "When you leave your Banner's Area, recover {0}% of the Valour consumed for that Banner"
   },
   {
     "id": "on_planting_banner_you_and_nearby_allies_recover_permyriad_maximum_life_per_stage",
-    "zh": "当你放置一面旗帜，该旗帜每阶使你和周围友军回复 {0}% 生命",
-    "en": "When you place a Banner, you and nearby Allies Recover {0}% of Life for\neach Stage the Banner has"
+    "zh": "放置旗帜时每消耗一点胆魄，你和周围友军恢复 {0}% 的生命",
+    "en": "When you place a Banner, you and nearby Allies Recover {0}% of Life per Valour consumed"
   },
   {
     "id": "open_nearby_chests_on_cast_chance_%",
@@ -52075,6 +52905,16 @@
     "en": "{0}% reduced Maximum number of Summoned Raging Spirits"
   },
   {
+    "id": "%_physical_damage_bypasses_energy_shield",
+    "zh": "受到的物理伤害穿透能量护盾",
+    "en": "Physical Damage taken bypasses Energy Shield"
+  },
+  {
+    "id": "%_physical_damage_bypasses_energy_shield",
+    "zh": "受到的物理伤害的 {0}% 穿透能量护盾",
+    "en": "{0}% of Physical Damage taken bypasses Energy Shield"
+  },
+  {
     "id": "permanent_damage_+%_per_second_of_chill",
     "zh": "敌人每受一秒你造成的冰缓影响，其受到的伤害永久提高 {0}%，最多 10%",
     "en": "Enemies permanently take {0}% increased Damage for each second they've ever been Chilled by you, up to a maximum of 10%"
@@ -52236,8 +53076,8 @@
   },
   {
     "id": "physical_damage_%_to_add_as_fire_per_rage",
-    "zh": "每 1 点怒火都获得额外火焰伤害， 其数值等同于物理伤害的 {0}%",
-    "en": "Gain {0}% of Physical Damage as Extra Fire Damage per 1 Rage"
+    "zh": "每一点怒火使你获得相当于物理伤害 {0}% 的额外火焰伤害",
+    "en": "Every Rage also grants {0}% of Physical Damage as Extra Fire Damage"
   },
   {
     "id": "physical_damage_%_to_add_as_lightning_damage_while_affected_by_wrath",
@@ -52276,13 +53116,13 @@
   },
   {
     "id": "physical_damage_+%_per_10_rage",
-    "zh": "每 10 点怒火使物理伤害提高 {0}%",
-    "en": "{0}% increased Physical Damage per 10 Rage"
+    "zh": "每 10 点怒火还会使物理伤害提高 {0}%",
+    "en": "Each 10 Rage also grants {0}% increased Physical Damage"
   },
   {
     "id": "physical_damage_+%_per_10_rage",
-    "zh": "每 10 点怒火使物理伤害降低 {0}%",
-    "en": "{0}% reduced Physical Damage per 10 Rage"
+    "zh": "每 10 点怒火还会使物理伤害降低 {0}%",
+    "en": "Each 10 Rage also grants {0}% reduced Physical Damage"
   },
   {
     "id": "physical_damage_+%_vs_ignited_enemies",
@@ -52486,13 +53326,13 @@
   },
   {
     "id": "placed_banner_attack_damage_+%",
-    "zh": "放置的旗帜也使你和友军的攻击伤害提高 {0}%",
-    "en": "Placed Banners also grant {0}% increased Attack Damage to you and Allies"
+    "zh": "旗帜使你和友军的攻击伤害提高 {0}%",
+    "en": "Banners also grant {0}% increased Attack Damage to you and Allies"
   },
   {
     "id": "placed_banner_attack_damage_+%",
-    "zh": "放置的旗帜也使你和友军的攻击伤害降低 {0}%",
-    "en": "Placed Banners also grant {0}% reduced Attack Damage to you and Allies"
+    "zh": "旗帜使你和友军的攻击伤害降低 {0}%",
+    "en": "Banners also grant {0}% reduced Attack Damage to you and Allies"
   },
   {
     "id": "plague_bearer_chaos_damage_taken_+%_while_incubating",
@@ -52528,6 +53368,11 @@
     "id": "player_can_be_touched_by_tormented_spirits",
     "zh": "你可能会被一个罪魂触碰",
     "en": "You can be Touched by Tormented Spirits"
+  },
+  {
+    "id": "+1_max_charged_attack_stages",
+    "zh": "刀刃乱舞层数上限 +1",
+    "en": "+1 to maximum Blade Flurry stages"
   },
   {
     "id": "poison_damage_+%_per_frenzy_charge",
@@ -53330,6 +54175,16 @@
     "en": "Inherent loss of Rage is {0}% slower"
   },
   {
+    "id": "rage_effect_+%",
+    "zh": "怒火效果提高 {0}%",
+    "en": "{0}% increased Rage Effect"
+  },
+  {
+    "id": "rage_effect_+%",
+    "zh": "怒火效果降低 {0}%",
+    "en": "{0}% reduced Rage Effect"
+  },
+  {
     "id": "rage_grants_cast_speed_instead",
     "zh": "怒火提高施法速度，而非攻击速度",
     "en": "Rage grants Cast Speed instead of Attack Speed"
@@ -53338,6 +54193,16 @@
     "id": "rage_grants_spell_damage_instead",
     "zh": "怒火提高法术伤害，而非攻击伤害",
     "en": "Rage grants Spell Damage instead of Attack Damage"
+  },
+  {
+    "id": "rage_loss_delay_ms",
+    "zh": "固有的怒火损失延迟 1 秒开始",
+    "en": "Inherent Rage Loss starts 1 second later"
+  },
+  {
+    "id": "rage_loss_delay_ms",
+    "zh": "固有的怒火损失延迟 {0} 秒开始",
+    "en": "Inherent Rage Loss starts {0} seconds later"
   },
   {
     "id": "rage_slash_sacrifice_rage_% quality_display_rage_vortex_is_gem",
@@ -53403,6 +54268,16 @@
     "id": "raider_nearby_enemies_accuracy_rating_+%_final_while_phasing",
     "zh": "【迷踪】状态下，周围敌人的总命中值总降 {0}%",
     "en": "Nearby Enemies have {0}% less Accuracy Rating while you have Phasing"
+  },
+  {
+    "id": "raider_shock_maximum_effect_override_%",
+    "zh": "最大感电效果使受到的伤害提高 {0}%",
+    "en": "Maximum Effect of Shock is {0}% increased Damage taken"
+  },
+  {
+    "id": "raider_shocks_you_apply_can_stack_up_to_50_times",
+    "zh": "你可以对每个敌人施加最多 50 次感电",
+    "en": "You can apply up to 50 Shocks to each Enemy"
   },
   {
     "id": "rain_of_arrows_additional_sequence_chance_%",
@@ -53705,6 +54580,26 @@
     "en": "Recover {0}% of Life on Killing a Poisoned Enemy"
   },
   {
+    "id": "recover_%_maximum_mana_on_activating_tincture",
+    "zh": "激活酊剂时回复 {0}% 的魔力",
+    "en": "Recover {0}% of Mana when you activate a Tincture"
+  },
+  {
+    "id": "recover_%_maximum_mana_on_activating_tincture",
+    "zh": "激活酊剂时损失 {0}% 的魔力",
+    "en": "Lose {0}% of Mana when you activate a Tincture"
+  },
+  {
+    "id": "recover_%_maximum_mana_on_kill_while_tincture_active",
+    "zh": "激活酊剂效果时，击败敌人回复 {0}% 的魔力",
+    "en": "Recover {0}% of Mana on Kill while you have a Tincture active"
+  },
+  {
+    "id": "recover_%_maximum_mana_on_kill_while_tincture_active",
+    "zh": "激活酊剂效果时，击败敌人损失 {0}% 的魔力",
+    "en": "Lose {0}% of Mana on Kill while you have a Tincture active"
+  },
+  {
     "id": "recover_%_maximum_mana_when_enemy_frozen_permyriad",
     "zh": "你在冻结敌人时，回复 {0}% 魔力",
     "en": "Recover {0}% of Mana when you Freeze an Enemy"
@@ -53846,8 +54741,8 @@
   },
   {
     "id": "regenerate_1_rage_per_x_life_regeneration",
-    "zh": "每 {0} 点的每秒生命再生使你的怒火获得 1 点的每秒再生",
-    "en": "Regenerate 1 Rage per second for every {0} Life Recovery per second from Regeneration"
+    "zh": "生命每秒再生 {0}，怒火每秒再生 1 点\n不会延迟固有的怒火损失",
+    "en": "Regenerate 1 Rage per second for every {0} Life Recovery per second from Regeneration\nDoes not delay Inherent Loss of Rage"
   },
   {
     "id": "regenerate_1_rage_per_x_mana_regeneration",
@@ -54028,6 +54923,126 @@
     "id": "restore_energy_shield_and_mana_when_you_focus_%",
     "zh": "专注时补充 {0}% 的魔力和能量护盾",
     "en": "Recover {0}% of Mana and Energy Shield when you Focus"
+  },
+  {
+    "id": "restore_ward_on_hit_%",
+    "zh": "{0}% 的几率击中时恢复你的结界",
+    "en": "{0}% chance to Restore your Ward on Hit"
+  },
+  {
+    "id": "restore_ward_on_hit_%",
+    "zh": "击中时恢复你的结界",
+    "en": "Restores your Ward on Hit"
+  },
+  {
+    "id": "retaliation_skill_additional_use_window_duration_ms",
+    "zh": "反击技能的可使用时间额外延长 1 秒",
+    "en": "Retaliation Skills become Usable for an additional 1 second"
+  },
+  {
+    "id": "retaliation_skill_additional_use_window_duration_ms",
+    "zh": "反击技能的可使用时间额外延长 {0} 秒",
+    "en": "Retaliation Skills become Usable for an additional {0} seconds"
+  },
+  {
+    "id": "retaliation_skill_area_of_effect_+%",
+    "zh": "反击技能的效果范围扩大 {0}%",
+    "en": "Retaliation Skills have {0}% increased Area of Effect"
+  },
+  {
+    "id": "retaliation_skill_area_of_effect_+%",
+    "zh": "反击技能的效果范围缩小 {0}%",
+    "en": "Retaliation Skills have {0}% reduced Area of Effect"
+  },
+  {
+    "id": "retaliation_skill_cost_+%",
+    "zh": "反击技能的消耗提高 {0}%",
+    "en": "{0}% increased Cost of Retaliation Skills"
+  },
+  {
+    "id": "retaliation_skill_cost_+%",
+    "zh": "反击技能的消耗降低 {0}%",
+    "en": "{0}% reduced Cost of Retaliation Skills"
+  },
+  {
+    "id": "retaliation_skill_damage_+%",
+    "zh": "反击技能造成的伤害提高 {0}%",
+    "en": "Retaliation Skills deal {0}% increased Damage"
+  },
+  {
+    "id": "retaliation_skill_damage_+%",
+    "zh": "反击技能造成的伤害降低 {0}%",
+    "en": "Retaliation Skills deal {0}% reduced Damage"
+  },
+  {
+    "id": "retaliation_skill_keep_use_requirement_and_prevent_cooldown_on_use_chance_%",
+    "zh": "使用的反击技能有 {0}% 的几率仍可使用，并且不消耗冷却使用次数",
+    "en": "{0}% chance for used Retaliation Skills to remain Usable and not consume a Cooldown Use"
+  },
+  {
+    "id": "retaliation_skill_speed_+%",
+    "zh": "反击技能的速度加快 {0}%",
+    "en": "Retaliation Skills have {0}% increased Speed"
+  },
+  {
+    "id": "retaliation_skill_speed_+%",
+    "zh": "反击技能的速度减慢 {0}%",
+    "en": "Retaliation Skills have {0}% reduced Speed"
+  },
+  {
+    "id": "retaliation_skill_stun_duration_+%",
+    "zh": "反击技能对敌人造成的晕眩持续时间延长 {0}%",
+    "en": "Retaliation Skills have {0}% increased Stun Duration on Enemies"
+  },
+  {
+    "id": "retaliation_skill_stun_duration_+%",
+    "zh": "反击技能对敌人造成的晕眩持续时间缩短 {0}%",
+    "en": "Retaliation Skills have {0}% reduced Stun Duration on Enemies"
+  },
+  {
+    "id": "retaliation_skill_stun_threshold_+%",
+    "zh": "反击技能的敌人晕眩阈值提高 {0}%",
+    "en": "Retaliation Skills have {0}% increased Enemy Stun Threshold"
+  },
+  {
+    "id": "retaliation_skill_stun_threshold_+%",
+    "zh": "反击技能的敌人晕眩阈值降低 {0}%",
+    "en": "Retaliation Skills have {0}% reduced Enemy Stun Threshold"
+  },
+  {
+    "id": "retaliation_skills_all_ailment_duration_+%",
+    "zh": "反击技能造成的异常状态持续时间延长 {0}%",
+    "en": "{0}% increased Duration of Ailments inflicted by Retaliation Skills"
+  },
+  {
+    "id": "retaliation_skills_debilitate_on_hit_ms",
+    "zh": "反击技能击中时使敌人疲惫一秒",
+    "en": "Retaliation Skills Debilitate Enemies for a second on Hit"
+  },
+  {
+    "id": "retaliation_skills_debilitate_on_hit_ms",
+    "zh": "反击技能击中时使敌人疲惫 {0} 秒",
+    "en": "Retaliation Skills Debilitate Enemies for {0} seconds on Hit"
+  },
+  {
+    "id": "retaliation_skills_fortify_on_melee_hit",
+    "zh": "反射技能近战击中时获得护体",
+    "en": "Retaliation Skills Fortify on Melee Hit"
+  },
+  {
+    "id": "retaliation_skills_gain_X_rage_per_enemy_hit",
+    "zh": "反击技能击中时获得 {0} 点怒火",
+    "en": "Gain {0} Rage on Hit with Retaliation Skills"
+  },
+  {
+    "id": "retaliation_use_window_duration_+%",
+    "zh": "反击技能可用的持续时间延长 {0}%",
+    "en": "Retaliation Skills become Usable for {0}% longer"
+  },
+  {
+    "id": "retaliation_use_window_duration_+%",
+    "zh": "反击技能可用的持续时间缩短 {0}%",
+    "en": "Retaliation Skills become Usable for {0}% shorter"
   },
   {
     "id": "returned_projectile_speed_+%",
@@ -55335,6 +56350,11 @@
     "en": "{0}% to Spell Critical Strike Chance"
   },
   {
+    "id": "spell_and_attack_block_chance_is_lucky_if_blocked_recently",
+    "zh": "若近期格挡过，格挡攻击或法术伤害的几率特别幸运",
+    "en": "Chance to Block Attack or Spell Damage is Lucky if you've Blocked Recently"
+  },
+  {
     "id": "spell_and_attack_minimum_added_chaos_damage_during_flask_effect spell_and_attack_maximum_added_chaos_damage_during_flask_effect",
     "zh": "药剂持续期间，攻击和法术附加 {0}-{1} 基础混沌伤害",
     "en": "Adds {0} to {1} Chaos Damage to Spells and Attacks during any Flask Effect"
@@ -55396,28 +56416,33 @@
   },
   {
     "id": "spell_critical_strike_chance_+%_per_100_max_life",
-    "zh": "每 100 点玩家最大生命使法术暴击率提高 {0}%",
-    "en": "{0}% increased Critical Strike Chance for Spells per 100 Player Maximum Life"
+    "zh": "每 100 点生命上限使法术暴击几率提高 {0}%",
+    "en": "{0}% increased Spell Critical Strike Chance per 100 Player Maximum Life"
   },
   {
     "id": "spell_critical_strike_chance_+%_per_100_max_life",
-    "zh": "每 100 点玩家最大生命使法术暴击率降低 {0}%",
-    "en": "{0}% reduced Critical Strike Chance for Spells per 100 Player Maximum Life"
+    "zh": "每 100 点生命上限使法术暴击几率降低 {0}%",
+    "en": "{0}% reduced Spell Critical Strike Chance per 100 Player Maximum Life"
   },
   {
     "id": "spell_critical_strike_chance_+%_per_raised_spectre",
-    "zh": "每个【召唤灵体】会使法术暴击率提高 {0}%",
-    "en": "{0}% increased Critical Strike Chance for Spells per Raised Spectre"
+    "zh": "每个召唤的灵体使法术暴击几率提高 {0}%",
+    "en": "{0}% increased Spell Critical Strike Chance per Raised Spectre"
   },
   {
     "id": "spell_critical_strike_chance_+%_per_raised_spectre",
-    "zh": "每个【召唤灵体】会使暴击率降低 {0}%",
-    "en": "{0}% reduced Critical Strike Chance for Spells per Raised Spectre"
+    "zh": "每个召唤的灵体使法术暴击几率降低 {0}%",
+    "en": "{0}% reduced Spell Critical Strike Chance per Raised Spectre"
   },
   {
     "id": "spell_damage_%_suppressed_if_taken_a_savage_hit_recently",
     "zh": "若你近期受到残暴打击，穿透 {0}% 的压制法术伤害",
     "en": "Prevent {0}% of Suppressed Spell Damage if you've taken a Savage Hit Recently"
+  },
+  {
+    "id": "spell_damage_%_suppressed_per_bark_below_max",
+    "zh": "低于上限的每层树皮御体使被压制的法术伤害阻挡量 +{0}%",
+    "en": "Prevent +{0}% of Suppressed Spell Damage per Bark below maximum"
   },
   {
     "id": "spell_damage_%_suppressed_per_hit_suppressed_recently",
@@ -55705,6 +56730,11 @@
     "en": "{0}% chance to Suppress Spell Damage while on Full Life"
   },
   {
+    "id": "spells_chance_to_blind_on_hit_%",
+    "zh": "法术击中时有 {0}% 的几率致盲敌人",
+    "en": "{0}% chance to Blind Enemies on Hit with Spells"
+  },
+  {
     "id": "spells_chance_to_hinder_on_hit_%",
     "zh": "有 {0}% 的几率在法术击中时使敌人缓速",
     "en": "{0}% chance to Hinder Enemies on Hit with Spells"
@@ -55723,6 +56753,16 @@
     "id": "spells_chance_to_poison_on_hit_%",
     "zh": "法术伤害击中有 {0}% 的几率施加【中毒】",
     "en": "{0}% chance to Poison on Hit with Spell Damage"
+  },
+  {
+    "id": "spells_corrosion_on_hit_%",
+    "zh": "法术击中时有 {0}% 的几率造成腐蚀",
+    "en": "{0}% chance to inflict Corrosion on Hit with Spells"
+  },
+  {
+    "id": "spells_corrosion_on_hit_%",
+    "zh": "法术击中造成腐蚀",
+    "en": "Inflict Corrosion on Hit with Spells"
   },
   {
     "id": "spells_impale_on_hit_%_chance",
@@ -56278,6 +57318,11 @@
     "id": "stun_threshold_based_on_%_energy_shield_instead_of_life",
     "zh": "眩晕门槛按照 {0}% 的能量护盾计算，而非按照生命",
     "en": "Stun Threshold is based on {0}% of your Energy Shield instead of Life"
+  },
+  {
+    "id": "stun_threshold_+%_per_rage",
+    "zh": "每一点怒火还会使晕眩阈值提高 {0}%",
+    "en": "Every Rage also grants {0}% increased Stun Threshold"
   },
   {
     "id": "stun_threshold_reduction_+%_with_500_or_more_strength",
@@ -56930,6 +57975,41 @@
     "en": "Shard Projectiles Deal {0}% less Damage"
   },
   {
+    "id": "tincture_cooldown_recovery_+%",
+    "zh": "酊剂的冷却回复速度加快 {0}%",
+    "en": "{0}% increased Tincture Cooldown Recovery Rate"
+  },
+  {
+    "id": "tincture_cooldown_recovery_+%",
+    "zh": "酊剂的冷却回复速度减慢 {0}%",
+    "en": "{0}% reduced Tincture Cooldown Recovery Rate"
+  },
+  {
+    "id": "tincture_effect_+%_at_high_toxicity",
+    "zh": "叠加至少 10 层魔力燃烧时，酊剂的效果提高 {0}%",
+    "en": "Tinctures have {0}% increased effect while at or above 10 stacks of Mana Burn"
+  },
+  {
+    "id": "tincture_effect_+%_at_high_toxicity",
+    "zh": "叠加至少 10 层魔力燃烧时，酊剂的效果降低 {0}%",
+    "en": "Tinctures have {0}% reduced effect while at or above 10 stacks of Mana Burn"
+  },
+  {
+    "id": "tincture_effect_+%_if_used_life_flask_recently",
+    "zh": "若你近期使用过生命药剂，对你生效的酊剂效果提高 {0}%",
+    "en": "Tinctures applied to you have {0}% increased Effect if you've used a Life Flask Recently"
+  },
+  {
+    "id": "tincture_effect_+%_if_used_life_flask_recently",
+    "zh": "若你近期使用过生命药剂，对你生效的酊剂效果降低 {0}%",
+    "en": "Tinctures applied to you have {0}% reduced Effect if you've used a Life Flask Recently"
+  },
+  {
+    "id": "tincture_effects_linger_for_ms_per_toxicity_up_to_6_seconds",
+    "zh": "酊剂失效后，每层魔力燃烧使其效果在你身上持续 {0} 秒，最多 6 秒",
+    "en": "Tincture Effects Linger on you for {0} seconds per Mana Burn on you when the Tincture was deactivated, up to a maximum of 6 seconds"
+  },
+  {
     "id": "tincture_mod_effect_+%_per_empty_flask_slot",
     "zh": "每个空的药水栏位使对你生效的酊剂效果提高 {0}%",
     "en": "Tinctures applied to you have {0}% increased Effect per empty Flask Slot"
@@ -56938,6 +58018,26 @@
     "id": "tincture_mod_effect_+%_per_empty_flask_slot",
     "zh": "每个空的药水栏位使对你生效的酊剂效果降低 {0}%",
     "en": "Tinctures applied to you have {0}% reduced Effect per empty Flask Slot"
+  },
+  {
+    "id": "tincture_toxicity_rate_+%",
+    "zh": "对你生效的酊剂的魔力燃烧速度加快 {0}%",
+    "en": "Tinctures applied to you have {0}% increased Mana Burn rate"
+  },
+  {
+    "id": "tincture_toxicity_rate_+%",
+    "zh": "对你生效的酊剂的魔力燃烧速度减慢 {0}%",
+    "en": "Tinctures applied to you have {0}% reduced Mana Burn rate"
+  },
+  {
+    "id": "tinctures_can_apply_to_ranged_weapons",
+    "zh": "酊剂效果也能对远程武器生效",
+    "en": "Tincture Effects also apply to Ranged Weapons"
+  },
+  {
+    "id": "tinctures_deactivate_on_reaching_X_toxicity",
+    "zh": "拥有 {0} 层及以上的魔力燃烧时取消酊剂效果",
+    "en": "Tinctures deactivate when you have {0} or more Mana Burn"
   },
   {
     "id": "tornado_damage_frequency_+%",
@@ -57180,6 +58280,16 @@
     "en": "{0}% reduced Trap and Mine Throwing Speed"
   },
   {
+    "id": "trap_cooldown_speed_+%_per_recent_mine_detonation",
+    "zh": "近期每引爆一个地雷，投掷陷阱的冷却回复速度降低 {0}%",
+    "en": "{0}% reduced Cooldown Recovery Rate for throwing Traps per Mine Detonated Recently"
+  },
+  {
+    "id": "trap_cooldown_speed_+%_per_recent_mine_detonation",
+    "zh": "近期每引爆一个地雷，投掷陷阱的冷却回复速度提高 {0}%",
+    "en": "{0}% increased Cooldown Recovery Rate for throwing Traps per Mine Detonated Recently"
+  },
+  {
     "id": "trap_skill_added_cooldown_count",
     "zh": "陷阱投掷技能 +1 冷却时间次数",
     "en": "Skills which Throw Traps have +1 Cooldown Use"
@@ -57188,6 +58298,16 @@
     "id": "trap_skill_added_cooldown_count",
     "zh": "陷阱投掷技能 +{0} 冷却时间次数",
     "en": "Skills which Throw Traps have +{0} Cooldown Uses"
+  },
+  {
+    "id": "trap_skill_effect_duration_+%",
+    "zh": "陷阱技能的技能效果持续时间延长 {0}%",
+    "en": "Trap Skills have {0}% increased Skill Effect Duration"
+  },
+  {
+    "id": "trap_skill_effect_duration_+%",
+    "zh": "陷阱技能的技能效果持续时间缩短 {0}%",
+    "en": "Trap Skills have {0}% reduced Skill Effect Duration"
   },
   {
     "id": "trap_spread_+%",
@@ -57338,6 +58458,11 @@
     "id": "uber_domain_monster_critical_strike_multiplier_+%_per_revival",
     "zh": "怪物的暴击伤害加成在每次再生时提高 {0}%",
     "en": "Monsters gain {0}% additional Critical Strike Multiplier each time they are Revived"
+  },
+  {
+    "id": "uber_domain_monster_damage_+%_per_revival",
+    "zh": "怪物在每次再生时造成的伤害提高 {0}%",
+    "en": "Monsters deal {0}% increased Damage for each time they have been Revived"
   },
   {
     "id": "uber_domain_monster_deal_double_damage_chance_%_per_revival",
@@ -58150,6 +59275,11 @@
     "en": "Warcries Debilitate Enemies for 1 second"
   },
   {
+    "id": "warcries_exert_twice_as_many_attacks",
+    "zh": "战吼增助的攻击次数翻倍",
+    "en": "Warcries Exert twice as many Attacks"
+  },
+  {
     "id": "warcries_have_minimum_10_power",
     "zh": "战吼至少有 10 点威力值",
     "en": "Warcries have a minimum of 10 Power"
@@ -58215,6 +59345,11 @@
     "en": "Warcries Exert {0} additional Attacks"
   },
   {
+    "id": "warcry_grant_X_rage_per_5_power",
+    "zh": "战吼使每 5 点敌人威力值产生 {0} 点怒火，最多 5 点",
+    "en": "Warcries grant {0} Rage per 5 Enemy Power, up to 5"
+  },
+  {
     "id": "warcry_monster_power_+%",
     "zh": "战吼计入的总威力值提高 {0}%",
     "en": "{0}% increased total Power counted by Warcries"
@@ -58250,6 +59385,21 @@
     "en": "Warcry Skills' Cooldown Time is 4 seconds"
   },
   {
+    "id": "ward_instead_of_%_body_armour_and_evasion",
+    "zh": "装备胸甲的护甲和闪避值的 {0}% 转为结界",
+    "en": "Gain Ward instead of {0}% of Armour and Evasion Rating from Equipped Body Armour"
+  },
+  {
+    "id": "warden_tincture_toxicity_rate_+%_final",
+    "zh": "对你生效的酊剂的魔力燃烧速度总增 {0}%",
+    "en": "Tinctures applied to you have {0}% more Mana Burn rate"
+  },
+  {
+    "id": "warden_tincture_toxicity_rate_+%_final",
+    "zh": "对你生效的酊剂的魔力燃烧速度总降 {0}%",
+    "en": "Tinctures applied to you have {0}% less Mana Burn rate"
+  },
+  {
     "id": "warden_tracker",
     "zh": "120 米内的稀有和传奇敌人显示小地图标记",
     "en": "Rare and Unique Enemies within 120 metres have Minimap Icons"
@@ -58281,13 +59431,13 @@
   },
   {
     "id": "weapon_tree_counterattacks_damage_+%_final",
-    "zh": "你的反击造成的伤害总增 {0}%",
-    "en": "Your Counterattacks deal {0}% more Damage"
+    "zh": "反击技能造成的伤害总增 {0}%",
+    "en": "Retaliation Skills deal {0}% more Damage"
   },
   {
     "id": "weapon_tree_counterattacks_damage_+%_final",
-    "zh": "你的反击造成的伤害总降 {0}%",
-    "en": "Your Counterattacks deal {0}% less Damage"
+    "zh": "反击技能造成的伤害总降 {0}%",
+    "en": "Retaliation Skills deal {0}% less Damage"
   },
   {
     "id": "weapon_tree_damage_+%_final",
@@ -58311,13 +59461,13 @@
   },
   {
     "id": "weapon_tree_local_sell_price_awakened_sextant",
-    "zh": "[DNT]出售物品可额外获得每种类型的制图者圣甲虫各一个",
-    "en": "[DNT] Item sells for an additional Cartography Scarab of every type"
+    "zh": "出售物品可额外获得每种类型的制图者圣甲虫各一个",
+    "en": "Item sells for an additional Cartography Scarab of every type"
   },
   {
     "id": "weapon_tree_local_sell_price_awakened_sextant",
-    "zh": "[DNT]出售物品可额外获得每种类型的制图者圣甲虫各 {0} 个",
-    "en": "[DNT] Item sells for {0} additional Cartography Scarabs of every type"
+    "zh": "出售物品可额外获得每种类型的制图者圣甲虫各 {0} 个",
+    "en": "Item sells for {0} additional Cartography Scarabs of every type"
   },
   {
     "id": "weapon_tree_local_sell_price_blessed_orb",
@@ -59005,6 +60155,11 @@
     "en": "Survival"
   },
   {
+    "id": "lose_X_bark_on_enemy_spell_hit",
+    "zh": "受到敌人的法术击中伤害时失去 {0} 层树皮御体",
+    "en": "Lose {0} Bark when Hit by Enemy Spell Damage"
+  },
+  {
     "id": "max_fortification_while_affected_by_glorious_madness_+1_per_4",
     "zh": "护体上限在受疯狂荣光影响时 {0}",
     "en": "{0} to maximum Fortification while affected by Glorious Madness"
@@ -59196,8 +60351,8 @@
   },
   {
     "id": "keystone_call_to_arms",
-    "zh": "督军的号召",
-    "en": "Warlord's Call"
+    "zh": "武装召唤",
+    "en": "Call to Arms"
   },
   {
     "id": "keystone_chaos_inoculation",
@@ -59350,6 +60505,11 @@
     "en": "Zealot's Oath"
   },
   {
+    "id": "keystone_retaliation_hits",
+    "zh": "复仇军库",
+    "en": "Arsenal of Vengeance"
+  },
+  {
     "id": "keystone_runebinder",
     "zh": "符文绑定者",
     "en": "Runebinder"
@@ -59368,6 +60528,11 @@
     "id": "keystone_shared_suffering",
     "zh": "苦痛共享",
     "en": "Shared Suffering"
+  },
+  {
+    "id": "keystone_shepherd_of_souls",
+    "zh": "灵魂牧者",
+    "en": "Shepherd of Souls"
   },
   {
     "id": "keystone_solipsism",
@@ -59393,6 +60558,11 @@
     "id": "keystone_supreme_ego",
     "zh": "无上自我",
     "en": "Supreme Ego"
+  },
+  {
+    "id": "keystone_tinctures_drain_life",
+    "zh": "喋血之刃",
+    "en": "Bloodsoaked Blade"
   },
   {
     "id": "keystone_unwavering_stance",
@@ -59776,8 +60946,8 @@
   },
   {
     "id": "keystone_vaal_pact",
-    "zh": "生命偷取的每秒总回复效果翻倍\n从生命偷取中获得的每秒最大总回复量翻倍\n不再拥有生命恢复",
-    "en": "Total Recovery per second from Life Leech is doubled\nMaximum total Life Recovery per second from Leech is doubled\nYou have no Life Regeneration"
+    "zh": "近战伤害的生命偷取立即生效\n无法通过非偷取途径回复生命",
+    "en": "Life Leech from Melee Damage is Instant\nCannot Recover Life other than from Leech"
   },
   {
     "id": "regenerate_energy_shield_instead_of_life",
@@ -59952,7 +61122,7 @@
   {
     "id": "keystone_crimson_dance",
     "zh": "你可以对 1 个敌人造成最多 8 次流血\n当敌人移动时，你的流血无法造成额外伤害\n流血伤害总降 50%",
-    "en": "You can inflict Bleeding on an Enemy up to 8 times\nYour Bleeding does not deal extra Damage while the Enemy is moving\n50% less Damage with Bleeding"
+    "en": "You can inflict Bleeding on an Enemy up to 8 times\nYour Bleeding does not deal extra Damage while the Enemy is moving and cannot be Aggravated\n50% less Damage with Bleeding"
   },
   {
     "id": "life_mastery_nearby_enemy_life_regeneration_rate_+%",
@@ -60011,8 +61181,8 @@
   },
   {
     "id": "keystone_ailment_crit",
-    "zh": "暴击造成异常状态时，用于暴击伤害加成的词缀也套用于持续伤害加成，等于其数值的 50%\n击中的伤害总降 30%",
-    "en": "Modifiers to Critical Strike Multiplier also apply to Damage over Time Multiplier for Ailments from Critical Strikes at 50% of their value\n30% less Damage with Hits"
+    "zh": "异常状态的持续伤害加成等同于暴击加成\n暴击不造成额外伤害\n非暴击无法造成异常状态",
+    "en": "Damage over Time Multiplier for Ailments is equal to Critical Strike Multiplier\nCritical Strikes do not deal extra Damage\nNon-Critical Strikes cannot inflict Ailments"
   },
   {
     "id": "keystone_barbed_tips",
@@ -60026,8 +61196,8 @@
   },
   {
     "id": "keystone_call_to_arms",
-    "zh": "战吼不再增助攻击\n战吼还会为附近的友军提供增益",
-    "en": "Warcries no longer Exert Attacks\nWarcries also grant their buffs to nearby allies"
+    "zh": "你的战吼不为你提供增益或能量球\n战吼持续时间总增 100%",
+    "en": "Your Warcries do not grant Buffs or Charges to You\n100% more Warcry Duration"
   },
   {
     "id": "keystone_corrupted_defences",
@@ -60066,8 +61236,8 @@
   },
   {
     "id": "keystone_focused_rage",
-    "zh": "再生时魔力回复无效\n魔力每秒再生25点，怒火再生1点\n技能消耗+3点怒火",
-    "en": "Mana Recovery from Regeneration is not applied\n1 Rage Regenerated for every 25 Mana Regeneration per Second\nSkills Cost +3 Rage"
+    "zh": "再生时魔力回复无效\n魔力每秒再生 25 点，怒火再生 1 点\n不会延迟固有的怒火损失\n技能消耗 +3 点怒火",
+    "en": "Mana Recovery from Regeneration is not applied\n1 Rage Regenerated for every 25 Mana Regeneration per Second\nDoes not delay Inherent Loss of Rage\nSkills Cost +3 Rage"
   },
   {
     "id": "keystone_ghost_dance",
@@ -60096,8 +61266,8 @@
   },
   {
     "id": "keystone_impale",
-    "zh": "你击中穿刺的敌人时，也穿刺他周围的其它敌人\n对你穿刺的敌人施加 4 次额外穿刺\n你穿刺敌人后 4 秒内不能对它重复穿刺，并且这些穿刺无法被呼唤",
-    "en": "When your Hits Impale Enemies, also Impale other Enemies near them\nInflict 4 additional Impales on Enemies you Impale\nFor 4 seconds after you Impale Enemies, they cannot be Impaled again, and Impales cannot be Called from them"
+    "zh": "你击中穿刺的敌人时，也穿刺他周围的其它敌人\n对你穿刺的敌人施加 5 次额外穿刺\n你穿刺敌人后 5 秒内不能对它重复穿刺，并且这些穿刺无法被呼唤",
+    "en": "When your Hits Impale Enemies, also Impale other Enemies near them\nInflict 5 additional Impales on Enemies you Impale\nFor 5 seconds after you Impale Enemies, they cannot be Impaled again, and Impales cannot be Called from them"
   },
   {
     "id": "keystone_lethe_shade",
@@ -60153,6 +61323,11 @@
     "id": "keystone_quiet_might",
     "zh": "每个暴击球使法术伤害总增 3%\n获得暴击球来取代狂怒球",
     "en": "3% more Spell Damage per Power Charge\nGain Power Charges instead of Frenzy Charges"
+  },
+  {
+    "id": "keystone_retaliation_hits",
+    "zh": "伤害性反击技能改为被敌人击中六次后可用",
+    "en": "Damaging Retaliation Skills become Usable every sixth Hit from Enemies instead"
   },
   {
     "id": "keystone_runebinder",
@@ -60215,14 +61390,19 @@
     "en": "50% of Cold and Lightning Damage taken as Fire Damage\n50% less Cold Resistance\n50% less Lightning Resistance"
   },
   {
+    "id": "keystone_tinctures_drain_life",
+    "zh": "酊剂造成泣血创伤，而非魔力燃烧\n与魔力燃烧互动的效果改为对泣血创伤生效",
+    "en": "Tinctures inflict Weeping Wounds instead of Mana Burn\nEffects that interact with Mana Burn interact with Weeping Wounds instead"
+  },
+  {
     "id": "keystone_hollow_palm_technique",
     "zh": "你在无负重状态下视为双持武器\n你在无负重状态下近战技能的攻击速度总增 40%\n你在无负重状态下每 10 点敏捷都使近战技能附加 14 到 20 点物理攻击伤害",
     "en": "You count as Dual Wielding while you are Unencumbered\n40% more Attack Speed with Melee Skills while you are Unencumbered\nAdds 14 to 20 Attack Physical Damage to Melee Skills per 10 Dexterity while you are Unencumbered"
   },
   {
     "id": "keystone_versatile_combatant",
-    "zh": "攻击伤害格挡率上限 -25%\n法术伤害格挡率上限 -25%\n法术伤害格挡率按照每 1% 超量的攻击伤害格挡率 +2%",
-    "en": "-25% to maximum Chance to Block Attack Damage\n-25% to maximum Chance to Block Spell Damage\n+2% Chance to Block Spell Damage for each 1% Overcapped Chance to Block Attack Damage"
+    "zh": "攻击伤害格挡率上限 -10%\n法术伤害格挡率上限 -10%\n法术伤害格挡率按照每 1% 超量的攻击伤害格挡率 +2%",
+    "en": "-10% to maximum Chance to Block Attack Damage\n-10% to maximum Chance to Block Spell Damage\n+2% Chance to Block Spell Damage for each 1% Overcapped Chance to Block Attack Damage"
   },
   {
     "id": "keystone_veterans_awareness",
@@ -60245,384 +61425,644 @@
     "en": "Strength's Damage bonus applies to all Spell Damage as well"
   },
   {
-    "id": "all_damage_with_weapons_can_freeze",
-    "zh": "所有伤害可以造成冻结",
-    "en": "All Damage can Freeze"
+    "id": "stun_threshold_reduction_+%_with_tinctured_weapons",
+    "zh": "近战武器使敌人的晕眩阈值降低 {0}%",
+    "en": "{0}% reduced Enemy Stun Threshold with Melee Weapons"
   },
   {
-    "id": "all_damage_with_weapons_can_ignite",
-    "zh": "所有伤害可以造成点燃",
-    "en": "All Damage can Ignite"
+    "id": "stun_threshold_reduction_+%_with_tinctured_weapons",
+    "zh": "近战武器使敌人的晕眩阈值提高 {0}%",
+    "en": "{0}% increased Enemy Stun Threshold with Melee Weapons"
   },
   {
-    "id": "all_damage_with_weapons_can_poison",
-    "zh": "所有伤害可以造成中毒",
-    "en": "All Damage can Poison"
+    "id": "chance_to_bleed_on_hit_%_with_tinctured_weapons",
+    "zh": "近战武器有 {0}% 的几率造成流血",
+    "en": "{0}% chance to cause Bleeding with Melee Weapons"
   },
   {
-    "id": "all_damage_with_weapons_can_shock",
-    "zh": "所有伤害可以造成感电",
-    "en": "All Damage can Shock"
+    "id": "chance_to_blind_on_hit_%_with_tinctured_weapons",
+    "zh": "近战武器击中时有 {0}% 的几率致盲敌人",
+    "en": "{0}% chance to Blind Enemies on Hit with Melee Weapons"
   },
   {
-    "id": "always_stun_enemies_that_are_on_full_life_with_weapons",
-    "zh": "击中满血敌人并造成伤害时必定使其晕眩",
-    "en": "Damaging Hits always Stun Enemies that are on Full Life"
+    "id": "local_cannot_generate_toxicity_stacks_over_time",
+    "zh": "不会持续造成魔力燃烧",
+    "en": "Does not inflict Mana Burn over time"
   },
   {
-    "id": "apply_X_wither_stacks_for_2_seconds_vs_enemies_that_are_on_full_life_with_weapons",
-    "zh": "击中满血敌人时施加 {0} 层死亡凋零减益，持续 2 秒",
-    "en": "Hits Inflict {0} Withered Debuffs for 2 seconds on Enemies that are on Full Life"
+    "id": "toxicity_stacks_gained_on_hit_with_tinctured_weapons",
+    "zh": "近战武器击中敌人时对你造成魔力燃烧",
+    "en": "Inflicts Mana Burn on you when you Hit an Enemy with a Melee Weapon"
   },
   {
-    "id": "base_killed_monster_from_weapon_attack_dropped_item_rarity_+%",
-    "zh": "击败敌人后掉落物品的稀有度提高 {0}%",
-    "en": "{0}% increased Rarity of Items Dropped by Slain Enemies"
+    "id": "toxicity_stacks_gained_on_hit_with_tinctured_weapons",
+    "zh": "近战武器击中敌人时对你造成 {0} 层魔力燃烧",
+    "en": "Inflicts {0} Mana Burn on you when you Hit an Enemy with a Melee Weapon"
   },
   {
-    "id": "base_killed_monster_from_weapon_attack_dropped_item_rarity_+%",
-    "zh": "击败敌人后掉落物品的稀有度降低 {0}%",
-    "en": "{0}% reduced Rarity of Items Dropped by Slain Enemies"
+    "id": "item_rarity_+%_per_toxicity_up_to_100%_from_tincture",
+    "zh": "每层魔力燃烧使物品稀有度提高 {0}%，最多 100%",
+    "en": "{0}% increased Rarity of Items found per Mana Burn, up to a maximum of 100%"
   },
   {
-    "id": "base_mana_gained_on_weapon_kill",
-    "zh": "每击败一名敌人获得{0}点魔力",
-    "en": "Gain {0} Mana per Enemy Killed"
+    "id": "all_damage_with_tinctured_weapons_can_freeze",
+    "zh": "近战武器的所有伤害可以造成冻结",
+    "en": "All Damage with Melee Weapons can Freeze"
   },
   {
-    "id": "base_mana_gained_on_weapon_kill",
-    "zh": "每击败一名敌人损失{0}点魔力",
-    "en": "Lose {0} Mana per Enemy Killed"
+    "id": "all_damage_with_tinctured_weapons_can_ignite",
+    "zh": "近战武器的所有伤害可以造成点燃",
+    "en": "All Damage with Melee Weapons can Ignite"
   },
   {
-    "id": "chance_to_apply_grasping_vines_on_weapon_hit_%",
-    "zh": "击中时有 {0}% 的几率施加一层缓速藤蔓",
-    "en": "{0}% chance to inflict a Grasping Vine on Hit"
+    "id": "all_damage_with_tinctured_weapons_can_poison",
+    "zh": "近战武器的所有伤害可以造成中毒",
+    "en": "All Damage with Melee Weapons can Poison"
   },
   {
-    "id": "chance_to_apply_grasping_vines_on_weapon_hit_%",
-    "zh": "击中时施加一层缓速藤蔓",
-    "en": "Inflict a Grasping Vine on Hit"
+    "id": "all_damage_with_tinctured_weapons_can_shock",
+    "zh": "近战武器的所有伤害可以造成感电",
+    "en": "All Damage with Melee Weapons can Shock"
   },
   {
-    "id": "create_consecrated_ground_on_weapon_hit_%_vs_rare_or_unique_enemy",
-    "zh": "击击中稀有或传奇敌人时，有 {0}% 的几率创造奉献地面，持续 8 秒",
-    "en": "{0}% chance to create Consecrated Ground when you Hit a Rare or Unique Enemy, lasting 8 seconds"
+    "id": "always_stun_enemies_that_are_on_full_life_with_tinctured_weapons",
+    "zh": "近战武器击中满血敌人并造成伤害时必定使其晕眩",
+    "en": "Damaging Melee Weapon Hits always Stun Enemies that are on Full Life"
   },
   {
-    "id": "culling_strike_with_weapons",
-    "zh": "终结",
-    "en": "Culling Strike"
+    "id": "apply_X_wither_stacks_for_2_seconds_with_tinctured_weapons",
+    "zh": "近战武器击中施加 {0} 层死亡凋零减益，持续 2 秒",
+    "en": "Melee Weapon Hits Inflict {0} Withered Debuffs for 2 seconds"
   },
   {
-    "id": "explode_enemies_for_10%_life_as_fire_on_weapon_kill_chance_%",
-    "zh": "击败敌人时有 {0}% 的几率使其爆炸，造成其生命上限十分之一的火焰伤害",
-    "en": "Killing Blows have a {0}% chance for Enemies to Explode, dealing a tenth of their maximum Life as Fire Damage"
+    "id": "base_killed_monster_from_tinctured_weapon_attack_dropped_item_rarity_+%",
+    "zh": "近战武器攻击击败的敌人掉落的物品稀有度提高 {0}%",
+    "en": "{0}% increased Rarity of Items Dropped by Enemies killed by Melee Weapon Attacks"
   },
   {
-    "id": "flask_charges_granted_from_weapon_kills_+%",
-    "zh": "消灭获得的药剂充能提高 {0}%",
-    "en": "{0}% increased Flask Charges gained from Kills"
+    "id": "base_killed_monster_from_tinctured_weapon_attack_dropped_item_rarity_+%",
+    "zh": "近战武器攻击击败的敌人掉落的物品稀有度降低 {0}%",
+    "en": "{0}% reduced Rarity of Items Dropped by Enemies killed by Melee Weapon Attacks"
   },
   {
-    "id": "flask_charges_granted_from_weapon_kills_+%",
-    "zh": "消灭获得的药剂充能降低 {0}%",
-    "en": "{0}% reduced Flask Charges gained from Kills"
+    "id": "bleeding_damage_+%_with_tinctured_weapons",
+    "zh": "近战武器造成的流血伤害提高 {0}%",
+    "en": "{0}% increased Damage with Bleeding from Melee Weapons"
   },
   {
-    "id": "gain_1_rare_monster_mod_on_killing_blow_with_weapons_for_60_seconds_%_chance",
-    "zh": "击败稀有敌人时有 {0}% 的几率\n获得它的一项属性词缀，持续 60 秒",
-    "en": "Killing Blows against Rare Monsters have a {0}% chance\nto grant one of their Modifiers for 60 seconds"
+    "id": "bleeding_damage_+%_with_tinctured_weapons",
+    "zh": "近战武器造成的流血伤害降低 {0}%",
+    "en": "{0}% reduced Damage with Bleeding from Melee Weapons"
   },
   {
-    "id": "gain_rage_on_hitting_rare_unique_enemy_with_weapon_%",
-    "zh": "击中稀有或传奇敌人时，有 {0}% 的几率获得 1 点怒火",
-    "en": "{0}% chance to gain 1 Rage when you Hit a Rare or Unique Enemy"
+    "id": "blind_effect_+%_with_tinctured_weapons",
+    "zh": "近战武器造成的致盲效果提高 {0}%",
+    "en": "{0}% increased Effect of Blind from Melee Weapons"
   },
   {
-    "id": "gain_rage_on_hitting_rare_unique_enemy_with_weapon_%",
-    "zh": "击中稀有或传奇敌人时，会获得 1 点怒火",
-    "en": "Gain 1 Rage when you Hit a Rare or Unique Enemy"
+    "id": "blind_effect_+%_with_tinctured_weapons",
+    "zh": "近战武器造成的致盲效果降低 {0}%",
+    "en": "{0}% reduced Effect of Blind from Melee Weapons"
   },
   {
-    "id": "leech_%_is_instant_with_weapons_vs_low_life_enemies",
-    "zh": "对低血敌人的 {0}% 的偷取立即生效",
-    "en": "{0}% of Leech is Instant against Low Life Enemies"
+    "id": "chance_to_apply_grasping_vines_on_tinctured_weapon_hit_%",
+    "zh": "近战武器击中时有 {0}% 的几率施加一层缓速藤蔓",
+    "en": "{0}% chance to inflict a Grasping Vine on Melee Weapon Hit"
   },
   {
-    "id": "life_leech_on_overkill_weapon_damage_%",
-    "zh": "溢出伤害的 {0}% 转为生命偷取",
-    "en": "{0}% of Overkill Damage is Leeched as Life"
+    "id": "chance_to_apply_grasping_vines_on_tinctured_weapon_hit_%",
+    "zh": "近战武器击中时施加一层缓速藤蔓",
+    "en": "Inflict a Grasping Vine on Melee Weapon Hit"
   },
   {
-    "id": "mana_regeneration_rate_+%_if_enemy_shocked_with_weapon_recently",
-    "zh": "若你近期内使敌人感电，则魔力回复速度加快 {0}%",
-    "en": "{0}% increased Mana Regeneration Rate if you have Shocked an Enemy Recently"
+    "id": "chance_to_block_attack_damage_if_stunned_an_enemy_with_tinctured_weapon_recently_+%",
+    "zh": "若你近期使用近战武器令敌人晕眩，格挡攻击伤害的几率 +{0}%",
+    "en": "+{0}% Chance to Block Attack Damage if you've Stunned an Enemy with a Melee Weapon Recently"
   },
   {
-    "id": "mana_regeneration_rate_+%_if_enemy_shocked_with_weapon_recently",
-    "zh": "若你近期内使敌人感电，则魔力回复速度减慢 {0}%",
-    "en": "{0}% reduced Mana Regeneration Rate if you have Shocked an Enemy Recently"
+    "id": "chance_to_freeze_%_with_tinctured_weapons",
+    "zh": "近战武器有 {0}% 的几率造成冻结",
+    "en": "{0}% chance to Freeze with Melee Weapons"
   },
   {
-    "id": "melee_splash_with_weapons melee_splash_area_of_effect_+%",
+    "id": "chance_to_ignite_%_with_tinctured_weapons",
+    "zh": "近战武器有 {0}% 的几率造成点燃",
+    "en": "{0}% chance to Ignite with Melee Weapons"
+  },
+  {
+    "id": "chance_to_poison_on_hit_%_with_tinctured_weapons",
+    "zh": "近战武器有 {0}% 的几率造成中毒",
+    "en": "{0}% chance to Poison with Melee Weapons"
+  },
+  {
+    "id": "chance_to_shock_%_with_tinctured_weapons",
+    "zh": "近战武器有 {0}% 的几率造成感电",
+    "en": "{0}% chance to Shock with Melee Weapons"
+  },
+  {
+    "id": "chill_effect_+%_with_tinctured_weapons",
+    "zh": "近战武器的冰缓效果提高 {0}%",
+    "en": "{0}% increased Effect of Chill from Melee Weapons"
+  },
+  {
+    "id": "chill_effect_+%_with_tinctured_weapons",
+    "zh": "近战武器的冰缓效果降低 {0}%",
+    "en": "{0}% reduced Effect of Chill from Melee Weapons"
+  },
+  {
+    "id": "create_consecrated_ground_on_tinctured_weapon_hit_%_vs_rare_or_unique_enemy",
+    "zh": "近战武器击中稀有或传奇敌人时有 {0}% 的几率\n创造奉献地面，持续8秒",
+    "en": "{0}% chance to create Consecrated Ground when you Hit a Rare or\nUnique Enemy with a Melee Weapon, lasting 8 seconds"
+  },
+  {
+    "id": "critical_strike_chance_+%_with_tinctured_weapons",
+    "zh": "近战武器暴击几率提高 {0}%",
+    "en": "{0}% increased Critical Strike Chance with Melee Weapons"
+  },
+  {
+    "id": "critical_strike_chance_+%_with_tinctured_weapons",
+    "zh": "近战武器暴击几率降低 {0}%",
+    "en": "{0}% reduced Critical Strike Chance with Melee Weapons"
+  },
+  {
+    "id": "culling_strike_with_tinctured_weapons",
+    "zh": "近战武器攻击具有终结效果",
+    "en": "Melee Weapon Attacks have Culling Strike"
+  },
+  {
+    "id": "elemental_damage_+%_with_tinctured_weapons",
+    "zh": "近战武器造成的元素伤害提高 {0}%",
+    "en": "{0}% increased Elemental Damage with Melee Weapons"
+  },
+  {
+    "id": "elemental_damage_+%_with_tinctured_weapons",
+    "zh": "近战武器造成的元素伤害降低 {0}%",
+    "en": "{0}% reduced Elemental Damage with Melee Weapons"
+  },
+  {
+    "id": "explode_enemies_for_10%_life_as_fire_on_tinctured_weapon_kill_chance_%",
+    "zh": "近战武器击败敌人时有 {0}% 的几率使其爆炸，\n造成其生命上限十分之一的火焰伤害",
+    "en": "Killing Blows with Melee Weapons have a {0}% chance for Enemies to\nExplode, dealing a tenth of their maximum Life as Fire Damage"
+  },
+  {
+    "id": "fire_damage_taken_+_per_toxicity_from_tincture",
+    "zh": "每层魔力燃烧使受到的击中火焰伤害 {0}",
+    "en": "{0} Fire Damage taken from Hits per Mana Burn"
+  },
+  {
+    "id": "gain_1_rare_monster_mod_on_killing_blow_with_tinctured_weapons_for_60_seconds_%_chance",
+    "zh": "近战武器击败稀有敌人时有 {0}% 的几率\n获得它的一项属性词缀，持续 60 秒",
+    "en": "Killing Blows with Melee Weapons against Rare Monsters have a\n{0}% chance to grant one of their Modifiers for 60 seconds"
+  },
+  {
+    "id": "gain_rage_on_hitting_rare_unique_enemy_with_tinctured_weapon_%",
+    "zh": "近战武器击中稀有或传奇敌人时有 {0}% 的几率获得 1 点怒火",
+    "en": "{0}% chance to gain 1 Rage when you Hit a Rare or Unique Enemy with a Melee Weapon"
+  },
+  {
+    "id": "gain_rage_on_hitting_rare_unique_enemy_with_tinctured_weapon_%",
+    "zh": "近战武器击中稀有或传奇敌人时获得 1 点怒火",
+    "en": "Gain 1 Rage when you Hit a Rare or Unique Enemy with a Melee Weapon"
+  },
+  {
+    "id": "gain_x_rage_on_hit_with_tinctured_weapons",
+    "zh": "近战武器击中时获得 {0} 点怒火",
+    "en": "Gain {0} Rage on Melee Weapon Hit"
+  },
+  {
+    "id": "hits_ignore_enemy_monster_physical_damage_reduction_%_chance_with_tinctured_weapons",
+    "zh": "近战武器击中有 {0}% 的几率忽略敌人的物理伤害减免",
+    "en": "Melee Weapon Hits have {0}% chance to ignore Enemy Physical Damage Reduction"
+  },
+  {
+    "id": "hits_ignore_enemy_monster_physical_damage_reduction_%_chance_with_tinctured_weapons",
+    "zh": "近战武器击中忽略敌人的物理伤害减免",
+    "en": "Melee Weapon Hits ignore Enemy Physical Damage Reduction"
+  },
+  {
+    "id": "ignite_damage_+%_with_tinctured_weapons",
+    "zh": "近战武器造成的点燃伤害提高 {0}%",
+    "en": "{0}% increased Damage with Ignite from Melee Weapons"
+  },
+  {
+    "id": "ignite_damage_+%_with_tinctured_weapons",
+    "zh": "近战武器造成的点燃伤害降低 {0}%",
+    "en": "{0}% reduced Damage with Ignite from Melee Weapons"
+  },
+  {
+    "id": "leech_%_is_instant_with_tinctured_weapons_vs_low_life_enemies",
+    "zh": "对低血敌人造成的近战武器偷取有 {0}% 立即生效",
+    "en": "{0}% of Melee Weapon Leech is Instant against Enemies that are on Low Life"
+  },
+  {
+    "id": "life_leech_on_overkill_tinctured_weapon_damage_%",
+    "zh": "近战武器造成溢出伤害的 {0}% 转化为生命偷取",
+    "en": "{0}% of Overkill Damage with Melee Weapons is Leeched as Life"
+  },
+  {
+    "id": "mana_regeneration_rate_+%_if_enemy_shocked_with_tinctured_weapon_recently",
+    "zh": "若近期使用近战武器令敌人感电，魔力再生率提高 {0}%",
+    "en": "{0}% increased Mana Regeneration Rate if you have Shocked an Enemy with a Melee Weapon Recently"
+  },
+  {
+    "id": "mana_regeneration_rate_+%_if_enemy_shocked_with_tinctured_weapon_recently",
+    "zh": "若近期使用近战武器令敌人感电，魔力再生率降低 {0}%",
+    "en": "{0}% reduced Mana Regeneration Rate if you have Shocked an Enemy with a Melee Weapon Recently"
+  },
+  {
+    "id": "melee_splash_with_tinctured_weapons melee_splash_area_of_effect_+%",
     "zh": "近战打击技能对周围目标造成溅射伤害",
     "en": "Melee Strike Skills deal Splash Damage to surrounding targets"
   },
   {
-    "id": "melee_splash_with_weapons melee_splash_area_of_effect_+%",
+    "id": "melee_splash_with_tinctured_weapons melee_splash_area_of_effect_+%",
     "zh": "近战打击技能对周围目标造成溅射伤害，其效果范围扩大 {0}%",
     "en": "Melee Strike Skills deal Splash Damage to surrounding targets, with {0}% increased Area of Effect"
   },
   {
-    "id": "melee_splash_with_weapons melee_splash_area_of_effect_+%",
+    "id": "melee_splash_with_tinctured_weapons melee_splash_area_of_effect_+%",
     "zh": "近战打击技能对周围目标造成溅射伤害，其效果范围缩小 {0}%",
     "en": "Melee Strike Skills deal Splash Damage to surrounding targets, with {0}% reduced Area of Effect"
   },
   {
-    "id": "melee_weapon_range_+",
+    "id": "melee_tinctured_weapon_range_+",
     "zh": "近战打击范围 +1 米",
     "en": "+1 metre to Melee Strike Range"
   },
   {
-    "id": "melee_weapon_range_+",
+    "id": "melee_tinctured_weapon_range_+",
     "zh": "近战打击范围 {0} 米",
     "en": "{0} metres to Melee Strike Range"
   },
   {
-    "id": "number_of_additional_projectiles_with_weapon_attacks_if_you_have_been_hit_recently",
-    "zh": "若你近期被击中，武器攻击发射一枚额外投射物",
-    "en": "Weapon Attacks fire an additional Projectile if you've been Hit Recently"
+    "id": "number_of_additional_projectiles_with_tinctured_weapon_attacks_if_you_have_been_hit_recently",
+    "zh": "若你近期被击中，近战武器的攻击发射一枚额外投射物",
+    "en": "Attacks with Melee Weapons fire an additional Projectile if you've been Hit Recently"
   },
   {
-    "id": "number_of_additional_projectiles_with_weapon_attacks_if_you_have_been_hit_recently",
-    "zh": "若你近期被击中，武器攻击发射 {0} 枚额外投射物",
-    "en": "Weapon Attacks fire {0} additional Projectiles if you've been Hit Recently"
+    "id": "number_of_additional_projectiles_with_tinctured_weapon_attacks_if_you_have_been_hit_recently",
+    "zh": "若你近期被击中，近战武器的攻击发射 {0} 枚额外投射物",
+    "en": "Attacks with Melee Weapons fire {0} additional Projectiles if you've been Hit Recently"
   },
   {
-    "id": "overwhelm_%_physical_damage_reduction_with_weapons_%",
-    "zh": "压制 {0}% 的物理伤害减免",
-    "en": "Overwhelm {0}% of Physical Damage Reduction"
+    "id": "overwhelm_%_physical_damage_reduction_with_tinctured_weapons_%",
+    "zh": "近战武器有 {0}% 的几率忽略敌人的物理伤害减免",
+    "en": "Melee Weapons have {0}% chance to ignore Enemy Physical Damage Reduction"
   },
   {
-    "id": "phasing_for_4_seconds_on_weapon_kill_%",
-    "zh": "击败敌人时有 {0}% 的几率获得 4 秒【迷踪】状态",
-    "en": "{0}% chance to gain Phasing for 4 seconds on Kill"
+    "id": "penetrate_elemental_resistances_%_per_toxicity_with_tinctured_weapons",
+    "zh": "每层魔力燃烧使近战武器伤害穿透 {0}% 元素抗性",
+    "en": "Melee Weapon Damage Penetrates {0}% Elemental Resistances per Mana Burn"
   },
   {
-    "id": "phasing_for_4_seconds_on_weapon_kill_%",
-    "zh": "击败敌人时获得 4 秒【迷踪】状态",
-    "en": "Gain Phasing for 4 seconds on Kill"
+    "id": "phasing_for_4_seconds_on_tinctured_weapon_kill_%",
+    "zh": "近战武器击败敌人时有 {0}% 的几率获得迷踪，持续 4 秒",
+    "en": "{0}% chance to gain Phasing for 4 seconds on Melee Weapon Kill"
   },
   {
-    "id": "random_curse_on_weapon_hit_%",
-    "zh": "击中时有 {0}% 的几率用一种随机魔蛊诅咒敌人",
-    "en": "{0}% chance to Curse Enemies with a random Hex on Hit"
+    "id": "phasing_for_4_seconds_on_tinctured_weapon_kill_%",
+    "zh": "近战武器击败敌人时获得迷踪，持续 4 秒",
+    "en": "Gain Phasing for 4 seconds on Melee Weapon Kill"
   },
   {
-    "id": "recover_%_maximum_life_on_killing_rare_or_unique_with_weapon",
-    "zh": "击败稀有或传奇敌人时回复 {0}% 的生命",
-    "en": "Recover {0}% of Life on Killing a Rare or Unique Enemy"
+    "id": "poison_damage_+%_with_tinctured_weapons",
+    "zh": "近战武器造成的中毒伤害提高 {0}%",
+    "en": "{0}% increased Damage with Poison from Melee Weapons"
   },
   {
-    "id": "recover_%_maximum_life_on_killing_rare_or_unique_with_weapon",
-    "zh": "击败稀有或传奇敌人时失去 {0}% 的生命",
-    "en": "Lose {0}% of Life on Killing a Rare or Unique Enemy"
+    "id": "poison_damage_+%_with_tinctured_weapons",
+    "zh": "近战武器造成的中毒伤害降低 {0}%",
+    "en": "{0}% reduced Damage with Poison from Melee Weapons"
   },
   {
-    "id": "reduce_enemy_chaos_resistance_with_weapons_%",
-    "zh": "伤害穿透 {0}% 混沌抗性",
-    "en": "Damage Penetrates {0}% Chaos Resistance"
+    "id": "local_tincture_cooldown_recovery_+%",
+    "zh": "冷却回复速度加快 {0}%",
+    "en": "{0}% increased Cooldown Recovery Rate"
   },
   {
-    "id": "reduce_enemy_chaos_resistance_with_weapons_%",
-    "zh": "你的击中将混沌抗性视为比实际高 {0}%",
-    "en": "Your Hits treat Chaos Resistance as {0}% higher than actual value"
+    "id": "local_tincture_cooldown_recovery_+%",
+    "zh": "冷却回复速度减慢 {0}%",
+    "en": "{0}% reduced Cooldown Recovery Rate"
   },
   {
-    "id": "reduce_enemy_cold_resistance_with_weapons_%",
-    "zh": "伤害穿透 {0}% 冰霜抗性",
-    "en": "Damage Penetrates {0}% Cold Resistance"
+    "id": "local_tincture_mod_effect_+%",
+    "zh": "效果提高 {0}%",
+    "en": "{0}% increased effect"
   },
   {
-    "id": "reduce_enemy_cold_resistance_with_weapons_%",
-    "zh": "你的击中将冰霜抗性视为比实际高 {0}%",
-    "en": "Your Hits treat Cold Resistance as {0}% higher than actual value"
+    "id": "local_tincture_mod_effect_+%",
+    "zh": "效果降低 {0}%",
+    "en": "{0}% reduced effect"
   },
   {
-    "id": "reduce_enemy_fire_resistance_with_weapons_%",
-    "zh": "伤害穿透 {0}% 火焰抗性",
-    "en": "Damage Penetrates {0}% Fire Resistance"
+    "id": "local_tincture_toxicity_rate_+%",
+    "zh": "魔力燃烧速度加快 {0}%",
+    "en": "{0}% increased Mana Burn rate"
   },
   {
-    "id": "reduce_enemy_fire_resistance_with_weapons_%",
-    "zh": "你的击中将火焰抗性视为比实际高 {0}%",
-    "en": "Your Hits treat Fire Resistance as {0}% higher than actual value"
+    "id": "local_tincture_toxicity_rate_+%",
+    "zh": "魔力燃烧速度减慢 {0}%",
+    "en": "{0}% reduced Mana Burn rate"
   },
   {
-    "id": "reduce_enemy_lightning_resistance_with_weapons_%",
-    "zh": "伤害穿透 {0}% 的闪电抗性",
-    "en": "Damage Penetrates {0}% Lightning Resistance"
+    "id": "random_curse_on_tinctured_weapon_hit_%",
+    "zh": "近战武器击中时有 {0}% 的几率对敌人附加一个随机魔蛊诅咒",
+    "en": "{0}% chance to Curse Enemies with a random Hex on Melee Weapon Hit"
   },
   {
-    "id": "reduce_enemy_lightning_resistance_with_weapons_%",
-    "zh": "你的击中将闪电抗性视为比实际高 {0}%",
-    "en": "Your Hits treat Lightning Resistance as {0}% higher than actual value"
+    "id": "recover_%_maximum_life_on_killing_rare_or_unique_with_tinctured_weapon",
+    "zh": "使用近战武器击败稀有或传奇敌人时恢复 {0}% 的生命",
+    "en": "Recover {0}% of Life on Killing a Rare or Unique Enemy with a Melee Weapon"
   },
   {
-    "id": "refresh_bleeding_duration_on_weapon_hit_%_chance",
-    "zh": "击中有 {0}% 的几率刷新流血持续时间",
-    "en": "{0}% chance to refresh Bleeding Duration on Hit"
+    "id": "recover_%_maximum_life_on_killing_rare_or_unique_with_tinctured_weapon",
+    "zh": "使用近战武器击败稀有或传奇敌人时失去 {0}% 的生命",
+    "en": "Lose {0}% of Life on Killing a Rare or Unique Enemy with a Melee Weapon"
   },
   {
-    "id": "refresh_ignite_duration_on_weapon_hit_%_chance",
-    "zh": "击中有 {0}% 的几率刷新点燃的持续时间",
-    "en": "{0}% chance to refresh Ignite Duration on Hit"
+    "id": "reduce_enemy_chaos_resistance_with_tinctured_weapons_%",
+    "zh": "近战武器伤害穿透 {0}% 混沌抗性",
+    "en": "Melee Weapon Damage Penetrates {0}% Chaos Resistance"
   },
   {
-    "id": "shatter_on_weapon_kill_chance_%",
-    "zh": "击败敌人有 {0}% 的几率将其像冻结一样击碎",
-    "en": "Killing Blows have {0}% chance to Shatter Enemies as though Frozen"
+    "id": "reduce_enemy_chaos_resistance_with_tinctured_weapons_%",
+    "zh": "你的近战武器击中将混沌抗性视作比实际值高 {0}%",
+    "en": "Your Melee Weapon Hits treat Chaos Resistance as {0}% higher than actual value"
   },
   {
-    "id": "weapon_skill_area_of_effect_+%_if_enemy_killed_recently",
-    "zh": "若你近期内有击败敌人，则效果区域扩大 {0}%",
-    "en": "{0}% increased Area of Effect if you've Killed Recently"
+    "id": "reduce_enemy_cold_resistance_with_tinctured_weapons_%",
+    "zh": "近战武器伤害穿透 {0}% 冰霜抗性",
+    "en": "Melee Weapon Damage Penetrates {0}% Cold Resistance"
   },
   {
-    "id": "weapon_skill_area_of_effect_+%_if_enemy_killed_recently",
-    "zh": "若你近期内有击败敌人，则效果区域缩小 {0}%",
-    "en": "{0}% reduced Area of Effect if you've Killed Recently"
+    "id": "reduce_enemy_cold_resistance_with_tinctured_weapons_%",
+    "zh": "你的近战武器击中将冰霜抗性视作比实际值高 {0}%",
+    "en": "Your Melee Weapon Hits treat Cold Resistance as {0}% higher than actual value"
   },
   {
-    "id": "steal_endurance_charges_on_hit_%_with_weapons",
-    "zh": "击中时有 {0}% 的几率偷取耐力球",
-    "en": "{0}% chance to Steal Endurance Charges on Hit"
+    "id": "reduce_enemy_fire_resistance_with_tinctured_weapons_%",
+    "zh": "近战武器伤害穿透 {0}% 火焰抗性",
+    "en": "Melee Weapon Damage Penetrates {0}% Fire Resistance"
   },
   {
-    "id": "steal_endurance_charges_on_hit_%_with_weapons",
-    "zh": "击中时偷取耐力球",
-    "en": "Hits Steal Endurance Charges"
+    "id": "reduce_enemy_fire_resistance_with_tinctured_weapons_%",
+    "zh": "你的近战武器击中将火焰抗性视作比实际值高 {0}%",
+    "en": "Your Melee Weapon Hits treat Fire Resistance as {0}% higher than actual value"
   },
   {
-    "id": "steal_frenzy_charges_on_hit_%_with_weapons",
-    "zh": "击中时有 {0}% 的几率偷取狂怒球",
-    "en": "{0}% chance to Steal Frenzy Charges on Hit"
+    "id": "reduce_enemy_lightning_resistance_with_tinctured_weapons_%",
+    "zh": "近战武器伤害穿透 {0}% 闪电抗性",
+    "en": "Melee Weapon Damage Penetrates {0}% Lightning Resistance"
   },
   {
-    "id": "steal_frenzy_charges_on_hit_%_with_weapons",
-    "zh": "击中时偷取狂怒球",
-    "en": "Hits Steal Frenzy Charges"
+    "id": "reduce_enemy_lightning_resistance_with_tinctured_weapons_%",
+    "zh": "你的近战武器击中将闪电抗性视作比实际值高 {0}%",
+    "en": "Your Melee Weapon Hits treat Lightning Resistance as {0}% higher than actual value"
   },
   {
-    "id": "steal_power_charges_on_hit_%_with_weapons",
-    "zh": "击中时有 {0}% 的几率偷取暴击球",
-    "en": "{0}% chance to Steal Power Charges on Hit"
+    "id": "refresh_bleeding_duration_on_tinctured_weapon_hit_%_chance",
+    "zh": "近战武器击中有 {0}% 的几率刷新流血的持续时间",
+    "en": "{0}% chance to refresh Bleeding Duration on Melee Weapon Hit"
   },
   {
-    "id": "steal_power_charges_on_hit_%_with_weapons",
-    "zh": "击中时偷取暴击球",
-    "en": "Hits Steal Power Charges"
+    "id": "refresh_ignite_duration_on_tinctured_weapon_hit_%_chance",
+    "zh": "近战武器击中有 {0}% 的几率刷新点燃的持续时间",
+    "en": "{0}% chance to refresh Ignite Duration on Melee Weapon Hit"
+  },
+  {
+    "id": "shatter_on_tinctured_weapon_kill_chance_%",
+    "zh": "近战武器击败敌人时有 {0}% 的几率将其击碎",
+    "en": "Killing Blows with Melee Weapons have {0}% chance to Shatter Enemies"
+  },
+  {
+    "id": "shock_effect_+%_with_tinctured_weapons",
+    "zh": "近战武器的感电效果提高 {0}%",
+    "en": "{0}% increased Effect of Shock from Melee Weapons"
+  },
+  {
+    "id": "shock_effect_+%_with_tinctured_weapons",
+    "zh": "近战武器的感电效果降低 {0}%",
+    "en": "{0}% reduced Effect of Shock from Melee Weapons"
+  },
+  {
+    "id": "steal_endurance_charges_on_hit_%_with_tinctured_weapons",
+    "zh": "近战武器击中时有 {0}% 的几率偷取耐力球",
+    "en": "{0}% chance to Steal Endurance Charges on Hit with Melee Weapons"
+  },
+  {
+    "id": "steal_endurance_charges_on_hit_%_with_tinctured_weapons",
+    "zh": "近战武器击中时偷取耐力球",
+    "en": "Melee Weapon Hits Steal Endurance Charges"
+  },
+  {
+    "id": "steal_frenzy_charges_on_hit_%_with_tinctured_weapons",
+    "zh": "近战武器击中时有 {0}% 的几率偷取狂怒球",
+    "en": "{0}% chance to Steal Frenzy Charges on Hit with Melee Weapons"
+  },
+  {
+    "id": "steal_frenzy_charges_on_hit_%_with_tinctured_weapons",
+    "zh": "近战武器击中时偷取狂怒球",
+    "en": "Melee Weapon Hits Steal Frenzy Charges"
+  },
+  {
+    "id": "steal_power_charges_on_hit_%_with_tinctured_weapons",
+    "zh": "近战武器击中时有 {0}% 的几率偷取暴击球",
+    "en": "{0}% chance to Steal Power Charges on Hit with Melee Weapons"
+  },
+  {
+    "id": "steal_power_charges_on_hit_%_with_tinctured_weapons",
+    "zh": "近战武器击中时偷取暴击球",
+    "en": "Melee Weapon Hits Steal Power Charges"
+  },
+  {
+    "id": "stun_duration_+%_with_tinctured_weapons",
+    "zh": "近战武器造成的晕眩持续时间延长 {0}%",
+    "en": "{0}% increased Stun Duration with Melee Weapons"
+  },
+  {
+    "id": "stun_duration_+%_with_tinctured_weapons",
+    "zh": "近战武器造成的晕眩持续时间缩短 {0}%",
+    "en": "{0}% reduced Stun Duration with Melee Weapons"
+  },
+  {
+    "id": "attack_speed_+%_with_tinctured_weapons",
+    "zh": "近战武器攻击速度加快 {0}%",
+    "en": "{0}% increased Melee Weapon Attack Speed"
+  },
+  {
+    "id": "attack_speed_+%_with_tinctured_weapons",
+    "zh": "近战武器攻击速度减慢 {0}%",
+    "en": "{0}% reduced Melee Weapon Attack Speed"
+  },
+  {
+    "id": "base_mana_gained_on_tinctured_weapon_kill",
+    "zh": "近战武器每击败一名敌人获得 {0} 点魔力",
+    "en": "Gain {0} Mana per Enemy Killed with Melee Weapons"
+  },
+  {
+    "id": "base_mana_gained_on_tinctured_weapon_kill",
+    "zh": "近战武器每击败一名敌人损失 {0} 点魔力",
+    "en": "Lose {0} Mana per Enemy Killed with Melee Weapons"
+  },
+  {
+    "id": "critical_strike_multiplier_+_with_tinctured_weapons",
+    "zh": "近战武器暴击伤害加成 {0}%",
+    "en": "{0}% to Melee Weapon Critical Strike Multiplier"
+  },
+  {
+    "id": "damage_over_time_multiplier_+_with_tinctured_weapons",
+    "zh": "近战武器攻击的持续伤害加成 {0}%",
+    "en": "{0}% to Damage over Time Multiplier with Melee Weapon Attacks"
+  },
+  {
+    "id": "elemental_ailment_duration_+%_with_tinctured_weapons",
+    "zh": "近战武器攻击造成的元素异常状态的持续时间延长 {0}%",
+    "en": "{0}% increased Duration of Elemental Ailments from Melee Weapon Attacks"
+  },
+  {
+    "id": "elemental_ailment_duration_+%_with_tinctured_weapons",
+    "zh": "近战武器攻击造成的元素异常状态的持续时间缩短 {0}%",
+    "en": "{0}% reduced Duration of Elemental Ailments from Melee Weapon Attacks"
+  },
+  {
+    "id": "flask_charges_granted_from_tinctured_weapon_kills_+%",
+    "zh": "近战武器击败敌人获得的药剂充能提高 {0}%",
+    "en": "{0}% increased Flask Charges gained from Kills with Melee Weapons"
+  },
+  {
+    "id": "flask_charges_granted_from_tinctured_weapon_kills_+%",
+    "zh": "近战武器击败敌人获得的药剂充能降低 {0}%",
+    "en": "{0}% reduced Flask Charges gained from Kills with Melee Weapons"
+  },
+  {
+    "id": "life_gained_on_hitting_enemies_with_tinctured_weapons",
+    "zh": "近战武器每击中一名敌人获得 {0} 点生命",
+    "en": "Gain {0} Life per Enemy Hit with Melee Weapons"
+  },
+  {
+    "id": "life_gained_on_killing_enemies_with_tinctured_weapons",
+    "zh": "近战武器每击败一名敌人获得 {0} 点生命",
+    "en": "Gain {0} Life per Enemy Killed with Melee Weapons"
+  },
+  {
+    "id": "mana_gained_on_hitting_enemies_with_tinctured_weapons",
+    "zh": "近战武器每击中一名敌人获得 {0} 点魔力",
+    "en": "Gain {0} Mana per Enemy Hit with Melee Weapons"
+  },
+  {
+    "id": "penetrate_elemental_resistances_%_with_tinctured_weapons",
+    "zh": "近战武器伤害穿透 {0}% 元素抗性",
+    "en": "Melee Weapon Damage Penetrates {0}% Elemental Resistances"
+  },
+  {
+    "id": "tinctured_weapon_damage_+%_vs_enemies_that_are_on_low_life",
+    "zh": "对低血敌人造成的近战武器伤害提高 {0}%",
+    "en": "{0}% increased Melee Weapon Damage against Enemies that are on Low Life"
   },
   {
     "id": "tincture_bleeding_damage_+%_final_vs_non_bleeding_enemies",
-    "zh": "对未流血的敌人造成的流血伤害总增 {0}%",
-    "en": "Bleeding you inflict on non-Bleeding Enemies deals {0}% more Damage"
+    "zh": "近战武器对未流血敌人造成的流血伤害总增 {0}%",
+    "en": "Bleeding inflicted with Melee Weapons on non-Bleeding Enemies deals {0}% more Damage"
   },
   {
     "id": "tincture_bleeding_damage_+%_final_vs_non_bleeding_enemies",
-    "zh": "对未流血的敌人造成的流血伤害总降 {0}%",
-    "en": "Bleeding you inflict on non-Bleeding Enemies deals {0}% less Damage"
+    "zh": "近战武器对未流血敌人造成的流血伤害总降 {0}%",
+    "en": "Bleeding inflicted with Melee Weapons on non-Bleeding Enemies deals {0}% less Damage"
   },
   {
-    "id": "weapon_additional_critical_strike_chance_percent_against_full_life_enemies",
-    "zh": "对满血敌人的暴击几率 {0}%",
-    "en": "{0}% to Critical Strike Chance against Enemies that are on Full Life"
+    "id": "tinctured_weapon_additional_critical_strike_chance_percent_against_full_life_enemies",
+    "zh": "近战武器对满血敌人的暴击几率 {0}%",
+    "en": "Melee Weapons have {0}% to Critical Strike Chance against Enemies that are on Full Life"
   },
   {
-    "id": "weapon_attack_poison_on_non_poisoned_enemies_damage_+%",
-    "zh": "你对非中毒敌人施加的【中毒】伤害提高 {0}%",
-    "en": "Poisons you inflict on non-Poisoned Enemies deal {0}% increased Damage"
+    "id": "tinctured_weapon_attack_poison_on_non_poisoned_enemies_damage_+%",
+    "zh": "近战武器对未中毒敌人造成的中毒伤害提高 {0}%",
+    "en": "Poisons inflicted with Melee Weapons on non-Poisoned Enemies deal {0}% increased Damage"
   },
   {
-    "id": "weapon_attack_poison_on_non_poisoned_enemies_damage_+%",
-    "zh": "你对非中毒敌人施加的【中毒】伤害降低 {0}%",
-    "en": "Poisons you inflict on non-Poisoned Enemies deal {0}% reduced Damage"
+    "id": "tinctured_weapon_attack_poison_on_non_poisoned_enemies_damage_+%",
+    "zh": "近战武器对未中毒敌人造成的中毒伤害降低 {0}%",
+    "en": "Poisons inflicted with Melee Weapons on non-Poisoned Enemies deal {0}% reduced Damage"
   },
   {
-    "id": "weapon_attack_speed_+%_if_have_blocked_recently",
-    "zh": "若你近期内有过格挡，则攻击速度加快 {0}%",
-    "en": "{0}% increased Attack Speed if you have Blocked Recently"
+    "id": "tinctured_weapon_attack_speed_+%_if_have_blocked_recently",
+    "zh": "若近期格挡过，近战武器攻击速度加快 {0}%",
+    "en": "{0}% increased Melee Weapon Attack Speed if you have Blocked Recently"
   },
   {
-    "id": "weapon_attack_speed_+%_if_have_blocked_recently",
-    "zh": "若你近期内有过格挡，则攻击速度减慢 {0}%",
-    "en": "{0}% reduced Attack Speed if you have Blocked Recently"
+    "id": "tinctured_weapon_attack_speed_+%_if_have_blocked_recently",
+    "zh": "若近期格挡过，近战武器攻击速度减慢 {0}%",
+    "en": "{0}% reduced Melee Weapon Attack Speed if you have Blocked Recently"
   },
   {
-    "id": "weapon_chill_minimum_slow_%",
-    "zh": "你击中造成的冰缓效果始终使行动速度降低至少 {0}%",
-    "en": "Chills from your Hits always reduce Action Speed by at least {0}%"
+    "id": "tinctured_weapon_chill_minimum_slow_%",
+    "zh": "近战武器击中造成的冰缓效果总能使行动速度降低至少 {0}%",
+    "en": "Chills from Melee Weapon Hits always reduce Action Speed by at least {0}%"
   },
   {
-    "id": "weapon_cover_in_ash_on_hit_for_X_seconds_vs_full_life_enemies",
-    "zh": "击中满血敌人时使其灰烬缠身，持续 {0} 秒",
-    "en": "Cover Enemies in Ash on Hit for {0} seconds against Enemies that are on Full Life"
+    "id": "tinctured_weapon_cover_in_ash_on_hit_for_X_seconds_vs_full_life_enemies",
+    "zh": "近战武器击中满血敌人时使其灰烬缠身，持续 {0} 秒",
+    "en": "Cover Full Life Enemies in Ash for {0} seconds on Melee Weapon Hit"
   },
   {
-    "id": "weapon_cover_in_frost_on_hit_for_X_seconds_vs_full_life_enemies",
-    "zh": "击中满血敌人时使其冰霜缠身，持续 {0} 秒",
-    "en": "Cover Enemies in Frost on Hit for {0} seconds against Enemies that are on Full Life"
+    "id": "tinctured_weapon_cover_in_frost_on_hit_for_X_seconds_vs_full_life_enemies",
+    "zh": "近战武器击中满血敌人时使其冰霜缠身，持续 {0} 秒",
+    "en": "Cover Full Life Enemies in Frost for {0} seconds on Melee Weapon Hit"
   },
   {
-    "id": "weapon_critical_strike_multiplier_vs_enemies_on_full_life_+",
-    "zh": "对满血敌人的暴击伤害提高 {0}%",
-    "en": "{0}% to Critical Strike Multiplier against Enemies that are on Full Life"
+    "id": "tinctured_weapon_critical_strike_multiplier_vs_enemies_on_full_life_+",
+    "zh": "对满血敌人的近战武器暴击加成 {0}%",
+    "en": "{0}% to Melee Weapon Critical Strike Multiplier against Enemies that are on Full Life"
   },
   {
-    "id": "weapon_crush_on_hit_for_X_seconds_vs_full_life_enemies",
-    "zh": "击中满血敌人时碾压，持续 {0} 秒",
-    "en": "Crush Enemies for {0} seconds when you Hit them while they are on Full Life"
+    "id": "tinctured_weapon_crush_on_hit_for_X_seconds_vs_full_life_enemies",
+    "zh": "近战武器击中满血敌人时碾压，持续 {0} 秒",
+    "en": "Crush Full Life Enemies for {0} seconds on Melee Weapon Hit"
   },
   {
-    "id": "weapon_damage_+%_vs_enemies_that_are_on_low_life",
-    "zh": "对低血敌人造成的伤害提高 {0}%",
-    "en": "{0}% increased Damage against Enemies that are on Low Life"
+    "id": "tinctured_weapon_damage_+%_per_non_instant_spell_cast_in_past_8_seconds",
+    "zh": "你在过去 8 秒内每施放一个非瞬发法术，\n近战武器伤害提高 {0}%",
+    "en": "{0}% increased Melee Weapon Damage for each\nNon-Instant Spell you've Cast in the past 8 seconds"
   },
   {
-    "id": "weapon_damage_+%_per_non_instant_spell_cast_in_past_8_seconds",
-    "zh": "你在过去 8 秒内每施放一个非瞬发法术，伤害提高 {0}%",
-    "en": "{0}% increased Damage for each Non-Instant Spell you've Cast in the past 8 seconds"
+    "id": "tinctured_weapon_damage_+%_per_non_instant_spell_cast_in_past_8_seconds",
+    "zh": "你在过去 8 秒内每施放一个非瞬发法术，\n近战武器伤害降低 {0}%",
+    "en": "{0}% reduced Melee Weapon Damage for each\nNon-Instant Spell you've Cast in the past 8 seconds"
   },
   {
-    "id": "weapon_damage_+%_per_non_instant_spell_cast_in_past_8_seconds",
-    "zh": "你在过去 8 秒内每施放一个非瞬发法术，伤害降低 {0}%",
-    "en": "(0)% reduced Damage for each Non-Instant Spell you've Cast in the past 8 seconds"
+    "id": "tinctured_weapon_hits_cannot_be_evaded_while_on_low_life",
+    "zh": "低血时你的近战武器击中无法被闪避",
+    "en": "Your Melee Weapon Hits can't be Evaded while you are on Low Life"
   },
   {
-    "id": "weapon_hits_cannot_be_evaded_while_on_low_life",
-    "zh": "低血时你的击中无法被闪避",
-    "en": "Your hits can't be Evaded while you are on Low Life"
+    "id": "tinctured_weapon_kill_chance_to_gain_onslaught_on_kill_for_10_seconds_%",
+    "zh": "近战武器击败敌人时有 {0}% 的几率获得猛攻 10 秒",
+    "en": "{0}% chance to gain Onslaught for 10 seconds on Killing Blow with Melee Weapons"
   },
   {
-    "id": "weapon_kill_chance_to_gain_onslaught_on_kill_for_10_seconds_%",
-    "zh": "击败敌人时有 {0}% 的几率获得猛攻 10 秒",
-    "en": "{0}% chance to gain Onslaught for 10 seconds on Killing Blow"
+    "id": "tinctured_weapon_kill_chance_to_gain_onslaught_on_kill_for_10_seconds_%",
+    "zh": "近战武器击败敌人时获得猛攻 10 秒",
+    "en": "Gain Onslaught for 10 seconds on Killing Blow with Melee Weapons"
   },
   {
-    "id": "weapon_kill_chance_to_gain_onslaught_on_kill_for_10_seconds_%",
-    "zh": "击败敌人时获得猛攻 10 秒",
-    "en": "Gain Onslaught for 10 seconds on Killing Blow"
+    "id": "tinctured_weapon_projectile_chain_from_terrain_chance_%",
+    "zh": "近战武器攻击的投射物击中地形时有 {0}% 的几率产生连锁",
+    "en": "Projectiles from Melee Weapon Attacks have {0}% chance to be able to Chain when colliding with terrain"
   },
   {
-    "id": "weapon_projectile_chain_from_terrain_chance_%",
-    "zh": "投射物击中地形有 {0}% 的几率产生连锁效果",
-    "en": "Projectiles have {0}% chance to be able to Chain when colliding with terrain"
+    "id": "tinctured_weapon_projectile_chain_from_terrain_chance_%",
+    "zh": "近战武器攻击的投射物击中地形时产生连锁",
+    "en": "Projectiles from Melee Weapon Attacks can Chain when colliding with terrain"
   },
   {
-    "id": "weapon_projectile_chain_from_terrain_chance_%",
-    "zh": "投射物击中地形产生连锁效果",
-    "en": "Projectiles can Chain when colliding with terrain"
+    "id": "tinctured_weapon_skill_area_of_effect_+%_if_enemy_killed_recently",
+    "zh": "若近期击败过敌人，近战武器的攻击效果范围扩大 {0}%",
+    "en": "{0}% increased Melee Weapon Attack Area of Effect if you've Killed Recently"
+  },
+  {
+    "id": "tinctured_weapon_skill_area_of_effect_+%_if_enemy_killed_recently",
+    "zh": "若近期击败过敌人，近战武器的攻击效果范围缩小 {0}%",
+    "en": "{0}% reduced Melee Weapon Attack Area of Effect if you've Killed Recently"
   },
   {
     "id": "local_random_support_gem_level local_random_support_gem_index",
@@ -60946,8 +62386,8 @@
   },
   {
     "id": "local_random_support_gem_level local_random_support_gem_index",
-    "zh": "插入的技能石被 {0} 级的【持续时间延长】辅助",
-    "en": "Socketed Gems are Supported by Level {0} Increased Duration"
+    "zh": "插入的技能石被 {0} 级的【持续时间总增】辅助",
+    "en": "Socketed Gems are Supported by Level {0} More Duration"
   },
   {
     "id": "local_random_support_gem_level local_random_support_gem_index",
@@ -61316,8 +62756,8 @@
   },
   {
     "id": "local_random_support_gem_level local_random_support_gem_index",
-    "zh": "插入的技能石被 {0} 级的【裂地之灵】辅助",
-    "en": "Socketed Gems are Supported by Level {0} Earthbreaker"
+    "zh": "插入的技能石被 {0} 级的【超能增助】辅助",
+    "en": "Socketed Gems are Supported by Level {0} Overexertion"
   },
   {
     "id": "local_random_support_gem_level local_random_support_gem_index",
@@ -61331,8 +62771,8 @@
   },
   {
     "id": "local_random_support_gem_level local_random_support_gem_index",
-    "zh": "插入的技能石被 {0} 级的【神圣祝福】辅助",
-    "en": "Socketed Gems are Supported by Level {0} Divine Blessing"
+    "zh": "插入的技能石被 {0} 级的【残破】辅助",
+    "en": "Socketed Gems are Supported by Level {0} Rupture"
   },
   {
     "id": "local_random_support_gem_level local_random_support_gem_index",
@@ -61438,6 +62878,11 @@
     "id": "local_random_support_gem_level local_random_support_gem_index",
     "zh": "插入的技能石被 {0} 级的【圣洁鬼灵】辅助",
     "en": "Socketed Gems are Supported by Level {0} Sacred Wisps"
+  },
+  {
+    "id": "local_random_support_gem_level local_random_support_gem_index",
+    "zh": "插入的技能石被 {0} 级的【专擅反击】辅助",
+    "en": "Socketed Gems are Supported by Level {0} Expert Retaliation"
   },
   {
     "id": "random_skill_gem_level_+_level random_skill_gem_level_+_index",
@@ -61911,33 +63356,33 @@
   },
   {
     "id": "random_skill_gem_level_+_level random_skill_gem_level_+_index",
-    "zh": "所有 击刃 宝石等级 +{0}",
-    "en": "+{0} to Level of all Riposte Gems"
+    "zh": "所有 冰川盾袭 宝石等级 +{0}",
+    "en": "+{0} to Level of all Glacial Shield Swipe Gems"
   },
   {
     "id": "random_skill_gem_level_+_level random_skill_gem_level_+_index",
-    "zh": "所有 击刃 宝石等级 -{0}",
-    "en": "-{0} to Level of all Riposte Gems"
+    "zh": "所有 冰川盾袭 宝石等级 -{0}",
+    "en": "-{0} to Level of all Glacial Shield Swipe Gems"
   },
   {
     "id": "random_skill_gem_level_+_level random_skill_gem_level_+_index",
-    "zh": "所有 复仇 宝石等级 +{0}",
-    "en": "+{0} to Level of all Vengeance Gems"
+    "zh": "所有 粉碎重拳 宝石等级 +{0}",
+    "en": "+{0} to Level of all Crushing Fist Gems"
   },
   {
     "id": "random_skill_gem_level_+_level random_skill_gem_level_+_index",
-    "zh": "所有 复仇 宝石等级 -{0}",
-    "en": "-{0} to Level of all Vengeance Gems"
+    "zh": "所有 粉碎重拳 宝石等级 -{0}",
+    "en": "-{0} to Level of all Crushing Fist Gems"
   },
   {
     "id": "random_skill_gem_level_+_level random_skill_gem_level_+_index",
-    "zh": "所有 清算 宝石等级 +{0}",
-    "en": "+{0} to Level of all Reckoning Gems"
+    "zh": "所有 落刃风暴 宝石等级 +{0}",
+    "en": "+{0} to Level of all Swordstorm Gems"
   },
   {
     "id": "random_skill_gem_level_+_level random_skill_gem_level_+_index",
-    "zh": "所有 清算 宝石等级 -{0}",
-    "en": "-{0} to Level of all Reckoning Gems"
+    "zh": "所有 落刃风暴 宝石等级 -{0}",
+    "en": "-{0} to Level of all Swordstorm Gems"
   },
   {
     "id": "random_skill_gem_level_+_level random_skill_gem_level_+_index",
@@ -62891,13 +64336,13 @@
   },
   {
     "id": "random_skill_gem_level_+_level random_skill_gem_level_+_index",
-    "zh": "所有 震地 宝石等级 +{0}",
-    "en": "+{0} to Level of all Earthquake Gems"
+    "zh": "所有 剔骨 宝石等级 +{0}",
+    "en": "+{0} to Level of all Eviscerate Gems"
   },
   {
     "id": "random_skill_gem_level_+_level random_skill_gem_level_+_index",
-    "zh": "所有 震地 宝石等级 -{0}",
-    "en": "-{0} to Level of all Earthquake Gems"
+    "zh": "所有 剔骨 宝石等级 -{0}",
+    "en": "-{0} to Level of all Eviscerate Gems"
   },
   {
     "id": "random_skill_gem_level_+_level random_skill_gem_level_+_index",
@@ -62911,33 +64356,33 @@
   },
   {
     "id": "random_skill_gem_level_+_level random_skill_gem_level_+_index",
-    "zh": "所有 残烬 宝石等级 +{0}",
+    "zh": "所有 复仇咆哮 宝石等级 +{0}",
+    "en": "+{0} to Level of all Vengeful Cry Gems"
+  },
+  {
+    "id": "random_skill_gem_level_+_level random_skill_gem_level_+_index",
+    "zh": "所有 复仇咆哮 宝石等级 -{0}",
+    "en": "-{0} to Level of all Vengeful Cry Gems"
+  },
+  {
+    "id": "random_skill_gem_level_+_level random_skill_gem_level_+_index",
+    "zh": "所有 震地 宝石等级 +{0}",
+    "en": "+{0} to Level of all Earthquake Gems"
+  },
+  {
+    "id": "random_skill_gem_level_+_level random_skill_gem_level_+_index",
+    "zh": "所有 震地 宝石等级 -{0}",
+    "en": "-{0} to Level of all Earthquake Gems"
+  },
+  {
+    "id": "random_skill_gem_level_+_level random_skill_gem_level_+_index",
+    "zh": "所有 大地震击 宝石等级 +{0}",
     "en": "+{0} to Level of all Sunder Gems"
   },
   {
     "id": "random_skill_gem_level_+_level random_skill_gem_level_+_index",
-    "zh": "所有 残烬 宝石等级 -{0}",
+    "zh": "所有 大地震击 宝石等级 -{0}",
     "en": "-{0} to Level of all Sunder Gems"
-  },
-  {
-    "id": "random_skill_gem_level_+_level random_skill_gem_level_+_index",
-    "zh": "所有 先祖卫士 宝石等级 +{0}",
-    "en": "+{0} to Level of all Ancestral Protector Gems"
-  },
-  {
-    "id": "random_skill_gem_level_+_level random_skill_gem_level_+_index",
-    "zh": "所有 先祖卫士 宝石等级 -{0}",
-    "en": "-{0} to Level of all Ancestral Protector Gems"
-  },
-  {
-    "id": "random_skill_gem_level_+_level random_skill_gem_level_+_index",
-    "zh": "所有 先祖战士长 宝石等级 +{0}",
-    "en": "+{0} to Level of all Ancestral Warchief Gems"
-  },
-  {
-    "id": "random_skill_gem_level_+_level random_skill_gem_level_+_index",
-    "zh": "所有 先祖战士长 宝石等级 -{0}",
-    "en": "-{0} to Level of all Ancestral Warchief Gems"
   },
   {
     "id": "random_skill_gem_level_+_level random_skill_gem_level_+_index",
@@ -63761,12 +65206,12 @@
   },
   {
     "id": "random_skill_gem_level_+_level random_skill_gem_level_+_index",
-    "zh": "所有 电殛长枪 宝石等级 +{0}",
+    "zh": "所有 霹雳长枪 宝石等级 +{0}",
     "en": "+{0} to Level of all Crackling Lance Gems"
   },
   {
     "id": "random_skill_gem_level_+_level random_skill_gem_level_+_index",
-    "zh": "所有 电殛长枪 宝石等级 -{0}",
+    "zh": "所有 霹雳长枪 宝石等级 -{0}",
     "en": "-{0} to Level of all Crackling Lance Gems"
   },
   {
@@ -63991,12 +65436,12 @@
   },
   {
     "id": "random_skill_gem_level_+_level random_skill_gem_level_+_index",
-    "zh": "所有 缚魔电殛 宝石等级 +{0}",
+    "zh": "所有 缚魔电场 宝石等级 +{0}",
     "en": "+{0} to Level of all Manabond Gems"
   },
   {
     "id": "random_skill_gem_level_+_level random_skill_gem_level_+_index",
-    "zh": "所有 缚魔电殛 宝石等级 -{0}",
+    "zh": "所有 缚魔电场 宝石等级 -{0}",
     "en": "-{0} to Level of all Manabond Gems"
   },
   {
@@ -64171,12 +65616,22 @@
   },
   {
     "id": "random_skill_gem_level_+_level random_skill_gem_level_+_index",
-    "zh": "所有 武装召唤 宝石等级 +{0}",
-    "en": "+{0} to Level of all Call to Arms Gems"
+    "zh": "所有 自动增助 宝石等级 +{0}",
+    "en": "+{0} to Level of all Autoexertion Gems"
   },
   {
     "id": "random_skill_gem_level_+_level random_skill_gem_level_+_index",
-    "zh": "所有 武装召唤 宝石等级 -{0}",
-    "en": "-{0} to Level of all Call to Arms Gems"
+    "zh": "所有 自动增助 宝石等级 -{0}",
+    "en": "-{0} to Level of all Autoexertion Gems"
+  },
+  {
+    "id": "random_skill_gem_level_+_level random_skill_gem_level_+_index",
+    "zh": "所有 神圣报应 宝石等级 +{0}",
+    "en": "+{0} to Level of all Divine Retribution Gems"
+  },
+  {
+    "id": "random_skill_gem_level_+_level random_skill_gem_level_+_index",
+    "zh": "所有 神圣报应 宝石等级 -{0}",
+    "en": "-{0} to Level of all Divine Retribution Gems"
   }
 ]

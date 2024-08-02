@@ -96,6 +96,8 @@ var hackEnStatDescContentEntries = [][2]string{
 		`1 "[DNT] Area contains {0} additional Common Chest Marker"`},
 	{`10 "Freezes inflicted on you spread to Enemies within {0} metre"` + "\r\n",
 		`10 "Freezes inflicted on you spread to Enemies within {0} metre" locations_to_metres 1` + "\r\n"},
+	{`1000 "Retaliation Skills become Usable for an additional {0} second"` + "\r\n",
+		`1000 "Retaliation Skills become Usable for an additional {0} second" milliseconds_to_seconds_2dp_if_required 1` + "\r\n"},
 }
 
 func hackEnStatDescContent(content string) string {
@@ -134,6 +136,8 @@ var hackZhStatDescContentEntries = [][2]string{
 		`1|# "如果诅咒持续时间已经过去 25%，\n则你诅咒的敌人的移动速度被减缓 {0}%"`},
 	{`10 "对你造成的冻结会扩散给 {0} 米内的其他敌人"` + "\r\n",
 		`10 "对你造成的冻结会扩散给 {0} 米内的其他敌人" locations_to_metres 1` + "\r\n"},
+	{`1000 "反击技能的可使用时间额外延长 {0} 秒"` + "\r\n",
+		`1000 "反击技能的可使用时间额外延长 {0} 秒" milliseconds_to_seconds_2dp_if_required 1` + "\r\n"},
 }
 
 func hackZhStatDescContent(content string) string {
