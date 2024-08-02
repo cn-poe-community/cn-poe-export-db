@@ -4,11 +4,13 @@ import sys
 import urllib.request
 import re
 
+
 def load_json(file):
     with open(file, 'rt', encoding='utf-8') as f:
         content = f.read()
         data = json.loads(content)
     return data
+
 
 config: dict = load_json("../config.json")
 project_root = config.get("projectRoot")
@@ -16,9 +18,13 @@ project_root = config.get("projectRoot")
 tree_file = os.path.join(project_root, "docs/tree/tree.json")
 tx_tree_file = os.path.join(project_root, "docs/tree/tx/tree.json")
 
-notables_json_file = os.path.join(project_root, "assets/passiveskills/notables.json")
-keystones_json_file = os.path.join(project_root, "assets/passiveskills/keystones.json")
-ascendant_json_file = os.path.join(project_root, "assets/passiveskills/ascendant.json")
+notables_json_file = os.path.join(
+    project_root, "assets/passiveskills/notables.json")
+keystones_json_file = os.path.join(
+    project_root, "assets/passiveskills/keystones.json")
+ascendant_json_file = os.path.join(
+    project_root, "assets/passiveskills/ascendant.json")
+
 
 def load_trees():
     return load_json(tree_file), load_json(tx_tree_file)
@@ -98,7 +104,9 @@ hidden_ascendants = [{"id": "18054", "zh": "自然之怒", "en": "Fury of Nature
                      {"id": "57568", "zh": "炽热净化", "en": "Searing Purity"},
                      {"id": "52435", "zh": "不屈坚毅", "en": "Indomitable Resolve"},
                      {"id": "42469", "zh": "致命绽放", "en": "Fatal Flourish"},
-                     {"id": "19355", "zh": "释放潜能", "en": "Unleashed Potential"}]
+                     {"id": "19355", "zh": "释放潜能", "en": "Unleashed Potential"},
+                     {"id": "19355", "zh": "森林之力.塔赫亚", "en": "Tawhoa, Forest's Strength"},
+                     ]
 
 
 def init_ascendant_nodes(en_nodes, zh_nodes):

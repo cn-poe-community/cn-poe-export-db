@@ -155,11 +155,6 @@
         "zh": "战争使者.图克哈玛"
     },
     {
-        "id": "5029",
-        "en": "Tawhoa, Forest's Strength",
-        "zh": "森林之力.塔赫亚"
-    },
-    {
         "id": "61355",
         "en": "Ramako, Sun's Light",
         "zh": "雷默科，太阳之光"
@@ -171,8 +166,8 @@
     },
     {
         "id": "31667",
-        "en": "Arohongui, Moon's Presence",
-        "zh": "月使.亚欧红古"
+        "en": "Sione, Sun's Roar",
+        "zh": "西奥妮，太阳之啸"
     },
     {
         "id": "50692",
@@ -220,56 +215,6 @@
         "zh": "忏悔之兆"
     },
     {
-        "id": "8982",
-        "en": "Sanguimancy",
-        "zh": "滴血为咒"
-    },
-    {
-        "id": "20931",
-        "en": "Crimson Power",
-        "zh": "腥红之力"
-    },
-    {
-        "id": "52780",
-        "en": "Cannibalised Faith",
-        "zh": "蚕食信仰"
-    },
-    {
-        "id": "699",
-        "en": "Foul Pact",
-        "zh": "邪秽契约"
-    },
-    {
-        "id": "57850",
-        "en": "Warlock Power",
-        "zh": "术士之力"
-    },
-    {
-        "id": "58281",
-        "en": "Blood Hunt",
-        "zh": "猎血寻腥"
-    },
-    {
-        "id": "45727",
-        "en": "Soul Splitting",
-        "zh": "灵魂裂解"
-    },
-    {
-        "id": "28601",
-        "en": "Creeping Lobotomy",
-        "zh": "悚然切除"
-    },
-    {
-        "id": "52417",
-        "en": "Black Mass",
-        "zh": "黑暗布道"
-    },
-    {
-        "id": "10538",
-        "en": "Choir of the Damned",
-        "zh": "诅咒合颂"
-    },
-    {
         "id": "4194",
         "en": "Berserker",
         "zh": "暴徒"
@@ -278,16 +223,6 @@
         "id": "57052",
         "en": "Chieftain",
         "zh": "酋长"
-    },
-    {
-        "id": "63623",
-        "en": "Might of the Bear",
-        "zh": "伟岸熊威"
-    },
-    {
-        "id": "34229",
-        "en": "Howl of the Wolf",
-        "zh": "惊魂狼啸"
     },
     {
         "id": "42144",
@@ -370,41 +305,6 @@
         "zh": "元素使"
     },
     {
-        "id": "8243",
-        "en": "Wildwood Blessing",
-        "zh": "荒林祝福"
-    },
-    {
-        "id": "34814",
-        "en": "Lesson of the Seasons",
-        "zh": "四季之训"
-    },
-    {
-        "id": "5220",
-        "en": "Oath of the Maji",
-        "zh": "众神之誓"
-    },
-    {
-        "id": "41197",
-        "en": "Coated Blade",
-        "zh": "涂抹小刀"
-    },
-    {
-        "id": "34637",
-        "en": "Nature's Concoction",
-        "zh": "自然灵药"
-    },
-    {
-        "id": "63362",
-        "en": "Intensifying Suffusion",
-        "zh": "增幅弥散"
-    },
-    {
-        "id": "29212",
-        "en": "Detect Evil",
-        "zh": "追缉邪恶"
-    },
-    {
         "id": "10099",
         "en": "Necromancer",
         "zh": "召唤师"
@@ -416,8 +316,8 @@
     },
     {
         "id": "8656",
-        "en": "Raider",
-        "zh": "侠客"
+        "en": "Warden",
+        "zh": "守望者"
     },
     {
         "id": "772",
@@ -466,23 +366,23 @@
     },
     {
         "id": "8419",
-        "en": "Painforged",
-        "zh": "痛苦铸造"
+        "en": "Determined Survivor",
+        "zh": "坚毅求存"
     },
     {
         "id": "63490",
-        "en": "Violent Retaliation",
-        "zh": "强力复仇"
+        "en": "Measured Retaliation",
+        "zh": "慎重回敬"
     },
     {
         "id": "2598",
-        "en": "Reigning Veteran",
-        "zh": "老当益壮"
+        "en": "More Than Skill",
+        "zh": "天眷英豪"
     },
     {
         "id": "758",
-        "en": "Arena Challenger",
-        "zh": "竞技挑战者"
+        "en": "War of Attrition",
+        "zh": "持久鏖战"
     },
     {
         "id": "27864",
@@ -491,13 +391,13 @@
     },
     {
         "id": "15616",
-        "en": "Blood in the Eyes",
-        "zh": "血之眼"
+        "en": "Jagged Technique",
+        "zh": "锯刃战技"
     },
     {
         "id": "52575",
-        "en": "Outmatch and Outlast",
-        "zh": "完美胜出"
+        "en": "Weapon Master",
+        "zh": "武器大师"
     },
     {
         "id": "37492",
@@ -831,38 +731,53 @@
     },
     {
         "id": "33645",
-        "en": "Quartz Infusion",
-        "zh": "石英化身"
+        "en": "Oath of Summer",
+        "zh": "炎夏誓言"
     },
     {
         "id": "55509",
-        "en": "Avatar of the Veil",
-        "zh": "面纱女神"
+        "en": "Avatar of the Wilds",
+        "zh": "荒野化身"
+    },
+    {
+        "id": "29662",
+        "en": "Experienced Herbalist",
+        "zh": "资深草药师"
+    },
+    {
+        "id": "40104",
+        "en": "Enduring Suffusion",
+        "zh": "持久弥散"
+    },
+    {
+        "id": "36958",
+        "en": "Seasoned Hunter",
+        "zh": "资深猎手"
     },
     {
         "id": "31364",
-        "en": "Way of the Poacher",
-        "zh": "盗猎者之途"
+        "en": "Oath of Spring",
+        "zh": "春日誓言"
     },
     {
         "id": "16848",
-        "en": "Avatar of the Slaughter",
-        "zh": "冷酷使徒"
+        "en": "Oath of Winter",
+        "zh": "凛冬誓言"
     },
     {
         "id": "4849",
-        "en": "Rapid Assault",
-        "zh": "极速进攻"
+        "en": "Mother's Teachings",
+        "zh": "母亲的教诲"
     },
     {
         "id": "11597",
-        "en": "Avatar of the Chase",
-        "zh": "追猎使徒"
+        "en": "Lesson of the Seasons",
+        "zh": "四季之训"
     },
     {
         "id": "44482",
-        "en": "Rupturing",
-        "zh": "碎裂"
+        "en": "Avidity",
+        "zh": "熟稔"
     },
     {
         "id": "24848",
@@ -933,5 +848,10 @@
         "id": "19355",
         "zh": "释放潜能",
         "en": "Unleashed Potential"
+    },
+    {
+        "id": "19355",
+        "zh": "森林之力.塔赫亚",
+        "en": "Tawhoa, Forest's Strength"
     }
 ]
