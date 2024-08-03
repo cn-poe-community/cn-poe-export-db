@@ -222,5 +222,13 @@
                 "en": "1 Historic"
             }
         ]
+    },
+    {
+        "zh": "每 {0} 秒造成魔力燃烧",
+        "en": "Inflicts Mana Burn every {0} Second"
+    },
+    {
+        "zh": "失效后冷却时间 {0} 秒",
+        "en": "{0} Second Cooldown when Deactivated"
     }
 ]

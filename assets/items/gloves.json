@@ -667,18 +667,6 @@
         "en": "Trapper Mitts"
     },
     {
-        "zh": "笨重手套",
-        "en": "Gauche Gloves"
-    },
-    {
-        "zh": "南风手套",
-        "en": "Southswing Gloves"
-    },
-    {
-        "zh": "左旋手套",
-        "en": "Sinistral Gloves"
-    },
-    {
         "zh": "符文手套",
         "en": "Runic Gloves"
     },
@@ -713,18 +701,6 @@
         "en": "Ringmail Gloves"
     },
     {
-        "zh": "沉重手甲",
-        "en": "Taxing Gauntlets"
-    },
-    {
-        "zh": "磨人手甲",
-        "en": "Gruelling Gauntlets"
-    },
-    {
-        "zh": "衰弱手甲",
-        "en": "Debilitation Gauntlets"
-    },
-    {
         "zh": "工匠手套",
         "en": "Tinker Gloves"
     },
@@ -747,5 +723,53 @@
     {
         "zh": "御敌护手",
         "en": "Thwarting Gauntlets"
+    },
+    {
+        "zh": "先驱护手",
+        "en": "Precursor Gauntlets"
+    },
+    {
+        "zh": "海怪护手",
+        "en": "Leviathan Gauntlets"
+    },
+    {
+        "zh": "鹰妖皮手套",
+        "en": "Harpyskin Gloves"
+    },
+    {
+        "zh": "丝绒手套",
+        "en": "Velour Gloves"
+    },
+    {
+        "zh": "贤者手套",
+        "en": "Sage Gloves"
+    },
+    {
+        "zh": "咒士手套",
+        "en": "Warlock Gloves"
+    },
+    {
+        "zh": "奇美拉鳞手套",
+        "en": "Chimerascale Gauntlets"
+    },
+    {
+        "zh": "腾龙鳞手套",
+        "en": "Wyvernscale Gauntlets"
+    },
+    {
+        "zh": "先烈手套",
+        "en": "Martyr Gloves"
+    },
+    {
+        "zh": "圣骑士手套",
+        "en": "Paladin Gloves"
+    },
+    {
+        "zh": "渗透者护手",
+        "en": "Infiltrator Mitts"
+    },
+    {
+        "zh": "幻影护手",
+        "en": "Phantom Mitts"
     }
 ]
