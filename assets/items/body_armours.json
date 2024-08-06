@@ -258,10 +258,12 @@
     {
         "zh": "黄金圣炎",
         "en": "Golden Flame",
+        "legacy": true,
         "uniques": [
             {
                 "zh": "升华之灯",
-                "en": "Demigod's Beacon"
+                "en": "Demigod's Beacon",
+                "legacy": true
             }
         ]
     },
@@ -1044,5 +1046,10 @@
     {
         "zh": "暮光法衣",
         "en": "Twilight Regalia"
+    },
+    {
+        "zh": "冈姆的重铠",
+        "en": "Kaom's Plate",
+		"legacy": true
     }
 ]

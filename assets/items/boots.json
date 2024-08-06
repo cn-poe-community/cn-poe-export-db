@@ -758,5 +758,15 @@
     {
         "zh": "腾龙鳞长靴",
         "en": "Wyvernscale Boots"
+    },
+    {
+        "zh": "冈姆胫甲",
+        "en": "Kaom's Greaves",
+		"legacy": true
+    },
+    {
+        "zh": "飞羽便鞋",
+        "en": "Avian Slippers",
+		"legacy": true
     }
 ]
