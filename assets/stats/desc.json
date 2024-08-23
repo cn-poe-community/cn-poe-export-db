@@ -47961,12 +47961,12 @@
   },
   {
     "id": "local_elemental_damage_+%",
-    "zh": "元素伤害提高 {0}%",
+    "zh": "该武器的元素伤害提高 {0}%",
     "en": "Has {0}% increased Elemental Damage"
   },
   {
     "id": "local_elemental_damage_+%",
-    "zh": "元素伤害降低 {0}%",
+    "zh": "该武器的元素伤害降低 {0}%",
     "en": "Has {0}% reduced Elemental Damage"
   },
   {

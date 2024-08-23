@@ -154,8 +154,6 @@ func hackZhStatDescContent(content string) string {
 func hackDescs(descs []*desc.Desc) {
 	for _, d := range descs {
 		// 血影的`每个狂怒球使攻击速度减慢 4%`，应当为`每个狂怒球使攻击和施法速度减慢 4%`
-		// 与`每个狂怒球可使攻击速度加快 {0}%`,`每个狂怒球可使攻击速度减慢 {0}%`冲突
-		// 需要translator进行hack
 		if d.Id == "attack_and_cast_speed_+%_per_frenzy_charge" {
 			if d.Texts[desc.LangZh][0].Template == "每个狂怒球使攻击速度加快 {0}%" {
 				d.Texts[desc.LangZh][0].Template = "每个狂怒球使攻击和施法速度加快 {0}%"
@@ -167,16 +165,27 @@ func hackDescs(descs []*desc.Desc) {
 			} else {
 				log.Panicf("hack missed: %v", d.Id)
 			}
-			continue
 		}
 
 		// 戴亚迪安的晨曦的`没有物理伤害`，应当为`不造成物理伤害`
-		// 与武器上的`没有物理伤害`词缀产生冲突
-		// 受影响物品：戴亚迪安的晨曦，异度天灾武器基底词缀
-		// 需要translator进行hack
 		if d.Id == "base_deal_no_physical_damage" {
 			if d.Texts[desc.LangZh][0].Template == "没有物理伤害" {
 				d.Texts[desc.LangZh][0].Template = "不造成物理伤害"
+			} else {
+				log.Panicf("hack missed: %v", d.Id)
+			}
+		}
+
+		if d.Id == "local_elemental_damage_+%" {
+			if d.Texts[desc.LangZh][0].Template == "元素伤害提高 {0}%" {
+				d.Texts[desc.LangZh][0].Template = "该武器的元素伤害提高 {0}%"
+			} else {
+				log.Panicf("hack missed: %v", d.Id)
+			}
+			if d.Texts[desc.LangZh][1].Template == "元素伤害降低 {0}%" {
+				d.Texts[desc.LangZh][1].Template = "该武器的元素伤害降低 {0}%"
+			} else {
+				log.Panicf("hack missed: %v", d.Id)
 			}
 		}
 
