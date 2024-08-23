@@ -96,6 +96,10 @@
         "en": "Weapon Range: {0} metres"
     },
     {
+        "zh": "武器范围：{0} (augmented) 米",
+        "en": "Weapon Range: {0} (augmented) metres"
+    },
+    {
         "zh": "闪避值",
         "en": "Evasion rating"
     },
