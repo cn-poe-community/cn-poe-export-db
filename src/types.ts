@@ -81,6 +81,7 @@ export interface Assets {
     weapons: BaseType[];
     flasks: BaseType[];
     jewels: BaseType[];
+    tinctures: BaseType[];
     gems: Gem[];
     hybridSkills: Skill[],
     attributes: Attribute[];
