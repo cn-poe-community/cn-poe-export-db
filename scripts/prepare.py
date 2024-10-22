@@ -138,6 +138,7 @@ bundled_files = [
     "metadata/statdescriptions/tincture_stat_descriptions.txt",
     "data/indexablesupportgems.dat64",
     "data/indexableskillgems.dat64",
+    "data/activeskills.dat64",
     "data/baseitemtypes.dat64",
     "data/gemeffects.dat64"
 ]
@@ -149,7 +150,8 @@ tx_bundled_files = [
     "data/simplified chinese/indexablesupportgems.dat64",
     "data/simplified chinese/indexableskillgems.dat64",
     "data/simplified chinese/baseitemtypes.dat64",
-    "data/simplified chinese/gemeffects.dat64"
+    "data/simplified chinese/gemeffects.dat64",
+    "data/simplified chinese/activeskills.dat64"
 ]
 
 
@@ -157,7 +159,8 @@ tables = {
     "indexablesupportgems.dat64": "IndexableSupportGems",
     "indexableskillgems.dat64": "IndexableSkillGems",
     "baseitemtypes.dat64": "BaseItemTypes",
-    "gemeffects.dat64": "GemEffects"
+    "gemeffects.dat64": "GemEffects",
+    "activeskills.dat6": "ActiveSkills"
 }
 
 

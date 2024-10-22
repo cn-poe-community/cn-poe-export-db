@@ -1817,6 +1817,14 @@
     "zh": "三位一体（辅）"
   },
   {
+    "en": "Death Aura",
+    "zh": "陨命光环"
+  },
+  {
+    "en": "Envy",
+    "zh": "嫉妒"
+  },
+  {
     "en": "Exsanguinate",
     "zh": "赤炼魔光"
   },
@@ -1955,6 +1963,10 @@
   {
     "en": "Destructive Link",
     "zh": "毁灭羁绊"
+  },
+  {
+    "en": "Divine Blessing Support",
+    "zh": "神圣祝福（辅）"
   },
   {
     "en": "Mark On Hit Support",

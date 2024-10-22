@@ -127,18 +127,24 @@ func loadGgpkActiveSkills(filename string) []*GgpkActiveSkill {
 	return entries
 }
 
-func mergeGgpkActiveSkills(enEntryList, zhEntryList []*GgpkActiveSkill) ([]*ActiveSkill, error) {
-	if len(enEntryList) < len(zhEntryList) {
-		return nil, fmt.Errorf("shorter enEntryList")
+func mergeGgpkActiveSkills(entryList, zhEntryList []*GgpkActiveSkill) ([]*ActiveSkill, error) {
+	entryIdIdx := map[string]*GgpkActiveSkill{}
+	zhEntryIdIdx := map[string]*GgpkActiveSkill{}
+
+	for _, entry := range entryList {
+		entryIdIdx[entry.Id] = entry
+	}
+
+	for _, entry := range zhEntryList {
+		zhEntryIdIdx[entry.Id] = entry
 	}
 
 	result := []*ActiveSkill{}
-	for i, enEntry := range enEntryList {
-		zhEntry := zhEntryList[i]
-		if enEntry.Id != zhEntry.Id {
-			errorutil.QuitIfError(fmt.Errorf("id doesnot match of gem effects: %s", zhEntry.Id))
+	for _, enEntry := range entryList {
+		if zhEntry, ok := zhEntryIdIdx[enEntry.Id]; ok {
+			result = append(result, &ActiveSkill{Zh: zhEntry.DisplayedName, En: enEntry.DisplayedName})
 		}
-		result = append(result, &ActiveSkill{Zh: zhEntry.DisplayedName, En: enEntry.DisplayedName})
+
 	}
 	return result, nil
 }

@@ -8,7 +8,6 @@ import (
 	"dbutils/pkg/utils/errorutil"
 	"dbutils/pkg/utils/stringutil"
 	"encoding/json"
-	"fmt"
 	"log"
 	"os"
 	"path/filepath"
@@ -28,7 +27,7 @@ var txTradableItemsFile string
 var gemsFile string
 var skillsFile string
 
-// 无效宝石，通过将basetypes中的数据与交易网站中的数据进行diff得到，并通过了人工检查
+// 无效宝石，通过将basetypes中的数据与交易网站中的数据进行diff得到
 var invalidGemList = []string{"Righteous Lightning", "Wildfire", "Playtest Spell", "Infernal Sweep",
 	"New Blade Vortex", "Capture Monster", "Ignite", "Wand Teleport", "Lightning Channel",
 	"Lesser Reduced Mana Cost Support", "Static Tether", "Shadow Blades", "Backstab", "New Shock Nova",
@@ -48,12 +47,23 @@ var nonGemSkillList = []string{"Death Aura", "Envy", "Gluttony of Elements", "Bl
 	"Divine Blessing Support", "Earthbreaker Support",
 }
 
+// 虽然是非宝石的技能，但是需要收录
+var indexableNonGemSkillList = []string{
+	"Death Aura",              //陨命光环
+	"Envy",                    //嫉妒
+	"Divine Blessing Support", //神圣祝福（辅）
+	"Aspect of the Cat",       //猫之势
+	"Aspect of the Avian",     //鸟之势
+	"Aspect of the Spider",    //蛛之势
+	"Aspect of the Crab"}      //蟹之势
+
 // 已经遗产的技能
 var legacySkillList = []string{"Blinding Aura"}
 
 var invalidGemSet = map[string]bool{}
-var nonGemSkillSet = map[string]bool{}
 var legacyGemSet = map[string]bool{}
+var nonGemSkillSet = map[string]bool{}
+var indexableNonGemSkillSet = map[string]bool{}
 var legacySkillSet = map[string]bool{}
 
 func init() {
@@ -76,12 +86,16 @@ func init() {
 		invalidGemSet[en] = true
 	}
 
+	for _, en := range legacyGemList {
+		legacyGemSet[en] = true
+	}
+
 	for _, en := range nonGemSkillList {
 		nonGemSkillSet[en] = true
 	}
 
-	for _, en := range legacyGemList {
-		legacyGemSet[en] = true
+	for _, en := range indexableNonGemSkillList {
+		indexableNonGemSkillSet[en] = true
 	}
 
 	for _, en := range legacySkillList {
@@ -121,10 +135,61 @@ func formatGemZh(zh string) string {
 	return strings.Replace(zh, ")", "）", 1)
 }
 
+// 从交易网站数据中获取所有技能石名称
+func getTradableGemsSet(
+	tradableGems []map[string]any,
+	txTradableGems []map[string]any) (tradableGemSet map[string]bool, tradableGemZhSet map[string]bool) {
+
+	tradableGemSet = map[string]bool{}
+	tradableGemZhSet = map[string]bool{}
+	for _, gem := range tradableGems {
+		// 交易网站的数据具有如下特征：
+		// - type 记录了技能石的名称，改造技能石的字段值仍然为原来的技能石的字段值
+		// - text 只有改造技能石有该字段，记录了改造技能石的真正名称
+		//
+		// 也就是说，普通技能石的名称是type值，改造技能石的名称是text值。
+		// 对于瓦尔宝石的改造版本，游戏并没有从名称上进行区分（而是detail有区别），
+		// 因此瓦尔宝石的改造版本的技能石名称是交易网站为了区分物品而自定义的，
+		// 因此在这里是无效数据
+		gemType := gem["type"].(string)
+		var gemText *string
+
+		if value, ok := gem["text"]; ok {
+			str := value.(string)
+			gemText = &str
+		}
+
+		tradableGemSet[gemType] = true
+
+		if !strings.HasPrefix(gemType, "Vaal ") && gemText != nil { //改造宝石，非瓦尔版本
+			tradableGemSet[*gemText] = true
+		}
+	}
+
+	for _, gem := range txTradableGems {
+		gemType := formatGemZh(gem["type"].(string))
+		var gemText *string
+
+		if value, ok := gem["text"]; ok {
+			str := formatGemZh(value.(string))
+			gemText = &str
+		}
+
+		tradableGemZhSet[gemType] = true
+
+		if !strings.HasPrefix(gemType, "瓦尔：") && gemText != nil { //改造宝石，非瓦尔版本
+			tradableGemZhSet[*gemText] = true
+		}
+	}
+	return
+}
+
 func initGems(baseTypes []*item.BaseItemType, gemEffects []*gem.GemEffect,
 	tradableGems []map[string]any, txTradableGems []map[string]any) ([]*gem.Gem, map[string]bool) {
+	//从baseTypes中获取技能石
 	gems := []*gem.Gem{}
 	for _, baseType := range baseTypes {
+		// 有效的技能石，其中文名称必然是中文（存在一些未翻译的技能石名称）
 		if !stringutil.IsASCII(baseType.Zh) &&
 			(baseType.GgpkType.ItemClassesKey == 18 ||
 				baseType.GgpkType.ItemClassesKey == 19) {
@@ -140,6 +205,7 @@ func initGems(baseTypes []*item.BaseItemType, gemEffects []*gem.GemEffect,
 		gemZhIdx[gem.Zh] = gem
 	}
 
+	//从gemEffects中获取改造技能石
 	transfiguredGems := []*gem.Gem{}
 	transfiguredGemZhIdx := map[string]*gem.Gem{}
 	for _, effect := range gemEffects {
@@ -164,48 +230,20 @@ func initGems(baseTypes []*item.BaseItemType, gemEffects []*gem.GemEffect,
 	// - 重复数据，相同的zh,en
 	// - 脏数据，相同的en，不同的zh，只有一个zh是正确的
 	// - 未实装的数据，以[DNT]开头
+	tradableGemSet, tradableGemZhSet := getTradableGemsSet(tradableGems, txTradableGems) //交易网站的数据，用于检查
+
+	cleanGems := []*gem.Gem{} // 清洗后的Gems
+	cleanGemSet := map[string]bool{}
 	gemEnIdx := map[string]int{}
-	tradableGemSet := map[string]bool{}
-	tradableGemZhSet := map[string]bool{}
-
-	uniqueGems := []*gem.Gem{}
-
-	for _, gem := range tradableGems {
-		t := formatGemZh(gem["type"].(string))
-		var text *string
-
-		if value, ok := gem["text"]; ok {
-			textHolder := value.(string)
-			text = &textHolder
-		}
-
-		tradableGemSet[t] = true
-
-		if !strings.HasPrefix(t, "Vaal ") && text != nil { //改造宝石，非瓦尔版本
-			tradableGemSet[*text] = true
-		}
-	}
-
-	for _, gem := range txTradableGems {
-		t := formatGemZh(gem["type"].(string))
-		var text *string
-
-		if value, ok := gem["text"]; ok {
-			textHolder := formatGemZh(value.(string))
-			text = &textHolder
-		}
-
-		tradableGemZhSet[t] = true
-
-		if !strings.HasPrefix(t, "瓦尔：") && text != nil { //改造宝石，非瓦尔版本
-			tradableGemZhSet[*text] = true
-		}
-	}
-
-	gemSet := map[string]bool{}
 
 	for _, gem := range gems {
-		if invalidGemSet[gem.En] || nonGemSkillSet[gem.En] {
+		// 跳过无效宝石
+		if invalidGemSet[gem.En] {
+			continue
+		}
+
+		//跳过非宝石且不需要索引的技能
+		if nonGemSkillSet[gem.En] && !indexableNonGemSkillSet[gem.En] {
 			continue
 		}
 
@@ -214,40 +252,38 @@ func initGems(baseTypes []*item.BaseItemType, gemEffects []*gem.GemEffect,
 		}
 
 		if idx, ok := gemEnIdx[gem.En]; ok {
-			old := uniqueGems[idx]
+			// 遇到重复的en
+			old := cleanGems[idx]
+			// 如果有不同的zh
 			if old.Zh != gem.Zh {
-				if tradableGemZhSet[old.Zh] && !tradableGemZhSet[gem.Zh] {
-					continue
+				// 以交易网站的数据为准
+				if !tradableGemZhSet[old.Zh] {
+					cleanGems[idx] = gem
 				}
-				if !tradableGemZhSet[old.Zh] && tradableGemZhSet[gem.Zh] {
-					uniqueGems[idx] = gem
-					continue
-				}
-				fmt.Printf("warning: gem with diff zh: %s %s %s", gem.En, old.Zh, gem.Zh)
 			}
 		} else {
-			gemEnIdx[gem.En] = len(uniqueGems)
+			gemEnIdx[gem.En] = len(cleanGems)
 
 			if legacyGemSet[gem.En] {
 				gem.Legacy = true
 			}
 
-			if !tradableGemSet[gem.En] {
+			if !tradableGemSet[gem.En] && !indexableNonGemSkillSet[gem.En] {
 				log.Printf("warning: un-tradable gem: %s %s", gem.En, gem.Zh)
 			}
 
-			uniqueGems = append(uniqueGems, gem)
-			gemSet[gem.En] = true
+			cleanGems = append(cleanGems, gem)
+			cleanGemSet[gem.En] = true
 		}
 	}
 
-	for en, _ := range tradableGemSet {
-		if !gemSet[en] && !invalidGemSet[en] && !nonGemSkillSet[en] {
+	for en := range tradableGemSet {
+		if !cleanGemSet[en] && !invalidGemSet[en] && !nonGemSkillSet[en] {
 			log.Printf("warning: missed tradable gem: %s", en)
 		}
 	}
 
-	return uniqueGems, gemSet
+	return cleanGems, cleanGemSet
 }
 
 func saveGems(gems []*gem.Gem, file string) {
@@ -256,13 +292,19 @@ func saveGems(gems []*gem.Gem, file string) {
 	os.WriteFile(file, data, 0o666)
 }
 
-func initSkills(gemSet map[string]bool, activeSkills []*gem.ActiveSkill, gemEffects []*gem.GemEffect) []*gem.Gem {
+func initSkills(gemSet map[string]bool, activeSkills []*gem.ActiveSkill) []*gem.Gem {
 	skills := []*gem.Gem{}
 
+	// 仅收录需要索引的非技能石技能，且未收录在`gems.json`中
 	for _, skill := range activeSkills {
-		if skill.En == "" || strings.HasPrefix(skill.En, "[DNT]") || gemSet[skill.En] {
+		if !indexableNonGemSkillSet[skill.En] {
 			continue
 		}
+
+		if gemSet[skill.En] {
+			continue
+		}
+
 		skills = append(skills, &gem.Gem{
 			En: skill.En,
 			Zh: formatGemZh(skill.Zh),
@@ -275,13 +317,12 @@ func initSkills(gemSet map[string]bool, activeSkills []*gem.ActiveSkill, gemEffe
 func main() {
 	baseItemTypes := item.LoadBaseItemTypesFromGggpk(baseItemTypesFile, txBaseItemTypesFile)
 	gemEffects := gem.LoadGemEffectsFromGgpk(gemEffectsFile, txGemEffectsFile)
-	//activeSkills := gem.LoadActiveSkillsFromGgpk(activeSkillsFile, txActiveSkillsFile)
+	activeSkills := gem.LoadActiveSkillsFromGgpk(activeSkillsFile, txActiveSkillsFile)
 	tradableGems, txTradableGems := loadTradableGems()
 
-	//gems, gemSet := initGems(baseItemTypes, gemEffects, tradableGems, txTradableGems)
-	gems, _ := initGems(baseItemTypes, gemEffects, tradableGems, txTradableGems)
-	//skills := initSkills(gemSet, activeSkills, gemEffects)
+	gems, gemSet := initGems(baseItemTypes, gemEffects, tradableGems, txTradableGems)
+	skills := initSkills(gemSet, activeSkills)
 
 	saveGems(gems, gemsFile)
-	//saveGems(skills, skillsFile)
+	saveGems(skills, skillsFile)
 }
