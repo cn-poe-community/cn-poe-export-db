@@ -3,7 +3,6 @@
 目前使用了以下脚本：
 
 - prepare.py 下载本项目依赖的外部数据，以及解包游戏数据
-- crucible/init_crucible.py：根据 trade data 生成 assets/stats/crucible.json
 - desc/stats.go：根据解包文件，生成 assets/stats/desc.json
 - gem/main.go 根据解包文件，生成 assets/gems/gems.json
 - item/main.go 根据解包文件, 生成 assets/tattoos.json

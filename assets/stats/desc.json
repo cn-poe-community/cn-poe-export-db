@@ -696,7 +696,7 @@
   },
   {
     "id": "local_socketed_gems_in_blue_sockets_experience_gained_+%",
-    "zh": "蓝色插槽内的技能石获得的经验提高 {0}% ",
+    "zh": "蓝色插槽内的技能石获得的经验提高 {0}%",
     "en": "Gems Socketed in Blue Sockets gain {0}% increased Experience"
   },
   {
@@ -786,7 +786,7 @@
   },
   {
     "id": "local_socketed_curse_gem_level_+",
-    "zh": "此物品上装备的【诅咒技能石】等级 {0}",
+    "zh": "插入的诅咒技能石等级 {0}",
     "en": "{0} to Level of Socketed Curse Gems"
   },
   {
@@ -846,7 +846,7 @@
   },
   {
     "id": "local_display_socketed_golem_life_regeneration_rate_per_minute_%",
-    "zh": "插槽内的魔像技能每秒回复 {0}% 生命",
+    "zh": "插槽内的魔像技能每秒再生 {0}% 生命",
     "en": "Socketed Golem Skills have Minions Regenerate {0}% of Life per second"
   },
   {
@@ -1281,7 +1281,7 @@
   },
   {
     "id": "local_display_socketed_gems_supported_by_level_x_intensify",
-    "zh": "插入的技能石被 {0} 级的【法术凝聚】辅助",
+    "zh": "此物品上的技能石受到 {0} 级的 法术凝聚 辅助",
     "en": "Socketed Gems are Supported by Level {0} Intensify"
   },
   {
@@ -2726,63 +2726,78 @@
   },
   {
     "id": "local_display_summon_harbinger_x_on_equip",
-    "zh": "获得【召唤秘法先驱者】",
+    "zh": "获得召唤秘法先驱者技能",
     "en": "Grants Summon Harbinger of the Arcane Skill"
   },
   {
     "id": "local_display_summon_harbinger_x_on_equip",
-    "zh": "获得【召唤时空先驱者】",
+    "zh": "获得召唤时空先驱者技能",
     "en": "Grants Summon Harbinger of Time Skill"
   },
   {
     "id": "local_display_summon_harbinger_x_on_equip",
-    "zh": "获得【召唤不屈先驱者】",
+    "zh": "获得召唤不屈先驱者技能",
     "en": "Grants Summon Harbinger of Focus Skill"
   },
   {
     "id": "local_display_summon_harbinger_x_on_equip",
-    "zh": "获得【召唤射术先驱者】",
+    "zh": "获得召唤射术先驱者技能",
     "en": "Grants Summon Harbinger of Directions Skill"
   },
   {
     "id": "local_display_summon_harbinger_x_on_equip",
-    "zh": "获得【召唤冰雷先驱者】",
+    "zh": "获得召唤冰雷先驱者技能",
     "en": "Grants Summon Harbinger of Storms Skill"
   },
   {
     "id": "local_display_summon_harbinger_x_on_equip",
-    "zh": "获得【召唤残暴先驱者】",
+    "zh": "获得召唤残暴先驱者技能",
     "en": "Grants Summon Harbinger of Brutality Skill"
   },
   {
     "id": "local_display_summon_harbinger_x_on_equip",
-    "zh": "获得【召唤高等秘法先驱者】",
+    "zh": "获得召唤高等秘法先驱者技能",
     "en": "Grants Summon Greater Harbinger of the Arcane Skill"
   },
   {
     "id": "local_display_summon_harbinger_x_on_equip",
-    "zh": "获得【召唤高等时空先驱者】",
+    "zh": "获得召唤高等时空先驱者技能",
     "en": "Grants Summon Greater Harbinger of Time Skill"
   },
   {
     "id": "local_display_summon_harbinger_x_on_equip",
-    "zh": "获得【召唤高等不屈先驱者】",
+    "zh": "获得召唤高等不屈先驱者技能",
     "en": "Grants Summon Greater Harbinger of Focus Skill"
   },
   {
     "id": "local_display_summon_harbinger_x_on_equip",
-    "zh": "获得【召唤高等射术先驱者】",
+    "zh": "获得召唤高等射术先驱者技能",
     "en": "Grants Summon Greater Harbinger of Directions Skill"
   },
   {
     "id": "local_display_summon_harbinger_x_on_equip",
-    "zh": "获得【召唤高等冰雷先驱者】",
+    "zh": "获得召唤高等冰雷先驱者技能",
     "en": "Grants Summon Greater Harbinger of Storms Skill"
   },
   {
     "id": "local_display_summon_harbinger_x_on_equip",
-    "zh": "获得【召唤高等残暴先驱者】",
+    "zh": "获得召唤高等残暴先驱者技能",
     "en": "Grants Summon Greater Harbinger of Brutality Skill"
+  },
+  {
+    "id": "local_display_summon_harbinger_x_on_equip",
+    "zh": "获得召唤降世秘法先驱者技能",
+    "en": "Grants Summon Visiting Harbinger of Arcane Skill"
+  },
+  {
+    "id": "local_display_summon_harbinger_x_on_equip",
+    "zh": "获得召唤降世时空先驱者技能",
+    "en": "Grants Summon Visiting Harbinger of Time Skill"
+  },
+  {
+    "id": "local_display_summon_harbinger_x_on_equip",
+    "zh": "获得召唤降世不屈先驱者技能",
+    "en": "Grants Summon Visiting Harbinger of Focus Skill"
   },
   {
     "id": "display_monster_has_chilled_ground_trail_daemon",
@@ -2833,6 +2848,11 @@
     "id": "local_display_grants_skill_vitality_level",
     "zh": "获得 {0} 级的主动技能【活力】，且可被此道具上的技能石辅助",
     "en": "Grants Level {0} Vitality Skill"
+  },
+  {
+    "id": "base_non_chaos_damage_bypass_energy_shield_%",
+    "zh": "受到的混沌伤害的{0}%穿透能量护盾",
+    "en": "{0}% of Non-Chaos Damage taken bypasses Energy Shield"
   },
   {
     "id": "local_display_grants_skill_purity_level",
@@ -2981,12 +3001,17 @@
   },
   {
     "id": "local_display_cast_level_1_summon_lesser_shrine_on_kill_%",
-    "zh": "击败敌人时有 {0}% 的几率召唤 1 级的低阶神殿",
+    "zh": "击败敌人时有 {0}% 的几率触发 1 级创造低等神龛",
     "en": "{0}% chance to Trigger Level 1 Create Lesser Shrine when you Kill an Enemy"
   },
   {
     "id": "local_display_cast_level_1_summon_lesser_shrine_on_kill_%",
-    "zh": "击败敌人时召唤 1 级的低阶神殿",
+    "zh": "当你击败敌人时，触发 20 级创造低等神龛",
+    "en": "Trigger Level 20 Create Lesser Shrine when you Kill an Enemy"
+  },
+  {
+    "id": "local_display_cast_level_1_summon_lesser_shrine_on_kill_%",
+    "zh": "当你击败敌人时，触发 1 级创造低等神龛",
     "en": "Trigger Level 1 Create Lesser Shrine when you Kill an Enemy"
   },
   {
@@ -3031,7 +3056,7 @@
   },
   {
     "id": "local_display_grants_skill_abyssal_cry_level",
-    "zh": "获得 {0} 级的【威吓战吼】",
+    "zh": "获得 {0} 级的主动技能【威吓战吼】",
     "en": "Grants Level {0} Intimidating Cry Skill"
   },
   {
@@ -3241,53 +3266,53 @@
   },
   {
     "id": "local_display_tattoo_trigger_level_x_ahuana",
-    "zh": "压制传奇敌人的法术伤害时\n触发召唤阿华纳之魂技能",
-    "en": "Trigger Summon Spirit of Ahuana Skill when you Suppress\nSpell Damage from a Unique Enemy"
+    "zh": "压制传奇敌人的法术伤害时\n触发等级 {0} 召唤阿华纳之魂技能",
+    "en": "Trigger level {0} Summon Spirit of Ahuana Skill when you Suppress\nSpell Damage from a Unique Enemy"
   },
   {
     "id": "local_display_tattoo_trigger_level_x_akoya",
-    "zh": "传奇敌人在场时达到怒火上限\n会触发召唤阿寇亚之魂技能",
-    "en": "Trigger Summon Spirit of Akoya Skill when you reach Maximum Rage while\na Unique Enemy is in your Presence"
+    "zh": "传奇敌人在场时达到怒火上限会\n触发等级 {0} 召唤阿寇亚之魂技能",
+    "en": "Trigger level {0} Summon Spirit of Akoya Skill when you reach Maximum Rage while\na Unique Enemy is in your Presence"
   },
   {
     "id": "local_display_tattoo_trigger_level_x_ikiaho",
-    "zh": "传奇敌人在场时使用旅行技能\n会触发召唤伊基阿霍之魂",
-    "en": "Trigger Summon Spirit of Ikiaho Skill when you use a Travel\nSkill while a Unique Enemy is in your Presence"
+    "zh": "传奇敌人在场时使用旅行技能会\n触发等级 {0} 召唤伊基阿霍之魂",
+    "en": "Trigger level {0} Summon Spirit of Ikiaho Skill when you use a Travel\nSkill while a Unique Enemy is in your Presence"
   },
   {
     "id": "local_display_tattoo_trigger_level_x_kahuturoa",
-    "zh": "受到传奇敌人的暴击时\n触发召唤卡胡图罗阿之魂技能",
-    "en": "Trigger Summon Spirit of Kahuturoa Skill when you take\na Critical Strike from a Unique Enemy"
+    "zh": "受到传奇敌人的暴击时\n触发等级 {0} 召唤卡胡图罗阿之魂技能",
+    "en": "Trigger level {0} Summon Spirit of Kahuturoa Skill when you take\na Critical Strike from a Unique Enemy"
   },
   {
     "id": "local_display_tattoo_trigger_level_x_kaom",
-    "zh": "传奇敌人在场时有图腾被击败\n会触发召唤冈姆之魂技能",
-    "en": "Trigger Summon Spirit of Kaom Skill when a Totem dies while\na Unique Enemy is in your Presence"
+    "zh": "传奇敌人在场时有图腾被击败会\n触发等级 {0} 召唤冈姆之魂技能",
+    "en": "Trigger level {0} Summon Spirit of Kaom Skill when a Totem dies while\na Unique Enemy is in your Presence"
   },
   {
     "id": "local_display_tattoo_trigger_level_x_kiloava",
-    "zh": "格挡传奇敌人的伤害时触发召唤基洛瓦之魂技能",
-    "en": "Trigger Summon Spirit of Kiloava Skill when you Block Damage from a Unique Enemy"
+    "zh": "格挡传奇敌人伤害时触发等级 {0} 召唤基洛瓦之魂技能",
+    "en": "Trigger level {0} Summon Spirit of Kiloava Skill when you Block Damage from a Unique Enemy"
   },
   {
     "id": "local_display_tattoo_trigger_level_x_maata",
-    "zh": "传奇敌人在场时进入低血状态\n会触发召唤玛塔之魂技能",
-    "en": "Trigger Summon Spirit of Maata Skill when you reach Low Life while\na Unique Enemy is in your Presence"
+    "zh": "传奇敌人在场时进入低血状态会\n触发等级 {0} 召唤玛塔之魂技能",
+    "en": "Trigger level {0} Summon Spirit of Maata Skill when you reach Low Life while\na Unique Enemy is in your Presence"
   },
   {
     "id": "local_display_tattoo_trigger_level_x_rakiata",
-    "zh": "对被标记的传奇敌人暴击时触发召唤拉其塔之魂",
-    "en": "Trigger Summon Spirit of Rakiata Skill on Critical Strike against Marked Unique Enemy"
+    "zh": "对被标记的传奇敌人暴击时触发等级 {0} 召唤拉其塔之魂",
+    "en": "Trigger level {0} Summon Spirit of Rakiata Skill on Critical Strike against Marked Unique Enemy"
   },
   {
     "id": "local_display_tattoo_trigger_level_x_tawhanuku",
-    "zh": "传奇敌人在场时能量护盾开始充能会触发召唤陶哈努库之魂技能",
-    "en": "Trigger Summon Spirit of Tawhanuku Skill when Energy Shield Recharge starts while a Unique Enemy is in your Presence"
+    "zh": "传奇敌人在场时能量护盾开始充能会触发等级 {0} 召唤陶哈努库之魂技能",
+    "en": "Trigger level {0} Summon Spirit of Tawhanuku Skill when Energy Shield Recharge starts while a Unique Enemy is in your Presence"
   },
   {
     "id": "local_display_tattoo_trigger_level_x_utula",
-    "zh": "受到传奇敌人的残暴打击时触发召唤尤图拉之魂技能",
-    "en": "Trigger Summon Spirit of Utula Skill on taking a Savage Hit from a Unique Enemy"
+    "zh": "受到传奇敌人的残暴打击时触发等级 {0} 召唤尤图拉之魂技能",
+    "en": "Trigger level {0} Summon Spirit of Utula Skill on taking a Savage Hit from a Unique Enemy"
   },
   {
     "id": "can_see_corpse_types",
@@ -3476,7 +3501,12 @@
   },
   {
     "id": "local_display_raise_spider_on_kill_%_chance",
-    "zh": "击败敌人时有 {0}% 的几率触发 1 级的【召唤毒蛛】",
+    "zh": "击败敌人时触发等级 20 召唤毒蛛",
+    "en": "Trigger Level 20 Raise Spiders on Kill"
+  },
+  {
+    "id": "local_display_raise_spider_on_kill_%_chance",
+    "zh": "击败敌人时有 {0}% 的几率触发等级 1 召唤毒蛛",
     "en": "{0}% chance to Trigger Level 1 Raise Spiders on Kill"
   },
   {
@@ -3511,7 +3541,7 @@
   },
   {
     "id": "local_display_trigger_corpse_walk_on_equip_level",
-    "zh": "装备时触发 {0} 级灵枢行走",
+    "zh": "装备时触发 {0} 级灵柩行走",
     "en": "Triggers Level {0} Corpse Walk when Equipped"
   },
   {
@@ -3566,12 +3596,17 @@
   },
   {
     "id": "local_display_trigger_level_20_shade_form_when_hit_%",
-    "zh": "被击中时触发 20 级暗影姿态",
+    "zh": "击中时触发等级 30 暗影姿态",
+    "en": "Trigger Level 30 Shade Form when Hit"
+  },
+  {
+    "id": "local_display_trigger_level_20_shade_form_when_hit_%",
+    "zh": "击中时触发等级 20 暗影姿态",
     "en": "Trigger Level 20 Shade Form when Hit"
   },
   {
     "id": "local_display_trigger_level_20_shade_form_when_hit_%",
-    "zh": "被击中时有 {0}% 的几率触发 20 级暗影姿态",
+    "zh": "击中时有 {0}% 的几率触发等级 20 暗影姿态",
     "en": "{0}% chance to Trigger Level 20 Shade Form when Hit"
   },
   {
@@ -3811,12 +3846,12 @@
   },
   {
     "id": "local_flask_gain_X_charges_on_consuming_ignited_corpse",
-    "zh": "你消耗一具点燃的灵枢可恢复 1 次充能",
+    "zh": "你消耗一具点燃的灵柩可恢复 1 次充能",
     "en": "Recharges 1 Charge when you Consume an Ignited corpse"
   },
   {
     "id": "local_flask_gain_X_charges_on_consuming_ignited_corpse",
-    "zh": "你消耗一具点燃的灵枢可恢复 {0} 次充能",
+    "zh": "你消耗一具点燃的灵柩可恢复 {0} 次充能",
     "en": "Recharges {0} Charges when you Consume an Ignited corpse"
   },
   {
@@ -3841,12 +3876,12 @@
   },
   {
     "id": "local_recharge_on_crit_%",
-    "zh": "你造成暴击时有 {0}% 的几率获得一次药剂充能",
+    "zh": "暴击时有 {0}% 的几率获得 1 充能",
     "en": "{0}% chance to gain a Flask Charge when you deal a Critical Strike"
   },
   {
     "id": "local_recharge_on_crit_%",
-    "zh": "你造成暴击时获得一次药剂充能",
+    "zh": "暴击时获得 1 充能",
     "en": "Gain a Flask Charge when you deal a Critical Strike"
   },
   {
@@ -4096,7 +4131,7 @@
   },
   {
     "id": "local_unique_flask_chaos_damage_%_of_maximum_life_to_deal_per_minute_while_healing",
-    "zh": "每秒承受最大生命 {0}% 的混沌伤害",
+    "zh": "每秒受到最大生命 {0}% 的混沌伤害",
     "en": "{0}% of Maximum Life taken as Chaos Damage per second"
   },
   {
@@ -4586,12 +4621,12 @@
   },
   {
     "id": "local_fire_and_lightning_hit_and_dot_damage_%_taken_as_cold_during_effect",
-    "zh": "效果期间受到的火焰和闪电击中伤害的 {0}% 转化为冰霜伤害",
+    "zh": "生效期间受到击中火焰和闪电伤害的 {0}% 视作冰霜伤害",
     "en": "{0}% of Fire and Lightning Damage from Hits taken as Cold Damage during Effect"
   },
   {
     "id": "local_unique_flask_physical_damage_taken_%_as_cold_while_healing",
-    "zh": "生效期间，受到物理伤害的 {0}% 转化为冰霜伤害",
+    "zh": "生效期间受到物理伤害的 {0}% 视作冰霜伤害",
     "en": "{0}% of Physical Damage from Hits taken as Cold Damage during Effect"
   },
   {
@@ -4756,7 +4791,7 @@
   },
   {
     "id": "local_flask_life_regeneration_per_minute_%_during_flask_effect",
-    "zh": "生效期间每秒回复 {0}% 生命",
+    "zh": "生效期间每秒再生 {0}% 生命",
     "en": "Regenerate {0}% of Life per second during Effect"
   },
   {
@@ -5396,7 +5431,7 @@
   },
   {
     "id": "shield_block_%",
-    "zh": "持盾牌时攻击伤害格挡率 {0}%",
+    "zh": "攻击伤害格挡率在持盾牌时 {0}%",
     "en": "{0}% Chance to Block Attack Damage while holding a Shield"
   },
   {
@@ -6321,7 +6356,7 @@
   },
   {
     "id": "global_minimum_added_physical_damage global_maximum_added_physical_damage",
-    "zh": "附加 {0} - {1} 基础物理伤害",
+    "zh": "该装备附加 {0} - {1} 基础物理伤害",
     "en": "Adds {0} to {1} Physical Damage"
   },
   {
@@ -7191,7 +7226,7 @@
   },
   {
     "id": "global_minimum_added_fire_damage global_maximum_added_fire_damage",
-    "zh": "附加 {0} - {1} 基础火焰伤害",
+    "zh": "该装备附加 {0} - {1} 基础火焰伤害",
     "en": "Adds {0} to {1} Fire Damage"
   },
   {
@@ -7251,7 +7286,7 @@
   },
   {
     "id": "global_minimum_added_cold_damage global_maximum_added_cold_damage",
-    "zh": "附加 {0} - {1} 基础冰霜伤害",
+    "zh": "该装备附加 {0} - {1} 基础冰霜伤害",
     "en": "Adds {0} to {1} Cold Damage"
   },
   {
@@ -7321,7 +7356,7 @@
   },
   {
     "id": "global_minimum_added_lightning_damage global_maximum_added_lightning_damage",
-    "zh": "附加 {0} - {1} 基础闪电伤害",
+    "zh": "该装备附加 {0} - {1} 基础闪电伤害",
     "en": "Adds {0} to {1} Lightning Damage"
   },
   {
@@ -7371,7 +7406,7 @@
   },
   {
     "id": "global_minimum_added_chaos_damage global_maximum_added_chaos_damage",
-    "zh": "附加 {0} - {1} 基础混沌伤害",
+    "zh": "该装备附加 {0} - {1} 基础混沌伤害",
     "en": "Adds {0} to {1} Chaos Damage"
   },
   {
@@ -7931,7 +7966,7 @@
   },
   {
     "id": "additional_base_critical_strike_chance",
-    "zh": "附加 {0}% 基础暴击率",
+    "zh": "暴击几率提高 {0}%",
     "en": "{0}% to Critical Strike Chance"
   },
   {
@@ -8356,7 +8391,7 @@
   },
   {
     "id": "critical_strike_multiplier_is_100",
-    "zh": "你的暴击不会造成额外伤害",
+    "zh": "你的暴击不造成额外暴击伤害",
     "en": "Your Critical Strikes do not deal extra Damage"
   },
   {
@@ -8526,12 +8561,12 @@
   },
   {
     "id": "physical_damage_reduction_rating_+%",
-    "zh": "护甲提高 {0}%",
+    "zh": "该装备的护甲提高 {0}%",
     "en": "{0}% increased Armour"
   },
   {
     "id": "physical_damage_reduction_rating_+%",
-    "zh": "护甲降低 {0}%",
+    "zh": "该装备的护甲降低 {0}%",
     "en": "{0}% reduced Armour"
   },
   {
@@ -8691,12 +8726,12 @@
   },
   {
     "id": "energy_shield_delay_-%",
-    "zh": "能量护盾充能时间提前 {0}%",
+    "zh": "能量护盾提前 {0}% 开始充能",
     "en": "{0}% faster start of Energy Shield Recharge"
   },
   {
     "id": "energy_shield_delay_-%",
-    "zh": "能量护盾充能时间延后 {0}%",
+    "zh": "能量护盾延后 {0}% 开始充能",
     "en": "{0}% slower start of Energy Shield Recharge"
   },
   {
@@ -8791,7 +8826,7 @@
   },
   {
     "id": "base_life_regeneration_rate_per_minute",
-    "zh": "生命每秒回复 {0}",
+    "zh": "每秒再生 {0} 生命",
     "en": "Regenerate {0} Life per second"
   },
   {
@@ -8801,17 +8836,17 @@
   },
   {
     "id": "life_regeneration_rate_per_minute_%_per_endurance_charge",
-    "zh": "生命按照每个耐力球每秒回复 {0}%",
+    "zh": "每个耐力球使你每秒再生 {0}% 生命",
     "en": "Regenerate {0}% of Life per second per Endurance Charge"
   },
   {
     "id": "life_regeneration_rate_+%",
-    "zh": "生命回复速度提高 {0}%",
+    "zh": "生命再生速度提高 {0}%",
     "en": "{0}% increased Life Regeneration rate"
   },
   {
     "id": "life_regeneration_rate_+%",
-    "zh": "生命回复速度降低 {0}%",
+    "zh": "生命再生速度降低 {0}%",
     "en": "{0}% reduced Life Regeneration rate"
   },
   {
@@ -8841,12 +8876,12 @@
   },
   {
     "id": "mana_regeneration_rate_per_minute_%",
-    "zh": "魔力每秒回复 {0}%",
+    "zh": "每秒再生 {0}% 魔力",
     "en": "Regenerate {0}% of Mana per second"
   },
   {
     "id": "base_mana_regeneration_rate_per_minute",
-    "zh": "魔力每秒回复 {0} 点",
+    "zh": "每秒再生 {0} 魔力",
     "en": "Regenerate {0} Mana per second"
   },
   {
@@ -8856,17 +8891,17 @@
   },
   {
     "id": "mana_regeneration_rate_+%",
-    "zh": "魔力回复速度提高 {0}%",
+    "zh": "魔力再生速度提高 {0}%",
     "en": "{0}% increased Mana Regeneration Rate"
   },
   {
     "id": "mana_regeneration_rate_+%",
-    "zh": "魔力回复速度降低 {0}%",
+    "zh": "魔力再生速度降低 {0}%",
     "en": "{0}% reduced Mana Regeneration Rate"
   },
   {
     "id": "mana_regeneration_rate_per_minute_%_per_power_charge",
-    "zh": "魔力按照每个暴击球每秒回复 {0}%",
+    "zh": "每个暴击球使你每秒再生 {0}% 魔力",
     "en": "Regenerate {0}% of Mana per second per Power Charge"
   },
   {
@@ -9776,12 +9811,12 @@
   },
   {
     "id": "life_gain_per_target",
-    "zh": "攻击每击中一名敌人获得{0}点生命",
+    "zh": "你的攻击击中每个敌人会回复 {0} 生命",
     "en": "Gain {0} Life per Enemy Hit with Attacks"
   },
   {
     "id": "life_gain_per_target",
-    "zh": "攻击每击中一名敌人损失{0}点生命",
+    "zh": "你的攻击击中每个敌人会失去 {0} 生命",
     "en": "Lose {0} Life per Enemy Hit with Attacks"
   },
   {
@@ -10346,7 +10381,7 @@
   },
   {
     "id": "energy_shield_regeneration_rate_per_minute_%_while_on_low_life",
-    "zh": "低血时每秒回复 {0}% 能量护盾",
+    "zh": "低血时每秒再生 {0}% 能量护盾",
     "en": "Regenerate {0}% of Energy Shield per second while on Low Life"
   },
   {
@@ -10736,12 +10771,12 @@
   },
   {
     "id": "base_stun_duration_+%",
-    "zh": "敌人被晕眩时间延长 {0}%",
+    "zh": "敌人的晕眩时间延长 {0}%",
     "en": "{0}% increased Stun Duration on Enemies"
   },
   {
     "id": "base_stun_duration_+%",
-    "zh": "敌人被晕眩时间缩短 {0}%",
+    "zh": "敌人的晕眩时间缩短 {0}%",
     "en": "{0}% reduced Stun Duration on Enemies"
   },
   {
@@ -11326,12 +11361,12 @@
   },
   {
     "id": "life_regeneration_rate_per_minute_%",
-    "zh": "生命每秒回复 {0}%",
+    "zh": "每秒再生 {0}% 生命",
     "en": "Regenerate {0}% of Life per second"
   },
   {
     "id": "life_regeneration_rate_per_minute_%_when_on_low_life",
-    "zh": "低血时每秒回复 {0}% 生命",
+    "zh": "低血时每秒再生 {0}% 生命",
     "en": "Regenerate {0}% of Life per second while on Low Life"
   },
   {
@@ -11521,12 +11556,12 @@
   },
   {
     "id": "mana_regeneration_rate_+%_per_power_charge",
-    "zh": "魔力回复速度随每个暴击球提高 {0}%",
+    "zh": "每个暴击球使魔力再生速度提高 {0}%",
     "en": "{0}% increased Mana Regeneration Rate per Power Charge"
   },
   {
     "id": "mana_regeneration_rate_+%_per_power_charge",
-    "zh": "魔力回复速度随每个暴击球降低 {0}%",
+    "zh": "每个暴击球使魔力再生速度降低 {0}%",
     "en": "{0}% reduced Mana Regeneration Rate per Power Charge"
   },
   {
@@ -11806,8 +11841,8 @@
   },
   {
     "id": "skill_effect_duration_+%_per_10_strength",
-    "zh": "每 10 点力量可使持续时间延长 {0}%",
-    "en": "{0}% increased Duration per 10 Strength"
+    "zh": "每 10 力量使技能效果持续时间延长 {0}%",
+    "en": "{0}% increased Skill Effect Duration per 10 Strength"
   },
   {
     "id": "gain_no_inherent_bonus_from_dexterity",
@@ -12536,7 +12571,7 @@
   },
   {
     "id": "chance_to_gain_power_charge_when_block_%",
-    "zh": "有 {0}% 的几率在你格挡时获得一个暴击球",
+    "zh": "格挡时有 {0}% 的几率获得暴击球",
     "en": "{0}% chance to gain a Power Charge when you Block"
   },
   {
@@ -12666,7 +12701,7 @@
   },
   {
     "id": "life_regeneration_rate_per_minute_%_when_on_chilled_ground",
-    "zh": "在冰缓地面上每秒回复 {0}% 生命",
+    "zh": "在冰缓地面上每秒再生 {0}% 生命",
     "en": "Regenerate {0}% of Life per second on Chilled Ground"
   },
   {
@@ -13596,12 +13631,12 @@
   },
   {
     "id": "no_life_regeneration",
-    "zh": "无法回复生命",
+    "zh": "你无法再生生命",
     "en": "You have no Life Regeneration"
   },
   {
     "id": "no_mana_regeneration",
-    "zh": "无法回复魔力",
+    "zh": "你无法再生魔力",
     "en": "You have no Mana Regeneration"
   },
   {
@@ -13686,22 +13721,22 @@
   },
   {
     "id": "base_fire_hit_damage_taken_%_as_physical_value_negated",
-    "zh": "受到击中火焰伤害的 {0}% 转为物理伤害",
+    "zh": "受到击中火焰伤害的 {0}% 视作物理伤害",
     "en": "{0}% of Fire Damage from Hits taken as Physical Damage"
   },
   {
     "id": "physical_damage_taken_%_as_fire",
-    "zh": "受到击中物理伤害的 {0}% 转化为火焰伤害",
+    "zh": "受到击中物理伤害的 {0}% 视作火焰伤害",
     "en": "{0}% of Physical Damage from Hits taken as Fire Damage"
   },
   {
     "id": "physical_damage_taken_%_as_cold",
-    "zh": "受到击中物理伤害的 {0}% 转化为冰霜伤害",
+    "zh": "受到击中物理伤害的 {0}% 视作冰霜伤害",
     "en": "{0}% of Physical Damage from Hits taken as Cold Damage"
   },
   {
     "id": "physical_damage_taken_%_as_lightning",
-    "zh": "受到击中物理伤害的 {0}% 转化为闪电伤害",
+    "zh": "受到击中物理伤害的 {0}% 视作闪电伤害",
     "en": "{0}% of Physical Damage from Hits taken as Lightning Damage"
   },
   {
@@ -13711,7 +13746,7 @@
   },
   {
     "id": "physical_damage_taken_%_as_chaos",
-    "zh": "受到击中物理伤害的 {0}% 转化为混沌伤害",
+    "zh": "受到击中物理伤害的 {0}% 视作混沌伤害",
     "en": "{0}% of Physical Damage from Hits taken as Chaos Damage"
   },
   {
@@ -13721,7 +13756,7 @@
   },
   {
     "id": "elemental_damage_taken_%_as_chaos",
-    "zh": "受到击中元素伤害的 {0}% 转换为混沌伤害",
+    "zh": "受到击中元素伤害的 {0}% 视作混沌伤害",
     "en": "{0}% of Elemental Damage from Hits taken as Chaos Damage"
   },
   {
@@ -13766,7 +13801,7 @@
   },
   {
     "id": "frozen_monsters_take_increased_damage",
-    "zh": "被你冰冻的敌人受到的伤害提高 20% ",
+    "zh": "被你冰冻的敌人受到的伤害提高 20%",
     "en": "Enemies Frozen by you take 20% increased Damage"
   },
   {
@@ -14081,22 +14116,22 @@
   },
   {
     "id": "mana_regeneration_rate_+%_while_phasing",
-    "zh": "【迷踪】状态时魔力回复速度加快 {0}%",
+    "zh": "迷踪状态时魔力再生速度提高 {0}%",
     "en": "{0}% increased Mana Regeneration Rate while Phasing"
   },
   {
     "id": "mana_regeneration_rate_+%_while_phasing",
-    "zh": "【迷踪】状态时魔力回复速度减慢 {0}%",
+    "zh": "迷踪状态时魔力再生速度降低 {0}%",
     "en": "{0}% reduced Mana Regeneration Rate while Phasing"
   },
   {
     "id": "mana_regeneration_rate_+%_while_shocked",
-    "zh": "遭受感电时魔力回复速度提高 {0}%",
+    "zh": "被感电时魔力再生速度提高 {0}%",
     "en": "{0}% increased Mana Regeneration Rate while Shocked"
   },
   {
     "id": "mana_regeneration_rate_+%_while_shocked",
-    "zh": "遭受感电时魔力回复速度降低 {0}%",
+    "zh": "被感电时魔力再生速度降低 {0}%",
     "en": "{0}% reduced Mana Regeneration Rate while Shocked"
   },
   {
@@ -14196,12 +14231,12 @@
   },
   {
     "id": "curse_on_hit_%_vulnerability",
-    "zh": "有 {0}% 的几率在击中时用脆弱诅咒敌人",
+    "zh": "有 {0}% 几率击中时对敌人附加脆弱诅咒。",
     "en": "{0}% chance to Curse Enemies with Vulnerability on Hit"
   },
   {
     "id": "curse_on_hit_%_vulnerability",
-    "zh": "击中时用脆弱诅咒敌人",
+    "zh": "击中时对敌人附加脆弱诅咒。",
     "en": "Curse Enemies with Vulnerability on Hit"
   },
   {
@@ -14491,7 +14526,7 @@
   },
   {
     "id": "cannot_leech_or_regenerate_mana",
-    "zh": "无法偷取或自然回复魔力",
+    "zh": "无法偷取或再生魔力",
     "en": "Cannot Leech or Regenerate Mana"
   },
   {
@@ -14771,7 +14806,7 @@
   },
   {
     "id": "life_regeneration_rate_per_minute_%_per_frenzy_charge",
-    "zh": "每个狂怒球每秒回复 {0}% 生命",
+    "zh": "每个狂怒球使你每秒再生 {0}% 生命",
     "en": "Regenerate {0}% of Life per second per Frenzy Charge"
   },
   {
@@ -14886,12 +14921,12 @@
   },
   {
     "id": "base_energy_shield_regeneration_rate_per_minute",
-    "zh": "每秒回复 {0} 能量护盾",
+    "zh": "每秒再生 {0} 能量护盾",
     "en": "Regenerate {0} Energy Shield per second"
   },
   {
     "id": "base_energy_shield_regeneration_rate_per_minute_%",
-    "zh": "每秒回复 {0}% 能量护盾",
+    "zh": "每秒再生 {0}% 能量护盾",
     "en": "Regenerate {0}% of Energy Shield per second"
   },
   {
@@ -14901,12 +14936,12 @@
   },
   {
     "id": "local_right_ring_slot_no_mana_regeneration",
-    "zh": "右戒指栏位：不能回复魔力",
+    "zh": "右戒指栏位：你无法再生魔力",
     "en": "Right ring slot: You cannot Regenerate Mana"
   },
   {
     "id": "local_right_ring_slot_base_energy_shield_regeneration_rate_per_minute_%",
-    "zh": "右戒指栏位：每秒回复 {0}% 能量护盾",
+    "zh": "右戒指栏位：每秒再生 {0}% 能量护盾",
     "en": "Right ring slot: Regenerate {0}% of Energy Shield per second"
   },
   {
@@ -14921,7 +14956,7 @@
   },
   {
     "id": "local_left_ring_slot_no_energy_shield_recharge_or_regeneration",
-    "zh": "左戒指栏位：不能回复能量护盾",
+    "zh": "左戒指栏位：你无法充能和再生能量护盾",
     "en": "Left ring slot: You cannot Recharge or Regenerate Energy Shield"
   },
   {
@@ -14936,7 +14971,7 @@
   },
   {
     "id": "local_left_ring_slot_cold_damage_taken_%_as_fire",
-    "zh": "左边的戒指栏位：受到的冰霜伤害的{0}%转化为火焰伤害",
+    "zh": "左戒指栏位：受到冰霜伤害的 {0}% 视作火焰伤害",
     "en": "Left ring slot: {0}% of Cold Damage from Hits taken as Fire Damage"
   },
   {
@@ -14951,22 +14986,22 @@
   },
   {
     "id": "local_left_ring_slot_fire_damage_taken_%_as_lightning",
-    "zh": "左边的戒指栏位：受到的火焰伤害的{0}%转化为闪电伤害",
+    "zh": "左戒指栏位：受到火焰伤害的 {0}% 视作闪电伤害",
     "en": "Left ring slot: {0}% of Fire Damage from Hits taken as Lightning Damage"
   },
   {
     "id": "local_left_ring_slot_lightning_damage_taken_%_as_cold",
-    "zh": "左边的戒指栏位：受到的闪电伤害的{0}%转化为冰霜伤害",
+    "zh": "左戒指栏位：受到闪电伤害的 {0}% 视作冰霜伤害",
     "en": "Left ring slot: {0}% of Lightning Damage from Hits taken as Cold Damage"
   },
   {
     "id": "local_left_ring_slot_mana_regeneration_rate_per_minute",
-    "zh": "左戒指栏位：每秒回复 {0} 魔力",
+    "zh": "左戒指栏位：每秒再生 {0} 魔力",
     "en": "Left ring slot: Regenerate {0} Mana per Second"
   },
   {
     "id": "local_left_ring_slot_mana_regeneration_rate_+%",
-    "zh": "左戒指栏位：魔力回复速度加快 {0}%",
+    "zh": "左戒指栏位：魔力再生速度提高 {0}%",
     "en": "Left ring slot: {0}% increased Mana Regeneration Rate"
   },
   {
@@ -15001,7 +15036,7 @@
   },
   {
     "id": "local_right_ring_slot_cold_damage_taken_%_as_lightning",
-    "zh": "右边的戒指栏位：受到的冰霜伤害的{0}%转化为闪电伤害",
+    "zh": "右戒指栏位：受到冰霜伤害的 {0}% 视作闪电伤害",
     "en": "Right ring slot: {0}% of Cold Damage from Hits taken as Lightning Damage"
   },
   {
@@ -15016,12 +15051,12 @@
   },
   {
     "id": "local_right_ring_slot_fire_damage_taken_%_as_cold",
-    "zh": "右边的戒指栏位：受到的火焰伤害的{0}%转化为冰霜伤害",
+    "zh": "右戒指栏位：受到火焰伤害的 {0}% 视作冰霜伤害",
     "en": "Right ring slot: {0}% of Fire Damage from Hits taken as Cold Damage"
   },
   {
     "id": "local_right_ring_slot_lightning_damage_taken_%_as_fire",
-    "zh": "右边的戒指栏位：受到的闪电伤害的{0}%转化为火焰伤害",
+    "zh": "右戒指栏位：受到闪电伤害的 {0}% 视作火焰伤害",
     "en": "Right ring slot: {0}% of Lightning Damage from Hits taken as Fire Damage"
   },
   {
@@ -15056,7 +15091,7 @@
   },
   {
     "id": "no_energy_shield_recharge_or_regeneration",
-    "zh": "不能回复能量护盾",
+    "zh": "你无法再生能量护盾",
     "en": "You cannot Recharge or Regenerate Energy Shield"
   },
   {
@@ -15986,7 +16021,7 @@
   },
   {
     "id": "damage_vs_enemies_on_low_life_+%_final",
-    "zh": "对濒血敌人的击中和异常状态伤害总增 {0}%",
+    "zh": "击中和异常状态伤害对低血敌人总增 {0}%",
     "en": "{0}% more Damage with Hits and Ailments against Enemies that are on Low Life"
   },
   {
@@ -16001,12 +16036,12 @@
   },
   {
     "id": "damage_+%_vs_blinded_enemies",
-    "zh": "对致盲的敌人的击中和异常状态伤害提高 {0}%",
+    "zh": "对致盲敌人的击中和异常状态伤害提高 {0}%",
     "en": "{0}% increased Damage with Hits and Ailments against Blinded Enemies"
   },
   {
     "id": "damage_+%_vs_blinded_enemies",
-    "zh": "对致盲的敌人的击中和异常状态伤害降低 {0}%",
+    "zh": "对致盲敌人的击中和异常状态伤害降低 {0}%",
     "en": "{0}% reduced Damage with Hits and Ailments against Blinded Enemies"
   },
   {
@@ -16131,12 +16166,12 @@
   },
   {
     "id": "regenerate_X_life_over_1_second_on_cast",
-    "zh": "施放法术后 1 秒内回复 {0} 生命",
+    "zh": "你施放法术后 1 秒内再生 {0} 生命",
     "en": "Regenerate {0} Life over 1 second when you Cast a Spell"
   },
   {
     "id": "regenerate_%_armour_as_life_over_1_second_on_block",
-    "zh": "格挡时每 1 秒回复等同 {0}% 护甲的生命",
+    "zh": "格挡时在 1 秒内再生等同 {0}% 护甲的生命",
     "en": "Regenerate {0}% of your Armour as Life over 1 second when you Block"
   },
   {
@@ -16306,12 +16341,12 @@
   },
   {
     "id": "unique_spread_poison_to_nearby_allies_as_200_life_regeneration_per_second_on_kill",
-    "zh": "击败中毒的敌人时，周围友军每秒回复 200 生命",
+    "zh": "击败中毒的敌人时，周围友军每秒再生 200 生命",
     "en": "and nearby Allies Regenerate 200 Life per second"
   },
   {
     "id": "unique_spread_poison_to_nearby_allies_as_regeneration_on_kill",
-    "zh": "击败中毒的敌人时，周围友军回复生命",
+    "zh": "击败中毒的敌人时，周围友军再生生命",
     "en": "On Killing a Poisoned Enemy, nearby Allies Regenerate Life"
   },
   {
@@ -16646,7 +16681,7 @@
   },
   {
     "id": "minion_life_regeneration_rate_per_minute_%",
-    "zh": "召唤生物每秒回复 {0}% 生命",
+    "zh": "召唤生物每秒再生 {0}% 生命",
     "en": "Minions Regenerate {0}% of Life per second"
   },
   {
@@ -16971,7 +17006,7 @@
   },
   {
     "id": "life_regeneration_rate_per_minute_per_level",
-    "zh": "生命每级每秒回复 {0} 点",
+    "zh": "每1级使你每秒再生 {0} 生命",
     "en": "Regenerate {0} Life per second per Level"
   },
   {
@@ -17181,7 +17216,7 @@
   },
   {
     "id": "display_map_has_oxygen",
-    "zh": "一段时间后该区域将会变得致命",
+    "zh": "区域在一段时间后变为致命",
     "en": "Area becomes fatal after some time"
   },
   {
@@ -17256,7 +17291,7 @@
   },
   {
     "id": "shapers_seed_unique_aura_life_regeneration_rate_per_minute_%",
-    "zh": "周围友军的生命每秒回复 {0}%",
+    "zh": "周围友军每秒再生 {0}% 生命",
     "en": "Nearby Allies gain {0}% of Life Regenerated per second"
   },
   {
@@ -17291,7 +17326,7 @@
   },
   {
     "id": "shapers_seed_unique_aura_mana_regeneration_rate_+%",
-    "zh": "周围友军的魔力回复速度提高 {0}%",
+    "zh": "周围友军的魔力再生速度提高 {0}%",
     "en": "Nearby Allies gain {0}% increased Mana Regeneration Rate"
   },
   {
@@ -17316,7 +17351,7 @@
   },
   {
     "id": "life_regen_per_minute_per_endurance_charge",
-    "zh": "生命按照每个耐力球每秒回复 {0} 点",
+    "zh": "每个耐力球使你每秒再生 {0} 生命",
     "en": "Regenerate {0} Life per second per Endurance Charge"
   },
   {
@@ -17381,12 +17416,12 @@
   },
   {
     "id": "maximum_life_taken_as_physical_damage_on_minion_death_%",
-    "zh": "召唤生物被击败时，承受你最大生命 {0}% 的物理伤害",
+    "zh": "召唤生物被击败时受到你最大生命 {0}% 的物理伤害",
     "en": "{0}% of Maximum Life taken as Physical Damage on Minion Death"
   },
   {
     "id": "maximum_es_taken_as_physical_damage_on_minion_death_%",
-    "zh": "召唤生物被击败时，承受你最大能量护盾 {0}% 的物理伤害",
+    "zh": "召唤生物被击败时受到你最大能量护盾 {0}% 的物理伤害",
     "en": "{0}% of Maximum Energy Shield taken as Physical Damage on Minion Death"
   },
   {
@@ -17401,7 +17436,7 @@
   },
   {
     "id": "energy_shield_regeneration_%_per_minute_while_shocked",
-    "zh": "感电时，每秒回复 {0}% 能量护盾",
+    "zh": "被感电时每秒再生 {0}% 能量护盾",
     "en": "Regenerate {0}% of Energy Shield per second while Shocked"
   },
   {
@@ -17581,7 +17616,7 @@
   },
   {
     "id": "recover_%_maximum_life_when_corpse_destroyed_or_consumed",
-    "zh": "吞噬灵枢时，回复你 {0}% 生命",
+    "zh": "吞噬灵柩时，回复你 {0}% 生命",
     "en": "Recover {0}% of Life when you Consume a corpse"
   },
   {
@@ -17696,12 +17731,12 @@
   },
   {
     "id": "life_regeneration_rate_+%_while_es_full",
-    "zh": "能量护盾全满时，生命回复速度提高 {0}%",
+    "zh": "能量护盾全满时，生命再生速度提高 {0}%",
     "en": "{0}% increased Life Regeneration rate when on Full Energy Shield"
   },
   {
     "id": "life_regeneration_rate_+%_while_es_full",
-    "zh": "能量护盾全满时，生命回复速度降低 {0}%",
+    "zh": "能量护盾全满时，生命再生速度降低 {0}%",
     "en": "{0}% reduced Life Regeneration rate when on Full Energy Shield"
   },
   {
@@ -17901,7 +17936,7 @@
   },
   {
     "id": "life_regeneration_rate_per_minute_for_each_equipped_uncorrupted_item",
-    "zh": "生命按照每件已装备的未腐化物品每秒回复 {0} 点",
+    "zh": "每件已装备的未腐化物品使你每秒再生 {0} 生命",
     "en": "Regenerate {0} Life per second for each Uncorrupted Item Equipped"
   },
   {
@@ -18046,7 +18081,7 @@
   },
   {
     "id": "self_cursed_with_level_x_vulnerability",
-    "zh": "你被脆弱诅咒了",
+    "zh": "你遭到了脆弱诅咒",
     "en": "You are Cursed with Vulnerability"
   },
   {
@@ -18171,12 +18206,12 @@
   },
   {
     "id": "new_arctic_armour_fire_damage_taken_when_hit_+%_final",
-    "zh": "被击中时，受到的火焰伤害总增 {0}%",
+    "zh": "从攻击中受到的火焰伤害总增 {0}%",
     "en": "{0}% more Fire Damage taken from Hits"
   },
   {
     "id": "new_arctic_armour_fire_damage_taken_when_hit_+%_final",
-    "zh": "被击中时，受到的火焰伤害总降 {0}%",
+    "zh": "从攻击中受到的火焰伤害总降 {0}%",
     "en": "{0}% less Fire Damage taken from Hits"
   },
   {
@@ -18191,7 +18226,7 @@
   },
   {
     "id": "local_unique_remove_life_and_regen_es_from_removed_life local_unique_regen_es_from_removed_life_duration_ms",
-    "zh": "使用时将生命扣至剩余 1 点\n扣除的生命将在 {0} 秒内转换为能量护盾",
+    "zh": "使用时将生命扣至 1 点\n扣除的生命在 {0} 秒内再生为能量护盾",
     "en": "Removes all but one Life on use\nRemoved life is Regenerated as Energy Shield over {0} seconds"
   },
   {
@@ -18231,7 +18266,7 @@
   },
   {
     "id": "local_unique_jewel_energy_shield_regeneration_rate_per_minute_%_per_10_int_allocated_in_radius",
-    "zh": "范围内每配置 10 点智慧\n便每秒回复 {0}% 能量护盾",
+    "zh": "范围内每配置 10 点智慧\n便每秒再生 {0}% 能量护盾",
     "en": "Regenerate {0}% of Energy Shield per Second for\nevery 10 Intelligence on Allocated Passives in Radius"
   },
   {
@@ -18321,7 +18356,7 @@
   },
   {
     "id": "enchantment_boots_life_regen_per_minute_%_for_4_seconds_when_hit",
-    "zh": "若你近期内有被击中，则每秒回复 {0}% 生命",
+    "zh": "若近期内你被击中，则每秒再生 {0}% 生命",
     "en": "Regenerate {0}% of Life per second if you were Hit Recently"
   },
   {
@@ -18396,27 +18431,27 @@
   },
   {
     "id": "fire_damage_taken_%_as_cold",
-    "zh": "受到击中火焰伤害的 {0}% 转为冰霜伤害",
+    "zh": "受到击中火焰伤害的 {0}% 视作冰霜伤害",
     "en": "{0}% of Fire Damage from Hits taken as Cold Damage"
   },
   {
     "id": "fire_damage_taken_%_as_lightning",
-    "zh": "受到击中火焰伤害的 {0}% 转为闪电伤害",
+    "zh": "受到击中火焰伤害的 {0}% 视作闪电伤害",
     "en": "{0}% of Fire Damage from Hits taken as Lightning Damage"
   },
   {
     "id": "cold_damage_taken_%_as_fire",
-    "zh": "受到击中冰霜伤害的 {0}% 转为火焰伤害",
+    "zh": "受到击中冰霜伤害的 {0}% 视作火焰伤害",
     "en": "{0}% of Cold Damage from Hits taken as Fire Damage"
   },
   {
     "id": "cold_damage_taken_%_as_lightning",
-    "zh": "受到击中冰霜伤害的 {0}% 转为闪电伤害",
+    "zh": "受到击中冰霜伤害的 {0}% 视作闪电伤害",
     "en": "{0}% of Cold Damage from Hits taken as Lightning Damage"
   },
   {
     "id": "lightning_damage_taken_%_as_fire",
-    "zh": "受到击中闪电伤害的 {0}% 转为火焰伤害",
+    "zh": "受到击中闪电伤害的 {0}% 视作火焰伤害",
     "en": "{0}% of Lightning Damage from Hits taken as Fire Damage"
   },
   {
@@ -18431,7 +18466,7 @@
   },
   {
     "id": "lightning_damage_taken_%_as_cold",
-    "zh": "受到击中闪电伤害的 {0}% 转为冰霜伤害",
+    "zh": "受到击中闪电伤害的 {0}% 视作冰霜伤害",
     "en": "{0}% of Lightning Damage from Hits taken as Cold Damage"
   },
   {
@@ -18446,12 +18481,12 @@
   },
   {
     "id": "mana_regeneration_rate_+%_during_flask_effect",
-    "zh": "药剂持续期间，魔力回复速度提高 {0}%",
+    "zh": "药剂生效期间魔力再生速度提高 {0}%",
     "en": "{0}% increased Mana Regeneration Rate during any Flask Effect"
   },
   {
     "id": "mana_regeneration_rate_+%_during_flask_effect",
-    "zh": "药剂持续期间，魔力回复速度降低 {0}%",
+    "zh": "药剂生效期间魔力再生速度降低 {0}%",
     "en": "{0}% reduced Mana Regeneration Rate during any Flask Effect"
   },
   {
@@ -18531,7 +18566,7 @@
   },
   {
     "id": "life_regeneration_per_minute_%_while_fortified",
-    "zh": "护体状态下，每秒回复 {0}% 生命",
+    "zh": "护体状态下，每秒再生 {0}% 生命",
     "en": "Regenerate {0}% of Life per second while Fortified"
   },
   {
@@ -19096,7 +19131,7 @@
   },
   {
     "id": "minion_life_regeneration_per_minute_per_active_raging_spirit",
-    "zh": "你每拥有一个愤怒狂灵，你的召唤生物便每秒回复 {0} 生命",
+    "zh": "你拥有的每个愤怒狂灵使你的召唤生物每秒再生 {0} 生命",
     "en": "Minions Regenerate {0} Life per second per Raging Spirit you own"
   },
   {
@@ -20041,7 +20076,7 @@
   },
   {
     "id": "mana_and_es_regeneration_per_minute_%_when_you_freeze_shock_or_ignite_an_enemy",
-    "zh": "魔力和能量护盾在你使敌人陷入冻结、感电、点燃状态时在接下来 2 秒内每秒回复 {0}%",
+    "zh": "你冻结、感电、点燃敌人时，每秒再生 {0}% 魔力和能量护盾，持续 2 秒",
     "en": "Regenerate {0}% of Mana and Energy Shield per second for 2 seconds when you Freeze, Shock or Ignite an Enemy"
   },
   {
@@ -20641,7 +20676,7 @@
   },
   {
     "id": "damage_+%_vs_bleeding_enemies",
-    "zh": "击中和异常状态对流血敌人的伤害提高 {0}%",
+    "zh": "对流血敌人的击中和异常状态伤害提高 {0}%",
     "en": "{0}% increased Damage with Hits and Ailments against Bleeding Enemies"
   },
   {
@@ -22996,12 +23031,12 @@
   },
   {
     "id": "life_regeneration_per_minute_%_while_frozen",
-    "zh": "生命在冻结时每秒回复 {0}%",
+    "zh": "被冻结时每秒再生 {0}% 生命",
     "en": "Regenerate {0}% of Life per second while Frozen"
   },
   {
     "id": "occultist_stacking_energy_shield_regeneration_rate_per_minute_%_on_kill_for_4_seconds",
-    "zh": "近期内，你或你的召唤生物每击败一个敌人\n则每秒回复你 {0}% 能量护盾，每秒最多 10%",
+    "zh": "近期内每个被你或你的召唤生物击败的敌人\n使你每秒再生 {0}% 能量护盾，每秒最多 10%",
     "en": "Regenerate {0}% of Energy Shield per second for each\nEnemy you or your Minions have Killed Recently, up to 10% per second"
   },
   {
@@ -23061,7 +23096,7 @@
   },
   {
     "id": "modifiers_to_minion_life_regeneration_also_affect_you",
-    "zh": "你能获得召唤生物的生命回复词缀效果",
+    "zh": "召唤生物的生命再生词缀同样对你生效",
     "en": "Modifiers to Minion Life Regeneration also affect you"
   },
   {
@@ -23196,7 +23231,7 @@
   },
   {
     "id": "guardian_auras_grant_life_regeneration_per_minute_%",
-    "zh": "你技能的光环使你和友军\n的生命每秒回复 {0}%",
+    "zh": "你的光环使你和友军每秒再生 {0}% 生命",
     "en": "Auras from your Skills grant {0}% of Life Regenerated per second to\nyou and Allies"
   },
   {
@@ -23226,7 +23261,7 @@
   },
   {
     "id": "guardian_gain_life_regeneration_per_minute_%_for_1_second_every_10_seconds",
-    "zh": "每隔 4 秒便在一秒内回复 {0}% 生命",
+    "zh": "每隔 4 秒便在一秒内再生 {0}% 生命",
     "en": "Every 4 seconds, Regenerate {0}% of Life over one second"
   },
   {
@@ -24781,7 +24816,7 @@
   },
   {
     "id": "spark_num_of_additional_projectiles",
-    "zh": "【电球】可以额外发射 1 个投射物",
+    "zh": "【电球】会发射 1 个额外投射物",
     "en": "Spark fires an additional Projectile"
   },
   {
@@ -25141,7 +25176,7 @@
   },
   {
     "id": "siphon_life_leech_from_damage_permyriad quality_display_essence_drain_is_gem",
-    "zh": "灵魂吸取回复相当于减益伤害 {0}% 的生命",
+    "zh": "灵魂吸取使你再生等同 {0}% 减益伤害的生命",
     "en": "Essence Drain Regenerates {0}% of Debuff Damage as Life"
   },
   {
@@ -25176,7 +25211,7 @@
   },
   {
     "id": "rejuvenation_totem_%_life_regeneration_added_as_mana_regeneration",
-    "zh": "回春图腾还会提供相当于其生命回复 {0}% 的魔力回复 ",
+    "zh": "回春图腾还会提供相当于其生命再生 {0}% 的魔力再生",
     "en": "Rejuvenation Totem also grants Mana Regeneration equal to {0}% of its Life Regeneration"
   },
   {
@@ -25221,7 +25256,7 @@
   },
   {
     "id": "devouring_totem_%_chance_to_consume_additional_corpse",
-    "zh": "吞噬图腾有 {0}% 的几率额外吞噬一具灵枢",
+    "zh": "吞噬图腾有 {0}% 的几率额外吞噬一具灵柩",
     "en": "Devouring Totem has {0}% Chance to Consume an additional corpse"
   },
   {
@@ -25696,7 +25731,7 @@
   },
   {
     "id": "life_regenerate_rate_per_second_%_while_totem_active",
-    "zh": "当你有图腾存在时，每秒回复 {0}% 生命",
+    "zh": "当你有图腾存在时，每秒再生 {0}% 生命",
     "en": "Regenerate {0}% of Life per second while you have a Totem"
   },
   {
@@ -25836,7 +25871,7 @@
   },
   {
     "id": "you_and_allies_affected_by_your_placed_banners_regenerate_%_life_per_minute_per_resource",
-    "zh": "旗帜每消耗一点胆魄，你和旗帜周围的友军每秒回复 {0}% 的生命",
+    "zh": "旗帜每消耗一点胆魄，你和旗帜周围的友军每秒再生 {0}% 的生命",
     "en": "You and Allies near your Banner Regenerate {0}% of Life per second for each Valour consumed for that Banner"
   },
   {
@@ -25896,12 +25931,12 @@
   },
   {
     "id": "mana_regeneration_+%_for_4_seconds_on_movement_skill_use",
-    "zh": "若你近期内使用过位移技能，则魔力回复提高 {0}%",
+    "zh": "若你近期内使用过位移技能，则魔力再生提高 {0}%",
     "en": "{0}% increased Mana Regeneration if you've used a Movement Skill Recently"
   },
   {
     "id": "mana_regeneration_+%_for_4_seconds_on_movement_skill_use",
-    "zh": "若你近期内使用过位移技能，则魔力回复降低 {0}%",
+    "zh": "若你近期内使用过位移技能，则魔力再生降低 {0}%",
     "en": "{0}% reduced Mana Regeneration if you've used a Movement Skill Recently"
   },
   {
@@ -26236,12 +26271,12 @@
   },
   {
     "id": "desecrate_number_of_corpses_to_create",
-    "zh": "【亵渎】可以生成 1 个额外灵柩",
+    "zh": "亵渎产生一具额外灵柩",
     "en": "Desecrate Spawns an additional corpse"
   },
   {
     "id": "desecrate_number_of_corpses_to_create",
-    "zh": "【亵渎】可以生成 {0} 个额外灵柩",
+    "zh": "亵渎产生 {0} 具额外灵柩",
     "en": "Desecrate Spawns {0} additional corpses"
   },
   {
@@ -26661,7 +26696,7 @@
   },
   {
     "id": "gain_life_regeneration_%_per_second_for_1_second_if_taken_savage_hit",
-    "zh": "受到【残暴打击】后的 1 秒内，每秒回复 {0}% 生命",
+    "zh": "若你过去 1 秒内受到了残暴打击，每秒再生 {0}% 生命",
     "en": "Regenerate {0}% of Life per second if you've taken a Savage Hit in the past 1 second"
   },
   {
@@ -26846,12 +26881,12 @@
   },
   {
     "id": "life_regeneration_per_minute_with_no_corrupted_equipped_items",
-    "zh": "身上未装备已腐化的物品时，每秒回复 {0} 生命",
+    "zh": "身上未装备已腐化的物品时，每秒再生 {0} 生命",
     "en": "Regenerate {0} Life per second if no Equipped Items are Corrupted"
   },
   {
     "id": "energy_shield_recharge_rate_per_minute_with_all_corrupted_equipped_items",
-    "zh": "所有身上装备的物品皆为已腐化时，每秒回复 {0} 能量护盾",
+    "zh": "所有身上装备的物品皆为已腐化时，每秒再生 {0} 能量护盾",
     "en": "Regenerate {0} Energy Shield per second if all Equipped items are Corrupted"
   },
   {
@@ -26991,7 +27026,7 @@
   },
   {
     "id": "life_regeneration_rate_per_minute_%_if_taunted_an_enemy_recently",
-    "zh": "若你近期内有嘲讽敌人，则每秒回复 {0}% 生命",
+    "zh": "若你近期内有嘲讽敌人，则每秒再生 {0}% 生命",
     "en": "Regenerate {0}% of Life per second if you've Taunted an Enemy Recently"
   },
   {
@@ -27021,7 +27056,7 @@
   },
   {
     "id": "es_and_mana_regeneration_rate_per_minute_%_while_on_consecrated_ground",
-    "zh": "在奉献地面上时，每秒回复 {0}% 魔力和能量护盾",
+    "zh": "在奉献地面上时，每秒再生 {0}% 魔力和能量护盾",
     "en": "Regenerate {0}% of Mana and Energy Shield per second while on Consecrated Ground"
   },
   {
@@ -27226,12 +27261,12 @@
   },
   {
     "id": "desecrate_creates_X_additional_corpses",
-    "zh": "亵渎产生一具额外灵枢",
+    "zh": "亵渎产生一具额外灵柩",
     "en": "Desecrate Spawns an additional corpse"
   },
   {
     "id": "desecrate_creates_X_additional_corpses",
-    "zh": "亵渎产生 {0} 具额外灵枢",
+    "zh": "亵渎产生 {0} 具额外灵柩",
     "en": "Desecrate Spawns {0} additional corpses"
   },
   {
@@ -27246,12 +27281,12 @@
   },
   {
     "id": "attack_and_cast_speed_+%_per_corpse_consumed_recently",
-    "zh": "近期内每消耗一具灵枢，都使攻击和施法速度加快 {0}%，最多 200%",
+    "zh": "近期内每消耗一具灵柩，都使攻击和施法速度加快 {0}%，最多 200%",
     "en": "{0}% increased Attack and Cast Speed for each corpse Consumed Recently, up to a maximum of 200%"
   },
   {
     "id": "attack_and_cast_speed_+%_per_corpse_consumed_recently",
-    "zh": "近期内每消耗一具灵枢，都使攻击和施法速度减慢 {0}%，最多 200%",
+    "zh": "近期内每消耗一具灵柩，都使攻击和施法速度减慢 {0}%，最多 200%",
     "en": "{0}% reduced Attack and Cast Speed for each corpse Consumed Recently, up to a maximum of 200%"
   },
   {
@@ -27621,12 +27656,12 @@
   },
   {
     "id": "mana_regeneration_rate_+%_while_stationary",
-    "zh": "静止时魔力回复速度提高 {0}%",
+    "zh": "静止时魔力再生速度提高 {0}%",
     "en": "{0}% increased Mana Regeneration Rate while stationary"
   },
   {
     "id": "mana_regeneration_rate_+%_while_stationary",
-    "zh": "静止时魔力回复速度降低 {0}%",
+    "zh": "静止时魔力再生速度降低 {0}%",
     "en": "{0}% reduced Mana Regeneration Rate while stationary"
   },
   {
@@ -27971,17 +28006,17 @@
   },
   {
     "id": "life_regeneration_per_minute_if_you_have_at_least_500_maximum_energy_shield",
-    "zh": "若你至少拥有 500 层能量护盾，则每秒回复 {0} 生命",
+    "zh": "能量护盾上限至少 500 时每秒再生 {0} 生命",
     "en": "Regenerate {0} Life per second if you have at least 500 Maximum Energy Shield"
   },
   {
     "id": "life_regeneration_per_minute_if_you_have_at_least_1000_maximum_energy_shield",
-    "zh": "若你至少拥有 1000 层能量护盾，则每秒回复 {0} 生命",
+    "zh": "能量护盾上限至少 1000 时每秒再生 {0} 生命",
     "en": "Regenerate {0} Life per second if you have at least 1000 Maximum Energy Shield"
   },
   {
     "id": "life_regeneration_per_minute_if_you_have_at_least_1500_maximum_energy_shield",
-    "zh": "若你至少拥有 1500 层能量护盾，则每秒回复 {0} 生命",
+    "zh": "能量护盾上限至少 1500 时每秒再生 {0} 生命",
     "en": "Regenerate {0} Life per second if you have at least 1500 Maximum Energy Shield"
   },
   {
@@ -28186,7 +28221,7 @@
   },
   {
     "id": "life_regeneration_rate_per_minute_%_per_fragile_regrowth",
-    "zh": "每次【脆弱重生】都每秒回复 {0}% 生命",
+    "zh": "每次脆弱重生时每秒再生 {0}% 生命",
     "en": "{0}% of Life Regenerated per second per Fragile Regrowth"
   },
   {
@@ -28436,7 +28471,7 @@
   },
   {
     "id": "chill_minimum_slow_%",
-    "zh": "你击中造成的冰缓效果始终使行动速度降低至少 {0}%",
+    "zh": "你击中造成的冰缓效果总能使行动速度降低至少 {0}%",
     "en": "Chills from your Hits always reduce Action Speed by at least {0}%"
   },
   {
@@ -28468,6 +28503,11 @@
     "id": "X_armour_per_active_totem",
     "zh": "每个召唤的图腾 {0} 护甲",
     "en": "{0} Armour per Summoned Totem"
+  },
+  {
+    "id": "X_mana_per_dexterity",
+    "zh": "每点敏捷 {0} 最大魔力",
+    "en": "{0} to Maximum Mana per Dexterity"
   },
   {
     "id": "X_to_armour_per_2_strength",
@@ -28683,6 +28723,11 @@
     "id": "add_x_grasping_vines_on_hit",
     "zh": "击中时施加 {0} 个缓速蔓藤",
     "en": "Inflict {0} Grasping Vines on Hit"
+  },
+  {
+    "id": "added_chaos_damage_%_mana_cost_if_payable",
+    "zh": "如果魔力消耗不高于你能够消耗的最大值，技能附加相当于魔力消耗 {0}% 的混沌伤害",
+    "en": "Skills gain Added Chaos Damage equal to {0}% of Mana Cost, if Mana Cost is not higher than the maximum you could spend"
   },
   {
     "id": "additional_attack_block_%_if_used_shield_skill_recently",
@@ -29175,6 +29220,11 @@
     "en": "You can have an Offering of each type"
   },
   {
+    "id": "always_crit_while_holding_fishing_rod",
+    "zh": "装备鱼竿时，所有击中为暴击",
+    "en": "All hits are Critical Strikes while holding a Fishing Rod"
+  },
+  {
     "id": "always_frostburn_while_affected_by_hatred",
     "zh": "受到憎恨光环影响时始终造成易碎",
     "en": "Always inflict Brittle while affected by Hatred"
@@ -29316,7 +29366,7 @@
   },
   {
     "id": "ancestral_life_regeneration_rate_per_minute_%_while_channelling_totem",
-    "zh": "放逐先祖图腾时每秒回复 {0}% 的生命",
+    "zh": "放逐先祖图腾时每秒再生 {0}% 生命",
     "en": "Regenerate {0}% of Life per second while Banishing an Ancestral Totem"
   },
   {
@@ -29381,7 +29431,7 @@
   },
   {
     "id": "ancestral_totem_life_regeneration_rate_per_minute_%",
-    "zh": "先祖图腾每秒回复 {0}% 的生命",
+    "zh": "先祖图腾每秒再生 {0}% 生命",
     "en": "Ancestral Totems regenerate {0}% of Life per second"
   },
   {
@@ -29516,7 +29566,7 @@
   },
   {
     "id": "arcane_cloak_gain_%_of_consumed_mana_as_life_regenerated_per_second",
-    "zh": "【奥术斗篷】获得生命回复，等于每秒消耗魔力的 {0}%",
+    "zh": "奥术斗篷每秒获得等同 {0}% 消耗魔力的生命再生",
     "en": "Arcane Cloak grants Life Regeneration equal to {0}% of Mana Spent per Second"
   },
   {
@@ -31895,11 +31945,6 @@
     "en": "{0}% reduced Minion Duration"
   },
   {
-    "id": "base_non_chaos_damage_bypass_energy_shield_%",
-    "zh": "受到的混沌伤害的{0}%穿透能量护盾",
-    "en": "{0}% of Non-Chaos Damage taken bypasses Energy Shield"
-  },
-  {
     "id": "base_number_of_champions_of_light_allowed",
     "zh": "{0} 纯净哨兵数量上限",
     "en": "{0} to maximum number of Sentinels of Purity"
@@ -32050,6 +32095,11 @@
     "en": "Blade Trap rotates {0} times"
   },
   {
+    "id": "base_your_auras_are_disabled",
+    "zh": "你的光环技能被禁用",
+    "en": "Your Aura Skills are Disabled"
+  },
+  {
     "id": "battlemages_cry_buff_effect_+%",
     "zh": "魔武战号的增益效果提高 {0}%",
     "en": "{0}% increased Battlemage's Cry Buff Effect"
@@ -32163,6 +32213,11 @@
     "id": "berserker_warcry_sacrifice_25_rage_for_more_empowered_attack_damage_for_4_seconds_+%_final",
     "zh": "战吼在你至少有 25 点怒火时献祭 10 点怒火\n增助攻击的攻击伤害在近期内战吼献祭过怒火的情况下总降 {0}%",
     "en": "Warcries Sacrifice 10 Rage if you have at least 25 Rage\nExerted Attacks deal {0}% less Attack Damage if a Warcry Sacrificed Rage Recently"
+  },
+  {
+    "id": "bird_aspect_reserves_no_mana",
+    "zh": "鸟之势没有保留效果",
+    "en": "Aspect of the Avian has no Reservation"
   },
   {
     "id": "blackhole_damage_taken_+%",
@@ -32481,7 +32536,7 @@
   },
   {
     "id": "blight_arc_tower_damage_+%",
-    "zh": "你的电弧之塔伤害提高 {0}%",
+    "zh": "电弧之塔的伤害提高 {0}%",
     "en": "Your Arc Towers deal {0}% increased Damage"
   },
   {
@@ -32551,12 +32606,12 @@
   },
   {
     "id": "blight_chilling_tower_range_+%",
-    "zh": "冰霜之塔的范围扩大 {0}%",
+    "zh": "冰霜之塔的射程提高 {0}%",
     "en": "Your Chilling Towers have {0}% increased Range"
   },
   {
     "id": "blight_chilling_tower_range_+%",
-    "zh": "冰霜之塔的范围缩小 {0}%",
+    "zh": "冰霜之塔的射程降低 {0}%",
     "en": "Your Chilling Towers have {0}% reduced Range"
   },
   {
@@ -32611,7 +32666,7 @@
   },
   {
     "id": "blight_fireball_tower_additional_projectiles_+",
-    "zh": "你的火球之塔发射一个额外的投射物",
+    "zh": "火球之塔发射一个额外的投射物",
     "en": "Your Fireball Towers fire an additional Projectile"
   },
   {
@@ -34106,7 +34161,7 @@
   },
   {
     "id": "cannot_regenerate_energy_shield",
-    "zh": "无法自动回复能量护盾",
+    "zh": "你无法再生能量护盾",
     "en": "You cannot Regenerate Energy Shield"
   },
   {
@@ -34173,6 +34228,16 @@
     "id": "cast_mirror_arrow_on_attack_with_blink_arrow",
     "zh": "闪现射击攻击时触发等级20魅影射击",
     "en": "Trigger Level 20 Mirror Arrow when you Attack with Blink Arrow"
+  },
+  {
+    "id": "cast_speed_+%_final_while_holding_fishing_rod",
+    "zh": "装备鱼竿时，施法速度总增 {0}%",
+    "en": "{0}% more Cast Speed while holding a Fishing Rod"
+  },
+  {
+    "id": "cast_speed_+%_final_while_holding_fishing_rod",
+    "zh": "装备鱼竿时，施法速度总降 {0}%",
+    "en": "{0}% less Cast Speed while holding a Fishing Rod"
   },
   {
     "id": "cast_speed_+%_per_num_unique_spells_cast_recently",
@@ -35071,12 +35136,12 @@
   },
   {
     "id": "chaos_hit_and_dot_damage_%_taken_as_fire",
-    "zh": "受到的混沌伤害的{0}%视为火焰伤害",
+    "zh": "受到混沌伤害的 {0}% 视作火焰伤害",
     "en": "{0}% of Chaos Damage taken as Fire Damage"
   },
   {
     "id": "chaos_hit_and_dot_damage_%_taken_as_lightning",
-    "zh": "受到的混沌伤害的{0}%视为闪电伤害",
+    "zh": "受到混沌伤害的 {0}% 视作闪电伤害",
     "en": "{0}% of Chaos Damage taken as Lightning Damage"
   },
   {
@@ -35431,7 +35496,7 @@
   },
   {
     "id": "cold_and_lightning_hit_and_dot_damage_%_taken_as_fire_while_affected_by_purity_of_fire",
-    "zh": "受到火焰净化影响时，受到的冰霜和闪电伤害的{0}%视为火焰伤害",
+    "zh": "被火焰净化影响时，受到冰霜和闪电伤害的 {0}% 视作火焰伤害",
     "en": "{0}% of Cold and Lightning Damage taken as Fire Damage while affected by Purity of Fire"
   },
   {
@@ -35586,12 +35651,12 @@
   },
   {
     "id": "cold_hit_and_dot_damage_%_taken_as_fire",
-    "zh": "受到的冰霜伤害的 {0}% 转为火焰伤害",
+    "zh": "受到冰霜伤害的 {0}% 视作火焰伤害",
     "en": "{0}% of Cold Damage taken as Fire Damage"
   },
   {
     "id": "cold_hit_and_dot_damage_%_taken_as_lightning",
-    "zh": "受到的冰霜伤害的 {0}% 转为闪电伤害",
+    "zh": "受到冰霜伤害的 {0}% 视作闪电伤害",
     "en": "{0}% of Cold Damage taken as Lightning Damage"
   },
   {
@@ -35706,7 +35771,7 @@
   },
   {
     "id": "consecrated_ground_allies_recover_es_as_well_as_life_from_life_regeneration",
-    "zh": "你产生的奉献地面使你和友军回复生命的同时回复能量护盾",
+    "zh": "你产生的奉献地面使你和友军再生生命的同时回复能量护盾",
     "en": "Consecrated Ground you create causes Life Regeneration to\nalso Recover Energy Shield for you and Allies"
   },
   {
@@ -38041,7 +38106,7 @@
   },
   {
     "id": "desecrate_maximum_number_of_corpses",
-    "zh": "【亵渎】和【亵渎之矛】 {0} 灵枢数量上限",
+    "zh": "【亵渎】和【亵渎之矛】 {0} 灵柩数量上限",
     "en": "Desecrate and Unearth have {0} to Maximum number of corpses allowed"
   },
   {
@@ -38991,7 +39056,7 @@
   },
   {
     "id": "elemental_hit_damage_taken_%_as_physical",
-    "zh": "受到击中元素伤害的 {0}% 转化为物理伤害",
+    "zh": "受到击中元素伤害的 {0}% 视作物理伤害",
     "en": "{0}% of Elemental Damage from Hits taken as Physical Damage"
   },
   {
@@ -39171,12 +39236,12 @@
   },
   {
     "id": "enchantment_boots_mana_regeneration_rate_+%_if_cast_spell_recently",
-    "zh": "若你近期内有施放法术，则魔力回复速度提高 {0}%",
+    "zh": "若你近期内有施放法术，则魔力再生速度提高 {0}%",
     "en": "{0}% increased Mana Regeneration Rate if you've cast a Spell Recently"
   },
   {
     "id": "enchantment_boots_mana_regeneration_rate_+%_if_cast_spell_recently",
-    "zh": "若你近期内有施放法术，则魔力回复速度降低 {0}%",
+    "zh": "若你近期内有施放法术，则魔力再生速度降低 {0}%",
     "en": "{0}% reduced Mana Regeneration Rate if you've cast a Spell Recently"
   },
   {
@@ -39241,12 +39306,12 @@
   },
   {
     "id": "enemies_cursed_by_you_have_life_regeneration_rate_+%",
-    "zh": "被你诅咒的敌人的生命回复速度提高 {0}%",
+    "zh": "被你诅咒的敌人生命再生速度提高 {0}%",
     "en": "Enemies Cursed by you have {0}% increased Life Regeneration Rate"
   },
   {
     "id": "enemies_cursed_by_you_have_life_regeneration_rate_+%",
-    "zh": "被你诅咒的敌人的生命回复速度减慢 {0}%",
+    "zh": "被你诅咒的敌人生命再生速度降低 {0}%",
     "en": "Enemies Cursed by you have {0}% reduced Life Regeneration Rate"
   },
   {
@@ -39346,7 +39411,7 @@
   },
   {
     "id": "enemies_near_cursed_corpses_are_blinded_and_explode_on_death_for_%_life_as_physical_damage",
-    "zh": "灵枢附近的敌人受到【诅咒】影响时致盲\n灵枢附近被击败的敌人被【诅咒】引爆，则造成等同它们\n{0}% 生命的物理伤害",
+    "zh": "被你诅咒的灵柩周围的敌人会被致盲\n被你诅咒的灵柩周围的敌人被击败时会爆炸，造成生命它们\n{0}% 的物理伤害",
     "en": "Enemies near corpses affected by your Curses are Blinded\nEnemies Killed near corpses affected by your Curses explode, dealing\n{0}% of their Life as Physical Damage"
   },
   {
@@ -39376,7 +39441,7 @@
   },
   {
     "id": "enemies_poisoned_by_you_cannot_regen_life",
-    "zh": "因你而中毒的敌人无法回复生命",
+    "zh": "因你而中毒的敌人无法再生生命",
     "en": "Enemies Poisoned by you cannot Regenerate Life"
   },
   {
@@ -39476,12 +39541,12 @@
   },
   {
     "id": "enemies_you_hinder_have_life_regeneration_rate_+%",
-    "zh": "被你缓速的敌人的生命回复速度提高 {0}%",
+    "zh": "被你缓速的敌人生命再生速度提高 {0}%",
     "en": "Enemies Hindered by you have {0}% increased Life Regeneration rate"
   },
   {
     "id": "enemies_you_hinder_have_life_regeneration_rate_+%",
-    "zh": "被你缓速的敌人的生命回复速度降低 {0}%",
+    "zh": "被你缓速的敌人生命再生速度降低 {0}%",
     "en": "Enemies Hindered by you have {0}% reduced Life Regeneration rate"
   },
   {
@@ -39571,12 +39636,12 @@
   },
   {
     "id": "enemy_life_regeneration_rate_+%_for_4_seconds_on_hit",
-    "zh": "近期内被你击中的敌人的生命回复速度提高 {0}%",
+    "zh": "近期你击中的敌人生命再生速度提高 {0}%",
     "en": "Enemies you've Hit Recently have {0}% increased Life Regeneration rate"
   },
   {
     "id": "enemy_life_regeneration_rate_+%_for_4_seconds_on_hit",
-    "zh": "近期内被你击中的敌人的生命回复速度降低 {0}%",
+    "zh": "近期内你击中的敌人生命再生速度降低 {0}%",
     "en": "Enemies you've Hit Recently have {0}% reduced Life Regeneration rate"
   },
   {
@@ -39761,52 +39826,52 @@
   },
   {
     "id": "energy_shield_regeneration_%_per_minute_if_enemy_cursed_recently",
-    "zh": "若你近期内诅咒了敌人，则每秒回复 {0}% 能量护盾",
+    "zh": "若你近期内诅咒了敌人，则每秒再生 {0}% 能量护盾",
     "en": "Regenerate {0}% of Energy Shield per second if you've Cursed an Enemy Recently"
   },
   {
     "id": "energy_shield_regeneration_%_per_minute_if_enemy_killed_recently",
-    "zh": "若你近期内击败过敌人，则每秒回复 {0}% 能量护盾",
+    "zh": "若你近期内击败过敌人，则每秒再生 {0}% 能量护盾",
     "en": "Regenerate {0}% of Energy Shield per second if you've Killed an Enemy Recently"
   },
   {
     "id": "energy_shield_regeneration_rate_per_minute_if_rare_or_unique_enemy_nearby",
-    "zh": "周围有稀有或传奇敌人时，每秒回复 {0} 能量护盾",
+    "zh": "周围有稀有或传奇敌人时，每秒再生 {0} 能量护盾",
     "en": "Regenerate {0} Energy Shield per second while a Rare or Unique Enemy is Nearby"
   },
   {
     "id": "energy_shield_regeneration_rate_per_minute_per_poison_stack",
-    "zh": "你身上每层中毒效果都使能量护盾每秒回复 {0} 点，最多每秒 400 点",
+    "zh": "你身上每层中毒使你每秒再生 {0} 能量护盾，最多每秒 400",
     "en": "Regenerate {0} Energy Shield per Second per Poison on you, up to 400 per second"
   },
   {
     "id": "energy_shield_regeneration_rate_per_minute_%_if_you_have_hit_an_enemy_recently",
-    "zh": "若你近期内击中敌人，则每秒回复 {0}% 能量护盾",
+    "zh": "若你近期内击中敌人，则每秒再生 {0}% 能量护盾",
     "en": "Regenerate {0}% of Energy Shield per second if you've Hit an Enemy Recently"
   },
   {
     "id": "energy_shield_regeneration_rate_per_minute_%_while_affected_by_discipline",
-    "zh": "受到【纪律】影响时，每秒回复 {0}% 能量护盾",
+    "zh": "受到纪律影响时每秒再生 {0}% 能量护盾",
     "en": "Regenerate {0}% of Energy Shield per Second while affected by Discipline"
   },
   {
     "id": "energy_shield_regeneration_rate_per_minute_while_on_consecrated_ground",
-    "zh": "位于奉献地面上时，每秒回复 {0} 能量护盾",
+    "zh": "位于奉献地面上时，每秒再生 {0} 能量护盾",
     "en": "Regenerate {0} Energy Shield per Second while on Consecrated Ground"
   },
   {
     "id": "energy_shield_regeneration_rate_per_second",
-    "zh": "每秒回复 {0} 能量护盾",
+    "zh": "每秒再生 {0} 能量护盾",
     "en": "Regenerate {0} Energy Shield per second"
   },
   {
     "id": "energy_shield_regeneration_rate_+%",
-    "zh": "能量护盾回复速度提高 {0}%",
+    "zh": "能量护盾再生速度提高 {0}%",
     "en": "{0}% increased Energy Shield Regeneration rate"
   },
   {
     "id": "energy_shield_regeneration_rate_+%",
-    "zh": "能量护盾回复速度降低 {0}%",
+    "zh": "能量护盾再生速度降低 {0}%",
     "en": "{0}% reduced Energy Shield Regeneration rate"
   },
   {
@@ -39846,7 +39911,7 @@
   },
   {
     "id": "es_regeneration_per_minute_%_while_stationary",
-    "zh": "静止时，每秒回复 {0}% 能量护盾",
+    "zh": "静止时，每秒再生 {0}% 能量护盾",
     "en": "Regenerate {0}% of Energy Shield per second while stationary"
   },
   {
@@ -39971,7 +40036,7 @@
   },
   {
     "id": "evasion_rating_%_as_life_regeneration_per_minute_during_focus",
-    "zh": "专注时，每秒将 {0}% 的闪避值转化为生命回复",
+    "zh": "专注时每秒再生等同 {0}% 闪避的生命",
     "en": "{0}% of Evasion Rating is Regenerated as Life per second while Focused"
   },
   {
@@ -40096,7 +40161,7 @@
   },
   {
     "id": "every_4_seconds_regenerate_%_of_armour_and_evasion_as_life_over_1_second",
-    "zh": "每隔 4 秒，在 1 秒内恢复相当于护甲和闪避值 {0}% 的生命",
+    "zh": "每隔 4 秒，在 1 秒内再生等同 {0}% 护甲和闪避的生命",
     "en": "Every 4 seconds, Regenerate Life equal to {0}% of Armour and Evasion Rating over 1 second"
   },
   {
@@ -40406,7 +40471,7 @@
   },
   {
     "id": "fire_and_cold_hit_and_dot_damage_%_taken_as_lightning_while_affected_by_purity_of_lightning",
-    "zh": "受到闪电净化影响时\n，受到的火焰和冰霜伤害的{0}%视为闪电伤害",
+    "zh": "被闪电净化影响时，受到火焰和冰霜伤害的 {0}% 视作闪电伤害",
     "en": "{0}% of Fire and Cold Damage taken as Lightning Damage while\naffected by Purity of Lightning"
   },
   {
@@ -40421,7 +40486,7 @@
   },
   {
     "id": "fire_and_lightning_hit_and_dot_damage_%_taken_as_cold_while_affected_by_purity_of_ice",
-    "zh": "受到冰霜净化影响时，受到的火焰和闪电伤害的{0}%视为冰霜伤害",
+    "zh": "被冰霜净化影响时，受到火焰和闪电伤害的 {0}% 视作冰霜伤害",
     "en": "{0}% of Fire and Lightning Damage taken as Cold Damage while affected by Purity of Ice"
   },
   {
@@ -40636,7 +40701,7 @@
   },
   {
     "id": "fire_hit_and_dot_damage_%_taken_as_lightning",
-    "zh": "受到的火焰伤害的 {0}% 转为闪电伤害",
+    "zh": "受到火焰伤害的 {0}% 视作闪电伤害",
     "en": "{0}% of Fire Damage taken as Lightning Damage"
   },
   {
@@ -41056,12 +41121,12 @@
   },
   {
     "id": "flask_charges_gained_from_kills_+%_final_from_unique",
-    "zh": "击败敌人使药剂充能获取率总增 {0}%",
+    "zh": "击败敌人的药剂充能获取率总增 {0}%",
     "en": "{0}% more Flask Charges gained from Kills"
   },
   {
     "id": "flask_charges_gained_from_kills_+%_final_from_unique",
-    "zh": "击败敌人使药剂充能获取率总降 {0}%",
+    "zh": "击败敌人的药剂充能获取率总降 {0}%",
     "en": "{0}% less Flask Charges gained from Kills"
   },
   {
@@ -41533,6 +41598,16 @@
     "id": "gain_1_rare_monster_mod_on_kill_for_10_seconds_%_chance",
     "zh": "当你击败稀有怪物时，有 {0}% 的几率获得该怪物的一种属性修正 10 秒",
     "en": "When you Kill a Rare Monster, {0}% chance to gain one of its Modifiers for 10 seconds"
+  },
+  {
+    "id": "gain_1_rare_monster_mods_on_kill_for_20_seconds_%",
+    "zh": "击败稀有怪物时有 {0}% 的几率获得它的 1 个词缀，持续 20 秒",
+    "en": "{0}% chance on Killing a Rare Monster to gain 1 of its Modifiers for 20 seconds"
+  },
+  {
+    "id": "gain_1_rare_monster_mods_on_kill_for_20_seconds_%",
+    "zh": "击败稀有怪物时获得它的 1 个词缀，持续 20 秒",
+    "en": "On Killing a Rare Monster gain 1 of its Modifiers for 20 seconds"
   },
   {
     "id": "gain_X%_armour_per_50_mana_reserved",
@@ -42181,7 +42256,7 @@
   },
   {
     "id": "gain_%_total_phys_damage_prevented_in_the_past_10_sec_as_life_regen_per_sec",
-    "zh": "在过去 10 秒内被击中阻挡的物理伤害有 {0}% 转化为每秒生命回复",
+    "zh": "每秒再生生命，等同过去 10 秒内阻挡的击中物理伤害的 {0}%",
     "en": "{0}% of Physical Damage prevented from Hits in the past\n10 seconds is Regenerated as Life per second"
   },
   {
@@ -42306,6 +42381,16 @@
   },
   {
     "id": "gain_shrine_buff_every_x_ms",
+    "zh": "每 {0} 秒获得一个随机神龛增益",
+    "en": "Gain a random shrine buff every {0} seconds"
+  },
+  {
+    "id": "gain_shrine_buff_every_x_ms_from_ascendancy",
+    "zh": "每 1 秒获得一个随机神龛增益",
+    "en": "Gain a random shrine buff every 1 second"
+  },
+  {
+    "id": "gain_shrine_buff_every_x_ms_from_ascendancy",
     "zh": "每 {0} 秒获得一个随机神龛增益",
     "en": "Gain a random shrine buff every {0} seconds"
   },
@@ -42706,7 +42791,7 @@
   },
   {
     "id": "golem_life_regeneration_per_minute_%",
-    "zh": "召唤的魔像每秒回复 {0}% 生命",
+    "zh": "召唤的魔像每秒再生 {0}% 生命",
     "en": "Summoned Golems Regenerate {0}% of their Life per second"
   },
   {
@@ -43303,6 +43388,11 @@
     "id": "herald_scorpion_number_of_additional_projectiles",
     "zh": "召唤的苦痛爬行者额外发射 {0} 的投射物",
     "en": "Summoned Agony Crawler fires {0} additional Projectiles"
+  },
+  {
+    "id": "herald_skill_gem_level_+",
+    "zh": "所有捷技能宝石等级 {0}",
+    "en": "{0} to Level of all Herald Skill Gems"
   },
   {
     "id": "herald_skills_mana_reservation_efficiency_-2%_per_1",
@@ -44023,6 +44113,11 @@
     "id": "immune_to_reflect_damage_if_cast_punishment_in_past_10_seconds",
     "zh": "如果你在过去 10 秒内施放过惩戒，则对反射伤害免疫",
     "en": "Immune to Reflected Damage if you've cast Punishment in the past 10 seconds"
+  },
+  {
+    "id": "immune_to_reflected_damage",
+    "zh": "免疫反射伤害",
+    "en": "Immune to Reflected Damage"
   },
   {
     "id": "immune_to_shock_while_affected_by_purity_of_lightning",
@@ -45066,7 +45161,7 @@
   },
   {
     "id": "life_recovery_from_regeneration_is_not_applied",
-    "zh": "生命回复无效",
+    "zh": "生命再生不再回复生命",
     "en": "Life Recovery from Regeneration is not applied"
   },
   {
@@ -45111,172 +45206,172 @@
   },
   {
     "id": "life_regeneration_%_per_minute_if_stunned_an_enemy_recently",
-    "zh": "若你近期内使敌人眩晕，则每秒回复 {0}% 生命",
+    "zh": "若你近期内使敌人眩晕，则每秒再生 {0}% 生命",
     "en": "Regenerate {0}% of Life per second if you have Stunned an Enemy Recently"
   },
   {
     "id": "life_regeneration_per_minute_per_1%_uncapped_fire_damage_resistance",
-    "zh": "每 1% 的绝对火焰抗性每秒回复 {0} 点生命",
+    "zh": "每 1% 的绝对火焰抗性使你每秒再生 {0} 生命",
     "en": "Regenerate {0} Life per second for each 1% Uncapped Fire Resistance"
   },
   {
     "id": "life_regeneration_per_minute_per_active_buff",
-    "zh": "身上每个增益效果使每秒回复 {0} 生命",
+    "zh": "身上每个增益效果使你每秒再生 {0} 生命",
     "en": "Regenerate {0} Life per second per Buff on you"
   },
   {
     "id": "life_regeneration_per_minute_per_nearby_corpse",
-    "zh": "周围每个灵枢都能使你每秒回复 {0} 生命",
+    "zh": "周围每个灵柩使你每秒再生 {0} 生命",
     "en": "For each nearby corpse, Regenerate {0} Life per second"
   },
   {
     "id": "life_regeneration_per_minute_%_per_ailment_affecting_you",
-    "zh": "每受到一种不同的异常状态影响，每秒回复 {0}% 的生命",
+    "zh": "身上每种异常状态使你每秒再生 {0}% 生命",
     "en": "Regenerate {0}% of Life per second for each different Ailment affecting you"
   },
   {
     "id": "life_regeneration_per_minute_%_per_fortification",
-    "zh": "每层护体每秒回复 {0}% 的生命",
+    "zh": "每层护体使你每秒再生 {0}% 生命",
     "en": "Regenerate {0}% of Life per second per Fortification"
   },
   {
     "id": "life_regeneration_per_minute_%_while_affected_by_guard_skill",
-    "zh": "生命在受防卫技能增益效果影响下每秒回复 {0}%",
+    "zh": "防卫技能增益效果使你每秒再生 {0}% 生命",
     "en": "Regenerate {0}% of Life per second while affected by a Guard Skill Buff"
   },
   {
     "id": "life_regeneration_per_minute_%_while_burning",
-    "zh": "燃烧时，每秒回复  {0}% 生命",
+    "zh": "燃烧时每秒再生 {0}% 生命",
     "en": "Regenerate {0}% of Life per second while Burning"
   },
   {
     "id": "life_regeneration_per_minute_%_while_channelling",
-    "zh": "持续吟唱时，每秒回复 {0}% 生命",
+    "zh": "持续吟唱时，每秒再生 {0}% 生命",
     "en": "Regenerate {0}% of Life per second while Channelling"
   },
   {
     "id": "life_regeneration_per_minute_while_affected_by_vitality",
-    "zh": "受到【活力】影响时， 每秒回复 {0} 生命",
+    "zh": "被活力影响时每秒再生 {0} 生命",
     "en": "Regenerate {0} Life per Second while affected by Vitality"
   },
   {
     "id": "life_regeneration_per_minute_while_ignited",
-    "zh": "生命在被点燃时每秒回复 {0}",
+    "zh": "被点燃时每秒再生 {0} 生命",
     "en": "Regenerate {0} Life per second while Ignited"
   },
   {
     "id": "life_regeneration_per_minute_while_moving",
-    "zh": "移动时每秒回复 {0} 生命",
+    "zh": "移动时每秒再生 {0} 生命",
     "en": "Regenerate {0} Life per second while moving"
   },
   {
     "id": "life_regeneration_per_minute_while_you_have_avians_flight",
-    "zh": "生命在你有鸟之斗魄时每秒回复 {0}%",
+    "zh": "鸟之斗魄使你每秒再生 {0}% 生命",
     "en": "Regenerate {0} Life per Second while you have Avian's Flight"
   },
   {
     "id": "life_regeneration_%_per_minute_if_detonated_mine_recently",
-    "zh": "生命在你近期内引爆过地雷的情况下每秒回复 {0}%",
+    "zh": "近期引爆地雷使你每秒再生 {0}% 生命",
     "en": "Regenerate {0}% of Life per Second if you've Detonated a Mine Recently"
   },
   {
     "id": "life_regeneration_%_per_minute_if_player_minion_died_recently",
-    "zh": "若近期内有召唤生物被击败，则每秒回复 {0}% 生命",
+    "zh": "近期召唤生物被击败使你每秒再生 {0}% 生命",
     "en": "Regenerate {0}% of Life per second if a Minion has Died Recently"
   },
   {
     "id": "life_regeneration_rate_per_minute_%_if_hit_cursed_enemy_recently",
-    "zh": "生命在你近期内击中过诅咒的敌人的情况下每秒回复 {0}%",
+    "zh": "近期击中被诅咒的敌人使你每秒再生 {0}% 生命",
     "en": "Regenerate {0}% of Life per second if you've Hit a Cursed Enemy Recently"
   },
   {
     "id": "life_regeneration_rate_per_minute_%_while_affected_by_vitality",
-    "zh": "被活力影响时每秒回复 {0}% 生命",
+    "zh": "被活力影响时每秒再生 {0}% 生命",
     "en": "Regenerate {0}% of Life per second while affected by Vitality"
   },
   {
     "id": "life_regeneration_rate_per_minute_%_if_blocked_recently",
-    "zh": "生命在你近期内成功格挡的情况下每秒回复 {0}%",
+    "zh": "近期格挡使你每秒再生 {0}% 生命",
     "en": "Regenerate {0}% of Life per Second if you have Blocked recently"
   },
   {
     "id": "life_regeneration_rate_per_minute_%_if_consumed_corpse_recently",
-    "zh": "若你近期内消耗一个灵枢，每秒回复 {0}% 生命",
+    "zh": "近期消耗灵柩使你每秒再生 {0}% 生命",
     "en": "Regenerate {0}% of Life per second if you've Consumed a corpse Recently"
   },
   {
     "id": "life_regeneration_rate_per_minute_%_if_crit_in_past_8_seconds",
-    "zh": "若过去 8 秒内你造成过暴击，则每秒生命回复 {0}%",
+    "zh": "过去 8 秒内造成暴击使你每秒再生 {0}% 生命",
     "en": "{0}% of Life Regenerated per Second if you've dealt a Critical Strike in the past 8 seconds"
   },
   {
     "id": "life_regeneration_rate_per_minute_%_if_have_been_hit_recently",
-    "zh": "若你近期内被击中，则每秒回复 {0}% 生命",
+    "zh": "近期被击中使你每秒再生 {0}% 生命",
     "en": "Regenerate {0}% of Life per second if you have been Hit Recently"
   },
   {
     "id": "life_regeneration_rate_per_minute_%_if_have_taken_fire_damage_from_an_enemy_hit_recently",
-    "zh": "近期内，你若被一名敌人击中并受到火焰伤害，则每秒回复 {0}% 生命",
+    "zh": "近期受到击中火焰伤害使你每秒再生 {0}% 生命",
     "en": "Regenerate {0}% of Life per second if you've taken Fire Damage from an Enemy Hit Recently"
   },
   {
     "id": "life_regeneration_rate_per_minute_%_if_used_life_flask_in_past_10_seconds",
-    "zh": "生命在你过去 10 秒内使用过生命药剂的情况下每秒回复 {0}%",
+    "zh": "过去 10 秒内使用生命药剂使你每秒再生 {0}% 生命",
     "en": "Regenerate {0}% of Life per Second if you've used a Life Flask in the past 10 seconds"
   },
   {
     "id": "life_regeneration_rate_per_minute_%_per_500_maximum_energy_shield",
-    "zh": "每有 500 能量护盾可每秒回复 {0}% 生命",
+    "zh": "每 500 能量护盾上限使你每秒再生 {0}% 生命",
     "en": "Regenerate {0}% of Life per second per 500 Maximum Energy Shield"
   },
   {
     "id": "life_regeneration_rate_per_minute_%_per_mine_detonated_recently_up_to_20%",
-    "zh": "近期内，每个引爆的地雷使每秒回复 {0}% 生命，最多 10%",
+    "zh": "近期每个引爆的地雷使你每秒再生 {0}% 生命，最多 10%",
     "en": "Regenerate {0}% of Life per second for each Mine Detonated Recently, up to 10% per second"
   },
   {
     "id": "life_regeneration_rate_per_minute_%_per_nearby_corpse_up_to_3%",
-    "zh": "周围每个灵枢都使你每秒回复 {0}% 生命，最多 3%",
+    "zh": "周围每个灵柩使你每秒再生 {0}% 生命，最多 3%",
     "en": "For each nearby corpse, Regenerate {0}% Life per second, up to 3%"
   },
   {
     "id": "life_regeneration_rate_per_minute_%_per_power_charge",
-    "zh": "每个暴击球使每秒回复 {0}% 生命",
+    "zh": "每个暴击球使你每秒再生 {0}% 生命",
     "en": "Regenerate {0}% of Life per second per Power Charge"
   },
   {
     "id": "life_regeneration_rate_per_minute_%_per_raised_zombie",
-    "zh": "每有一个复苏的魔卫便使每秒回复 {0}% 生命",
+    "zh": "每个复苏的魔卫使你每秒再生 {0}% 生命",
     "en": "Regenerate {0}% of Life per second for each Raised Zombie"
   },
   {
     "id": "life_regeneration_rate_per_minute_%_per_trap_triggered_recently_up_to_20%",
-    "zh": "近期内每个触发的陷阱使每秒回复 {0}% 生命，最多 10%",
+    "zh": "近期每个触发的陷阱使你每秒再生 {0}% 生命，最多 10%",
     "en": "Regenerate {0}% of Life per Second for each Trap Triggered Recently, up to 10% per second"
   },
   {
     "id": "life_regeneration_rate_per_minute_%_while_moving",
-    "zh": "移动时每秒回复 {0}% 生命",
+    "zh": "移动时每秒再生 {0}% 生命",
     "en": "Regenerate {0}% of Life per second while moving"
   },
   {
     "id": "life_regeneration_rate_per_minute_%_while_stationary",
-    "zh": "静止时每秒回复 {0}% 生命",
+    "zh": "静止时每秒再生 {0}% 生命",
     "en": "Regenerate {0}% of Life per second while stationary"
   },
   {
     "id": "life_regeneration_rate_per_minute_%_while_using_flask",
-    "zh": "生命在任意药剂生效期间每秒回复 {0}%",
+    "zh": "任意药剂生效期间每秒再生 {0}% 生命",
     "en": "Regenerate {0}% of Life per second during any Flask Effect"
   },
   {
     "id": "life_regeneration_rate_per_minute_%_with_400_or_more_strength",
-    "zh": "至少有 400 点力量时，每秒回复 {0}% 生命",
+    "zh": "至少有 400 点力量时，每秒再生 {0}% 生命",
     "en": "Regenerate {0}% of Life per second with at least 400 Strength"
   },
   {
     "id": "life_regeneration_rate_per_minute_while_on_low_life",
-    "zh": "低血状态时每秒回复 {0} 生命",
+    "zh": "血时每秒再生 {0} 生命",
     "en": "Regenerate {0} Life per Second while on Low Life"
   },
   {
@@ -45501,7 +45596,7 @@
   },
   {
     "id": "lightning_hit_and_dot_damage_%_taken_as_fire",
-    "zh": "受到的闪电伤害有 {0}% 视为火焰伤害",
+    "zh": "受到闪电伤害的 {0}% 视作火焰伤害",
     "en": "{0}% of Lightning Damage taken as Fire Damage"
   },
   {
@@ -45981,7 +46076,7 @@
   },
   {
     "id": "local_affliction_jewel_small_nodes_grant_mana_regeneration_+%",
-    "zh": "增加的小天赋还获得：魔力回复速度加快 {0}%",
+    "zh": "增加的小天赋还获得：魔力再生速度加快 {0}%",
     "en": "Added Small Passive Skills also grant: {0}% increased Mana Regeneration Rate"
   },
   {
@@ -46011,12 +46106,12 @@
   },
   {
     "id": "local_affliction_jewel_small_nodes_grant_minion_life_regeneration_rate_per_minute_%",
-    "zh": "增加的小天赋还获得：召唤生物每秒回复 {0}% 生命",
+    "zh": "增加的小天赋还获得：召唤生物每秒再生 {0}% 生命",
     "en": "Added Small Passive Skills also grant: Minions Regenerate {0}% of Life per Second"
   },
   {
     "id": "local_affliction_jewel_small_nodes_grant_%_life_regeneration_per_minute",
-    "zh": "增加的小天赋还获得：每秒回复 {0}% 生命",
+    "zh": "增加的小天赋还获得：每秒再生 {0}% 生命",
     "en": "Added Small Passive Skills also grant: Regenerate {0}% of Life per Second"
   },
   {
@@ -46526,7 +46621,7 @@
   },
   {
     "id": "local_affliction_notable_evil_eye",
-    "zh": "其中 1 个增加的天赋为【邪恶之眼】",
+    "zh": "1 个添加的被动天赋为邪恶之眼",
     "en": "1 Added Passive Skill is Evil Eye"
   },
   {
@@ -46761,7 +46856,7 @@
   },
   {
     "id": "local_affliction_notable_hulking_corpses",
-    "zh": "其中 1 个增加的天赋为【肿胀灵枢】",
+    "zh": "其中 1 个增加的天赋为【肿胀灵柩】",
     "en": "1 Added Passive Skill is Hulking Corpses"
   },
   {
@@ -47816,12 +47911,12 @@
   },
   {
     "id": "local_display_mod_aura_mana_regeration_rate_+%",
-    "zh": "你和周围友军的魔力回复速度提高 30%",
+    "zh": "你和周围友军的魔力再生速度提高 30%",
     "en": "You and nearby Allies have 30% increased Mana Regeneration Rate"
   },
   {
     "id": "local_display_mod_aura_mana_regeration_rate_+%",
-    "zh": "你和周围友军的魔力回复速度降低 30%",
+    "zh": "你和周围友军的魔力再生速度降低 30%",
     "en": "You and nearby Allies have 30% reduced Mana Regeneration Rate"
   },
   {
@@ -47930,6 +48025,11 @@
     "en": "You are Crushed"
   },
   {
+    "id": "local_display_touched_by_tormented_illegal_fisherman",
+    "zh": "你被一个苦痛不法渔者触碰，获得：",
+    "en": "You are Touched by a Tormented Illegal Fisherman granting:"
+  },
+  {
     "id": "local_display_trickster_heartstopper_rotating_buff",
     "zh": "每10秒：\n受到的击中伤害总增 {0}% ，持续 5 秒\n 5 秒后受到的持续伤害总增 {0}% ，持续5秒",
     "en": "Every 10 seconds:\nTake {0}% more Damage from Hits for 5 seconds\nTake {0}% more Damage over Time for 5 seconds"
@@ -47976,7 +48076,7 @@
   },
   {
     "id": "local_energy_shield_regeneration_per_minute_%_if_crit_recently",
-    "zh": "若你近期内用该武器造成过暴击，则每秒再回复 {0}% 的能量护盾",
+    "zh": "近期用该武器造成暴击使你每秒再生 {0}% 能量护盾",
     "en": "Regenerate {0}% of Energy Shield per second if you've dealt a Critical Strike with this weapon Recently"
   },
   {
@@ -49176,7 +49276,7 @@
   },
   {
     "id": "local_weapon_passive_tree_granted_passive_hash",
-    "zh": "分配 {0}",
+    "zh": "配置 {0}",
     "en": "Allocates {0}"
   },
   {
@@ -49561,12 +49661,12 @@
   },
   {
     "id": "mana_recharge_rate_per_minute_with_all_corrupted_equipped_items",
-    "zh": "所有身上穿戴的物品皆为已腐化时，每秒回复 {0} 魔力",
+    "zh": "身上所有装备被腐化时每秒再生 {0} 魔力",
     "en": "Regenerate {0} Mana per second if all Equipped Items are Corrupted"
   },
   {
     "id": "mana_recovery_from_regeneration_is_not_applied",
-    "zh": "魔力回复无效",
+    "zh": "魔力再生不再回复魔力",
     "en": "Mana Recovery from Regeneration is not applied"
   },
   {
@@ -49601,122 +49701,122 @@
   },
   {
     "id": "mana_regeneration_rate_+%_per_1%_spell_block_chance",
-    "zh": "每有 1% 的法术伤害格挡几率，则魔力回复速度加快 {0}%",
+    "zh": "每 1% 的法术伤害格挡几率使魔力再生速度提高 {0}%",
     "en": "{0}% increased Mana Regeneration Rate per 1% Chance to Block Spell Damage"
   },
   {
     "id": "mana_regeneration_rate_+%_per_1%_spell_block_chance",
-    "zh": "每有 1% 的法术伤害格挡几率，则魔力回复速度减慢 {0}%",
+    "zh": "每 1% 的法术伤害格挡几率使魔力再生速度降低 {0}%",
     "en": "{0}% reduced Mana Regeneration Rate per 1% Chance to Block Spell Damage"
   },
   {
     "id": "mana_regeneration_rate_per_minute_if_enemy_hit_recently",
-    "zh": "若你近期内击中敌人，则每秒回复 {0} 魔力",
+    "zh": "近期击中敌人使你每秒再生 {0} 魔力",
     "en": "Regenerate {0} Mana per second if you've Hit an Enemy Recently"
   },
   {
     "id": "mana_regeneration_rate_per_minute_if_used_movement_skill_recently",
-    "zh": "若你近期内有使用过位移技能，则每秒回复 {0} 魔力",
+    "zh": "近期使用位移技能使你每秒再生 {0} 魔力",
     "en": "Regenerate {0} Mana per second if you've used a Movement Skill Recently"
   },
   {
     "id": "mana_regeneration_rate_per_minute_per_10_devotion",
-    "zh": "每 10 点奉献便每秒回复 {0} 魔力",
+    "zh": "每 10 奉献使你每秒再生 {0} 魔力",
     "en": "Regenerate {0} Mana per Second per 10 Devotion"
   },
   {
     "id": "mana_regeneration_rate_per_minute_per_power_charge",
-    "zh": "每个暴击球使每秒回复 {0} 魔力",
+    "zh": "每个暴击球使你每秒再生 {0} 魔力",
     "en": "Regenerate {0} Mana per Second per Power Charge"
   },
   {
     "id": "mana_regeneration_rate_per_minute_%_if_enemy_hit_recently",
-    "zh": "若你近期内击中敌人，则每秒回复 {0}% 魔力",
+    "zh": "近期击中敌人使你每秒再生 {0}% 魔力",
     "en": "Regenerate {0}% of Mana per second if you've Hit an Enemy Recently"
   },
   {
     "id": "mana_regeneration_rate_per_minute_%_if_inflicted_exposure_recently",
-    "zh": "若近期内你施加过曝露效果，则每秒回复 {0}% 魔力",
+    "zh": "近期造成曝露使你每秒再生 {0}% 魔力",
     "en": "Regenerate {0}% of Mana per second if you've inflicted Exposure Recently"
   },
   {
     "id": "mana_regeneration_rate_per_minute_%_per_active_totem",
-    "zh": "每个召唤的图腾使你每秒回复 {0}% 魔力",
+    "zh": "每个召唤的图腾使你每秒再生 {0}% 魔力",
     "en": "Regenerate {0}% of Mana per second for each Summoned Totem"
   },
   {
     "id": "mana_regeneration_rate_per_minute_while_dual_wielding",
-    "zh": "双持时，每秒回复 {0} 魔力",
+    "zh": "双持时每秒再生 {0} 魔力",
     "en": "Regenerate {0} Mana per Second while Dual Wielding"
   },
   {
     "id": "mana_regeneration_rate_per_minute_while_holding_shield",
-    "zh": "持盾牌时，每秒回复 {0} 魔力",
+    "zh": "持盾牌时每秒再生 {0} 魔力",
     "en": "Regenerate {0} Mana per Second while holding a Shield"
   },
   {
     "id": "mana_regeneration_rate_per_minute_while_on_consecrated_ground",
-    "zh": "位于奉献地面上时，每秒回复 {0} 魔力",
+    "zh": "位于奉献地面上时，每秒再生 {0} 魔力",
     "en": "Regenerate {0} Mana per Second while on Consecrated Ground"
   },
   {
     "id": "mana_regeneration_rate_per_minute_while_wielding_staff",
-    "zh": "持长杖时，每秒回复 {0} 魔力",
+    "zh": "持长杖时，每秒再生 {0} 魔力",
     "en": "Regenerate {0} Mana per second while wielding a Staff"
   },
   {
     "id": "mana_regeneration_rate_per_minute_while_you_have_avians_flight",
-    "zh": "魔力在你有鸟之斗魄时每秒回复 {0}%",
+    "zh": "鸟之斗魄使你每秒再生 {0}% 魔力",
     "en": "Regenerate {0} Mana per Second while you have Avian's Flight"
   },
   {
     "id": "mana_regeneration_rate_+%_if_enemy_frozen_recently",
-    "zh": "若你近期内冻结过敌人，则魔力回复速度加快 {0}%",
+    "zh": "近期冻结敌人使魔力再生速度提高 {0}%",
     "en": "{0}% increased Mana Regeneration Rate if you have Frozen an Enemy Recently"
   },
   {
     "id": "mana_regeneration_rate_+%_if_enemy_frozen_recently",
-    "zh": "若你近期内冻结过敌人，则魔力回复速度减慢 {0}%",
+    "zh": "近期冻结敌人使魔力再生速度降低 {0}%",
     "en": "{0}% reduced Mana Regeneration Rate if you have Frozen an Enemy Recently"
   },
   {
     "id": "mana_regeneration_rate_+%_if_enemy_shocked_recently",
-    "zh": "若你近期内使敌人感电，则魔力回复速度加快 {0}%",
+    "zh": "近期感电敌人使魔力再生速度提高 {0}%",
     "en": "{0}% increased Mana Regeneration Rate if you have Shocked an Enemy Recently"
   },
   {
     "id": "mana_regeneration_rate_+%_if_enemy_shocked_recently",
-    "zh": "若你近期内使敌人感电，则魔力回复速度减慢 {0}%",
+    "zh": "近期感电敌人使魔力再生速度降低 {0}%",
     "en": "{0}% reduced Mana Regeneration Rate if you have Shocked an Enemy Recently"
   },
   {
     "id": "mana_regeneration_rate_+%_if_hit_cursed_enemy_recently",
-    "zh": "若你近期内击中被诅咒的敌人，则魔力回复速度加快 {0}%",
+    "zh": "近期击中被诅咒的敌人使魔力再生速度提高 {0}%",
     "en": "{0}% increased Mana Regeneration Rate if you've Hit a Cursed Enemy Recently"
   },
   {
     "id": "mana_regeneration_rate_+%_if_hit_cursed_enemy_recently",
-    "zh": "若你近期内击中被诅咒的敌人，则魔力回复速度减慢 {0}%",
+    "zh": "近期击中被诅咒的敌人使魔力再生速度降低 {0}%",
     "en": "{0}% reduced Mana Regeneration Rate if you've Hit a Cursed Enemy Recently"
   },
   {
     "id": "mana_regeneration_rate_+%_per_raised_spectre",
-    "zh": "魔力回复速度按照每个召唤的灵体提高 {0}%",
+    "zh": "每个召唤的灵体使魔力再生速度提高 {0}%",
     "en": "{0}% increased Mana Regeneration Rate per Raised Spectre"
   },
   {
     "id": "mana_regeneration_rate_+%_per_raised_spectre",
-    "zh": "魔力回复速度按照每个召唤的灵体降低 {0}%",
+    "zh": "每个召唤的灵体使魔力再生速度降低 {0}%",
     "en": "{0}% reduced Mana Regeneration Rate per Raised Spectre"
   },
   {
     "id": "mana_regeneration_rate_+%_while_moving",
-    "zh": "当移动时，魔力回复速度加快 {0}%",
+    "zh": "移动时魔力再生速度提高 {0}%",
     "en": "{0}% increased Mana Regeneration Rate while moving"
   },
   {
     "id": "mana_regeneration_rate_+%_while_moving",
-    "zh": "当移动时，魔力回复速度减慢 {0}%",
+    "zh": "移动时魔力再生速度降低 {0}%",
     "en": "{0}% reduced Mana Regeneration Rate while moving"
   },
   {
@@ -49881,7 +49981,7 @@
   },
   {
     "id": "marked_enemies_cannot_regenerate_life",
-    "zh": "被标记的敌人无法恢复生命",
+    "zh": "被标记的敌人无法再生生命",
     "en": "Marked Enemy cannot Regenerate Life"
   },
   {
@@ -49953,6 +50053,16 @@
     "id": "maximum_added_lightning_damage_per_10_int",
     "zh": "每 10 点智慧附加 {0} 最大基础闪电伤害",
     "en": "Adds {0} maximum Lightning Damage per 10 Intelligence"
+  },
+  {
+    "id": "maximum_attack_damage_+%_final_from_ascendancy",
+    "zh": "攻击伤害上限总增 {0}%",
+    "en": "{0}% more Maximum Attack Damage"
+  },
+  {
+    "id": "maximum_attack_damage_+%_final_from_ascendancy",
+    "zh": "攻击伤害上限总降 {0}%",
+    "en": "{0}% less Maximum Attack Damage"
   },
   {
     "id": "maximum_blitz_charges",
@@ -51041,12 +51151,12 @@
   },
   {
     "id": "minion_life_regeneration_rate_per_minute_%_if_blocked_recently",
-    "zh": "召唤生物的生命在它们近期内成功格挡的情况下每秒回复 {0}%",
+    "zh": "召唤生物近期格挡时每秒再生 {0}% 生命",
     "en": "Minions Regenerate {0}% of Life per Second if they have Blocked recently"
   },
   {
     "id": "minion_life_regeneration_rate_per_second",
-    "zh": "召唤生物每秒回复 {0} 生命",
+    "zh": "召唤生物每秒再生 {0} 生命",
     "en": "Minions Regenerate {0} Life per second"
   },
   {
@@ -51263,6 +51373,11 @@
     "id": "minions_deal_%_of_physical_damage_as_additional_chaos_damage",
     "zh": "召唤生物将物理伤害的 {0}% 视为额外混沌伤害",
     "en": "Minions gain {0}% of Physical Damage as Extra Chaos Damage"
+  },
+  {
+    "id": "minions_gain_half_your_strength_from_ascendancy",
+    "zh": "你一半的力量属性将添加至你的召唤生物身上",
+    "en": "Half of your Strength is added to your Minions"
   },
   {
     "id": "minions_gain_your_strength",
@@ -51591,7 +51706,7 @@
   },
   {
     "id": "movement_speed_+%_per_nearby_corpse",
-    "zh": "周围每个灵枢能使移动速度加快 {0}%",
+    "zh": "周围每个灵柩能使移动速度加快 {0}%",
     "en": "For each nearby corpse, {0}% increased Movement Speed"
   },
   {
@@ -52021,12 +52136,12 @@
   },
   {
     "id": "necromancer_energy_shield_regeneration_rate_per_minute_%_for_you_and_allies_per_nearby_corpse",
-    "zh": "周围每个灵枢使你和周围友军每秒回复 {0}% 能量护盾，每秒最多 2.0%",
+    "zh": "周围每个灵柩使你和周围友军每秒再生 {0}% 能量护盾，每秒最多 2.0%",
     "en": "For each nearby corpse, you and nearby Allies Regenerate {0}% of Energy Shield per second, up to 2.0% per second"
   },
   {
     "id": "necromancer_mana_regeneration_rate_per_minute_for_you_and_allies_per_nearby_corpse",
-    "zh": "周围每个灵枢使你和周围友军每秒回复 {0} 魔力，最多每秒 50 点",
+    "zh": "周围每个灵柩使你和周围友军每秒再生 {0} 魔力，每秒最多 50",
     "en": "For each nearby corpse, you and nearby Allies Regenerate {0} Mana\nper second, up to 50 per second"
   },
   {
@@ -52245,6 +52360,11 @@
     "en": "Non-Damaging Elemental Ailments you inflict spread to other enemies within {0} metres"
   },
   {
+    "id": "non_exceptional_support_gem_level_+",
+    "zh": "所有非卓越辅助宝石等级 {0}",
+    "en": "{0} to Level of all non-Exceptional Support Gems"
+  },
+  {
     "id": "non_exerted_attacks_deal_no_damage",
     "zh": "非增助攻击无法造成伤害",
     "en": "Non-Exerted Attacks deal no Damage"
@@ -52286,8 +52406,8 @@
   },
   {
     "id": "nova_spells_cast_at_target_location",
-    "zh": "新星技能对玩家造成的击中和异常状态伤害总降 30% \n新星技能不在周身施放，改为在目标位置施放",
-    "en": "Nova Spells deal 30% less Damage to Players with Hits and Ailments\nNova Spells Cast at the targeted location instead of around you"
+    "zh": "新星不在周身施放，改为在目标位置施放",
+    "en": "Nova Spells Cast at the targeted location instead of around you"
   },
   {
     "id": "number_of_additional_arrows_while_main_hand_accuracy_is_3000_or_more",
@@ -53046,7 +53166,7 @@
   },
   {
     "id": "physical_damage_from_hits_%_taken_as_random_element",
-    "zh": "受到击中物理伤害的 {0}% 转化为随机元素伤害",
+    "zh": "受到击中物理伤害的 {0}% 视作随机元素伤害",
     "en": "{0}% of Physical Damage from Hits taken as Damage of a Random Element"
   },
   {
@@ -53221,32 +53341,32 @@
   },
   {
     "id": "physical_damage_taken_%_as_cold_while_affected_by_purity_of_elements",
-    "zh": "受到【元素净化】影响时，受到击中物理伤害的 {0}% 转换为冰霜伤害",
+    "zh": "被元素净化影响时，受到击中物理伤害的 {0}% 视作冰霜伤害",
     "en": "{0}% of Physical Damage from Hits taken as Cold Damage while affected by Purity of Elements"
   },
   {
     "id": "physical_damage_taken_%_as_cold_while_affected_by_purity_of_ice",
-    "zh": "受到【冰霜净化】影响时，受到击中物理伤害的 {0}% 转换为冰霜伤害",
+    "zh": "被冰霜净化影响时，受到击中物理伤害的 {0}% 视作冰霜伤害",
     "en": "{0}% of Physical Damage from Hits taken as Cold Damage while affected by Purity of Ice"
   },
   {
     "id": "physical_damage_taken_%_as_fire_while_affected_by_purity_of_elements",
-    "zh": "受到【元素净化】影响时，受到击中物理伤害的 {0}% 转换为火焰伤害",
+    "zh": "被元素净化影响时，受到击中物理伤害的 {0}% 视作火焰伤害”",
     "en": "{0}% of Physical Damage from Hits taken as Fire Damage while affected by Purity of Elements"
   },
   {
     "id": "physical_damage_taken_%_as_fire_while_affected_by_purity_of_fire",
-    "zh": "受到【火焰净化】影响时，受到击中物理伤害的 {0}% 转换为火焰伤害",
+    "zh": "被火焰净化影响时，受到击中物理伤害的 {0}% 视作火焰伤害",
     "en": "{0}% of Physical Damage from Hits taken as Fire Damage while affected by Purity of Fire"
   },
   {
     "id": "physical_damage_taken_%_as_lightning_while_affected_by_purity_of_elements",
-    "zh": "受到【元素净化】影响时，受到击中物理伤害的 {0}% 转换为闪电伤害",
+    "zh": "被元素净化影响时，受到击中物理伤害的 {0}% 视作闪电伤害",
     "en": "{0}% of Physical Damage from Hits taken as Lightning Damage while affected by Purity of Elements"
   },
   {
     "id": "physical_damage_taken_%_as_lightning_while_affected_by_purity_of_lightning",
-    "zh": "受到【闪电净化】影响时，受到击中物理伤害的 {0}% 转换为闪电伤害",
+    "zh": "被闪电净化影响时，受到击中物理伤害的 {0}% 视作闪电伤害",
     "en": "{0}% of Physical Damage from Hits taken as Lightning Damage while affected by Purity of Lightning"
   },
   {
@@ -53296,7 +53416,7 @@
   },
   {
     "id": "physical_hit_and_dot_damage_%_taken_as_fire",
-    "zh": "受到的物理伤害有 {0}% 视为火焰伤害",
+    "zh": "受到物理伤害的 {0}% 视作火焰伤害",
     "en": "{0}% of Physical Damage taken as Fire Damage"
   },
   {
@@ -54311,7 +54431,7 @@
   },
   {
     "id": "raise_zombie_does_not_use_corpses",
-    "zh": "魔卫复苏不再需要灵枢",
+    "zh": "魔卫复苏不再需要灵柩",
     "en": "Raise Zombie does not require a corpse"
   },
   {
@@ -54321,7 +54441,7 @@
   },
   {
     "id": "raised_zombies_are_usable_as_corpses_when_alive",
-    "zh": "你的魔卫复苏视为灵枢",
+    "zh": "你的魔卫复苏视为灵柩",
     "en": "Your Raised Zombies count as corpses"
   },
   {
@@ -54491,7 +54611,7 @@
   },
   {
     "id": "recover_1_life_per_x_life_regeneration_per_minute_every_4_seconds",
-    "zh": "每隔 4 秒，回复中每有 {0} 点每秒生命回复，为你回复 1 点生命",
+    "zh": "每隔 4 秒，每有 {0} 每秒生命回复来自再生，回复 1 生命",
     "en": "Every 4 seconds, Recover 1 Life for every {0} Life Recovery per second from Regeneration"
   },
   {
@@ -54521,7 +54641,7 @@
   },
   {
     "id": "recover_es_as_well_as_life_from_life_regeneration",
-    "zh": "生命回复同样回复能量护盾",
+    "zh": "生命再生同样回复能量护盾",
     "en": "Life Regeneration also Recovers Energy Shield"
   },
   {
@@ -54726,52 +54846,52 @@
   },
   {
     "id": "regenerate_%_energy_shield_over_1_second_when_stunned",
-    "zh": "眩晕时在 1 秒内恢复 {0}% 的能量护盾",
+    "zh": "眩晕时在 1 秒内再生 {0}% 能量护盾",
     "en": "Regenerate {0}% of Energy Shield over 1 second when Stunned"
   },
   {
     "id": "regenerate_%_life_over_1_second_when_hit_while_affected_by_vitality",
-    "zh": "受到活力影响时，被击中时在1秒内恢复{0}%的生命值",
+    "zh": "被活力影响时，被击中时在一秒内再生 {0}% 生命",
     "en": "Regenerate {0}% Life over one second when hit while affected by Vitality"
   },
   {
     "id": "regenerate_%_life_over_1_second_when_stunned",
-    "zh": "眩晕时在 1 秒内恢复 {0}% 的生命",
+    "zh": "眩晕时在 1 秒内再生 {0}% 生命",
     "en": "Regenerate {0}% of Life over 1 second when Stunned"
   },
   {
     "id": "regenerate_1_rage_per_x_life_regeneration",
-    "zh": "生命每秒回复 {0}，怒火每秒回复 1 点\n不会延迟固有的怒火损失",
+    "zh": "每有 {0} 每秒生命回复来自再生，每秒再生 1 怒火\n不会延迟怒火本身的消逝",
     "en": "Regenerate 1 Rage per second for every {0} Life Recovery per second from Regeneration\nDoes not delay Inherent Loss of Rage"
   },
   {
     "id": "regenerate_1_rage_per_x_mana_regeneration",
-    "zh": "魔力每秒回复 {0}，怒火每秒回复 1 点",
+    "zh": "每有 {0} 每秒魔力回复来自再生，每秒再生 1 怒火",
     "en": "Regenerate 1 Rage per second for every {0} Mana Recovery per second from Regeneration"
   },
   {
     "id": "regenerate_energy_shield_equal_to_%_evasion_rating_over_1_second_every_4_seconds",
-    "zh": "每隔 4 秒，在 1 秒内恢复相当于闪避值 {0}% 的能量护盾",
+    "zh": "每隔 4 秒，在 1 秒内再生等同 {0}% 闪避值的能量护盾",
     "en": "Every 4 seconds, Regenerate Energy Shield equal to {0}% of Evasion Rating over 1 second"
   },
   {
     "id": "regenerate_%_life_over_1_second_when_hit_while_not_unhinged",
-    "zh": "理智状态下，被击中时在一秒内回复 {0}% 生命",
+    "zh": "理智状态下，被击中时在一秒内再生 {0}% 生命",
     "en": "Regenerate {0}% Life over one second when Hit while Sane"
   },
   {
     "id": "regenerate_%_maximum_energy_shield_over_2_seconds_on_consuming_corpse",
-    "zh": "每吞噬一个灵柩，便每 2 秒回复 {0}% 能量护盾",
+    "zh": "每消耗一个灵柩使你在 2 秒内再生 {0}% 能量护盾",
     "en": "Regenerate {0}% of Energy Shield over 2 seconds when you Consume a corpse"
   },
   {
     "id": "regenerate_%_maximum_mana_over_2_seconds_on_consuming_corpse",
-    "zh": "每吞噬一个灵柩，便每 2 秒回复 {0}% 魔力",
+    "zh": "每消耗一个灵柩使你在 2 秒内再生 {0}% 魔力",
     "en": "Regenerate {0}% of Mana over 2 seconds when you Consume a corpse"
   },
   {
     "id": "regenerate_x_mana_per_minute_while_you_have_arcane_surge",
-    "zh": "魔力在你有秘术增强效果时每秒回复 {0}%",
+    "zh": "秘术增强使你每秒再生 {0}% 魔力",
     "en": "Regenerate {0} Mana per second while you have Arcane Surge"
   },
   {
@@ -55026,7 +55146,7 @@
   },
   {
     "id": "retaliation_skills_fortify_on_melee_hit",
-    "zh": "反射技能近战击中时获得护体",
+    "zh": "反击技能近战击中获得护体",
     "en": "Retaliation Skills Fortify on Melee Hit"
   },
   {
@@ -55081,7 +55201,7 @@
   },
   {
     "id": "righteous_fire_and_fire_beam_regenerate_x_mana_per_second_while_enemies_are_within",
-    "zh": "有敌人位于你的正义之火或灼热光线中时，每秒恢复 {0} 点魔力",
+    "zh": "有敌人位于你的正义之火或灼热光线中时，每秒再生 {0} 魔力",
     "en": "Regenerate {0} Mana per second while any Enemy is in your Righteous Fire or Scorching Ray"
   },
   {
@@ -56840,6 +56960,11 @@
     "en": "{0}% reduced Aspect of the Spider Debuff Duration"
   },
   {
+    "id": "spider_aspect_reserves_no_mana",
+    "zh": "蛛之势没有保留效果",
+    "en": "Aspect of the Spider has no Reservation"
+  },
+  {
     "id": "spider_aspect_skill_area_of_effect_+%",
     "zh": "【蛛之势】的效果区域扩大 {0}%",
     "en": "{0}% increased Aspect of the Spider Area of Effect"
@@ -56921,7 +57046,7 @@
   },
   {
     "id": "life_regeneration_per_minute_in_blood_stance",
-    "zh": "血姿态下每秒回复 {0} 点生命",
+    "zh": "血姿态下每秒再生 {0} 生命",
     "en": "Regenerate {0} Life per Second while in Blood Stance"
   },
   {
@@ -58211,12 +58336,12 @@
   },
   {
     "id": "totems_regenerate_1_life_per_x_player_life_regeneration",
-    "zh": "每 {0} 点的每秒生命回复使你的图腾获得 1 点的每秒生命回复",
+    "zh": "每有 {0} 每秒生命回复来自再生，图腾每秒再生 1 生命",
     "en": "Totems Regenerate 1 Life per second per {0} of your Life Recovery per second from Regeneration"
   },
   {
     "id": "totems_regenerate_%_life_per_minute",
-    "zh": "图腾每秒回复 {0}% 生命",
+    "zh": "图腾每秒再生 {0}% 生命",
     "en": "Totems Regenerate {0}% of Life per second"
   },
   {
@@ -58380,6 +58505,11 @@
     "en": "{0}% less Damage over Time"
   },
   {
+    "id": "trigger_level_20_summon_spectral_wolf_on_crit",
+    "zh": "暴击时触发 20 级召唤幽狼",
+    "en": "Trigger Level 20 Summon Spectral Wolf on Critical Strike"
+  },
+  {
     "id": "triggerbots_damage_+%_final_with_triggered_spells",
     "zh": "触发的法术的伤害总增 {0}%",
     "en": "{0}% more Damage with Triggered Spells"
@@ -58471,7 +58601,7 @@
   },
   {
     "id": "uber_domain_monster_life_regeneration_rate_per_minute_%_per_revival",
-    "zh": "怪物的生命在每次再生时每秒回复 {0}%",
+    "zh": "怪物每次复活使其每秒再生 {0}% 生命",
     "en": "Monsters Regenerate {0}% of Life per second for each time they have been Revived"
   },
   {
@@ -58751,7 +58881,7 @@
   },
   {
     "id": "local_unique_jewel_melee_skills_area_of_effect_+%_with_passive_tree_connected_to_marauder_start local_unique_jewel_life_leech_from_attack_damage_permyriad_with_passive_tree_connected_to_duelist_start local_unique_jewel_movement_speed_+%_with_passive_tree_connected_to_ranger_start local_unique_jewel_additional_critical_strike_chance_permyriad_with_passive_tree_connected_to_shadow_start local_unique_jewel_mana_regeneration_rate_per_minute_%_with_passive_tree_connected_to_witch_start local_unique_jewel_elemental_penetration_%_with_passive_tree_connected_to_templar_start local_unique_jewel_additional_all_attributes_with_passive_tree_connected_to_scion_start",
-    "zh": "你在天赋树上连接到女巫的出发位置时，你获得：\n每秒回复 {0}% 的魔力",
+    "zh": "你在天赋树上连接到女巫的出发位置时，你获得：\n每秒再生 {0}% 的魔力",
     "en": "While your Passive Skill Tree connects to the Witch's starting location, you gain:\n{0}% of Mana Regenerated per second"
   },
   {
@@ -58766,7 +58896,7 @@
   },
   {
     "id": "local_unique_jewel_melee_skills_area_of_effect_+%_with_passive_tree_connected_to_marauder_start local_unique_jewel_life_leech_from_attack_damage_permyriad_with_passive_tree_connected_to_duelist_start local_unique_jewel_movement_speed_+%_with_passive_tree_connected_to_ranger_start local_unique_jewel_additional_critical_strike_chance_permyriad_with_passive_tree_connected_to_shadow_start local_unique_jewel_mana_regeneration_rate_per_minute_%_with_passive_tree_connected_to_witch_start local_unique_jewel_elemental_penetration_%_with_passive_tree_connected_to_templar_start local_unique_jewel_additional_all_attributes_with_passive_tree_connected_to_scion_start",
-    "zh": "你在天赋树上连接到一个职业的出发位置时，你获得：\n野蛮人：近战技能效果区域扩大 {0}%\n决斗者：攻击伤害的 {1}% 转化为生命偷取\n游侠：移动速度加快 {2}%\n暗影：暴击率{3}%\n女巫：每秒回复 {4}% 的魔力\n圣堂武僧：伤害穿透 {5}% 元素抗性\n贵族：全属性 {6}",
+    "zh": "你在天赋树上连接到一个职业的出发位置时，你获得：\n野蛮人：近战技能效果区域扩大 {0}%\n决斗者：攻击伤害的 {1}% 转化为生命偷取\n游侠：移动速度加快 {2}%\n暗影：暴击率{3}%\n女巫：每秒再生 {4}% 的魔力\n圣堂武僧：伤害穿透 {5}% 元素抗性\n贵族：全属性 {6}",
     "en": "While your Passive Skill Tree connects to a class' starting location, you gain:\nMarauder: Melee Skills have {0}% increased Area of Effect\nDuelist: {1}% of Attack Damage Leeched as Life\nRanger: {2}% increased Movement Speed\nShadow: {3}% to Critical Strike Chance\nWitch: {4}% of Mana Regenerated per second\nTemplar: Damage Penetrates {5}% Elemental Resistances\nScion: {6} to All Attributes"
   },
   {
@@ -58973,6 +59103,16 @@
     "id": "vaal_skill_soul_refund_chance_%",
     "zh": "瓦尔技能使用时有 {0}% 的几率重获被消耗的灵魂",
     "en": "Vaal Skills have {0}% chance to regain consumed Souls when used"
+  },
+  {
+    "id": "vaal_skill_soul_requirement_+%",
+    "zh": "瓦尔技能每次施放所需灵魂提高 {0}%",
+    "en": "Vaal Skills require {0}% increased Souls per Use"
+  },
+  {
+    "id": "vaal_skill_soul_requirement_+%",
+    "zh": "瓦尔技能每次施放所需灵魂降低 {0}%",
+    "en": "Vaal Skills require {0}% reduced Souls per Use"
   },
   {
     "id": "vaal_volcanic_fissure_molten_strike_soul_gain_prevention_+%",
@@ -59326,12 +59466,12 @@
   },
   {
     "id": "warcry_count_power_from_enemies warcry_gain_mp_from_allies warcry_gain_mp_from_corpses warcries_have_infinite_power",
-    "zh": "战吼计入范围内敌人和灵枢的总威力值",
+    "zh": "战吼计入范围内敌人和灵柩的总威力值",
     "en": "Warcries count total Power of Enemies and Corpses in Range"
   },
   {
     "id": "warcry_count_power_from_enemies warcry_gain_mp_from_allies warcry_gain_mp_from_corpses warcries_have_infinite_power",
-    "zh": "战吼计入范围内敌人、友军和灵枢的总威力值",
+    "zh": "战吼计入范围内敌人、友军和灵柩的总威力值",
     "en": "Warcries count total Power of Enemies, Aliies and Corpses in Range"
   },
   {
@@ -59701,7 +59841,7 @@
   },
   {
     "id": "while_stationary_gain_life_regeneration_rate_per_minute_%",
-    "zh": "你每静止一秒，每秒恢复 {0}% 的生命，最多2%",
+    "zh": "每静止一秒使你每秒再生 {0}% 生命，最多 2%",
     "en": "Regenerate {0}% of Life per second for each second you've been stationary, up to a maximum of 2%"
   },
   {
@@ -59836,17 +59976,17 @@
   },
   {
     "id": "you_and_nearby_allies_life_regeneration_rate_per_minute_%_if_corpse_consumed_recently",
-    "zh": "若近期内你吞噬过灵柩，则你和周围友军每秒回复 {0}% 生命",
+    "zh": "近期消耗灵柩使你和周围友军每秒再生 {0}% 生命",
     "en": "If you Consumed a corpse Recently, you and nearby Allies Regenerate {0}% of Life per second"
   },
   {
     "id": "you_and_nearby_allies_life_regeneration_rate_per_minute_%_if_have_blocked_recently",
-    "zh": "若你近期内有过格挡，你和周围友军每秒回复 {0}% 生命",
+    "zh": "近期格挡使你和周围友军每秒再生 {0}% 生命",
     "en": "If you have Blocked Recently, you and nearby Allies Regenerate {0}% of Life per second"
   },
   {
     "id": "you_and_nearby_allies_life_regeneration_rate_per_minute_%_if_you_hit_an_enemy_recently",
-    "zh": "若你近期内击中敌人，你和周围友军每秒回复 {0}% 生命",
+    "zh": "近期击中敌人使你和周围友军每秒再生 {0}% 生命",
     "en": "If you've Hit an Enemy Recently, you and nearby Allies Regenerate {0}% of Life per second"
   },
   {
@@ -59861,8 +60001,13 @@
   },
   {
     "id": "you_and_totem_life_regeneration_rate_per_minute_%_per_active_totem",
-    "zh": "每个召唤的图腾都使你和你的图腾每秒回复 {0}% 生命",
+    "zh": "每个召唤的图腾使你和你的图腾每秒再生 {0}% 生命",
     "en": "You and your Totems Regenerate {0}% of Life per second for each Summoned Totem"
+  },
+  {
+    "id": "you_are_blind",
+    "zh": "你遭到致盲",
+    "en": "You are Blind"
   },
   {
     "id": "you_are_cursed_with_conductivity",
@@ -60816,12 +60961,12 @@
   },
   {
     "id": "mana_regeneration_rate_per_minute_%",
-    "zh": "魔力每秒回复 {0}%",
+    "zh": "魔力每秒再生 {0}%",
     "en": "Regenerate {0}% of Mana per second"
   },
   {
     "id": "mana_regeneration_rate_per_minute_%_per_power_charge",
-    "zh": "魔力按照每个暴击球每秒回复 {0}%",
+    "zh": "魔力按照每个暴击球每秒再生 {0}%",
     "en": "Regenerate {0}% of Mana per second per Power Charge"
   },
   {
@@ -60951,7 +61096,7 @@
   },
   {
     "id": "regenerate_energy_shield_instead_of_life",
-    "zh": "生命回复效果作用于能量护盾而非生命",
+    "zh": "生命再生改为能量护盾再生",
     "en": "Life Regeneration is applied to Energy Shield instead"
   },
   {
@@ -61075,6 +61220,11 @@
     "en": "Create Consecrated Ground on Kill, lasting 8 seconds"
   },
   {
+    "id": "display_abberaths_hooves_skill_level",
+    "zh": "触发 {0} 级艾贝拉斯之怒",
+    "en": "Triggers Level {0} Abberath's Fury"
+  },
+  {
     "id": "berserker_maximum_physical_attack_damage_on_crit_+%_final",
     "zh": "暴击的物理攻击伤害上限总增 {0}%",
     "en": "{0}% more Maximum Physical Attack Damage with Critical Strikes"
@@ -61126,12 +61276,12 @@
   },
   {
     "id": "life_mastery_nearby_enemy_life_regeneration_rate_+%",
-    "zh": "周围敌人的生命回复速度提高 {0}%",
+    "zh": "周围敌人的生命再生速度提高 {0}%",
     "en": "Nearby Enemies have {0}% increased Life Regeneration Rate"
   },
   {
     "id": "life_mastery_nearby_enemy_life_regeneration_rate_+%",
-    "zh": "周围敌人的生命回复速度降低 {0}%",
+    "zh": "周围敌人的生命再生速度降低 {0}%",
     "en": "Nearby Enemies have {0}% reduced Life Regeneration Rate"
   },
   {
@@ -61206,17 +61356,17 @@
   },
   {
     "id": "keystone_disciple_of_kitava",
-    "zh": "每秒消耗一具附近的灵枢，恢复 5% 生命和魔力\n若你近期内没有消耗灵枢，则受到的伤害总增 10%",
+    "zh": "每秒消耗一具附近的灵柩，恢复 5% 生命和魔力\n若你近期内没有消耗灵柩，则受到的伤害总增 10%",
     "en": "Every second, Consume a nearby Corpse to Recover 5% of Life and Mana\n10% more Damage taken if you haven't Consumed a Corpse Recently"
   },
   {
     "id": "keystone_divine_flesh",
-    "zh": "受到的所有伤害都穿透能量护盾\n受到的元素伤害有 50% 视为混沌伤害\n混沌抗性上限 +5%",
+    "zh": "受到的所有伤害都穿透能量护盾\n受到元素伤害的 50% 视作混沌伤害\n混沌抗性上限 +5%",
     "en": "All Damage taken bypasses Energy Shield\n50% of Elemental Damage taken as Chaos Damage\n+5% to maximum Chaos Resistance"
   },
   {
     "id": "keystone_divine_shield",
-    "zh": "恢复的能量护盾不能超过护甲值\n将近期内从击中阻挡的 3% 的物理伤害转化为每秒回复的能量护盾",
+    "zh": "回复能量护盾不能超过护甲\n每秒再生能量护盾，等同近期内阻挡的击中物理伤害的 3%",
     "en": "Cannot Recover Energy Shield to above Armour\n3% of Physical Damage prevented from Hits Recently is Regenerated as Energy Shield per second"
   },
   {
@@ -61231,12 +61381,12 @@
   },
   {
     "id": "keystone_eternal_youth",
-    "zh": "生命回复速度总降 50%\n偷取的每秒最大生命总恢复量总降 50%\n能量护盾充能改为对生命生效",
+    "zh": "生命再生速度总降 50%\n偷取的生命每秒回复上限总降 50%\n能量护盾充能改为生命充能",
     "en": "50% less Life Regeneration Rate\n50% less maximum Total Life Recovery per Second from Leech\nEnergy Shield Recharge instead applies to Life"
   },
   {
     "id": "keystone_focused_rage",
-    "zh": "回复时魔力回复无效\n魔力每秒回复 25 点，怒火回复 1 点\n不会延迟固有的怒火损失\n技能消耗 +3 点怒火",
+    "zh": "魔力再生不再回复魔力\n每秒 25 的魔力再生使你每秒再生 1 怒火\n不会延迟怒火本身的消逝\n技能消耗 +3 怒火",
     "en": "Mana Recovery from Regeneration is not applied\n1 Rage Regenerated for every 25 Mana Regeneration per Second\nDoes not delay Inherent Loss of Rage\nSkills Cost +3 Rage"
   },
   {
@@ -61285,8 +61435,13 @@
     "en": "Nearby Allies and Enemies Share Charges with you\nEnemies Hitting you have 10% chance to gain an Endurance, \nFrenzy or Power Charge"
   },
   {
-    "id": "keystone_mental_conditioning",
-    "zh": "最大魔力的 80% 转化为双倍的护甲",
+    "id": "keystone_mental_conditioning display_mode_is_behemoth_ascendancy",
+    "zh": "决心之力",
+    "en": "Power of Purpose"
+  },
+  {
+    "id": "keystone_mental_conditioning display_mode_is_behemoth_ascendancy",
+    "zh": "魔力上限的 80% 转化为双倍的护甲",
     "en": "80% of Maximum Mana is Converted to twice that much Armour"
   },
   {
@@ -61361,7 +61516,7 @@
   },
   {
     "id": "keystone_soul_tether start_at_zero_energy_shield",
-    "zh": "能量护盾开始为零\n能量护盾不能充能回复\n能量护盾每秒失去 5% \n未保留的生命全满时不会移除生命偷取效果\n生命偷取在满血时改为回复能量护盾",
+    "zh": "能量护盾开始为零\n能量护盾不能充能或再生\n能量护盾每秒失去 5% \n未保留的生命全满时不会移除生命偷取效果\n满血时生命偷取改为回复能量护盾",
     "en": "Energy Shield starts at zero\nCannot Recharge or Regenerate Energy Shield\nLose 5% of Energy Shield per second\nLife Leech effects are not removed when Unreserved Life is Filled\nLife Leech effects Recover Energy Shield instead while on Full Life"
   },
   {
@@ -61386,7 +61541,7 @@
   },
   {
     "id": "keystone_tempered_by_war",
-    "zh": "受到的冰霜和闪电伤害有 50% 视为火焰伤害\n冰霜抗性总降 50%\n闪电抗性总降 50%",
+    "zh": "受到冰霜和闪电伤害的 50% 视作火焰伤害\n冰霜抗性总降 50%\n闪电抗性总降 50%",
     "en": "50% of Cold and Lightning Damage taken as Fire Damage\n50% less Cold Resistance\n50% less Lightning Resistance"
   },
   {
@@ -61661,12 +61816,12 @@
   },
   {
     "id": "mana_regeneration_rate_+%_if_enemy_shocked_with_tinctured_weapon_recently",
-    "zh": "若近期使用近战武器令敌人感电，魔力回复速度提高 {0}%",
+    "zh": "近期使用近战武器感电敌人使魔力再生速度提高 {0}%",
     "en": "{0}% increased Mana Regeneration Rate if you have Shocked an Enemy with a Melee Weapon Recently"
   },
   {
     "id": "mana_regeneration_rate_+%_if_enemy_shocked_with_tinctured_weapon_recently",
-    "zh": "若近期使用近战武器令敌人感电，魔力回复速度降低 {0}%",
+    "zh": "近期使用近战武器感电敌人使魔力再生速度降低 {0}%",
     "en": "{0}% reduced Mana Regeneration Rate if you have Shocked an Enemy with a Melee Weapon Recently"
   },
   {
