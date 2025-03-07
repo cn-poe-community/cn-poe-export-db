@@ -160,7 +160,7 @@ tables = {
     "indexableskillgems.dat64": "IndexableSkillGems",
     "baseitemtypes.dat64": "BaseItemTypes",
     "gemeffects.dat64": "GemEffects",
-    "activeskills.dat6": "ActiveSkills"
+    "activeskills.dat64": "ActiveSkills"
 }
 
 
