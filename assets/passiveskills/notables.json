@@ -465,6 +465,11 @@
         "zh": "灵魂之令"
     },
     {
+        "id": "55381",
+        "en": "Arcane Retaliation",
+        "zh": "秘术反击"
+    },
+    {
         "id": "61308",
         "en": "Amplify",
         "zh": "增幅"
@@ -675,14 +680,14 @@
         "zh": "激变坚钢"
     },
     {
-        "id": "19897",
-        "en": "Death Attunement",
-        "zh": "亡灵谐曲"
-    },
-    {
         "id": "4854",
         "en": "Asylum",
         "zh": "逃难所"
+    },
+    {
+        "id": "19897",
+        "en": "Death Attunement",
+        "zh": "亡灵谐曲"
     },
     {
         "id": "60031",
@@ -723,6 +728,11 @@
         "id": "65107",
         "en": "Bastion Breaker",
         "zh": "破壁者"
+    },
+    {
+        "id": "52742",
+        "en": "Hasty Demise",
+        "zh": "迅疾陨灭"
     },
     {
         "id": "29861",
@@ -1405,6 +1415,11 @@
         "zh": "真实之击"
     },
     {
+        "id": "27623",
+        "en": "Harsh Lessons",
+        "zh": "严厉教训"
+    },
+    {
         "id": "62577",
         "en": "Essence Surge",
         "zh": "精纯之潮"
@@ -1415,14 +1430,14 @@
         "zh": "坚毅斗士"
     },
     {
-        "id": "25409",
-        "en": "Indomitable Army",
-        "zh": "不败之军"
-    },
-    {
         "id": "29381",
         "en": "Ravenous Horde",
         "zh": "贪婪部落"
+    },
+    {
+        "id": "25409",
+        "en": "Indomitable Army",
+        "zh": "不败之军"
     },
     {
         "id": "9788",

@@ -1,8 +1,8 @@
 [
     {
         "id": "38999",
-        "en": "Flawless Savagery",
-        "zh": "完美的暴行"
+        "en": "Ancestral Fury",
+        "zh": "先祖狂怒"
     },
     {
         "id": "24528",
@@ -16,8 +16,8 @@
     },
     {
         "id": "29630",
-        "en": "Blitz",
-        "zh": "疾电"
+        "en": "Gore Dancer",
+        "zh": "伤痕舞者"
     },
     {
         "id": "32251",
@@ -451,8 +451,8 @@
     },
     {
         "id": "258",
-        "en": "Elemancer",
-        "zh": "魔像使"
+        "en": "Bringer of Ruin",
+        "zh": "湮灭使者"
     },
     {
         "id": "53123",
@@ -506,8 +506,8 @@
     },
     {
         "id": "35750",
-        "en": "Conqueror",
-        "zh": "征服者"
+        "en": "Worthy Causes",
+        "zh": "可敬的大业"
     },
     {
         "id": "48719",
@@ -710,6 +710,11 @@
         "zh": "炸弹专家"
     },
     {
+        "id": "57175",
+        "en": "Shrapnel Specialist",
+        "zh": "破片专家"
+    },
+    {
         "id": "16940",
         "en": "Pyromaniac",
         "zh": "焚烧"
@@ -721,8 +726,8 @@
     },
     {
         "id": "14103",
-        "en": "Explosives Expert",
-        "zh": "爆破专家"
+        "en": "Calculated Risk",
+        "zh": "精算风险"
     },
     {
         "id": "51462",
