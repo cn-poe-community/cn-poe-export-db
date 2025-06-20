@@ -2165,6 +2165,10 @@
     "zh": "疾步"
   },
   {
+    "en": "Focused Channelling Support",
+    "zh": "专注吟唱（辅）"
+  },
+  {
     "en": "Ice Nova of Frostbolts",
     "zh": "寒冰弹之冰霜新星"
   },
@@ -2301,6 +2305,10 @@
     "zh": "法师之召唤魔侍"
   },
   {
+    "en": "Heavy Strike of Trarthus",
+    "zh": "特拉特斯之重击"
+  },
+  {
     "en": "Dominating Blow of Inspiring",
     "zh": "奋发之霸气之击"
   },
@@ -2409,8 +2417,16 @@
     "zh": "碎裂之灵盾投掷"
   },
   {
+    "en": "Spectral Shield Throw of Trarthus",
+    "zh": "特拉特斯之灵盾投掷"
+  },
+  {
     "en": "Spectral Throw of Materialising",
     "zh": "具化之灵体投掷"
+  },
+  {
+    "en": "Spectral Throw of Trarthus",
+    "zh": "特拉特斯之灵体投掷"
   },
   {
     "en": "Animate Weapon of Self Reflection",
@@ -2419,6 +2435,10 @@
   {
     "en": "Animate Weapon of Ranged Arms",
     "zh": "远程之幻化武器"
+  },
+  {
+    "en": "Storm Call of Trarthus",
+    "zh": "特拉特斯之风暴呼唤"
   },
   {
     "en": "Flameblast of Celerity",
@@ -2541,6 +2561,10 @@
     "zh": "空洞之冰冻陷阱"
   },
   {
+    "en": "Blast Rain of Trarthus",
+    "zh": "特拉特斯之爆裂箭雨"
+  },
+  {
     "en": "Galvanic Arrow of Energy",
     "zh": "聚能之电光箭"
   },
@@ -2557,6 +2581,10 @@
     "zh": "穿刺之虚空刀雨"
   },
   {
+    "en": "Bladefall of Trarthus",
+    "zh": "特拉特斯之虚空刀雨"
+  },
+  {
     "en": "Blade Vortex of the Scythe",
     "zh": "巨镰之飞刃风暴"
   },
@@ -2571,6 +2599,10 @@
   {
     "en": "Siege Ballista of Splintering",
     "zh": "分叉之攻城炮台"
+  },
+  {
+    "en": "Siege Ballista of Trarthus",
+    "zh": "特拉特斯之攻城炮台"
   },
   {
     "en": "Summon Stone Golem of Hordes",
@@ -2613,8 +2645,16 @@
     "zh": "裂地之大地震击"
   },
   {
+    "en": "Sunder of Trarthus",
+    "zh": "特拉特斯之震击"
+  },
+  {
     "en": "Vortex of Projection",
     "zh": "投射之漩涡"
+  },
+  {
+    "en": "Dark Pact of Trarthus",
+    "zh": "特拉特斯之暗夜血契"
   },
   {
     "en": "Scorching Ray of Immolation",
@@ -2717,6 +2757,10 @@
     "zh": "罪罚之混沌之毒"
   },
   {
+    "en": "Wave of Conviction of Trarthus",
+    "zh": "特拉特斯之定罪波"
+  },
+  {
     "en": "Divine Ire of Holy Lightning",
     "zh": "神雷之圣怨"
   },
@@ -2735,6 +2779,10 @@
   {
     "en": "Perforate of Bloodshed",
     "zh": "喋血之凿击"
+  },
+  {
+    "en": "Chain Hook of Trarthus",
+    "zh": "特拉特斯之钩链攻击"
   },
   {
     "en": "Frostblink of Wintry Blast",
@@ -2823,6 +2871,10 @@
   {
     "en": "Rage Vortex of Berserking",
     "zh": "狂暴之怒火漩涡"
+  },
+  {
+    "en": "Spectral Helix of Trarthus",
+    "zh": "特拉特斯之灵幻旋斩"
   },
   {
     "en": "Absolution of Inspiring",
