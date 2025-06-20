@@ -29,7 +29,8 @@ func (t *Text) fillFixedParamToTemplate() string {
 				p.Props["milliseconds_to_seconds_0dp"] ||
 				p.Props["milliseconds_to_seconds_2dp_if_required"] {
 				val /= 1000
-			} else if p.Props["per_minute_to_per_second"] {
+			} else if p.Props["per_minute_to_per_second"] ||
+				p.Props["per_minute_to_per_second_2dp_if_required"] {
 				val /= 60
 			} else if p.Props["locations_to_metres"] {
 				val /= 10
