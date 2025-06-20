@@ -14,6 +14,10 @@
             {
                 "zh": "深渊之唤【仿品】",
                 "en": "Replica Abyssus"
+            },
+            {
+                "zh": "惊啸裂痕",
+                "en": "Howlcrack"
             }
         ]
     },
@@ -974,7 +978,13 @@
     },
     {
         "zh": "巫妖之冠",
-        "en": "Lich's Circlet"
+        "en": "Lich's Circlet",
+        "uniques": [
+            {
+                "zh": "黑暗君主",
+                "en": "The Dark Monarch"
+            }
+        ]
     },
     {
         "zh": "威武皮盔",

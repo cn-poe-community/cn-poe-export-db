@@ -647,7 +647,13 @@
     },
     {
         "zh": "缎布便鞋",
-        "en": "Satin Slippers"
+        "en": "Satin Slippers",
+        "uniques": [
+            {
+                "zh": "蔑视之流",
+                "en": "Scornflux"
+            }
+        ]
     },
     {
         "zh": "绣布便鞋",
@@ -762,11 +768,11 @@
     {
         "zh": "冈姆胫甲",
         "en": "Kaom's Greaves",
-		"legacy": true
+        "legacy": true
     },
     {
         "zh": "飞羽便鞋",
         "en": "Avian Slippers",
-		"legacy": true
+        "legacy": true
     }
 ]

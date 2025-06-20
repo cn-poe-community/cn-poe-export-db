@@ -474,11 +474,23 @@
     },
     {
         "zh": "海晶护符",
-        "en": "Seaglass Amulet"
+        "en": "Seaglass Amulet",
+        "uniques": [
+            {
+                "zh": "无尽呢喃",
+                "en": "Whispers of Infinity"
+            }
+        ]
     },
     {
         "zh": "星盘项链",
-        "en": "Astrolabe Amulet"
+        "en": "Astrolabe Amulet",
+        "uniques": [
+            {
+                "zh": "维纳留斯的星盘",
+                "en": "Venarius' Astrolabe"
+            }
+        ]
     },
     {
         "zh": "朴实项链",

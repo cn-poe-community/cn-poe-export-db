@@ -363,7 +363,13 @@
     },
     {
         "zh": "黄金药剂",
-        "en": "Gold Flask"
+        "en": "Gold Flask",
+        "uniques": [
+            {
+                "zh": "先知之茗",
+                "en": "Wine of the Prophet"
+            }
+        ]
     },
     {
         "zh": "刚玉药剂",

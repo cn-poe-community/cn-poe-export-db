@@ -138,6 +138,10 @@
             {
                 "zh": "虚空慧眼",
                 "en": "Voideye"
+            },
+            {
+                "zh": "蠕动恐惧",
+                "en": "Squirming Terror"
             }
         ]
     },
@@ -240,6 +244,10 @@
             {
                 "zh": "原初之罪",
                 "en": "Original Sin"
+            },
+            {
+                "zh": "盘绕低语",
+                "en": "Coiling Whisper"
             }
         ]
     },
@@ -275,6 +283,10 @@
                 "zh": "虚空心灵",
                 "en": "Voidheart",
                 "legacy": true
+            },
+            {
+                "zh": "普洛斯彼罗的守护",
+                "en": "Prospero's Protection"
             }
         ]
     },
@@ -485,6 +497,10 @@
             {
                 "zh": "裂界之印",
                 "en": "Mark of the Elder"
+            },
+            {
+                "zh": "背叛邪刺",
+                "en": "Betrayal's Sting"
             }
         ]
     },
@@ -512,7 +528,13 @@
     },
     {
         "zh": "朱砂之戒",
-        "en": "Vermillion Ring"
+        "en": "Vermillion Ring",
+        "uniques": [
+            {
+                "zh": "敌意的怀抱",
+                "en": "Enmity's Embrace"
+            }
+        ]
     },
     {
         "zh": "天蓝之戒",

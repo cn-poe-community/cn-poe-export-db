@@ -758,7 +758,13 @@
     },
     {
         "zh": "先烈手套",
-        "en": "Martyr Gloves"
+        "en": "Martyr Gloves",
+        "uniques": [
+            {
+                "zh": "异端之手",
+                "en": "Hand of Heresy"
+            }
+        ]
     },
     {
         "zh": "圣骑士手套",

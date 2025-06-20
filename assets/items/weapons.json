@@ -258,6 +258,10 @@
             {
                 "zh": "灰色尖椎",
                 "en": "The Grey Spire"
+            },
+            {
+                "zh": "玫瑰遗产",
+                "en": "Legacy of the Rose"
             }
         ]
     },
@@ -1485,6 +1489,10 @@
             {
                 "zh": "努葛玛呼之耀",
                 "en": "Ngamahu's Flame"
+            },
+            {
+                "zh": "唤星",
+                "en": "Starcaller"
             }
         ]
     },
@@ -2768,7 +2776,13 @@
     },
     {
         "zh": "异教法杖",
-        "en": "Pagan Wand"
+        "en": "Pagan Wand",
+        "uniques": [
+            {
+                "zh": "神秘折射镜",
+                "en": "Mystic Refractor"
+            }
+        ]
     },
     {
         "zh": "异徒法杖",

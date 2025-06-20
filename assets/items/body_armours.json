@@ -791,7 +791,13 @@
     },
     {
         "zh": "蜡封束衣",
-        "en": "Waxed Garb"
+        "en": "Waxed Garb",
+        "uniques": [
+            {
+                "zh": "七大教义",
+                "en": "Seven Teachings"
+            }
+        ]
     },
     {
         "zh": "菱纹外衣",
@@ -1041,7 +1047,13 @@
     },
     {
         "zh": "刑罚者束衣",
-        "en": "Torturer Garb"
+        "en": "Torturer Garb",
+        "uniques": [
+            {
+                "zh": "腐朽仆从",
+                "en": "Servant of Decay"
+            }
+        ]
     },
     {
         "zh": "暮光法衣",
@@ -1050,6 +1062,6 @@
     {
         "zh": "冈姆的重铠",
         "en": "Kaom's Plate",
-		"legacy": true
+        "legacy": true
     }
 ]
