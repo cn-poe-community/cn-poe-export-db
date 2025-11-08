@@ -6,6 +6,7 @@ import subprocess
 import sys
 
 import duckdb
+import ndjson
 # =============================================== 全局配置
 
 POB2_PATH = "D:/AppsInDisk/PoeCharm2-20250918_2/PathOfBuildingCommunity-PoE2"
@@ -32,9 +33,7 @@ def must_parent(path: str) -> None:
 def read_json(file: str):
     '''读取json文件'''
     with open(file, 'rt', encoding='utf-8') as f:
-        content = f.read()
-        data = json.loads(content)
-    return data
+        return json.load(f)
 
 
 def save_json(file: str, data) -> None:
@@ -42,6 +41,17 @@ def save_json(file: str, data) -> None:
     must_parent(file)
     with open(file, 'wt', encoding='utf-8') as f:
         json.dump(data, f, ensure_ascii=False, indent=2)
+
+def read_ndjson(file: str):
+    '''读取ndjson文件'''
+    with open(file, 'rt', encoding='utf-8') as f:
+        return ndjson.load(f)
+
+def save_ndjson(file: str, data: list) -> None:
+    '''保存ndjson文件'''
+    must_parent(file)
+    with open(file, 'wt', encoding='utf-8') as f:
+        ndjson.dump(data, f, ensure_ascii=False)
 
 
 def at(*paths: str) -> str:
@@ -97,8 +107,7 @@ def trade_file_path(client: str, name: str) -> str:
     return at("export/trade", client, f"{name}.json")
 
 
-ITEMS_EQUIPEMNT_IDS = ["accessory", "armour", "flask", "jewel", "weapon"]
-
+ITEMS_EQUIPEMNT_IDS = ["accessory", "armour", "flask", "jewel", "weapon", "tincture"]
 
 def export_trade_uniques(client):
     """从交易网站数据导出传奇，参数client指定客户端"""
@@ -111,8 +120,6 @@ def export_trade_uniques(client):
         entries = category["entries"]
         for entry in entries:
             if "flags" not in entry or "unique" not in entry["flags"] or not entry["flags"]["unique"]:
-                continue
-            if entry["name"] in LEGACY_UNIQUE_BEFORE_0_3:
                 continue
             u = {"name": entry["name"], "type": entry["type"]}
             array.append(u)
@@ -283,14 +290,14 @@ def update_required(array: list[dict], table_info: str, logger: str, field_info=
         if en_field in entry and entry[en_field] and zh_field in entry and entry[zh_field]:
             rows = duckdb.sql(f"""SELECT {duck_name1}.{pkey_name} FROM {duck_name1}
             LEFT JOIN {duck_name2} ON {duck_name1}.{pkey_name} = {duck_name2}.{pkey_name}
-            WHERE {duck_name1}.{field_name} == '{entry[zh_field]}' and {duck_name2}.{field_name} == '{entry[en_field]}'""").fetchall()
+            WHERE {duck_name1}.{field_name} == '{sql_escape(entry[zh_field])}' and {duck_name2}.{field_name} == '{sql_escape(entry[en_field])}'""").fetchall()
         elif zh_field in entry and entry[zh_field]:  # 只匹配中文
             rows = duckdb.sql(f"""SELECT {duck_name1}.{pkey_name} FROM {duck_name1}
-            WHERE {duck_name1}.{field_name} == '{entry[zh_field]}'""").fetchall()
+            WHERE {duck_name1}.{field_name} == '{sql_escape(entry[zh_field])}'""").fetchall()
         elif en_field in entry and entry[en_field]:  # 只匹配英文
             rows = duckdb.sql(f"""SELECT {duck_name1}.{pkey_name} FROM {duck_name1}
             LEFT JOIN {duck_name2} ON {duck_name1}.{pkey_name} = {duck_name2}.{pkey_name}
-            WHERE {duck_name2}.{field_name} == '{entry[en_field]}'""").fetchall()
+            WHERE {duck_name2}.{field_name} == '{sql_escape(entry[en_field])}'""").fetchall()
 
         if len(rows) > 1:
             print(
@@ -302,12 +309,17 @@ def update_required(array: list[dict], table_info: str, logger: str, field_info=
         if id_field not in entry or not entry[id_field]:
             return
         id = entry[id_field]
-        row = duckdb.sql(f"""SELECT {duck_name1}.{field_name},{duck_name2}.{field_name} FROM {duck_name1}
+        rows = duckdb.sql(f"""SELECT {duck_name1}.{field_name},{duck_name2}.{field_name} FROM {duck_name1}
         LEFT JOIN {duck_name2} ON {duck_name1}.{pkey_name} = {duck_name2}.{pkey_name}
-        WHERE {duck_name1}.{pkey_name} == '{sql_escape(id)}'""").fetchone()
+        WHERE {duck_name1}.{pkey_name} == '{sql_escape(id)}'""")
 
-        if row == None:
+        if len(rows)>1:
+            print(f"warning: [{logger}] {entry[zh_field]},{entry[en_field]}在 {table_name} 表中匹配 {len(rows)} 个记录，检查更新失败")
             return
+        
+        if len(rows) == 0:
+            return
+        row = rows.fetchone()
         if zh_field not in entry:
             entry[zh_field] = ""
         if en_field not in entry:
@@ -343,7 +355,7 @@ def check_duplicate_zhs(array: list[dict], logger: str):
         zh = item["zh"]
         en = item["en"]
         if zh in zhs and zhs[zh] != en:
-            print(f"warning: [{logger}] 发现重复的中文，对应不同的英文", item['zh'])
+            print(f"warning: [{logger}] 发现重复的中文，但英文不同", item['zh'])
         else:
             zhs[zh] = en
 
@@ -509,125 +521,53 @@ def create_asset_base_types():
     check_duplicate_zhs(equipment_base_types, "basetypes/equipments")
 
 
-# ======== Task: 创建assets/passive_skills/* ===========
-
-
-def create_asset_passive_skills():
-    table1 = (TX, CHS, "PassiveSkills")
-    table2 = (GGG, EN, "PassiveSkills")
-    load_table(*table1)
-    load_table(*table2)
-    duck_name1 = duck_table_name(*table1)
-    duck_name2 = duck_table_name(*table2)
-
-    rows = duckdb.sql(f"""SELECT {duck_name1}.Id, {duck_name1}.Name, {duck_name2}.Name
-        FROM {duck_name1}
-        LEFT JOIN {duck_name2} on {duck_name1}.Id = {duck_name2}.Id
-        WHERE {duck_name1}.IsKeystone == 1
-    """).fetchall()
-
-    array = [{"id": r[0], "zh": r[1], "en": r[2]} for r in rows]
-    print(f"info: 创建 assets/poe2/passive_skills/keystones.json")
-    save_json(at(f"assets/poe2/passive_skills/keystones.json"), array)
-    check_duplicate_zhs(array, "passive_skills/keystones")
-
-    rows = duckdb.sql(f"""SELECT {duck_name1}.Id, {duck_name1}.Name, {duck_name2}.Name
-        FROM {duck_name1}
-        LEFT JOIN {duck_name2} on {duck_name1}.Id = {duck_name2}.Id
-        WHERE {duck_name1}.IsNotable == 1
-    """).fetchall()
-
-    array = [{"id": r[0], "zh": r[1], "en": r[2]} for r in rows]
-    print(f"info: 创建 assets/poe2/passive_skills/notables.json")
-    save_json(at(f"assets/poe2/passive_skills/notables.json"), array)
-    check_duplicate_zhs(array, "passive_skills/notables")
-
 # ======== Task: 更新assets/uniques.json ===================
 
-
-# POE2 0.1,0.2中遗产的基底类型
-LEGACY_UNIQUE_BEFORE_0_3 = [
-    "Demigod's Virtue",
-    "Bluetongue",
-    "INCOMPLETE",
-    "Redbeak",
-    "The Dancing Dervish",
-    "Winter's Bite"
+# 遗产的传奇
+LEGACY_UNIQUES_BEFORE_TENCENT = [
+    "Deshret's Vise Steel Gauntlets",# 改名物品，旧的在腾讯服之前遗产
+    "Dusktoe Leatherscale Boots",# 改名再改基底，这是最旧的版本，在腾讯服之前遗产
+    "Hellbringer Conjurer Gloves",# 改名再改基底，这是最旧的版本，在腾讯服之前遗产
+    "Agnerod Imperial Staff",# 交易网站上帝国长杖的索引名，实际是4个独立的暗金
 ]
-
 
 def export_unique_names():
     """根据UniqueStashLayout表，从Words表中导出传奇名称"""
-    table1 = (GGG, EN, "UniqueStashLayout")
+    table1 = (TX, CHS, "UniqueStashLayout")
     table2 = (TX, CHS, "Words")
     table3 = (GGG, EN, "Words")
+    table4 = (TX, CHS, "UniqueStashTypes")
 
     load_table(*table1)
     load_table(*table2)
     load_table(*table3)
+    load_table(*table4)
 
     duck_name1 = duck_table_name(*table1)
     duck_name2 = duck_table_name(*table2)
     duck_name3 = duck_table_name(*table3)
+    duck_name4 = duck_table_name(*table4)
     rows = duckdb.sql(f"""SELECT {duck_name2}.Text, {duck_name2}.Text2, {duck_name3}.Text2 FROM {duck_name2},{duck_name3}
             WHERE {duck_name2}._index in (
-                SELECT WordsKey FROM {duck_name1}
-            ) AND {duck_name2}.Text = {duck_name3}.Text
+                SELECT WordsKey FROM {duck_name1} LEFT JOIN {duck_name4} on {duck_name1}.UniqueStashTypesKey = {duck_name4}._index
+                WHERE {duck_name4}.Id not in {"Watchstone", "Map", "HeistContract"}
+            )
+            AND {duck_name2}.Text = {duck_name3}.Text
         """).fetchall()
-    return [{"id": r[0], "zh": r[1], "en": r[2]} for r in rows]
-
-
-def init_uniques_by_trade_site():
-    unique_names = export_unique_names()
-    check_duplicate_ens(unique_names, "unique names")
-    unique_names_en_idx = {u["en"]: u for u in unique_names}
-
-    types = export_all("BaseItemTypes,Id,Name")
-    check_duplicate_ens(types, "base types")
-    types_en_idx = {t["en"]: t for t in types}
-
-    trade_items = read_json(at("export/trade/global/items.json"))
-    array = []
-    for category in trade_items["result"]:
-        if "id" not in category or category["id"] not in ITEMS_EQUIPEMNT_IDS:
-            continue
-        entries = category["entries"]
-        for entry in entries:
-            if "flags" not in entry or "unique" not in entry["flags"] or not entry["flags"]["unique"]:
-                continue
-            if entry["name"] in LEGACY_UNIQUE_BEFORE_0_3:
-                continue
-            item = {"id": 0, "zh": "", "en": entry["name"],
-                    "typeId": 0, "zhType": "", "enType": entry["type"]}
-            if entry["name"] in unique_names_en_idx:
-                u = unique_names_en_idx[entry["name"]]
-                item["zh"] = u["zh"]
-                item["id"] = u["id"]
-            else:
-                print("warning: [uniques] 未找到传奇物品的中文名", entry["name"])
-            if entry["type"] in types_en_idx:
-                t = types_en_idx[entry["type"]]
-                item["zhType"] = t["zh"]
-                item["typeId"] = t["id"]
-            else:
-                print("warning: [uniques] 警告，未找到传奇物品的中文类型名", entry["type"])
-            array.append(item)
-
-    save_json(at("assets/poe2/uniques.json"), array)
+    return [{"wordsText": r[0], "zh": r[1], "en": r[2]} for r in rows]
 
 
 def update_uniques_inner(array: list):
     dat_unique_names = export_unique_names()
-    data_unique_names_zh_idx = {u["zh"]: u for u in dat_unique_names}
+    dat_unique_names_zh_idx = {u["zh"]: u for u in dat_unique_names}
     new_uniques_names = {item["zh"]
                          for item in dat_unique_names}-{item["zh"] for item in array}
     for name in new_uniques_names:
         print("info: [uniques] 发现新的暗金：", name)
-        u = data_unique_names_zh_idx[name]
-        array.append({"id": u["id"], "zh": name, "en": u["en"],
-                     "typeId": "", "zhType": "", "enType": ""})
+        u = dat_unique_names_zh_idx[name]
+        array.append({"wordsText": u["wordsText"], "zh": name, "en": u["en"], "baseType": ""})
 
-    update_required(array, "Words,Text,Text2", "uniques name")
+    update_required(array, "Words,Text,Text2", "uniques name", field_info="wordsText,zh,en")
 
     ggg_trade_uniques = export_trade_uniques(GGG)
     ggg_trade_uniques_name_idx = {}
@@ -637,18 +577,29 @@ def update_uniques_inner(array: list):
             ggg_trade_uniques_name_idx[name] = []
         ggg_trade_uniques_name_idx[name].append(u)
     for u in array:
-        if not u["enType"]:
+        if not u["baseType"]:
             if u["en"] in ggg_trade_uniques_name_idx:
                 matches = ggg_trade_uniques_name_idx[u["en"]]
                 if len(matches) > 1:
-                    print("warning: [uniques] 在交易数据发现重复的英文传奇名称，对应不同的基底类型",
-                          u["en"], matches[0]["type"], matches[1]["type"], "...")
+                    print("warning: [uniques] 无法更新暗金的基底类型，因为在交易数据中匹配到多个：",
+                          u["zh"], u["en"], matches[0]["type"], matches[1]["type"], "...")
                 else:
-                    u["enType"] = matches[0]["type"]
-
-    update_required(array, "BaseItemTypes,Id,Name",
-                    "uniques type", "typeId,zhType,enType")
-
+                    u["baseType"] = matches[0]["type"]
+    
+    trade_uniques_fullnames = [f"{u['name']} {u['type']}" for u in ggg_trade_uniques]
+    exist_uniques_fullnames = [f"{u['en']} {u['baseType']}" for u in array if u['baseType']]
+    for u in array:
+        if not u["baseType"]:
+            continue
+        full_name = f"{u['en']} {u['baseType']}"
+        if full_name not in trade_uniques_fullnames:
+            print("warning: [uniques] 暗金在交易数据中不存在：", u['zh'], u['en'], u['baseType']) 
+    for u in ggg_trade_uniques:
+        full_name = f"{u['name']} {u['type']}"
+        if full_name in LEGACY_UNIQUES_BEFORE_TENCENT:
+            continue
+        if full_name not in exist_uniques_fullnames:
+            print("warning: [uniques] 暗金在本地数据中不存在：", u['name'], u['type'])
 
 def update_uniques():
     """
@@ -656,46 +607,14 @@ def update_uniques():
     1. 根据dat数据，自动添加新的暗金(id,zh,en)，有时也可能是手动添加(只添加zh)
     2. 如果是手动添加，关联Words表（更新id），并更新en
     3. 根据trade数据，添加zhType
-    4. 根据zhType，关联BaseItemType表
-    5. 更新enType
-    6. 根据id,typeId，更新所有数据
+    4. 根据zhType，更新enType
+    5. 根据trade数据，检查所有数据
 
     """
-    uniques = read_json(at("assets/poe2/uniques.json"))
+    uniques = read_ndjson(at("assets/uniques.ndjson"))
     update_uniques_inner(uniques)
-    save_json(at("assets/poe2/uniques.json"), uniques)
+    save_ndjson(at("assets/uniques.ndjson"), uniques)
 
-# ======== Task: 创建assets/tables/words,mods =========
-
-
-def create_asset_words():
-    table1 = (TX, CHS, "Words")
-    table2 = (GGG, EN, "Words")
-    pkey_name = "Text"
-    field_name = "Text2"
-
-    load_table(*table1)
-    load_table(*table2)
-
-    duck_name1 = duck_table_name(*table1)
-    duck_name2 = duck_table_name(*table2)
-
-    rows = duckdb.sql(f"""SELECT {duck_name1}.{pkey_name},{duck_name1}.{field_name},{duck_name2}.{field_name},{duck_name1}.Wordlist
-        FROM {duck_name1}
-        LEFT JOIN {duck_name2} ON {duck_name1}.{pkey_name} = {duck_name2}.{pkey_name}""").fetchall()
-
-    array = [{"id": row[0], "zh": row[1], "en": row[2]}
-             for row in rows if row[3] in [2, 3]]
-    print("info: 创建 assets/poe2/tables/Words.json ...")
-    save_json(at("assets/poe2/tables/Words.json"), array)
-
-
-def create_asset_mods():
-    array = export_all("Mods,Id,Name")
-    check_duplicate_zhs(array, "mods")
-
-    print("创建 assets/poe2/tables/Mods.json ...")
-    save_json(at("assets/poe2/tables/Mods.json"), array)
 
 # ======== Task: 更新assets/stat_descs/stats.json ========
 
@@ -955,15 +874,15 @@ def create_asset_stat_descs():
 
 
 def run_all_tasks():
-    # update_asset_attributes()
-    # update_asset_properties()
-    # update_asset_requirements()
+    update_asset_attributes()
+    update_asset_properties()
+    update_asset_requirements()
     create_asset_base_types()
     # create_asset_passive_skills()
-    # update_uniques()
-    # create_asset_words()
-    # create_asset_mods()
+    update_uniques()
     # create_asset_stat_descs()
+
+    clean_duckdb_files()
 
 
 if __name__ == "__main__":

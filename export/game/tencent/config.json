@@ -27,6 +27,15 @@
     },
     {
       "name": "WeaponTypes"
+    },
+    {
+      "name": "UniqueStashLayout"
+    },
+    {
+      "name": "UniqueStashTypes"
+    },
+    {
+      "name": "Words"
     }
   ]
 }

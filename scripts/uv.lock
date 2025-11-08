@@ -29,12 +29,25 @@ wheels = [
 ]
 
 [[package]]
+name = "ndjson"
+version = "0.3.1"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/b4/d5/209b6ca94566f9c94c0ec41cee1681c0a3b92a306a84a9b0fcd662088dc3/ndjson-0.3.1.tar.gz", hash = "sha256:bf9746cb6bb1cb53d172cda7f154c07c786d665ff28341e4e689b796b229e5d6", size = 6448, upload-time = "2020-02-25T05:01:07.873Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/70/c9/04ba0056011ba96a58163ebfd666d8385300bd12da1afe661a5a147758d7/ndjson-0.3.1-py2.py3-none-any.whl", hash = "sha256:839c22275e6baa3040077b83c005ac24199b94973309a8a1809be962c753a410", size = 5305, upload-time = "2020-02-25T05:01:06.39Z" },
+]
+
+[[package]]
 name = "scripts"
 version = "0.1.0"
 source = { virtual = "." }
 dependencies = [
     { name = "duckdb" },
+    { name = "ndjson" },
 ]
 
 [package.metadata]
-requires-dist = [{ name = "duckdb", specifier = ">=1.4.1" }]
+requires-dist = [
+    { name = "duckdb", specifier = ">=1.4.1" },
+    { name = "ndjson", specifier = ">=0.3.1" },
+]
