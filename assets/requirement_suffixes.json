@@ -1,10 +1,12 @@
 [
-    {
-        "en": "(gem)",
-        "zh": "(宝石)"
-    },
-    {
-        "en": "(jewel)",
-        "zh": "(珠宝)"
-    }
+  {
+    "en": "(gem)",
+    "zh": "(宝石)",
+    "id": "ItemDisplayRequirementFromGem"
+  },
+  {
+    "en": "(jewel)",
+    "zh": "(珠宝)",
+    "id": "ItemDisplayRequirementFromJewel"
+  }
 ]

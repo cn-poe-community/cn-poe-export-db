@@ -388,17 +388,17 @@ def update_asset_properties():
 
 
 def update_asset_requirements():
-    print("info: 更新 assets/poe2/requirements.json ...")
-    reqs = read_json(at("assets/poe2/requirements.json"))
+    print("info: 更新 assets/requirements.json ...")
+    reqs = read_json(at("assets/requirements.json"))
     update_required(reqs, "ClientStrings,Id,Text",  # type: ignore
                     "requirements")
-    with open(at("assets/poe2/requirements.json"), "w", encoding="utf-8") as f:
+    with open(at("assets/requirements.json"), "w", encoding="utf-8") as f:
         json.dump(reqs, f, ensure_ascii=False, indent=2)
-    print("info: 更新 assets/poe2/requirement_suffixes.json ...")
-    reqs = read_json(at("assets/poe2/requirement_suffixes.json"))
+    print("info: 更新 assets/requirement_suffixes.json ...")
+    reqs = read_json(at("assets/requirement_suffixes.json"))
     update_required(reqs, "ClientStrings,Id,Text",  # type: ignore
                     "requirements")
-    with open(at("assets/poe2/requirement_suffixes.json"), "w", encoding="utf-8") as f:
+    with open(at("assets/requirement_suffixes.json"), "w", encoding="utf-8") as f:
         json.dump(reqs, f, ensure_ascii=False, indent=2)
 
 # ======== Task: 更新assets/base_types/* =========
@@ -959,8 +959,8 @@ def create_asset_stat_descs():
 
 def run_all_tasks():
     # update_asset_attributes()
-    update_asset_properties()
-    # update_asset_requirements()
+    # update_asset_properties()
+    update_asset_requirements()
     # create_asset_base_types()
     # create_asset_passive_skills()
     # update_uniques()
