@@ -1,6 +1,7 @@
 import json
 import os
 from pathlib import Path
+import re
 import urllib.request
 
 USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36"
@@ -63,5 +64,32 @@ def download_trade_files():
         download_trade_file(url, saved_path)
 
 
+global_tree_url = "https://www.pathofexile.com/passive-skill-tree"
+tencent_tree_url = "https://poe.game.qq.com/passive-skill-tree"
+
+def get_tree_from_html(html: str) -> str:
+    html = html.replace("\n", "")
+    pattern = re.compile(
+        r"var passiveSkillTreeData = (\{.+?\});")
+    m = pattern.search(html)
+    return m.group(1)
+
+
+def download_tree(url: str, save_path: str):
+    must_parent(save_path)
+    print(f"downloading {url}")
+    req = urllib.request.Request(url, headers={'User-agent': USER_AGENT})
+    with urllib.request.urlopen(req) as response:
+        html = response.read().decode('utf-8')
+        tree_text = get_tree_from_html(html)
+        with open(f'{save_path}', 'wt', encoding="utf-8") as f:
+            f.write(tree_text)
+        print(f"saved {save_path}")
+
+def download_trees():
+    download_tree(global_tree_url, relative("global/passive_skill_tree.json"))
+    download_tree(tencent_tree_url, relative("tencent/passive_skill_tree.json"))
+
 if __name__ == "__main__":
     download_trade_files()
+    download_trees()
