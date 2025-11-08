@@ -1,0 +1,14 @@
+{
+  "patch": "3.27.0.3",
+  "files": [
+    "Metadata/StatDescriptions/stat_descriptions.txt"
+  ],
+  "translations": [
+    "English"
+  ],
+  "tables": [
+    {
+      "name": "BaseItemTypes"
+    }
+  ]
+}

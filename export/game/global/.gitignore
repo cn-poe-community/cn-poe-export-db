@@ -1,0 +1,4 @@
+.cache/
+files/
+tables/
+schema.min.json
