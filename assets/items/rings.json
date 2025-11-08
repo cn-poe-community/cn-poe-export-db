@@ -501,6 +501,10 @@
             {
                 "zh": "背叛邪刺",
                 "en": "Betrayal's Sting"
+            },
+            {
+                "zh": "灾厄棘刺",
+                "en": "Woespike"
             }
         ]
     },
@@ -519,6 +523,10 @@
             {
                 "zh": "毁灭激波",
                 "en": "Polaric Devastation"
+            },
+            {
+                "zh": "未现之彩",
+                "en": "The Unseen Hue"
             }
         ]
     },
@@ -617,6 +625,88 @@
             {
                 "zh": "利己的牧者",
                 "en": "The Selfish Shepherd"
+            }
+        ]
+    },
+    {
+        "zh": "冰凝戒指",
+        "en": "Cryonic Ring",
+        "uniques": [
+            {
+                "zh": "托沃的意志",
+                "en": "The Will of Tul"
+            }
+        ]
+    },
+    {
+        "zh": "炽能戒指",
+        "en": "Enthalpic Ring",
+        "uniques": [
+            {
+                "zh": "索伏的意志",
+                "en": "The Will of Xoph"
+            }
+        ]
+    },
+    {
+        "zh": "突触戒指",
+        "en": "Synaptic Ring",
+        "uniques": [
+            {
+                "zh": "艾许的意志",
+                "en": "The Will of Esh"
+            }
+        ]
+    },
+    {
+        "zh": "有机戒指",
+        "en": "Organic Ring",
+        "uniques": [
+            {
+                "zh": "乌尔尼多的意志",
+                "en": "The Will of Uul-Netol"
+            }
+        ]
+    },
+    {
+        "zh": "逃亡戒指",
+        "en": "Fugitive Ring",
+        "uniques": [
+            {
+                "zh": "崩解意志",
+                "en": "The Sundered Will"
+            }
+        ]
+    },
+    {
+        "zh": "无形戒指",
+        "en": "Formless Ring",
+        "uniques": [
+            {
+                "zh": "失落归一",
+                "en": "Lost Unity"
+            }
+        ]
+    },
+    {
+        "zh": "杰特戒指",
+        "en": "Jet Ring"
+    },
+    {
+        "zh": "晶钻戒指",
+        "en": "Diamond Ring",
+        "uniques": [
+            {
+                "zh": "神赐",
+                "en": "Gifts from Above"
+            },
+            {
+                "zh": "罗米拉的潜力之环",
+                "en": "Romira's Banquet"
+            },
+            {
+                "zh": "盖拉图斯印戒",
+                "en": "Grattus Signet"
             }
         ]
     }

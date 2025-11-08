@@ -15,10 +15,6 @@ import (
 	"strings"
 )
 
-var statDescriptionsPath = "metadata/statdescriptions/stat_descriptions.txt"
-var passiveSkillStatDescsPath = "metadata/statdescriptions/passive_skill_stat_descriptions.txt"
-var tinctureStatDescsPath = "metadata/statdescriptions/tincture_stat_descriptions.txt"
-
 var statDescriptionsFile string
 var passiveSkillStatDescsFile string
 var tinctureStatDescsFile string
@@ -33,19 +29,35 @@ var txIndexableSkillGemsFile string
 
 var descFile string
 
-func init() {
-	c := config.LoadConfig("../config.json")
-	statDescriptionsFile = filepath.Join(c.ProjectRoot, "docs/ggpk", statDescriptionsPath)
-	passiveSkillStatDescsFile = filepath.Join(c.ProjectRoot, "docs/ggpk", passiveSkillStatDescsPath)
-	tinctureStatDescsFile = filepath.Join(c.ProjectRoot, "docs/ggpk", tinctureStatDescsPath)
-	txStatDescriptionsFile = filepath.Join(c.ProjectRoot, "docs/ggpk/tx", statDescriptionsPath)
-	txPassiveSkillStatDescsFile = filepath.Join(c.ProjectRoot, "docs/ggpk/tx", passiveSkillStatDescsPath)
-	txTinctureStatDescsFile = filepath.Join(c.ProjectRoot, "docs/ggpk/tx", tinctureStatDescsPath)
+var c = config.LoadConfig("../config.json")
 
-	indexableSupportGemsFile = filepath.Join(c.ProjectRoot, "docs/ggpk", "data/indexablesupportgems.dat64.json")
-	indexableSkillGemsFile = filepath.Join(c.ProjectRoot, "docs/ggpk", "data/indexableskillgems.dat64.json")
-	txIndexableSupportGemsFile = filepath.Join(c.ProjectRoot, "docs/ggpk/tx", "data/simplified chinese/indexablesupportgems.dat64.json")
-	txIndexableSkillGemsFile = filepath.Join(c.ProjectRoot, "docs/ggpk/tx", "data/simplified chinese/indexableskillgems.dat64.json")
+const (
+	serverGlobal  = "global"
+	serverTencent = "tencent"
+	langZh        = "Simplified Chinese"
+	langEn        = "English"
+)
+
+func descFilePath(client string, name string) string {
+	return filepath.Join(c.ProjectRoot, "export/game", client, "files", fmt.Sprintf("Metadata@StatDescriptions@%s.txt", name))
+}
+
+func tablePath(client string, lang string, name string) string {
+	return filepath.Join(c.ProjectRoot, "export/game", client, "tables", lang, fmt.Sprintf("%s.json", name))
+}
+
+func init() {
+	statDescriptionsFile = descFilePath(serverGlobal, "stat_descriptions")
+	passiveSkillStatDescsFile = descFilePath(serverGlobal, "passive_skill_stat_descriptions")
+	tinctureStatDescsFile = descFilePath(serverGlobal, "tincture_stat_descriptions")
+	txStatDescriptionsFile = descFilePath(serverTencent, "stat_descriptions")
+	txPassiveSkillStatDescsFile = descFilePath(serverTencent, "passive_skill_stat_descriptions")
+	txTinctureStatDescsFile = descFilePath(serverTencent, "tincture_stat_descriptions")
+
+	indexableSupportGemsFile = tablePath(serverGlobal, langEn, "IndexableSupportGems")
+	indexableSkillGemsFile = tablePath(serverGlobal, langEn, "IndexableSkillGems")
+	txIndexableSupportGemsFile = tablePath(serverTencent, langZh, "IndexableSupportGems")
+	txIndexableSkillGemsFile = tablePath(serverTencent, langZh, "IndexableSkillGems")
 
 	descFile = filepath.Join(c.ProjectRoot, "assets/stats/desc.json")
 }

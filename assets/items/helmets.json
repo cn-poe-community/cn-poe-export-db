@@ -950,7 +950,13 @@
     },
     {
         "zh": "信仰之盔",
-        "en": "Faithful Helmet"
+        "en": "Faithful Helmet",
+        "uniques": [
+            {
+                "zh": "圣洁君临",
+                "en": "The Hallowed Monarch"
+            }
+        ]
     },
     {
         "zh": "将军战盔",
@@ -996,7 +1002,13 @@
     },
     {
         "zh": "圣骑士头冠",
-        "en": "Paladin Crown"
+        "en": "Paladin Crown",
+        "uniques": [
+            {
+                "zh": "孤绝避难所",
+                "en": "Refuge in Isolation"
+            }
+        ]
     },
     {
         "zh": "阳炎之冠",

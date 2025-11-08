@@ -8,6 +8,7 @@ import (
 	"dbutils/pkg/utils/errorutil"
 	"dbutils/pkg/utils/stringutil"
 	"encoding/json"
+	"fmt"
 	"log"
 	"os"
 	"path/filepath"
@@ -66,18 +67,33 @@ var nonGemSkillSet = map[string]bool{}
 var indexableNonGemSkillSet = map[string]bool{}
 var legacySkillSet = map[string]bool{}
 
+var c = config.LoadConfig("../config.json")
+
+const (
+	serverGlobal  = "global"
+	serverTencent = "tencent"
+	langZh        = "Simplified Chinese"
+	langEn        = "English"
+)
+
+func tablePath(client string, lang string, name string) string {
+	return filepath.Join(c.ProjectRoot, "export/game", client, "tables", lang, fmt.Sprintf("%s.json", name))
+}
+
+func tradeFilePath(client string, name string) string {
+	return filepath.Join(c.ProjectRoot, "export/trade", client, fmt.Sprintf("%s.json", name))
+}
+
 func init() {
-	c := config.LoadConfig("../config.json")
+	baseItemTypesFile = tablePath(serverGlobal, langEn, "BaseItemTypes")
+	gemEffectsFile = tablePath(serverGlobal, langEn, "GemEffects")
+	activeSkillsFile = tablePath(serverGlobal, langEn, "ActiveSkills")
+	tradableItemsFile = tradeFilePath(serverGlobal, "items")
 
-	baseItemTypesFile = filepath.Join(c.ProjectRoot, "docs/ggpk", "data/baseitemtypes.dat64.json")
-	gemEffectsFile = filepath.Join(c.ProjectRoot, "docs/ggpk", "data/gemeffects.dat64.json")
-	activeSkillsFile = filepath.Join(c.ProjectRoot, "docs/ggpk", "data/activeskills.dat64.json")
-	tradableItemsFile = filepath.Join(c.ProjectRoot, "docs/trade/items")
-
-	txBaseItemTypesFile = filepath.Join(c.ProjectRoot, "docs/ggpk/tx", "data/simplified chinese/baseitemtypes.dat64.json")
-	txGemEffectsFile = filepath.Join(c.ProjectRoot, "docs/ggpk/tx", "data/simplified chinese/gemeffects.dat64.json")
-	txActiveSkillsFile = filepath.Join(c.ProjectRoot, "docs/ggpk/tx", "data/simplified chinese/activeskills.dat64.json")
-	txTradableItemsFile = filepath.Join(c.ProjectRoot, "docs/trade/tx/items")
+	txBaseItemTypesFile = tablePath(serverTencent, langZh, "BaseItemTypes")
+	txGemEffectsFile = tablePath(serverTencent, langZh, "GemEffects")
+	txActiveSkillsFile = tablePath(serverTencent, langZh, "ActiveSkills")
+	txTradableItemsFile = tradeFilePath(serverTencent, "items")
 
 	gemsFile = filepath.Join(c.ProjectRoot, "assets/gems/gems.json")
 	skillsFile = filepath.Join(c.ProjectRoot, "assets/gems/skills.json")

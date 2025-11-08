@@ -1,7 +1,9 @@
 {
   "patch": "3.27.0.3",
   "files": [
-    "Metadata/StatDescriptions/stat_descriptions.txt"
+    "Metadata/StatDescriptions/stat_descriptions.txt",
+    "Metadata/StatDescriptions/passive_skill_stat_descriptions.txt",
+    "Metadata/StatDescriptions/tincture_stat_descriptions.txt"
   ],
   "translations": [
     "English"
@@ -36,6 +38,18 @@
     },
     {
       "name": "Words"
+    },
+    {
+      "name": "IndexableSupportGems"
+    },
+    {
+      "name": "IndexableSkillGems"
+    },
+    {
+      "name": "GemEffects"
+    },
+    {
+      "name": "ActiveSkills"
     }
   ]
 }

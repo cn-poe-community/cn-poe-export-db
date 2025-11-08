@@ -15,8 +15,8 @@ def load_json(file):
 config: dict = load_json("../config.json")
 project_root = config.get("projectRoot")
 
-tree_file = os.path.join(project_root, "docs/tree/tree.json")
-tx_tree_file = os.path.join(project_root, "docs/tree/tx/tree.json")
+tree_file = os.path.join(project_root, "export/trade/global/passive_skill_tree.json")
+tx_tree_file = os.path.join(project_root, "export/trade/tencent/passive_skill_tree.json")
 
 notables_json_file = os.path.join(
     project_root, "assets/passiveskills/notables.json")

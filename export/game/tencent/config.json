@@ -1,7 +1,9 @@
 {
   "steam": "D:\\WeGameApps\\rail_apps\\流放之路(511)",
   "files": [
-    "Metadata/StatDescriptions/stat_descriptions.txt"
+    "Metadata/StatDescriptions/stat_descriptions.txt",
+    "Metadata/StatDescriptions/passive_skill_stat_descriptions.txt",
+    "Metadata/StatDescriptions/tincture_stat_descriptions.txt"
   ],
   "translations": [
     "Simplified Chinese"
@@ -36,6 +38,18 @@
     },
     {
       "name": "Words"
+    },
+    {
+      "name": "IndexableSupportGems"
+    },
+    {
+      "name": "IndexableSkillGems"
+    },
+    {
+      "name": "GemEffects"
+    },
+    {
+      "name": "ActiveSkills"
     }
   ]
 }

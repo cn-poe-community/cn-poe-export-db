@@ -343,7 +343,13 @@
     },
     {
         "zh": "高阶魔力药剂",
-        "en": "Colossal Mana Flask"
+        "en": "Colossal Mana Flask",
+        "uniques": [
+            {
+                "zh": "井水灵器",
+                "en": "Wellwater Phylactery"
+            }
+        ]
     },
     {
         "zh": "圣语魔力药剂",

@@ -5,19 +5,30 @@ import (
 	"dbutils/pkg/item"
 	"dbutils/pkg/utils/errorutil"
 	"encoding/json"
+	"fmt"
 	"os"
 	"path/filepath"
 	"strings"
 )
 
-var c *config.Config
 var baseItemTypesFile string
 var txBaseItemTypesFile string
 
+var c = config.LoadConfig("../config.json")
+
+const (
+	serverGlobal  = "global"
+	serverTencent = "tencent"
+	langZh        = "Simplified Chinese"
+	langEn        = "English"
+)
+
+func tablePath(client string, lang string, name string) string {
+	return filepath.Join(c.ProjectRoot, "export/game", client, "tables", lang, fmt.Sprintf("%s.json", name))
+}
 func init() {
-	c = config.LoadConfig("../config.json")
-	baseItemTypesFile = filepath.Join(c.ProjectRoot, "docs/ggpk", "data/baseitemtypes.dat64.json")
-	txBaseItemTypesFile = filepath.Join(c.ProjectRoot, "docs/ggpk/tx", "data/simplified chinese/baseitemtypes.dat64.json")
+	baseItemTypesFile = tablePath(serverGlobal, langEn, "BaseItemTypes")
+	txBaseItemTypesFile = tablePath(serverTencent, langZh, "BaseItemTypes")
 }
 
 type Tattoo struct {
@@ -148,6 +159,5 @@ func updateJewels(itemTypes []*item.BaseItemType) {
 func main() {
 	baseItemTypes := item.LoadBaseItemTypesFromGggpk(baseItemTypesFile, txBaseItemTypesFile)
 	initTattoos(baseItemTypes)
-	updateFlasks(baseItemTypes)
 	updateJewels(baseItemTypes)
 }

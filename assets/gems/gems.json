@@ -236,6 +236,10 @@
     "zh": "冰墙"
   },
   {
+    "en": "Wall of Force",
+    "zh": "力场之墙"
+  },
+  {
     "en": "Freezing Pulse",
     "zh": "冰霜脉冲"
   },
@@ -1458,7 +1462,7 @@
   },
   {
     "en": "Impale Support",
-    "zh": "尖刺战杖"
+    "zh": "穿刺"
   },
   {
     "en": "Pride",
@@ -2085,6 +2089,26 @@
     "zh": "狙击"
   },
   {
+    "en": "Conflagration",
+    "zh": "燃火箭雨"
+  },
+  {
+    "en": "Kinetic Rain",
+    "zh": "念动之雨"
+  },
+  {
+    "en": "Somatic Shell",
+    "zh": "念动壁垒"
+  },
+  {
+    "en": "Thunderstorm",
+    "zh": "雷霆风暴"
+  },
+  {
+    "en": "Kinetic Fusillade",
+    "zh": "念动齐射"
+  },
+  {
     "en": "Trauma Support",
     "zh": "内伤（辅）"
   },
@@ -2167,6 +2191,86 @@
   {
     "en": "Focused Channelling Support",
     "zh": "专注吟唱（辅）"
+  },
+  {
+    "en": "Windburst Support",
+    "zh": "风爆术（辅）"
+  },
+  {
+    "en": "Kinetic Instability Support",
+    "zh": "念动失稳（辅）"
+  },
+  {
+    "en": "Living Lightning Support",
+    "zh": "活体闪电（辅）"
+  },
+  {
+    "en": "Order: To me!",
+    "zh": "命令：来我身边！"
+  },
+  {
+    "en": "Return to Dust",
+    "zh": "归于尘土"
+  },
+  {
+    "en": "Seize the Flesh",
+    "zh": "攫取血肉"
+  },
+  {
+    "en": "Violent Desire",
+    "zh": "暴烈欲望"
+  },
+  {
+    "en": "Tender Embrace",
+    "zh": "温柔之拥"
+  },
+  {
+    "en": "Heart of Flame",
+    "zh": "烈焰之心"
+  },
+  {
+    "en": "His Burning Message",
+    "zh": "焚世箴言"
+  },
+  {
+    "en": "Call the Pyre",
+    "zh": "苍焰火柱"
+  },
+  {
+    "en": "The Grey Wind Howls",
+    "zh": "灰风呼号"
+  },
+  {
+    "en": "Wreathed in Light",
+    "zh": "辉耀加身"
+  },
+  {
+    "en": "Glowing Silhouette",
+    "zh": "光铸剪影"
+  },
+  {
+    "en": "Enervating Grasp",
+    "zh": "虚弱之握"
+  },
+  {
+    "en": "Overcharged Sinews",
+    "zh": "血肉过载"
+  },
+  {
+    "en": "Dance in the White",
+    "zh": "白霜漫舞"
+  },
+  {
+    "en": "Falling Crystals",
+    "zh": "天坠冰晶"
+  },
+  {
+    "en": "The Great Avalanche",
+    "zh": "崩塌盛雪"
+  },
+  {
+    "en": "Preserving Stillness",
+    "zh": "静谧守恒"
   },
   {
     "en": "Ice Nova of Frostbolts",
@@ -2955,6 +3059,10 @@
   {
     "en": "Frozen Legion of Rallying",
     "zh": "集结之冰封军团"
+  },
+  {
+    "en": "Kinetic Rain of Impact",
+    "zh": "冲击之念动之雨"
   },
   {
     "en": "Aspect of the Cat",

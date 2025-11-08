@@ -93,4 +93,5 @@ export interface Assets {
     notables: Node[];
     stats: Stat[];
     tattoos: BaseType[];
+    grafts: BaseType[];
 }

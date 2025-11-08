@@ -6,6 +6,10 @@
             {
                 "zh": "埃曼纳姆的凝视",
                 "en": "Amanamu's Gaze"
+            },
+            {
+                "zh": "阿曼娜姆的凝视",
+                "en": "Amanamu's Gaze"
             }
         ]
     },
@@ -235,6 +239,10 @@
             {
                 "zh": "无力【仿品】",
                 "en": "Replica Powerlessness"
+            },
+            {
+                "zh": "急尘魔侍",
+                "en": "To Dust"
             }
         ]
     },
@@ -787,6 +795,10 @@
             {
                 "zh": "库加尔的凝视",
                 "en": "Kurgal's Gaze"
+            },
+            {
+                "zh": "库高的凝视",
+                "en": "Kurgal's Gaze"
             }
         ]
     },
@@ -816,6 +828,10 @@
         "uniques": [
             {
                 "zh": "薛乌勒曼的凝视",
+                "en": "Ulaman's Gaze"
+            },
+            {
+                "zh": "乌拉曼的凝视",
                 "en": "Ulaman's Gaze"
             }
         ]

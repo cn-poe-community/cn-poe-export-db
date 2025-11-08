@@ -440,7 +440,8 @@ def create_asset_base_types():
         ("jewels", ["Jewel"]),
         ("quivers", ["Quiver"]),
         ("rings", ["Ring"]),
-        ("tinctures",["Tincture"])
+        ("tinctures",["Tincture"]),
+        ("grafts",["BrequelGraft"])
     ]
     equipment_names = ["helmets", "body_armours", "gloves", "boots", "amulets", "belts", "shields",
                        "flasks", "jewels", "quivers", "rings"]

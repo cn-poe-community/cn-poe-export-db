@@ -913,7 +913,13 @@
     },
     {
         "zh": "将军铠甲",
-        "en": "General's Brigandine"
+        "en": "General's Brigandine",
+        "uniques": [
+            {
+                "zh": "瑞佛狩猎",
+                "en": "Rigwald's Hunt"
+            }
+        ]
     },
     {
         "zh": "轻锁甲",

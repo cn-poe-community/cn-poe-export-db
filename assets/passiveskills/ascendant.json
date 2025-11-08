@@ -1,5 +1,170 @@
 [
     {
+        "id": "52349",
+        "en": "The King's Contempt",
+        "zh": "王之蔑视"
+    },
+    {
+        "id": "43376",
+        "en": "The King's Heritage",
+        "zh": "王之遗赠"
+    },
+    {
+        "id": "21785",
+        "en": "The King's Might",
+        "zh": "王之威能"
+    },
+    {
+        "id": "27121",
+        "en": "Farric Will",
+        "zh": "大地意志"
+    },
+    {
+        "id": "7442",
+        "en": "Fertile Will",
+        "zh": "丰沃意志"
+    },
+    {
+        "id": "9437",
+        "en": " Precursor's Release",
+        "zh": "先驱的解放"
+    },
+    {
+        "id": "10696",
+        "en": "Legacy of the King",
+        "zh": "王者传承"
+    },
+    {
+        "id": "37670",
+        "en": "Wild Will",
+        "zh": "狂野意志"
+    },
+    {
+        "id": "35011",
+        "en": "Huntleader",
+        "zh": "猎群首领"
+    },
+    {
+        "id": "48251",
+        "en": "Primal Roar",
+        "zh": "原始咆哮"
+    },
+    {
+        "id": "15739",
+        "en": "Farrul's Will",
+        "zh": "法瑞尔的意志"
+    },
+    {
+        "id": "14190",
+        "en": " Death Offering",
+        "zh": "死亡奉献"
+    },
+    {
+        "id": "59826",
+        "en": "Umbral Army",
+        "zh": "暗影军团"
+    },
+    {
+        "id": "17309",
+        "en": "Prolonged Servitude",
+        "zh": "奴役延长"
+    },
+    {
+        "id": "47543",
+        "en": "The Primal Owl",
+        "zh": "原始猫头鹰"
+    },
+    {
+        "id": "18519",
+        "en": "The Wild Bear",
+        "zh": "荒野巨熊"
+    },
+    {
+        "id": "32216",
+        "en": "The Vivid Cat",
+        "zh": "鲜活猎豹"
+    },
+    {
+        "id": "8138",
+        "en": "Boon of the Mountain",
+        "zh": "山岳赐福"
+    },
+    {
+        "id": "40953",
+        "en": "Boon of the River",
+        "zh": "河流赐福"
+    },
+    {
+        "id": "48816",
+        "en": "Boon of the Sun",
+        "zh": "烈日赐福"
+    },
+    {
+        "id": "43902",
+        "en": "The Unseen Hand",
+        "zh": "无形之手"
+    },
+    {
+        "id": "52553",
+        "en": "Unlight Silhouette",
+        "zh": "暗蚀剪影"
+    },
+    {
+        "id": "32265",
+        "en": "Enhanced Starlight",
+        "zh": "强化星辉"
+    },
+    {
+        "id": "10916",
+        "en": "Volatile Runes",
+        "zh": "不稳定符文"
+    },
+    {
+        "id": "58438",
+        "en": "Runic Boon",
+        "zh": "符文赐福"
+    },
+    {
+        "id": "30061",
+        "en": "You're the crazy one!",
+        "zh": "你才疯了！"
+    },
+    {
+        "id": "33670",
+        "en": "It wasn't me!",
+        "zh": "不是我干的！"
+    },
+    {
+        "id": "52408",
+        "en": "That didn't happen!",
+        "zh": "根本没这回事！"
+    },
+    {
+        "id": "27869",
+        "en": "Bitter Heresy",
+        "zh": "苦涩异端"
+    },
+    {
+        "id": "47767",
+        "en": "Sinner Saint",
+        "zh": "罪人之圣"
+    },
+    {
+        "id": "3872",
+        "en": "Farewell to Flesh",
+        "zh": "告别血肉"
+    },
+    {
+        "id": "61092",
+        "en": "Corruption's Embrace",
+        "zh": "腐化之拥"
+    },
+    {
+        "id": "57290",
+        "en": "Deceitful Servant",
+        "zh": "狡诈仆从"
+    },
+    {
         "id": "38999",
         "en": "Ancestral Fury",
         "zh": "先祖狂怒"
@@ -70,6 +235,21 @@
         "zh": "希望壁垒"
     },
     {
+        "id": "49785",
+        "en": "Priest of Yaomac",
+        "zh": "夭马克的祭司"
+    },
+    {
+        "id": "27737",
+        "en": "Priest of Kamasa",
+        "zh": "卡马萨祭司"
+    },
+    {
+        "id": "30271",
+        "en": "Priest of Kopec",
+        "zh": "科佩克祭司"
+    },
+    {
         "id": "17988",
         "en": "Untiring",
         "zh": "不知疲倦"
@@ -103,6 +283,21 @@
         "id": "62595",
         "en": "Unyielding",
         "zh": "屹立不摇"
+    },
+    {
+        "id": "6344",
+        "en": "Esh of the Storm",
+        "zh": "风暴之艾许"
+    },
+    {
+        "id": "48711",
+        "en": "Tul of the Blizzard",
+        "zh": "暴雪之托沃"
+    },
+    {
+        "id": "52855",
+        "en": "Otherworldly Appendages",
+        "zh": "异界附肢"
     },
     {
         "id": "34434",
@@ -215,6 +410,56 @@
         "zh": "忏悔之兆"
     },
     {
+        "id": "8982",
+        "en": "Sanguimancy",
+        "zh": "滴血为咒"
+    },
+    {
+        "id": "20931",
+        "en": "Crimson Power",
+        "zh": "腥红之力"
+    },
+    {
+        "id": "52780",
+        "en": "Cannibalised Faith",
+        "zh": "蚕食信仰"
+    },
+    {
+        "id": "699",
+        "en": "Foul Pact",
+        "zh": "邪秽契约"
+    },
+    {
+        "id": "57850",
+        "en": "Warlock Power",
+        "zh": "术士之力"
+    },
+    {
+        "id": "58281",
+        "en": "Blood Hunt",
+        "zh": "猎血寻腥"
+    },
+    {
+        "id": "45727",
+        "en": "Soul Splitting",
+        "zh": "灵魂裂解"
+    },
+    {
+        "id": "28601",
+        "en": "Creeping Lobotomy",
+        "zh": "悚然切除"
+    },
+    {
+        "id": "52417",
+        "en": "Black Mass",
+        "zh": "黑暗布道"
+    },
+    {
+        "id": "10538",
+        "en": "Choir of the Damned",
+        "zh": "诅咒合颂"
+    },
+    {
         "id": "4194",
         "en": "Berserker",
         "zh": "暴徒"
@@ -223,6 +468,16 @@
         "id": "57052",
         "en": "Chieftain",
         "zh": "酋长"
+    },
+    {
+        "id": "63623",
+        "en": "Might of the Bear",
+        "zh": "伟岸熊威"
+    },
+    {
+        "id": "34229",
+        "en": "Howl of the Wolf",
+        "zh": "惊魂狼啸"
     },
     {
         "id": "42144",
@@ -303,6 +558,41 @@
         "id": "8281",
         "en": "Elementalist",
         "zh": "元素使"
+    },
+    {
+        "id": "8243",
+        "en": "Wildwood Blessing",
+        "zh": "荒林祝福"
+    },
+    {
+        "id": "34814",
+        "en": "Lesson of the Seasons",
+        "zh": "四季之训"
+    },
+    {
+        "id": "5220",
+        "en": "Oath of the Maji",
+        "zh": "众神之誓"
+    },
+    {
+        "id": "41197",
+        "en": "Coated Blade",
+        "zh": "涂抹小刀"
+    },
+    {
+        "id": "34637",
+        "en": "Nature's Concoction",
+        "zh": "自然灵药"
+    },
+    {
+        "id": "63362",
+        "en": "Intensifying Suffusion",
+        "zh": "增幅弥散"
+    },
+    {
+        "id": "29212",
+        "en": "Detect Evil",
+        "zh": "追缉邪恶"
     },
     {
         "id": "10099",
@@ -585,19 +875,44 @@
         "zh": "传奇灾星"
     },
     {
+        "id": "21264",
+        "en": "Knife in the Back",
+        "zh": "背刺"
+    },
+    {
+        "id": "18335",
+        "en": "For the Jugular",
+        "zh": "直取咽喉"
+    },
+    {
         "id": "19598",
         "en": "Toxic Delivery",
         "zh": "毒物私运"
     },
     {
         "id": "1945",
-        "en": "Noxious Strike",
-        "zh": "淬毒打击"
+        "en": "Mystical Infusion",
+        "zh": "神秘注入"
     },
     {
         "id": "28782",
         "en": "Mistwalker",
         "zh": "迷雾行者"
+    },
+    {
+        "id": "29844",
+        "en": "Shadowed Blood",
+        "zh": "暗影之血"
+    },
+    {
+        "id": "46676",
+        "en": "Assassination Style",
+        "zh": "暗杀风格"
+    },
+    {
+        "id": "21192",
+        "en": "Infused Toxins",
+        "zh": "灌注毒素"
     },
     {
         "id": "4242",
@@ -606,13 +921,8 @@
     },
     {
         "id": "48239",
-        "en": "Deadly Infusion",
-        "zh": "致命专注"
-    },
-    {
-        "id": "21264",
-        "en": "Ambush and Assassinate",
-        "zh": "伏击"
+        "en": "Deathmarked",
+        "zh": "死亡印记"
     },
     {
         "id": "19083",

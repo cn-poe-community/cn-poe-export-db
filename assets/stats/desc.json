@@ -665,6 +665,11 @@
     "en": "{0} to Level of Socketed Strength Gems"
   },
   {
+    "id": "maximum_number_of_projectiles_to_fire_is_1",
+    "zh": "最多发射 1 个投射物",
+    "en": "Fire at most 1 Projectile"
+  },
+  {
     "id": "local_socketed_dexterity_gem_level_+",
     "zh": "此物品上装备的【绿色技能石】等级 {0}",
     "en": "{0} to Level of Socketed Dexterity Gems"
@@ -720,9 +725,9 @@
     "en": "{0} to Level of Socketed Chaos Gems"
   },
   {
-    "id": "action_speed_is_at_least_108%",
-    "zh": "你的行动速度至少是基础值的108%",
-    "en": "Your Action Speed is at least 108% of base value"
+    "id": "action_speed_is_at_least_90%",
+    "zh": "你的行动速度至少是基础值的90%",
+    "en": "Your Action Speed is at least 90% of base value"
   },
   {
     "id": "base_skill_cost_life_instead_of_mana",
@@ -1286,7 +1291,7 @@
   },
   {
     "id": "local_display_socketed_gems_supported_by_level_x_intensify",
-    "zh": "此物品上的技能石受到 {0} 级的 法术凝聚 辅助",
+    "zh": "插槽中的宝石受 {0} 级法术凝聚辅助",
     "en": "Socketed Gems are Supported by Level {0} Intensify"
   },
   {
@@ -1305,6 +1310,11 @@
     "en": "Socketed Gems are Supported by Level {0} Item Rarity"
   },
   {
+    "id": "local_display_socketed_gems_supported_by_level_x_kinetic_instability",
+    "zh": "插槽中的宝石受 {0} 级动能紊流辅助",
+    "en": "Socketed Gems are Supported by Level {0} Kinetic Instability"
+  },
+  {
     "id": "local_display_socketed_gems_supported_by_level_x_life_gain_on_hit",
     "zh": "此物品上的技能石受到 {0} 级的 击中生命回复 辅助",
     "en": "Socketed Gems are Supported by Level {0} Life Gain On Hit"
@@ -1318,6 +1328,11 @@
     "id": "local_display_socketed_gems_supported_by_level_x_lightning_penetration",
     "zh": "此物品上的技能石受到 {0} 级的 闪电穿透 辅助",
     "en": "Socketed Gems are Supported by Level {0} Lightning Penetration"
+  },
+  {
+    "id": "local_display_socketed_gems_supported_by_level_x_living_lightning",
+    "zh": "插槽中的宝石受 {0} 级活体闪电辅助",
+    "en": "Socketed Gems are Supported by Level {0} Living Lightning"
   },
   {
     "id": "local_display_socketed_gems_supported_by_level_x_locus_mine",
@@ -1471,7 +1486,7 @@
   },
   {
     "id": "local_display_socketed_gems_supported_by_level_x_returning_projectiles",
-    "zh": "插槽中的宝石受 {0} 级投射物归返辅助",
+    "zh": "插槽中的宝石受 {0} 级投射物返回辅助",
     "en": "Socketed Gems are Supported by Level {0} Returning Projectiles"
   },
   {
@@ -1526,7 +1541,7 @@
   },
   {
     "id": "local_display_socketed_gems_supported_by_level_x_spell_focus",
-    "zh": "此物品上的技能石受到 {0} 级的 法术凝聚 辅助",
+    "zh": "插槽中的宝石受 {0} 级法术凝聚辅助",
     "en": "Socketed Gems are Supported by Level {0} Intensify"
   },
   {
@@ -1551,7 +1566,7 @@
   },
   {
     "id": "local_display_socketed_gems_supported_by_level_x_summon_ghost_on_kill",
-    "zh": "此物品上的技能石受到 {0} 级的【召唤幻灵】辅助",
+    "zh": "插槽中的宝石受 {0} 级召唤幻灵辅助",
     "en": "Socketed Gems are Supported by Level {0} Summon Phantasm"
   },
   {
@@ -1563,6 +1578,11 @@
     "id": "local_display_socketed_gems_supported_by_level_x_swiftbrand",
     "zh": "插入的技能石被 {0} 级的【迅猛烙印】辅助",
     "en": "Socketed Gems are Supported by Level {0} Swiftbrand"
+  },
+  {
+    "id": "local_display_socketed_gems_supported_by_level_x_tornados",
+    "zh": "插槽中的宝石受 {0} 级风爆辅助",
+    "en": "Socketed Gems are Supported by Level {0} Windburst"
   },
   {
     "id": "local_display_socketed_gems_supported_by_level_x_trap_cooldown",
@@ -1608,6 +1628,21 @@
     "id": "local_display_socketed_gems_supported_by_level_x_chaos_attacks",
     "zh": "此物品上的技能石受到 {0} 级的 凋零之触 辅助",
     "en": "Socketed Gems are Supported by Level {0} Withering Touch"
+  },
+  {
+    "id": "local_display_socketed_gems_supported_by_x_intensify_level",
+    "zh": "插槽中的宝石受 {0} 级法术凝聚辅助",
+    "en": "Socketed Gems are Supported by Level {0} Intensify"
+  },
+  {
+    "id": "local_display_socketed_gems_supported_by_x_returning_projectiles_level",
+    "zh": "插槽中的宝石受 {0} 级投射物返回辅助",
+    "en": "Socketed Gems are Supported by Level {0} Returning Projectiles"
+  },
+  {
+    "id": "local_display_socketed_gems_supported_by_x_summon_phantasm_level",
+    "zh": "插槽中的宝石受 {0} 级召唤幻灵辅助",
+    "en": "Socketed Gems are Supported by Level {0} Summon Phantasm"
   },
   {
     "id": "local_display_socketed_triggered_skills_deal_double_damage",
@@ -2025,6 +2060,11 @@
     "en": "Socketed Gems are Supported by Level {0} Knockback"
   },
   {
+    "id": "local_display_socketed_gems_supported_by_x_focused_channelling_level",
+    "zh": "插槽中的宝石受 {0} 级专注吟唱辅助",
+    "en": "Socketed Gems are Supported by Level {0} Focused Channelling"
+  },
+  {
     "id": "local_display_socketed_gems_supported_by_x_increased_minion_life_level",
     "zh": "此物品上的技能石受到 {0} 级的 召唤生物生命 辅助",
     "en": "Socketed Gems are Supported by Level {0} Minion Life"
@@ -2233,6 +2273,11 @@
     "id": "local_display_socketed_spells_repeat_count",
     "zh": "此物品上的法术重复施放 {0} 次",
     "en": "Spells in this item Repeat an additional {0} times"
+  },
+  {
+    "id": "apply_hex_on_enemy_that_triggers_traps",
+    "zh": "你无法施放已镶嵌的六角诅咒技能\n对触发你陷阱的敌人施加已镶嵌的六角诅咒",
+    "en": "You cannot Cast Socketed Hex Curse Skills\nInflict Socketed Hexes on Enemies that trigger your Traps"
   },
   {
     "id": "chance_to_trigger_socketed_spell_on_bow_attack_%",
@@ -3070,9 +3115,19 @@
     "en": "Grants Level {0} Summon Doedre's Effigy Skill\nSocketed Hex Curse Skills are Triggered by Doedre's Effigy when Summoned\nHexes from Socketed Skills can apply 5 additional Curses"
   },
   {
+    "id": "local_display_grants_level_x_misty_reflection",
+    "zh": "赋予 {0} 级迷雾倒影技能",
+    "en": "Grants Level {0} Misty Reflection Skill"
+  },
+  {
     "id": "local_display_grants_level_x_wintertide_brand",
     "zh": "提供 {0} 级冬潮烙印",
     "en": "Grants Level {0} Wintertide Brand Skill"
+  },
+  {
+    "id": "local_display_grants_skil_convocation_level",
+    "zh": "获得 {0} 级号召技能",
+    "en": "Grants Level {0} Convocation Skill"
   },
   {
     "id": "local_display_grants_skill_abyssal_cry_level",
@@ -3113,6 +3168,11 @@
     "id": "local_display_grants_skill_brand_detonate_level",
     "zh": "获得 {0} 级的【烙印喷涌】",
     "en": "Grants Level {0} Brandsurge Skill"
+  },
+  {
+    "id": "local_display_grants_skill_breach_hand_trap_level",
+    "zh": "赋予 {0} 级君主意志技能",
+    "en": "Grants Level {0} Will of the Lords Skill"
   },
   {
     "id": "local_display_grants_skill_call_of_steel",
@@ -3183,6 +3243,11 @@
     "id": "local_display_grants_skill_herald_of_purity_level",
     "zh": "提供 {0} 级纯净之捷",
     "en": "Grants Level {0} Herald of Purity Skill"
+  },
+  {
+    "id": "local_display_grants_skill_herald_of_the_breach_level",
+    "zh": "赋予 {0} 级虫群之捷技能",
+    "en": "Grants Level {0} Herald of the Hive Skill"
   },
   {
     "id": "local_display_grants_skill_herald_of_thunder_level",
@@ -3278,6 +3343,16 @@
     "id": "local_display_grants_skill_vampiric_icon_level",
     "zh": "提供 {0} 级鲜血渴求技能",
     "en": "Grants Level {0} Thirst for Blood Skill"
+  },
+  {
+    "id": "local_display_grants_skill_voodoo_doll",
+    "zh": "获得 {0} 级召唤黑暗塑像技能",
+    "en": "Grants Level {0} Summon Dark Effigy Skill"
+  },
+  {
+    "id": "local_display_grants_skill_weapon_storm",
+    "zh": "获得 {0} 级落刃风暴技能",
+    "en": "Grants Level {0} Swordstorm Skill"
   },
   {
     "id": "local_display_grants_skill_zealotry_level",
@@ -3420,6 +3495,16 @@
     "en": "{0}% chance to Trigger Socketed Minion Spells on Kill with this Weapon\nMinion Spells Triggered by this Item have a 0.25 second Cooldown with 5 Uses"
   },
   {
+    "id": "cast_socketed_spells_on_X_life_spent cast_socketed_spells_on_life_spent_%_chance",
+    "zh": "在消耗至少 {0} 点预支花费的生命\n或触发一个技能时触发插入的法术，它有 0.1 秒冷却时间",
+    "en": "Trigger Socketed Spells when you Spend at least {0} Life on an\nUpfront Cost to Use or Trigger a Skill, with a 0.1 second Cooldown"
+  },
+  {
+    "id": "cast_socketed_spells_on_X_life_spent cast_socketed_spells_on_life_spent_%_chance",
+    "zh": "有 {1}% 的几率在消耗至少 {0} 点预支花费的生命\n或触发一个技能时触发插入的法术，它有 0.1 秒冷却时间",
+    "en": "{1}% chance to Trigger Socketed Spells when you Spend at least {0} Life on an\nUpfront Cost to Use or Trigger a Skill, with a 0.1 second Cooldown"
+  },
+  {
     "id": "cast_socketed_spells_on_X_mana_spent cast_socketed_spells_on_mana_spent_%_chance",
     "zh": "在消耗至少 {0} 点预支花费的魔力\n或触发一个技能时触发插入的法术，它有 0.1 秒冷却时间",
     "en": "Trigger Socketed Spells when you Spend at least {0} Mana on an\nUpfront Cost to Use or Trigger a Skill, with a 0.1 second Cooldown"
@@ -3513,6 +3598,11 @@
     "id": "local_display_cast_lightning_on_critical_strike",
     "zh": "暴击时触发 {0} 级的【雷霆万钧】",
     "en": "Trigger Level {0} Lightning Bolt when you deal a Critical Strike"
+  },
+  {
+    "id": "local_display_cast_lightning_on_melee_hit_with_this_weapon",
+    "zh": "使用此武器近战击中时，触发 {0} 级雷光霹雳，冷却时间0.25秒",
+    "en": "Trigger Level {0} Lightning Bolt on Melee Hit with this Weapon, with a 0.25 second cooldown"
   },
   {
     "id": "local_display_cast_physical_aegis_on_gain_skill",
@@ -3725,6 +3815,11 @@
     "en": "Trigger Level {0} Shield Shatter when you Block"
   },
   {
+    "id": "local_display_trigger_level_X_ward_shatter_on_ward_break",
+    "zh": "你的结界被打破时，触发 {0} 级结界碎击",
+    "en": "Trigger Level {0} Ward Shatter when your Ward Breaks"
+  },
+  {
     "id": "local_display_trigger_level_X_warlords_mark_when_you_hit_rare_or_unique_enemy",
     "zh": "当你击中的稀有或传奇敌人没有被标记，触发 {0} 级督军印记",
     "en": "Trigger Level {0} Warlord's Mark when you Hit a Rare or Unique Enemy and have no Mark"
@@ -3848,6 +3943,16 @@
     "id": "local_unique_cast_socketed_cold_skills_on_melee_critical_strike",
     "zh": "在近战暴击时触发一个插入的冰霜法术，它有 0.25 秒冷却时间",
     "en": "Trigger a Socketed Cold Spell on Melee Critical Strike, with a 0.25 second Cooldown"
+  },
+  {
+    "id": "local_unique_cast_socketed_spell_on_block",
+    "zh": "格挡时触发一个镶嵌的法术，冷却时间 0.25 秒",
+    "en": "Trigger a Socketed Spell when you Block, with a 0.25 second Cooldown"
+  },
+  {
+    "id": "main_hand_trigger_socketed_spell_on_freezing_hit",
+    "zh": "当使用该武器造成的攻击使目标冻结时，\n会触发一个已镶嵌的法术，且该效果有 0.25 秒的冷却时间。",
+    "en": "Trigger a Socketed Spell when a Hit from this\nWeapon Freezes a Target, with a 0.25 second Cooldown"
   },
   {
     "id": "trigger_socketed_bow_skills_on_spell_cast_while_wielding_a_bow_%",
@@ -4183,6 +4288,16 @@
     "id": "local_flask_removes_%_of_life_recovery_from_mana_on_use",
     "zh": "使用时会移除魔力，等同于生命回复值的 {0}%",
     "en": "Removes {0}% of Life Recovered from Mana when used"
+  },
+  {
+    "id": "local_unique_flask_instantly_removes_%_maximum_life",
+    "zh": "使用时移除 {0}% 生命",
+    "en": "Removes {0}% of Life when Used"
+  },
+  {
+    "id": "local_unique_flask_start_energy_shield_recharge",
+    "zh": "使用时开始能量护盾充能",
+    "en": "Starts Energy Shield Recharge when Used"
   },
   {
     "id": "local_flask_removes_%_maximum_energy_shield_on_use",
@@ -4815,6 +4930,11 @@
     "en": "Consecrated Ground created during Effect applies {0}% increased Damage taken to Enemies"
   },
   {
+    "id": "local_flask_energy_shield_recharge_not_delayed_by_damage_during_effect",
+    "zh": "效果期间能量护盾充能不能被伤害延迟",
+    "en": "Energy Shield Recharge is not delayed by Damage during Effect"
+  },
+  {
     "id": "local_flask_gain_endurance_charge_per_second_during_flask_effect",
     "zh": "生效期间，每秒获得 1 个耐力球",
     "en": "Gain 1 Endurance Charge per Second during Effect"
@@ -5135,6 +5255,11 @@
     "en": "Gain {0}% of Elemental Damage as Extra Chaos Damage during effect"
   },
   {
+    "id": "local_unique_flask_explode_enemies_for_10%_life_as_random_element_on_kill_chance_%_during_flask_effect",
+    "zh": "生效期间，被你击败的敌人有 {0}% 几率爆炸，造成其最大生命值十分之一的随机元素伤害",
+    "en": "Enemies you Kill during Effect have a {0}% chance to Explode, dealing a tenth of their maximum Life as Damage of a Random Element"
+  },
+  {
     "id": "local_unique_flask_item_quantity_+%_while_healing",
     "zh": "生效期间，找到的物品数量提高 {0}%",
     "en": "{0}% increased Quantity of Items found during Effect"
@@ -5435,11 +5560,6 @@
     "en": "Grants Perfect Agony during effect"
   },
   {
-    "id": "local_unique_jewel_nearby_disconnected_passives_can_be_allocated",
-    "zh": "未连结至天赋树的技能，仍然可以在范围内配置",
-    "en": "Passives in Radius can be Allocated without being connected to your tree"
-  },
-  {
     "id": "local_weapon_uses_both_hands",
     "zh": "占用所有武器栏位",
     "en": "Uses both hand slots"
@@ -5600,6 +5720,21 @@
     "en": "{0}% to amount of Suppressed Spell Damage Prevented while on Full Energy Shield"
   },
   {
+    "id": "suppressed_spell_damage_bypass_energy_shield_%",
+    "zh": "{0}% 的被压制法术伤害穿透能量护盾",
+    "en": "{0}% of Suppressed Spell Damage taken bypasses Energy Shield"
+  },
+  {
+    "id": "suppressed_spell_damage_bypass_energy_shield_%",
+    "zh": "被压制的法术伤害穿透能量护盾",
+    "en": "Suppressed Spell Damage taken bypasses Energy Shield"
+  },
+  {
+    "id": "suppressed_spell_damage_taken_%_recouped_as_es",
+    "zh": "{0}% 的被压制法术伤害吸纳为能量护盾",
+    "en": "{0}% of Suppressed Spell Damage taken Recouped as Energy Shield"
+  },
+  {
     "id": "spell_block_with_bow_%",
     "zh": "持弓时法术伤害格挡几率 {0}%",
     "en": "{0}% Chance to Block Spell Damage while wielding a Bow"
@@ -5658,6 +5793,11 @@
     "id": "base_spell_block_%",
     "zh": "{0}% 法术伤害格挡几率",
     "en": "{0}% Chance to Block Spell Damage"
+  },
+  {
+    "id": "unique_spell_block_%_when_in_off_hand",
+    "zh": "在副手时，有 {0}% 几率格挡法术伤害",
+    "en": "{0}% Chance to Block Spell Damage while in Off Hand"
   },
   {
     "id": "block_while_dual_wielding_%",
@@ -8405,6 +8545,11 @@
     "en": "{0}% to Critical Strike Multiplier"
   },
   {
+    "id": "local_no_critical_strike_multiplier",
+    "zh": "此武器的暴击不造成额外伤害",
+    "en": "Critical Strikes with this Weapon do not deal extra Damage"
+  },
+  {
     "id": "attack_critical_strike_multiplier_+",
     "zh": "攻击伤害的暴击伤害加成 {0}%",
     "en": "{0}% to Critical Strike Multiplier for Attack Damage"
@@ -8843,6 +8988,16 @@
     "id": "evasion_rating_+%_per_frenzy_charge",
     "zh": "每个狂怒球降低 {0}% 闪避值",
     "en": "{0}% reduced Evasion Rating per Frenzy Charge"
+  },
+  {
+    "id": "physical_damage_reduction_rating_+%_per_frenzy_charge",
+    "zh": "每个狂怒球使护甲提高 {0}%",
+    "en": "{0}% increased Armour per Frenzy Charge"
+  },
+  {
+    "id": "physical_damage_reduction_rating_+%_per_frenzy_charge",
+    "zh": "每个狂怒球使护甲降低 {0}%",
+    "en": "{0}% reduced Armour per Frenzy Charge"
   },
   {
     "id": "base_maximum_energy_shield",
@@ -9403,6 +9558,11 @@
     "id": "base_lightning_damage_resistance_%",
     "zh": "{0}% 闪电抗性",
     "en": "{0}% to Lightning Resistance"
+  },
+  {
+    "id": "all_resistances_%_per_active_minion_not_from_vaal_skills",
+    "zh": "每有一个来自你的非瓦尔技能的召唤生物，使所有抗性 +{0}%",
+    "en": "{0}% to all Resistances per Minion from your Non-Vaal Skills"
   },
   {
     "id": "unique_lightning_damage_resistance_%_when_blue_gem_socketed",
@@ -11695,6 +11855,21 @@
     "en": "Minions deal {0}% reduced Damage"
   },
   {
+    "id": "minion_chance_to_deal_double_damage_%_per_fortification",
+    "zh": "你身上的每层护体使召唤生物有 {0}% 几率造成双倍伤害",
+    "en": "Minions have {0}% chance to deal Double Damage per Fortification on you"
+  },
+  {
+    "id": "minion_damage_+%_per_fortification",
+    "zh": "每层护体使召唤物伤害提高 {0}%",
+    "en": "{0}% increased Minion Damage per Fortification"
+  },
+  {
+    "id": "minion_damage_+%_per_fortification",
+    "zh": "每层护体使召唤物伤害降低 {0}%",
+    "en": "{0}% reduced Minion Damage per Fortification"
+  },
+  {
     "id": "minion_damage_+%_per_5_dex",
     "zh": "每 5 点敏捷使召唤生物的伤害提高 {0}%",
     "en": "Minions deal {0}% increased Damage per 5 Dexterity"
@@ -13875,6 +14050,11 @@
     "en": "{0}% more Damage with Arrow Hits at Close Range"
   },
   {
+    "id": "unique_foulborn_chin_sol_not_close_range_bow_damage_+%_final",
+    "zh": "非近距离的箭矢击中伤害总增 {0}%",
+    "en": "{0}% more Damage with Arrow Hits not at Close Range"
+  },
+  {
     "id": "unique_chin_sol_close_range_knockback",
     "zh": "近距离时，弓类攻击会击退敌人",
     "en": "Bow Knockback at Close Range"
@@ -15120,6 +15300,11 @@
     "en": "Right ring slot: {0} to maximum Mana"
   },
   {
+    "id": "local_right_ring_slot_physical_damage_reduction_rating",
+    "zh": "右戒指栏位：护甲 {0}",
+    "en": "Right ring slot: {0} to Armour"
+  },
+  {
     "id": "local_right_ring_slot_energy_shield",
     "zh": "右戒指栏位：{0} 能量护盾",
     "en": "Right ring slot: {0} to Energy Shield"
@@ -15258,6 +15443,11 @@
     "id": "local_left_ring_slot_energy_shield",
     "zh": "左戒指栏位：{0} 最大能量护盾",
     "en": "Left ring slot: {0} to maximum Energy Shield"
+  },
+  {
+    "id": "local_left_ring_slot_evasion_rating",
+    "zh": "左戒指栏位：闪避值 {0}",
+    "en": "Left ring slot: {0} to Evasion Rating"
   },
   {
     "id": "no_energy_shield_recharge_or_regeneration",
@@ -16355,6 +16545,16 @@
     "en": "{0}% reduced Global Defences"
   },
   {
+    "id": "global_defences_+%_per_active_minion_not_from_vaal_skills",
+    "zh": "每有一个来自你的非瓦尔技能的召唤生物，使防御提高 {0}%",
+    "en": "{0}% increased Defences per Minion from your Non-Vaal Skills"
+  },
+  {
+    "id": "global_defences_+%_per_active_minion_not_from_vaal_skills",
+    "zh": "每有一个来自你的非瓦尔技能的召唤生物，使防御降低 {0}%",
+    "en": "{0}% reduced Defences per Minion from your Non-Vaal Skills"
+  },
+  {
     "id": "zero_elemental_resistance",
     "zh": "元素抗性为零",
     "en": "Elemental Resistances are Zero"
@@ -16521,8 +16721,8 @@
   },
   {
     "id": "local_ring_duplicate_other_ring",
-    "zh": "反射你的另一枚戒指",
-    "en": "Reflects your other Ring"
+    "zh": "反射另一个戒指",
+    "en": "Reflects opposite Ring"
   },
   {
     "id": "can_catch_exotic_fish",
@@ -17070,6 +17270,11 @@
     "en": "Attacks with this Weapon have {0}% reduced Physical Damage per 250 Evasion Rating"
   },
   {
+    "id": "local_fire_damage_from_life_%",
+    "zh": "此武器的攻击附加相当于玩家最大生命值 {0}% 的火焰伤害",
+    "en": "Attacks with this Weapon have Added Fire Damage equal to {0}% of Player's Maximum Life"
+  },
+  {
     "id": "attack_damage_+%_per_450_evasion",
     "zh": "每 450 点闪避值可使攻击伤害提高 {0}%",
     "en": "{0}% increased Attack Damage per 450 Evasion Rating"
@@ -17338,6 +17543,11 @@
     "id": "base_reduce_enemy_fire_resistance_%",
     "zh": "你的击中将火焰抗性视为比实际高 {0}%",
     "en": "Your Hits treat Fire Resistance as {0}% higher than actual value"
+  },
+  {
+    "id": "overcapped_fire_resistance_gain_as_fire_penetration",
+    "zh": "伤害穿透的火焰抗性等同于你的超量火焰抗性，上限为200%",
+    "en": "Damage Penetrates Fire Resistance equal to your Overcapped Fire Resistance, up to a maximum of 200%"
   },
   {
     "id": "base_reduce_enemy_cold_resistance_%",
@@ -17805,6 +18015,16 @@
     "en": "With 4 Notables Allocated in Radius, When you Kill a Rare monster, you gain {0} of its Modifiers for 20 seconds"
   },
   {
+    "id": "local_unique_jewel_with_no_notables_gain_X_random_rare_monster_mods_on_kill",
+    "zh": "若范围内没有已配置的核心天赋，消灭稀有怪物时，获得其 {0} 个词缀，持续 20 秒",
+    "en": "If no Notables Allocated in Radius, When you Kill a Rare monster, you gain {0} of its Modifiers for 20 seconds"
+  },
+  {
+    "id": "local_unique_jewel_with_x_small_nodes_gain_1_random_rare_monster_mods_on_kill",
+    "zh": "若范围内配置了 {0} 个小型天赋，消灭稀有怪物时，获得其 1 个词缀，持续 20 秒",
+    "en": "With {0} Small Passives Allocated in Radius, When you Kill a Rare monster, you gain 1 of its Modifiers for 20 seconds"
+  },
+  {
     "id": "gain_X_random_rare_monster_mods_on_kill",
     "zh": "当你击败稀有怪物时，你会获得该怪物的 {0} 属性修正 20 秒",
     "en": "When you Kill a Rare monster, you gain {0} of its Modifiers for 20 seconds"
@@ -17850,6 +18070,16 @@
     "en": "{0} metres to Bow Strike Range"
   },
   {
+    "id": "local_unique_jewel_armour_increases_applies_to_evasion",
+    "zh": "范围内对护甲的提高和降低效果转化为对闪避值生效",
+    "en": "Increases and Reductions to Armour in Radius are Transformed to apply to Evasion Rating"
+  },
+  {
+    "id": "local_unique_jewel_evasion_increases_applies_to_armour",
+    "zh": "范围内对闪避值的提高和降低效果转化为对护甲生效",
+    "en": "Increases and Reductions to Evasion Rating in Radius are Transformed to apply to Armour"
+  },
+  {
     "id": "local_unique_jewel_melee_applies_to_bow",
     "zh": "范围内的近战和近战武器加成转换成弓类武器加成",
     "en": "Melee and Melee Weapon Type modifiers in Radius are Transformed to Bow Modifiers"
@@ -17888,6 +18118,16 @@
     "id": "passive_applies_to_minions",
     "zh": "此天赋能力由你的召唤生物获得",
     "en": "This Passive applies to your Minions instead of you"
+  },
+  {
+    "id": "determination_aura_effect_+%_while_no_endurance_charges",
+    "zh": "当你没有耐力球时，坚定的光环效果提高 {0}%",
+    "en": "Determination has {0}% increased Aura Effect while you have no Endurance Charges"
+  },
+  {
+    "id": "determination_aura_effect_+%_while_no_endurance_charges",
+    "zh": "当你没有耐力球时，坚定的光环效果降低 {0}%",
+    "en": "Determination has {0}% reduced Aura Effect while you have no Endurance Charges"
   },
   {
     "id": "life_gained_on_hit_per_enemy_status_ailment",
@@ -18136,13 +18376,13 @@
   },
   {
     "id": "vaal_skill_effect_duration_+%",
-    "zh": "瓦尔技能持续时间延长 {0}%",
-    "en": "{0}% increased Vaal Skill Effect Duration"
+    "zh": "瓦尔技能的技能效果持续时间延长 {0}%",
+    "en": "Vaal Skills have {0}% increased Skill Effect Duration"
   },
   {
     "id": "vaal_skill_effect_duration_+%",
-    "zh": "瓦尔技能持续时间缩短 {0}%",
-    "en": "{0}% reduced Vaal Skill Effect Duration"
+    "zh": "瓦尔技能的技能效果持续时间缩短 {0}%",
+    "en": "Vaal Skills have {0}% reduced Skill Effect Duration"
   },
   {
     "id": "vaal_skill_soul_gain_preventation_duration_+%",
@@ -20588,6 +20828,26 @@
     "id": "blind_duration_+%",
     "zh": "致盲的持续时间降低 {0}%",
     "en": "{0}% reduced Blind duration"
+  },
+  {
+    "id": "assassin_critical_strike_chance_+%_final_vs_enemies_not_on_low_life",
+    "zh": "对非低血状态敌人的暴击率总增 {0}%",
+    "en": "{0}% more Critical Strike Chance against Enemies that are not on Low Life"
+  },
+  {
+    "id": "assassin_critical_strike_chance_+%_final_vs_enemies_not_on_low_life",
+    "zh": "对非低血状态敌人的暴击率总降 {0}%",
+    "en": "{0}% less Critical Strike Chance against Enemies on that are not on Low Life"
+  },
+  {
+    "id": "assassin_critical_strike_multiplier_+_vs_enemies_not_on_low_life",
+    "zh": "对低血状态敌人的暴击伤害加成 {0}%",
+    "en": "{0}% to Critical Strike Multiplier against Enemies that are not on Low Life"
+  },
+  {
+    "id": "assassin_critical_strike_multiplier_+_vs_enemies_on_low_life",
+    "zh": "对低血状态敌人的暴击伤害加成 {0}%",
+    "en": "{0}% to Critical Strike Multiplier against Enemies that are on Low Life"
   },
   {
     "id": "assassinate_passive_critical_strike_chance_vs_enemies_on_low_life_+%_final",
@@ -23285,6 +23545,11 @@
     "en": "Increases and Reductions to Minion Cast Speed also affect you"
   },
   {
+    "id": "additive_minion_maximum_life_modifiers_apply_to_you_at_%_value",
+    "zh": "对召唤物最大生命值的增减效果，有 {0}% 也作用于你",
+    "en": "Increases and Reductions to Minion Maximum Life also apply to you at {0}% of their value"
+  },
+  {
     "id": "modifiers_to_minion_life_regeneration_also_affect_you",
     "zh": "召唤生物的生命再生词缀同样对你生效",
     "en": "Modifiers to Minion Life Regeneration also affect you"
@@ -23553,6 +23818,16 @@
     "id": "bleed_duration_per_12_intelligence_+%",
     "zh": "每 12 点智慧可使流血持续时间缩短 {0}%",
     "en": "{0}% reduced Bleeding Duration per 12 Intelligence"
+  },
+  {
+    "id": "physical_skill_effect_duration_per_12_intelligence_+%",
+    "zh": "每 12 点智慧使物理技能的持续时间延长 {0}%",
+    "en": "Physical Skills have {0}% increased Duration per 12 Intelligence"
+  },
+  {
+    "id": "physical_skill_effect_duration_per_12_intelligence_+%",
+    "zh": "每 12 点智慧使物理技能的持续时间缩短 {0}%",
+    "en": "Physical Skills have {0}% reduced Duration per 12 Intelligence"
   },
   {
     "id": "%_chance_to_cause_bleeding_enemies_to_flee_on_hit",
@@ -27041,7 +27316,7 @@
   },
   {
     "id": "attacks_number_of_additional_projectiles_when_in_off_hand",
-    "zh": "装备在副手时，攻击可以额外发射 {0} 个投射物",
+    "zh": "在副手时攻击额外发射 {0} 个投射物",
     "en": "Attacks fire {0} additional Projectiles when in Off Hand"
   },
   {
@@ -27906,33 +28181,33 @@
   },
   {
     "id": "attack_damage_+%_if_other_ring_is_shaper_item",
-    "zh": "若你的其他戒指为塑界者物品，则攻击伤害提高 {0}%",
-    "en": "{0}% increased Attack Damage if your other Ring is a Shaper Item"
+    "zh": "若另一个戒指是塑界者物品，攻击伤害提高 {0}%",
+    "en": "{0}% increased Attack Damage if your opposite Ring is a Shaper Item"
   },
   {
     "id": "attack_damage_+%_if_other_ring_is_shaper_item",
-    "zh": "若你的其他戒指为塑界者物品，则攻击伤害降低 {0}%",
-    "en": "{0}% reduced Attack Damage if your other Ring is a Shaper Item"
+    "zh": "若另一个戒指是塑界者物品，攻击伤害降低 {0}%",
+    "en": "{0}% reduced Attack Damage if your opposite Ring is a Shaper Item"
   },
   {
     "id": "spell_damage_+%_if_other_ring_is_elder_item",
-    "zh": "若你的其他戒指为裂界者物品，则法术伤害提高 {0}%",
-    "en": "{0}% increased Spell Damage if your other Ring is an Elder Item"
+    "zh": "若另一个戒指是裂界者物品，法术伤害提高 {0}%",
+    "en": "{0}% increased Spell Damage if your opposite Ring is an Elder Item"
   },
   {
     "id": "spell_damage_+%_if_other_ring_is_elder_item",
-    "zh": "若你的其他戒指为裂界者物品，则法术伤害降低 {0}%",
-    "en": "{0}% reduced Spell Damage if your other Ring is an Elder Item"
+    "zh": "若另一个戒指是裂界者物品，法术伤害降低 {0}%",
+    "en": "{0}% reduced Spell Damage if your opposite Ring is an Elder Item"
   },
   {
     "id": "cannot_be_stunned_by_spells_if_other_ring_is_shaper_item",
-    "zh": "若你的其他戒指为塑界者物品，则免疫法术造成的晕眩",
-    "en": "Cannot be Stunned by Spells if your other Ring is a Shaper Item"
+    "zh": "若另一个戒指是塑界者物品，则免疫法术造成的晕眩",
+    "en": "Cannot be Stunned by Spells if your opposite Ring is a Shaper Item"
   },
   {
     "id": "cannot_be_stunned_by_attacks_if_other_ring_is_elder_item",
-    "zh": "若你的其他戒指为裂界者物品，则免疫攻击造成的晕眩",
-    "en": "Cannot be Stunned by Attacks if your other Ring is an Elder Item"
+    "zh": "若另一个戒指是裂界者物品，则免疫攻击造成的晕眩",
+    "en": "Cannot be Stunned by Attacks if your opposite Ring is an Elder Item"
   },
   {
     "id": "maximum_life_per_equipped_elder_item",
@@ -28892,7 +29167,7 @@
   {
     "id": "elemental_damage_%_taken_as_chaos_if_4_hunter_items",
     "zh": "若装备 4 件狩猎者物品，受到元素伤害的 {0}% 转化为混沌伤害",
-    "en": "{0}% of Elemental taken as Chaos Damage if 4 Hunter Items are Equipped"
+    "en": "{0}% of Elemental Damage taken as Chaos Damage if 4 Hunter Items are Equipped"
   },
   {
     "id": "gain_endurance_charge_per_second_if_have_been_hit_recently_if_4_warlord_items",
@@ -29130,6 +29405,16 @@
     "en": "{0}% less Accuracy Rating while wielding a Sword"
   },
   {
+    "id": "accuracy_rating_+%_per_25_intelligence",
+    "zh": "每 25 点智慧使命中值提高 {0}%",
+    "en": "{0}% increased Accuracy Rating per 25 Intelligence"
+  },
+  {
+    "id": "accuracy_rating_+%_per_25_intelligence",
+    "zh": "每 25 点智慧使命中值降低 {0}%",
+    "en": "{0}% reduced Accuracy Rating per 25 Intelligence"
+  },
+  {
     "id": "accuracy_rating_against_marked_enemies_+%_final_from_crucible_tree",
     "zh": "对被标记敌人的命中值总增 {0}%",
     "en": "{0}% more Accuracy Rating against Marked Enemy"
@@ -29220,6 +29505,16 @@
     "en": "{0}% reduced Action Speed while affected by Haste"
   },
   {
+    "id": "action_speed_cannot_be_reduced_below_base_while_ignited",
+    "zh": "被点燃时行动速度无法被减速至基础值以下",
+    "en": "Action Speed cannot be modified to below Base Value while Ignited"
+  },
+  {
+    "id": "action_speed_cannot_be_reduced_below_base_while_no_gems_in_boots",
+    "zh": "若已装备的鞋子上没有镶嵌宝石，则行动速度无法被减速至基础值以下",
+    "en": "Action Speed cannot be modified to below Base Value if you have Equipped Boots with no Socketed Gems"
+  },
+  {
     "id": "action_speed_cannot_be_slowed_below_base_if_cast_temporal_chains_in_past_10_seconds",
     "zh": "如果你在过去 10 秒内施放过时空锁链，则行动速度减缓不会低于基础速度",
     "en": "Action Speed cannot be modified to below Base Value if you've cast Temporal Chains in the past 10 seconds"
@@ -29268,6 +29563,11 @@
     "id": "add_x_grasping_vines_on_hit",
     "zh": "击中时施加 {0} 个缓速蔓藤",
     "en": "Inflict {0} Grasping Vines on Hit"
+  },
+  {
+    "id": "added_chaos_damage_%_life_cost_if_payable",
+    "zh": "如果生命消耗不高于你能够消耗的最大值，技能附加相当于生命消耗 {0}% 的混沌伤害",
+    "en": "Skills gain Added Chaos Damage equal to {0}% of Life Cost, if Life Cost is not higher than the maximum you could spend"
   },
   {
     "id": "added_chaos_damage_%_mana_cost_if_payable",
@@ -29373,6 +29673,16 @@
     "id": "additional_critical_strike_chance_permyriad_with_herald_skills",
     "zh": "捷技能 {0}% 暴击率",
     "en": "{0}% to Critical Strike Chance of Herald Skills"
+  },
+  {
+    "id": "additional_damage_rolls_while_on_low_life",
+    "zh": "低血状态时你的击中伤害特别幸运",
+    "en": "Your Damage with Hits is Lucky while on Low Life"
+  },
+  {
+    "id": "additional_damage_rolls_while_on_low_life",
+    "zh": "低血状态时你的击中伤害特别不幸",
+    "en": "Your Damage with Hits is Unlucky while on Low Life"
   },
   {
     "id": "additional_dexterity_per_allocated_mastery",
@@ -29545,6 +29855,11 @@
     "en": "{0}% chance to inflict an additional Poison on the same Target when you inflict Poison"
   },
   {
+    "id": "additional_rage_loss_per_minute",
+    "zh": "每秒失去 {0} 点狂怒",
+    "en": "Lose {0} Rage per second"
+  },
+  {
     "id": "additional_spectres_per_ghastly_eye_jewel",
     "zh": "每镶嵌一个苍白之凝珠宝，灵体数量上限 {0}",
     "en": "{0} to maximum number of Raised Spectres per Socketed Ghastly Eye Jewel"
@@ -29590,14 +29905,34 @@
     "en": "Increases and Reductions to Cast Speed also Apply to Trap Throwing Speed"
   },
   {
+    "id": "additive_chaos_damage_modifiers_apply_to_chaos_aura_effect_at_%_value",
+    "zh": "对混沌伤害的增减效果，\n有 {0}% 也作用于来自混沌技能的光环效果，上限 150%",
+    "en": "Increases and Reductions to Chaos Damage also apply to Effect of\nAuras from Chaos Skills at {0}% of their value, up to a maximum of 150%"
+  },
+  {
+    "id": "additive_cold_damage_modifiers_apply_to_cold_aura_effect_at_%_value",
+    "zh": "对冰霜伤害的增减效果，\n有 {0}% 也作用于来自冰霜技能的光环效果，上限 150%",
+    "en": "Increases and Reductions to Cold Damage also apply to Effect of\nAuras from Cold Skills at {0}% of their value, up to a maximum of 150%"
+  },
+  {
     "id": "additive_energy_shield_modifiers_apply_to_spell_damage_at_30%_value",
     "zh": "灵魂幻化",
     "en": "Transfiguration of Soul"
   },
   {
+    "id": "additive_fire_damage_modifiers_apply_to_fire_aura_effect_at_%_value",
+    "zh": "对火焰伤害的增减效果，\n有{0}% 也作用于来自火焰技能的光环效果，上限 150%",
+    "en": "Increases and Reductions to Fire Damage also apply to Effect of\nAuras from Fire Skills at {0}% of their value, up to a maximum of 150%"
+  },
+  {
     "id": "additive_life_modifiers_apply_to_attack_damage_at_30%_value",
     "zh": "身体幻化",
     "en": "Transfiguration of Body"
+  },
+  {
+    "id": "additive_lightning_damage_modifiers_apply_to_lightning_aura_effect_at_%_value",
+    "zh": "对闪电伤害的增减效果，\n有 {0}% 也作用于来自闪电技能的光环效果，上限 150%",
+    "en": "Increases and Reductions to Lightning Damage also apply to Effect of\nAuras from Lightning Skills at {0}% of their value, up to a maximum of 150%"
   },
   {
     "id": "additive_mana_modifiers_apply_to_damage_at_30%_value",
@@ -29608,6 +29943,11 @@
     "id": "additive_mana_modifiers_apply_to_shock_effect_at_30%_value",
     "zh": "对魔力上限的增幅与减弱效果有 30% 也作用于感电效果",
     "en": "Increases and reductions to Maximum Mana also apply to Shock Effect at 30% of their value"
+  },
+  {
+    "id": "additive_physical_damage_modifiers_apply_to_physical_aura_effect_at_%_value",
+    "zh": "对物理伤害的增减效果，\n有 {0}% 也作用于来自物理技能的光环效果，上限 150%",
+    "en": "Increases and Reductions to Physical Damage also apply to Effect of\nAuras from Physical Skills at {0}% of their value, up to a maximum of 150%"
   },
   {
     "id": "aggravate_bleeding_older_than_ms_on_hit",
@@ -29735,6 +30075,16 @@
     "en": "All Damage with Maces and Sceptres inflicts Chill"
   },
   {
+    "id": "all_damage_resistance_+%",
+    "zh": "元素和混沌抗性提高 {0}%",
+    "en": "{0}% increased Elemental and Chaos Resistances"
+  },
+  {
+    "id": "all_damage_resistance_+%",
+    "zh": "元素和混沌抗性降低 {0}%",
+    "en": "{0}% reduced Elemental and Chaos Resistances"
+  },
+  {
     "id": "all_damage_taken_can_ignite",
     "zh": "被击中时受到的所有伤害都可以点燃你",
     "en": "All Damage Taken from Hits can Ignite you"
@@ -29773,6 +30123,106 @@
     "id": "allow_multiple_offerings",
     "zh": "你可以拥有每种奉献各一个",
     "en": "You can have an Offering of each type"
+  },
+  {
+    "id": "alternate_ascendancy_damage_taken_+%_final_with_atleast_1_eshgraft",
+    "zh": "至少装备一个艾许移植物时，受到的闪电伤害总增 {0}%",
+    "en": "Take {0}% more Lightning Damage with at least one Eshgraft grafted to you"
+  },
+  {
+    "id": "alternate_ascendancy_damage_taken_+%_final_with_atleast_1_eshgraft",
+    "zh": "至少装备一个艾许移植物时，受到的闪电伤害总降 {0}%",
+    "en": "Take {0}% less Lightning Damage with at least one Eshgraft grafted to you"
+  },
+  {
+    "id": "alternate_ascendancy_damage_taken_+%_final_with_atleast_1_tulgraft",
+    "zh": "至少装备一个图尔移植物时，受到的冰霜伤害总增 {0}%",
+    "en": "Take {0}% more Cold Damage with at least one Tulgraft grafted to you"
+  },
+  {
+    "id": "alternate_ascendancy_damage_taken_+%_final_with_atleast_1_tulgraft",
+    "zh": "至少装备一个图尔移植物时，受到的冰霜伤害总降 {0}%",
+    "en": "Take {0}% less Cold Damage with at least one Tulgraft grafted to you"
+  },
+  {
+    "id": "alternate_ascendancy_damage_taken_+%_final_with_atleast_1_uulgraft",
+    "zh": "至少装备一个乌尔尼多移植物时，受到的物理伤害总增 {0}%",
+    "en": "Take {0}% more Physical Damage with at least one Uulgraft grafted to you"
+  },
+  {
+    "id": "alternate_ascendancy_damage_taken_+%_final_with_atleast_1_uulgraft",
+    "zh": "至少装备一个乌尔尼多移植物时，受到的物理伤害总降 {0}%",
+    "en": "Take {0}% less Physical Damage with at least one Uulgraft grafted to you"
+  },
+  {
+    "id": "alternate_ascendancy_damage_taken_+%_final_with_atleast_1_xophgraft",
+    "zh": "至少装备一个索伏移植物时，受到的火焰伤害总增 {0}%",
+    "en": "Take {0}% more Fire Damage with at least one Xophgraft grafted to you"
+  },
+  {
+    "id": "alternate_ascendancy_damage_taken_+%_final_with_atleast_1_xophgraft",
+    "zh": "至少装备一个索伏移植物时，受到的火焰伤害总降 {0}%",
+    "en": "Take {0}% less Fire Damage with at least one Xophgraft grafted to you"
+  },
+  {
+    "id": "alternate_ascendancy_damage_taken_over_time_+%_final_while_you_have_unbroken_ward",
+    "zh": "当你的结界未被打破时，受到的持续伤害总增 {0}%",
+    "en": "{0}% more Damage Taken from Damage over Time while you have Unbroken Ward"
+  },
+  {
+    "id": "alternate_ascendancy_damage_taken_over_time_+%_final_while_you_have_unbroken_ward",
+    "zh": "当你的结界未被打破时，受到的持续伤害总降 {0}%",
+    "en": "{0}% less Damage Taken from Damage over Time while you have Unbroken Ward"
+  },
+  {
+    "id": "alternate_ascendancy_damage_taken_when_hit_+%_final",
+    "zh": "受到的击中伤害总增 {0}%",
+    "en": "Take {0}% more Damage from Hits"
+  },
+  {
+    "id": "alternate_ascendancy_damage_taken_when_hit_+%_final",
+    "zh": "受到的击中伤害总降 {0}%",
+    "en": "Take {0}% less Damage from Hits"
+  },
+  {
+    "id": "alternate_ascendancy_herald_buff_effect_+%_final_per_1%_mana_reserved",
+    "zh": "捷技能每保留 1% 最大魔力，其增益效果总增 {0}%",
+    "en": "Herald Skills have {0}% more Buff Effect for every 1% of Maximum Mana they Reserve"
+  },
+  {
+    "id": "alternate_ascendancy_herald_minion_and_herald_damage_+%_final_per_1%_life_reserved",
+    "zh": "捷技能和来自先驱技能的召唤物，每保留 1% 最大生命，其伤害总增 {0}%",
+    "en": "Herald Skills and Minions from Herald Skills deal {0}% more Damage for every 1% of Maximum Life those Skills Reserve"
+  },
+  {
+    "id": "alternate_ascendancy_rapid_fire_support_use_damage_+%_final_per_reoccurance",
+    "zh": "解封的法术每次重复释放时，伤害总增 {0}%",
+    "en": "Unsealed Spells gain {0}% more Damage each time their effects Reoccur"
+  },
+  {
+    "id": "alternate_ascendancy_rapid_fire_support_use_damage_+%_final_per_reoccurance",
+    "zh": "解封的法术每次重复释放时，伤害总降 {0}%",
+    "en": "Unsealed Spells gain {0}% less Damage each time their effects Reoccur"
+  },
+  {
+    "id": "alternate_ascendancy_vaal_skill_soul_requirement_+%_final",
+    "zh": "瓦尔技能每次使用所需灵魂提高 {0}%",
+    "en": "Vaal Skills require {0}% more Souls per Use"
+  },
+  {
+    "id": "alternate_ascendancy_vaal_skill_soul_requirement_+%_final",
+    "zh": "瓦尔技能每次使用所需灵魂降低 {0}%",
+    "en": "Vaal Skills require {0}% less Souls per Use"
+  },
+  {
+    "id": "alternate_ascendancy_vaal_skills_damage_+%_final_per_soul_required",
+    "zh": "瓦尔技能每需要一个灵魂，伤害总增 {0}%",
+    "en": "Vaal Skills deal {0}% more Damage per Soul Required"
+  },
+  {
+    "id": "alternate_ascendancy_vaal_skills_damage_+%_final_per_soul_required",
+    "zh": "瓦尔技能每需要一个灵魂，伤害总降 {0}%",
+    "en": "Vaal Skills deal {0}% less Damage per Soul Required"
   },
   {
     "id": "always_crit_on_next_non_channelling_attack_within_X_ms_after_being_crit",
@@ -29818,6 +30268,11 @@
     "id": "always_scorch_while_affected_by_anger",
     "zh": "受到愤怒光环影响时始终造成烧灼",
     "en": "Always Scorch while affected by Anger"
+  },
+  {
+    "id": "always_shock_low_life_enemies",
+    "zh": "击中总是会感电处于低血状态的敌人",
+    "en": "Hits always Shock Enemies that are on Low Life"
   },
   {
     "id": "always_take_critical_strikes",
@@ -30010,6 +30465,16 @@
     "en": "Ancestral Totem Triggers Enduring Cry on reaching Low Life"
   },
   {
+    "id": "anger_aura_effect_+%_while_at_maximum_endurance_charges",
+    "zh": "满耐力球状态下，愤怒的光环效果提高 {0}%",
+    "en": "Anger has {0}% increased Aura Effect while at maximum Endurance Charges"
+  },
+  {
+    "id": "anger_aura_effect_+%_while_at_maximum_endurance_charges",
+    "zh": "满耐力球状态下，愤怒的光环效果降低 {0}%",
+    "en": "Anger has {0}% reduced Aura Effect while at maximum Endurance Charges"
+  },
+  {
     "id": "anger_mana_reservation_efficiency_-2%_per_1",
     "zh": "愤怒的魔力保留效能降低 {0}%",
     "en": "Anger has {0}% reduced Mana Reservation Efficiency"
@@ -30061,8 +30526,8 @@
   },
   {
     "id": "animated_minions_melee_splash",
-    "zh": "幻化类召唤生物的近战攻击会对对周围目标造成溅射伤害",
-    "en": "Animated Minions' Melee Attacks deal Splash Damage to surrounding targets"
+    "zh": "已幻化和已显化的召唤生物的近战攻击\n对周围目标造成扩散伤害",
+    "en": "Animated and Manifested Minions' Melee Strikes deal Splash\nDamage to surrounding targets"
   },
   {
     "id": "aoe_+%_per_second_while_stationary_up_to_50",
@@ -30093,6 +30558,11 @@
     "id": "apply_covered_in_ash_to_attacker_when_hit_%",
     "zh": "被击中时让敌人受到【灰烬缠身】",
     "en": "Cover Enemies in Ash when they Hit you"
+  },
+  {
+    "id": "apply_maximum_wither_for_Xs_on_chaos_skill_hit",
+    "zh": "混沌技能的击中对敌人施加最多 15 层凋零减益，持续 {0} 秒",
+    "en": "Chaos Skills inflict up to 15 Withered Debuffs on Hit for {0} seconds"
   },
   {
     "id": "apply_maximum_wither_stacks_%_chance_when_you_apply_withered",
@@ -30518,6 +30988,21 @@
     "id": "armour_%_applies_to_fire_cold_lightning_damage",
     "zh": "对击中时受到的火焰、冰霜和闪电伤害施加{0}%的护甲效果",
     "en": "{0}% of Armour applies to Fire, Cold and Lightning Damage taken from Hits"
+  },
+  {
+    "id": "armour_%_applies_to_fire_cold_lightning_damage_if_have_blocked_recently",
+    "zh": "若你近期格挡过，则 {0}% 的护甲也作用于受到的火焰、冰霜和闪电伤害",
+    "en": "{0}% of Armour applies to Fire, Cold and Lightning Damage taken from Hits if you've Blocked Recently"
+  },
+  {
+    "id": "armour_+%_during_onslaught",
+    "zh": "猛攻期间护甲提高 {0}%",
+    "en": "{0}% increased Armour during Onslaught"
+  },
+  {
+    "id": "armour_+%_during_onslaught",
+    "zh": "猛攻期间护甲降低 {0}%",
+    "en": "{0}% reduced Armour during Onslaught"
   },
   {
     "id": "armour_+%_if_have_been_hit_recently",
@@ -31315,6 +31800,16 @@
     "en": "{0}% increased Attack Damage for each Map Item Modifier affecting the Area"
   },
   {
+    "id": "attack_damage_+%_per_raised_zombie",
+    "zh": "每个复苏的魔卫使攻击伤害提高 {0}%",
+    "en": "{0}% increased Attack Damage per Raised Zombie"
+  },
+  {
+    "id": "attack_damage_+%_per_raised_zombie",
+    "zh": "每个复苏的魔卫使攻击伤害降低 {0}%",
+    "en": "{0}% reduced Attack Damage per Raised Zombie"
+  },
+  {
     "id": "attack_damage_+%_while_in_blood_stance",
     "zh": "血姿态下的攻击伤害提高 {0}%",
     "en": "{0}% increased Attack Damage while in Blood Stance"
@@ -31593,6 +32088,11 @@
     "id": "attack_speed_+%_per_fortification",
     "zh": "每层护体使攻击速度降低 {0}%",
     "en": "{0}% reduced Attack Speed per Fortification"
+  },
+  {
+    "id": "attack_speed_+%_per_minion_up_to_80%",
+    "zh": "每个召唤物使攻击速度加快 {0}%，上限为 80%",
+    "en": "{0}% increased Attack Speed per Minion, up to a maximum of 80%"
   },
   {
     "id": "attack_speed_+%_while_in_sand_stance",
@@ -31948,6 +32448,16 @@
     "id": "avoid_corrupted_blood_%_chance",
     "zh": "{0}% 的几率免疫【腐化之血】的流血",
     "en": "{0}% chance to avoid Corrupted Blood"
+  },
+  {
+    "id": "avoid_damage_%",
+    "zh": "被击中时有 {0}% 的几率避免所有伤害",
+    "en": "{0}% chance to Avoid All Damage from Hits"
+  },
+  {
+    "id": "avoid_damage_%",
+    "zh": "被击中时避免所有伤害",
+    "en": "Avoid All Damage from Hits"
   },
   {
     "id": "avoid_elemental_ailments_%_while_affected_by_elusive",
@@ -32440,6 +32950,16 @@
     "en": "{0} to Level of all Elemental Support Gems if the stars are aligned"
   },
   {
+    "id": "base_enemy_extra_damage_rolls",
+    "zh": "敌人击中你的伤害特别幸运",
+    "en": "Damage of Enemies Hitting you is Lucky"
+  },
+  {
+    "id": "base_enemy_extra_damage_rolls",
+    "zh": "敌人击中你的伤害特别不幸",
+    "en": "Damage of Enemies Hitting you is Unlucky"
+  },
+  {
     "id": "base_energy_shield_leech_from_chaos_damage_permyriad",
     "zh": "混沌伤害的 {0}% 转化为能量护盾偷取",
     "en": "{0}% of Chaos Damage Leeched as Energy Shield"
@@ -32488,6 +33008,11 @@
     "id": "base_frozen_effect_on_self_+%",
     "zh": "減少 {0}% 你身上的冰冻效果",
     "en": "{0}% reduced Effect of Freeze on you"
+  },
+  {
+    "id": "base_ghost_totem_duration",
+    "zh": "将被敌人消灭的图腾会变为幻影图腾，持续 {0} 秒",
+    "en": "Totems which would be killed by Enemies become Spectral Totems for {0} seconds instead"
   },
   {
     "id": "base_immune_to_cold_ailments",
@@ -32700,6 +33225,11 @@
     "en": "You can Cast {0} additional Brands"
   },
   {
+    "id": "base_unaffected_by_bleeding",
+    "zh": "不受流血影响",
+    "en": "Unaffected by Bleeding"
+  },
+  {
     "id": "base_unaffected_by_poison",
     "zh": "不受中毒影响",
     "en": "Unaffected by Poison"
@@ -32743,6 +33273,16 @@
     "id": "battlemages_cry_exerts_x_additional_attacks",
     "zh": "魔武战号增助额外 {0} 次攻击",
     "en": "Battlemage's Cry Exerts {0} additional Attacks"
+  },
+  {
+    "id": "brequel_misc_fruit_additional_item_%",
+    "zh": "神秘孕育之礼有 {0}% 几率额外孕育一个物品",
+    "en": "{0}% chance for Mysterious Wombgifts to Birth an additional Item"
+  },
+  {
+    "id": "brequel_unique_fruit_special_unique_chance_+%",
+    "zh": "孕育的传奇物品成为裂隙专属传奇的几率提高 {0}%",
+    "en": "{0}% increased chance for Birthed Uniques to be Breach Specific"
   },
   {
     "id": "bear_and_siphoning_trap_debuff_grants_-%_cooldown_speed",
@@ -34400,6 +34940,11 @@
     "en": "Bow Attacks have Culling Strike"
   },
   {
+    "id": "bow_attacks_usable_without_mana_cost",
+    "zh": "魔力不足时仍可使用弓类攻击",
+    "en": "Insufficient Mana doesn't prevent your Bow Attacks"
+  },
+  {
     "id": "brand_activation_rate_+%_final_during_first_20%_of_active_duration",
     "zh": "烙印激活频率总增 {0}%，直到附着持续时间耗减了 20%",
     "en": "Brands have {0}% more Activation Frequency until 20% of Attached Duration expired"
@@ -34418,6 +34963,31 @@
     "id": "brands_reattach_on_activation",
     "zh": "烙印每次启动时都会附着一个新敌人，每 0.3 秒只发生一次",
     "en": "Brands Attach to a new Enemy each time they Activate, no more than once every 0.3 seconds"
+  },
+  {
+    "id": "breach_ring_chayula_implicit",
+    "zh": "无法摇出非混沌伤害类型的词缀",
+    "en": "Cannot roll Modifiers of Non-Chaos Damage Types"
+  },
+  {
+    "id": "breach_ring_esh_implicit",
+    "zh": "无法摇出非闪电伤害类型的词缀",
+    "en": "Cannot roll Modifiers of Non-Lightning Damage Types"
+  },
+  {
+    "id": "breach_ring_tul_implicit",
+    "zh": "无法摇出非冰霜伤害类型的词缀",
+    "en": "Cannot roll Modifiers of Non-Cold Damage Types"
+  },
+  {
+    "id": "breach_ring_uulnetol_implicit",
+    "zh": "无法摇出非物理伤害类型的词缀",
+    "en": "Cannot roll Modifiers of Non-Physical Damage Types"
+  },
+  {
+    "id": "breach_ring_xoph_implicit",
+    "zh": "无法摇出非火焰伤害类型的词缀",
+    "en": "Cannot roll Modifiers of Non-Fire Damage Types"
   },
   {
     "id": "breachstone_commanders_%_drop_additional_fragments",
@@ -34453,6 +35023,846 @@
     "id": "breachstone_commanders_drop_additional_divination_cards",
     "zh": "稀有裂隙怪物额外掉落 {0} 张命运卡",
     "en": "Rare Breach Monsters drop {0} additional Divination Cards"
+  },
+  {
+    "id": "brequel_currency_fruit_X_lucky_rolls",
+    "zh": "孕育的通货物品额外鉴定一次，保留最稀有的结果",
+    "en": "Birthed Currency Items are rolled an additional time keeping the rarest outcome"
+  },
+  {
+    "id": "brequel_currency_fruit_X_lucky_rolls",
+    "zh": "孕育的通货物品额外鉴定 {0} 次，保留最稀有的结果",
+    "en": "Birthed Currency Items are rolled {0} additional times keeping the rarest outcome"
+  },
+  {
+    "id": "brequel_currency_fruit_additional_3_items_%",
+    "zh": "孕育之礼有 {0}% 几率额外孕育 3 个通货物品",
+    "en": "{0}% chance for Wombgifts to Birth 3 additional Currency Items"
+  },
+  {
+    "id": "brequel_currency_fruit_additional_3_items_%",
+    "zh": "孕育之礼额外孕育 3 个通货物品",
+    "en": "Wombgifts Birth 3 additional Currency Items"
+  },
+  {
+    "id": "brequel_currency_fruit_additional_item_%",
+    "zh": "孕育之礼有 {0}% 几率额外孕育一个通货物品",
+    "en": "{0}% chance for Wombgifts to Birth an additional Currency Item"
+  },
+  {
+    "id": "brequel_currency_fruit_additional_item_%",
+    "zh": "孕育之礼额外孕育一个通货物品",
+    "en": "Wombgifts Birth an additional Currency Item"
+  },
+  {
+    "id": "brequel_currency_fruit_basic_currency_converted_to_shards",
+    "zh": "孕育的通货会变为许多随机的通货碎片",
+    "en": "Birthed Currency is instead dropped as many random Currency Shards"
+  },
+  {
+    "id": "brequel_currency_fruit_can_create_graft_currency",
+    "zh": "孕育之礼有几率孕育出移植物植入体",
+    "en": "Wombgifts have a chance to Birth Graft Implants"
+  },
+  {
+    "id": "brequel_currency_fruit_can_create_mutated_currency",
+    "zh": "孕育之礼在 68 级及以上时有几率孕育出秽生通货",
+    "en": "Wombgifts have a chance to Birth Foulborn Currency at Level 68 and above"
+  },
+  {
+    "id": "brequel_currency_fruit_full_stack_chance_%",
+    "zh": "孕育的通货有 {0}% 几率成组掉落",
+    "en": "{0}% chance for Birthed Currency to drop as a full stack"
+  },
+  {
+    "id": "brequel_currency_fruit_full_stack_chance_%",
+    "zh": "孕育的通货成组掉落",
+    "en": "Birthed Currency drops as a full stack"
+  },
+  {
+    "id": "brequel_currency_fruit_gold_chance_%",
+    "zh": "孕育的通货有 {0}% 几率变为金币掉落",
+    "en": "{0}% chance for Birthed Currency to drop as Gold instead"
+  },
+  {
+    "id": "brequel_currency_fruit_gold_chance_%",
+    "zh": "孕育的通货会变为金币掉落",
+    "en": "Birthed Currency drops as Gold instead"
+  },
+  {
+    "id": "brequel_currency_fruit_graft_currency_chance_+%",
+    "zh": "孕育的通货成为移植物植入体的几率提高 {0}%",
+    "en": "{0}% increased chance for Birthed Currency to be Graft Implants"
+  },
+  {
+    "id": "brequel_currency_fruit_graft_currency_chance_+%",
+    "zh": "孕育的通货成为移植物植入体的几率降低 {0}%",
+    "en": "{0}% reduced chance for Birthed Currency to be Graft Implants"
+  },
+  {
+    "id": "brequel_currency_fruit_mutated_currency_chance_+%",
+    "zh": "孕育的通货成为秽生通货的几率提高 {0}%",
+    "en": "{0}% increased chance for Birthed Currency to be Foulborn Currency"
+  },
+  {
+    "id": "brequel_currency_fruit_mutated_currency_chance_+%",
+    "zh": "孕育的通货成为秽生通货的几率降低 {0}%",
+    "en": "{0}% reduced chance for Birthed Currency to be Foulborn Currency"
+  },
+  {
+    "id": "brequel_equipment_fruit_1h_weapon_chance_+%",
+    "zh": "孕育的装备成为单手近战武器的几率提高 {0}%",
+    "en": "{0}% increased chance for Birthed Equipment to be One-Handed Melee Weapons"
+  },
+  {
+    "id": "brequel_equipment_fruit_1h_weapon_chance_+%",
+    "zh": "孕育的装备成为单手近战武器的几率降低 {0}%",
+    "en": "{0}% reduced chance for Birthed Equipment to be One-Handed Melee Weapons"
+  },
+  {
+    "id": "brequel_equipment_fruit_2h_weapon_chance_+%",
+    "zh": "孕育的装备成为双手近战武器的几率提高 {0}%",
+    "en": "{0}% increased chance for Birthed Equipment to be Two-Handed Melee Weapons"
+  },
+  {
+    "id": "brequel_equipment_fruit_2h_weapon_chance_+%",
+    "zh": "孕育的装备成为双手近战武器的几率降低 {0}%",
+    "en": "{0}% reduced chance for Birthed Equipment to be Two-Handed Melee Weapons"
+  },
+  {
+    "id": "brequel_equipment_fruit_X_divine_rolls",
+    "zh": "孕育装备上的随机词缀数值额外鉴定一次，保留最佳结果",
+    "en": "Values of the random modifiers on Birthed Equipment are rolled an additional time keeping the best outcome"
+  },
+  {
+    "id": "brequel_equipment_fruit_X_divine_rolls",
+    "zh": "孕育装备上的随机词缀数值额外鉴定 {0} 次，保留最佳结果",
+    "en": "Values of the random modifiers on Birthed Equipment are rolled {0} additional times keeping the best outcome"
+  },
+  {
+    "id": "brequel_equipment_fruit_additional_item_%",
+    "zh": "孕育之礼有 {0}% 几率额外孕育一件装备",
+    "en": "{0}% chance for Wombgifts to Birth an additional Equipment Item"
+  },
+  {
+    "id": "brequel_equipment_fruit_additional_item_%",
+    "zh": "孕育之礼额外孕育一件装备",
+    "en": "Wombgifts Birth an additional Equipment Item"
+  },
+  {
+    "id": "brequel_equipment_fruit_amulet_chance_+%",
+    "zh": "孕育的装备成为项链的几率提高 {0}%",
+    "en": "{0}% increased chance for Birthed Equipment to be Amulets"
+  },
+  {
+    "id": "brequel_equipment_fruit_amulet_chance_+%",
+    "zh": "孕育的装备成为项链的几率降低 {0}%",
+    "en": "{0}% reduced chance for Birthed Equipment to be Amulets"
+  },
+  {
+    "id": "brequel_equipment_fruit_armour_chance_+%",
+    "zh": "孕育的装备成为防具的几率提高 {0}%",
+    "en": "{0}% increased chance for Birthed Equipment to be Armour"
+  },
+  {
+    "id": "brequel_equipment_fruit_armour_chance_+%",
+    "zh": "孕育的装备成为防具的几率降低 {0}%",
+    "en": "{0}% reduced chance for Birthed Equipment to be Armour"
+  },
+  {
+    "id": "brequel_equipment_fruit_attack_modifier_chance_+%",
+    "zh": "孕育的装备出现攻击词缀的几率提高 {0}%",
+    "en": "Birthed Equipment has {0}% increased chance for Attack Modifiers"
+  },
+  {
+    "id": "brequel_equipment_fruit_attack_modifier_chance_+%",
+    "zh": "孕育的装备出现攻击词缀的几率降低 {0}%",
+    "en": "Birthed Equipment has {0}% reduced chance for Attack Modifiers"
+  },
+  {
+    "id": "brequel_equipment_fruit_attribute_modifier_chance_+%",
+    "zh": "孕育的装备出现属性词缀的几率提高 {0}%",
+    "en": "Birthed Equipment has {0}% increased chance for Attribute Modifiers"
+  },
+  {
+    "id": "brequel_equipment_fruit_attribute_modifier_chance_+%",
+    "zh": "孕育的装备出现属性词缀的几率降低 {0}%",
+    "en": "Birthed Equipment has {0}% reduced chance for Attribute Modifiers"
+  },
+  {
+    "id": "brequel_equipment_fruit_belt_chance_+%",
+    "zh": "孕育的装备成为腰带的几率提高 {0}%",
+    "en": "{0}% increased chance for Birthed Equipment to be Belts"
+  },
+  {
+    "id": "brequel_equipment_fruit_belt_chance_+%",
+    "zh": "孕育的装备成为腰带的几率降低 {0}%",
+    "en": "{0}% reduced chance for Birthed Equipment to be Belts"
+  },
+  {
+    "id": "brequel_equipment_fruit_body_armour_chance_+%",
+    "zh": "孕育的装备成为胸甲的几率提高 {0}%",
+    "en": "{0}% increased chance for Birthed Equipment to be Body Armour"
+  },
+  {
+    "id": "brequel_equipment_fruit_body_armour_chance_+%",
+    "zh": "孕育的装备成为胸甲的几率降低 {0}%",
+    "en": "{0}% reduced chance for Birthed Equipment to be Body Armour"
+  },
+  {
+    "id": "brequel_equipment_fruit_boots_chance_+%",
+    "zh": "孕育的装备成为鞋子的几率提高 {0}%",
+    "en": "{0}% increased chance for Birthed Equipment to be Boots"
+  },
+  {
+    "id": "brequel_equipment_fruit_boots_chance_+%",
+    "zh": "孕育的装备成为鞋子的几率降低 {0}%",
+    "en": "{0}% reduced chance for Birthed Equipment to be Boots"
+  },
+  {
+    "id": "brequel_equipment_fruit_caster_modifier_chance_+%",
+    "zh": "孕育的装备出现施法者词缀的几率提高 {0}%",
+    "en": "Birthed Equipment has {0}% increased chance for Caster Modifiers"
+  },
+  {
+    "id": "brequel_equipment_fruit_caster_modifier_chance_+%",
+    "zh": "孕育的装备出现施法者词缀的几率降低 {0}%",
+    "en": "Birthed Equipment has {0}% reduced chance for Caster Modifiers"
+  },
+  {
+    "id": "brequel_equipment_fruit_chaos_modifier_chance_+%",
+    "zh": "孕育的装备出现混沌词缀的几率提高 {0}%",
+    "en": "Birthed Equipment has {0}% increased chance for Chaos Modifiers"
+  },
+  {
+    "id": "brequel_equipment_fruit_chaos_modifier_chance_+%",
+    "zh": "孕育的装备出现混沌词缀的几率降低 {0}%",
+    "en": "Birthed Equipment has {0}% reduced chance for Chaos Modifiers"
+  },
+  {
+    "id": "brequel_equipment_fruit_cold_modifier_chance_+%",
+    "zh": "孕育的装备出现冰霜词缀的几率提高 {0}%",
+    "en": "Birthed Equipment has {0}% increased chance for Cold Modifiers"
+  },
+  {
+    "id": "brequel_equipment_fruit_cold_modifier_chance_+%",
+    "zh": "孕育的装备出现冰霜词缀的几率降低 {0}%",
+    "en": "Birthed Equipment has {0}% reduced chance for Cold Modifiers"
+  },
+  {
+    "id": "brequel_equipment_fruit_critical_modifier_chance_+%",
+    "zh": "孕育的装备出现暴击词缀的几率提高 {0}%",
+    "en": "Birthed Equipment has {0}% increased chance for Critical Modifiers"
+  },
+  {
+    "id": "brequel_equipment_fruit_critical_modifier_chance_+%",
+    "zh": "孕育的装备出现暴击词缀的几率降低 {0}%",
+    "en": "Birthed Equipment has {0}% reduced chance for Critical Modifiers"
+  },
+  {
+    "id": "brequel_equipment_fruit_defence_modifier_chance_+%",
+    "zh": "孕育的装备出现防御词缀的几率提高 {0}%",
+    "en": "Birthed Equipment has {0}% increased chance for Defence Modifiers"
+  },
+  {
+    "id": "brequel_equipment_fruit_defence_modifier_chance_+%",
+    "zh": "孕育的装备出现防御词缀的几率降低 {0}%",
+    "en": "Birthed Equipment has {0}% reduced chance for Defence Modifiers"
+  },
+  {
+    "id": "brequel_equipment_fruit_dexterity_requirement_chance_+%_final",
+    "zh": "孕育的装备需要敏捷的几率总增 {0}%",
+    "en": "{0}% more chance for Birthed Equipment to have Dexterity Requirements"
+  },
+  {
+    "id": "brequel_equipment_fruit_dexterity_requirement_chance_+%_final",
+    "zh": "孕育的装备需要敏捷的几率总降 {0}%",
+    "en": "{0}% less chance for Birthed Equipment to have Dexterity Requirements"
+  },
+  {
+    "id": "brequel_equipment_fruit_fire_modifier_chance_+%",
+    "zh": "孕育的装备出现火焰词缀的几率提高 {0}%",
+    "en": "Birthed Equipment has {0}% increased chance for Fire Modifiers"
+  },
+  {
+    "id": "brequel_equipment_fruit_fire_modifier_chance_+%",
+    "zh": "孕育的装备出现火焰词缀的几率降低 {0}%",
+    "en": "Birthed Equipment has {0}% reduced chance for Fire Modifiers"
+  },
+  {
+    "id": "brequel_equipment_fruit_fractured_chance_%",
+    "zh": "孕育的装备有 {0}% 几率被分裂",
+    "en": "Birthed Equipment has {0}% chance to be Fractured"
+  },
+  {
+    "id": "brequel_equipment_fruit_gloves_chance_+%",
+    "zh": "孕育的装备成为手套的几率提高 {0}%",
+    "en": "{0}% increased chance for Birthed Equipment to be Gloves"
+  },
+  {
+    "id": "brequel_equipment_fruit_gloves_chance_+%",
+    "zh": "孕育的装备成为手套的几率降低 {0}%",
+    "en": "{0}% reduced chance for Birthed Equipment to be Gloves"
+  },
+  {
+    "id": "brequel_equipment_fruit_helmet_chance_+%",
+    "zh": "孕育的装备成为头盔的几率提高 {0}%",
+    "en": "{0}% increased chance for Birthed Equipment to be Helmets"
+  },
+  {
+    "id": "brequel_equipment_fruit_helmet_chance_+%",
+    "zh": "孕育的装备成为头盔的几率降低 {0}%",
+    "en": "{0}% reduced chance for Birthed Equipment to be Helmets"
+  },
+  {
+    "id": "brequel_equipment_fruit_intelligence_requirement_chance_+%_final",
+    "zh": "孕育的装备需要智慧的几率总增 {0}%",
+    "en": "{0}% more chance for Birthed Equipment to have Intelligence Requirements"
+  },
+  {
+    "id": "brequel_equipment_fruit_intelligence_requirement_chance_+%_final",
+    "zh": "孕育的装备需要智慧的几率总降 {0}%",
+    "en": "{0}% less chance for Birthed Equipment to have Intelligence Requirements"
+  },
+  {
+    "id": "brequel_equipment_fruit_item_rarity_+%",
+    "zh": "孕育的装备稀有度提高 {0}%",
+    "en": "Birthed Equipment has {0}% increased Rarity"
+  },
+  {
+    "id": "brequel_equipment_fruit_item_rarity_+%",
+    "zh": "孕育的装备稀有度降低 {0}%",
+    "en": "Birthed Equipment has {0}% reduced Rarity"
+  },
+  {
+    "id": "brequel_equipment_fruit_jewel_chance_+%",
+    "zh": "孕育的装备成为珠宝的几率提高 {0}%",
+    "en": "{0}% increased chance for Birthed Equipment to be Jewels"
+  },
+  {
+    "id": "brequel_equipment_fruit_jewel_chance_+%",
+    "zh": "孕育的装备成为珠宝的几率降低 {0}%",
+    "en": "{0}% reduced chance for Birthed Equipment to be Jewels"
+  },
+  {
+    "id": "brequel_equipment_fruit_jewel_enabled",
+    "zh": "补给孕育之礼可能改为孕育珠宝",
+    "en": "Provisioning Wombgifts may instead Birth Jewels"
+  },
+  {
+    "id": "brequel_equipment_fruit_jewellery_chance_+%",
+    "zh": "孕育的装备成为首饰的几率提高 {0}%",
+    "en": "{0}% increased chance for Birthed Equipment to be Jewellery"
+  },
+  {
+    "id": "brequel_equipment_fruit_jewellery_chance_+%",
+    "zh": "孕育的装备成为首饰的几率降低 {0}%",
+    "en": "{0}% reduced chance for Birthed Equipment to be Jewellery"
+  },
+  {
+    "id": "brequel_equipment_fruit_life_modifier_chance_+%",
+    "zh": "孕育的装备出现生命词缀的几率提高 {0}%",
+    "en": "Birthed Equipment has {0}% increased chance for Life Modifiers"
+  },
+  {
+    "id": "brequel_equipment_fruit_life_modifier_chance_+%",
+    "zh": "孕育的装备出现生命词缀的几率降低 {0}%",
+    "en": "Birthed Equipment has {0}% reduced chance for Life Modifiers"
+  },
+  {
+    "id": "brequel_equipment_fruit_lightning_modifier_chance_+%",
+    "zh": "孕育的装备出现闪电词缀的几率提高 {0}%",
+    "en": "Birthed Equipment has {0}% increased chance for Lightning Modifiers"
+  },
+  {
+    "id": "brequel_equipment_fruit_lightning_modifier_chance_+%",
+    "zh": "孕育的装备出现闪电词缀的几率降低 {0}%",
+    "en": "Birthed Equipment has {0}% reduced chance for Lightning Modifiers"
+  },
+  {
+    "id": "brequel_equipment_fruit_mana_modifier_chance_+%",
+    "zh": "孕育的装备出现魔力词缀的几率提高 {0}%",
+    "en": "Birthed Equipment has {0}% increased chance for Mana Modifiers"
+  },
+  {
+    "id": "brequel_equipment_fruit_mana_modifier_chance_+%",
+    "zh": "孕育的装备出现魔力词缀的几率降低 {0}%",
+    "en": "Birthed Equipment has {0}% reduced chance for Mana Modifiers"
+  },
+  {
+    "id": "brequel_equipment_fruit_mod_tier_rating_+",
+    "zh": "孕育的装备词缀阶级 {0}",
+    "en": "Birthed Equipment has {0} to Modifier Tier Rating"
+  },
+  {
+    "id": "brequel_equipment_fruit_physical_modifier_chance_+%",
+    "zh": "孕育的装备出现物理词缀的几率提高 {0}%",
+    "en": "Birthed Equipment has {0}% increased chance for Physical Modifiers"
+  },
+  {
+    "id": "brequel_equipment_fruit_physical_modifier_chance_+%",
+    "zh": "孕育的装备出现物理词缀的几率降低 {0}%",
+    "en": "Birthed Equipment has {0}% reduced chance for Physical Modifiers"
+  },
+  {
+    "id": "brequel_equipment_fruit_quiver_chance_+%",
+    "zh": "孕育的装备成为箭袋的几率提高 {0}%",
+    "en": "{0}% increased chance for Birthed Equipment to be Quivers"
+  },
+  {
+    "id": "brequel_equipment_fruit_quiver_chance_+%",
+    "zh": "孕育的装备成为箭袋的几率降低 {0}%",
+    "en": "{0}% reduced chance for Birthed Equipment to be Quivers"
+  },
+  {
+    "id": "brequel_equipment_fruit_ranged_weapon_chance_+%",
+    "zh": "孕育的装备成为远程武器的几率提高 {0}%",
+    "en": "{0}% increased chance for Birthed Equipment to be Ranged Weapons"
+  },
+  {
+    "id": "brequel_equipment_fruit_ranged_weapon_chance_+%",
+    "zh": "孕育的装备成为远程武器的几率降低 {0}%",
+    "en": "{0}% reduced chance for Birthed Equipment to be Ranged Weapons"
+  },
+  {
+    "id": "brequel_equipment_fruit_remove_lowest_level_modifier",
+    "zh": "孕育的装备最低等级的词缀被移除",
+    "en": "Birthed Equipment has the lowest Level Modifier removed"
+  },
+  {
+    "id": "brequel_equipment_fruit_resistance_modifier_chance_+%",
+    "zh": "孕育的装备出现抗性词缀的几率提高 {0}%",
+    "en": "Birthed Equipment has {0}% increased chance for Resistance Modifiers"
+  },
+  {
+    "id": "brequel_equipment_fruit_resistance_modifier_chance_+%",
+    "zh": "孕育的装备出现抗性词缀的几率降低 {0}%",
+    "en": "Birthed Equipment has {0}% reduced chance for Resistance Modifiers"
+  },
+  {
+    "id": "brequel_equipment_fruit_ring_chance_+%",
+    "zh": "孕育的装备成为戒指的几率提高 {0}%",
+    "en": "{0}% increased chance for Birthed Equipment to be Rings"
+  },
+  {
+    "id": "brequel_equipment_fruit_ring_chance_+%",
+    "zh": "孕育的装备成为戒指的几率降低 {0}%",
+    "en": "{0}% reduced chance for Birthed Equipment to be Rings"
+  },
+  {
+    "id": "brequel_equipment_fruit_shield_chance_+%",
+    "zh": "孕育的装备成为盾牌的几率提高 {0}%",
+    "en": "{0}% increased chance for Birthed Equipment to be Shields"
+  },
+  {
+    "id": "brequel_equipment_fruit_shield_chance_+%",
+    "zh": "孕育的装备成为盾牌的几率降低 {0}%",
+    "en": "{0}% reduced chance for Birthed Equipment to be Shields"
+  },
+  {
+    "id": "brequel_equipment_fruit_speed_modifier_chance_+%",
+    "zh": "孕育的装备出现速度词缀的几率提高 {0}%",
+    "en": "Birthed Equipment has {0}% increased chance for Speed Modifiers"
+  },
+  {
+    "id": "brequel_equipment_fruit_speed_modifier_chance_+%",
+    "zh": "孕育的装备出现速度词缀的几率降低 {0}%",
+    "en": "Birthed Equipment has {0}% reduced chance for Speed Modifiers"
+  },
+  {
+    "id": "brequel_equipment_fruit_strength_requirement_chance_+%_final",
+    "zh": "孕育的装备需要力量的几率总增 {0}%",
+    "en": "{0}% more chance for Birthed Equipment to have Strength Requirements"
+  },
+  {
+    "id": "brequel_equipment_fruit_strength_requirement_chance_+%_final",
+    "zh": "孕育的装备需要力量的几率总降 {0}%",
+    "en": "{0}% less chance for Birthed Equipment to have Strength Requirements"
+  },
+  {
+    "id": "brequel_equipment_fruit_weapon_and_armour_X_lucky_socket_number_and_links_rolls",
+    "zh": "孕育的装备鉴定插槽和羁绊的次数 +{0}，保留最佳结果",
+    "en": "Birthed Equipment rolls Sockets and Links +{0} times, keeping the best outcome"
+  },
+  {
+    "id": "brequel_equipment_fruit_weapon_and_armour_random_quality",
+    "zh": "孕育的武器和防具具有随机品质",
+    "en": "Birthed Weapons and Armour have a random amount of Quality"
+  },
+  {
+    "id": "brequel_equipment_fruit_weapon_chance_+%",
+    "zh": "孕育的装备成为武器的几率提高 {0}%",
+    "en": "{0}% increased chance for Birthed Equipment to be Weapons"
+  },
+  {
+    "id": "brequel_equipment_fruit_weapon_chance_+%",
+    "zh": "孕育的装备成为武器的几率降低 {0}%",
+    "en": "{0}% reduced chance for Birthed Equipment to be Weapons"
+  },
+  {
+    "id": "brequel_graft_fruit_additional_item_%",
+    "zh": "孕育之礼有 {0}% 几率额外孕育一个移植物",
+    "en": "{0}% chance for Wombgifts to Birth an additional Graft"
+  },
+  {
+    "id": "brequel_graft_fruit_additional_item_%",
+    "zh": "孕育之礼额外孕育一个移植物",
+    "en": "Wombgifts Birth an additional Graft"
+  },
+  {
+    "id": "brequel_graft_fruit_esh_chance_+%",
+    "zh": "孕育的移植物成为艾许移植物的几率提高 {0}%",
+    "en": "{0}% increased chance for Birthed Grafts to be Eshgrafts"
+  },
+  {
+    "id": "brequel_graft_fruit_esh_chance_+%",
+    "zh": "孕育的移植物成为艾许移植物的几率降低 {0}%",
+    "en": "{0}% reduced chance for Birthed Grafts to be Eshgrafts"
+  },
+  {
+    "id": "brequel_graft_fruit_item_level_+",
+    "zh": "孕育的移植物物品等级 {0}",
+    "en": "Birthed Grafts have {0} to Item Level"
+  },
+  {
+    "id": "brequel_graft_fruit_item_rarity_+%",
+    "zh": "孕育的移植物稀有度提高 {0}%",
+    "en": "Birthed Grafts have {0}% increased Rarity"
+  },
+  {
+    "id": "brequel_graft_fruit_item_rarity_+%",
+    "zh": "孕育的移植物稀有度降低 {0}%",
+    "en": "Birthed Grafts have {0}% reduced Rarity"
+  },
+  {
+    "id": "brequel_graft_fruit_mod_tier_rating_+",
+    "zh": "孕育的移植物词缀等级 {0}",
+    "en": "Birthed Grafts have {0} to Modifier Tier Rating"
+  },
+  {
+    "id": "brequel_graft_fruit_random_quality",
+    "zh": "孕育的移植物具有随机品质",
+    "en": "Birthed Grafts have a random amount of Quality"
+  },
+  {
+    "id": "brequel_graft_fruit_tul_chance_+%",
+    "zh": "孕育的移植物成为图尔移植物的几率提高 {0}%",
+    "en": "{0}% increased chance for Birthed Grafts to be Tulgrafts"
+  },
+  {
+    "id": "brequel_graft_fruit_tul_chance_+%",
+    "zh": "孕育的移植物成为图尔移植物的几率降低 {0}%",
+    "en": "{0}% reduced chance for Birthed Grafts to be Tulgrafts"
+  },
+  {
+    "id": "brequel_graft_fruit_uul_netol_chance_+%",
+    "zh": "孕育的移植物成为乌尔尼多移植物的几率提高 {0}%",
+    "en": "{0}% increased chance for Birthed Grafts to be Uulgrafts"
+  },
+  {
+    "id": "brequel_graft_fruit_uul_netol_chance_+%",
+    "zh": "孕育的移植物成为乌尔尼多移植物的几率降低 {0}%",
+    "en": "{0}% reduced chance for Birthed Grafts to be Uulgrafts"
+  },
+  {
+    "id": "brequel_graft_fruit_xoph_chance_+%",
+    "zh": "孕育的移植物成为索伏移植物的几率提高 {0}%",
+    "en": "{0}% increased chance for Birthed Grafts to be Xophgrafts"
+  },
+  {
+    "id": "brequel_graft_fruit_xoph_chance_+%",
+    "zh": "孕育的移植物成为索伏移植物的几率降低 {0}%",
+    "en": "{0}% reduced chance for Birthed Grafts to be Xophgrafts"
+  },
+  {
+    "id": "brequel_misc_fruit_common_rewards_chance_+%",
+    "zh": "神秘孕育之礼孕育常见物品的几率提高 {0}%",
+    "en": "{0}% increased chance for Mysterious Wombgifts to Birth commonly found Items"
+  },
+  {
+    "id": "brequel_misc_fruit_currency_fruit_chance_+%",
+    "zh": "神秘孕育之礼孕育奢华孕育之礼的几率提高 {0}%",
+    "en": "{0}% increased chance for Mysterious Wombgifts to Birth Lavish Wombgifts"
+  },
+  {
+    "id": "brequel_misc_fruit_equipment_fruit_chance_+%",
+    "zh": "神秘孕育之礼孕育补给孕育之礼的几率提高 {0}%",
+    "en": "{0}% increased chance for Mysterious Wombgifts to Birth Provisioning Wombgifts"
+  },
+  {
+    "id": "brequel_misc_fruit_graft_fruit_chance_+%",
+    "zh": "神秘孕育之礼孕育成长孕育之礼的几率提高 {0}%",
+    "en": "{0}% increased chance for Mysterious Wombgifts to Birth Growing Wombgifts"
+  },
+  {
+    "id": "brequel_misc_fruit_other_fruits_enabled",
+    "zh": "神秘孕育之礼可能孕育其他孕育之礼",
+    "en": "Mysterious Wombgifts may Birth other Wombgifts"
+  },
+  {
+    "id": "brequel_misc_fruit_rarer_rewards_chance_+%",
+    "zh": "神秘孕育之礼孕育稀有物品的几率提高 {0}%",
+    "en": "{0}% increased chance for Mysterious Wombgifts to Birth infrequently found Items"
+  },
+  {
+    "id": "brequel_misc_fruit_unique_fruit_chance_+%",
+    "zh": "神秘孕育之礼孕育远古孕育之礼的几率提高 {0}%",
+    "en": "{0}% increased chance for Mysterious Wombgifts to Birth Ancient Wombgifts"
+  },
+  {
+    "id": "brequel_unique_fruit_1h_weapon_chance_+%",
+    "zh": "孕育的传奇物品成为单手近战武器的几率提高 {0}%",
+    "en": "{0}% increased chance for Birthed Unique Items to be One-Handed Melee Weapons"
+  },
+  {
+    "id": "brequel_unique_fruit_1h_weapon_chance_+%",
+    "zh": "孕育的传奇物品成为单手近战武器的几率降低 {0}%",
+    "en": "{0}% reduced chance for Birthed Unique Items to be One-Handed Melee Weapons"
+  },
+  {
+    "id": "brequel_unique_fruit_2h_weapon_chance_+%",
+    "zh": "孕育的传奇物品成为双手近战武器的几率提高 {0}%",
+    "en": "{0}% increased chance for Birthed Unique Items to be Two-Handed Melee Weapons"
+  },
+  {
+    "id": "brequel_unique_fruit_2h_weapon_chance_+%",
+    "zh": "孕育的传奇物品成为双手近战武器的几率降低 {0}%",
+    "en": "{0}% reduced chance for Birthed Unique Items to be Two-Handed Melee Weapons"
+  },
+  {
+    "id": "brequel_unique_fruit_X_divine_rolls",
+    "zh": "孕育传奇物品上的随机词缀数值额外鉴定一次，保留最佳结果",
+    "en": "Values of the random modifiers on Birthed Uniques are rolled an additional time keeping the best outcome"
+  },
+  {
+    "id": "brequel_unique_fruit_X_divine_rolls",
+    "zh": "孕育传奇物品上的随机词缀数值额外鉴定 {0} 次，保留最佳结果",
+    "en": "Values of the random modifiers on Birthed Uniques are rolled {0} additional times keeping the best outcome"
+  },
+  {
+    "id": "brequel_unique_fruit_X_lucky_rolls",
+    "zh": "孕育的传奇物品额外鉴定一次，保留最稀有的结果",
+    "en": "Birthed Uniques are rolled an additional time keeping the rarest outcome"
+  },
+  {
+    "id": "brequel_unique_fruit_X_lucky_rolls",
+    "zh": "孕育的传奇物品额外鉴定 {0} 次，保留最稀有的结果",
+    "en": "Birthed Uniques are rolled {0} additional times keeping the rarest outcome"
+  },
+  {
+    "id": "brequel_unique_fruit_additional_item_%",
+    "zh": "远古孕育之礼有 {0}% 几率额外孕育一个物品",
+    "en": "{0}% chance for Ancient Wombgifts to Birth an additional Item"
+  },
+  {
+    "id": "brequel_unique_fruit_amulet_chance_+%",
+    "zh": "孕育的传奇物品成为项链的几率提高 {0}%",
+    "en": "{0}% increased chance for Birthed Unique Items to be Amulets"
+  },
+  {
+    "id": "brequel_unique_fruit_amulet_chance_+%",
+    "zh": "孕育的传奇物品成为项链的几率降低 {0}%",
+    "en": "{0}% reduced chance for Birthed Unique Items to be Amulets"
+  },
+  {
+    "id": "brequel_unique_fruit_armour_chance_+%",
+    "zh": "孕育的传奇物品成为防具的几率提高 {0}%",
+    "en": "{0}% increased chance for Birthed Unique Items to be Armour"
+  },
+  {
+    "id": "brequel_unique_fruit_armour_chance_+%",
+    "zh": "孕育的传奇物品成为防具的几率降低 {0}%",
+    "en": "{0}% reduced chance for Birthed Unique Items to be Armour"
+  },
+  {
+    "id": "brequel_unique_fruit_belt_chance_+%",
+    "zh": "孕育的传奇物品成为腰带的几率提高 {0}%",
+    "en": "{0}% increased chance for Birthed Unique Items to be Belts"
+  },
+  {
+    "id": "brequel_unique_fruit_belt_chance_+%",
+    "zh": "孕育的传奇物品成为腰带的几率降低 {0}%",
+    "en": "{0}% reduced chance for Birthed Unique Items to be Belts"
+  },
+  {
+    "id": "brequel_unique_fruit_body_armour_chance_+%",
+    "zh": "孕育的传奇物品成为胸甲的几率提高 {0}%",
+    "en": "{0}% increased chance for Birthed Unique Items to be Body Armour"
+  },
+  {
+    "id": "brequel_unique_fruit_body_armour_chance_+%",
+    "zh": "孕育的传奇物品成为胸甲的几率降低 {0}%",
+    "en": "{0}% reduced chance for Birthed Unique Items to be Body Armour"
+  },
+  {
+    "id": "brequel_unique_fruit_boots_chance_+%",
+    "zh": "孕育的传奇物品成为鞋子的几率提高 {0}%",
+    "en": "{0}% increased chance for Birthed Unique Items to be Boots"
+  },
+  {
+    "id": "brequel_unique_fruit_boots_chance_+%",
+    "zh": "孕育的传奇物品成为鞋子的几率降低 {0}%",
+    "en": "{0}% reduced chance for Birthed Unique Items to be Boots"
+  },
+  {
+    "id": "brequel_unique_fruit_dexterity_requirement_chance_+%",
+    "zh": "孕育的传奇物品需要敏捷的几率提高 {0}%",
+    "en": "{0}% more chance for Birthed Unique Items to have Dexterity Requirements"
+  },
+  {
+    "id": "brequel_unique_fruit_dexterity_requirement_chance_+%",
+    "zh": "孕育的传奇物品需要敏捷的几率降低 {0}%",
+    "en": "{0}% less chance for Birthed Unique Items to have Dexterity Requirements"
+  },
+  {
+    "id": "brequel_unique_fruit_flask_chance_+%",
+    "zh": "孕育的传奇物品成为药剂的几率提高 {0}%",
+    "en": "{0}% increased chance for Birthed Unique Items to be Flasks"
+  },
+  {
+    "id": "brequel_unique_fruit_flask_chance_+%",
+    "zh": "孕育的传奇物品成为药剂的几率降低 {0}%",
+    "en": "{0}% reduced chance for Birthed Unique Items to be Flasks"
+  },
+  {
+    "id": "brequel_unique_fruit_gloves_chance_+%",
+    "zh": "孕育的传奇物品成为手套的几率提高 {0}%",
+    "en": "{0}% increased chance for Birthed Unique Items to be Gloves"
+  },
+  {
+    "id": "brequel_unique_fruit_gloves_chance_+%",
+    "zh": "孕育的传奇物品成为手套的几率降低 {0}%",
+    "en": "{0}% reduced chance for Birthed Unique Items to be Gloves"
+  },
+  {
+    "id": "brequel_unique_fruit_helmet_chance_+%",
+    "zh": "孕育的传奇物品成为头盔的几率提高 {0}%",
+    "en": "{0}% increased chance for Birthed Unique Items to be Helmets"
+  },
+  {
+    "id": "brequel_unique_fruit_helmet_chance_+%",
+    "zh": "孕育的传奇物品成为头盔的几率降低 {0}%",
+    "en": "{0}% reduced chance for Birthed Unique Items to be Helmets"
+  },
+  {
+    "id": "brequel_unique_fruit_intelligence_requirement_chance_+%",
+    "zh": "孕育的传奇物品需要智慧的几率提高 {0}%",
+    "en": "{0}% more chance for Birthed Unique Items to have Intelligence Requirements"
+  },
+  {
+    "id": "brequel_unique_fruit_intelligence_requirement_chance_+%",
+    "zh": "孕育的传奇物品需要智慧的几率降低 {0}%",
+    "en": "{0}% less chance for Birthed Unique Items to have Intelligence Requirements"
+  },
+  {
+    "id": "brequel_unique_fruit_jewel_chance_+%",
+    "zh": "孕育的传奇物品成为珠宝的几率提高 {0}%",
+    "en": "{0}% increased chance for Birthed Unique Items to be Jewels"
+  },
+  {
+    "id": "brequel_unique_fruit_jewel_chance_+%",
+    "zh": "孕育的传奇物品成为珠宝的几率降低 {0}%",
+    "en": "{0}% reduced chance for Birthed Unique Items to be Jewels"
+  },
+  {
+    "id": "brequel_unique_fruit_jewellery_chance_+%",
+    "zh": "孕育的传奇物品成为首饰的几率提高 {0}%",
+    "en": "{0}% increased chance for Birthed Unique Items to be Jewellery"
+  },
+  {
+    "id": "brequel_unique_fruit_jewellery_chance_+%",
+    "zh": "孕育的传奇物品成为首饰的几率降低 {0}%",
+    "en": "{0}% reduced chance for Birthed Unique Items to be Jewellery"
+  },
+  {
+    "id": "brequel_unique_fruit_multiple_mutation_chance_%",
+    "zh": "孕育的秽生传奇物品有 {0}% 几率拥有多个秽生词缀",
+    "en": "Birthed Foulborn Uniques have a {0}% chance of multiple Foulborn Modifiers"
+  },
+  {
+    "id": "brequel_unique_fruit_mutation_chance_+%",
+    "zh": "孕育的传奇物品成为秽生传奇的几率提高 {0}%",
+    "en": "Birthed Uniques have {0}% increased chance to be Foulborn"
+  },
+  {
+    "id": "brequel_unique_fruit_mutation_chance_+%",
+    "zh": "孕育的传奇物品成为秽生传奇的几率降低 {0}%",
+    "en": "Birthed Uniques have {0}% reduced chance to be Foulborn"
+  },
+  {
+    "id": "brequel_unique_fruit_non_mutated_items_are_corrupted",
+    "zh": "孕育的非秽生传奇物品被腐化",
+    "en": "Birthed Non-Foulborn Unique Items are Corrupted"
+  },
+  {
+    "id": "brequel_unique_fruit_quiver_chance_+%",
+    "zh": "孕育的传奇物品成为箭袋的几率提高 {0}%",
+    "en": "{0}% increased chance for Birthed Unique Items to be Quivers"
+  },
+  {
+    "id": "brequel_unique_fruit_quiver_chance_+%",
+    "zh": "孕育的传奇物品成为箭袋的几率降低 {0}%",
+    "en": "{0}% reduced chance for Birthed Unique Items to be Quivers"
+  },
+  {
+    "id": "brequel_unique_fruit_ranged_weapon_chance_+%",
+    "zh": "孕育的传奇物品成为远程武器的几率提高 {0}%",
+    "en": "{0}% increased chance for Birthed Unique Items to be Ranged Weapons"
+  },
+  {
+    "id": "brequel_unique_fruit_ranged_weapon_chance_+%",
+    "zh": "孕育的传奇物品成为远程武器的几率降低 {0}%",
+    "en": "{0}% reduced chance for Birthed Unique Items to be Ranged Weapons"
+  },
+  {
+    "id": "brequel_unique_fruit_ring_chance_+%",
+    "zh": "孕育的传奇物品成为戒指的几率提高 {0}%",
+    "en": "{0}% increased chance for Birthed Unique Items to be Rings"
+  },
+  {
+    "id": "brequel_unique_fruit_ring_chance_+%",
+    "zh": "孕育的传奇物品成为戒指的几率降低 {0}%",
+    "en": "{0}% reduced chance for Birthed Unique Items to be Rings"
+  },
+  {
+    "id": "brequel_unique_fruit_shield_chance_+%",
+    "zh": "孕育的传奇物品成为盾牌的几率提高 {0}%",
+    "en": "{0}% increased chance for Birthed Unique Items to be Shields"
+  },
+  {
+    "id": "brequel_unique_fruit_shield_chance_+%",
+    "zh": "孕育的传奇物品成为盾牌的几率降低 {0}%",
+    "en": "{0}% reduced chance for Birthed Unique Items to be Shields"
+  },
+  {
+    "id": "brequel_unique_fruit_strength_requirement_chance_+%",
+    "zh": "孕育的传奇物品需要力量的几率提高 {0}%",
+    "en": "{0}% more chance for Birthed Unique Items to have Strength Requirements"
+  },
+  {
+    "id": "brequel_unique_fruit_strength_requirement_chance_+%",
+    "zh": "孕育的传奇物品需要力量的几率降低 {0}%",
+    "en": "{0}% less chance for Birthed Unique Items to have Strength Requirements"
+  },
+  {
+    "id": "brequel_unique_fruit_weapon_and_armour_X_lucky_socket_number_and_links_rolls",
+    "zh": "孕育的传奇武器和防具鉴定插槽和羁绊的次数 +{0}，保留最佳结果",
+    "en": "Birthed Unique Weapons and Armour roll Sockets and Links +{0} times keeping the best outcome"
+  },
+  {
+    "id": "brequel_unique_fruit_weapon_and_armour_random_quality",
+    "zh": "孕育的传奇武器和防具具有随机品质",
+    "en": "Birthed Unique Weapons and Armour have a random amount of Quality"
+  },
+  {
+    "id": "brequel_unique_fruit_weapon_chance_+%",
+    "zh": "孕育的传奇物品成为武器的几率提高 {0}%",
+    "en": "{0}% increased chance for Birthed Unique Items to be Weapons"
+  },
+  {
+    "id": "brequel_unique_fruit_weapon_chance_+%",
+    "zh": "孕育的传奇物品成为武器的几率降低 {0}%",
+    "en": "{0}% reduced chance for Birthed Unique Items to be Weapons"
   },
   {
     "id": "buff_effect_+%_on_low_energy_shield",
@@ -34520,6 +35930,11 @@
     "en": "You can have an additional Tincture active"
   },
   {
+    "id": "can_catch_mutated_fish",
+    "zh": "你可以捕获秽生鱼种",
+    "en": "You can catch Foulborn Fish"
+  },
+  {
     "id": "can_catch_scourged_fish",
     "zh": "你可以捕获天灾鱼种",
     "en": "You can catch Scourged Fish"
@@ -34528,6 +35943,11 @@
     "id": "can_only_have_one_ancestor_totem_buff",
     "zh": "一次最多只能从一个激活的先祖图腾中获得 1 个增益效果",
     "en": "Maximum 1 Buff from an Active Ancestor Totem at a time"
+  },
+  {
+    "id": "can_only_inflict_wither_against_full_life_enemies",
+    "zh": "无法对未满血的敌人施加凋零",
+    "en": "Cannot Inflict Wither on targets that are not on Full Life"
   },
   {
     "id": "can_trigger_summon_elemental_relic_on_nearby_ally_kill_or_on_hit_rare_or_unique",
@@ -34720,6 +36140,11 @@
     "en": "Cannot be Stunned while Fortified"
   },
   {
+    "id": "cannot_be_stunned_while_no_gems_in_helmet",
+    "zh": "若已装备的头盔没有镶嵌宝石，则免疫晕眩",
+    "en": "Cannot be Stunned if you have an Equipped Helmet with no Socketed Gems"
+  },
+  {
     "id": "cannot_be_stunned_while_using_chaos_skill",
     "zh": "混沌技能无视眩晕打断",
     "en": "Chaos Skills ignore interruption from Stuns"
@@ -34793,6 +36218,11 @@
     "id": "cannot_receive_elemental_ailments_from_cursed_enemies",
     "zh": "被诅咒的敌人无法对你施加元素异常状态",
     "en": "Cursed Enemies cannot inflict Elemental Ailments on You"
+  },
+  {
+    "id": "cannot_receive_elemental_ailments_while_no_gems_in_body_armour",
+    "zh": "若已装备的胸甲没有镶嵌宝石，则免疫元素异常状态",
+    "en": "Elemental Ailments cannot be inflicted on you if you have an Equipped Body Armour with no Socketed Gems"
   },
   {
     "id": "cannot_recharge_energy_shield",
@@ -34878,6 +36308,11 @@
     "id": "cast_speed_+%_final_while_holding_fishing_rod",
     "zh": "装备鱼竿时，施法速度总降 {0}%",
     "en": "{0}% less Cast Speed while holding a Fishing Rod"
+  },
+  {
+    "id": "cast_speed_+%_per_20_dexterity",
+    "zh": "每 20 点敏捷使施法速度加快 {0}%",
+    "en": "{0}% increased Cast Speed per 20 Dexterity"
   },
   {
     "id": "cast_speed_+%_per_num_unique_spells_cast_recently",
@@ -35301,8 +36736,8 @@
   },
   {
     "id": "chance_to_double_armour_effect_on_hit_%_per_enemy_hit_taken_recently_capped",
-    "zh": "近期每受到一次敌人的击中，就有 {0}% 的几率\n以双倍的护甲防御，最多 30%",
-    "en": "{0}% chance to Defend with double your Armour for each\ntime you've been Hit by an Enemy Recently, up to 30%"
+    "zh": "近期每次被敌人击中，有 {0}% 几率\n以 200% 护甲防御，上限 30%",
+    "en": "{0}% chance to Defend with 200% of Armour for each\ntime you've been Hit by an Enemy Recently, up to 30%"
   },
   {
     "id": "chance_to_evade_attacks_%",
@@ -35675,6 +37110,11 @@
     "en": "Chaos Damage taken does not bypass Energy Shield while not on Low Life"
   },
   {
+    "id": "chaos_damage_does_not_bypass_energy_shield_while_not_low_mana",
+    "zh": "在非濒血魔力状态下，受到的混沌伤害不会穿透能量护盾",
+    "en": "Chaos Damage taken does not bypass Energy Shield while not on Low Mana"
+  },
+  {
     "id": "extra_chaos_damage_rolls",
     "zh": "击中的混沌伤害特别幸运",
     "en": "Chaos Damage with Hits is Lucky"
@@ -35773,6 +37213,11 @@
     "id": "chaos_damage_resisted_by_lowest_resistance",
     "zh": "你的击中造成的混沌伤害由最低的抗性来抵抗",
     "en": "Chaos Damage you Deal with Hits is Resisted by lowest Resistance instead"
+  },
+  {
+    "id": "chaos_damage_taken_goes_to_life_over_4_seconds_%",
+    "zh": "{0}% 的混沌伤害吸纳为生命",
+    "en": "{0}% of Chaos Damage taken Recouped as Life"
   },
   {
     "id": "chaos_damage_taken_over_time_+%_while_in_caustic_cloud",
@@ -36195,6 +37640,11 @@
     "en": "{0}% to Cold Damage over Time Multiplier for each 4% Overcapped Cold Resistance"
   },
   {
+    "id": "cold_damage_over_time_multiplier_+_per_power_charge",
+    "zh": "每个暴击球使持续冰霜伤害加成 {0}%",
+    "en": "{0}% to Cold Damage over Time Multiplier per Power Charge"
+  },
+  {
     "id": "cold_damage_%_to_add_as_chaos_per_frenzy_charge",
     "zh": "每有一个狂怒球则获得额外混沌伤害， 其数值等同于冰霜伤害的 {0}%",
     "en": "Gain {0}% of Cold Damage as Extra Chaos Damage per Frenzy Charge"
@@ -36408,6 +37858,11 @@
     "id": "cold_skill_chance_to_inflict_cold_exposure_%",
     "zh": "冰霜技能有 {0}% 的几率在击中时施加冰霜曝露",
     "en": "Cold Skills have a {0}% chance to apply Cold Exposure on Hit"
+  },
+  {
+    "id": "cold_skill_gem_level_+_if_at_least_4_foulborn_uniques_equipped",
+    "zh": "若至少装备了 4 件秽生传奇物品，所有冰霜技能宝石等级 {0}",
+    "en": "{0} to Level of all Cold Skill Gems if at least 4 Foulborn Unique Items are Equipped"
   },
   {
     "id": "cold_skill_gem_level_+",
@@ -36650,6 +38105,16 @@
     "en": "{0}% reduced Cooldown Recovery Rate per Power Charge"
   },
   {
+    "id": "cooldown_speed_+%_per_green_skill_gem",
+    "zh": "每镶嵌一颗绿色技能宝石，冷却回复速度加快 {0}%",
+    "en": "{0}% increased Cooldown Recovery Rate for each Green Skill Gem you have socketed"
+  },
+  {
+    "id": "cooldown_speed_+%_per_green_skill_gem",
+    "zh": "每镶嵌一颗绿色技能宝石，冷却回复速度减慢 {0}%",
+    "en": "{0}% reduced Cooldown Recovery Rate for each Green Skill Gem you have socketed"
+  },
+  {
     "id": "cooldown_speed_+%_per_brand_up_to_40%",
     "zh": "每个烙印使冷却回复速度加快 {0}%，最多 40%",
     "en": "{0}% increased Cooldown Recovery Rate per Brand, up to a maximum of 40%"
@@ -36753,6 +38218,11 @@
     "id": "corrupting_fever_duration_+%",
     "zh": "腐灼热瘟的持续时间缩短 {0}%",
     "en": "{0}% reduced Corrupting Fever Duration"
+  },
+  {
+    "id": "count_as_blocking_attack_from_shield_attack_first_target",
+    "zh": "每次盾牌攻击视为格挡击中的第一个目标",
+    "en": "Count as Blocking Attack Damage from the first target Hit with each Shield Attack"
   },
   {
     "id": "count_as_having_max_endurance_charges",
@@ -37260,6 +38730,11 @@
     "en": "{0}% to Critical Strike Multiplier if you've dealt a Non-Critical Strike Recently"
   },
   {
+    "id": "critical_strike_multiplier_+_per_25_dexterity",
+    "zh": "每 25 点敏捷使暴击伤害加成 {0}%",
+    "en": "{0}% to Critical Strike Multiplier per 25 Dexterity"
+  },
+  {
     "id": "critical_strike_multiplier_+_vs_stunned_enemies",
     "zh": "对眩晕敌人的暴击伤害提高 {0}%",
     "en": "{0}% to Critical Strike Multiplier against Stunned Enemies"
@@ -37728,6 +39203,16 @@
     "id": "damage_from_hits_always_and_only_bypasses_energy_shield_when_not_blocked",
     "zh": "受到来自格挡的击中伤害无法忽略能量护盾\n受到来自未格挡的击中伤害始终忽略能量护盾",
     "en": "Damage taken from Blocked Hits cannot bypass Energy Shield\nDamage taken from Unblocked hits always bypasses Energy Shield"
+  },
+  {
+    "id": "damage_over_time_+%_per_100_max_life",
+    "zh": "每 100 点玩家最大生命值使持续伤害提高 {0}%",
+    "en": "Deal {0}% increased Damage Over Time per 100 Player Maximum Life"
+  },
+  {
+    "id": "damage_over_time_+%_per_100_max_life",
+    "zh": "每 100 点玩家最大生命值使持续伤害降低 {0}%",
+    "en": "Deal {0}% reduced Damage Over Time per 100 Player Maximum Life"
   },
   {
     "id": "damage_over_time_multiplier_+_if_enemy_killed_recently",
@@ -38330,6 +39815,11 @@
     "en": "{0}% less Damage taken if you've used a Retaliation Skill Recently"
   },
   {
+    "id": "damage_taken_+%_final_per_5_rage_from_painshed_capped_at_50%_less",
+    "zh": "每 5 点狂怒使受到的伤害降低 {0}%，上限 30%",
+    "en": "{0}% less Damage taken per 5 Rage, up to a maximum of 30%"
+  },
+  {
     "id": "damage_taken_+%_for_4_seconds_after_spending_200_mana",
     "zh": "消耗总计 200 魔力后，在 4 秒内受到的伤害提高 {0}%",
     "en": "{0}% increased Damage Taken for 4 seconds after Spending a total of 200 Mana"
@@ -38341,13 +39831,13 @@
   },
   {
     "id": "damage_taken_+%_if_there_are_at_least_2_rare_or_unique_enemies_nearby",
-    "zh": "若周围至少有两个稀有或传奇敌人，则受到的伤害提高 {0}%",
-    "en": "{0}% increased Damage taken while there are at least two Rare or Unique Enemies nearby"
+    "zh": "周围至少有两个稀有或传奇敌人时，受到的伤害总增 {0}%",
+    "en": "{0}% more Damage taken while there are at least two Rare or Unique Enemies nearby"
   },
   {
     "id": "damage_taken_+%_if_there_are_at_least_2_rare_or_unique_enemies_nearby",
-    "zh": "若周围至少有两个稀有或传奇敌人时，则受到的伤害降低 {0}%",
-    "en": "{0}% reduced Damage taken while there are at least two Rare or Unique Enemies nearby"
+    "zh": "周围至少有两个稀有或传奇敌人时，受到的伤害总降 {0}%",
+    "en": "{0}% less Damage taken while there are at least two Rare or Unique Enemies nearby"
   },
   {
     "id": "damage_taken_+%_while_affected_by_elusive",
@@ -38363,6 +39853,11 @@
     "id": "damage_taken_+_from_suppressed_hits",
     "zh": "受到的被压制击中的每一种类型的伤害 {0}",
     "en": "{0} Damage taken of each Damage Type from Suppressed Hits"
+  },
+  {
+    "id": "damage_taken_bypasses_ward_if_hits_deal_less_than_%_of_ward",
+    "zh": "若击中造成的伤害低于结界值的 {0}%，则该伤害会穿透未被打破的结界",
+    "en": "Damage taken bypasses Unbroken Ward if the Hit deals less Damage than {0}% of Ward"
   },
   {
     "id": "damage_taken_from_criticals_recouped_as_life_%",
@@ -38540,8 +40035,13 @@
     "en": "{0}% reduced Damage taken while Phasing"
   },
   {
+    "id": "damage_taken_recouped_as_life_%_per_socketed_red_gem",
+    "zh": "每镶嵌一个红色宝石，{0}% 的伤害吸纳为生命",
+    "en": "{0}% of Damage taken Recouped as Life per Socketed Red Gem"
+  },
+  {
     "id": "damage_taken_while_frozen_recouped_as_life_%",
-    "zh": "被冬季时受到伤害的 {0}% 吸纳为生命",
+    "zh": "被冻结时受到伤害的 {0}% 吸纳为生命",
     "en": "{0}% of Damage taken while Frozen Recouped as Life"
   },
   {
@@ -38905,6 +40405,21 @@
     "en": "{0} to Level of all Dexterity Skill Gems"
   },
   {
+    "id": "disable_amulet_slot",
+    "zh": "无法使用项链",
+    "en": "Can't use Amulets"
+  },
+  {
+    "id": "disable_belt_slot",
+    "zh": "无法使用腰带",
+    "en": "Can't use Belts"
+  },
+  {
+    "id": "disable_utility_flasks",
+    "zh": "功能药剂被禁用",
+    "en": "Utility Flasks are Disabled"
+  },
+  {
     "id": "discharge_and_voltaxic_burst_nova_spells_cast_at_target_location",
     "zh": "解放和雷电魔爆不在周身施放，改为在目标位置施放",
     "en": "Discharge and Voltaxic Burst are Cast at the targeted location instead of around you"
@@ -38953,6 +40468,16 @@
     "id": "discharge_triggered_damage_+%_final",
     "zh": "被触发时伤害总降 {0}%",
     "en": "{0}% less Damage if Triggered"
+  },
+  {
+    "id": "discipline_aura_effect_+%_while_no_power_charges",
+    "zh": "当你没有暴击球时，纪律的光环效果提高 {0}%",
+    "en": "Discipline has {0}% increased Aura Effect while you have no Power Charges"
+  },
+  {
+    "id": "discipline_aura_effect_+%_while_no_power_charges",
+    "zh": "当你没有暴击球时，纪律的光环效果降低 {0}%",
+    "en": "Discipline has {0}% reduced Aura Effect while you have no Power Charges"
   },
   {
     "id": "discipline_mana_reservation_efficiency_-2%_per_1",
@@ -39270,6 +40795,11 @@
     "en": "{0}% chance to gain Soul Eater for 20 seconds on Killing Blow against Rare and Unique Enemies with Double Strike or Dual Strike"
   },
   {
+    "id": "double_animate_weapons_limit",
+    "zh": "幻化武器的最大数量翻倍",
+    "en": "Maximum number of Animated Weapons is Doubled"
+  },
+  {
     "id": "double_damage_chance_%_if_below_100_strength",
     "zh": "力量低于 100 点时有 {0}% 的几率造成双倍伤害",
     "en": "{0}% chance to deal Double Damage if Strength is below 100"
@@ -39488,6 +41018,21 @@
     "id": "elemental_damage_+%_per_different_enemy_elemental_ailment",
     "zh": "敌人每受到一种元素异常状态影响，\n击中和异常状态造成的元素伤害降低 {0}%",
     "en": "{0}% reduced Elemental Damage with Hits and Ailments for\neach type of Elemental Ailment on Enemy"
+  },
+  {
+    "id": "elemental_damage_+%_per_lightning_cold_fire_resistance_above_75",
+    "zh": "高于 75% 的每 1% 火焰、冰霜或闪电抗性使元素伤害提高 {0}",
+    "en": "{0}% increased Elemental Damage per 1% Fire, Cold, or Lightning Resistance above 75%"
+  },
+  {
+    "id": "elemental_damage_+%_per_missing_lightning_cold_fire_resistance",
+    "zh": "每缺失 1% 火焰、冰霜或闪电抗性，元素伤害提高 {0}%，\n上限为 450%",
+    "en": "{0}% increased Elemental Damage per 1% Missing\nFire, Cold, or Lightning Resistance, up to a maximum of 450%"
+  },
+  {
+    "id": "elemental_damage_+%_per_missing_lightning_cold_fire_resistance",
+    "zh": "每缺失 1% 火焰、冰霜或闪电抗性，元素伤害降低 {0}%，\n上限为 450%",
+    "en": "{0}% reduced Elemental Damage per 1% Missing\nFire, Cold, or Lightning Resistance, up to a maximum of 450%"
   },
   {
     "id": "elemental_damage_additional_rolls_lucky_shocked",
@@ -39915,6 +41460,11 @@
     "en": "{0}% reduced Elusive Effect"
   },
   {
+    "id": "elusive_has_50%_chance_to_be_removed_and_reapplied_at_%_elusive_effect",
+    "zh": "灵巧效果降低到 {0}% 时，有 50% 几率从你身上移除",
+    "en": "Elusive has 50% chance to be removed from you at {0}% effect"
+  },
+  {
     "id": "elusive_loss_rate_+%",
     "zh": "你身上的灵巧效果降低的速度减慢 {0}%",
     "en": "Elusive on you reduces in effect {0}% slower"
@@ -39953,6 +41503,11 @@
     "id": "empowered_attack_double_damage_%_chance",
     "zh": "增助攻击有 {0}% 的几率造成双倍伤害",
     "en": "Exerted Attacks have {0}% chance to deal Double Damage"
+  },
+  {
+    "id": "enable_ring_slot_3",
+    "zh": "+1 戒指栏",
+    "en": "+1 Ring Slot"
   },
   {
     "id": "enchantment_boots_mana_regeneration_rate_+%_if_cast_spell_recently",
@@ -40058,6 +41613,16 @@
     "id": "enemies_explode_on_kill_while_unhinged",
     "zh": "疯狂状态下，被你的击中击败的敌人会被毁灭",
     "en": "Enemies Killed by your Hits are destroyed while Insane"
+  },
+  {
+    "id": "enemies_extra_damage_rolls_with_physical_damage",
+    "zh": "敌人击中你的物理伤害特别幸运",
+    "en": "Physical Damage of Enemies Hitting you is Lucky"
+  },
+  {
+    "id": "enemies_extra_damage_rolls_with_physical_damage",
+    "zh": "敌人击中你的物理伤害特别不幸",
+    "en": "Physical Damage of Enemies Hitting you is Unlucky"
   },
   {
     "id": "enemies_extra_damage_rolls_with_lightning_damage",
@@ -40178,6 +41743,11 @@
     "id": "enemies_shocked_by_your_hits_are_chilled",
     "zh": "因你的击中而感电的敌人同时陷入【冰缓】",
     "en": "Enemies Shocked by your Hits are Chilled"
+  },
+  {
+    "id": "enemies_shocked_by_your_hits_are_debilitated",
+    "zh": "被你感电的敌人被削弱",
+    "en": "Enemies Shocked by you are Debilitated"
   },
   {
     "id": "enemies_taunted_by_warcry_explode_on_death_%_chance_dealing_8%_life_as_chaos_damage",
@@ -40371,13 +41941,13 @@
   },
   {
     "id": "energy_shield_+%_if_both_rings_have_evasion_mod",
-    "zh": "若装备的两个戒指都有外延闪避词缀，能量护盾上限提高 {0}%",
-    "en": "{0}% increased Maximum Energy Shield if both Equipped Rings have an Explicit Evasion Modifier"
+    "zh": "若装备的左右两个戒指都有一个外延闪避词缀，能量护盾上限提高 {0}%",
+    "en": "{0}% increased Maximum Energy Shield if both Equipped Left and Right Rings have an Explicit Evasion Modifier"
   },
   {
     "id": "energy_shield_+%_if_both_rings_have_evasion_mod",
-    "zh": "若装备的两个戒指都有外延闪避词缀，能量护盾上限降低 {0}%",
-    "en": "{0}% reduced Maximum Energy Shield if both Equipped Rings have an Explicit Evasion Modifier"
+    "zh": "若装备的左右两个戒指都有一个外延闪避词缀，能量护盾上限降低 {0}%",
+    "en": "{0}% reduced Maximum Energy Shield if both Equipped Left and Right Rings have an Explicit Evasion Modifier"
   },
   {
     "id": "energy_shield_+_per_8_evasion_on_boots",
@@ -40433,6 +42003,11 @@
     "id": "energy_shield_gain_when_you_hit_enemy_affected_by_spiders_web",
     "zh": "你每击中 1 个被【蜘蛛网】覆盖的敌人，便获得 {0} 能量护盾",
     "en": "Gain {0} Energy Shield for each Enemy you Hit which is affected by a Spider's Web"
+  },
+  {
+    "id": "energy_shield_increased_by_overcapped_chaos_resistance",
+    "zh": "能量护盾根据超量火焰抗性提高",
+    "en": "Energy Shield is increased by Overcapped Fire Resistance"
   },
   {
     "id": "energy_shield_leech_does_not_stop_on_full_energy_shield",
@@ -40738,6 +42313,26 @@
     "id": "evasion_rating_+%_per_500_maximum_mana",
     "zh": "每 500 魔力上限使闪避值提高 {0}%",
     "en": "{0}% increased Evasion Rating per 500 Maximum Mana"
+  },
+  {
+    "id": "evasion_rating_+%_per_endurance_charge",
+    "zh": "每个耐力球使闪避值提高 {0}%",
+    "en": "{0}% increased Evasion Rating per Endurance Charge"
+  },
+  {
+    "id": "evasion_rating_+%_while_stationary",
+    "zh": "静止时闪避值提高 {0}%",
+    "en": "{0}% increased Evasion Rating while stationary"
+  },
+  {
+    "id": "evasion_rating_+%_while_stationary",
+    "zh": "静止时闪避值降低 {0}%",
+    "en": "{0}% reduced Evasion Rating while stationary"
+  },
+  {
+    "id": "evasion_rating_+_per_10_player_life",
+    "zh": "每 10 点玩家最大生命值使闪避值 {0}",
+    "en": "{0} to Evasion Rating per 10 Player Maximum Life"
   },
   {
     "id": "evasion_rating_+_per_1_armour_on_gloves",
@@ -41105,6 +42700,36 @@
     "en": "Your Critical Strike Chance is Unlucky while on Low Life"
   },
   {
+    "id": "extra_damage_rolls_with_cold_damage_if_have_suppressed_spell_damage_recently",
+    "zh": "若你近期压制了法术伤害，则击中造成的冰霜伤害特别幸运",
+    "en": "Cold Damage with Hits is Lucky if you've Suppressed Spell Damage Recently"
+  },
+  {
+    "id": "extra_damage_rolls_with_cold_damage_if_have_suppressed_spell_damage_recently",
+    "zh": "若你近期压制了法术伤害，则击中造成的冰霜伤害特别不幸",
+    "en": "Cold Damage with Hits is Unlucky if you've Suppressed Spell Damage Recently"
+  },
+  {
+    "id": "extra_damage_rolls_with_fire_damage_if_have_blocked_attack_recently",
+    "zh": "若你近期格挡了攻击，则击中造成的火焰伤害特别幸运",
+    "en": "Fire Damage with Hits is Lucky if you've Blocked an Attack Recently"
+  },
+  {
+    "id": "extra_damage_rolls_with_fire_damage_if_have_blocked_attack_recently",
+    "zh": "若你近期格挡了攻击，则击中造成的火焰伤害特别不幸",
+    "en": "Fire Damage with Hits is Unlucky if you've Blocked an Attack Recently"
+  },
+  {
+    "id": "extra_damage_rolls_with_lightning_damage_if_have_blocked_spell_recently",
+    "zh": "若你近期格挡了法术伤害，则击中造成的闪电伤害特别幸运",
+    "en": "Lightning Damage with Hits is Lucky if you've Blocked Spell Damage Recently"
+  },
+  {
+    "id": "extra_damage_rolls_with_lightning_damage_if_have_blocked_spell_recently",
+    "zh": "若你近期格挡了法术伤害，则击中造成的闪电伤害特别不幸",
+    "en": "Lightning Damage with Hits is Unlucky if you've Blocked Spell Damage Recently"
+  },
+  {
     "id": "extra_damage_rolls_with_lightning_damage_on_non_critical_hits",
     "zh": "非暴击造成的闪电伤害特别幸运",
     "en": "Lightning Damage with Non-Critical Strikes is Lucky"
@@ -41433,6 +43058,11 @@
     "id": "fire_damage_with_spell_skills_+%",
     "zh": "法术技能的火焰伤害降低 {0}%",
     "en": "{0}% reduced Fire Damage with Spell Skills"
+  },
+  {
+    "id": "fire_dot_multiplier_+_per_rage",
+    "zh": "每点狂怒也使持续火焰伤害加成 {0}%",
+    "en": "Each Rage also grants {0}% to Fire Damage Over Time Multiplier"
   },
   {
     "id": "fire_exposure_on_hit_magnitude",
@@ -42110,6 +43740,11 @@
     "en": "Melee Hits Fortify"
   },
   {
+    "id": "four_seconds_after_being_hit_lose_life_equal_to_x%_of_hit",
+    "zh": "每次你被击中后的四秒，损失生命，数值等于该次击中伤害的 {0}%",
+    "en": "Four seconds after each Hit you take, lose Life equal to {0}% of the Damage taken from that Hit"
+  },
+  {
     "id": "freeze_chilled_enemies_as_though_dealt_damage_+%",
     "zh": "冻结冰缓的敌人如同伤害总增 {0}%",
     "en": "Freeze Chilled Enemies as though dealing {0}% more Damage"
@@ -42310,6 +43945,11 @@
     "en": "Frozen Legion has {0}% chance to Summon an additional Statue without consuming a Cooldown use"
   },
   {
+    "id": "frozen_monsters_take_%_increased_damage",
+    "zh": "被你冰冻的敌人受到的伤害提高 {0}%",
+    "en": "Enemies Frozen by you take {0}% increased Damage"
+  },
+  {
     "id": "frozen_sweep_damage_+%",
     "zh": "冰封横扫造成的伤害增加 {0}%",
     "en": "Frozen Sweep deals {0}% increased Damage"
@@ -42453,6 +44093,16 @@
     "id": "gain_X_random_charges_every_6_seconds",
     "zh": "每 6 秒获得 {0} 个耐力球、狂怒球或暴击球",
     "en": "Gain {0} Endurance, Frenzy or Power Charges every 6 seconds"
+  },
+  {
+    "id": "gain_a_endurance_charge_every_X_seconds_while_stationary",
+    "zh": "静止时每秒获得一个耐力球",
+    "en": "Gain an Endurance Charge each second while Stationary"
+  },
+  {
+    "id": "gain_a_endurance_charge_every_X_seconds_while_stationary",
+    "zh": "静止时每 {0} 秒获得一个耐力球",
+    "en": "Gain an Endurance Charge every {0} seconds while Stationary"
   },
   {
     "id": "gain_a_frenzy_charge_every_X_seconds_while_moving",
@@ -43070,6 +44720,11 @@
     "en": "{0}% chance to gain a Power Charge when you Hit a Frozen Enemy"
   },
   {
+    "id": "gain_power_charge_on_hit_while_bleeding",
+    "zh": "流血时击中获得一个暴击球",
+    "en": "Gain a Power Charge on Hit while Bleeding"
+  },
+  {
     "id": "gain_power_charge_on_kill_vs_enemies_with_less_than_5_poisons_%",
     "zh": "击败少于 5 层中毒状态的敌人时，有 {0}% 的几率获得 1 个暴击球",
     "en": "{0}% chance to gain a Power Charge on Killing an Enemy affected by fewer than 5 Poisons"
@@ -43142,12 +44797,17 @@
   {
     "id": "gain_shrine_buff_every_x_ms_from_ascendancy",
     "zh": "每 1 秒获得一个随机神龛增益",
-    "en": "Gain a random shrine buff every 1 second"
+    "en": "Gain a random Shrine buff every 1 second"
   },
   {
     "id": "gain_shrine_buff_every_x_ms_from_ascendancy",
     "zh": "每 {0} 秒获得一个随机神龛增益",
-    "en": "Gain a random shrine buff every {0} seconds"
+    "en": "Gain a random Shrine buff every {0} seconds"
+  },
+  {
+    "id": "gain_shrine_buff_on_rare_or_unique_kill_centiseconds",
+    "zh": "消灭稀有或传奇敌人时获得一个随机神龛增益，持续 {0} 秒",
+    "en": "Gain a random Shrine Buff for {0} seconds when you Kill a Rare or Unique Enemy"
   },
   {
     "id": "gain_single_conflux_for_3_seconds_every_8_seconds",
@@ -43370,6 +45030,16 @@
     "en": "Recover Energy Shield equal to {0}% of your Evasion Rating when you lose a Ghost Shroud due to being Hit"
   },
   {
+    "id": "ghost_totem_skill_damage_+%_final",
+    "zh": "幻影图腾使用的技能造成的伤害总增 {0}%",
+    "en": "Skills used by Spectral Totems deal {0}% more Damage"
+  },
+  {
+    "id": "ghost_totem_skill_damage_+%_final",
+    "zh": "幻影图腾使用的技能造成的伤害总降 {0}%",
+    "en": "Skills used by Spectral Totems deal {0}% less Damage"
+  },
+  {
     "id": "glacial_cascade_number_of_additional_bursts",
     "zh": "【冰川之刺】额外爆炸 1 次",
     "en": "Glacial Cascade has an additional Burst"
@@ -43465,6 +45135,16 @@
     "en": "{0}% reduced Critical Strike Chance against Chilled Enemies"
   },
   {
+    "id": "global_defences_+%_per_raised_spectre",
+    "zh": "每个复苏的灵体使防御提高 {0}%",
+    "en": "{0}% increased Defences per Raised Spectre"
+  },
+  {
+    "id": "global_defences_+%_per_raised_spectre",
+    "zh": "每个复苏的灵体使防御降低 {0}%",
+    "en": "{0}% reduced Defences per Raised Spectre"
+  },
+  {
     "id": "global_defences_+%_per_frenzy_charge",
     "zh": "防御按照每个狂怒球提高 {0}%",
     "en": "{0}% increased Defences per Frenzy Charge"
@@ -43478,6 +45158,21 @@
     "id": "global_evasion_rating_+_while_moving",
     "zh": "移动时 {0} 点最大闪避值",
     "en": "{0} to Global Evasion Rating while moving"
+  },
+  {
+    "id": "global_graft_skill_cooldown_speed_+%",
+    "zh": "移植物技能的冷却回复速度加快 {0}%",
+    "en": "Graft Skills have {0}% increased Cooldown Recovery Rate"
+  },
+  {
+    "id": "global_graft_skill_duration_+%",
+    "zh": "移植物技能的技能效果持续时间延长 {0}%",
+    "en": "Graft Skills have {0}% increased Skill Effect Duration"
+  },
+  {
+    "id": "global_graft_skill_level_+",
+    "zh": "移植物技能等级 {0}",
+    "en": "{0} to level of Graft Skills"
   },
   {
     "id": "global_minimum_added_cold_damage_vs_chilled_or_frozen_enemies global_maximum_added_cold_damage_vs_chilled_or_frozen_enemies",
@@ -43565,6 +45260,16 @@
     "en": "Summoned Golems Regenerate {0}% of their Life per second"
   },
   {
+    "id": "golem_maximum_energy_shield_+%",
+    "zh": "魔像的能量护盾上限提高 {0}%",
+    "en": "Golems have {0}% increased Maximum Energy Shield"
+  },
+  {
+    "id": "golem_maximum_energy_shield_+%",
+    "zh": "魔像的能量护盾上限降低 {0}%",
+    "en": "Golems have {0}% reduced Maximum Energy Shield"
+  },
+  {
     "id": "golem_maximum_life_+%",
     "zh": "魔像的最大生命提高 {0}%",
     "en": "Golems have {0}% increased Maximum Life"
@@ -43600,6 +45305,16 @@
     "en": "Golems have {0} to Armour"
   },
   {
+    "id": "grace_aura_effect_+%_while_no_frenzy_charges",
+    "zh": "当你没有狂怒球时，优雅的光环效果提高 {0}%",
+    "en": "Grace has {0}% increased Aura Effect while you have no Frenzy Charges"
+  },
+  {
+    "id": "grace_aura_effect_+%_while_no_frenzy_charges",
+    "zh": "当你没有狂怒球时，优雅的光环效果降低 {0}%",
+    "en": "Grace has {0}% reduced Aura Effect while you have no Frenzy Charges"
+  },
+  {
     "id": "grace_mana_reservation_efficiency_-2%_per_1",
     "zh": "优雅的魔力保留效能降低 {0}%",
     "en": "Grace has {0}% reduced Mana Reservation Efficiency"
@@ -43625,14 +45340,19 @@
     "en": "Grace has no Reservation"
   },
   {
-    "id": "grant_animated_minion_melee_splash_damage_+%_final_for_splash",
-    "zh": "幻化召唤生物的近战攻击对周围目标造成的溅射伤害总增 {0}%",
-    "en": "Animated Minions' Melee Attacks deal {0}% more Splash Damage to surrounding targets"
+    "id": "graft_slot_2_unlocked",
+    "zh": "你可以装备两个移植物",
+    "en": "You can equip two Grafts"
   },
   {
     "id": "grant_animated_minion_melee_splash_damage_+%_final_for_splash",
-    "zh": "幻化召唤生物的近战攻击对周围目标造成的溅射伤害总降 {0}%",
-    "en": "Animated Minions' Melee Attacks deal {0}% less Splash Damage to surrounding targets"
+    "zh": "已幻化和已显化的召唤生物的近战攻击造成的扩散伤害总增 {0}%",
+    "en": "Animated and Manifested Minions' Melee Strikes deal {0}% more Splash Damage"
+  },
+  {
+    "id": "grant_animated_minion_melee_splash_damage_+%_final_for_splash",
+    "zh": "已幻化和已显化的召唤生物的近战攻击造成的扩散伤害总降 {0}%",
+    "en": "Animated and Manifested Minions' Melee Strikes deal {0}% less Splash Damage"
   },
   {
     "id": "grant_map_boss_X_azmeri_dust_primal_on_death",
@@ -43833,6 +45553,16 @@
     "id": "haste_reserves_no_mana",
     "zh": "迅捷没有保留效果",
     "en": "Haste has no Reservation"
+  },
+  {
+    "id": "hatred_aura_effect_+%_while_at_maximum_frenzy_charges",
+    "zh": "满狂怒球状态下，憎恨的光环效果提高 {0}%",
+    "en": "Hatred has {0}% increased Aura Effect while at maximum Frenzy Charges"
+  },
+  {
+    "id": "hatred_aura_effect_+%_while_at_maximum_frenzy_charges",
+    "zh": "满狂怒球状态下，憎恨的光环效果降低 {0}%",
+    "en": "Hatred has {0}% reduced Aura Effect while at maximum Frenzy Charges"
   },
   {
     "id": "hatred_mana_reservation_efficiency_-2%_per_1",
@@ -44430,6 +46160,11 @@
     "en": "Your Hits can't be Evaded by Blinded Enemies"
   },
   {
+    "id": "hits_cannot_inflict_more_than_one_impale",
+    "zh": "你的击中无法造成超过 1 次穿刺",
+    "en": "Your Hits cannot inflict more than 1 Impale"
+  },
+  {
     "id": "hits_from_maces_and_sceptres_crush_enemies",
     "zh": "用锤类和短杖击中时碾压敌人",
     "en": "Crush Enemies on hit with Maces and Sceptres"
@@ -44455,9 +46190,19 @@
     "en": "Hits ignore Enemy Monster Chaos Resistance if all Equipped Items are Shaper Items"
   },
   {
+    "id": "hits_ignore_enemy_cold_resistance_if_all_equipped_rings_are_cryonic",
+    "zh": "若所有已装备的戒指都是冰凝戒指，你的击中会无视敌人的冰霜抗性",
+    "en": "Your Hits ignore Enemy Monster Cold Resistances if all Equipped Rings are Cryonic Rings"
+  },
+  {
     "id": "hits_ignore_enemy_fire_resistance_while_you_are_ignited",
     "zh": "你被点燃时，击中怪物敌人无视其火焰抗性",
     "en": "Hits ignore Enemy Monster Fire Resistance while you are Ignited"
+  },
+  {
+    "id": "hits_ignore_enemy_lightning_resistance_if_all_equipped_rings_are_synaptic",
+    "zh": "若所有已装备的戒指都是突触戒指，你的击中会无视敌人的闪电抗性",
+    "en": "Your Hits ignore Enemy Monster Lightning Resistances if all Equipped Rings are Synaptic Rings"
   },
   {
     "id": "hits_ignore_enemy_monster_physical_damage_reduction_if_blocked_in_past_20_seconds",
@@ -44760,6 +46505,11 @@
     "en": "{0}% increased Ignite Duration"
   },
   {
+    "id": "ignited_enemies_explode_for_%_life_as_fire_damage",
+    "zh": "被你消灭的点燃的敌人会爆炸，造成其生命 {0}% 的火焰伤害，该伤害无法点燃",
+    "en": "Ignited Enemies you Kill Explode, dealing {0}% of their Life as Fire Damage which cannot Ignite"
+  },
+  {
     "id": "ignites_and_chill_apply_elemental_resistance_+",
     "zh": "被你点燃或冰缓的敌人的元素抗性 {0}%",
     "en": "Enemies Ignited or Chilled by you have {0}% to Elemental Resistances"
@@ -44838,6 +46588,11 @@
     "id": "immune_to_curses_while_channelling",
     "zh": "吟唱时免疫【诅咒】",
     "en": "Immune to Curses while Channelling"
+  },
+  {
+    "id": "immune_to_elemental_ailments_while_bleeding",
+    "zh": "流血时免疫元素异常状态",
+    "en": "Immune to Elemental Ailments while Bleeding"
   },
   {
     "id": "immune_to_elemental_ailments_while_on_consecrated_ground",
@@ -45055,6 +46810,16 @@
     "en": "{0}% chance on Hitting an Enemy for all Impales on that Enemy to last for an additional Hit"
   },
   {
+    "id": "impales_do_not_consume_hit_on_melee_hit_%_chance",
+    "zh": "近战击中时有 {0}% 几率使敌人身上的所有穿刺额外持续一次击中",
+    "en": "{0}% chance on Melee Hit for all Impales on the Enemy to last for an additional Hit"
+  },
+  {
+    "id": "impales_do_not_consume_hit_strongest_impale_on_melee_hit_%_chance",
+    "zh": "近战击中时有 {0}% 几率使目标身上最强的穿刺额外持续 1 次击中",
+    "en": "{0}% chance on Melee Hit for the Strongest Impale on target to last for 1 additional Hit"
+  },
+  {
     "id": "impurity_cold_damage_taken_+%_final",
     "zh": "受到的冰霜伤害总增 {0}%",
     "en": "{0}% more Cold Damage taken"
@@ -45183,6 +46948,11 @@
     "id": "inflict_lightning_exposure_on_hit_%_chance_at_devotion_threshold",
     "zh": "至少 150 奉献时，击中施加闪电曝露",
     "en": "Inflict Lightning Exposure on Hit if you have at least 150 Devotion"
+  },
+  {
+    "id": "inflict_mania_on_nearby_enemies_every_second_while_affected_by_glorious_madness",
+    "zh": "受疯狂荣光影响时，每秒对周围敌人施加狂热",
+    "en": "While affected by Glorious Madness, inflict Mania on nearby Enemies every second"
   },
   {
     "id": "inflict_withered_for_2_seconds_on_hit_if_cast_dispair_in_past_10_seconds",
@@ -45370,6 +47140,21 @@
     "en": "Gain 1 Rage on Critical Strike with Attacks"
   },
   {
+    "id": "keystone_shepherd_of_souls_if_at_least_4_corrupted_items_equipped",
+    "zh": "若至少装备了 4 件腐化物品，你将拥有灵魂牧者",
+    "en": "You have Shepherd of Souls if at least 4 Corrupted Items are Equipped"
+  },
+  {
+    "id": "keystone_everlasting_sacrifice_if_at_least_6_corrupted_items_equipped",
+    "zh": "若至少装备了 6 件腐化物品，你将拥有永恒献祭",
+    "en": "You have Everlasting Sacrifice if at least 6 Corrupted Items are Equipped"
+  },
+  {
+    "id": "keystone_sacrifice_of_blood_if_at_least_8_corrupted_items_equipped",
+    "zh": "若至少装备了 8 件腐化物品，你将拥有鲜血祭品",
+    "en": "You have Sacrifice of Blood if at least 8 Corrupted Items are Equipped"
+  },
+  {
     "id": "killed_enemies_apply_impale_damage_to_nearby_enemies_on_death_%_chance",
     "zh": "被你击败的敌人身上的穿刺效果有 {0}% 的几率对周围敌人反射伤害",
     "en": "{0}% chance for Impales on Enemies you Kill to Reflect Damage to surrounding Enemies"
@@ -45453,6 +47238,11 @@
     "id": "kinetic_wand_base_number_of_zig_zags",
     "zh": "【念动飞箭】额外改变 {0} 次方向",
     "en": "Kinetic Bolt changes direction {0} additional times"
+  },
+  {
+    "id": "kinetic_wand_implicit_cannot_roll_caster_modifiers",
+    "zh": "不能附加法术相关属性修正",
+    "en": "Cannot roll Caster Modifiers"
   },
   {
     "id": "knockback_on_crit_with_projectile_damage",
@@ -45665,6 +47455,11 @@
     "en": "{0}% of Leech is Instant"
   },
   {
+    "id": "life_and_energy_shield_degeneration_permyriad_per_minute_per_minion",
+    "zh": "每个召唤生物每秒失去 {0}% 生命和能量护盾",
+    "en": "Lose {0}% Life and Energy Shield per Second per Minion"
+  },
+  {
     "id": "life_and_energy_shield_recovery_rate_+%",
     "zh": "生命和能量护盾回复率提高 {0}%",
     "en": "{0}% increased Recovery rate of Life and Energy Shield"
@@ -45721,8 +47516,8 @@
   },
   {
     "id": "life_degeneration_permyriad_per_minute_per_minion",
-    "zh": "每有一个激活的召唤生物，每秒损失 {0}% 生命",
-    "en": "Lose {0}% Life per Second for each Active Minion"
+    "zh": "每个召唤生物每秒失去 {0}% 生命",
+    "en": "Lose {0}% Life per Second per Minion"
   },
   {
     "id": "life_flask_charges_recovered_per_3_seconds",
@@ -45868,6 +47663,11 @@
     "id": "life_leech_is_instant_for_exerted_attacks",
     "zh": "增助攻击的生命偷取立即生效",
     "en": "Life Leech from Exerted Attacks is instant"
+  },
+  {
+    "id": "life_leech_on_damage_taken_%_permyriad_per_socketed_red_gem",
+    "zh": "每镶嵌一个红色宝石，{0}% 承受的击中伤害偷取为生命",
+    "en": "{0}% of Damage Taken from Hits is Leeched as Life per Socketed Red Gem"
   },
   {
     "id": "life_leech_on_damage_taken_%_permyriad",
@@ -46176,7 +47976,7 @@
   },
   {
     "id": "life_regeneration_rate_per_minute_while_on_low_life",
-    "zh": "血时每秒再生 {0} 生命",
+    "zh": "低血时每秒再生 {0} 生命",
     "en": "Regenerate {0} Life per Second while on Low Life"
   },
   {
@@ -46438,6 +48238,11 @@
     "id": "lightning_skill_chance_to_inflict_lightning_exposure_%",
     "zh": "闪电技能在击中时有 {0}% 的几率施加闪电曝露",
     "en": "Lightning Skills have a {0}% chance to apply Lightning Exposure on Hit"
+  },
+  {
+    "id": "lightning_skill_gem_level_+_if_at_least_4_foulborn_uniques_equipped",
+    "zh": "若至少装备了 4 件秽生传奇物品，所有闪电技能宝石等级 {0}",
+    "en": "{0} to Level of all Lightning Skill Gems if at least 4 Foulborn Unique Items are Equipped"
   },
   {
     "id": "lightning_skill_gem_level_+",
@@ -46708,6 +48513,21 @@
     "id": "link_skills_grant_damage_taken_+%",
     "zh": "你的羁绊对象受到的伤害降低 {0}%",
     "en": "Your Linked Targets take {0}% reduced Damage"
+  },
+  {
+    "id": "link_skills_grant_minions_damage_taken_+%_final_from_hallowed_monarch",
+    "zh": "你羁绊的召唤物受到的伤害总增 {0}%",
+    "en": "Your Linked Minions take {0}% more Damage"
+  },
+  {
+    "id": "link_skills_grant_minions_damage_taken_+%_final_from_hallowed_monarch",
+    "zh": "你羁绊的召唤物受到的伤害总降 {0}%",
+    "en": "Your Linked Minions take {0}% less Damage"
+  },
+  {
+    "id": "link_skills_grant_random_linked_minion_rare_monster_mods_on_kill_centiseconds",
+    "zh": "消灭稀有怪物时，一个随机羁绊的召唤物获得其词缀，持续 {0} 秒",
+    "en": "On Killing a Rare monster, a random Linked Minion gains its Modifiers for {0} seconds"
   },
   {
     "id": "link_skills_grant_redirect_curses_to_link_source",
@@ -48695,21 +50515,6 @@
     "en": "Gain a Power Charge after Spending a total of 200 Mana"
   },
   {
-    "id": "local_display_grants_skil_convocation_level",
-    "zh": "获得 {0} 级号召技能",
-    "en": "Grants Level {0} Convocation Skill"
-  },
-  {
-    "id": "local_display_grants_skill_voodoo_doll",
-    "zh": "获得 {0} 级召唤黑暗塑像技能",
-    "en": "Grants Level {0} Summon Dark Effigy Skill"
-  },
-  {
-    "id": "local_display_grants_skill_weapon_storm",
-    "zh": "获得 {0} 级落刃风暴技能",
-    "en": "Grants Level {0} Swordstorm Skill"
-  },
-  {
     "id": "local_display_guardian_alternating_block_chance",
     "zh": "[DNT]每隔 6 秒：\n在 3 秒内有{0}%的几率格挡攻击伤害\n在 3 秒内有{0}%的几率格挡法术伤害",
     "en": "[DNT] Every 6 seconds:\n{0}% Chance to Block Attack Damage for 3 seconds\n{0}% Chance to Block Spell Damage for 3 seconds"
@@ -48763,6 +50568,11 @@
     "id": "local_display_nearby_enemies_are_covered_in_ash",
     "zh": "周围敌人灰烬缠身",
     "en": "Nearby Enemies are Covered in Ash"
+  },
+  {
+    "id": "local_display_nearby_enemies_are_debilitated",
+    "zh": "周围的敌人被削弱",
+    "en": "Nearby Enemies are Debilitated"
   },
   {
     "id": "local_display_nearby_enemies_are_intimidated",
@@ -48845,6 +50655,16 @@
     "en": "Every 10 seconds:\nTake {0}% less Damage from Hits for 5 seconds\nTake {0}% less Damage over Time for 5 seconds"
   },
   {
+    "id": "local_display_trigger_level_X_assassins_mark_when_you_critically_hit_rare_or_unique_enemy_with_attacks",
+    "zh": "当你没有咒印且对稀有或传奇敌人造成攻击暴击时\n触发 {0} 级刺客印记",
+    "en": "Trigger Level {0} Assassin's Mark on Attack Critical Strike against\na Rare or Unique Enemy and you have no Mark"
+  },
+  {
+    "id": "local_display_trigger_level_x_summon_spectral_tiger_on_crit",
+    "zh": "暴击时触发 {0} 级召唤幻影猛虎",
+    "en": "Trigger Level {0} Summon Spectral Tiger on Critical Strike"
+  },
+  {
     "id": "local_display_you_get_elemental_ailments_instead_of_allies",
     "zh": "敌人对你施加的元素异常状态改为附近的友军承受",
     "en": "Enemies inflict Elemental Ailments on you instead of nearby Allies"
@@ -48903,6 +50723,21 @@
     "id": "local_gain_fortify_on_melee_hit_chance_%_with_melee_abyss_jewel_socketed",
     "zh": "镶嵌凶残之凝珠宝时，近战击中有 {0}% 的几率获得护体",
     "en": "With a Murderous Eye Jewel Socketed, Melee Hits have {0}% chance to Fortify"
+  },
+  {
+    "id": "local_gain_immortal_ambition_if_all_socketed_gems_red",
+    "zh": "若所有镶嵌的宝石都是红色，你将拥有不朽野望",
+    "en": "You have Immortal Ambition while all Socketed Gems are Red"
+  },
+  {
+    "id": "local_gems_socketed_have_no_attribute_requirements",
+    "zh": "无视镶嵌宝石的属性需求",
+    "en": "Ignore Attribute Requirements of Socketed Gems"
+  },
+  {
+    "id": "local_gems_socketed_in_blue_sockets_have_no_attribute_requirements",
+    "zh": "无视蓝色插槽中宝石的属性需求",
+    "en": "Ignore Attribute Requirements of Gems Socketed in Blue Sockets"
   },
   {
     "id": "local_hits_ignore_enemy_monster_physical_damage_reduction_%_chance",
@@ -49005,9 +50840,19 @@
     "en": "Allocated Small Passive Skills in Radius grant nothing"
   },
   {
+    "id": "local_jewel_allocated_notable_passives_in_radius_grant_nothing",
+    "zh": "范围内的已配置核心天赋不提供任何效果",
+    "en": "Allocated Notable Passive Skills in Radius grant nothing"
+  },
+  {
     "id": "local_jewel_copy_stats_from_unallocated_non_notable_passives_in_radius",
     "zh": "范围内未配置的小天赋点技能会提供任何加成",
     "en": "Grants all bonuses of Unallocated Small Passive Skills in Radius"
+  },
+  {
+    "id": "local_jewel_copy_stats_from_unallocated_notable_passives_in_radius",
+    "zh": "获得范围内所有未配置核心天赋的加成",
+    "en": "Grants all bonuses of Unallocated Notable Passive Skills in Radius"
   },
   {
     "id": "local_jewel_disable_combust_with_40_strength_in_radius",
@@ -49260,6 +51105,16 @@
     "en": "With a Ghastly Eye Jewel Socketed, Minions have +{0} to Accuracy Rating"
   },
   {
+    "id": "local_minions_chance_to_gain_unholy_might_on_spell_hit_4_seconds_%_with_minion_abyss_jewel_socketed",
+    "zh": "插入苍白之凝珠宝时，召唤生物法术击中时有 {0}% 几率\n获得不洁之力",
+    "en": "With a Ghastly Eye Jewel Socketed, Minions have {0}% chance to\ngain Unholy Might on Hit with Spells"
+  },
+  {
+    "id": "local_minions_chance_to_gain_unholy_might_on_spell_hit_4_seconds_%_with_minion_abyss_jewel_socketed",
+    "zh": "插入苍白之凝珠宝时，召唤生物法术击中时获得邪恶之力",
+    "en": "With a Ghastly Eye Jewel Socketed, Minions gain Unholy Might on Hit with Spells"
+  },
+  {
     "id": "local_movement_speed_+%_if_item_corrupted",
     "zh": "若腐化，则移动速度加快 {0}%",
     "en": "{0}% increased Movement Speed if Corrupted"
@@ -49425,11 +51280,6 @@
     "en": "Has a Two Handed Sword Crucible Passive Skill Tree\nCrucible Passive Skill Tree is removed if this Modifier is removed"
   },
   {
-    "id": "local_unique_flask_explode_enemies_for_10%_life_as_random_element_on_kill_chance_%_during_flask_effect",
-    "zh": "生效期间，被你击败的敌人有 {0}% 几率爆炸，造成其最大生命值十分之一的随机元素伤害",
-    "en": "Enemies you Kill during Effect have a {0}% chance to Explode, dealing a tenth of their maximum Life as Damage of a Random Element"
-  },
-  {
     "id": "local_unique_jewel_accuracy_rating_+_per_10_dex_unallocated_in_radius",
     "zh": "范围内每有 10 点未配置的敏捷，便 +{0} 命中值",
     "en": "+{0} to Accuracy Rating per 10 Dexterity on Unallocated Passives in Radius"
@@ -49505,9 +51355,19 @@
     "en": "Cold Resistance and Lightning Resistance in Radius are Transformed to increased Melee Damage"
   },
   {
+    "id": "local_unique_jewel_cold_resistance_also_grants_cold_damage_to_convert_to_chaos_%",
+    "zh": "范围内，提供冰霜抗性或所有元素抗性的天赋点，\n也会将其数值的 {0}% 转化为冰霜伤害转为混沌伤害",
+    "en": "Passives granting Cold Resistance or all Elemental Resistances in Radius\nalso grant Cold Damage Converted to Chaos Damage at {0}% of its value"
+  },
+  {
     "id": "local_unique_jewel_cold_resistance_also_grants_frenzy_charge_on_kill_chance",
     "zh": "范围内提高冰霜抗性的天赋也会提高击败敌人时获得狂怒球的概率",
     "en": "Passives granting Cold Resistance or all Elemental Resistances in Radius\nalso grant an equal chance to gain a Frenzy Charge on Kill"
+  },
+  {
+    "id": "local_unique_jewel_cold_resistance_also_grants_maximum_mana_scaled_%",
+    "zh": "范围内，提供冰霜抗性或所有元素抗性的天赋点，\n也会将其数值的 {0}% 转化为提高最大魔力",
+    "en": "Passives granting Cold Resistance or all Elemental Resistances in Radius\nalso grant increased Maximum Mana at {0}% of its value"
   },
   {
     "id": "local_unique_jewel_cold_resistance_also_grants_spell_suppression_chance_scaled_%",
@@ -49543,11 +51403,6 @@
     "id": "local_unique_jewel_discharge_damage_+%_final_with_40_int_in_radius",
     "zh": "若范围内至少有 40 点智慧，解放的伤害总降 {0}%",
     "en": "With at least 40 Intelligence in Radius, Discharge deals {0}% less Damage"
-  },
-  {
-    "id": "local_unique_jewel_disconnected_passives_can_be_allocated_around_keystone_hash",
-    "zh": "{0}范围内的天赋可以在\n未连结至天赋树的情况下配置",
-    "en": "Passives in Radius of {0} can be Allocated\nwithout being connected to your tree"
   },
   {
     "id": "local_unique_jewel_dot_multiplier_+_per_10_int_unallocated_in_radius",
@@ -49606,32 +51461,32 @@
   },
   {
     "id": "local_unique_jewel_elemental_hit_50%_less_cold_damage_per_40_str_and_int",
-    "zh": "范围内配置的智慧和力量总计 40 点时，虹光技能的冰霜伤害总降 50%",
+    "zh": "范围内包含的智慧和力量总计 40 点时，虹光技能的冰霜伤害总降 50%",
     "en": "With 40 total Strength and Intelligence in Radius, Prismatic Skills deal 50% less Cold Damage"
   },
   {
     "id": "local_unique_jewel_elemental_hit_50%_less_fire_damage_per_40_int_and_dex",
-    "zh": "范围内配置的智慧和敏捷总计 40 点时，虹光技能的火焰伤害总降 50%",
+    "zh": "范围内包含的智慧和敏捷总计 40 点时，虹光技能的火焰伤害总降 50%",
     "en": "With 40 total Intelligence and Dexterity in Radius, Prismatic Skills deal 50% less Fire Damage"
   },
   {
     "id": "local_unique_jewel_elemental_hit_50%_less_lightning_damage_per_40_str_and_dex",
-    "zh": "范围内配置的敏捷和力量总计 40 点时，虹光技能的闪电伤害总降 50%",
+    "zh": "范围内包含的敏捷和力量总计 40 点时，虹光技能的闪电伤害总降 50%",
     "en": "With 40 total Dexterity and Strength in Radius, Prismatic Skills deal 50% less Lightning Damage"
   },
   {
     "id": "local_unique_jewel_elemental_hit_cannot_roll_cold_damage_with_40_int_+_str_in_radius",
-    "zh": "范围内配置的力量和智慧总计 40 点时，虹光技能不能选择冰霜效果",
+    "zh": "范围内包含的力量和智慧总计 40 点时，虹光技能不能选择冰霜效果",
     "en": "With 40 total Strength and Intelligence in Radius, Prismatic Skills cannot choose Cold"
   },
   {
     "id": "local_unique_jewel_elemental_hit_cannot_roll_fire_damage_with_40_int_+_dex_in_radius",
-    "zh": "范围内配置的智慧和敏捷总计 40 点时，虹光技能不能选择火焰效果",
+    "zh": "范围内包含的智慧和敏捷总计 40 点时，虹光技能不能选择火焰效果",
     "en": "With 40 total Intelligence and Dexterity in Radius, Prismatic Skills cannot choose Fire"
   },
   {
     "id": "local_unique_jewel_elemental_hit_cannot_roll_lightning_damage_with_40_dex_+_str_in_radius",
-    "zh": "范围内配置的敏捷和力量总计 40 点时，虹光技能不能选择闪电效果",
+    "zh": "范围内包含的敏捷和力量总计 40 点时，虹光技能不能选择闪电效果",
     "en": "With 40 total Dexterity and Strength in Radius, Prismatic Skills cannot choose Lightning"
   },
   {
@@ -49653,6 +51508,16 @@
     "id": "local_unique_jewel_fire_resistance_also_grants_endurance_charge_on_kill_chance",
     "zh": "范围内提高火焰抗性的天赋也会提高击败敌人时获得耐力球的概率",
     "en": "Passives granting Fire Resistance or all Elemental Resistances in Radius\nalso grant an equal chance to gain an Endurance Charge on Kill"
+  },
+  {
+    "id": "local_unique_jewel_fire_resistance_also_grants_fire_damage_to_convert_to_chaos_%",
+    "zh": "范围内，提供火焰抗性或所有元素抗性的天赋点，\n也会将其数值的 {0}% 转化为火焰伤害转为混沌伤害",
+    "en": "Passives granting Fire Resistance or all Elemental Resistances in Radius\nalso grant Fire Damage Converted to Chaos Damage at {0}% of its value"
+  },
+  {
+    "id": "local_unique_jewel_fire_resistance_also_grants_maximum_life_scaled_%",
+    "zh": "范围内，提供火焰抗性或所有元素抗性的天赋点，\n也会将其数值的 {0}% 转化为提高最大生命",
+    "en": "Passives granting Fire Resistance or all Elemental Resistances in Radius\nalso grant increased Maximum Life at {0}% of its value"
   },
   {
     "id": "local_unique_jewel_fire_trap_number_of_additional_traps_to_throw_with_40_dex_in_radius",
@@ -49773,6 +51638,16 @@
     "id": "local_unique_jewel_lightning_resistance_also_grants_block_spells_chance_scaled_%",
     "zh": "范围内提高闪电抗性或所有元素抗性的天赋\n也会以 {0}% 的比例提高法术伤害格挡几率",
     "en": "Passives granting Lightning Resistance or all Elemental Resistances in Radius\nalso grant Chance to Block Spell Damage at {0}% of its value"
+  },
+  {
+    "id": "local_unique_jewel_lightning_resistance_also_grants_lightning_damage_to_convert_to_chaos_%",
+    "zh": "范围内，提供闪电抗性或所有元素抗性的天赋点，\n也会将其数值的 {0}% 转化为闪电伤害转为混沌伤害",
+    "en": "Passives granting Lightning Resistance or all Elemental Resistances in Radius\nalso grant Lightning Damage Converted to Chaos Damage at {0}% of its value"
+  },
+  {
+    "id": "local_unique_jewel_lightning_resistance_also_grants_maximum_energy_shield_scaled_%",
+    "zh": "范围内，提供闪电抗性或所有元素抗性的天赋点，\n也会将其数值的 {0}% 转化为提高最大能量护盾",
+    "en": "Passives granting Lightning Resistance or all Elemental Resistances in Radius\nalso grant increased Maximum Energy Shield at {0}% of its value"
   },
   {
     "id": "local_unique_jewel_lightning_resistance_also_grants_power_charge_on_kill_chance",
@@ -50340,6 +52215,16 @@
     "en": "Pestilent Strike has {0}% reduced Duration"
   },
   {
+    "id": "mana_cost_+%_for_2_seconds_when_you_spend_800_mana",
+    "zh": "共消耗 800 魔力后，技能的魔力消耗提高 {0}%，持续 2 秒",
+    "en": "{0}% increased Mana Cost of Skills for 2 seconds after Spending a total of 800 Mana"
+  },
+  {
+    "id": "mana_cost_+%_for_2_seconds_when_you_spend_800_mana",
+    "zh": "共消耗 800 魔力后，技能的魔力消耗降低 {0}%，持续 2 秒",
+    "en": "{0}% reduced Mana Cost of Skills for 2 seconds after Spending a total of 800 Mana"
+  },
+  {
     "id": "mana_cost_+%_for_channelling_skills",
     "zh": "吟唱技能的消耗提高 {0}%",
     "en": "{0}% increased Cost of Channelling Skills"
@@ -50443,6 +52328,21 @@
     "id": "mana_gained_on_spell_hit_vs_cursed_enemies",
     "zh": "法术击中一名受诅咒的敌人损失{0}点魔力",
     "en": "Lose {0} Mana per Cursed Enemy Hit with Spells"
+  },
+  {
+    "id": "mana_increased_per_x_overcapped_lightning_resistance_choir_of_the_storm",
+    "zh": "魔力根据超量的闪电抗性提高",
+    "en": "Mana is increased by Overcapped Lightning Resistance"
+  },
+  {
+    "id": "mana_increased_per_x_overcapped_lightning_resistance_choir_of_the_storm",
+    "zh": "魔力根据超量闪电抗性的 50% 提高",
+    "en": "Mana is increased by 50% of Overcapped Lightning Resistance"
+  },
+  {
+    "id": "mana_increased_per_x_overcapped_lightning_resistance_choir_of_the_storm",
+    "zh": "每 {0}% 超量闪电抗性使魔力提高 1%",
+    "en": "Mana is increased by 1% per {0}% Overcapped Lightning Resistance"
   },
   {
     "id": "mana_leech_from_attack_damage_permyriad_per_power_charge",
@@ -50755,6 +52655,11 @@
     "en": "Manifest Dancing Dervish also manifests {0} copies of Dancing Dervish"
   },
   {
+    "id": "emergency_hotfix_stat_2",
+    "zh": "区域被诅咒",
+    "en": "Area is Cursed"
+  },
+  {
     "id": "marauder_hidden_ascendancy_damage_+%_final",
     "zh": "造成的伤害总增 {0}%",
     "en": "Deal {0}% more Damage"
@@ -50795,9 +52700,19 @@
     "en": "{0}% reduced Mana Cost of Mark Skills"
   },
   {
+    "id": "mark_skills_cost_no_mana",
+    "zh": "咒印技能不消耗魔力",
+    "en": "Mark Skills Cost no Mana"
+  },
+  {
     "id": "marked_enemies_cannot_deal_critical_strikes",
     "zh": "被标记的敌人无法造成暴击",
     "en": "Marked Enemy cannot deal Critical Strikes"
+  },
+  {
+    "id": "marked_enemies_cannot_evade",
+    "zh": "被咒印的敌人无法闪避攻击",
+    "en": "Marked Enemy cannot Evade Attacks"
   },
   {
     "id": "marked_enemies_cannot_regenerate_life",
@@ -50930,6 +52845,11 @@
     "en": "Maximum Energy Shield is increased by Chance to Block Spell Damage"
   },
   {
+    "id": "maximum_energy_shield_is_x%_of_maximum_life",
+    "zh": "你的能量护盾上限等同于你生命上限的 {0}%",
+    "en": "Your Maximum Energy Shield is Equal to {0}% of Your Maximum Life"
+  },
+  {
     "id": "maximum_es_per_honoured_soul_tattoo_allocated",
     "zh": "配置的每个灵魂的旅途文身使能量护盾上限 {0}",
     "en": "{0} to maximum Energy Shield per Allocated Journey Tattoo of the Soul"
@@ -50968,6 +52888,11 @@
     "id": "maximum_leech_rate_+%",
     "zh": "偷取的每秒最大生命、魔力和能量护盾总恢复量降低 {0}%",
     "en": "{0}% reduced Maximum total Life, Mana and Energy Shield Recovery per second from Leech"
+  },
+  {
+    "id": "maximum_life_%_to_add_as_maximum_energy_shield_with_no_corrupted_equipped_items",
+    "zh": "若没有已装备的物品被腐化，获得相当于最大生命值 {0}% 的额外最大能量护盾",
+    "en": "Gain {0}% of Maximum Life as Extra Maximum Energy Shield if no Equipped Items are Corrupted"
   },
   {
     "id": "maximum_life_+%_per_alive_packmate",
@@ -51215,6 +53140,11 @@
     "en": "Skills that leave Lingering Blades have {0} to Maximum Lingering Blades"
   },
   {
+    "id": "maximum_number_of_raised_spectres_is_x",
+    "zh": "复苏的灵体最大数量为 {0}",
+    "en": "Maximum number of Raised Spectres is {0}"
+  },
+  {
     "id": "maximum_physical_attack_damage_+%_final",
     "zh": "物理攻击伤害上限总增 {0}%",
     "en": "{0}% more Maximum Physical Attack Damage"
@@ -51233,6 +53163,11 @@
     "id": "maximum_power_charges_+_while_affected_by_discipline",
     "zh": "受到纪律影响时，暴击球数量上限{0}",
     "en": "{0} to Maximum Power Charges while affected by Discipline"
+  },
+  {
+    "id": "maximum_rage_is_halved",
+    "zh": "怒火上限减半",
+    "en": "Maximum Rage is Halved"
   },
   {
     "id": "maximum_rage_per_equipped_one_handed_sword",
@@ -51278,6 +53213,11 @@
     "id": "melee_critical_strike_multiplier_+%_if_warcried_recently",
     "zh": "若你近期内使用过【战吼】，则 {0}% 近战暴击伤害加成",
     "en": "{0}% to Melee Critical Strike Multiplier if you've Warcried Recently"
+  },
+  {
+    "id": "melee_damage_+%_per_20_intelligence",
+    "zh": "每 20 点智慧使近战伤害提高 {0}%",
+    "en": "{0}% increased Melee Damage per 20 Intelligence"
   },
   {
     "id": "melee_damage_+%_at_close_range",
@@ -51635,6 +53575,11 @@
     "en": "{0} to {1} Fire Damage per Endurance Charge"
   },
   {
+    "id": "minimum_added_fire_damage_to_attacks_per_1%_light_radius maximum_added_fire_damage_to_attacks_per_1%_light_radius",
+    "zh": "每 1% 高于基础值的光照范围，为攻击附加 {0} 至 {1} 点火焰伤害",
+    "en": "Adds {0} to {1} Fire Damage to Attacks for every 1% your Light Radius is above base value"
+  },
+  {
     "id": "minimum_added_fire_damage_to_attacks_per_10_strength maximum_added_fire_damage_to_attacks_per_10_strength",
     "zh": "每 10 点力量可以为攻击附加 {0} - {1} 基础火焰伤害",
     "en": "Adds {0} to {1} Fire Damage to Attacks per 10 Strength"
@@ -51945,6 +53890,21 @@
     "en": "Minions have {0}% to Critical Strike Multiplier"
   },
   {
+    "id": "minion_damage_+%_final_while_on_low_life_from_catarina_bloodline",
+    "zh": "召唤生物处于濒血状态时造成的伤害总增 {0}%",
+    "en": "Minions deal {0}% more Damage while they are on Low Life"
+  },
+  {
+    "id": "minion_damage_+%_final_while_on_low_life_from_catarina_bloodline",
+    "zh": "召唤生物处于濒血状态时造成的伤害总降 {0}%",
+    "en": "Minions deal {0}% less Damage while they are on Low Life"
+  },
+  {
+    "id": "minion_damage_+%_if_warcried_recently",
+    "zh": "若你近期使用了战吼，召唤物造成的伤害提高 {0}%",
+    "en": "Minions deal {0}% increased Damage if you have Warcried Recently"
+  },
+  {
     "id": "minion_damage_against_ignited_enemies_+%",
     "zh": "召唤生物对点燃的敌人造成的击中和异常状态伤害提高 {0}%",
     "en": "Minions deal {0}% increased Damage with Hits and Ailments against Ignited Enemies"
@@ -52195,6 +54155,11 @@
     "en": "Minions Recover {0}% of Life on Minion Death"
   },
   {
+    "id": "minion_skill_gem_quality_+",
+    "zh": "所有召唤物技能宝石品质 {0}%",
+    "en": "{0}% to Quality of all Minion Skill Gems"
+  },
+  {
     "id": "minion_skill_mana_cost_+%",
     "zh": "召唤生物技能的魔力消耗提高 {0}%",
     "en": "{0}% increased Mana Cost of Minion Skills"
@@ -52290,6 +54255,16 @@
     "en": "Minions can't be Damaged for {0} seconds after being Summoned"
   },
   {
+    "id": "minions_cannot_be_killed_but_die_x_seconds_after_reaching_1_life",
+    "zh": "召唤物不会被消灭，但在生命降至 1 点后 1 秒死亡",
+    "en": "Minions cannot be Killed, but die 1 second after being reduced to 1 Life"
+  },
+  {
+    "id": "minions_cannot_be_killed_but_die_x_seconds_after_reaching_1_life",
+    "zh": "召唤物不会被消灭，但在生命降至 1 点后 {0} 秒死亡",
+    "en": "Minions cannot be Killed, but die {0} seconds after being reduced to 1 Life"
+  },
+  {
     "id": "minions_cannot_taunt_enemies",
     "zh": "召唤生物无法无法嘲讽敌人",
     "en": "Minions cannot Taunt Enemies"
@@ -52313,6 +54288,11 @@
     "id": "minions_gain_half_your_strength_from_ascendancy",
     "zh": "你一半的力量属性将添加至你的召唤生物身上",
     "en": "Half of your Strength is added to your Minions"
+  },
+  {
+    "id": "minions_gain_x_percent_of_your_resistances",
+    "zh": "召唤生物获得附加抗性，数值等于你抗性的 {0}%",
+    "en": "Minions gain added Resistances equal to {0}% of your Resistances"
   },
   {
     "id": "minions_gain_your_strength",
@@ -52648,6 +54628,16 @@
     "id": "movement_speed_+%_per_nearby_corpse",
     "zh": "周围每个灵柩能使移动速度加快 {0}%",
     "en": "For each nearby corpse, {0}% increased Movement Speed"
+  },
+  {
+    "id": "movement_speed_+%_per_summoned_phantasm",
+    "zh": "每个召唤的幻灵使移动速度提高 {0}%",
+    "en": "{0}% increased Movement Speed per Summoned Phantasm"
+  },
+  {
+    "id": "movement_speed_+%_per_summoned_phantasm",
+    "zh": "每个召唤的幻灵使移动速度降低 {0}%",
+    "en": "{0}% reduced Movement Speed per Summoned Phantasm"
   },
   {
     "id": "movement_speed_+%_while_you_have_two_linked_targets",
@@ -53005,6 +54995,11 @@
     "en": "Nearby Enemies are Intimidated while you have Rage"
   },
   {
+    "id": "nearby_enemies_are_unnerved",
+    "zh": "周围的敌人被恐惧",
+    "en": "Nearby Enemies are Unnerved"
+  },
+  {
     "id": "close_range_enemies_avoid_your_projectiles",
     "zh": "投射物无视近距离的敌人",
     "en": "Projectiles cannot collide with Enemies in Close Range"
@@ -53023,6 +55018,11 @@
     "id": "nearby_enemies_have_fire_exposure_while_you_are_affected_by_herald_of_ash",
     "zh": "你受【灰烬之捷】影响时，对周围敌人施加火焰曝露",
     "en": "Nearby Enemies have Fire Exposure while you are affected by Herald of Ash"
+  },
+  {
+    "id": "nearby_enemies_have_fire_exposure_while_you_are_at_maximum_rage",
+    "zh": "怒火达到上限时，周围敌人受到火焰曝露",
+    "en": "Nearby Enemies have Fire Exposure while at maximum Rage"
   },
   {
     "id": "nearby_enemies_have_lightning_exposure_while_you_are_affected_by_herald_of_thunder",
@@ -53233,6 +55233,26 @@
     "id": "non_cursed_enemies_you_curse_are_blinded_for_4_seconds",
     "zh": "未被诅咒的敌人被你施加非光环诅咒时，被致盲 4 秒",
     "en": "Non-Cursed Enemies you inflict Non-Aura Curses on are Blinded for 4 seconds"
+  },
+  {
+    "id": "non_damaging_ailment_effect_+%_per_blue_skill_gem",
+    "zh": "每镶嵌一颗蓝色技能宝石，非伤害型异常状态的效果提高 {0}%",
+    "en": "{0}% increased Effect of Non-Damaging Ailments for each Blue Skill Gem you have socketed"
+  },
+  {
+    "id": "non_damaging_ailment_effect_+%_per_blue_skill_gem",
+    "zh": "每镶嵌一颗蓝色技能宝石，非伤害型异常状态的效果降低 {0}%",
+    "en": "{0}% reduced Effect of Non-Damaging Ailments for each Blue Skill Gem you have socketed"
+  },
+  {
+    "id": "non_damaging_ailment_effect_+%_with_critical_strikes_per_100_max_player_life",
+    "zh": "每 100 点玩家生命上限，你暴击施加的非伤害型异常状态的效果提高 {0}%",
+    "en": "{0}% increased Effect of Non-Damaging Ailments you inflict with Critical Strikes per 100 Player Maximum Life"
+  },
+  {
+    "id": "non_damaging_ailment_effect_+%_with_critical_strikes_per_100_max_player_life",
+    "zh": "每 100 点玩家生命上限，你暴击施加的非伤害型异常状态的效果降低 {0}%",
+    "en": "{0}% reduced Effect of Non-Damaging Ailments you inflict with Critical Strikes per 100 Player Maximum Life"
   },
   {
     "id": "non_damaging_ailment_effect_+%",
@@ -53490,6 +55510,11 @@
     "en": "Gain {0} Endurance Charges every 4 seconds while Stationary"
   },
   {
+    "id": "number_of_ghost_totems_allowed",
+    "zh": "幻影图腾上限 {0}",
+    "en": "Maximum {0} Spectral Totems"
+  },
+  {
     "id": "number_of_golems_allowed_with_3_primordial_jewels",
     "zh": "若你有 3 个起源天赋珠宝，召唤魔像的数量 {0}",
     "en": "{0} to maximum number of Summoned Golems if you have 3 Primordial Items Socketed or Equipped"
@@ -53618,6 +55643,11 @@
     "id": "offering_skills_do_not_require_corpses",
     "zh": "你的奉献技能不需要灵柩",
     "en": "Your Offering Skills do not require a Corpse"
+  },
+  {
+    "id": "offerings_kill_affected_damagable_targets_when_offering_duration_expires",
+    "zh": "奉献效果持续时间结束时，消灭受影响的可伤害目标",
+    "en": "Offerings Kill affected Damagable targets when Offering Duration expires"
   },
   {
     "id": "on_cast_lose_all_mana_gain_%_as_maximum_lightning_damage_for_4_seconds",
@@ -54532,7 +56562,7 @@
   {
     "id": "poison_duration_+%_per_poison_applied_recently",
     "zh": "近期内你施加的每层中毒效果都使中毒持续时间延长 {0}%，最多可延长 100%",
-    "en": "{0}% increased Poison Duration for each Poison you have inflicted Recently, up to a maximum of 100%"
+    "en": "{0}% increased Poison Duration for each Poison you have inflicted Recently, up\nto a maximum of 100%"
   },
   {
     "id": "poison_duration_+%_per_poison_applied_recently",
@@ -54815,9 +56845,29 @@
     "en": "Storm Rain has {0}% reduced Beam frequency"
   },
   {
+    "id": "prismatic_skills_always_inflict_frostburn",
+    "zh": "虹光技能的击中总是会造成易碎",
+    "en": "Hits with Prismatic Skills always inflict Brittle"
+  },
+  {
+    "id": "prismatic_skills_always_inflict_sapped",
+    "zh": "虹光技能的击中总是会造成精疲力尽",
+    "en": "Hits with Prismatic Skills always Sap"
+  },
+  {
+    "id": "prismatic_skills_always_scorch",
+    "zh": "虹光技能的击中总是会造成烧灼",
+    "en": "Hits with Prismatic Skills always Scorch"
+  },
+  {
     "id": "profane_ground_on_crit_chance_%_if_highest_attribute_is_intelligence",
     "zh": "若智慧是你最高的属性，则你暴击时，有 {0}% 几率产生渎神地面",
     "en": "{0}% chance to create Profane Ground on Critical\nStrike if Intelligence is your highest Attribute"
+  },
+  {
+    "id": "profane_ground_you_create_inflicts_malediction_on_enemies",
+    "zh": "你产生的渎神地面会对敌人施加恶语术",
+    "en": "Profane Ground you create inflicts Malediction on Enemies"
   },
   {
     "id": "projecitle_chance_to_be_able_to_chain_from_terrain_%_per_ranged_abyss_jewel_up_to_20%",
@@ -54925,6 +56975,11 @@
     "en": "Projectiles cannot continue after colliding with targets"
   },
   {
+    "id": "projectile_speed_+%_per_20_strength",
+    "zh": "每 20 点力量使投射物速度加快 {0}%",
+    "en": "{0}% increased Projectile Speed per 20 Strength"
+  },
+  {
     "id": "projectile_speed_+%_with_daggers",
     "zh": "装备匕首时，投射物速度加快 {0}%",
     "en": "{0}% increased Projectile Speed while wielding a Dagger"
@@ -54933,6 +56988,11 @@
     "id": "projectile_speed_+%_with_daggers",
     "zh": "装备匕首时，投射物速度减慢 {0}%",
     "en": "{0}% reduced Projectile Speed while wielding a Dagger"
+  },
+  {
+    "id": "projectile_speed_+1%_per_X_evasion_rating_up_to_75%",
+    "zh": "每 {0} 点闪避值使投射物速度提高 1%，上限 75%",
+    "en": "1% increased Projectile Speed per {0} Evasion Rating, up to 75%"
   },
   {
     "id": "projectile_speed_variation_+%_final_with_melee_weapon_attacks",
@@ -55221,7 +57281,7 @@
   },
   {
     "id": "maximum_rage",
-    "zh": "{0} 最大怒火",
+    "zh": "怒火上限 {0}",
     "en": "{0} to Maximum Rage"
   },
   {
@@ -55415,6 +57475,26 @@
     "en": "Raise Zombie does not require a corpse"
   },
   {
+    "id": "raised_beast_spectres_have_farruls_farric_presence",
+    "zh": "复苏的野兽灵体拥有法瑞尔的法里克之灵",
+    "en": "Raised Beast Spectres have Farrul's Farric Presence"
+  },
+  {
+    "id": "raised_beast_spectres_have_farruls_fertile_presence",
+    "zh": "复苏的野兽灵体拥有法瑞尔的丰沃之灵",
+    "en": "Raised Beast Spectres have Farrul's Fertile Presence"
+  },
+  {
+    "id": "raised_beast_spectres_have_farruls_wild_presence",
+    "zh": "复苏的野兽灵体拥有法瑞尔的狂野之灵",
+    "en": "Raised Beast Spectres have Farrul's Wild Presence"
+  },
+  {
+    "id": "raised_beast_spectres_have_x_random_modifiers_per_area",
+    "zh": "复苏的野兽灵体在每个区域中随机获得 {0} 个额外词缀",
+    "en": "Raised Beast Spectres have {0} additional modifiers randomly chosen in each Area"
+  },
+  {
     "id": "raised_zombie_%_chance_to_taunt",
     "zh": "复苏的魔卫有 {0}% 的几率击中时嘲讽敌人",
     "en": "Raised Zombies have {0}% chance to Taunt Enemies on Hit"
@@ -55495,6 +57575,11 @@
     "en": "Non-Damaging Elemental Ailments you inflict have {0}% less Effect"
   },
   {
+    "id": "rare_beasts_keep_modifiers_when_raised_as_spectres",
+    "zh": "稀有野兽在被复苏为灵体时保留其词缀",
+    "en": "Rare Beasts keep their Modifiers when Raised as Spectres"
+  },
+  {
     "id": "rare_or_unique_monster_dropped_item_rarity_+%",
     "zh": "击败稀有或传奇敌人后掉落物品的稀有度提高 {0}%",
     "en": "{0}% increased Rarity of Items Dropped by Slain Rare or Unique Enemies"
@@ -55553,6 +57638,11 @@
     "id": "recover_%_energy_shield_over_1_second_when_you_take_physical_damage_from_enemy_hits",
     "zh": "当你因敌人击中受到物理伤害时，在 1 秒内恢复 {0}% 的能量护盾",
     "en": "Recover {0}% of Energy Shield over 1 second when you take Physical Damage from an Enemy Hit"
+  },
+  {
+    "id": "recover_%_life_when_you_chill_a_non_chilled_enemy",
+    "zh": "冰缓非冰缓状态的敌人时回复 {0}% 生命",
+    "en": "Recover {0}% of Life when you Chill a non-Chilled Enemy"
   },
   {
     "id": "recover_%_maximum_energy_shield_on_killing_cursed_enemy",
@@ -55945,6 +58035,11 @@
     "en": "Remove {0}% of Mana on hit"
   },
   {
+    "id": "remove_rage_on_reaching_max_to_gain_adrenaline_for_1_second_per_x_rage_lost",
+    "zh": "达到怒火上限时失去所有怒火，每因此失去 {0} 点怒火，\n获得 1 秒狂野兽性",
+    "en": "Lose all Rage on reaching Maximum Rage and gain Wild Savagery\nfor 1 second per {0} Rage lost this way"
+  },
+  {
     "id": "remove_random_ailment_on_flask_use_if_all_equipped_items_are_elder",
     "zh": "若所有装备均为裂界者物品，使用药剂时移除 1 个异常状态",
     "en": "Remove an Ailment when you use a Flask if all Equipped Items are Elder Items"
@@ -56118,6 +58213,11 @@
     "id": "retaliation_skills_all_ailment_duration_+%",
     "zh": "反击技能造成的异常状态持续时间延长 {0}%",
     "en": "{0}% increased Duration of Ailments inflicted by Retaliation Skills"
+  },
+  {
+    "id": "retaliation_skills_become_usable_every_x_ms",
+    "zh": "伤害性反击技能每 {0} 秒变为可用",
+    "en": "Damaging Retaliation Skills become Usable every {0} seconds"
   },
   {
     "id": "retaliation_skills_debilitate_on_hit_ms",
@@ -56463,6 +58563,11 @@
     "id": "self_take_no_extra_damage_from_critical_strikes_while_affected_by_elusive",
     "zh": "【灵巧】效果下，不会受到暴击造成的额外伤害",
     "en": "You take no Extra Damage from Critical Strikes while Elusive"
+  },
+  {
+    "id": "self_take_no_extra_damage_from_critical_strikes_while_no_gems_in_gloves",
+    "zh": "若已装备的手套没有镶嵌宝石，则免疫暴击的额外伤害",
+    "en": "Take no Extra Damage from Critical Strikes if you have Equipped Gloves with no Socketed Gems"
   },
   {
     "id": "sentinel_minion_cooldown_speed_+%",
@@ -57010,6 +59115,16 @@
     "en": "Summoned Skeleton Warriors are Permanent and Follow you\nSummon Skeletons cannot Summon more than 1 Skeleton Warrior"
   },
   {
+    "id": "skill_effect_duration_+%_per_red_skill_gem",
+    "zh": "每镶嵌一颗红色技能宝石，技能效果持续时间延长 {0}%",
+    "en": "{0}% increased Skill Effect Duration for each Red Skill Gem you have socketed"
+  },
+  {
+    "id": "skill_effect_duration_+%_per_red_skill_gem",
+    "zh": "每镶嵌一颗红色技能宝石，技能效果持续时间缩短 {0}%",
+    "en": "{0}% reduced Skill Effect Duration for each Red Skill Gem you have socketed"
+  },
+  {
     "id": "skill_effect_duration_+%_while_affected_by_malevolence",
     "zh": "受到【怨毒光环】影响时，技能持续时间提高 {0}%",
     "en": "{0}% increased Skill Effect Duration while affected by Malevolence"
@@ -57268,6 +59383,16 @@
     "id": "snipe_max_stacks quality_display_snipe_is_gem",
     "zh": "最大狙击层数 {0}",
     "en": "{0} to maximum Snipe Stages"
+  },
+  {
+    "id": "socketed_non_cluster_jewels_have_no_effect",
+    "zh": "你天赋树上镶嵌的非星团、非通途珠宝无效",
+    "en": "Non-Cluster, Non-Passage Jewels Socketed in your Passive Skill Tree have no effect"
+  },
+  {
+    "id": "soul_eater_from_unique",
+    "zh": "噬魂者",
+    "en": "Soul Eater"
   },
   {
     "id": "soul_eater_maximum_stacks",
@@ -57556,8 +59681,8 @@
   },
   {
     "id": "spell_base_life_cost_%",
-    "zh": "法术额外消耗相当于你生命上限 {0}% 的生命",
-    "en": "Spells have an additional Life cost equal to {0}% of your Maximum Life"
+    "zh": "法术消耗 {0}% 的生命",
+    "en": "Spells Cost {0}% of Life"
   },
   {
     "id": "spell_block_chance_%_while_holding_staff_or_shield",
@@ -57625,6 +59750,11 @@
     "en": "{0}% reduced Spell Critical Strike Chance per Raised Spectre"
   },
   {
+    "id": "spell_damage_%_suppressed_if_not_suppressed_spell_recently",
+    "zh": "若你近期未压制法术伤害，额外阻挡 +{0}% 被压制的法术伤害",
+    "en": "Prevent +{0}% of Suppressed Spell Damage if you have not Suppressed Spell Damage Recently"
+  },
+  {
     "id": "spell_damage_%_suppressed_if_taken_a_savage_hit_recently",
     "zh": "若你近期受到残暴打击，穿透 {0}% 的压制法术伤害",
     "en": "Prevent {0}% of Suppressed Spell Damage if you've taken a Savage Hit Recently"
@@ -57668,6 +59798,16 @@
     "id": "spell_damage_+%_per_500_maximum_mana",
     "zh": "每 500 点魔力会使法术伤害降低 {0}%",
     "en": "{0}% redcued Spell Damage per 500 Maximum Mana"
+  },
+  {
+    "id": "spell_damage_+%_per_summoned_skeleton",
+    "zh": "每个召唤的魔侍使法术伤害提高 {0}%",
+    "en": "{0}% increased Spell Damage per Summoned Skeleton"
+  },
+  {
+    "id": "spell_damage_+%_per_summoned_skeleton",
+    "zh": "每个召唤的魔侍使法术伤害降低 {0}%",
+    "en": "{0}% reduced Spell Damage per Summoned Skeleton"
   },
   {
     "id": "spell_damage_+%_during_flask_effect",
@@ -57903,6 +60043,11 @@
     "id": "spell_suppression_chance_modifiers_apply_to_avoid_all_elemental_ailments_at_%_value",
     "zh": "法术压制几率词缀有 {0}% 也套用于避免元素异常状态几率",
     "en": "Modifiers to Chance to Suppress Spell Damage also apply to Chance to Avoid Elemental Ailments at {0}% of their Value"
+  },
+  {
+    "id": "spell_suppression_chance_modifiers_apply_to_chance_to_double_armour_effect_on_hit_at_%_value",
+    "zh": "法术压制几率词缀有 {0}% 也套用于 200% 的护甲防御几率",
+    "en": "Modifiers to Chance to Suppress Spell Damage also apply to Chance to Defend with 200% of Armour at {0}% of their Value"
   },
   {
     "id": "spell_suppression_chance_%_if_suppressed_spell_recently",
@@ -58220,6 +60365,16 @@
     "en": "{0}% reduced Duration of Ailments inflicted while wielding a Bow"
   },
   {
+    "id": "stealth_+%_while_affected_by_elusive",
+    "zh": "处于灵巧状态时，潜行效果提高 {0}%",
+    "en": "{0}% increased Stealth while Elusive"
+  },
+  {
+    "id": "stealth_+%_while_affected_by_elusive",
+    "zh": "处于灵巧状态时，潜行效果降低 {0}%",
+    "en": "{0}% reduced Stealth while Elusive"
+  },
+  {
     "id": "stealth_+%",
     "zh": "潜行提高 {0}%",
     "en": "{0}% increased Stealth"
@@ -58513,6 +60668,11 @@
     "id": "stun_threshold_based_on_%_energy_shield_instead_of_life",
     "zh": "眩晕门槛按照 {0}% 的能量护盾计算，而非按照生命",
     "en": "Stun Threshold is based on {0}% of your Energy Shield instead of Life"
+  },
+  {
+    "id": "stun_threshold_increased_by_overcapped_fire_resistance",
+    "zh": "晕眩阈值根据超量火焰抗性提高",
+    "en": "Stun Threshold is increased by Overcapped Fire Resistance"
   },
   {
     "id": "stun_threshold_+%_per_rage",
@@ -59035,6 +61195,11 @@
     "en": "You have Tailwind if you have dealt a Critical Strike Recently"
   },
   {
+    "id": "take_20%_less_area_damage_from_hits_%_chance_per_2%_overcapped_cold_resistance",
+    "zh": "每 2% 超量冰霜抗性，有 {0}% 几率使受到的范围击中伤害降低 20%",
+    "en": "{0}% chance to take 20% less Area Damage from Hits per 2% Overcapped Cold Resistance"
+  },
+  {
     "id": "take_X_lightning_damage_when_herald_of_thunder_hits_an_enemy",
     "zh": "【闪电之捷】击中敌人时，受到 {0} 点闪电伤害",
     "en": "Take {0} Lightning Damage when Herald of Thunder Hits an Enemy"
@@ -59370,6 +61535,11 @@
     "en": "Totems Hinder Enemies near them when Summoned"
   },
   {
+    "id": "totem_life_increased_by_overcapped_fire_resistance",
+    "zh": "图腾的生命根据其超量火焰抗性提高",
+    "en": "Totem Life is increased by their Overcapped Fire Resistance"
+  },
+  {
     "id": "totem_life_+%_final",
     "zh": "图腾生命总增 {0}%",
     "en": "{0}% more Totem Life"
@@ -59648,6 +61818,16 @@
     "id": "triggered_spell_spell_damage_+%",
     "zh": "被触发法术的法术伤害降低 {0}%",
     "en": "Triggered Spells deal {0}% reduced Spell Damage"
+  },
+  {
+    "id": "triggered_spells_poison_on_hit",
+    "zh": "触发的法术击中时会造成中毒",
+    "en": "Triggered Spells Poison on Hit"
+  },
+  {
+    "id": "triggered_spells_all_damage_can_poison",
+    "zh": "所有触发法术的伤害都可以造成中毒",
+    "en": "All Damage with Triggered Spells can Poison"
   },
   {
     "id": "two_handed_attack_damage_+%_per_unlinked_socket_on_weapon",
@@ -59975,6 +62155,26 @@
     "en": "Unearth Spawns corpses with {0} Level"
   },
   {
+    "id": "unique_attacks_fire_X_additional_projectiles_while_in_off_hand",
+    "zh": "在副手时攻击额外发射 1 个投射物",
+    "en": "Attacks fire 1 additional Projectile when in Off Hand"
+  },
+  {
+    "id": "unique_attacks_fire_X_additional_projectiles_while_in_off_hand",
+    "zh": "在副手时攻击额外发射 {0} 个投射物",
+    "en": "Attacks fire {0} additional Projectiles when in Off Hand"
+  },
+  {
+    "id": "unique_attacks_have_area_+%_while_in_main_hand",
+    "zh": "在主手时攻击的效果范围扩大 {0}%",
+    "en": "Attacks have {0}% increased Area of Effect when in Main Hand"
+  },
+  {
+    "id": "unique_attacks_have_area_+%_while_in_main_hand",
+    "zh": "在主手时攻击的效果范围缩小 {0}%",
+    "en": "Attacks have {0}% reduced Area of Effect when in Main Hand"
+  },
+  {
     "id": "unique_helmet_cast_speed_+%_applies_to_attack_speed_at_%_of_original_value",
     "zh": "对施法速度的提高与降低也作用于攻击速度",
     "en": "Increases and Reductions to Cast Speed apply to Attack Speed"
@@ -60248,6 +62448,36 @@
     "id": "vaal_skill_soul_requirement_+%",
     "zh": "瓦尔技能每次施放所需灵魂降低 {0}%",
     "en": "Vaal Skills require {0}% reduced Souls per Use"
+  },
+  {
+    "id": "vaal_skill_store_uses_+",
+    "zh": "瓦尔技能可储存 +1 次使用",
+    "en": "Vaal Skills can store +1 Use"
+  },
+  {
+    "id": "vaal_skill_store_uses_+",
+    "zh": "瓦尔技能可储存 {0} 次使用",
+    "en": "Vaal Skills can store {0} Uses"
+  },
+  {
+    "id": "vaal_skills_area_of_effect_+%",
+    "zh": "瓦尔技能的效果范围扩大 {0}%",
+    "en": "Vaal Skills have {0}% increased Area of Effect"
+  },
+  {
+    "id": "vaal_skills_area_of_effect_+%",
+    "zh": "瓦尔技能的效果范围缩小 {0}%",
+    "en": "Vaal Skills have {0}% reduced Area of Effect"
+  },
+  {
+    "id": "vaal_skills_aura_effect_+%",
+    "zh": "你的瓦尔技能光环效果提高 {0}%",
+    "en": "{0}% increased Effect of Auras from your Vaal Skills"
+  },
+  {
+    "id": "vaal_skills_aura_effect_+%",
+    "zh": "你的瓦尔技能光环效果降低 {0}%",
+    "en": "{0}% reduced Effect of Auras from your Vaal Skills"
   },
   {
     "id": "vaal_souls_gained_per_minute",
@@ -60695,6 +62925,21 @@
     "en": "{0}% reduced Warcry Speed if you have not Warcried Recently"
   },
   {
+    "id": "ward_delay_recovery_+%_per_enemy_hit_taken_recently",
+    "zh": "近期每次被敌人击中，结界回复速度加快 {0}%",
+    "en": "{0}% faster Restoration of Ward per Enemy Hit taken Recently"
+  },
+  {
+    "id": "ward_delay_recovery_+%_per_enemy_hit_taken_recently",
+    "zh": "近期每次被敌人击中，结界回复速度减慢 {0}%",
+    "en": "{0}% slower Restoration of Ward per Enemy Hit taken Recently"
+  },
+  {
+    "id": "ward_from_armour_item_+%",
+    "zh": "已装备防具物品提供的结界提高 {0}%",
+    "en": "{0}% increased Ward from Equipped Armour Items"
+  },
+  {
     "id": "ward_instead_of_%_body_armour_and_evasion",
     "zh": "装备胸甲的护甲和闪避值的 {0}% 转为结界",
     "en": "Gain Ward instead of {0}% of Armour and Evasion Rating from Equipped Body Armour"
@@ -61090,6 +63335,16 @@
     "en": "Inflict Withered for two seconds on Hit if there are 5 or fewer Withered Debuffs on Enemy"
   },
   {
+    "id": "wrath_aura_effect_+%_while_at_maximum_power_charges",
+    "zh": "满暴击球状态下， 雷霆的光环效果提高 {0}%",
+    "en": "Wrath has {0}% increased Aura Effect while at maximum Power Charges"
+  },
+  {
+    "id": "wrath_aura_effect_+%_while_at_maximum_power_charges",
+    "zh": "满暴击球状态下， 雷霆的光环效果降低 {0}%",
+    "en": "Wrath has {0}% reduced Aura Effect while at maximum Power Charges"
+  },
+  {
     "id": "wrath_mana_reservation_efficiency_-2%_per_1",
     "zh": "雷霆的魔力保留效能降低 {0}%",
     "en": "Wrath has {0}% reduced Mana Reservation Efficiency"
@@ -61113,6 +63368,31 @@
     "id": "wrath_reserves_no_mana",
     "zh": "雷霆没有保留效果",
     "en": "Wrath has no Reservation"
+  },
+  {
+    "id": "x%_life_regeneration_applies_to_energy_shield",
+    "zh": "{0}% 的生命回复也作用于能量护盾",
+    "en": "{0}% of Life Regeneration also applies to Energy Shield"
+  },
+  {
+    "id": "x%_life_regeneration_applies_to_energy_shield_with_no_corrupted_equipped_items",
+    "zh": "若没有已装备的物品被腐化，{0}% 的生命回复也作用于能量护盾",
+    "en": "{0}% of Life Regeneration also applies to Energy Shield if no Equipped Items are Corrupted"
+  },
+  {
+    "id": "brequel_currency_fruit_additional_10_items_%",
+    "zh": "孕育之礼有 {0}% 几率额外孕育 10 个通货物品",
+    "en": "{0}% chance for Wombgifts to Birth 10 additional Currency Items"
+  },
+  {
+    "id": "brequel_currency_fruit_additional_10_items_%",
+    "zh": "孕育之礼额外孕育 10 个通货物品",
+    "en": "Wombgifts Birth 10 additional Currency Items"
+  },
+  {
+    "id": "brequel_equipment_fruit_item_level_+",
+    "zh": "孕育的装备物品等级 {0}",
+    "en": "Birthed Equipment has {0} to Item Level"
   },
   {
     "id": "you_and_allies_additional_block_%_if_have_attacked_recently",
@@ -61226,8 +63506,8 @@
   },
   {
     "id": "you_cannot_have_non_animated_minions",
-    "zh": "你无法拥有非幻化类召唤生物",
-    "en": "You cannot have non-Animated Minions"
+    "zh": "你不能拥有非幻化、非显化的召唤生物",
+    "en": "You cannot have Non-Animated, Non-Manifested Minions"
   },
   {
     "id": "you_cannot_have_non_spectre_minions",
@@ -61390,6 +63670,11 @@
     "en": "Your Movement Skills are Disabled"
   },
   {
+    "id": "your_profane_ground_also_affects_allies_granting_chaotic_might",
+    "zh": "你创造的亵渎地面也会影响你和友军，赋予混沌之力",
+    "en": "Profane Ground you create also affects you and your Allies, granting Chaotic Might"
+  },
+  {
     "id": "your_profane_ground_effect_lingers_for_ms_after_leaving_the_area",
     "zh": "你创造的渎神地面效果延续 1 秒",
     "en": "Effects of Profane Ground you create Linger for 1 second"
@@ -61418,6 +63703,11 @@
     "id": "your_travel_skills_except_dash_are_disabled",
     "zh": "禁用除冲刺外的旅行技能",
     "en": "Travel Skills other than Dash are Disabled"
+  },
+  {
+    "id": "your_warcry_skills_are_disabled",
+    "zh": "你的战吼被禁用了",
+    "en": "Your Warcries are disabled"
   },
   {
     "id": "all_damage_can_poison_while_affected_by_glorious_madness",
@@ -61478,6 +63768,31 @@
     "id": "local_is_survival_jewel",
     "zh": "幸存",
     "en": "Survival"
+  },
+  {
+    "id": "local_unique_jewel_disconnected_passives_can_be_allocated_around_keystone_hash",
+    "zh": "{0}范围内的核心天赋技能可以在\n未连结至天赋树的情况下配置\n通途",
+    "en": "Passive Skills in Radius of {0} can be Allocated\nwithout being connected to your tree\nPassage"
+  },
+  {
+    "id": "local_unique_jewel_nearby_disconnected_keystone_passives_can_be_allocated",
+    "zh": "范围内的基石天赋技能无需连接到你的天赋树即可配置\n通途",
+    "en": "Keystone Passive Skills in Radius can be Allocated without being connected to your tree\nPassage"
+  },
+  {
+    "id": "local_unique_jewel_nearby_disconnected_passives_can_be_allocated unique_thread_of_hope_base_resist_all_elements_%",
+    "zh": "范围内的核心天赋技能无需连接到你的天赋树即可配置\n通途",
+    "en": "Passive Skills in Radius can be Allocated without being connected to your tree\nPassage"
+  },
+  {
+    "id": "local_unique_jewel_nearby_disconnected_passives_can_be_allocated unique_thread_of_hope_base_resist_all_elements_%",
+    "zh": "所有元素抗性 {0}%",
+    "en": "{0}% to all Elemental Resistances"
+  },
+  {
+    "id": "local_unique_jewel_nearby_disconnected_passives_can_be_allocated unique_thread_of_hope_base_resist_all_elements_%",
+    "zh": "范围内的天赋技能无需连接到你的天赋树即可配置\n所有元素抗性 +{0}%\n通途",
+    "en": "Passive Skills in Radius can be Allocated without being connected to your tree\n{0}% to all Elemental Resistances\nPassage"
   },
   {
     "id": "lose_X_bark_on_enemy_spell_hit",
@@ -61755,6 +64070,11 @@
     "en": "Glancing Blows"
   },
   {
+    "id": "keystone_herald_of_doom",
+    "zh": "独行使者",
+    "en": "Lone Messenger"
+  },
+  {
     "id": "keystone_hex_master",
     "zh": "邪法宗师",
     "en": "Hex Master"
@@ -61815,6 +64135,11 @@
     "en": "Precise Technique"
   },
   {
+    "id": "keystone_prismatic_bulwark",
+    "zh": "超然飞升",
+    "en": "Transcendence"
+  },
+  {
     "id": "keystone_projectile_evasion",
     "zh": "投射物闪避",
     "en": "Arrow Dancing"
@@ -61843,6 +64168,11 @@
     "id": "keystone_sacred_bastion",
     "zh": "失衡卫士",
     "en": "Imbalanced Guard"
+  },
+  {
+    "id": "keystone_sacrifice_of_blood",
+    "zh": "鲜血献祭",
+    "en": "Sacrifice of Blood"
   },
   {
     "id": "keystone_secrets_of_suffering",
@@ -62581,7 +64911,7 @@
   },
   {
     "id": "keystone_elemental_overload",
-    "zh": "若在过去 8 秒内你造成暴击的技能造成的击中和异常状态伤害总增 40%\n你的暴击不造成额外伤害\n暴击造成的异常状态不在其内",
+    "zh": "在过去 8 秒内你造成暴击的技能造成的元素击中和异常状态伤害总增 40%\n你的暴击不造成额外伤害\n暴击造成的异常状态不在其内",
     "en": "Skills that have dealt a Critical Strike in the past 8 seconds deal 40% more Elemental Damage with Hits and Ailments\nYour Critical Strikes do not deal extra Damage\nAilments never count as being from Critical Strikes"
   },
   {
@@ -62656,8 +64986,8 @@
   },
   {
     "id": "keystone_miracle_of_thaumaturgy",
-    "zh": "最大能量护盾为 0\n非满血状态时，每秒献祭 20% 魔力来回复同等数值的生命",
-    "en": "Maximum Energy Shield is 0\nWhile not on Full Life, Sacrifice 20% of Mana per Second to Recover that much Life"
+    "zh": "移除所有能量护盾\n非满血状态时，每秒献祭 20% 魔力来回复同等数值的生命",
+    "en": "Removes all Energy Shield\nWhile not on Full Life, Sacrifice 20% of Mana per Second to Recover that much Life"
   },
   {
     "id": "keystone_natures_presence",
@@ -63776,7 +66106,7 @@
   },
   {
     "id": "local_random_support_gem_level local_random_support_gem_index",
-    "zh": "插入的技能石被 {0} 级的【尖刺战杖】辅助",
+    "zh": "插入的技能石被 {0} 级的【穿刺】辅助",
     "en": "Socketed Gems are Supported by Level {0} Impale"
   },
   {
@@ -64253,6 +66583,21 @@
     "id": "local_random_support_gem_level local_random_support_gem_index",
     "zh": "插入的技能石被 {0} 级的【专注吟唱】辅助",
     "en": "Socketed Gems are Supported by Level {0} Focused Channelling"
+  },
+  {
+    "id": "local_random_support_gem_level local_random_support_gem_index",
+    "zh": "插入的技能石被 {0} 级的【风爆术】辅助",
+    "en": "Socketed Gems are Supported by Level {0} Windburst"
+  },
+  {
+    "id": "local_random_support_gem_level local_random_support_gem_index",
+    "zh": "插入的技能石被 {0} 级的【念动失稳】辅助",
+    "en": "Socketed Gems are Supported by Level {0} Kinetic Instability"
+  },
+  {
+    "id": "local_random_support_gem_level local_random_support_gem_index",
+    "zh": "插入的技能石被 {0} 级的【活体闪电】辅助",
+    "en": "Socketed Gems are Supported by Level {0} Living Lightning"
   },
   {
     "id": "random_skill_gem_level_+_level random_skill_gem_level_+_index",
@@ -67003,5 +69348,65 @@
     "id": "random_skill_gem_level_+_level random_skill_gem_level_+_index",
     "zh": "所有 神圣报应 宝石等级 -{0}",
     "en": "-{0} to Level of all Divine Retribution Gems"
+  },
+  {
+    "id": "random_skill_gem_level_+_level random_skill_gem_level_+_index",
+    "zh": "所有 燃火箭雨 宝石等级 +{0}",
+    "en": "+{0} to Level of all Conflagration Gems"
+  },
+  {
+    "id": "random_skill_gem_level_+_level random_skill_gem_level_+_index",
+    "zh": "所有 燃火箭雨 宝石等级 -{0}",
+    "en": "-{0} to Level of all Conflagration Gems"
+  },
+  {
+    "id": "random_skill_gem_level_+_level random_skill_gem_level_+_index",
+    "zh": "所有 念动之雨 宝石等级 +{0}",
+    "en": "+{0} to Level of all Kinetic Rain Gems"
+  },
+  {
+    "id": "random_skill_gem_level_+_level random_skill_gem_level_+_index",
+    "zh": "所有 念动之雨 宝石等级 -{0}",
+    "en": "-{0} to Level of all Kinetic Rain Gems"
+  },
+  {
+    "id": "random_skill_gem_level_+_level random_skill_gem_level_+_index",
+    "zh": "所有 念动壁垒 宝石等级 +{0}",
+    "en": "+{0} to Level of all Somatic Shell Gems"
+  },
+  {
+    "id": "random_skill_gem_level_+_level random_skill_gem_level_+_index",
+    "zh": "所有 念动壁垒 宝石等级 -{0}",
+    "en": "-{0} to Level of all Somatic Shell Gems"
+  },
+  {
+    "id": "random_skill_gem_level_+_level random_skill_gem_level_+_index",
+    "zh": "所有 力场之墙 宝石等级 +{0}",
+    "en": "+{0} to Level of all Wall of Force Gems"
+  },
+  {
+    "id": "random_skill_gem_level_+_level random_skill_gem_level_+_index",
+    "zh": "所有 力场之墙 宝石等级 -{0}",
+    "en": "-{0} to Level of all Wall of Force Gems"
+  },
+  {
+    "id": "random_skill_gem_level_+_level random_skill_gem_level_+_index",
+    "zh": "所有 雷霆风暴 宝石等级 +{0}",
+    "en": "+{0} to Level of all Thunderstorm Gems"
+  },
+  {
+    "id": "random_skill_gem_level_+_level random_skill_gem_level_+_index",
+    "zh": "所有 雷霆风暴 宝石等级 -{0}",
+    "en": "-{0} to Level of all Thunderstorm Gems"
+  },
+  {
+    "id": "random_skill_gem_level_+_level random_skill_gem_level_+_index",
+    "zh": "所有 念动齐射 宝石等级 +{0}",
+    "en": "+{0} to Level of all Kinetic Fusillade Gems"
+  },
+  {
+    "id": "random_skill_gem_level_+_level random_skill_gem_level_+_index",
+    "zh": "所有 念动齐射 宝石等级 -{0}",
+    "en": "-{0} to Level of all Kinetic Fusillade Gems"
   }
 ]

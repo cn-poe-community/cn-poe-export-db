@@ -498,6 +498,10 @@
             {
                 "zh": "降伏",
                 "en": "The Surrender"
+            },
+            {
+                "zh": "懦夫哀嚎",
+                "en": "Cowards' Wail"
             }
         ]
     },
@@ -566,6 +570,10 @@
             {
                 "zh": "提图库斯的坚盾",
                 "en": "Titucius' Span"
+            },
+            {
+                "zh": "提图库斯坚盾",
+                "en": "Titucus Span"
             }
         ]
     },
@@ -761,7 +769,13 @@
     },
     {
         "zh": "棘刺圆盾",
-        "en": "Spiny Round Shield"
+        "en": "Spiny Round Shield",
+        "uniques": [
+            {
+                "zh": "苦涩本能",
+                "en": "Bitter Instinct"
+            }
+        ]
     },
     {
         "zh": "杉木圆盾",
@@ -824,5 +838,15 @@
     {
         "zh": "天使鸢盾",
         "en": "Angelic Kite Shield"
+    },
+    {
+        "zh": "黄金圣炎",
+        "en": "Golden Flame",
+        "uniques": [
+            {
+                "zh": "升华之灯",
+                "en": "Demigod's Beacon"
+            }
+        ]
     }
 ]

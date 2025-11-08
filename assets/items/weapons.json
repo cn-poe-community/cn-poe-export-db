@@ -6,6 +6,10 @@
             {
                 "zh": "艾贝拉斯之角",
                 "en": "Abberath's Horn"
+            },
+            {
+                "zh": "灰烬行者",
+                "en": "Ashcaller"
             }
         ]
     },
@@ -64,6 +68,10 @@
             {
                 "zh": "死亡屈服",
                 "en": "The Yielding Mortality"
+            },
+            {
+                "zh": "佳华尼的潜能",
+                "en": "Jiquani's Potential"
             }
         ]
     },
@@ -754,6 +762,10 @@
             {
                 "zh": "终末之始",
                 "en": "Doomsower"
+            },
+            {
+                "zh": "金玉诈欺者",
+                "en": "The Golden Charlatan"
             }
         ]
     },
@@ -969,6 +981,10 @@
             {
                 "zh": "血肉之嗜",
                 "en": "Flesh-Eater"
+            },
+            {
+                "zh": "修道院钟声",
+                "en": "The Monastery Bell"
             }
         ]
     },
@@ -1350,6 +1366,10 @@
             {
                 "zh": "裂风",
                 "en": "Windripper"
+            },
+            {
+                "zh": "飞龙之翼",
+                "en": "Wing of the Wyvern"
             }
         ]
     },
@@ -1826,6 +1846,10 @@
             {
                 "zh": "协约的遗物",
                 "en": "Relic of the Pact"
+            },
+            {
+                "zh": "暗光遗存",
+                "en": "Unlight Extant"
             }
         ]
     },
@@ -1974,6 +1998,10 @@
             {
                 "zh": "奇异",
                 "en": "Singularity"
+            },
+            {
+                "zh": "卡迪甘的权威",
+                "en": "Cadigan's Authority"
             }
         ]
     },
@@ -2083,6 +2111,10 @@
             {
                 "zh": "女神的灵缚",
                 "en": "The Goddess Bound"
+            },
+            {
+                "zh": "幽冥之祭",
+                "en": "Tipua Kaikohuru"
             }
         ]
     },
@@ -2212,6 +2244,10 @@
             {
                 "zh": "火神锻台",
                 "en": "Vulconus"
+            },
+            {
+                "zh": "积怨溃脓",
+                "en": "Festering Resentment"
             }
         ]
     },
@@ -2451,7 +2487,13 @@
     },
     {
         "zh": "幽魂之斧",
-        "en": "Spectral Axe"
+        "en": "Spectral Axe",
+        "uniques": [
+            {
+                "zh": "灰风",
+                "en": "The Grey Wind"
+            }
+        ]
     },
     {
         "zh": "灵玉斧",
@@ -2751,12 +2793,22 @@
             {
                 "zh": "艾普之怒",
                 "en": "Apep's Rage"
+            },
+            {
+                "zh": "抹灭",
+                "en": "Obliteration"
             }
         ]
     },
     {
         "zh": "兽角法杖",
-        "en": "Faun's Horn"
+        "en": "Faun's Horn",
+        "uniques": [
+            {
+                "zh": "宇蚀",
+                "en": "Eclipse Solaris"
+            }
+        ]
     },
     {
         "zh": "召集法杖",
@@ -3090,7 +3142,17 @@
     },
     {
         "zh": "召唤法杖",
-        "en": "Calling Wand"
+        "en": "Calling Wand",
+        "uniques": [
+            {
+                "zh": "冥约",
+                "en": "Midnight Bargain"
+            },
+            {
+                "zh": "冥约【仿品】",
+                "en": "Replica Midnight Bargain"
+            }
+        ]
     },
     {
         "zh": "盘曲法杖",
@@ -3099,5 +3161,73 @@
     {
         "zh": "能量之刃",
         "en": "Energy Blade"
+    },
+    {
+        "zh": "宝钥之刃",
+        "en": "Keyblade"
+    },
+    {
+        "zh": "肉体法杖",
+        "en": "Somatic Wand",
+        "uniques": [
+            {
+                "zh": "诗人之笔",
+                "en": "The Poet's Pen"
+            }
+        ]
+    },
+    {
+        "zh": "爆破法杖",
+        "en": "Blasting Wand",
+        "uniques": [
+            {
+                "zh": "峡湾之星",
+                "en": "Twyzel"
+            },
+            {
+                "zh": "峡湾之星【仿品】",
+                "en": "Replica Twyzel"
+            }
+        ]
+    },
+    {
+        "zh": "念动法杖",
+        "en": "Kinetic Wand",
+        "uniques": [
+            {
+                "zh": "泣月",
+                "en": "Moonsorrow"
+            },
+            {
+                "zh": "皮斯卡托的慧眼",
+                "en": "Piscator's Vigil"
+            }
+        ]
+    },
+    {
+        "zh": "召集法杖",
+        "en": "Convening Wand"
+    },
+    {
+        "zh": "朽木法杖 ",
+        "en": "Driftwood Wand",
+        "uniques": [
+            {
+                "zh": "生机之记",
+                "en": "Lifesprig"
+            },
+            {
+                "zh": "碎月",
+                "en": "Splinter of the Moon"
+            }
+        ]
+    },
+    {
+        "zh": "虚空飞刃",
+        "en": "Ethereal Blade"
+    },
+    {
+        "zh": "虚灵之弓",
+        "en": "Ethereal Bow"
     }
 ]
