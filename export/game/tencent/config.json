@@ -1,7 +1,7 @@
 {
   "steam": "D:\\WeGameApps\\rail_apps\\流放之路(511)",
   "files": [
-    "Metadata/StatDescriptions/stat_descriptions.text"
+    "Metadata/StatDescriptions/stat_descriptions.txt"
   ],
   "translations": [
     "Simplified Chinese"
@@ -9,6 +9,12 @@
   "tables": [
     {
       "name": "BaseItemTypes"
+    },
+    {
+      "name": "ClientStrings"
+    },
+    {
+      "name": "ItemClasses"
     }
   ]
 }

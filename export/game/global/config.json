@@ -9,6 +9,12 @@
   "tables": [
     {
       "name": "BaseItemTypes"
+    },
+    {
+      "name": "ClientStrings"
+    },
+    {
+      "name": "ItemClasses"
     }
   ]
 }
