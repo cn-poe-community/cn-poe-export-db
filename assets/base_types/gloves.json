@@ -1,0 +1,482 @@
+[
+  {
+    "id": "Metadata/Items/Armours/Gloves/GlovesStr1",
+    "zh": "铁锻护手",
+    "en": "Iron Gauntlets",
+    "dropLevel": 1
+  },
+  {
+    "id": "Metadata/Items/Armours/Gloves/GlovesStr2",
+    "zh": "坚铁护手",
+    "en": "Plated Gauntlets",
+    "dropLevel": 11
+  },
+  {
+    "id": "Metadata/Items/Armours/Gloves/GlovesStr3",
+    "zh": "青铜护手",
+    "en": "Bronze Gauntlets",
+    "dropLevel": 23
+  },
+  {
+    "id": "Metadata/Items/Armours/Gloves/GlovesStr4",
+    "zh": "冷钢护手",
+    "en": "Steel Gauntlets",
+    "dropLevel": 35
+  },
+  {
+    "id": "Metadata/Items/Armours/Gloves/GlovesStr5",
+    "zh": "古钢护手",
+    "en": "Antique Gauntlets",
+    "dropLevel": 39
+  },
+  {
+    "id": "Metadata/Items/Armours/Gloves/GlovesStr6",
+    "zh": "远古护手",
+    "en": "Ancient Gauntlets",
+    "dropLevel": 47
+  },
+  {
+    "id": "Metadata/Items/Armours/Gloves/GlovesStr7",
+    "zh": "巨灵护手",
+    "en": "Goliath Gauntlets",
+    "dropLevel": 53
+  },
+  {
+    "id": "Metadata/Items/Armours/Gloves/GlovesStr8",
+    "zh": "瓦尔护手",
+    "en": "Vaal Gauntlets",
+    "dropLevel": 63
+  },
+  {
+    "id": "Metadata/Items/Armours/Gloves/GlovesStr9",
+    "zh": "巨人护手",
+    "en": "Titan Gauntlets",
+    "dropLevel": 69
+  },
+  {
+    "id": "Metadata/Items/Armours/Gloves/GlovesStr10",
+    "zh": "先驱护手",
+    "en": "Precursor Gauntlets",
+    "dropLevel": 78
+  },
+  {
+    "id": "Metadata/Items/Armours/Gloves/GlovesStr11",
+    "zh": "海怪护手",
+    "en": "Leviathan Gauntlets",
+    "dropLevel": 84
+  },
+  {
+    "id": "Metadata/Items/Armours/Gloves/GlovesStrRitual1",
+    "zh": "历战手甲",
+    "en": "Preserving Gauntlets",
+    "dropLevel": 10
+  },
+  {
+    "id": "Metadata/Items/Armours/Gloves/GlovesStrRitual2",
+    "zh": "护卫手甲",
+    "en": "Guarding Gauntlets",
+    "dropLevel": 40
+  },
+  {
+    "id": "Metadata/Items/Armours/Gloves/GlovesStrRitual3",
+    "zh": "御敌护手",
+    "en": "Thwarting Gauntlets",
+    "dropLevel": 70
+  },
+  {
+    "id": "Metadata/Items/Armours/Gloves/GlovesDex1",
+    "zh": "生皮手套",
+    "en": "Rawhide Gloves",
+    "dropLevel": 3
+  },
+  {
+    "id": "Metadata/Items/Armours/Gloves/GlovesDex2",
+    "zh": "羊皮手套",
+    "en": "Goathide Gloves",
+    "dropLevel": 9
+  },
+  {
+    "id": "Metadata/Items/Armours/Gloves/GlovesDex3",
+    "zh": "鹿皮手套",
+    "en": "Deerskin Gloves",
+    "dropLevel": 21
+  },
+  {
+    "id": "Metadata/Items/Armours/Gloves/GlovesDex4",
+    "zh": "砂影手套",
+    "en": "Nubuck Gloves",
+    "dropLevel": 33
+  },
+  {
+    "id": "Metadata/Items/Armours/Gloves/GlovesDex5",
+    "zh": "鳗皮手套",
+    "en": "Eelskin Gloves",
+    "dropLevel": 38
+  },
+  {
+    "id": "Metadata/Items/Armours/Gloves/GlovesDex6",
+    "zh": "鲨皮手套",
+    "en": "Sharkskin Gloves",
+    "dropLevel": 45
+  },
+  {
+    "id": "Metadata/Items/Armours/Gloves/GlovesDex7",
+    "zh": "粗革手套",
+    "en": "Shagreen Gloves",
+    "dropLevel": 54
+  },
+  {
+    "id": "Metadata/Items/Armours/Gloves/GlovesDex8",
+    "zh": "匿踪手套",
+    "en": "Stealth Gloves",
+    "dropLevel": 62
+  },
+  {
+    "id": "Metadata/Items/Armours/Gloves/GlovesDex9",
+    "zh": "迷踪手套",
+    "en": "Slink Gloves",
+    "dropLevel": 70
+  },
+  {
+    "id": "Metadata/Items/Armours/Gloves/GlovesDex10",
+    "zh": "鹰妖皮手套",
+    "en": "Harpyskin Gloves",
+    "dropLevel": 78
+  },
+  {
+    "id": "Metadata/Items/Armours/Gloves/GlovesDex11",
+    "zh": "丝绒手套",
+    "en": "Velour Gloves",
+    "dropLevel": 84
+  },
+  {
+    "id": "Metadata/Items/Armours/Gloves/GlovesDexRitual1",
+    "zh": "工匠手套",
+    "en": "Tinker Gloves",
+    "dropLevel": 10
+  },
+  {
+    "id": "Metadata/Items/Armours/Gloves/GlovesDexRitual2",
+    "zh": "学徒手套",
+    "en": "Apprentice Gloves",
+    "dropLevel": 40
+  },
+  {
+    "id": "Metadata/Items/Armours/Gloves/GlovesDexRitual3",
+    "zh": "布陷者手套",
+    "en": "Trapsetter Gloves",
+    "dropLevel": 70
+  },
+  {
+    "id": "Metadata/Items/Armours/Gloves/GlovesInt1",
+    "zh": "羊毛手套",
+    "en": "Wool Gloves",
+    "dropLevel": 3
+  },
+  {
+    "id": "Metadata/Items/Armours/Gloves/GlovesInt2",
+    "zh": "丝绒手套",
+    "en": "Velvet Gloves",
+    "dropLevel": 12
+  },
+  {
+    "id": "Metadata/Items/Armours/Gloves/GlovesInt3",
+    "zh": "丝绸手套",
+    "en": "Silk Gloves",
+    "dropLevel": 25
+  },
+  {
+    "id": "Metadata/Items/Armours/Gloves/GlovesInt4",
+    "zh": "刺绣手套",
+    "en": "Embroidered Gloves",
+    "dropLevel": 36
+  },
+  {
+    "id": "Metadata/Items/Armours/Gloves/GlovesInt5",
+    "zh": "缎布手套",
+    "en": "Satin Gloves",
+    "dropLevel": 41
+  },
+  {
+    "id": "Metadata/Items/Armours/Gloves/GlovesInt6",
+    "zh": "绣布手套",
+    "en": "Samite Gloves",
+    "dropLevel": 47
+  },
+  {
+    "id": "Metadata/Items/Armours/Gloves/GlovesInt7",
+    "zh": "咒者手套",
+    "en": "Conjurer Gloves",
+    "dropLevel": 55
+  },
+  {
+    "id": "Metadata/Items/Armours/Gloves/GlovesInt8",
+    "zh": "秘术手套",
+    "en": "Arcanist Gloves",
+    "dropLevel": 60
+  },
+  {
+    "id": "Metadata/Items/Armours/Gloves/GlovesInt9",
+    "zh": "术士手套",
+    "en": "Sorcerer Gloves",
+    "dropLevel": 69
+  },
+  {
+    "id": "Metadata/Items/Armours/Gloves/GlovesInt10",
+    "zh": "贤者手套",
+    "en": "Sage Gloves",
+    "dropLevel": 78
+  },
+  {
+    "id": "Metadata/Items/Armours/Gloves/GlovesInt11",
+    "zh": "咒士手套",
+    "en": "Warlock Gloves",
+    "dropLevel": 84
+  },
+  {
+    "id": "Metadata/Items/Armours/Gloves/GlovesIntRitual1",
+    "zh": "雷线手套",
+    "en": "Leyline Gloves",
+    "dropLevel": 10
+  },
+  {
+    "id": "Metadata/Items/Armours/Gloves/GlovesIntRitual2",
+    "zh": "灵风手套",
+    "en": "Aetherwind Gloves",
+    "dropLevel": 40
+  },
+  {
+    "id": "Metadata/Items/Armours/Gloves/GlovesIntRitual3",
+    "zh": "枢纽手套",
+    "en": "Nexus Gloves",
+    "dropLevel": 70
+  },
+  {
+    "id": "Metadata/Items/Armours/Gloves/GlovesStrDex1",
+    "zh": "鱼鳞手套",
+    "en": "Fishscale Gauntlets",
+    "dropLevel": 4
+  },
+  {
+    "id": "Metadata/Items/Armours/Gloves/GlovesStrDex2",
+    "zh": "铁影手套",
+    "en": "Ironscale Gauntlets",
+    "dropLevel": 15
+  },
+  {
+    "id": "Metadata/Items/Armours/Gloves/GlovesStrDex3",
+    "zh": "铜影手套",
+    "en": "Bronzescale Gauntlets",
+    "dropLevel": 27
+  },
+  {
+    "id": "Metadata/Items/Armours/Gloves/GlovesStrDex4",
+    "zh": "钢影护手",
+    "en": "Steelscale Gauntlets",
+    "dropLevel": 36
+  },
+  {
+    "id": "Metadata/Items/Armours/Gloves/GlovesStrDex5",
+    "zh": "蛇鳞手套",
+    "en": "Serpentscale Gauntlets",
+    "dropLevel": 43
+  },
+  {
+    "id": "Metadata/Items/Armours/Gloves/GlovesStrDex6",
+    "zh": "蝮鳞手套",
+    "en": "Wyrmscale Gauntlets",
+    "dropLevel": 49
+  },
+  {
+    "id": "Metadata/Items/Armours/Gloves/GlovesStrDex7",
+    "zh": "火蝮鳞手套",
+    "en": "Hydrascale Gauntlets",
+    "dropLevel": 59
+  },
+  {
+    "id": "Metadata/Items/Armours/Gloves/GlovesStrDex8",
+    "zh": "龙鳞手套",
+    "en": "Dragonscale Gauntlets",
+    "dropLevel": 67
+  },
+  {
+    "id": "Metadata/Items/Armours/Gloves/GlovesStrDex9",
+    "zh": "奇美拉鳞手套",
+    "en": "Chimerascale Gauntlets",
+    "dropLevel": 78
+  },
+  {
+    "id": "Metadata/Items/Armours/Gloves/GlovesStrDex10",
+    "zh": "腾龙鳞手套",
+    "en": "Wyvernscale Gauntlets",
+    "dropLevel": 84
+  },
+  {
+    "id": "Metadata/Items/Armours/Gloves/GlovesStrInt1",
+    "zh": "链甲手套",
+    "en": "Chain Gloves",
+    "dropLevel": 7
+  },
+  {
+    "id": "Metadata/Items/Armours/Gloves/GlovesStrInt2",
+    "zh": "环甲手套",
+    "en": "Ringmail Gloves",
+    "dropLevel": 19
+  },
+  {
+    "id": "Metadata/Items/Armours/Gloves/GlovesStrInt3",
+    "zh": "网眼手套",
+    "en": "Mesh Gloves",
+    "dropLevel": 32
+  },
+  {
+    "id": "Metadata/Items/Armours/Gloves/GlovesStrInt4",
+    "zh": "仪式手套",
+    "en": "Riveted Gloves",
+    "dropLevel": 37
+  },
+  {
+    "id": "Metadata/Items/Armours/Gloves/GlovesStrInt5",
+    "zh": "狂热者手套",
+    "en": "Zealot Gloves",
+    "dropLevel": 43
+  },
+  {
+    "id": "Metadata/Items/Armours/Gloves/GlovesStrInt6",
+    "zh": "战士手套",
+    "en": "Soldier Gloves",
+    "dropLevel": 51
+  },
+  {
+    "id": "Metadata/Items/Armours/Gloves/GlovesStrInt7",
+    "zh": "军团手套",
+    "en": "Legion Gloves",
+    "dropLevel": 57
+  },
+  {
+    "id": "Metadata/Items/Armours/Gloves/GlovesStrInt8",
+    "zh": "圣战手套",
+    "en": "Crusader Gloves",
+    "dropLevel": 66
+  },
+  {
+    "id": "Metadata/Items/Armours/Gloves/GlovesStrInt9",
+    "zh": "先烈手套",
+    "en": "Martyr Gloves",
+    "dropLevel": 78
+  },
+  {
+    "id": "Metadata/Items/Armours/Gloves/GlovesStrInt10",
+    "zh": "圣骑士手套",
+    "en": "Paladin Gloves",
+    "dropLevel": 84
+  },
+  {
+    "id": "Metadata/Items/Armours/Gloves/GlovesDexInt1",
+    "zh": "裹趾护手",
+    "en": "Wrapped Mitts",
+    "dropLevel": 5
+  },
+  {
+    "id": "Metadata/Items/Armours/Gloves/GlovesDexInt2",
+    "zh": "扣环护手",
+    "en": "Strapped Mitts",
+    "dropLevel": 16
+  },
+  {
+    "id": "Metadata/Items/Armours/Gloves/GlovesDexInt3",
+    "zh": "环带护手",
+    "en": "Clasped Mitts",
+    "dropLevel": 31
+  },
+  {
+    "id": "Metadata/Items/Armours/Gloves/GlovesDexInt4",
+    "zh": "猎人护手",
+    "en": "Trapper Mitts",
+    "dropLevel": 36
+  },
+  {
+    "id": "Metadata/Items/Armours/Gloves/GlovesDexInt5",
+    "zh": "伏击护手",
+    "en": "Ambush Mitts",
+    "dropLevel": 45
+  },
+  {
+    "id": "Metadata/Items/Armours/Gloves/GlovesDexInt6",
+    "zh": "禁礼护手",
+    "en": "Carnal Mitts",
+    "dropLevel": 50
+  },
+  {
+    "id": "Metadata/Items/Armours/Gloves/GlovesDexInt7",
+    "zh": "暗影护手",
+    "en": "Assassin's Mitts",
+    "dropLevel": 58
+  },
+  {
+    "id": "Metadata/Items/Armours/Gloves/GlovesDexInt8",
+    "zh": "暗影者护手",
+    "en": "Murder Mitts",
+    "dropLevel": 67
+  },
+  {
+    "id": "Metadata/Items/Armours/Gloves/GlovesDexInt9",
+    "zh": "渗透者护手",
+    "en": "Infiltrator Mitts",
+    "dropLevel": 78
+  },
+  {
+    "id": "Metadata/Items/Armours/Gloves/GlovesDexInt10",
+    "zh": "幻影护手",
+    "en": "Phantom Mitts",
+    "dropLevel": 84
+  },
+  {
+    "id": "Metadata/Items/Armours/Gloves/GlovesDemigods1",
+    "zh": "黄金臂甲",
+    "en": "Golden Bracers",
+    "dropLevel": 12
+  },
+  {
+    "id": "Metadata/Items/Armours/Gloves/GlovesAtlasStr",
+    "zh": "扣钉手套",
+    "en": "Spiked Gloves",
+    "dropLevel": 70
+  },
+  {
+    "id": "Metadata/Items/Armours/Gloves/GlovesAtlasDex",
+    "zh": "擒拿手套",
+    "en": "Gripped Gloves",
+    "dropLevel": 70
+  },
+  {
+    "id": "Metadata/Items/Armours/Gloves/GlovesAtlasInt",
+    "zh": "丝绸手套",
+    "en": "Fingerless Silk Gloves",
+    "dropLevel": 70
+  },
+  {
+    "id": "Metadata/Items/Armours/Gloves/GlovesAtlasStrInt",
+    "zh": "药剂师手套",
+    "en": "Apothecary's Gloves",
+    "dropLevel": 70
+  },
+  {
+    "id": "Metadata/Items/Armours/Gloves/GlovesExpedition1",
+    "zh": "符文手套",
+    "en": "Runic Gloves",
+    "dropLevel": 24
+  },
+  {
+    "id": "Metadata/Items/Armours/Gloves/GlovesExpedition2",
+    "zh": "符文笼手",
+    "en": "Runic Gages",
+    "dropLevel": 48
+  },
+  {
+    "id": "Metadata/Items/Armours/Gloves/GlovesExpedition3",
+    "zh": "符文手甲",
+    "en": "Runic Gauntlets",
+    "dropLevel": 69
+  }
+]

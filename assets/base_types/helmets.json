@@ -1,0 +1,578 @@
+[
+  {
+    "id": "Metadata/Items/Armours/Helmets/HelmetStr1",
+    "zh": "粗铁盔",
+    "en": "Iron Hat",
+    "dropLevel": 1
+  },
+  {
+    "id": "Metadata/Items/Armours/Helmets/HelmetStr2",
+    "zh": "锥顶盔",
+    "en": "Cone Helmet",
+    "dropLevel": 7
+  },
+  {
+    "id": "Metadata/Items/Armours/Helmets/HelmetStr3",
+    "zh": "轻骑盔",
+    "en": "Barbute Helmet",
+    "dropLevel": 18
+  },
+  {
+    "id": "Metadata/Items/Armours/Helmets/HelmetStr4",
+    "zh": "护面盔",
+    "en": "Close Helmet",
+    "dropLevel": 26
+  },
+  {
+    "id": "Metadata/Items/Armours/Helmets/HelmetStr5",
+    "zh": "角斗者之盔",
+    "en": "Gladiator Helmet",
+    "dropLevel": 35
+  },
+  {
+    "id": "Metadata/Items/Armours/Helmets/HelmetStr6",
+    "zh": "掠夺者之盔",
+    "en": "Reaver Helmet",
+    "dropLevel": 40
+  },
+  {
+    "id": "Metadata/Items/Armours/Helmets/HelmetStr7",
+    "zh": "破城之盔",
+    "en": "Siege Helmet",
+    "dropLevel": 48
+  },
+  {
+    "id": "Metadata/Items/Armours/Helmets/HelmetStr8",
+    "zh": "萨姆尼盔",
+    "en": "Samnite Helmet",
+    "dropLevel": 55
+  },
+  {
+    "id": "Metadata/Items/Armours/Helmets/HelmetStr9",
+    "zh": "艾兹麦坚盔",
+    "en": "Ezomyte Burgonet",
+    "dropLevel": 60
+  },
+  {
+    "id": "Metadata/Items/Armours/Helmets/HelmetStr10",
+    "zh": "皇室坚盔",
+    "en": "Royal Burgonet",
+    "dropLevel": 65
+  },
+  {
+    "id": "Metadata/Items/Armours/Helmets/HelmetStr11",
+    "zh": "永恒坚盔",
+    "en": "Eternal Burgonet",
+    "dropLevel": 69
+  },
+  {
+    "id": "Metadata/Items/Armours/Helmets/HelmetStr12",
+    "zh": "将军战盔",
+    "en": "General's Helmet",
+    "dropLevel": 73
+  },
+  {
+    "id": "Metadata/Items/Armours/Helmets/HelmetStr13",
+    "zh": "霸王战盔",
+    "en": "Conqueror's Helmet",
+    "dropLevel": 78
+  },
+  {
+    "id": "Metadata/Items/Armours/Helmets/HelmetStr14",
+    "zh": "巨人屠夫战盔",
+    "en": "Giantslayer Helmet",
+    "dropLevel": 84
+  },
+  {
+    "id": "Metadata/Items/Armours/Helmets/HelmetDex1",
+    "zh": "皮帽",
+    "en": "Leather Cap",
+    "dropLevel": 3
+  },
+  {
+    "id": "Metadata/Items/Armours/Helmets/HelmetDex2",
+    "zh": "三角帽",
+    "en": "Tricorne",
+    "dropLevel": 10
+  },
+  {
+    "id": "Metadata/Items/Armours/Helmets/HelmetDex3",
+    "zh": "革兜",
+    "en": "Leather Hood",
+    "dropLevel": 20
+  },
+  {
+    "id": "Metadata/Items/Armours/Helmets/HelmetDex4",
+    "zh": "狼首皮盔",
+    "en": "Wolf Pelt",
+    "dropLevel": 30
+  },
+  {
+    "id": "Metadata/Items/Armours/Helmets/HelmetDex5",
+    "zh": "猎者之兜",
+    "en": "Hunter Hood",
+    "dropLevel": 41
+  },
+  {
+    "id": "Metadata/Items/Armours/Helmets/HelmetDex6",
+    "zh": "贵族三角帽",
+    "en": "Noble Tricorne",
+    "dropLevel": 47
+  },
+  {
+    "id": "Metadata/Items/Armours/Helmets/HelmetDex7",
+    "zh": "熊首皮盔",
+    "en": "Ursine Pelt",
+    "dropLevel": 55
+  },
+  {
+    "id": "Metadata/Items/Armours/Helmets/HelmetDex8",
+    "zh": "绸缎之兜",
+    "en": "Silken Hood",
+    "dropLevel": 60
+  },
+  {
+    "id": "Metadata/Items/Armours/Helmets/HelmetDex9",
+    "zh": "罪者之帽",
+    "en": "Sinner Tricorne",
+    "dropLevel": 64
+  },
+  {
+    "id": "Metadata/Items/Armours/Helmets/HelmetDex10",
+    "zh": "狮首皮盔",
+    "en": "Lion Pelt",
+    "dropLevel": 70
+  },
+  {
+    "id": "Metadata/Items/Armours/Helmets/HelmetDex11",
+    "zh": "恐兽皮盔",
+    "en": "Dire Pelt",
+    "dropLevel": 73
+  },
+  {
+    "id": "Metadata/Items/Armours/Helmets/HelmetDex12",
+    "zh": "灰熊皮盔",
+    "en": "Grizzly Pelt",
+    "dropLevel": 78
+  },
+  {
+    "id": "Metadata/Items/Armours/Helmets/HelmetDex13",
+    "zh": "威武皮盔",
+    "en": "Majestic Pelt",
+    "dropLevel": 84
+  },
+  {
+    "id": "Metadata/Items/Armours/Helmets/HelmetInt1",
+    "zh": "藤蔓之冠",
+    "en": "Vine Circlet",
+    "dropLevel": 3
+  },
+  {
+    "id": "Metadata/Items/Armours/Helmets/HelmetInt2",
+    "zh": "铁锻之冠",
+    "en": "Iron Circlet",
+    "dropLevel": 8
+  },
+  {
+    "id": "Metadata/Items/Armours/Helmets/HelmetInt3",
+    "zh": "刑罚头笼",
+    "en": "Torture Cage",
+    "dropLevel": 17
+  },
+  {
+    "id": "Metadata/Items/Armours/Helmets/HelmetInt4",
+    "zh": "祭仪之冠",
+    "en": "Tribal Circlet",
+    "dropLevel": 26
+  },
+  {
+    "id": "Metadata/Items/Armours/Helmets/HelmetInt5",
+    "zh": "灵骨之冠",
+    "en": "Bone Circlet",
+    "dropLevel": 34
+  },
+  {
+    "id": "Metadata/Items/Armours/Helmets/HelmetInt6",
+    "zh": "月影之冠",
+    "en": "Lunaris Circlet",
+    "dropLevel": 39
+  },
+  {
+    "id": "Metadata/Items/Armours/Helmets/HelmetInt7",
+    "zh": "冷钢之冠",
+    "en": "Steel Circlet",
+    "dropLevel": 48
+  },
+  {
+    "id": "Metadata/Items/Armours/Helmets/HelmetInt8",
+    "zh": "操灵者之冠",
+    "en": "Necromancer Circlet",
+    "dropLevel": 54
+  },
+  {
+    "id": "Metadata/Items/Armours/Helmets/HelmetInt9",
+    "zh": "日耀之冠",
+    "en": "Solaris Circlet",
+    "dropLevel": 59
+  },
+  {
+    "id": "Metadata/Items/Armours/Helmets/HelmetInt10",
+    "zh": "灵能之笼",
+    "en": "Mind Cage",
+    "dropLevel": 65
+  },
+  {
+    "id": "Metadata/Items/Armours/Helmets/HelmetInt11",
+    "zh": "灵主之环",
+    "en": "Hubris Circlet",
+    "dropLevel": 69
+  },
+  {
+    "id": "Metadata/Items/Armours/Helmets/HelmetInt12",
+    "zh": "月辉之冠",
+    "en": "Moonlit Circlet",
+    "dropLevel": 73
+  },
+  {
+    "id": "Metadata/Items/Armours/Helmets/HelmetInt13",
+    "zh": "阳炎之冠",
+    "en": "Sunfire Circlet",
+    "dropLevel": 78
+  },
+  {
+    "id": "Metadata/Items/Armours/Helmets/HelmetInt14",
+    "zh": "巫妖之冠",
+    "en": "Lich's Circlet",
+    "dropLevel": 84
+  },
+  {
+    "id": "Metadata/Items/Armours/Helmets/HelmetStrDex1",
+    "zh": "残破之盔",
+    "en": "Battered Helm",
+    "dropLevel": 4
+  },
+  {
+    "id": "Metadata/Items/Armours/Helmets/HelmetStrDex2",
+    "zh": "轻铁护盔",
+    "en": "Sallet",
+    "dropLevel": 13
+  },
+  {
+    "id": "Metadata/Items/Armours/Helmets/HelmetStrDex3",
+    "zh": "清视护盔",
+    "en": "Visored Sallet",
+    "dropLevel": 23
+  },
+  {
+    "id": "Metadata/Items/Armours/Helmets/HelmetStrDex4",
+    "zh": "金面护盔",
+    "en": "Gilded Sallet",
+    "dropLevel": 33
+  },
+  {
+    "id": "Metadata/Items/Armours/Helmets/HelmetStrDex5",
+    "zh": "精兵之盔",
+    "en": "Secutor Helm",
+    "dropLevel": 36
+  },
+  {
+    "id": "Metadata/Items/Armours/Helmets/HelmetStrDex6",
+    "zh": "击剑士之盔",
+    "en": "Fencer Helm",
+    "dropLevel": 43
+  },
+  {
+    "id": "Metadata/Items/Armours/Helmets/HelmetStrDex7",
+    "zh": "漆彩之盔",
+    "en": "Lacquered Helmet",
+    "dropLevel": 51
+  },
+  {
+    "id": "Metadata/Items/Armours/Helmets/HelmetStrDex8",
+    "zh": "全罩战盔",
+    "en": "Fluted Bascinet",
+    "dropLevel": 58
+  },
+  {
+    "id": "Metadata/Items/Armours/Helmets/HelmetStrDex9",
+    "zh": "猪面头盔",
+    "en": "Pig-Faced Bascinet",
+    "dropLevel": 63
+  },
+  {
+    "id": "Metadata/Items/Armours/Helmets/HelmetStrDex10",
+    "zh": "梦魇战盔",
+    "en": "Nightmare Bascinet",
+    "dropLevel": 67
+  },
+  {
+    "id": "Metadata/Items/Armours/Helmets/HelmetStrDex11",
+    "zh": "骑士之盔",
+    "en": "Knight Helm",
+    "dropLevel": 73
+  },
+  {
+    "id": "Metadata/Items/Armours/Helmets/HelmetStrDex12",
+    "zh": "征服之盔",
+    "en": "Conquest Helmet",
+    "dropLevel": 78
+  },
+  {
+    "id": "Metadata/Items/Armours/Helmets/HelmetStrDex13",
+    "zh": "魂萦战盔",
+    "en": "Haunted Bascinet",
+    "dropLevel": 84
+  },
+  {
+    "id": "Metadata/Items/Armours/Helmets/HelmetStrDexRitual1",
+    "zh": "悲伤面具",
+    "en": "Sorrow Mask",
+    "dropLevel": 15
+  },
+  {
+    "id": "Metadata/Items/Armours/Helmets/HelmetStrDexRitual2",
+    "zh": "赎罪面具",
+    "en": "Atonement Mask",
+    "dropLevel": 45
+  },
+  {
+    "id": "Metadata/Items/Armours/Helmets/HelmetStrDexRitual3",
+    "zh": "忏悔面具",
+    "en": "Penitent Mask",
+    "dropLevel": 75
+  },
+  {
+    "id": "Metadata/Items/Armours/Helmets/HelmetStrInt1",
+    "zh": "锈铁链盔",
+    "en": "Rusted Coif",
+    "dropLevel": 5
+  },
+  {
+    "id": "Metadata/Items/Armours/Helmets/HelmetStrInt2",
+    "zh": "士兵之盔",
+    "en": "Soldier Helmet",
+    "dropLevel": 12
+  },
+  {
+    "id": "Metadata/Items/Armours/Helmets/HelmetStrInt3",
+    "zh": "巨盔",
+    "en": "Great Helmet",
+    "dropLevel": 22
+  },
+  {
+    "id": "Metadata/Items/Armours/Helmets/HelmetStrInt4",
+    "zh": "圣战之盔",
+    "en": "Crusader Helmet",
+    "dropLevel": 31
+  },
+  {
+    "id": "Metadata/Items/Armours/Helmets/HelmetStrInt5",
+    "zh": "战意之盔",
+    "en": "Aventail Helmet",
+    "dropLevel": 37
+  },
+  {
+    "id": "Metadata/Items/Armours/Helmets/HelmetStrInt6",
+    "zh": "热战之盔",
+    "en": "Zealot Helmet",
+    "dropLevel": 44
+  },
+  {
+    "id": "Metadata/Items/Armours/Helmets/HelmetStrInt7",
+    "zh": "强化巨盔",
+    "en": "Great Crown",
+    "dropLevel": 53
+  },
+  {
+    "id": "Metadata/Items/Armours/Helmets/HelmetStrInt8",
+    "zh": "行政者战冠",
+    "en": "Magistrate Crown",
+    "dropLevel": 58
+  },
+  {
+    "id": "Metadata/Items/Armours/Helmets/HelmetStrInt9",
+    "zh": "箴言战冠",
+    "en": "Prophet Crown",
+    "dropLevel": 63
+  },
+  {
+    "id": "Metadata/Items/Armours/Helmets/HelmetStrInt10",
+    "zh": "领主战冠",
+    "en": "Praetor Crown",
+    "dropLevel": 68
+  },
+  {
+    "id": "Metadata/Items/Armours/Helmets/HelmetStrInt11",
+    "zh": "信仰之盔",
+    "en": "Faithful Helmet",
+    "dropLevel": 73
+  },
+  {
+    "id": "Metadata/Items/Armours/Helmets/HelmetStrInt12",
+    "zh": "圣骑士头冠",
+    "en": "Paladin Crown",
+    "dropLevel": 78
+  },
+  {
+    "id": "Metadata/Items/Armours/Helmets/HelmetStrInt13",
+    "zh": "神启头冠",
+    "en": "Divine Crown",
+    "dropLevel": 84
+  },
+  {
+    "id": "Metadata/Items/Armours/Helmets/HelmetStrIntRitual1",
+    "zh": "小鬼之冠",
+    "en": "Imp Crown",
+    "dropLevel": 15
+  },
+  {
+    "id": "Metadata/Items/Armours/Helmets/HelmetStrIntRitual2",
+    "zh": "恶魔之冠",
+    "en": "Demon Crown",
+    "dropLevel": 45
+  },
+  {
+    "id": "Metadata/Items/Armours/Helmets/HelmetStrIntRitual3",
+    "zh": "大恶魔之冠",
+    "en": "Archdemon Crown",
+    "dropLevel": 75
+  },
+  {
+    "id": "Metadata/Items/Armours/Helmets/HelmetDexInt1",
+    "zh": "幽惧之面",
+    "en": "Scare Mask",
+    "dropLevel": 4
+  },
+  {
+    "id": "Metadata/Items/Armours/Helmets/HelmetDexInt2",
+    "zh": "疫灾之面",
+    "en": "Plague Mask",
+    "dropLevel": 10
+  },
+  {
+    "id": "Metadata/Items/Armours/Helmets/HelmetDexInt3",
+    "zh": "铁锻之面",
+    "en": "Iron Mask",
+    "dropLevel": 17
+  },
+  {
+    "id": "Metadata/Items/Armours/Helmets/HelmetDexInt4",
+    "zh": "节庆之面",
+    "en": "Festival Mask",
+    "dropLevel": 28
+  },
+  {
+    "id": "Metadata/Items/Armours/Helmets/HelmetDexInt5",
+    "zh": "黄金之面",
+    "en": "Golden Mask",
+    "dropLevel": 35
+  },
+  {
+    "id": "Metadata/Items/Armours/Helmets/HelmetDexInt6",
+    "zh": "祸鸦之面",
+    "en": "Raven Mask",
+    "dropLevel": 38
+  },
+  {
+    "id": "Metadata/Items/Armours/Helmets/HelmetDexInt7",
+    "zh": "无情之面",
+    "en": "Callous Mask",
+    "dropLevel": 45
+  },
+  {
+    "id": "Metadata/Items/Armours/Helmets/HelmetDexInt8",
+    "zh": "弑君之面",
+    "en": "Regicide Mask",
+    "dropLevel": 52
+  },
+  {
+    "id": "Metadata/Items/Armours/Helmets/HelmetDexInt9",
+    "zh": "鹰喙之面",
+    "en": "Harlequin Mask",
+    "dropLevel": 57
+  },
+  {
+    "id": "Metadata/Items/Armours/Helmets/HelmetDexInt10",
+    "zh": "瓦尔之面",
+    "en": "Vaal Mask",
+    "dropLevel": 62
+  },
+  {
+    "id": "Metadata/Items/Armours/Helmets/HelmetDexInt11",
+    "zh": "弑神之面",
+    "en": "Deicide Mask",
+    "dropLevel": 67
+  },
+  {
+    "id": "Metadata/Items/Armours/Helmets/HelmetDexInt12",
+    "zh": "弄臣之面",
+    "en": "Jester Mask",
+    "dropLevel": 73
+  },
+  {
+    "id": "Metadata/Items/Armours/Helmets/HelmetDexInt13",
+    "zh": "上古之面",
+    "en": "Ancient Mask",
+    "dropLevel": 78
+  },
+  {
+    "id": "Metadata/Items/Armours/Helmets/HelmetDexInt14",
+    "zh": "刑罚者之面",
+    "en": "Torturer's Mask",
+    "dropLevel": 84
+  },
+  {
+    "id": "Metadata/Items/Armours/Helmets/HelmetDexIntRitual1",
+    "zh": "飓风之冠",
+    "en": "Gale Crown",
+    "dropLevel": 15
+  },
+  {
+    "id": "Metadata/Items/Armours/Helmets/HelmetDexIntRitual2",
+    "zh": "寒冬之冠",
+    "en": "Winter Crown",
+    "dropLevel": 45
+  },
+  {
+    "id": "Metadata/Items/Armours/Helmets/HelmetDexIntRitual3",
+    "zh": "暴雪之冠",
+    "en": "Blizzard Crown",
+    "dropLevel": 75
+  },
+  {
+    "id": "Metadata/Items/Armours/Helmets/HelmetWreath1",
+    "zh": "金黄花环",
+    "en": "Golden Wreath",
+    "dropLevel": 12
+  },
+  {
+    "id": "Metadata/Items/Armours/Helmets/HelmetDemigods1",
+    "zh": "金色面具",
+    "en": "Golden Visage",
+    "dropLevel": 12
+  },
+  {
+    "id": "Metadata/Items/Armours/Helmets/HelmetAtlas1",
+    "zh": "唤骨头盔",
+    "en": "Bone Helmet",
+    "dropLevel": 73
+  },
+  {
+    "id": "Metadata/Items/Armours/Helmets/HelmetExpedition1",
+    "zh": "符文头盔",
+    "en": "Runic Helm",
+    "dropLevel": 25
+  },
+  {
+    "id": "Metadata/Items/Armours/Helmets/HelmetExpedition2",
+    "zh": "符文之冠",
+    "en": "Runic Crest",
+    "dropLevel": 49
+  },
+  {
+    "id": "Metadata/Items/Armours/Helmets/HelmetExpedition3",
+    "zh": "符文王冠",
+    "en": "Runic Crown",
+    "dropLevel": 68
+  }
+]

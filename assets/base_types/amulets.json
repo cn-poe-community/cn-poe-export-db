@@ -1,0 +1,332 @@
+[
+  {
+    "id": "Metadata/Items/Amulets/Amulet1",
+    "zh": "海灵护身符",
+    "en": "Paua Amulet",
+    "dropLevel": 3
+  },
+  {
+    "id": "Metadata/Items/Amulets/Amulet2",
+    "zh": "珊瑚护身符",
+    "en": "Coral Amulet",
+    "dropLevel": 3
+  },
+  {
+    "id": "Metadata/Items/Amulets/Amulet3",
+    "zh": "琥珀护身符",
+    "en": "Amber Amulet",
+    "dropLevel": 7
+  },
+  {
+    "id": "Metadata/Items/Amulets/Amulet4",
+    "zh": "翠玉护身符",
+    "en": "Jade Amulet",
+    "dropLevel": 7
+  },
+  {
+    "id": "Metadata/Items/Amulets/Amulet5",
+    "zh": "海玉护身符",
+    "en": "Lapis Amulet",
+    "dropLevel": 7
+  },
+  {
+    "id": "Metadata/Items/Amulets/Amulet6",
+    "zh": "帝金护身符",
+    "en": "Gold Amulet",
+    "dropLevel": 15
+  },
+  {
+    "id": "Metadata/Items/Amulets/Amulet7",
+    "zh": "黑曜护身符",
+    "en": "Onyx Amulet",
+    "dropLevel": 25
+  },
+  {
+    "id": "Metadata/Items/Amulets/Amulet8",
+    "zh": "青玉护身符",
+    "en": "Turquoise Amulet",
+    "dropLevel": 20
+  },
+  {
+    "id": "Metadata/Items/Amulets/Amulet9",
+    "zh": "玛瑙护身符",
+    "en": "Agate Amulet",
+    "dropLevel": 20
+  },
+  {
+    "id": "Metadata/Items/Amulets/Amulet10",
+    "zh": "黄晶护身符",
+    "en": "Citrine Amulet",
+    "dropLevel": 20
+  },
+  {
+    "id": "Metadata/Items/Amulets/Amulet11",
+    "zh": "血色护身符",
+    "en": "Ruby Amulet",
+    "dropLevel": 50
+  },
+  {
+    "id": "Metadata/Items/Amulets/Amulet12",
+    "zh": "潜能项链",
+    "en": "Unset Amulet",
+    "dropLevel": 45
+  },
+  {
+    "id": "Metadata/Items/Amulets/AmuletE1",
+    "zh": "星盘项链",
+    "en": "Astrolabe Amulet",
+    "dropLevel": 75
+  },
+  {
+    "id": "Metadata/Items/Amulets/AmuletE2",
+    "zh": "朴实项链",
+    "en": "Simplex Amulet",
+    "dropLevel": 80
+  },
+  {
+    "id": "Metadata/Items/Amulets/AmuletE3",
+    "zh": "聚焦项链",
+    "en": "Focused Amulet",
+    "dropLevel": 80
+  },
+  {
+    "id": "Metadata/Items/Amulet/AmuletVictor1",
+    "zh": "杰特护身符",
+    "en": "Jet Amulet",
+    "dropLevel": 1
+  },
+  {
+    "id": "Metadata/Items/Amulet/AmuletAtlas1",
+    "zh": "碧珠护身符",
+    "en": "Blue Pearl Amulet",
+    "dropLevel": 77
+  },
+  {
+    "id": "Metadata/Items/Amulet/AmuletAtlas2",
+    "zh": "大理石护身符",
+    "en": "Marble Amulet",
+    "dropLevel": 74
+  },
+  {
+    "id": "Metadata/Items/Amulet/AmuletAtlas3",
+    "zh": "海晶护符",
+    "en": "Seaglass Amulet",
+    "dropLevel": 74
+  },
+  {
+    "id": "Metadata/Items/Amulets/AmuletRoyale1",
+    "zh": "黑曜护身符",
+    "en": "Onyx Amulet",
+    "dropLevel": 3
+  },
+  {
+    "id": "Metadata/Items/Amulets/Talismans/Talisman1_1",
+    "zh": "黑牙魔符",
+    "en": "Black Maw Talisman",
+    "dropLevel": 1
+  },
+  {
+    "id": "Metadata/Items/Amulets/Talismans/Talisman1_2",
+    "zh": "脊骨魔符",
+    "en": "Bonespire Talisman",
+    "dropLevel": 1
+  },
+  {
+    "id": "Metadata/Items/Amulets/Talismans/Talisman1_3",
+    "zh": "灰烬魔符",
+    "en": "Ashscale Talisman",
+    "dropLevel": 1
+  },
+  {
+    "id": "Metadata/Items/Amulets/Talismans/Talisman1_4",
+    "zh": "孤角魔符",
+    "en": "Lone Antler Talisman",
+    "dropLevel": 1
+  },
+  {
+    "id": "Metadata/Items/Amulets/Talismans/Talisman1_5",
+    "zh": "深渊魔符",
+    "en": "Deep One Talisman",
+    "dropLevel": 1
+  },
+  {
+    "id": "Metadata/Items/Amulets/Talismans/Talisman1_6",
+    "zh": "碎骨魔符",
+    "en": "Breakrib Talisman",
+    "dropLevel": 1
+  },
+  {
+    "id": "Metadata/Items/Amulets/Talismans/Talisman1_7",
+    "zh": "亡手魔符",
+    "en": "Deadhand Talisman",
+    "dropLevel": 1
+  },
+  {
+    "id": "Metadata/Items/Amulets/Talismans/Talisman1_8",
+    "zh": "不朽魔符",
+    "en": "Undying Flesh Talisman",
+    "dropLevel": 1
+  },
+  {
+    "id": "Metadata/Items/Amulets/Talismans/Talisman1_9",
+    "zh": "腐首魔符",
+    "en": "Rot Head Talisman",
+    "dropLevel": 1
+  },
+  {
+    "id": "Metadata/Items/Amulets/Talismans/Talisman1_10",
+    "zh": "巨颚魔符",
+    "en": "Mandible Talisman",
+    "dropLevel": 1
+  },
+  {
+    "id": "Metadata/Items/Amulets/Talismans/Talisman1_11",
+    "zh": "虫蛹魔符",
+    "en": "Chrysalis Talisman",
+    "dropLevel": 35
+  },
+  {
+    "id": "Metadata/Items/Amulets/Talismans/Talisman1_12",
+    "zh": "狂癫魔符",
+    "en": "Writhing Talisman",
+    "dropLevel": 35
+  },
+  {
+    "id": "Metadata/Items/Amulets/Talismans/Talisman2_1",
+    "zh": "幻爪魔符",
+    "en": "Hexclaw Talisman",
+    "dropLevel": 1
+  },
+  {
+    "id": "Metadata/Items/Amulets/Talismans/Talisman2_2",
+    "zh": "皇骨魔符",
+    "en": "Primal Skull Talisman",
+    "dropLevel": 1
+  },
+  {
+    "id": "Metadata/Items/Amulets/Talismans/Talisman2_3",
+    "zh": "亡爪魔符",
+    "en": "Wereclaw Talisman",
+    "dropLevel": 1
+  },
+  {
+    "id": "Metadata/Items/Amulets/Talismans/Talisman2_4",
+    "zh": "断螈魔符",
+    "en": "Splitnewt Talisman",
+    "dropLevel": 1
+  },
+  {
+    "id": "Metadata/Items/Amulets/Talismans/Talisman2_5",
+    "zh": "咒箍魔符",
+    "en": "Clutching Talisman",
+    "dropLevel": 1
+  },
+  {
+    "id": "Metadata/Items/Amulets/Talismans/Talisman2_6_1",
+    "zh": "双子魔符",
+    "en": "Avian Twins Talisman",
+    "dropLevel": 1
+  },
+  {
+    "id": "Metadata/Items/Amulets/Talismans/Talisman2_6_2",
+    "zh": "双子魔符",
+    "en": "Avian Twins Talisman",
+    "dropLevel": 1
+  },
+  {
+    "id": "Metadata/Items/Amulets/Talismans/Talisman2_6_3",
+    "zh": "双子魔符",
+    "en": "Avian Twins Talisman",
+    "dropLevel": 1
+  },
+  {
+    "id": "Metadata/Items/Amulets/Talismans/Talisman2_6_4",
+    "zh": "双子魔符",
+    "en": "Avian Twins Talisman",
+    "dropLevel": 1
+  },
+  {
+    "id": "Metadata/Items/Amulets/Talismans/Talisman2_6_5",
+    "zh": "双子魔符",
+    "en": "Avian Twins Talisman",
+    "dropLevel": 1
+  },
+  {
+    "id": "Metadata/Items/Amulets/Talismans/Talisman2_6_6",
+    "zh": "双子魔符",
+    "en": "Avian Twins Talisman",
+    "dropLevel": 1
+  },
+  {
+    "id": "Metadata/Items/Amulets/Talismans/Talisman2_7",
+    "zh": "齿鲨魔符",
+    "en": "Fangjaw Talisman",
+    "dropLevel": 1
+  },
+  {
+    "id": "Metadata/Items/Amulets/Talismans/Talisman2_8",
+    "zh": "尖角魔符",
+    "en": "Horned Talisman",
+    "dropLevel": 1
+  },
+  {
+    "id": "Metadata/Items/Amulets/Talismans/Talisman3_1",
+    "zh": "潜能魔符",
+    "en": "Spinefuse Talisman",
+    "dropLevel": 1
+  },
+  {
+    "id": "Metadata/Items/Amulets/Talismans/Talisman3_2",
+    "zh": "三鼠魔符",
+    "en": "Three Rat Talisman",
+    "dropLevel": 1
+  },
+  {
+    "id": "Metadata/Items/Amulets/Talismans/Talisman3_3",
+    "zh": "双猴魔符",
+    "en": "Monkey Twins Talisman",
+    "dropLevel": 1
+  },
+  {
+    "id": "Metadata/Items/Amulets/Talismans/Talisman3_4",
+    "zh": "长牙魔符",
+    "en": "Longtooth Talisman",
+    "dropLevel": 1
+  },
+  {
+    "id": "Metadata/Items/Amulets/Talismans/Talisman3_5",
+    "zh": "死羽魔符",
+    "en": "Rotfeather Talisman",
+    "dropLevel": 1
+  },
+  {
+    "id": "Metadata/Items/Amulets/Talismans/Talisman3_6_1",
+    "zh": "猴掌魔符",
+    "en": "Monkey Paw Talisman",
+    "dropLevel": 1
+  },
+  {
+    "id": "Metadata/Items/Amulets/Talismans/Talisman3_6_2",
+    "zh": "猴掌魔符",
+    "en": "Monkey Paw Talisman",
+    "dropLevel": 1
+  },
+  {
+    "id": "Metadata/Items/Amulets/Talismans/Talisman3_6_3",
+    "zh": "猴掌魔符",
+    "en": "Monkey Paw Talisman",
+    "dropLevel": 1
+  },
+  {
+    "id": "Metadata/Items/Amulets/Talismans/Talisman3_7",
+    "zh": "三手魔符",
+    "en": "Three Hands Talisman",
+    "dropLevel": 1
+  },
+  {
+    "id": "Metadata/Items/Amulets/Talismans/Talisman4",
+    "zh": "狼王魔符",
+    "en": "Greatwolf Talisman",
+    "dropLevel": 1
+  }
+]

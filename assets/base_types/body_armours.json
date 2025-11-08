@@ -1,0 +1,746 @@
+[
+  {
+    "id": "Metadata/Items/Armours/BodyArmours/BodyStr1",
+    "zh": "铁制背心",
+    "en": "Plate Vest",
+    "dropLevel": 1
+  },
+  {
+    "id": "Metadata/Items/Armours/BodyArmours/BodyStr2",
+    "zh": "胸甲",
+    "en": "Chestplate",
+    "dropLevel": 6
+  },
+  {
+    "id": "Metadata/Items/Armours/BodyArmours/BodyStr3",
+    "zh": "铜锻板甲",
+    "en": "Copper Plate",
+    "dropLevel": 17
+  },
+  {
+    "id": "Metadata/Items/Armours/BodyArmours/BodyStr4",
+    "zh": "战争之铠",
+    "en": "War Plate",
+    "dropLevel": 21
+  },
+  {
+    "id": "Metadata/Items/Armours/BodyArmours/BodyStr5",
+    "zh": "连身铠甲",
+    "en": "Full Plate",
+    "dropLevel": 28
+  },
+  {
+    "id": "Metadata/Items/Armours/BodyArmours/BodyStr6",
+    "zh": "斗者之铠",
+    "en": "Arena Plate",
+    "dropLevel": 32
+  },
+  {
+    "id": "Metadata/Items/Armours/BodyArmours/BodyStr7",
+    "zh": "领主护铠",
+    "en": "Lordly Plate",
+    "dropLevel": 35
+  },
+  {
+    "id": "Metadata/Items/Armours/BodyArmours/BodyStr8",
+    "zh": "青铜铠甲",
+    "en": "Bronze Plate",
+    "dropLevel": 37
+  },
+  {
+    "id": "Metadata/Items/Armours/BodyArmours/BodyStr9",
+    "zh": "战铠",
+    "en": "Battle Plate",
+    "dropLevel": 41
+  },
+  {
+    "id": "Metadata/Items/Armours/BodyArmours/BodyStr10",
+    "zh": "日光之铠",
+    "en": "Sun Plate",
+    "dropLevel": 45
+  },
+  {
+    "id": "Metadata/Items/Armours/BodyArmours/BodyStr11",
+    "zh": "决斗之铠",
+    "en": "Colosseum Plate",
+    "dropLevel": 49
+  },
+  {
+    "id": "Metadata/Items/Armours/BodyArmours/BodyStr12",
+    "zh": "庄严之铠",
+    "en": "Majestic Plate",
+    "dropLevel": 53
+  },
+  {
+    "id": "Metadata/Items/Armours/BodyArmours/BodyStr13",
+    "zh": "金耀之铠",
+    "en": "Golden Plate",
+    "dropLevel": 56
+  },
+  {
+    "id": "Metadata/Items/Armours/BodyArmours/BodyStr14",
+    "zh": "征战重铠",
+    "en": "Crusader Plate",
+    "dropLevel": 59
+  },
+  {
+    "id": "Metadata/Items/Armours/BodyArmours/BodyStr15",
+    "zh": "星芒战铠",
+    "en": "Astral Plate",
+    "dropLevel": 62
+  },
+  {
+    "id": "Metadata/Items/Armours/BodyArmours/BodyStr16",
+    "zh": "角斗重铠",
+    "en": "Gladiator Plate",
+    "dropLevel": 65
+  },
+  {
+    "id": "Metadata/Items/Armours/BodyArmours/BodyStr17",
+    "zh": "荣耀战铠",
+    "en": "Glorious Plate",
+    "dropLevel": 68
+  },
+  {
+    "id": "Metadata/Items/Armours/BodyArmours/BodyStr18",
+    "zh": "泰坦战铠",
+    "en": "Titan Plate",
+    "dropLevel": 73
+  },
+  {
+    "id": "Metadata/Items/Armours/BodyArmours/BodyStr19",
+    "zh": "军团战铠",
+    "en": "Legion Plate",
+    "dropLevel": 78
+  },
+  {
+    "id": "Metadata/Items/Armours/BodyArmours/BodyStr20",
+    "zh": "皇家战铠",
+    "en": "Royal Plate",
+    "dropLevel": 84
+  },
+  {
+    "id": "Metadata/Items/Armours/BodyArmours/BodyStrTemp",
+    "zh": "冈姆的重铠",
+    "en": "Kaom's Plate",
+    "dropLevel": 1
+  },
+  {
+    "id": "Metadata/Items/Armours/BodyArmours/BodyDex1",
+    "zh": "破旧外套",
+    "en": "Shabby Jerkin",
+    "dropLevel": 2
+  },
+  {
+    "id": "Metadata/Items/Armours/BodyArmours/BodyDex2",
+    "zh": "扣环皮甲",
+    "en": "Strapped Leather",
+    "dropLevel": 9
+  },
+  {
+    "id": "Metadata/Items/Armours/BodyArmours/BodyDex3",
+    "zh": "鹿皮外套",
+    "en": "Buckskin Tunic",
+    "dropLevel": 17
+  },
+  {
+    "id": "Metadata/Items/Armours/BodyArmours/BodyDex4",
+    "zh": "狂野部族皮甲",
+    "en": "Wild Leather",
+    "dropLevel": 25
+  },
+  {
+    "id": "Metadata/Items/Armours/BodyArmours/BodyDex5",
+    "zh": "连身皮甲",
+    "en": "Full Leather",
+    "dropLevel": 28
+  },
+  {
+    "id": "Metadata/Items/Armours/BodyArmours/BodyDex6",
+    "zh": "日光皮甲",
+    "en": "Sun Leather",
+    "dropLevel": 32
+  },
+  {
+    "id": "Metadata/Items/Armours/BodyArmours/BodyDex7",
+    "zh": "窃贼之装",
+    "en": "Thief's Garb",
+    "dropLevel": 35
+  },
+  {
+    "id": "Metadata/Items/Armours/BodyArmours/BodyDex8",
+    "zh": "鳗皮之衣",
+    "en": "Eelskin Tunic",
+    "dropLevel": 37
+  },
+  {
+    "id": "Metadata/Items/Armours/BodyArmours/BodyDex9",
+    "zh": "边戍皮甲",
+    "en": "Frontier Leather",
+    "dropLevel": 41
+  },
+  {
+    "id": "Metadata/Items/Armours/BodyArmours/BodyDex10",
+    "zh": "荣耀皮甲",
+    "en": "Glorious Leather",
+    "dropLevel": 45
+  },
+  {
+    "id": "Metadata/Items/Armours/BodyArmours/BodyDex11",
+    "zh": "光耀皮甲",
+    "en": "Coronal Leather",
+    "dropLevel": 49
+  },
+  {
+    "id": "Metadata/Items/Armours/BodyArmours/BodyDex12",
+    "zh": "死神之装",
+    "en": "Cutthroat's Garb",
+    "dropLevel": 53
+  },
+  {
+    "id": "Metadata/Items/Armours/BodyArmours/BodyDex13",
+    "zh": "鲨皮之衣",
+    "en": "Sharkskin Tunic",
+    "dropLevel": 56
+  },
+  {
+    "id": "Metadata/Items/Armours/BodyArmours/BodyDex14",
+    "zh": "命运皮甲",
+    "en": "Destiny Leather",
+    "dropLevel": 59
+  },
+  {
+    "id": "Metadata/Items/Armours/BodyArmours/BodyDex15",
+    "zh": "精制皮甲",
+    "en": "Exquisite Leather",
+    "dropLevel": 62
+  },
+  {
+    "id": "Metadata/Items/Armours/BodyArmours/BodyDex16",
+    "zh": "星辰皮甲",
+    "en": "Zodiac Leather",
+    "dropLevel": 65
+  },
+  {
+    "id": "Metadata/Items/Armours/BodyArmours/BodyDex17",
+    "zh": "暗影之装",
+    "en": "Assassin's Garb",
+    "dropLevel": 68
+  },
+  {
+    "id": "Metadata/Items/Armours/BodyArmours/BodyDex18",
+    "zh": "至尊皮甲",
+    "en": "Supreme Leather",
+    "dropLevel": 73
+  },
+  {
+    "id": "Metadata/Items/Armours/BodyArmours/BodyDex19",
+    "zh": "星界皮甲",
+    "en": "Astral Leather",
+    "dropLevel": 78
+  },
+  {
+    "id": "Metadata/Items/Armours/BodyArmours/BodyDex20",
+    "zh": "辛迪加之装",
+    "en": "Syndicate's Garb",
+    "dropLevel": 84
+  },
+  {
+    "id": "Metadata/Items/Armours/BodyArmours/BodyInt1",
+    "zh": "简易之袍",
+    "en": "Simple Robe",
+    "dropLevel": 3
+  },
+  {
+    "id": "Metadata/Items/Armours/BodyArmours/BodyInt2",
+    "zh": "绸缎背心",
+    "en": "Silken Vest",
+    "dropLevel": 11
+  },
+  {
+    "id": "Metadata/Items/Armours/BodyArmours/BodyInt3",
+    "zh": "学者之袍",
+    "en": "Scholar's Robe",
+    "dropLevel": 18
+  },
+  {
+    "id": "Metadata/Items/Armours/BodyArmours/BodyInt4",
+    "zh": "丝绸之衣",
+    "en": "Silken Garb",
+    "dropLevel": 25
+  },
+  {
+    "id": "Metadata/Items/Armours/BodyArmours/BodyInt5",
+    "zh": "博学长衣",
+    "en": "Mage's Vestment",
+    "dropLevel": 28
+  },
+  {
+    "id": "Metadata/Items/Armours/BodyArmours/BodyInt6",
+    "zh": "丝质之袍",
+    "en": "Silk Robe",
+    "dropLevel": 32
+  },
+  {
+    "id": "Metadata/Items/Armours/BodyArmours/BodyInt7",
+    "zh": "秘术法衣",
+    "en": "Cabalist Regalia",
+    "dropLevel": 35
+  },
+  {
+    "id": "Metadata/Items/Armours/BodyArmours/BodyInt8",
+    "zh": "贤者之袍",
+    "en": "Sage's Robe",
+    "dropLevel": 37
+  },
+  {
+    "id": "Metadata/Items/Armours/BodyArmours/BodyInt9",
+    "zh": "丝绒背心",
+    "en": "Silken Wrap",
+    "dropLevel": 41
+  },
+  {
+    "id": "Metadata/Items/Armours/BodyArmours/BodyInt10",
+    "zh": "咒者长衣",
+    "en": "Conjurer's Vestment",
+    "dropLevel": 45
+  },
+  {
+    "id": "Metadata/Items/Armours/BodyArmours/BodyInt11",
+    "zh": "蛛丝之袍",
+    "en": "Spidersilk Robe",
+    "dropLevel": 49
+  },
+  {
+    "id": "Metadata/Items/Armours/BodyArmours/BodyInt12",
+    "zh": "灭世法衣",
+    "en": "Destroyer Regalia",
+    "dropLevel": 53
+  },
+  {
+    "id": "Metadata/Items/Armours/BodyArmours/BodyInt13",
+    "zh": "智者之袍",
+    "en": "Savant's Robe",
+    "dropLevel": 56
+  },
+  {
+    "id": "Metadata/Items/Armours/BodyArmours/BodyInt14",
+    "zh": "操灵者背心",
+    "en": "Necromancer Silks",
+    "dropLevel": 59
+  },
+  {
+    "id": "Metadata/Items/Armours/BodyArmours/BodyInt15",
+    "zh": "秘术长衣",
+    "en": "Occultist's Vestment",
+    "dropLevel": 62
+  },
+  {
+    "id": "Metadata/Items/Armours/BodyArmours/BodyInt16",
+    "zh": "毒蛛丝之袍",
+    "en": "Widowsilk Robe",
+    "dropLevel": 65
+  },
+  {
+    "id": "Metadata/Items/Armours/BodyArmours/BodyInt17",
+    "zh": "瓦尔法衣",
+    "en": "Vaal Regalia",
+    "dropLevel": 68
+  },
+  {
+    "id": "Metadata/Items/Armours/BodyArmours/BodyInt18",
+    "zh": "秘法长衣",
+    "en": "Arcane Vestment",
+    "dropLevel": 73
+  },
+  {
+    "id": "Metadata/Items/Armours/BodyArmours/BodyInt19",
+    "zh": "夜纹之袍",
+    "en": "Nightweave Robe",
+    "dropLevel": 78
+  },
+  {
+    "id": "Metadata/Items/Armours/BodyArmours/BodyInt20",
+    "zh": "暮光法衣",
+    "en": "Twilight Regalia",
+    "dropLevel": 84
+  },
+  {
+    "id": "Metadata/Items/Armours/BodyArmours/BodyStrDex1",
+    "zh": "细鳞背心",
+    "en": "Scale Vest",
+    "dropLevel": 4
+  },
+  {
+    "id": "Metadata/Items/Armours/BodyArmours/BodyStrDex2",
+    "zh": "轻锁甲",
+    "en": "Light Brigandine",
+    "dropLevel": 8
+  },
+  {
+    "id": "Metadata/Items/Armours/BodyArmours/BodyStrDex3",
+    "zh": "合身鳞甲",
+    "en": "Scale Doublet",
+    "dropLevel": 17
+  },
+  {
+    "id": "Metadata/Items/Armours/BodyArmours/BodyStrDex4",
+    "zh": "步兵锁甲",
+    "en": "Infantry Brigandine",
+    "dropLevel": 21
+  },
+  {
+    "id": "Metadata/Items/Armours/BodyArmours/BodyStrDex5",
+    "zh": "连身鳞甲",
+    "en": "Full Scale Armour",
+    "dropLevel": 28
+  },
+  {
+    "id": "Metadata/Items/Armours/BodyArmours/BodyStrDex6",
+    "zh": "战士锁甲",
+    "en": "Soldier's Brigandine",
+    "dropLevel": 32
+  },
+  {
+    "id": "Metadata/Items/Armours/BodyArmours/BodyStrDex7",
+    "zh": "野战薄甲",
+    "en": "Field Lamellar",
+    "dropLevel": 35
+  },
+  {
+    "id": "Metadata/Items/Armours/BodyArmours/BodyStrDex8",
+    "zh": "龙鳞战甲",
+    "en": "Wyrmscale Doublet",
+    "dropLevel": 38
+  },
+  {
+    "id": "Metadata/Items/Armours/BodyArmours/BodyStrDex9",
+    "zh": "轻骑锁甲",
+    "en": "Hussar Brigandine",
+    "dropLevel": 42
+  },
+  {
+    "id": "Metadata/Items/Armours/BodyArmours/BodyStrDex10",
+    "zh": "连身龙鳞战甲",
+    "en": "Full Wyrmscale",
+    "dropLevel": 46
+  },
+  {
+    "id": "Metadata/Items/Armours/BodyArmours/BodyStrDex11",
+    "zh": "指挥者锁甲",
+    "en": "Commander's Brigandine",
+    "dropLevel": 50
+  },
+  {
+    "id": "Metadata/Items/Armours/BodyArmours/BodyStrDex12",
+    "zh": "争战鳞甲",
+    "en": "Battle Lamellar",
+    "dropLevel": 54
+  },
+  {
+    "id": "Metadata/Items/Armours/BodyArmours/BodyStrDex13",
+    "zh": "龙鳞护甲",
+    "en": "Dragonscale Doublet",
+    "dropLevel": 57
+  },
+  {
+    "id": "Metadata/Items/Armours/BodyArmours/BodyStrDex14",
+    "zh": "荒野锁铠",
+    "en": "Desert Brigandine",
+    "dropLevel": 60
+  },
+  {
+    "id": "Metadata/Items/Armours/BodyArmours/BodyStrDex15",
+    "zh": "连身龙鳞铠",
+    "en": "Full Dragonscale",
+    "dropLevel": 63
+  },
+  {
+    "id": "Metadata/Items/Armours/BodyArmours/BodyStrDex16",
+    "zh": "将军铠甲",
+    "en": "General's Brigandine",
+    "dropLevel": 66
+  },
+  {
+    "id": "Metadata/Items/Armours/BodyArmours/BodyStrDex17",
+    "zh": "胜利盔甲",
+    "en": "Triumphant Lamellar",
+    "dropLevel": 69
+  },
+  {
+    "id": "Metadata/Items/Armours/BodyArmours/BodyStrDex18",
+    "zh": "连身腾龙鳞甲",
+    "en": "Full Wyvernscale",
+    "dropLevel": 73
+  },
+  {
+    "id": "Metadata/Items/Armours/BodyArmours/BodyStrDex19",
+    "zh": "元帅锁铠",
+    "en": "Marshall's Brigandine",
+    "dropLevel": 78
+  },
+  {
+    "id": "Metadata/Items/Armours/BodyArmours/BodyStrDex20",
+    "zh": "征服盔甲",
+    "en": "Conquest Lamellar",
+    "dropLevel": 84
+  },
+  {
+    "id": "Metadata/Items/Armours/BodyArmours/BodyStrInt1",
+    "zh": "锁链背心",
+    "en": "Chainmail Vest",
+    "dropLevel": 4
+  },
+  {
+    "id": "Metadata/Items/Armours/BodyArmours/BodyStrInt2",
+    "zh": "链甲外衣",
+    "en": "Chainmail Tunic",
+    "dropLevel": 8
+  },
+  {
+    "id": "Metadata/Items/Armours/BodyArmours/BodyStrInt3",
+    "zh": "环甲外套",
+    "en": "Ringmail Coat",
+    "dropLevel": 17
+  },
+  {
+    "id": "Metadata/Items/Armours/BodyArmours/BodyStrInt4",
+    "zh": "护体锁甲",
+    "en": "Chainmail Doublet",
+    "dropLevel": 21
+  },
+  {
+    "id": "Metadata/Items/Armours/BodyArmours/BodyStrInt5",
+    "zh": "连身环甲",
+    "en": "Full Ringmail",
+    "dropLevel": 28
+  },
+  {
+    "id": "Metadata/Items/Armours/BodyArmours/BodyStrInt6",
+    "zh": "连身锁甲",
+    "en": "Full Chainmail",
+    "dropLevel": 32
+  },
+  {
+    "id": "Metadata/Items/Armours/BodyArmours/BodyStrInt7",
+    "zh": "圣语锁甲",
+    "en": "Holy Chainmail",
+    "dropLevel": 35
+  },
+  {
+    "id": "Metadata/Items/Armours/BodyArmours/BodyStrInt8",
+    "zh": "精制环甲",
+    "en": "Latticed Ringmail",
+    "dropLevel": 39
+  },
+  {
+    "id": "Metadata/Items/Armours/BodyArmours/BodyStrInt9",
+    "zh": "圣战锁甲",
+    "en": "Crusader Chainmail",
+    "dropLevel": 43
+  },
+  {
+    "id": "Metadata/Items/Armours/BodyArmours/BodyStrInt10",
+    "zh": "华丽环甲",
+    "en": "Ornate Ringmail",
+    "dropLevel": 47
+  },
+  {
+    "id": "Metadata/Items/Armours/BodyArmours/BodyStrInt11",
+    "zh": "锁子长甲",
+    "en": "Chain Hauberk",
+    "dropLevel": 51
+  },
+  {
+    "id": "Metadata/Items/Armours/BodyArmours/BodyStrInt12",
+    "zh": "虔诚链甲",
+    "en": "Devout Chainmail",
+    "dropLevel": 55
+  },
+  {
+    "id": "Metadata/Items/Armours/BodyArmours/BodyStrInt13",
+    "zh": "覆体环甲",
+    "en": "Loricated Ringmail",
+    "dropLevel": 58
+  },
+  {
+    "id": "Metadata/Items/Armours/BodyArmours/BodyStrInt14",
+    "zh": "征战锁甲",
+    "en": "Conquest Chainmail",
+    "dropLevel": 61
+  },
+  {
+    "id": "Metadata/Items/Armours/BodyArmours/BodyStrInt15",
+    "zh": "权贵环甲",
+    "en": "Elegant Ringmail",
+    "dropLevel": 64
+  },
+  {
+    "id": "Metadata/Items/Armours/BodyArmours/BodyStrInt16",
+    "zh": "圣者链甲",
+    "en": "Saint's Hauberk",
+    "dropLevel": 67
+  },
+  {
+    "id": "Metadata/Items/Armours/BodyArmours/BodyStrInt17",
+    "zh": "圣洁锁甲",
+    "en": "Saintly Chainmail",
+    "dropLevel": 70
+  },
+  {
+    "id": "Metadata/Items/Armours/BodyArmours/BodyStrInt18",
+    "zh": "雄壮环甲",
+    "en": "Grand Ringmail",
+    "dropLevel": 73
+  },
+  {
+    "id": "Metadata/Items/Armours/BodyArmours/BodyStrInt19",
+    "zh": "圣骑士链甲",
+    "en": "Paladin's Hauberk",
+    "dropLevel": 78
+  },
+  {
+    "id": "Metadata/Items/Armours/BodyArmours/BodyStrInt20",
+    "zh": "神圣锁甲",
+    "en": "Sacred Chainmail",
+    "dropLevel": 84
+  },
+  {
+    "id": "Metadata/Items/Armours/BodyArmours/BodyDexInt1",
+    "zh": "薄衬衣",
+    "en": "Padded Vest",
+    "dropLevel": 4
+  },
+  {
+    "id": "Metadata/Items/Armours/BodyArmours/BodyDexInt2",
+    "zh": "防水背心",
+    "en": "Oiled Vest",
+    "dropLevel": 9
+  },
+  {
+    "id": "Metadata/Items/Armours/BodyArmours/BodyDexInt3",
+    "zh": "长袖棉袄",
+    "en": "Padded Jacket",
+    "dropLevel": 18
+  },
+  {
+    "id": "Metadata/Items/Armours/BodyArmours/BodyDexInt4",
+    "zh": "防水外衣",
+    "en": "Oiled Coat",
+    "dropLevel": 22
+  },
+  {
+    "id": "Metadata/Items/Armours/BodyArmours/BodyDexInt5",
+    "zh": "炽红之衣",
+    "en": "Scarlet Raiment",
+    "dropLevel": 28
+  },
+  {
+    "id": "Metadata/Items/Armours/BodyArmours/BodyDexInt6",
+    "zh": "蜡封束衣",
+    "en": "Waxed Garb",
+    "dropLevel": 32
+  },
+  {
+    "id": "Metadata/Items/Armours/BodyArmours/BodyDexInt7",
+    "zh": "骨制战甲",
+    "en": "Bone Armour",
+    "dropLevel": 35
+  },
+  {
+    "id": "Metadata/Items/Armours/BodyArmours/BodyDexInt8",
+    "zh": "菱纹外衣",
+    "en": "Quilted Jacket",
+    "dropLevel": 40
+  },
+  {
+    "id": "Metadata/Items/Armours/BodyArmours/BodyDexInt9",
+    "zh": "滑布外套",
+    "en": "Sleek Coat",
+    "dropLevel": 44
+  },
+  {
+    "id": "Metadata/Items/Armours/BodyArmours/BodyDexInt10",
+    "zh": "绯红之衣",
+    "en": "Crimson Raiment",
+    "dropLevel": 48
+  },
+  {
+    "id": "Metadata/Items/Armours/BodyArmours/BodyDexInt11",
+    "zh": "漆彩束衣",
+    "en": "Lacquered Garb",
+    "dropLevel": 52
+  },
+  {
+    "id": "Metadata/Items/Armours/BodyArmours/BodyDexInt12",
+    "zh": "地穴战甲",
+    "en": "Crypt Armour",
+    "dropLevel": 56
+  },
+  {
+    "id": "Metadata/Items/Armours/BodyArmours/BodyDexInt13",
+    "zh": "哨兵之衣",
+    "en": "Sentinel Jacket",
+    "dropLevel": 59
+  },
+  {
+    "id": "Metadata/Items/Armours/BodyArmours/BodyDexInt14",
+    "zh": "映彩外套",
+    "en": "Varnished Coat",
+    "dropLevel": 62
+  },
+  {
+    "id": "Metadata/Items/Armours/BodyArmours/BodyDexInt15",
+    "zh": "血色之衣",
+    "en": "Blood Raiment",
+    "dropLevel": 65
+  },
+  {
+    "id": "Metadata/Items/Armours/BodyArmours/BodyDexInt16",
+    "zh": "狂虐者束衣",
+    "en": "Sadist Garb",
+    "dropLevel": 68
+  },
+  {
+    "id": "Metadata/Items/Armours/BodyArmours/BodyDexInt17",
+    "zh": "禁礼之甲",
+    "en": "Carnal Armour",
+    "dropLevel": 71
+  },
+  {
+    "id": "Metadata/Items/Armours/BodyArmours/BodyDexInt18",
+    "zh": "血痕之衣",
+    "en": "Sanguine Raiment",
+    "dropLevel": 73
+  },
+  {
+    "id": "Metadata/Items/Armours/BodyArmours/BodyDexInt19",
+    "zh": "刑罚者束衣",
+    "en": "Torturer Garb",
+    "dropLevel": 78
+  },
+  {
+    "id": "Metadata/Items/Armours/BodyArmours/BodyDexInt20",
+    "zh": "幽魂之甲",
+    "en": "Necrotic Armour",
+    "dropLevel": 84
+  },
+  {
+    "id": "Metadata/Items/Armours/BodyArmours/BodyStrDexInt1",
+    "zh": "祭礼束衣",
+    "en": "Sacrificial Garb",
+    "dropLevel": 72
+  },
+  {
+    "id": "Metadata/Items/Armours/BodyArmours/BodyDemigods1",
+    "zh": "黄金战甲",
+    "en": "Golden Mantle",
+    "dropLevel": 20
+  },
+  {
+    "id": "Metadata/Items/Armours/BodyArmours/BodyStrDexInt2",
+    "zh": "扼杀链甲",
+    "en": "Grasping Mail",
+    "dropLevel": 70
+  }
+]

@@ -1,0 +1,110 @@
+[
+  {
+    "id": "Metadata/Items/Tinctures/TinctureStun",
+    "zh": "铁木酊剂",
+    "en": "Ironwood Tincture",
+    "dropLevel": 1
+  },
+  {
+    "id": "Metadata/Items/Tinctures/TinctureIgnite",
+    "zh": "烬皮酊剂",
+    "en": "Ashbark Tincture",
+    "dropLevel": 1
+  },
+  {
+    "id": "Metadata/Items/Tinctures/TinctureShock",
+    "zh": "雷岩酊剂",
+    "en": "Fulgurite Tincture",
+    "dropLevel": 1
+  },
+  {
+    "id": "Metadata/Items/Tinctures/TincturePoison",
+    "zh": "毒莓酊剂",
+    "en": "Poisonberry Tincture",
+    "dropLevel": 1
+  },
+  {
+    "id": "Metadata/Items/Tinctures/TinctureCriticalStrike",
+    "zh": "玫棘酊剂",
+    "en": "Rosethorn Tincture",
+    "dropLevel": 1
+  },
+  {
+    "id": "Metadata/Items/Tinctures/TinctureCullingStrike",
+    "zh": "橡枝酊剂",
+    "en": "Oakbranch Tincture",
+    "dropLevel": 1
+  },
+  {
+    "id": "Metadata/Items/Tinctures/TinctureFreeze",
+    "zh": "冽木酊剂",
+    "en": "Borealwood Tincture",
+    "dropLevel": 1
+  },
+  {
+    "id": "Metadata/Items/Tinctures/TinctureBleed",
+    "zh": "血脂酊剂",
+    "en": "Blood Sap Tincture",
+    "dropLevel": 1
+  },
+  {
+    "id": "Metadata/Items/Tinctures/Tincture1",
+    "zh": "虹彩酊剂",
+    "en": "Prismatic Tincture",
+    "dropLevel": 18
+  },
+  {
+    "id": "Metadata/Items/Tinctures/Tincture2",
+    "zh": "玫棘酊剂",
+    "en": "Rosethorn Tincture",
+    "dropLevel": 18
+  },
+  {
+    "id": "Metadata/Items/Tinctures/Tincture3",
+    "zh": "铁木酊剂",
+    "en": "Ironwood Tincture",
+    "dropLevel": 18
+  },
+  {
+    "id": "Metadata/Items/Tinctures/Tincture4",
+    "zh": "烬皮酊剂",
+    "en": "Ashbark Tincture",
+    "dropLevel": 32
+  },
+  {
+    "id": "Metadata/Items/Tinctures/Tincture5",
+    "zh": "冽木酊剂",
+    "en": "Borealwood Tincture",
+    "dropLevel": 32
+  },
+  {
+    "id": "Metadata/Items/Tinctures/Tincture6",
+    "zh": "雷岩酊剂",
+    "en": "Fulgurite Tincture",
+    "dropLevel": 32
+  },
+  {
+    "id": "Metadata/Items/Tinctures/Tincture7",
+    "zh": "毒莓酊剂",
+    "en": "Poisonberry Tincture",
+    "dropLevel": 45
+  },
+  {
+    "id": "Metadata/Items/Tinctures/Tincture8",
+    "zh": "血脂酊剂",
+    "en": "Blood Sap Tincture",
+    "dropLevel": 45
+  },
+  {
+    "id": "Metadata/Items/Tinctures/Tincture9",
+    "zh": "橡枝酊剂",
+    "en": "Oakbranch Tincture",
+    "dropLevel": 60
+  },
+  {
+    "id": "Metadata/Items/Tinctures/Tincture10",
+    "zh": "孢花酊剂",
+    "en": "Sporebloom Tincture",
+    "dropLevel": 52
+  }
+]

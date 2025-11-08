@@ -1,0 +1,272 @@
+[
+  {
+    "id": "Metadata/Items/Flasks/FlaskLife1",
+    "zh": "小型生命药剂",
+    "en": "Small Life Flask",
+    "dropLevel": 1
+  },
+  {
+    "id": "Metadata/Items/Flasks/FlaskLife2",
+    "zh": "中型生命药剂",
+    "en": "Medium Life Flask",
+    "dropLevel": 3
+  },
+  {
+    "id": "Metadata/Items/Flasks/FlaskLife3",
+    "zh": "大型生命药剂",
+    "en": "Large Life Flask",
+    "dropLevel": 6
+  },
+  {
+    "id": "Metadata/Items/Flasks/FlaskLife4",
+    "zh": "良质生命药剂",
+    "en": "Greater Life Flask",
+    "dropLevel": 12
+  },
+  {
+    "id": "Metadata/Items/Flasks/FlaskLife5",
+    "zh": "优质生命药剂",
+    "en": "Grand Life Flask",
+    "dropLevel": 18
+  },
+  {
+    "id": "Metadata/Items/Flasks/FlaskLife6",
+    "zh": "巨型生命药剂",
+    "en": "Giant Life Flask",
+    "dropLevel": 24
+  },
+  {
+    "id": "Metadata/Items/Flasks/FlaskLife7",
+    "zh": "高阶生命药剂",
+    "en": "Colossal Life Flask",
+    "dropLevel": 30
+  },
+  {
+    "id": "Metadata/Items/Flasks/FlaskLife8",
+    "zh": "圣语生命药剂",
+    "en": "Sacred Life Flask",
+    "dropLevel": 36
+  },
+  {
+    "id": "Metadata/Items/Flasks/FlaskLife9",
+    "zh": "祝福生命药剂",
+    "en": "Hallowed Life Flask",
+    "dropLevel": 42
+  },
+  {
+    "id": "Metadata/Items/Flasks/FlaskLife10",
+    "zh": "圣化生命药剂",
+    "en": "Sanctified Life Flask",
+    "dropLevel": 50
+  },
+  {
+    "id": "Metadata/Items/Flasks/FlaskLife11",
+    "zh": "不朽生命药剂",
+    "en": "Divine Life Flask",
+    "dropLevel": 60
+  },
+  {
+    "id": "Metadata/Items/Flasks/FlaskLife12",
+    "zh": "永恒生命药剂",
+    "en": "Eternal Life Flask",
+    "dropLevel": 65
+  },
+  {
+    "id": "Metadata/Items/Flasks/FlaskLife1Royale",
+    "zh": "小型生命药剂",
+    "en": "Small Life Flask",
+    "dropLevel": 1
+  },
+  {
+    "id": "Metadata/Items/Flasks/FlaskLife2Royale",
+    "zh": "中型生命药剂",
+    "en": "Medium Life Flask",
+    "dropLevel": 3
+  },
+  {
+    "id": "Metadata/Items/Flasks/FlaskLife3Royale",
+    "zh": "大型生命药剂",
+    "en": "Large Life Flask",
+    "dropLevel": 6
+  },
+  {
+    "id": "Metadata/Items/Flasks/FlaskMana1",
+    "zh": "小型魔力药剂",
+    "en": "Small Mana Flask",
+    "dropLevel": 1
+  },
+  {
+    "id": "Metadata/Items/Flasks/FlaskMana2",
+    "zh": "中型魔力药剂",
+    "en": "Medium Mana Flask",
+    "dropLevel": 3
+  },
+  {
+    "id": "Metadata/Items/Flasks/FlaskMana3",
+    "zh": "大型魔力药剂",
+    "en": "Large Mana Flask",
+    "dropLevel": 6
+  },
+  {
+    "id": "Metadata/Items/Flasks/FlaskMana4",
+    "zh": "良质魔力药剂",
+    "en": "Greater Mana Flask",
+    "dropLevel": 12
+  },
+  {
+    "id": "Metadata/Items/Flasks/FlaskMana5",
+    "zh": "优质魔力药剂",
+    "en": "Grand Mana Flask",
+    "dropLevel": 18
+  },
+  {
+    "id": "Metadata/Items/Flasks/FlaskMana6",
+    "zh": "巨型魔力药剂",
+    "en": "Giant Mana Flask",
+    "dropLevel": 24
+  },
+  {
+    "id": "Metadata/Items/Flasks/FlaskMana7",
+    "zh": "高阶魔力药剂",
+    "en": "Colossal Mana Flask",
+    "dropLevel": 30
+  },
+  {
+    "id": "Metadata/Items/Flasks/FlaskMana8",
+    "zh": "圣语魔力药剂",
+    "en": "Sacred Mana Flask",
+    "dropLevel": 36
+  },
+  {
+    "id": "Metadata/Items/Flasks/FlaskMana9",
+    "zh": "祝福魔力药剂",
+    "en": "Hallowed Mana Flask",
+    "dropLevel": 42
+  },
+  {
+    "id": "Metadata/Items/Flasks/FlaskMana10",
+    "zh": "圣化魔力药剂",
+    "en": "Sanctified Mana Flask",
+    "dropLevel": 50
+  },
+  {
+    "id": "Metadata/Items/Flasks/FlaskMana11",
+    "zh": "不朽魔力药剂",
+    "en": "Divine Mana Flask",
+    "dropLevel": 60
+  },
+  {
+    "id": "Metadata/Items/Flasks/FlaskMana12",
+    "zh": "永恒魔力药剂",
+    "en": "Eternal Mana Flask",
+    "dropLevel": 65
+  },
+  {
+    "id": "Metadata/Items/Flasks/FlaskUtility1",
+    "zh": "宝钻药剂",
+    "en": "Diamond Flask",
+    "dropLevel": 27
+  },
+  {
+    "id": "Metadata/Items/Flasks/FlaskUtility2",
+    "zh": "红玉药剂",
+    "en": "Ruby Flask",
+    "dropLevel": 18
+  },
+  {
+    "id": "Metadata/Items/Flasks/FlaskUtility3",
+    "zh": "蓝玉药剂",
+    "en": "Sapphire Flask",
+    "dropLevel": 18
+  },
+  {
+    "id": "Metadata/Items/Flasks/FlaskUtility4",
+    "zh": "黄玉药剂",
+    "en": "Topaz Flask",
+    "dropLevel": 18
+  },
+  {
+    "id": "Metadata/Items/Flasks/FlaskUtility5",
+    "zh": "坚岩药剂",
+    "en": "Granite Flask",
+    "dropLevel": 27
+  },
+  {
+    "id": "Metadata/Items/Flasks/FlaskUtility6",
+    "zh": "水银药剂",
+    "en": "Quicksilver Flask",
+    "dropLevel": 4
+  },
+  {
+    "id": "Metadata/Items/Flasks/FlaskUtility7",
+    "zh": "紫晶药剂",
+    "en": "Amethyst Flask",
+    "dropLevel": 18
+  },
+  {
+    "id": "Metadata/Items/Flasks/FlaskUtility8",
+    "zh": "石英药剂",
+    "en": "Quartz Flask",
+    "dropLevel": 27
+  },
+  {
+    "id": "Metadata/Items/Flasks/FlaskUtility9",
+    "zh": "翠玉药剂",
+    "en": "Jade Flask",
+    "dropLevel": 27
+  },
+  {
+    "id": "Metadata/Items/Flasks/FlaskUtility10",
+    "zh": "石化药剂",
+    "en": "Basalt Flask",
+    "dropLevel": 27
+  },
+  {
+    "id": "Metadata/Items/Flasks/FlaskUtility11",
+    "zh": "海蓝药剂",
+    "en": "Aquamarine Flask",
+    "dropLevel": 27
+  },
+  {
+    "id": "Metadata/Items/Flasks/FlaskUtility12",
+    "zh": "迷雾药剂",
+    "en": "Stibnite Flask",
+    "dropLevel": 27
+  },
+  {
+    "id": "Metadata/Items/Flasks/FlaskUtility13",
+    "zh": "硫磺药剂",
+    "en": "Sulphur Flask",
+    "dropLevel": 27
+  },
+  {
+    "id": "Metadata/Items/Flasks/FlaskUtility14",
+    "zh": "真银药剂",
+    "en": "Silver Flask",
+    "dropLevel": 27
+  },
+  {
+    "id": "Metadata/Items/Flasks/FlaskUtility15",
+    "zh": "灰岩药剂",
+    "en": "Bismuth Flask",
+    "dropLevel": 8
+  },
+  {
+    "id": "Metadata/Items/Flasks/FlaskUtility16",
+    "zh": "黄金药剂",
+    "en": "Gold Flask",
+    "dropLevel": 27
+  },
+  {
+    "id": "Metadata/Items/Flasks/FlaskUtility17",
+    "zh": "刚玉药剂",
+    "en": "Corundum Flask",
+    "dropLevel": 27
+  },
+  {
+    "id": "Metadata/Items/Flasks/FlaskUtility18",
+    "zh": "坚铁药剂",
+    "en": "Iron Flask",
+    "dropLevel": 27
+  }
+]

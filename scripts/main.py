@@ -404,12 +404,9 @@ def update_asset_requirements():
 # ======== Task: 更新assets/base_types/* =========
 
 
-# POE2 0.1,0.2中遗产的基底类型
-LEGACY_BASE_TYPE_IDS_BEFORE_0_3 = [
-    "Metadata/Items/Weapons/TwoHandWeapons/Crossbows/FourCrossbow3Cruel",
-    "Metadata/Items/Weapons/OneHandWeapons/OneHandMaces/FourOneHandMace5Cruel",
-    "Metadata/Items/Armours/Gloves/FourGlovesInt3Cruel",
-    "Metadata/Items/Armours/Focii/FourFocus3Cruel",
+# 腾讯服之前遗产的基底类型
+LEGACY_BASE_TYPE_IDS_BEFORE_TENCENT = [
+    "Metadata/Items/Quivers/Quiver4" # 存在同中文名物品，移除以避免名称冲突
 ]
 
 
@@ -426,13 +423,12 @@ def create_asset_base_types():
         ("boots", ["Boots"]),
         ("amulets", ["Amulet"]),
         ("belts", ["Belt"]),
-        ("shields", ["Shield", "Buckler", "Focus"]),
+        ("shields", ["Shield"]),
         ("flasks", ["LifeFlask", "ManaFlask", "UtilityFlask"]),
         ("jewels", ["Jewel"]),
         ("quivers", ["Quiver"]),
         ("rings", ["Ring"]),
-        ("soul_cores", ["SoulCore"]),
-        ("gems", ["Active Skill Gem", "Meta Skill Gem", "Support Skill Gem"])
+        ("tinctures",["Tincture"])
     ]
     equipment_names = ["helmets", "body_armours", "gloves", "boots", "amulets", "belts", "shields",
                        "flasks", "jewels", "quivers", "rings"]
@@ -449,9 +445,10 @@ def create_asset_base_types():
         duck_name1 = duck_table_name(*table1)
         duck_name2 = duck_table_name(*table2)
         duck_name3 = duck_table_name(*table3)
+
         rows = duckdb.sql(f"""SELECT {duck_name2}.Id, {duck_name2}.Name, {duck_name3}.Name, {duck_name2}.DropLevel FROM {duck_name2},{duck_name3}
                 WHERE {duck_name2}._index in (
-                    SELECT BaseItemType FROM {duck_name1}
+                    SELECT BaseItemTypesKey FROM {duck_name1}
                 ) AND {duck_name2}.Id = {duck_name3}.Id
             """).fetchall()
 
@@ -475,7 +472,7 @@ def create_asset_base_types():
 
         for item_class_id in item_class_ids:
             rows = duckdb.sql(f"""SELECT {duck_name2}.Id, {duck_name2}.Name, {duck_name3}.Name, {duck_name2}.DropLevel FROM {duck_name2},{duck_name3}
-                    WHERE {duck_name2}.ItemClass == (
+                    WHERE {duck_name2}.ItemClassesKey == (
                         SELECT _index FROM {duck_name1} WHERE Id == '{item_class_id}'
                     ) AND {duck_name2}.Id = {duck_name3}.Id
                 """).fetchall()
@@ -490,9 +487,9 @@ def create_asset_base_types():
         name, table_name = entry
         array = get_by_type_table(table_name)
         array = [item for item in array if item["id"]
-                 not in LEGACY_BASE_TYPE_IDS_BEFORE_0_3]
-        print(f"info: 创建 assets/poe2/base_types/{name}.json")
-        save_json(at(f"assets/poe2/base_types/{name}.json"), array)
+                 not in LEGACY_BASE_TYPE_IDS_BEFORE_TENCENT]
+        print(f"info: 创建 assets/base_types/{name}.json")
+        save_json(at(f"assets/base_types/{name}.json"), array)
 
         equipment_base_types.extend(array)
 
@@ -500,9 +497,9 @@ def create_asset_base_types():
         name, item_class_ids = entry
         array = get_by_item_class_ids(item_class_ids)
         array = [item for item in array if item["id"]
-                 not in LEGACY_BASE_TYPE_IDS_BEFORE_0_3]
-        print(f"info: 创建 assets/poe2/base_types/{name}.json")
-        save_json(at(f"assets/poe2/base_types/{name}.json"), array)
+                 not in LEGACY_BASE_TYPE_IDS_BEFORE_TENCENT]
+        print(f"info: 创建 assets/base_types/{name}.json")
+        save_json(at(f"assets/base_types/{name}.json"), array)
 
         if name in equipment_names:
             equipment_base_types.extend(array)
@@ -960,8 +957,8 @@ def create_asset_stat_descs():
 def run_all_tasks():
     # update_asset_attributes()
     # update_asset_properties()
-    update_asset_requirements()
-    # create_asset_base_types()
+    # update_asset_requirements()
+    create_asset_base_types()
     # create_asset_passive_skills()
     # update_uniques()
     # create_asset_words()

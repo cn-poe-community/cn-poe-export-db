@@ -1,0 +1,296 @@
+[
+  {
+    "id": "Metadata/Items/Rings/RingDemigods1",
+    "zh": "金环",
+    "en": "Golden Hoop",
+    "dropLevel": 12
+  },
+  {
+    "id": "Metadata/Items/Rings/Ring1",
+    "zh": "锻铁戒指",
+    "en": "Iron Ring",
+    "dropLevel": 2
+  },
+  {
+    "id": "Metadata/Items/Rings/Ring2",
+    "zh": "珊瑚戒指",
+    "en": "Coral Ring",
+    "dropLevel": 4
+  },
+  {
+    "id": "Metadata/Items/Rings/Ring3",
+    "zh": "海灵戒指",
+    "en": "Paua Ring",
+    "dropLevel": 5
+  },
+  {
+    "id": "Metadata/Items/Rings/Ring4",
+    "zh": "金光戒指",
+    "en": "Gold Ring",
+    "dropLevel": 20
+  },
+  {
+    "id": "Metadata/Items/Rings/Ring5",
+    "zh": "黄玉戒指",
+    "en": "Topaz Ring",
+    "dropLevel": 12
+  },
+  {
+    "id": "Metadata/Items/Rings/Ring6",
+    "zh": "蓝玉戒指",
+    "en": "Sapphire Ring",
+    "dropLevel": 8
+  },
+  {
+    "id": "Metadata/Items/Rings/Ring7",
+    "zh": "红玉戒指",
+    "en": "Ruby Ring",
+    "dropLevel": 16
+  },
+  {
+    "id": "Metadata/Items/Rings/Ring8",
+    "zh": "三相戒指",
+    "en": "Prismatic Ring",
+    "dropLevel": 30
+  },
+  {
+    "id": "Metadata/Items/Rings/Ring9",
+    "zh": "月光石戒指",
+    "en": "Moonstone Ring",
+    "dropLevel": 25
+  },
+  {
+    "id": "Metadata/Items/Rings/Ring10",
+    "zh": "紫晶戒指",
+    "en": "Amethyst Ring",
+    "dropLevel": 38
+  },
+  {
+    "id": "Metadata/Items/Rings/Ring11",
+    "zh": "宝钻戒指",
+    "en": "Diamond Ring",
+    "dropLevel": 25
+  },
+  {
+    "id": "Metadata/Items/Rings/Ring12",
+    "zh": "双玉戒指",
+    "en": "Two-Stone Ring",
+    "dropLevel": 20
+  },
+  {
+    "id": "Metadata/Items/Rings/Ring13",
+    "zh": "双玉戒指",
+    "en": "Two-Stone Ring",
+    "dropLevel": 20
+  },
+  {
+    "id": "Metadata/Items/Rings/Ring14",
+    "zh": "双玉戒指",
+    "en": "Two-Stone Ring",
+    "dropLevel": 20
+  },
+  {
+    "id": "Metadata/Items/Rings/Ring15",
+    "zh": "潜能之戒",
+    "en": "Unset Ring",
+    "dropLevel": 45
+  },
+  {
+    "id": "Metadata/Items/Rings/Ring16",
+    "zh": "骨环",
+    "en": "Bone Ring",
+    "dropLevel": 30
+  },
+  {
+    "id": "Metadata/Items/Rings/RingB1",
+    "zh": "冰凝戒指",
+    "en": "Cryonic Ring",
+    "dropLevel": 40
+  },
+  {
+    "id": "Metadata/Items/Rings/RingB2",
+    "zh": "炽能戒指",
+    "en": "Enthalpic Ring",
+    "dropLevel": 40
+  },
+  {
+    "id": "Metadata/Items/Rings/RingB3",
+    "zh": "突触戒指",
+    "en": "Synaptic Ring",
+    "dropLevel": 40
+  },
+  {
+    "id": "Metadata/Items/Rings/RingB4",
+    "zh": "有机戒指",
+    "en": "Organic Ring",
+    "dropLevel": 40
+  },
+  {
+    "id": "Metadata/Items/Rings/RingB5",
+    "zh": "逃亡戒指",
+    "en": "Fugitive Ring",
+    "dropLevel": 40
+  },
+  {
+    "id": "Metadata/Items/Rings/RingB6",
+    "zh": "无形戒指",
+    "en": "Formless Ring",
+    "dropLevel": 40
+  },
+  {
+    "id": "Metadata/Items/Rings/RingE1",
+    "zh": "齿轮戒指",
+    "en": "Cogwork Ring",
+    "dropLevel": 68
+  },
+  {
+    "id": "Metadata/Items/Rings/RingE2",
+    "zh": "地线戒指",
+    "en": "Geodesic Ring",
+    "dropLevel": 68
+  },
+  {
+    "id": "Metadata/Items/Rings/RingE3",
+    "zh": "复合戒指",
+    "en": "Composite Ring",
+    "dropLevel": 68
+  },
+  {
+    "id": "Metadata/Items/Rings/RingE4",
+    "zh": "集成戒指",
+    "en": "Manifold Ring",
+    "dropLevel": 75
+  },
+  {
+    "id": "Metadata/Items/Rings/RingE5",
+    "zh": "渐变戒指",
+    "en": "Ratcheting Ring",
+    "dropLevel": 68
+  },
+  {
+    "id": "Metadata/Items/Rings/RingE6",
+    "zh": "螺纹戒指",
+    "en": "Helical Ring",
+    "dropLevel": 75
+  },
+  {
+    "id": "Metadata/Items/Rings/RingK1",
+    "zh": "戒指：暮色",
+    "en": "Dusk Ring",
+    "dropLevel": 25
+  },
+  {
+    "id": "Metadata/Items/Rings/RingK2",
+    "zh": "戒指：半影",
+    "en": "Penumbra Ring",
+    "dropLevel": 25
+  },
+  {
+    "id": "Metadata/Items/Rings/RingK3",
+    "zh": "戒指：薄暮",
+    "en": "Gloam Ring",
+    "dropLevel": 25
+  },
+  {
+    "id": "Metadata/Items/Rings/RingK4",
+    "zh": "戒指：暗黑",
+    "en": "Tenebrous Ring",
+    "dropLevel": 25
+  },
+  {
+    "id": "Metadata/Items/Rings/RingK5a",
+    "zh": "戒指：暗影",
+    "en": "Shadowed Ring",
+    "dropLevel": 25
+  },
+  {
+    "id": "Metadata/Items/Rings/RingK5b",
+    "zh": "戒指：暗影",
+    "en": "Shadowed Ring",
+    "dropLevel": 25
+  },
+  {
+    "id": "Metadata/Items/Rings/RingK5c",
+    "zh": "戒指：暗影",
+    "en": "Shadowed Ring",
+    "dropLevel": 25
+  },
+  {
+    "id": "Metadata/Items/Rings/RingR1",
+    "zh": "无名戒指",
+    "en": "Nameless Ring",
+    "dropLevel": 68
+  },
+  {
+    "id": "Metadata/Items/Rings/RingVictor1",
+    "zh": "杰特戒指",
+    "en": "Jet Ring",
+    "dropLevel": 15
+  },
+  {
+    "id": "Metadata/Items/Rings/RingAtlas1",
+    "zh": "合金戒指",
+    "en": "Steel Ring",
+    "dropLevel": 78
+  },
+  {
+    "id": "Metadata/Items/Rings/RingAtlas2",
+    "zh": "蛋白石戒指",
+    "en": "Opal Ring",
+    "dropLevel": 78
+  },
+  {
+    "id": "Metadata/Items/Rings/RingAtlas3",
+    "zh": "朱砂之戒",
+    "en": "Vermillion Ring",
+    "dropLevel": 80
+  },
+  {
+    "id": "Metadata/Items/Rings/RingAtlas4",
+    "zh": "天蓝之戒",
+    "en": "Cerulean Ring",
+    "dropLevel": 80
+  },
+  {
+    "id": "Metadata/Items/Rings/RingAtlas5",
+    "zh": "青石戒指",
+    "en": "Iolite Ring",
+    "dropLevel": 78
+  },
+  {
+    "id": "Metadata/Items/Rings/MirrorRing",
+    "zh": "戒指",
+    "en": "Ring",
+    "dropLevel": 1
+  },
+  {
+    "id": "Metadata/Items/Rings/BreachRing",
+    "zh": "裂隙戒指",
+    "en": "Breach Ring",
+    "dropLevel": 1
+  },
+  {
+    "id": "Metadata/Items/Rings/RingRoyale1",
+    "zh": "蛋白石戒指",
+    "en": "Opal Ring",
+    "dropLevel": 2
+  },
+  {
+    "id": "Metadata/Items/Rings/RingRoyale2",
+    "zh": "三相戒指",
+    "en": "Prismatic Ring",
+    "dropLevel": 2
+  },
+  {
+    "id": "Metadata/Items/Rings/RingRoyale3",
+    "zh": "晶钻戒指",
+    "en": "Diamond Ring",
+    "dropLevel": 2
+  },
+  {
+    "id": "Metadata/Items/Rings/RingRoyale4",
+    "zh": "海灵戒指",
+    "en": "Paua Ring",
+    "dropLevel": 2
+  }
+]
