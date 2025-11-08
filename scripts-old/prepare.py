@@ -133,14 +133,14 @@ txGgpk = config.get("txGgpk")
 poedat = "tools/poedat/poedat.exe"
 
 bundled_files = [
-    "metadata/statdescriptions/stat_descriptions.txt",
-    "metadata/statdescriptions/passive_skill_stat_descriptions.txt",
-    "metadata/statdescriptions/tincture_stat_descriptions.txt",
-    "data/indexablesupportgems.dat64",
-    "data/indexableskillgems.dat64",
-    "data/activeskills.dat64",
-    "data/baseitemtypes.dat64",
-    "data/gemeffects.dat64"
+    #"metadata/statdescriptions/stat_descriptions.txt",
+    #"metadata/statdescriptions/passive_skill_stat_descriptions.txt",
+    #"metadata/statdescriptions/tincture_stat_descriptions.txt",
+    #"data/indexablesupportgems.dat64",
+    #"data/indexableskillgems.dat64",
+    #"data/activeskills.dat64",
+    #"data/baseitemtypes.dat64",
+    #"data/gemeffects.dat64"
 ]
 
 tx_bundled_files = [
@@ -151,7 +151,8 @@ tx_bundled_files = [
     "data/simplified chinese/indexableskillgems.dat64",
     "data/simplified chinese/baseitemtypes.dat64",
     "data/simplified chinese/gemeffects.dat64",
-    "data/simplified chinese/activeskills.dat64"
+    "data/simplified chinese/activeskills.dat64",
+    "data/simplified chinese/passiveskills.dat64"
 ]
 
 
@@ -160,7 +161,8 @@ tables = {
     "indexableskillgems.dat64": "IndexableSkillGems",
     "baseitemtypes.dat64": "BaseItemTypes",
     "gemeffects.dat64": "GemEffects",
-    "activeskills.dat64": "ActiveSkills"
+    "activeskills.dat64": "ActiveSkills",
+    "passiveskills.dat64": "PassiveSkills",
 }
 
 

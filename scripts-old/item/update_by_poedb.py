@@ -80,15 +80,18 @@ def item_type_of_preview_url(url):
         return "body_armours.json"
     if "Metadata/Items/Armours/Helmets" in url:
         return "helmets.json"
+    if "Metadata/Items/Armours/Gloves" in url:
+        return "gloves.json"
     if "Metadata/Items/Tinctures" in url:
         return "flasks.json"
     if "Metadata/Items/Rings" in url:
         return "rings.json"
+    if "Metadata/Items/Weapons/OneHandWeapons" in url:
+        return "weapons.json"
     return None
 
 
 def parse_preview(page):
-    # print(page)
     pattern = re.compile(
         r'<div class="content">.+?<div>(.+?)</div>\s+</div>', re.DOTALL)
     matches = re.search(pattern, page)
@@ -110,6 +113,7 @@ def find_base_types(page) -> list:
         hover_link = urllib.parse.unquote_plus(matches[0])
         type = item_type_of_preview_url(hover_link)
         if type is None:
+            print(f"warning: type missed of {matches[1]} {hover_link}")
             continue
 
         preview_url = urllib.parse.urljoin(
@@ -143,6 +147,7 @@ def add_base_types(base_types):
             data = load_json(full_path)
             zh_set = set()
             en_set = set()
+            new_zh_set = set()
 
             for bt in data:
                 zh = bt["zh"]
@@ -153,11 +158,15 @@ def add_base_types(base_types):
             for new_bt in new_bt_type_idx[file_name]:
                 zh = new_bt["zh"]
                 en = new_bt["en"]
+                new_zh_set.add(zh)
                 if zh in zh_set and en in en_set:
                     continue
                 if zh in zh_set or en in en_set:
                     print(f"warning: zh or en changed: {zh} {en}")
                 data.append({"zh": zh, "en": en})
+            
+            print(new_zh_set.difference(zh_set))
+            print(zh_set.difference(new_zh_set))
 
         with open(full_path, 'wt', encoding="utf-8") as f:
             f.write(json.dumps(data, ensure_ascii=False, indent=4))
@@ -165,7 +174,7 @@ def add_base_types(base_types):
 
 
 def find_uniques(page) -> list:
-    pattern = r'<a class="item_unique" data-hover="([^\"]+)?" href="[^\"]+">([^/<>]+?)</a>'
+    pattern = r'<a class="uniqueitem" data-hover="([^"]+?)" href="[^"]+?"><span class="uniqueName">(.+?)</span> <span class="uniqueTypeLine">(.+?)</span></a>'
     array = re.findall(pattern, page)
     uniques = []
     if len(array) == 0:
@@ -174,18 +183,14 @@ def find_uniques(page) -> list:
 
     for unique in array:
         preview_url: str = urllib.parse.unquote_plus(unique[0])
-        fullname: str = unique[1]
-        slice = fullname.rsplit(" ", maxsplit=1)
-        if len(slice) != 2:
-            print("warning: skiped ", fullname)
-            continue
-        zh_name = slice[0]
-        basetype = slice[1]
+        zh_name = unique[1]
+        basetype = unique[2]
+        print(zh_name)
 
         en_name = preview_url.rsplit("&n=", 1)[-1]
 
         uniques.append({"preview_url": preview_url,
-                       "fullname": fullname, "en": en_name, "zh": zh_name, "basetype": basetype})
+                       "fullname": "{zh_name} {basetype}", "en": en_name, "zh": zh_name, "basetype": basetype})
 
     return uniques
 
@@ -251,10 +256,11 @@ def is_ascii(s):
     return all(ord(c) < 128 for c in s)
 
 
-league_url = "https://poedb.tw/cn/Settlers_league#%E5%90%9B%E9%94%8B%E5%9F%8E%E4%B8%8B%E4%BC%A0%E5%A5%87"
+league_url = "https://poedb.tw/cn/Mercenaries_league"
 
 if __name__ == "__main__":
     load_poedb_caches()
+
     page = poedb_request(league_url)
 
     base_types = find_base_types(page)
