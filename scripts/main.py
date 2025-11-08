@@ -372,28 +372,19 @@ def update_asset_attributes():
 
 
 def update_asset_properties():
-    print("info: 更新 assets/poe2/properties.json ...")
-    props = read_json(at("assets/poe2/properties.json"))
+    print("info: 更新 assets/properties.json ...")
+    props = read_json(at("assets/properties.json"))
     update_required(props, "ClientStrings,Id,Text",  # type: ignore
                     "properties")
-    with open(at("assets/poe2/properties.json"), "w", encoding="utf-8") as f:
+    with open(at("assets/properties.json"), "w", encoding="utf-8") as f:
         json.dump(props, f, ensure_ascii=False, indent=2)
 
     # 首饰的品质类型也属于properties，但单独成表
-    print("info: 创建 assets/poe2/tables/AlternateQualityTypes.json ...")
+    print("info: 创建 assets/properties2.json ...")
     qualitytypes = export_all(
         "AlternateQualityTypes,Id,Description")
-    with open(at("assets/poe2/tables/AlternateQualityTypes.json"), "w", encoding="utf-8") as f:
+    with open(at("assets/properties2.json"), "w", encoding="utf-8") as f:
         json.dump(qualitytypes, f, ensure_ascii=False, indent=2)
-
-    # 物品类别也属于properties，但单独成表
-    print("info: 更新 assets/poe2/tables/ItemClassCategories.json ...")
-    the_file = at("assets/poe2/tables/ItemClassCategories.json")
-    categories = read_json(the_file)
-    update_required(categories, "ItemClassCategories,Id,Text",  # type: ignore
-                    "properties")
-    with open(the_file, "w", encoding="utf-8") as f:
-        json.dump(categories, f, ensure_ascii=False, indent=2)
 
 
 def update_asset_requirements():
@@ -967,8 +958,8 @@ def create_asset_stat_descs():
 
 
 def run_all_tasks():
-    update_asset_attributes()
-    # update_asset_properties()
+    # update_asset_attributes()
+    update_asset_properties()
     # update_asset_requirements()
     # create_asset_base_types()
     # create_asset_passive_skills()

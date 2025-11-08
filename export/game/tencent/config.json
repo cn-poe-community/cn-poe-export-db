@@ -15,6 +15,12 @@
     },
     {
       "name": "ItemClasses"
+    },
+    {
+      "name": "AlternateQualityTypes"
+    },
+    {
+      "name": "ItemClassCategories"
     }
   ]
 }
