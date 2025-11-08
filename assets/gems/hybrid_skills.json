@@ -70,5 +70,29 @@
     {
         "en": "Automation Support",
         "zh": "自动化（辅）"
+    },
+    {
+        "en": "Icicles",
+        "zh": "爆裂冰锥"
+    },
+    {
+        "en": "Thunderburst",
+        "zh": "雷霆爆裂"
+    },
+    {
+        "en": "Windburst",
+        "zh": "风爆术"
+    },
+    {
+        "en": "Summon Living Lightning",
+        "zh": "召唤活体闪电"
+    },
+    {
+        "en": "Kinetic Flux",
+        "zh": "念动紊流"
+    },
+    {
+        "en": "Kinetic Anomaly",
+        "zh": "动能异变"
     }
 ]

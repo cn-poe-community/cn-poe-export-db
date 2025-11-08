@@ -306,5 +306,9 @@
     "id": "MapCurrencyQuality",
     "zh": "品质（通货物品）",
     "en": "Quality (Currency)"
+  },
+  {
+    "zh": "品质",
+    "en": "Quality"
   }
 ]
