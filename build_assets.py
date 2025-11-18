@@ -57,8 +57,8 @@ def make_stats():
     for keystone in keystones:
         zh = keystone["zh"]
         en = keystone["en"]
-        all_data.append({"zh": f"{zh}范围内的天赋可以在\n未连结至天赋树的情况下配置",
-                        "en": f"Passives in Radius of {en} can be Allocated\nwithout being connected to your tree"})
+        all_data.append({"zh": f"{zh}范围内的核心天赋技能可以在\n未连结至天赋树的情况下配置\n通途",
+                        "en": f"Passive Skills in Radius of {en} can be Allocated\nwithout being connected to your tree\nPassage"})
 
     all_data = remove_id(all_data)
     all_data = remove_repeats(all_data)
