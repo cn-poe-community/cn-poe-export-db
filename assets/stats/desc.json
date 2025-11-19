@@ -5311,7 +5311,7 @@
   },
   {
     "id": "local_unique_flask_spell_block_%_while_healing",
-    "zh": "生效期间有 {0}% 的几率格挡法术伤害",
+    "zh": "生效期间，法术伤害格挡几率 {0}%",
     "en": "{0}% Chance to Block Spell Damage during Effect"
   },
   {
@@ -5676,7 +5676,7 @@
   },
   {
     "id": "shield_spell_block_%",
-    "zh": "持盾牌时有 {0}% 的几率格挡法术伤害",
+    "zh": "持盾时法术伤害格挡几率 {0}%",
     "en": "{0}% Chance to Block Spell Damage while holding a Shield"
   },
   {
@@ -5706,7 +5706,7 @@
   },
   {
     "id": "spell_block_%_while_on_low_life",
-    "zh": "低血时，法术伤害格挡几率额外 {0}%",
+    "zh": "低血时，法术伤害格挡几率 {0}%",
     "en": "{0}% Chance to Block Spell Damage while on Low Life"
   },
   {
@@ -5751,8 +5751,13 @@
   },
   {
     "id": "block_chance_%_per_50_strength",
-    "zh": "每有 50 点力量，攻击伤害格挡几率额外 {0}%",
+    "zh": "每有 50 点力量，攻击伤害格挡几率 {0}%",
     "en": "{0}% Chance to Block Attack Damage per 50 Strength"
+  },
+  {
+    "id": "spell_block_chance_%_per_50_strength",
+    "zh": "每有 50 点力量，{0}% 法术伤害格挡几率",
+    "en": "{0}% Chance to Block Spell Damage per 50 Strength"
   },
   {
     "id": "additional_staff_block_%",
@@ -5766,7 +5771,7 @@
   },
   {
     "id": "old_do_not_use_spell_block_%_while_on_low_life_from_assumed_block_value",
-    "zh": "低血时，有 {0}% 的几率格挡法术伤害",
+    "zh": "低血时，法术伤害格挡几率 {0}%",
     "en": "{0}% Chance to Block Spell Damage while on Low Life"
   },
   {
@@ -6653,6 +6658,11 @@
     "id": "local_attack_minimum_added_physical_damage_per_3_levels local_attack_maximum_added_physical_damage_per_3_levels",
     "zh": "玩家等级每提高 3 级，该武器攻击时便附加 {0} - {1} 物理伤害",
     "en": "Adds {0} to {1} Physical Damage to Attacks with this Weapon per 3 Player Levels"
+  },
+  {
+    "id": "spell_minimum_added_physical_damage_per_3_levels spell_maximum_added_physical_damage_per_3_levels",
+    "zh": "玩家等级每提高 3 级，法术附加 {0} - {1} 物理伤害",
+    "en": "Adds {0} to {1} Physical Damage to Spells per 3 Player Levels"
   },
   {
     "id": "minimum_added_physical_damage_vs_frozen_enemies maximum_added_physical_damage_vs_frozen_enemies",
@@ -11976,12 +11986,12 @@
   },
   {
     "id": "base_maximum_spell_block_%",
-    "zh": "法术伤害格挡几率额外 {0}%",
+    "zh": "{0}% 法术伤害格挡几率上限",
     "en": "{0}% to maximum Chance to Block Spell Damage"
   },
   {
     "id": "maximum_spell_block_chance_per_50_strength",
-    "zh": "每有 50 点力量，最大法术伤害格挡几率额外 {0}%",
+    "zh": "每有 50 点力量，{0}% 法术伤害格挡几率上限",
     "en": "{0}% to maximum Chance to Block Spell Damage per 50 Strength"
   },
   {
@@ -15560,6 +15570,16 @@
     "en": "Increases and Reductions to Spell Damage also apply to Attacks at {0}% of their value while wielding a Wand"
   },
   {
+    "id": "additive_spell_damage_modifiers_apply_to_retaliation_attack_damage_at_%_value",
+    "zh": "对法术伤害的增幅与减益也作用于反击技能的攻击伤害",
+    "en": "Increases and Reductions to Spell Damage also apply to Attack Damage with Retaliation Skills"
+  },
+  {
+    "id": "additive_spell_damage_modifiers_apply_to_retaliation_attack_damage_at_%_value",
+    "zh": "对法术伤害的增幅与减益有 {0}% 也作用于反击技能的攻击伤害",
+    "en": "Increases and Reductions to Spell Damage also apply to Attack Damage with Retaliation Skills at {0}% of their value"
+  },
+  {
     "id": "additive_vaal_skill_damage_modifiers_apply_to_all_skills",
     "zh": "对瓦尔技能伤害的增强与减弱效果也作用于非瓦尔技能",
     "en": "Increases and Reductions to Damage with Vaal Skills also apply to Non-Vaal Skills"
@@ -17088,6 +17108,16 @@
     "id": "minion_unholy_might_on_kill_duration_ms",
     "zh": "击败敌人时，召唤生物获得【不洁之力】，持续 {0} 秒",
     "en": "Minions gain Unholy Might for {0} seconds on Kill"
+  },
+  {
+    "id": "adrenaline_on_vaal_skill_use_duration_ms",
+    "zh": "使用瓦尔技能时，获得肾上腺素，持续 1 秒",
+    "en": "You gain Adrenaline for 1 second on using a Vaal Skill"
+  },
+  {
+    "id": "adrenaline_on_vaal_skill_use_duration_ms",
+    "zh": "使用瓦尔技能时，获得肾上腺素，持续 {0} 秒",
+    "en": "You gain Adrenaline for {0} seconds on using a Vaal Skill"
   },
   {
     "id": "onslaught_on_vaal_skill_use_duration_ms",
@@ -29581,17 +29611,17 @@
   },
   {
     "id": "additional_attack_block_%_per_endurance_charge",
-    "zh": "每有一个耐力球，攻击伤害格挡几率额外 {0}%",
+    "zh": "每有一个耐力球，攻击伤害格挡几率 {0}%",
     "en": "{0}% Chance to Block Attack Damage per Endurance Charge"
   },
   {
     "id": "additional_attack_block_%_per_frenzy_charge",
-    "zh": "每有一个狂怒球，攻击伤害格挡几率额外 {0}%",
+    "zh": "每有一个狂怒球，攻击伤害格挡几率 {0}%",
     "en": "{0}% Chance to Block Attack Damage per Frenzy Charge"
   },
   {
     "id": "additional_attack_block_%_per_power_charge",
-    "zh": "每有一个暴击球，攻击伤害格挡几率额外 {0}%",
+    "zh": "每有一个暴击球，攻击伤害格挡几率 {0}%",
     "en": "{0}% Chance to Block Attack Damage per Power Charge"
   },
   {
@@ -29616,7 +29646,7 @@
   },
   {
     "id": "additional_block_%_per_endurance_charge",
-    "zh": "每有一个耐力球，攻击伤害格挡几率额外 {0}%",
+    "zh": "每有一个耐力球，攻击伤害格挡几率 {0}%",
     "en": "{0}% Chance to Block Attack Damage per Endurance Charge"
   },
   {
@@ -33276,7 +33306,7 @@
   },
   {
     "id": "brequel_misc_fruit_additional_item_%",
-    "zh": "神秘孕育之礼有 {0}% 几率额外孕育一个物品",
+    "zh": "神秘孕育赠礼有 {0}% 几率额外孕育一个物品",
     "en": "{0}% chance for Mysterious Wombgifts to Birth an additional Item"
   },
   {
@@ -34691,7 +34721,7 @@
   },
   {
     "id": "block_spells_chance_%_while_holding_shield",
-    "zh": "持盾牌时有 {0}% 的几率格挡法术伤害",
+    "zh": "持盾时法术伤害格挡几率 {0}%",
     "en": "{0}% chance to Block Spell Damage while holding a Shield"
   },
   {
@@ -34966,27 +34996,27 @@
   },
   {
     "id": "breach_ring_chayula_implicit",
-    "zh": "无法摇出非混沌伤害类型的词缀",
+    "zh": "无法随机出非混沌伤害类型的词缀",
     "en": "Cannot roll Modifiers of Non-Chaos Damage Types"
   },
   {
     "id": "breach_ring_esh_implicit",
-    "zh": "无法摇出非闪电伤害类型的词缀",
+    "zh": "无法随机出非闪电伤害类型的词缀",
     "en": "Cannot roll Modifiers of Non-Lightning Damage Types"
   },
   {
     "id": "breach_ring_tul_implicit",
-    "zh": "无法摇出非冰霜伤害类型的词缀",
+    "zh": "无法随机出非冰霜伤害类型的词缀",
     "en": "Cannot roll Modifiers of Non-Cold Damage Types"
   },
   {
     "id": "breach_ring_uulnetol_implicit",
-    "zh": "无法摇出非物理伤害类型的词缀",
+    "zh": "无法随机出非物理伤害类型的词缀",
     "en": "Cannot roll Modifiers of Non-Physical Damage Types"
   },
   {
     "id": "breach_ring_xoph_implicit",
-    "zh": "无法摇出非火焰伤害类型的词缀",
+    "zh": "无法随机出非火焰伤害类型的词缀",
     "en": "Cannot roll Modifiers of Non-Fire Damage Types"
   },
   {
@@ -35026,12 +35056,12 @@
   },
   {
     "id": "brequel_currency_fruit_X_lucky_rolls",
-    "zh": "孕育的通货物品额外鉴定一次，保留最稀有的结果",
+    "zh": "孕育的通货物品额外随机一次，保留最稀有的结果",
     "en": "Birthed Currency Items are rolled an additional time keeping the rarest outcome"
   },
   {
     "id": "brequel_currency_fruit_X_lucky_rolls",
-    "zh": "孕育的通货物品额外鉴定 {0} 次，保留最稀有的结果",
+    "zh": "孕育的通货物品额外随机 {0} 次，保留最稀有的结果",
     "en": "Birthed Currency Items are rolled {0} additional times keeping the rarest outcome"
   },
   {
@@ -35131,12 +35161,12 @@
   },
   {
     "id": "brequel_equipment_fruit_X_divine_rolls",
-    "zh": "孕育装备上的随机词缀数值额外鉴定一次，保留最佳结果",
+    "zh": "孕育装备上的随机词缀数值额外随机一次，保留最佳结果",
     "en": "Values of the random modifiers on Birthed Equipment are rolled an additional time keeping the best outcome"
   },
   {
     "id": "brequel_equipment_fruit_X_divine_rolls",
-    "zh": "孕育装备上的随机词缀数值额外鉴定 {0} 次，保留最佳结果",
+    "zh": "孕育装备上的随机词缀数值额外随机 {0} 次，保留最佳结果",
     "en": "Values of the random modifiers on Birthed Equipment are rolled {0} additional times keeping the best outcome"
   },
   {
@@ -35346,7 +35376,7 @@
   },
   {
     "id": "brequel_equipment_fruit_jewel_enabled",
-    "zh": "补给孕育之礼可能改为孕育珠宝",
+    "zh": "供养孕育赠礼可能改为孕育珠宝",
     "en": "Provisioning Wombgifts may instead Birth Jewels"
   },
   {
@@ -35391,7 +35421,7 @@
   },
   {
     "id": "brequel_equipment_fruit_mod_tier_rating_+",
-    "zh": "孕育的装备词缀阶级 {0}",
+    "zh": "孕育的装备词缀阶级评分 {0}",
     "en": "Birthed Equipment has {0} to Modifier Tier Rating"
   },
   {
@@ -35481,7 +35511,7 @@
   },
   {
     "id": "brequel_equipment_fruit_weapon_and_armour_X_lucky_socket_number_and_links_rolls",
-    "zh": "孕育的装备鉴定插槽和羁绊的次数 +{0}，保留最佳结果",
+    "zh": "孕育的装备随机插槽和连接的次数 +{0}，保留最佳结果",
     "en": "Birthed Equipment rolls Sockets and Links +{0} times, keeping the best outcome"
   },
   {
@@ -35536,7 +35566,7 @@
   },
   {
     "id": "brequel_graft_fruit_mod_tier_rating_+",
-    "zh": "孕育的移植物词缀等级 {0}",
+    "zh": "孕育的移植物词缀阶级评分 {0}",
     "en": "Birthed Grafts have {0} to Modifier Tier Rating"
   },
   {
@@ -35576,37 +35606,37 @@
   },
   {
     "id": "brequel_misc_fruit_common_rewards_chance_+%",
-    "zh": "神秘孕育之礼孕育常见物品的几率提高 {0}%",
+    "zh": "神秘孕育赠礼孕育常见物品的几率提高 {0}%",
     "en": "{0}% increased chance for Mysterious Wombgifts to Birth commonly found Items"
   },
   {
     "id": "brequel_misc_fruit_currency_fruit_chance_+%",
-    "zh": "神秘孕育之礼孕育奢华孕育之礼的几率提高 {0}%",
+    "zh": "神秘孕育赠礼孕育丰裕孕育赠礼的几率提高 {0}%",
     "en": "{0}% increased chance for Mysterious Wombgifts to Birth Lavish Wombgifts"
   },
   {
     "id": "brequel_misc_fruit_equipment_fruit_chance_+%",
-    "zh": "神秘孕育之礼孕育补给孕育之礼的几率提高 {0}%",
+    "zh": "神秘孕育赠礼孕育供养孕育赠礼的几率提高 {0}%",
     "en": "{0}% increased chance for Mysterious Wombgifts to Birth Provisioning Wombgifts"
   },
   {
     "id": "brequel_misc_fruit_graft_fruit_chance_+%",
-    "zh": "神秘孕育之礼孕育成长孕育之礼的几率提高 {0}%",
+    "zh": "神秘孕育赠礼孕育成长孕育赠礼的几率提高 {0}%",
     "en": "{0}% increased chance for Mysterious Wombgifts to Birth Growing Wombgifts"
   },
   {
     "id": "brequel_misc_fruit_other_fruits_enabled",
-    "zh": "神秘孕育之礼可能孕育其他孕育之礼",
+    "zh": "神秘孕育赠礼可能孕育其他孕育之礼",
     "en": "Mysterious Wombgifts may Birth other Wombgifts"
   },
   {
     "id": "brequel_misc_fruit_rarer_rewards_chance_+%",
-    "zh": "神秘孕育之礼孕育稀有物品的几率提高 {0}%",
+    "zh": "神秘孕育赠礼孕育稀有物品的几率提高 {0}%",
     "en": "{0}% increased chance for Mysterious Wombgifts to Birth infrequently found Items"
   },
   {
     "id": "brequel_misc_fruit_unique_fruit_chance_+%",
-    "zh": "神秘孕育之礼孕育远古孕育之礼的几率提高 {0}%",
+    "zh": "神秘孕育赠礼孕育远古孕育赠礼的几率提高 {0}%",
     "en": "{0}% increased chance for Mysterious Wombgifts to Birth Ancient Wombgifts"
   },
   {
@@ -35631,27 +35661,27 @@
   },
   {
     "id": "brequel_unique_fruit_X_divine_rolls",
-    "zh": "孕育传奇物品上的随机词缀数值额外鉴定一次，保留最佳结果",
+    "zh": "孕育传奇物品上的随机词缀数值额外随机一次，保留最佳结果",
     "en": "Values of the random modifiers on Birthed Uniques are rolled an additional time keeping the best outcome"
   },
   {
     "id": "brequel_unique_fruit_X_divine_rolls",
-    "zh": "孕育传奇物品上的随机词缀数值额外鉴定 {0} 次，保留最佳结果",
+    "zh": "孕育传奇物品上的随机词缀数值额外随机 {0} 次，保留最佳结果",
     "en": "Values of the random modifiers on Birthed Uniques are rolled {0} additional times keeping the best outcome"
   },
   {
     "id": "brequel_unique_fruit_X_lucky_rolls",
-    "zh": "孕育的传奇物品额外鉴定一次，保留最稀有的结果",
+    "zh": "孕育的传奇物品额外随机一次，保留最稀有的结果",
     "en": "Birthed Uniques are rolled an additional time keeping the rarest outcome"
   },
   {
     "id": "brequel_unique_fruit_X_lucky_rolls",
-    "zh": "孕育的传奇物品额外鉴定 {0} 次，保留最稀有的结果",
+    "zh": "孕育的传奇物品额外随机 {0} 次，保留最稀有的结果",
     "en": "Birthed Uniques are rolled {0} additional times keeping the rarest outcome"
   },
   {
     "id": "brequel_unique_fruit_additional_item_%",
-    "zh": "远古孕育之礼有 {0}% 几率额外孕育一个物品",
+    "zh": "远古孕育赠礼有 {0}% 几率额外孕育一个物品",
     "en": "{0}% chance for Ancient Wombgifts to Birth an additional Item"
   },
   {
@@ -35846,7 +35876,7 @@
   },
   {
     "id": "brequel_unique_fruit_weapon_and_armour_X_lucky_socket_number_and_links_rolls",
-    "zh": "孕育的传奇武器和防具鉴定插槽和羁绊的次数 +{0}，保留最佳结果",
+    "zh": "孕育的传奇武器和防具随机插槽和连接的次数 +{0}，保留最佳结果",
     "en": "Birthed Unique Weapons and Armour roll Sockets and Links +{0} times keeping the best outcome"
   },
   {
@@ -36611,7 +36641,7 @@
   },
   {
     "id": "chance_to_block_spells_%_if_used_retaliation_recently",
-    "zh": "若你近期使用过反击技能，有 {0}% 的几率格挡法术伤害",
+    "zh": "若你近期使用过反击技能，法术伤害格挡几率  {0}%",
     "en": "{0}% chance to Block Spell Damage if you've used a Retaliation Skill Recently"
   },
   {
@@ -36621,12 +36651,12 @@
   },
   {
     "id": "chance_to_block_spells_%_if_damaged_by_a_hit_recently",
-    "zh": "若你近期内被击中并受到伤害，则 {0}% 的几率格挡法术伤害",
+    "zh": "若你近期内被击中并受到伤害，法术伤害格挡几率  {0}%",
     "en": "{0}% Chance to Block Spell Damage if you were Damaged by a Hit Recently"
   },
   {
     "id": "chance_to_block_spells_%_while_affected_by_discipline",
-    "zh": "受到【纪律】影响时，{0}% 的几率格挡法术伤害",
+    "zh": "受到【纪律】影响时，法术伤害格挡几率  {0}%",
     "en": "{0}% Chance to Block Spell Damage while affected by Discipline"
   },
   {
@@ -36798,6 +36828,11 @@
     "id": "chance_to_gain_adrenaline_for_2_seconds_on_leech_removed_by_filling_unreserved_life_%",
     "zh": "填满未保留的生命而移除偷取时，\n有 {0}% 的几率获得肾上腺素，持续 2 秒",
     "en": "{0}% chance to gain Adrenaline for 2 Seconds when Leech is\nremoved by Filling Unreserved Life"
+  },
+  {
+    "id": "chance_to_gain_chaotic_might_on_crit_for_4_seconds_%",
+    "zh": "暴击时有 {0}% 的几率获得混沌之威，持续 4 秒",
+    "en": "Gain Chaotic Might for 4 seconds on Critical Strike"
   },
   {
     "id": "chance_to_gain_elusive_when_you_block_while_dual_wielding_%",
@@ -41940,6 +41975,11 @@
     "en": "When an Enemy Hit deals Elemental Damage to you, their Resistance to those Elements becomes zero for 4 seconds"
   },
   {
+    "id": "energy_shield_%_of_evasion_rating_gained_on_block",
+    "zh": "格挡时回复相当于 {0}% 闪避值的能量护盾",
+    "en": "Recover Energy Shield equal to {0}% of Evasion Rating when you Block"
+  },
+  {
     "id": "energy_shield_+%_if_both_rings_have_evasion_mod",
     "zh": "若装备的左右两个戒指都有一个外延闪避词缀，能量护盾上限提高 {0}%",
     "en": "{0}% increased Maximum Energy Shield if both Equipped Left and Right Rings have an Explicit Evasion Modifier"
@@ -41948,6 +41988,11 @@
     "id": "energy_shield_+%_if_both_rings_have_evasion_mod",
     "zh": "若装备的左右两个戒指都有一个外延闪避词缀，能量护盾上限降低 {0}%",
     "en": "{0}% reduced Maximum Energy Shield if both Equipped Left and Right Rings have an Explicit Evasion Modifier"
+  },
+  {
+    "id": "energy_shield_+1%_per_X_strength_when_in_off_hand_from_foulborn_doon_cuebiyari",
+    "zh": "在副手时，每 {0} 力量提高 1% 能量护盾上限",
+    "en": "1% increased maximum Energy Shield per {0} Strength when in Off Hand"
   },
   {
     "id": "energy_shield_+_per_8_evasion_on_boots",
@@ -42005,9 +42050,9 @@
     "en": "Gain {0} Energy Shield for each Enemy you Hit which is affected by a Spider's Web"
   },
   {
-    "id": "energy_shield_increased_by_overcapped_chaos_resistance",
-    "zh": "能量护盾根据超量火焰抗性提高",
-    "en": "Energy Shield is increased by Overcapped Fire Resistance"
+    "id": "energy_shield_increased_by_chaos_resistance",
+    "zh": "能量护盾上限根据混沌抗性提高",
+    "en": "Maximum Energy Shield is increased by Chaos Resistance"
   },
   {
     "id": "energy_shield_leech_does_not_stop_on_full_energy_shield",
@@ -43061,7 +43106,7 @@
   },
   {
     "id": "fire_dot_multiplier_+_per_rage",
-    "zh": "每点狂怒也使持续火焰伤害加成 {0}%",
+    "zh": "每点怒火也使持续火焰伤害加成 {0}%",
     "en": "Each Rage also grants {0}% to Fire Damage Over Time Multiplier"
   },
   {
@@ -46568,6 +46613,11 @@
     "id": "immune_to_burning_shocks_and_chilled_ground",
     "zh": "免疫燃烧地面，感电地面和冰缓地面",
     "en": "Immune to Burning Ground, Shocked Ground and Chilled Ground"
+  },
+  {
+    "id": "immune_to_curses",
+    "zh": "你免疫诅咒。",
+    "en": "You are Immune to Curses"
   },
   {
     "id": "immune_to_curses_if_cast_dispair_in_past_10_seconds",
@@ -52835,6 +52885,11 @@
     "en": "Maximum Endurance, Frenzy and Power Charges is 0"
   },
   {
+    "id": "maximum_energy_shield_+_if_no_defence_modifiers_on_equipment_except_body_armour",
+    "zh": "若装备的其他物品没有防御词缀，能量护盾上限 {0}",
+    "en": "{0} to maximum Energy Shield if there are no Defence Modifiers on other Equipped Items"
+  },
+  {
     "id": "maximum_energy_shield_from_body_armour_+%",
     "zh": "装备身体护甲的能量护盾提高 {0}%",
     "en": "{0}% increased Energy Shield from Equipped Body Armour"
@@ -53033,6 +53088,11 @@
     "id": "maximum_mana_+%_per_blue_socket_on_staff",
     "zh": "装备长杖的每个蓝色插槽使魔力上限降低 {0}%",
     "en": "{0}% reduced maximum Mana per Blue Socket on equipped Staff"
+  },
+  {
+    "id": "maximum_mana_+1%_per_X_strength_when_in_main_hand_from_foulborn_doon_cuebiyari",
+    "zh": "在主手时，每 {0} 力量提高 1% 魔力上限",
+    "en": "1% increased maximum Mana per {0} Strength when in Main Hand"
   },
   {
     "id": "maximum_mana_leech_amount_per_leech_%_max_mana",
@@ -53975,6 +54035,11 @@
     "en": "Minions have +30% to all Elemental Resistances"
   },
   {
+    "id": "minion_energy_shield_leech_from_elemental_damage_permyriad",
+    "zh": "召唤生物元素伤害的 {0}% 会转化为能量护盾偷取",
+    "en": "Minions Leech {0}% of Elemental Damage as Energy Shield"
+  },
+  {
     "id": "minion_evasion_rating_+%",
     "zh": "召唤生物的闪避值提高 {0}%",
     "en": "Minions have {0}% increased Evasion Rating"
@@ -54121,7 +54186,7 @@
   },
   {
     "id": "minion_physical_damage_%_to_add_as_fire",
-    "zh": "召唤生物将 {0}% 的物理伤害额外火焰火焰伤害",
+    "zh": "召唤生物获得额外 {0}% 物理伤害的火焰伤害",
     "en": "Minions gain {0}% of Physical Damage as Extra Fire Damage"
   },
   {
@@ -54383,6 +54448,11 @@
     "id": "missing_unreserved_life_%_gained_as_life_before_hit",
     "zh": "被敌人击中前获得已损失未保留生命的 {0}%",
     "en": "Gain {0}% of Missing Unreserved Life before being Hit by an Enemy"
+  },
+  {
+    "id": "missing_unreserved_mana_%_gained_as_mana_before_hit",
+    "zh": "被敌人击中前获得已损失未保留魔力的 {0}%",
+    "en": "Gain {0}% of Missing Unreserved Mana before being Hit by an Enemy"
   },
   {
     "id": "mod_granted_passive_hash",
@@ -55473,6 +55543,11 @@
     "id": "number_of_additional_projectiles_if_you_have_used_movement_skill_recently",
     "zh": "若你近期内使用过位移技能，技能可以额外发射 {0} 个投射物",
     "en": "Skills fire {0} additional Projectiles if you've used a Movement Skill Recently"
+  },
+  {
+    "id": "number_of_additional_searing_bond_totems_allowed",
+    "zh": "召唤的灼热连接图腾最大数量 {0}",
+    "en": "{0} to maximum number of Summoned Searing Bond Totems"
   },
   {
     "id": "number_of_additional_traps_to_throw",
@@ -63325,6 +63400,16 @@
     "en": "{0}% reduced Effect of Withered"
   },
   {
+    "id": "withered_on_hit_chance_%_vs_cursed_enemies",
+    "zh": "击中被诅咒的敌人时有 {0}% 几率施加 2 秒死亡凋零",
+    "en": "{0}% chance to inflict Withered for 2 seconds on Hit against Cursed Enemies"
+  },
+  {
+    "id": "withered_on_hit_chance_%_vs_cursed_enemies",
+    "zh": "击中被诅咒的敌人时施加 2 秒死亡凋零",
+    "en": "Inflicts Withered for 2 seconds on Hit against Cursed Enemies"
+  },
+  {
     "id": "withered_on_hit_for_2_seconds_if_enemy_has_5_or_less_withered_chance_%",
     "zh": "若敌人身上最多有 5 个死亡凋零减益效果，则击中有 {0}% 的几率施加死亡凋零两秒",
     "en": "{0}% chance to inflict Withered for two seconds on Hit if there are 5 or fewer Withered Debuffs on Enemy"
@@ -63396,12 +63481,12 @@
   },
   {
     "id": "you_and_allies_additional_block_%_if_have_attacked_recently",
-    "zh": "若你近期内有进行攻击，你和周围友军有 {0}% 的几率格挡攻击伤害",
+    "zh": "若你近期内有进行攻击，你和周围友军攻击伤害格挡几率 {0}%",
     "en": "If you've Attacked Recently, you and nearby Allies have {0}% Chance to Block Attack Damage"
   },
   {
     "id": "you_and_allies_additional_spell_block_%_if_cast_spell_recently",
-    "zh": "若你近期内有施放法术，你和周围友军有 {0}% 的几率格挡法术伤害",
+    "zh": "若你近期内有释放法术，你和周围友军法术伤害格挡几率 {0}%",
     "en": "If you've Cast a Spell Recently, you and nearby Allies have {0}% Chance to Block Spell Damage"
   },
   {
@@ -69358,6 +69443,16 @@
     "id": "random_skill_gem_level_+_level random_skill_gem_level_+_index",
     "zh": "所有 燃火箭雨 宝石等级 -{0}",
     "en": "-{0} to Level of all Conflagration Gems"
+  },
+  {
+    "id": "random_skill_gem_level_+_level random_skill_gem_level_+_index",
+    "zh": "所有 念动齐射 宝石等级 +{0}",
+    "en": "+{0} to Level of all Kinetic Fusillade Gems"
+  },
+  {
+    "id": "random_skill_gem_level_+_level random_skill_gem_level_+_index",
+    "zh": "所有 念动齐射 宝石等级 -{0}",
+    "en": "-{0} to Level of all Kinetic Fusillade Gems"
   },
   {
     "id": "random_skill_gem_level_+_level random_skill_gem_level_+_index",
