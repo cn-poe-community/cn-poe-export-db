@@ -1,5 +1,5 @@
 {
-  "patch": "3.27.0.4.2",
+  "patch": "3.27.0.5",
   "files": [
     "Metadata/StatDescriptions/stat_descriptions.txt",
     "Metadata/StatDescriptions/passive_skill_stat_descriptions.txt",

@@ -1,6 +1,6 @@
 {
   "name": "cn-poe-export-db",
-  "version": "0.8.4",
+  "version": "0.8.5",
   "description": "db files of cn-poe-export",
   "main": "dist/index.js",
   "type": "module",

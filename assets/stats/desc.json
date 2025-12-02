@@ -28865,6 +28865,16 @@
     "en": "Leftmost {0} Magic Utility Flasks constantly apply their Flask Effects to you"
   },
   {
+    "id": "num_magic_utility_flasks_always_apply_rightmost",
+    "zh": "最右边的 1 个魔法功能药剂给你持续提供药剂效果",
+    "en": "Rightmost 1 Magic Utility Flask constantly applies its Flask Effect to you"
+  },
+  {
+    "id": "num_magic_utility_flasks_always_apply_rightmost",
+    "zh": "最右边的 {0} 个魔法功能药剂给你持续提供药剂效果",
+    "en": "Rightmost {0} Magic Utility Flasks constantly apply their Flask Effects to you"
+  },
+  {
     "id": "magic_utility_flasks_cannot_be_removed",
     "zh": "不能移除魔法非恢复类药剂效果",
     "en": "Magic Utility Flask Effects cannot be removed"
@@ -48856,7 +48866,7 @@
   },
   {
     "id": "local_affliction_notable_aggressive_defence",
-    "zh": "其中 1 个增加的天赋为以攻为守",
+    "zh": "其中 1 个增加的天赋为【以攻为守】",
     "en": "1 Added Passive Skill is Aggressive Defence"
   },
   {
@@ -48976,7 +48986,7 @@
   },
   {
     "id": "local_affliction_notable_blood_artist",
-    "zh": "其中 1 个增加的天赋为赤血造诣",
+    "zh": "其中 1 个增加的天赋为【赤血造诣】",
     "en": "1 Added Passive Skill is Blood Artist"
   },
   {
@@ -49146,7 +49156,7 @@
   },
   {
     "id": "local_affliction_notable_dark_discourse",
-    "zh": "其中 1 个增加的天赋为德瑞的怨恨",
+    "zh": "其中 1 个增加的天赋为【德瑞的怨恨】",
     "en": "1 Added Passive Skill is Doedre's Spite"
   },
   {
@@ -49226,12 +49236,12 @@
   },
   {
     "id": "local_affliction_notable_doedres_apathy",
-    "zh": "其中 1 个增加的天赋为德瑞的冷漠",
+    "zh": "其中 1 个增加的天赋为【德瑞的冷漠】",
     "en": "1 Added Passive Skill is Doedre's Apathy"
   },
   {
     "id": "local_affliction_notable_doedres_gluttony",
-    "zh": "其中 1 个增加的天赋为德瑞的饕餮",
+    "zh": "其中 1 个增加的天赋为【德瑞的饕餮】",
     "en": "1 Added Passive Skill is Doedre's Gluttony"
   },
   {
@@ -49306,7 +49316,7 @@
   },
   {
     "id": "local_affliction_notable_evil_eye",
-    "zh": "1 个添加的被动天赋为邪恶之眼",
+    "zh": "其中 1 个增加的天赋为【邪恶之眼】",
     "en": "1 Added Passive Skill is Evil Eye"
   },
   {
@@ -49391,7 +49401,7 @@
   },
   {
     "id": "local_affliction_notable_first_among_equals",
-    "zh": "其中 1 个增加的天赋为怨恨姿态",
+    "zh": "其中 1 个增加的天赋为【怨恨姿态】",
     "en": "1 Added Passive Skill is Spiteful Presence"
   },
   {
@@ -49471,7 +49481,7 @@
   },
   {
     "id": "local_affliction_notable_grounded_commander",
-    "zh": "其中 1 个增加的天赋为内省",
+    "zh": "其中 1 个增加的天赋为【内省】",
     "en": "1 Added Passive Skill is Introspection"
   },
   {
@@ -49536,7 +49546,7 @@
   },
   {
     "id": "local_affliction_notable_hounds_mark",
-    "zh": "其中 1 个增加的天赋为猎犬面具",
+    "zh": "其中 1 个增加的天赋为【猎犬面具】",
     "en": "1 Added Passive Skill is Hound's Mark"
   },
   {
@@ -49656,7 +49666,7 @@
   },
   {
     "id": "local_affliction_notable_master_of_the_maelstrom",
-    "zh": "其中 1 个增加的天赋为大漩涡之主",
+    "zh": "其中 1 个增加的天赋为【大漩涡之主】",
     "en": "1 Added Passive Skill is Master of the Maelstrom"
   },
   {
@@ -49761,7 +49771,7 @@
   },
   {
     "id": "local_affliction_notable_phlebotomist",
-    "zh": "其中 1 个增加的天赋为赤血医师",
+    "zh": "其中 1 个增加的天赋为【赤血医师】",
     "en": "1 Added Passive Skill is Phlebotomist"
   },
   {
@@ -49781,7 +49791,7 @@
   },
   {
     "id": "local_affliction_notable_precise_commander",
-    "zh": "其中 1 个增加的天赋为毁灭之相",
+    "zh": "其中 1 个增加的天赋为【毁灭之相】",
     "en": "1 Added Passive Skill is Destructive Aspect"
   },
   {
@@ -49841,7 +49851,7 @@
   },
   {
     "id": "local_affliction_notable_pure_commander",
-    "zh": "其中 1 个增加的天赋为电震姿态",
+    "zh": "其中 1 个增加的天赋为【电震姿态】",
     "en": "1 Added Passive Skill is Electric Presence"
   },
   {
@@ -49871,7 +49881,7 @@
   },
   {
     "id": "local_affliction_notable_rapid_infusion",
-    "zh": "1 个添加的被动天赋为不羁专注",
+    "zh": "其中 1 个增加的天赋为【不羁专注】",
     "en": "1 Added Passive Skill is Unrestrained Focus"
   },
   {
@@ -50116,7 +50126,7 @@
   },
   {
     "id": "local_affliction_notable_summer_commander",
-    "zh": "其中 1 个增加的天赋为禁欲之相",
+    "zh": "其中 1 个增加的天赋为【禁欲之相】",
     "en": "1 Added Passive Skill is Mortifying Aspect"
   },
   {
@@ -50201,7 +50211,7 @@
   },
   {
     "id": "local_affliction_notable_vengeful_commander",
-    "zh": "其中 1 个增加的天赋为正义之路",
+    "zh": "其中 1 个增加的天赋为【正义之路】",
     "en": "1 Added Passive Skill is Righteous Path"
   },
   {
@@ -50271,7 +50281,7 @@
   },
   {
     "id": "local_affliction_notable_whispers_of_death",
-    "zh": "1 个添加的被动天赋为邪恶之眼",
+    "zh": "其中 1 个增加的天赋为【邪恶之眼】",
     "en": "1 Added Passive Skill is Evil Eye"
   },
   {
@@ -50296,7 +50306,7 @@
   },
   {
     "id": "local_affliction_notable_winter_commander",
-    "zh": "其中 1 个增加的天赋为狂乱之相",
+    "zh": "其中 1 个增加的天赋为【狂乱之相】",
     "en": "1 Added Passive Skill is Frantic Aspect"
   },
   {
@@ -53195,6 +53205,11 @@
     "en": "Maximum number of Summoned Spectral Wolves is Doubled\nCannot have Minions other than Summoned Spectral Wolves"
   },
   {
+    "id": "maximum_number_of_X_minion_type_doubled",
+    "zh": "活体闪电的最大数量翻倍\n不能拥有除活体闪电之外的其他召唤生物",
+    "en": "Maximum number of Living Lightning is Doubled\nCannot have Minions other than Living Lightning"
+  },
+  {
     "id": "maximum_number_of_blades_left_in_ground",
     "zh": "产生徘徊之刃的技能的徘徊之刃上限 {0}",
     "en": "Skills that leave Lingering Blades have {0} to Maximum Lingering Blades"
@@ -55618,6 +55633,11 @@
     "id": "number_of_support_ghosts_is_limited_to_3",
     "zh": "召唤幻影的数量上限为 3",
     "en": "Maximum number of Summoned Phantasms is 3"
+  },
+  {
+    "id": "number_of_zombies_allowed_+1_per_X_intelligence_from_foulborn_baron",
+    "zh": "每 {0} 点智慧可使魔卫的召唤上限 +1",
+    "en": "+1 to maximum number of Raised Zombies per {0} Intelligence"
   },
   {
     "id": "number_of_zombies_allowed_+1_per_X_strength",
@@ -63958,6 +63978,11 @@
     "id": "zombie_caustic_cloud_on_death_maximum_life_per_minute_to_deal_as_chaos_damage_%",
     "zh": "你的【魔卫复苏】死亡时产生腐蚀地面，每秒造成等同它们 {0}% 最大生命的混沌伤害",
     "en": "Your Raised Zombies spread Caustic Ground on Death, dealing {0}% of their maximum Life as Chaos Damage per second"
+  },
+  {
+    "id": "zombie_damage_leeched_as_energy_shield_to_you_permyriad_if_over_1000_intelligence",
+    "zh": "拥有至少 1000 点智慧时，你的复苏的魔卫造成伤害的 {0}% 转化为能量护盾偷取",
+    "en": "With at least 1000 Intelligence, {0}% of Damage dealt by your Raised Zombies is Leeched to you as Energy Shield"
   },
   {
     "id": "zombie_damage_leeched_as_life_to_you_permyriad_if_over_1000_strength",
