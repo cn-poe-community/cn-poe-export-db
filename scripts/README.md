@@ -9,5 +9,5 @@ uv run ./main.py prepare
 # 更新
 uv run ./main.py
 # 生成
-uv run ./main.py build
+uv run ./main.py make
 ```
