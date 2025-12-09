@@ -1,0 +1,1817 @@
+[
+  {
+    "zh": "双子战爪",
+    "en": "Gemini Claw",
+    "ref_id": "Metadata/Items/Weapons/OneHandWeapons/Claws/ClawM3"
+  },
+  {
+    "zh": "骑兵军刀",
+    "en": "Dragoon Sword",
+    "ref_id": "Metadata/Items/Weapons/OneHandWeapons/OneHandThrustingSwords/RapierM3"
+  },
+  {
+    "zh": "召集法杖",
+    "en": "Convoking Wand",
+    "ref_id": "Metadata/Items/Weapons/OneHandWeapons/Wands/WandAtlas1"
+  },
+  {
+    "zh": "马拉克斯弓",
+    "en": "Maraketh Bow",
+    "ref_id": "Metadata/Items/Weapons/TwoHandWeapons/Bows/BowM3"
+  },
+  {
+    "zh": "密文之斧",
+    "en": "Runic Hatchet",
+    "ref_id": "Metadata/Items/Weapons/OneHandWeapons/OneHandAxes/OneHandAxeM3"
+  },
+  {
+    "zh": "巴哈姆特",
+    "en": "Behemoth Mace",
+    "ref_id": "Metadata/Items/Weapons/OneHandWeapons/OneHandMaces/OneHandMaceM3"
+  },
+  {
+    "zh": "裂肉者",
+    "en": "Fleshripper",
+    "ref_id": "Metadata/Items/Weapons/TwoHandWeapons/TwoHandAxes/TwoHandAxeM3"
+  },
+  {
+    "zh": "气动匕首",
+    "en": "Pneumatic Dagger",
+    "ref_id": "Metadata/Items/Weapons/OneHandWeapons/Daggers/DaggerE3"
+  },
+  {
+    "zh": "日裔弓",
+    "en": "Solarine Bow",
+    "ref_id": "Metadata/Items/Weapons/TwoHandWeapons/Bows/BowE3"
+  },
+  {
+    "zh": "蓄能长杖",
+    "en": "Battery Staff",
+    "ref_id": "Metadata/Items/Weapons/TwoHandWeapons/Staves/StaffE3"
+  },
+  {
+    "zh": "潜能之杖",
+    "en": "Eventuality Rod",
+    "ref_id": "Metadata/Items/Weapons/TwoHandWeapons/Staves/WarstaffE3"
+  },
+  {
+    "zh": "锋锐砍刀",
+    "en": "Apex Cleaver",
+    "ref_id": "Metadata/Items/Weapons/TwoHandWeapons/TwoHandAxes/TwoHandAxeE3"
+  },
+  {
+    "zh": "虎钩",
+    "en": "Tiger Hook",
+    "ref_id": "Metadata/Items/Weapons/OneHandWeapons/OneHandSwords/OneHandSwordM3"
+  },
+  {
+    "zh": "精致之刃",
+    "en": "Exquisite Blade",
+    "ref_id": "Metadata/Items/Weapons/TwoHandWeapons/TwoHandSwords/TwoHandSwordM3"
+  },
+  {
+    "zh": "恐惧之牙",
+    "en": "Terror Claw",
+    "ref_id": "Metadata/Items/Weapons/OneHandWeapons/Claws/Claw22"
+  },
+  {
+    "zh": "恶魔短杖",
+    "en": "Sambar Sceptre",
+    "ref_id": "Metadata/Items/Weapons/OneHandWeapons/OneHandMaces/SceptreM3"
+  },
+  {
+    "zh": "癫狂斧",
+    "en": "Psychotic Axe",
+    "ref_id": "Metadata/Items/Weapons/OneHandWeapons/OneHandAxes/OneHandAxeE3"
+  },
+  {
+    "zh": "炼狱刀",
+    "en": "Infernal Blade",
+    "ref_id": "Metadata/Items/Weapons/OneHandWeapons/Daggers/RuneDaggerE3"
+  },
+  {
+    "zh": "战叉",
+    "en": "Sai",
+    "ref_id": "Metadata/Items/Weapons/OneHandWeapons/Daggers/DaggerM3"
+  },
+  {
+    "zh": "风雷锤",
+    "en": "Boom Mace",
+    "ref_id": "Metadata/Items/Weapons/OneHandWeapons/OneHandMaces/OneHandMaceE3"
+  },
+  {
+    "zh": "亵渎法杖",
+    "en": "Profane Wand",
+    "ref_id": "Metadata/Items/Weapons/OneHandWeapons/Wands/WandM3"
+  },
+  {
+    "zh": "月蚀长杖",
+    "en": "Eclipse Staff",
+    "ref_id": "Metadata/Items/Weapons/TwoHandWeapons/Staves/StaffM3"
+  },
+  {
+    "zh": "虚空之牙",
+    "en": "Void Fangs",
+    "ref_id": "Metadata/Items/Weapons/OneHandWeapons/Claws/ClawE3"
+  },
+  {
+    "zh": "蓄能法杖",
+    "en": "Accumulator Wand",
+    "ref_id": "Metadata/Items/Weapons/OneHandWeapons/Wands/WandE3"
+  },
+  {
+    "zh": "魔喙细剑",
+    "en": "Harpy Rapier",
+    "ref_id": "Metadata/Items/Weapons/OneHandWeapons/OneHandThrustingSwords/Rapier22"
+  },
+  {
+    "zh": "变化短杖",
+    "en": "Alternating Sceptre",
+    "ref_id": "Metadata/Items/Weapons/OneHandWeapons/OneHandMaces/SceptreE3"
+  },
+  {
+    "zh": "放逐刀",
+    "en": "Banishing Blade",
+    "ref_id": "Metadata/Items/Weapons/TwoHandWeapons/TwoHandSwords/TwoHandSwordE3"
+  },
+  {
+    "zh": "无序魂刃",
+    "en": "Anarchic Spiritblade",
+    "ref_id": "Metadata/Items/Weapons/OneHandWeapons/OneHandSwords/OneHandSwordE3"
+  },
+  {
+    "zh": "冲击之力扩散器",
+    "en": "Impact Force Propagator",
+    "ref_id": "Metadata/Items/Weapons/TwoHandWeapons/TwoHandMaces/TwoHandMaceE3"
+  },
+  {
+    "zh": "花冠重锤",
+    "en": "Coronal Maul",
+    "ref_id": "Metadata/Items/Weapons/TwoHandWeapons/TwoHandMaces/TwoHandMaceM3"
+  },
+  {
+    "zh": "狱火之刃",
+    "en": "Infernal Axe",
+    "ref_id": "Metadata/Items/Weapons/OneHandWeapons/OneHandAxes/OneHandAxe22"
+  },
+  {
+    "zh": "虚影巨斧",
+    "en": "Void Axe",
+    "ref_id": "Metadata/Items/Weapons/TwoHandWeapons/TwoHandAxes/TwoHandAxe19"
+  },
+  {
+    "zh": "帝国战爪",
+    "en": "Imperial Claw",
+    "ref_id": "Metadata/Items/Weapons/OneHandWeapons/Claws/Claw21"
+  },
+  {
+    "zh": "虚影短杖",
+    "en": "Void Sceptre",
+    "ref_id": "Metadata/Items/Weapons/OneHandWeapons/OneHandMaces/Sceptre22"
+  },
+  {
+    "zh": "魔灵短匕",
+    "en": "Demon Dagger",
+    "ref_id": "Metadata/Items/Weapons/OneHandWeapons/Daggers/Dagger22"
+  },
+  {
+    "zh": "箴言法杖",
+    "en": "Prophecy Wand",
+    "ref_id": "Metadata/Items/Weapons/OneHandWeapons/Wands/Wand16"
+  },
+  {
+    "zh": "梦魇之锤",
+    "en": "Nightmare Mace",
+    "ref_id": "Metadata/Items/Weapons/OneHandWeapons/OneHandMaces/OneHandMace22"
+  },
+  {
+    "zh": "宝饰细剑",
+    "en": "Jewelled Foil",
+    "ref_id": "Metadata/Items/Weapons/OneHandWeapons/OneHandThrustingSwords/Rapier21"
+  },
+  {
+    "zh": "审判长杖",
+    "en": "Judgement Staff",
+    "ref_id": "Metadata/Items/Weapons/TwoHandWeapons/Staves/Staff19"
+  },
+  {
+    "zh": "先驱者之弓",
+    "en": "Harbinger Bow",
+    "ref_id": "Metadata/Items/Weapons/TwoHandWeapons/Bows/Bow22"
+  },
+  {
+    "zh": "夜语长剑",
+    "en": "Midnight Blade",
+    "ref_id": "Metadata/Items/Weapons/OneHandWeapons/OneHandSwords/OneHandSword22"
+  },
+  {
+    "zh": "狱炎重剑",
+    "en": "Infernal Sword",
+    "ref_id": "Metadata/Items/Weapons/TwoHandWeapons/TwoHandSwords/TwoHandSword19"
+  },
+  {
+    "zh": "惧灵重锤",
+    "en": "Terror Maul",
+    "ref_id": "Metadata/Items/Weapons/TwoHandWeapons/TwoHandMaces/TwoHandMace19"
+  },
+  {
+    "zh": "皇家之斧",
+    "en": "Royal Axe",
+    "ref_id": "Metadata/Items/Weapons/OneHandWeapons/OneHandAxes/OneHandAxe21"
+  },
+  {
+    "zh": "瓦尔战爪",
+    "en": "Vaal Claw",
+    "ref_id": "Metadata/Items/Weapons/OneHandWeapons/Claws/Claw20"
+  },
+  {
+    "zh": "瓦尔细剑",
+    "en": "Vaal Rapier",
+    "ref_id": "Metadata/Items/Weapons/OneHandWeapons/OneHandThrustingSwords/Rapier20"
+  },
+  {
+    "zh": "禁礼短杖",
+    "en": "Carnal Sceptre",
+    "ref_id": "Metadata/Items/Weapons/OneHandWeapons/OneHandMaces/Sceptre21"
+  },
+  {
+    "zh": "霸主巨斧",
+    "en": "Despot Axe",
+    "ref_id": "Metadata/Items/Weapons/TwoHandWeapons/TwoHandAxes/TwoHandAxe18"
+  },
+  {
+    "zh": "圣约之锤",
+    "en": "Auric Mace",
+    "ref_id": "Metadata/Items/Weapons/OneHandWeapons/OneHandMaces/OneHandMace21"
+  },
+  {
+    "zh": "帝国长杖",
+    "en": "Imperial Staff",
+    "ref_id": "Metadata/Items/Weapons/TwoHandWeapons/Staves/Staff18"
+  },
+  {
+    "zh": "永恒之剑",
+    "en": "Eternal Sword",
+    "ref_id": "Metadata/Items/Weapons/OneHandWeapons/OneHandSwords/OneHandSword21"
+  },
+  {
+    "zh": "帝国之弓",
+    "en": "Imperial Bow",
+    "ref_id": "Metadata/Items/Weapons/TwoHandWeapons/Bows/Bow21"
+  },
+  {
+    "zh": "帝国短匕",
+    "en": "Imperial Skean",
+    "ref_id": "Metadata/Items/Weapons/OneHandWeapons/Daggers/Dagger21"
+  },
+  {
+    "zh": "狮爪巨剑",
+    "en": "Lion Sword",
+    "ref_id": "Metadata/Items/Weapons/TwoHandWeapons/TwoHandSwords/TwoHandSword18"
+  },
+  {
+    "zh": "狂风法杖",
+    "en": "Tornado Wand",
+    "ref_id": "Metadata/Items/Weapons/OneHandWeapons/Wands/Wand15"
+  },
+  {
+    "zh": "帝国重锤",
+    "en": "Imperial Maul",
+    "ref_id": "Metadata/Items/Weapons/TwoHandWeapons/TwoHandMaces/TwoHandMace18"
+  },
+  {
+    "zh": "瓦尔战斧",
+    "en": "Vaal Hatchet",
+    "ref_id": "Metadata/Items/Weapons/OneHandWeapons/OneHandAxes/OneHandAxe20"
+  },
+  {
+    "zh": "螺纹细剑",
+    "en": "Spiraled Foil",
+    "ref_id": "Metadata/Items/Weapons/OneHandWeapons/OneHandThrustingSwords/Rapier19"
+  },
+  {
+    "zh": "瓦尔短杖",
+    "en": "Vaal Sceptre",
+    "ref_id": "Metadata/Items/Weapons/OneHandWeapons/OneHandMaces/Sceptre20"
+  },
+  {
+    "zh": "锋刃重锤",
+    "en": "Pernach",
+    "ref_id": "Metadata/Items/Weapons/OneHandWeapons/OneHandMaces/OneHandMace20"
+  },
+  {
+    "zh": "瓦尔巨斧",
+    "en": "Vaal Axe",
+    "ref_id": "Metadata/Items/Weapons/TwoHandWeapons/TwoHandAxes/TwoHandAxe17"
+  },
+  {
+    "zh": "风暴长杖",
+    "en": "Maelström Staff",
+    "ref_id": "Metadata/Items/Weapons/TwoHandWeapons/Staves/Staff17"
+  },
+  {
+    "zh": "瓦尔军刃",
+    "en": "Vaal Blade",
+    "ref_id": "Metadata/Items/Weapons/OneHandWeapons/OneHandSwords/OneHandSword20"
+  },
+  {
+    "zh": "脊弓",
+    "en": "Spine Bow",
+    "ref_id": "Metadata/Items/Weapons/TwoHandWeapons/Bows/Bow20"
+  },
+  {
+    "zh": "白金波刃",
+    "en": "Platinum Kris",
+    "ref_id": "Metadata/Items/Weapons/OneHandWeapons/Daggers/Dagger20"
+  },
+  {
+    "zh": "刺眼钩",
+    "en": "Eye Gouger",
+    "ref_id": "Metadata/Items/Weapons/OneHandWeapons/Claws/Claw19"
+  },
+  {
+    "zh": "瓦尔巨剑",
+    "en": "Vaal Greatsword",
+    "ref_id": "Metadata/Items/Weapons/TwoHandWeapons/TwoHandSwords/TwoHandSword17"
+  },
+  {
+    "zh": "戮魂重锤",
+    "en": "Meatgrinder",
+    "ref_id": "Metadata/Items/Weapons/TwoHandWeapons/TwoHandMaces/TwoHandMace17"
+  },
+  {
+    "zh": "屠戮之斧",
+    "en": "Butcher Axe",
+    "ref_id": "Metadata/Items/Weapons/OneHandWeapons/OneHandAxes/OneHandAxe19"
+  },
+  {
+    "zh": "白金短杖",
+    "en": "Platinum Sceptre",
+    "ref_id": "Metadata/Items/Weapons/OneHandWeapons/OneHandMaces/Sceptre19"
+  },
+  {
+    "zh": "军团长剑",
+    "en": "Legion Sword",
+    "ref_id": "Metadata/Items/Weapons/OneHandWeapons/OneHandSwords/OneHandSword19"
+  },
+  {
+    "zh": "艾兹麦巨斧",
+    "en": "Ezomyte Axe",
+    "ref_id": "Metadata/Items/Weapons/TwoHandWeapons/TwoHandAxes/TwoHandAxe16"
+  },
+  {
+    "zh": "灵石法杖",
+    "en": "Opal Wand",
+    "ref_id": "Metadata/Items/Weapons/OneHandWeapons/Wands/Wand14"
+  },
+  {
+    "zh": "魔爪刃",
+    "en": "Hellion's Paw",
+    "ref_id": "Metadata/Items/Weapons/OneHandWeapons/Claws/Claw18"
+  },
+  {
+    "zh": "武术长杖",
+    "en": "Lathi",
+    "ref_id": "Metadata/Items/Weapons/TwoHandWeapons/Staves/Staff15"
+  },
+  {
+    "zh": "军团之锤",
+    "en": "Legion Hammer",
+    "ref_id": "Metadata/Items/Weapons/OneHandWeapons/OneHandMaces/OneHandMace19"
+  },
+  {
+    "zh": "暗影弓",
+    "en": "Assassin Bow",
+    "ref_id": "Metadata/Items/Weapons/TwoHandWeapons/Bows/Bow19"
+  },
+  {
+    "zh": "艾兹麦之匕",
+    "en": "Ezomyte Dagger",
+    "ref_id": "Metadata/Items/Weapons/OneHandWeapons/Daggers/Dagger19"
+  },
+  {
+    "zh": "寒光刺剑",
+    "en": "Pecoraro",
+    "ref_id": "Metadata/Items/Weapons/OneHandWeapons/OneHandThrustingSwords/Rapier18"
+  },
+  {
+    "zh": "残暴之斧",
+    "en": "Reaver Axe",
+    "ref_id": "Metadata/Items/Weapons/OneHandWeapons/OneHandAxes/OneHandAxe18"
+  },
+  {
+    "zh": "扫荡者",
+    "en": "Piledriver",
+    "ref_id": "Metadata/Items/Weapons/TwoHandWeapons/TwoHandMaces/TwoHandMace16"
+  },
+  {
+    "zh": "艾兹麦巨剑",
+    "en": "Ezomyte Blade",
+    "ref_id": "Metadata/Items/Weapons/TwoHandWeapons/TwoHandSwords/TwoHandSword16"
+  },
+  {
+    "zh": "灵石短杖",
+    "en": "Opal Sceptre",
+    "ref_id": "Metadata/Items/Weapons/OneHandWeapons/OneHandMaces/Sceptre18"
+  },
+  {
+    "zh": "裂甲巨斧",
+    "en": "Sundering Axe",
+    "ref_id": "Metadata/Items/Weapons/TwoHandWeapons/TwoHandAxes/TwoHandAxe15"
+  },
+  {
+    "zh": "刺喉刃",
+    "en": "Throat Stabber",
+    "ref_id": "Metadata/Items/Weapons/OneHandWeapons/Claws/Claw17"
+  },
+  {
+    "zh": "游侠弓",
+    "en": "Ranger Bow",
+    "ref_id": "Metadata/Items/Weapons/TwoHandWeapons/Bows/Bow18"
+  },
+  {
+    "zh": "艾兹麦长杖",
+    "en": "Ezomyte Staff",
+    "ref_id": "Metadata/Items/Weapons/TwoHandWeapons/Staves/Staff16"
+  },
+  {
+    "zh": "坚锤",
+    "en": "Gavel",
+    "ref_id": "Metadata/Items/Weapons/OneHandWeapons/OneHandMaces/OneHandMace18"
+  },
+  {
+    "zh": "伏击刺刃",
+    "en": "Ambusher",
+    "ref_id": "Metadata/Items/Weapons/OneHandWeapons/Daggers/Dagger18"
+  },
+  {
+    "zh": "斗士长剑",
+    "en": "Gladius",
+    "ref_id": "Metadata/Items/Weapons/OneHandWeapons/OneHandSwords/OneHandSword18"
+  },
+  {
+    "zh": "强化细剑",
+    "en": "Tempered Foil",
+    "ref_id": "Metadata/Items/Weapons/OneHandWeapons/OneHandThrustingSwords/Rapier17"
+  },
+  {
+    "zh": "破城斧",
+    "en": "Siege Axe",
+    "ref_id": "Metadata/Items/Weapons/OneHandWeapons/OneHandAxes/OneHandAxe17"
+  },
+  {
+    "zh": "巨型重锤",
+    "en": "Colossus Mallet",
+    "ref_id": "Metadata/Items/Weapons/TwoHandWeapons/TwoHandMaces/TwoHandMace15"
+  },
+  {
+    "zh": "魔性法杖",
+    "en": "Imbued Wand",
+    "ref_id": "Metadata/Items/Weapons/OneHandWeapons/Wands/Wand13"
+  },
+  {
+    "zh": "念动法杖",
+    "en": "Kinetic Wand",
+    "ref_id": "Metadata/Items/Weapons/OneHandWeapons/Wands/WandK3"
+  },
+  {
+    "zh": "猛禽爪斧",
+    "en": "Talon Axe",
+    "ref_id": "Metadata/Items/Weapons/TwoHandWeapons/TwoHandAxes/TwoHandAxeM2"
+  },
+  {
+    "zh": "残暴巨剑",
+    "en": "Reaver Sword",
+    "ref_id": "Metadata/Items/Weapons/TwoHandWeapons/TwoHandSwords/TwoHandSword15"
+  },
+  {
+    "zh": "海贼长刀",
+    "en": "Corsair Sword",
+    "ref_id": "Metadata/Items/Weapons/OneHandWeapons/OneHandSwords/OneHandSword17"
+  },
+  {
+    "zh": "史典长杖",
+    "en": "Primordial Staff",
+    "ref_id": "Metadata/Items/Weapons/TwoHandWeapons/Staves/Staff14"
+  },
+  {
+    "zh": "城塞战弓",
+    "en": "Citadel Bow",
+    "ref_id": "Metadata/Items/Weapons/TwoHandWeapons/Bows/Bow17"
+  },
+  {
+    "zh": "猎者之刃",
+    "en": "Slaughter Knife",
+    "ref_id": "Metadata/Items/Weapons/OneHandWeapons/Daggers/Dagger17"
+  },
+  {
+    "zh": "裂肉之锤",
+    "en": "Tenderizer",
+    "ref_id": "Metadata/Items/Weapons/OneHandWeapons/OneHandMaces/OneHandMace17"
+  },
+  {
+    "zh": "暴君之统",
+    "en": "Tyrant's Sekhem",
+    "ref_id": "Metadata/Items/Weapons/OneHandWeapons/OneHandMaces/Sceptre17"
+  },
+  {
+    "zh": "卡鲁巨斧",
+    "en": "Karui Chopper",
+    "ref_id": "Metadata/Items/Weapons/TwoHandWeapons/TwoHandAxes/TwoHandAxe14"
+  },
+  {
+    "zh": "龙骨细剑",
+    "en": "Dragonbone Rapier",
+    "ref_id": "Metadata/Items/Weapons/OneHandWeapons/OneHandThrustingSwords/Rapier16"
+  },
+  {
+    "zh": "白灵之爪",
+    "en": "Great White Claw",
+    "ref_id": "Metadata/Items/Weapons/OneHandWeapons/Claws/Claw16"
+  },
+  {
+    "zh": "卡鲁重锤",
+    "en": "Karui Maul",
+    "ref_id": "Metadata/Items/Weapons/TwoHandWeapons/TwoHandMaces/TwoHandMace14"
+  },
+  {
+    "zh": "卡鲁古斧",
+    "en": "Karui Axe",
+    "ref_id": "Metadata/Items/Weapons/OneHandWeapons/OneHandAxes/OneHandAxe16"
+  },
+  {
+    "zh": "月神长杖",
+    "en": "Moon Staff",
+    "ref_id": "Metadata/Items/Weapons/TwoHandWeapons/Staves/StaffM2"
+  },
+  {
+    "zh": "行刑巨剑",
+    "en": "Headman's Sword",
+    "ref_id": "Metadata/Items/Weapons/TwoHandWeapons/TwoHandSwords/TwoHandSword14"
+  },
+  {
+    "zh": "重刃爪",
+    "en": "Twin Claw",
+    "ref_id": "Metadata/Items/Weapons/OneHandWeapons/Claws/ClawM2"
+  },
+  {
+    "zh": "花魁之剑",
+    "en": "Courtesan Sword",
+    "ref_id": "Metadata/Items/Weapons/OneHandWeapons/OneHandThrustingSwords/RapierM2"
+  },
+  {
+    "zh": "钢木之弓",
+    "en": "Steelwood Bow",
+    "ref_id": "Metadata/Items/Weapons/TwoHandWeapons/Bows/BowM2"
+  },
+  {
+    "zh": "宝石之剑",
+    "en": "Gemstone Sword",
+    "ref_id": "Metadata/Items/Weapons/OneHandWeapons/OneHandSwords/OneHandSword16"
+  },
+  {
+    "zh": "细刃",
+    "en": "Lithe Blade",
+    "ref_id": "Metadata/Items/Weapons/TwoHandWeapons/TwoHandSwords/TwoHandSwordM2"
+  },
+  {
+    "zh": "魔角法杖",
+    "en": "Demon's Horn",
+    "ref_id": "Metadata/Items/Weapons/OneHandWeapons/Wands/Wand12"
+  },
+  {
+    "zh": "林野猎弓",
+    "en": "Thicket Bow",
+    "ref_id": "Metadata/Items/Weapons/TwoHandWeapons/Bows/Bow16"
+  },
+  {
+    "zh": "重伤短刀",
+    "en": "Gutting Knife",
+    "ref_id": "Metadata/Items/Weapons/OneHandWeapons/Daggers/Dagger16"
+  },
+  {
+    "zh": "祖灵之杵",
+    "en": "Ancestral Club",
+    "ref_id": "Metadata/Items/Weapons/OneHandWeapons/OneHandMaces/OneHandMace16"
+  },
+  {
+    "zh": "卡鲁短杖",
+    "en": "Karui Sceptre",
+    "ref_id": "Metadata/Items/Weapons/OneHandWeapons/OneHandMaces/Sceptre16"
+  },
+  {
+    "zh": "日光锤",
+    "en": "Solar Maul",
+    "ref_id": "Metadata/Items/Weapons/TwoHandWeapons/TwoHandMaces/TwoHandMaceM2"
+  },
+  {
+    "zh": "雕文战斧",
+    "en": "Engraved Hatchet",
+    "ref_id": "Metadata/Items/Weapons/OneHandWeapons/OneHandAxes/OneHandAxeM2"
+  },
+  {
+    "zh": "捕捉者",
+    "en": "Grappler",
+    "ref_id": "Metadata/Items/Weapons/OneHandWeapons/OneHandSwords/OneHandSwordM2"
+  },
+  {
+    "zh": "异徒法杖",
+    "en": "Heathen Wand",
+    "ref_id": "Metadata/Items/Weapons/OneHandWeapons/Wands/WandM2"
+  },
+  {
+    "zh": "龙之锤",
+    "en": "Dragon Mace",
+    "ref_id": "Metadata/Items/Weapons/OneHandWeapons/OneHandMaces/OneHandMaceM2"
+  },
+  {
+    "zh": "灵鹿短杖",
+    "en": "Stag Sceptre",
+    "ref_id": "Metadata/Items/Weapons/OneHandWeapons/OneHandMaces/SceptreM2"
+  },
+  {
+    "zh": "深渊巨斧",
+    "en": "Abyssal Axe",
+    "ref_id": "Metadata/Items/Weapons/TwoHandWeapons/TwoHandAxes/TwoHandAxe13"
+  },
+  {
+    "zh": "恶灵长杖",
+    "en": "Foul Staff",
+    "ref_id": "Metadata/Items/Weapons/TwoHandWeapons/Staves/Staff13"
+  },
+  {
+    "zh": "鹰爪刃",
+    "en": "Eagle Claw",
+    "ref_id": "Metadata/Items/Weapons/OneHandWeapons/Claws/Claw15"
+  },
+  {
+    "zh": "锐锋细剑",
+    "en": "Apex Rapier",
+    "ref_id": "Metadata/Items/Weapons/OneHandWeapons/OneHandThrustingSwords/Rapier15"
+  },
+  {
+    "zh": "凶灵巨剑",
+    "en": "Wraith Sword",
+    "ref_id": "Metadata/Items/Weapons/TwoHandWeapons/TwoHandSwords/TwoHandSword13"
+  },
+  {
+    "zh": "威权巨锤",
+    "en": "Dread Maul",
+    "ref_id": "Metadata/Items/Weapons/TwoHandWeapons/TwoHandMaces/TwoHandMace13"
+  },
+  {
+    "zh": "凶灵之斧",
+    "en": "Wraith Axe",
+    "ref_id": "Metadata/Items/Weapons/OneHandWeapons/OneHandAxes/OneHandAxe15"
+  },
+  {
+    "zh": "兽血短匕",
+    "en": "Fiend Dagger",
+    "ref_id": "Metadata/Items/Weapons/OneHandWeapons/Daggers/Dagger15"
+  },
+  {
+    "zh": "灵兆法杖",
+    "en": "Omen Wand",
+    "ref_id": "Metadata/Items/Weapons/OneHandWeapons/Wands/Wand11"
+  },
+  {
+    "zh": "暮光长剑",
+    "en": "Twilight Blade",
+    "ref_id": "Metadata/Items/Weapons/OneHandWeapons/OneHandSwords/OneHandSword15"
+  },
+  {
+    "zh": "深渊短杖",
+    "en": "Abyssal Sceptre",
+    "ref_id": "Metadata/Items/Weapons/OneHandWeapons/OneHandMaces/Sceptre15"
+  },
+  {
+    "zh": "幻象之锤",
+    "en": "Phantom Mace",
+    "ref_id": "Metadata/Items/Weapons/OneHandWeapons/OneHandMaces/OneHandMace15"
+  },
+  {
+    "zh": "猎魂之弓",
+    "en": "Decimation Bow",
+    "ref_id": "Metadata/Items/Weapons/TwoHandWeapons/Bows/Bow15"
+  },
+  {
+    "zh": "权贵巨斧",
+    "en": "Noble Axe",
+    "ref_id": "Metadata/Items/Weapons/TwoHandWeapons/TwoHandAxes/TwoHandAxe12"
+  },
+  {
+    "zh": "贵族战爪",
+    "en": "Noble Claw",
+    "ref_id": "Metadata/Items/Weapons/OneHandWeapons/Claws/Claw14"
+  },
+  {
+    "zh": "华丽细剑",
+    "en": "Fancy Foil",
+    "ref_id": "Metadata/Items/Weapons/OneHandWeapons/OneHandThrustingSwords/Rapier14"
+  },
+  {
+    "zh": "贵族长杖",
+    "en": "Highborn Staff",
+    "ref_id": "Metadata/Items/Weapons/TwoHandWeapons/Staves/Staff12"
+  },
+  {
+    "zh": "三叉短匕",
+    "en": "Trisula",
+    "ref_id": "Metadata/Items/Weapons/OneHandWeapons/Daggers/DaggerM2"
+  },
+  {
+    "zh": "血仪之斧",
+    "en": "Ceremonial Axe",
+    "ref_id": "Metadata/Items/Weapons/OneHandWeapons/OneHandAxes/OneHandAxe14"
+  },
+  {
+    "zh": "虎牙巨剑",
+    "en": "Tiger Sword",
+    "ref_id": "Metadata/Items/Weapons/TwoHandWeapons/TwoHandSwords/TwoHandSword12"
+  },
+  {
+    "zh": "华丽重锤",
+    "en": "Plated Maul",
+    "ref_id": "Metadata/Items/Weapons/TwoHandWeapons/TwoHandMaces/TwoHandMace12"
+  },
+  {
+    "zh": "潜力之杖",
+    "en": "Potentiality Rod",
+    "ref_id": "Metadata/Items/Weapons/TwoHandWeapons/Staves/WarstaffE2"
+  },
+  {
+    "zh": "华丽之锤",
+    "en": "Ornate Mace",
+    "ref_id": "Metadata/Items/Weapons/OneHandWeapons/OneHandMaces/OneHandMace14"
+  },
+  {
+    "zh": "爆破刀",
+    "en": "Blasting Blade",
+    "ref_id": "Metadata/Items/Weapons/TwoHandWeapons/TwoHandSwords/TwoHandSwordE2"
+  },
+  {
+    "zh": "皇家短匕",
+    "en": "Royal Skean",
+    "ref_id": "Metadata/Items/Weapons/OneHandWeapons/Daggers/Dagger14"
+  },
+  {
+    "zh": "铸造弓",
+    "en": "Foundry Bow",
+    "ref_id": "Metadata/Items/Weapons/TwoHandWeapons/Bows/BowE2"
+  },
+  {
+    "zh": "贵族之弓",
+    "en": "Highborn Bow",
+    "ref_id": "Metadata/Items/Weapons/TwoHandWeapons/Bows/Bow14"
+  },
+  {
+    "zh": "交换长杖",
+    "en": "Reciprocation Staff",
+    "ref_id": "Metadata/Items/Weapons/TwoHandWeapons/Staves/StaffE2"
+  },
+  {
+    "zh": "权贵之剑",
+    "en": "Graceful Sword",
+    "ref_id": "Metadata/Items/Weapons/OneHandWeapons/OneHandSwords/OneHandSword14"
+  },
+  {
+    "zh": "否认斧",
+    "en": "Disapprobation Axe",
+    "ref_id": "Metadata/Items/Weapons/OneHandWeapons/OneHandAxes/OneHandAxeE2"
+  },
+  {
+    "zh": "开裂锤",
+    "en": "Crack Mace",
+    "ref_id": "Metadata/Items/Weapons/OneHandWeapons/OneHandMaces/OneHandMaceE2"
+  },
+  {
+    "zh": "闪火刀",
+    "en": "Flashfire Blade",
+    "ref_id": "Metadata/Items/Weapons/OneHandWeapons/Daggers/RuneDaggerE2"
+  },
+  {
+    "zh": "集合法杖",
+    "en": "Congregator Wand",
+    "ref_id": "Metadata/Items/Weapons/OneHandWeapons/Wands/WandE2"
+  },
+  {
+    "zh": "恶毒之牙",
+    "en": "Malign Fangs",
+    "ref_id": "Metadata/Items/Weapons/OneHandWeapons/Claws/ClawE2"
+  },
+  {
+    "zh": "平稳短杖",
+    "en": "Stabilising Sceptre",
+    "ref_id": "Metadata/Items/Weapons/OneHandWeapons/OneHandMaces/SceptreE2"
+  },
+  {
+    "zh": "莫测魂刃",
+    "en": "Capricious Spiritblade",
+    "ref_id": "Metadata/Items/Weapons/OneHandWeapons/OneHandSwords/OneHandSwordE2"
+  },
+  {
+    "zh": "冲压匕首",
+    "en": "Pressurised Dagger",
+    "ref_id": "Metadata/Items/Weapons/OneHandWeapons/Daggers/DaggerE2"
+  },
+  {
+    "zh": "磨利砍刀",
+    "en": "Honed Cleaver",
+    "ref_id": "Metadata/Items/Weapons/TwoHandWeapons/TwoHandAxes/TwoHandAxeE2"
+  },
+  {
+    "zh": "破坏之力放大器",
+    "en": "Crushing Force Magnifier",
+    "ref_id": "Metadata/Items/Weapons/TwoHandWeapons/TwoHandMaces/TwoHandMaceE2"
+  },
+  {
+    "zh": "召集法杖",
+    "en": "Convening Wand",
+    "ref_id": "Metadata/Items/Weapons/OneHandWeapons/Wands/WandMinion2"
+  },
+  {
+    "zh": "皇家短杖",
+    "en": "Royal Sceptre",
+    "ref_id": "Metadata/Items/Weapons/OneHandWeapons/OneHandMaces/Sceptre14"
+  },
+  {
+    "zh": "双影巨斧",
+    "en": "Labrys",
+    "ref_id": "Metadata/Items/Weapons/TwoHandWeapons/TwoHandAxes/TwoHandAxe11"
+  },
+  {
+    "zh": "盘曲法杖",
+    "en": "Coiled Wand",
+    "ref_id": "Metadata/Items/Weapons/OneHandWeapons/Wands/Wand10"
+  },
+  {
+    "zh": "史前战爪",
+    "en": "Prehistoric Claw",
+    "ref_id": "Metadata/Items/Weapons/OneHandWeapons/Claws/Claw13"
+  },
+  {
+    "zh": "古典刺剑",
+    "en": "Primeval Rapier",
+    "ref_id": "Metadata/Items/Weapons/OneHandWeapons/OneHandThrustingSwords/Rapier13"
+  },
+  {
+    "zh": "蛇纹长杖",
+    "en": "Serpentine Staff",
+    "ref_id": "Metadata/Items/Weapons/TwoHandWeapons/Staves/Staff11"
+  },
+  {
+    "zh": "凶刺巨锤",
+    "en": "Spiny Maul",
+    "ref_id": "Metadata/Items/Weapons/TwoHandWeapons/TwoHandMaces/TwoHandMace11"
+  },
+  {
+    "zh": "符文巨剑",
+    "en": "Engraved Greatsword",
+    "ref_id": "Metadata/Items/Weapons/TwoHandWeapons/TwoHandSwords/TwoHandSword11"
+  },
+  {
+    "zh": "开膛利刃",
+    "en": "Chest Splitter",
+    "ref_id": "Metadata/Items/Weapons/OneHandWeapons/OneHandAxes/OneHandAxe13"
+  },
+  {
+    "zh": "象牙弓",
+    "en": "Ivory Bow",
+    "ref_id": "Metadata/Items/Weapons/TwoHandWeapons/Bows/Bow13"
+  },
+  {
+    "zh": "护体之锤",
+    "en": "Flanged Mace",
+    "ref_id": "Metadata/Items/Weapons/OneHandWeapons/OneHandMaces/OneHandMace13"
+  },
+  {
+    "zh": "血色短杖",
+    "en": "Blood Sceptre",
+    "ref_id": "Metadata/Items/Weapons/OneHandWeapons/OneHandMaces/Sceptre13"
+  },
+  {
+    "zh": "金光波刃",
+    "en": "Golden Kris",
+    "ref_id": "Metadata/Items/Weapons/OneHandWeapons/Daggers/Dagger13"
+  },
+  {
+    "zh": "智者长剑",
+    "en": "Elder Sword",
+    "ref_id": "Metadata/Items/Weapons/OneHandWeapons/OneHandSwords/OneHandSword13"
+  },
+  {
+    "zh": "裂脏钩",
+    "en": "Gut Ripper",
+    "ref_id": "Metadata/Items/Weapons/OneHandWeapons/Claws/Claw12"
+  },
+  {
+    "zh": "锯齿细剑",
+    "en": "Serrated Foil",
+    "ref_id": "Metadata/Items/Weapons/OneHandWeapons/OneHandThrustingSwords/Rapier12"
+  },
+  {
+    "zh": "水晶法杖",
+    "en": "Crystal Wand",
+    "ref_id": "Metadata/Items/Weapons/OneHandWeapons/Wands/Wand9"
+  },
+  {
+    "zh": "行刑巨斧",
+    "en": "Headsman Axe",
+    "ref_id": "Metadata/Items/Weapons/TwoHandWeapons/TwoHandAxes/TwoHandAxe10"
+  },
+  {
+    "zh": "行军斧",
+    "en": "War Axe",
+    "ref_id": "Metadata/Items/Weapons/OneHandWeapons/OneHandAxes/OneHandAxe12"
+  },
+  {
+    "zh": "细柄长杖",
+    "en": "Quarterstaff",
+    "ref_id": "Metadata/Items/Weapons/TwoHandWeapons/Staves/Staff9"
+  },
+  {
+    "zh": "沉钢重锤",
+    "en": "Steelhead",
+    "ref_id": "Metadata/Items/Weapons/TwoHandWeapons/TwoHandMaces/TwoHandMace10"
+  },
+  {
+    "zh": "铅铸短杖",
+    "en": "Lead Sceptre",
+    "ref_id": "Metadata/Items/Weapons/OneHandWeapons/OneHandMaces/Sceptre12"
+  },
+  {
+    "zh": "高山重刃",
+    "en": "Highland Blade",
+    "ref_id": "Metadata/Items/Weapons/TwoHandWeapons/TwoHandSwords/TwoHandSword10"
+  },
+  {
+    "zh": "士兵长剑",
+    "en": "Battle Sword",
+    "ref_id": "Metadata/Items/Weapons/OneHandWeapons/OneHandSwords/OneHandSword12"
+  },
+  {
+    "zh": "窃者短匕",
+    "en": "Boot Blade",
+    "ref_id": "Metadata/Items/Weapons/OneHandWeapons/Daggers/Dagger12"
+  },
+  {
+    "zh": "强化战锤",
+    "en": "Battle Hammer",
+    "ref_id": "Metadata/Items/Weapons/OneHandWeapons/OneHandMaces/OneHandMace12"
+  },
+  {
+    "zh": "狙击弓",
+    "en": "Sniper Bow",
+    "ref_id": "Metadata/Items/Weapons/TwoHandWeapons/Bows/Bow12"
+  },
+  {
+    "zh": "虎爪刃",
+    "en": "Tiger's Paw",
+    "ref_id": "Metadata/Items/Weapons/OneHandWeapons/Claws/Claw11"
+  },
+  {
+    "zh": "穿甲刺剑",
+    "en": "Estoc",
+    "ref_id": "Metadata/Items/Weapons/OneHandWeapons/OneHandThrustingSwords/Rapier11"
+  },
+  {
+    "zh": "断腕之刃",
+    "en": "Wrist Chopper",
+    "ref_id": "Metadata/Items/Weapons/OneHandWeapons/OneHandAxes/OneHandAxe11"
+  },
+  {
+    "zh": "冷光长剑",
+    "en": "Baselard",
+    "ref_id": "Metadata/Items/Weapons/OneHandWeapons/OneHandSwords/OneHandSword11"
+  },
+  {
+    "zh": "水晶短杖",
+    "en": "Crystal Sceptre",
+    "ref_id": "Metadata/Items/Weapons/OneHandWeapons/OneHandMaces/Sceptre11"
+  },
+  {
+    "zh": "破岩锤",
+    "en": "Rock Breaker",
+    "ref_id": "Metadata/Items/Weapons/OneHandWeapons/OneHandMaces/OneHandMace11"
+  },
+  {
+    "zh": "夺命刺",
+    "en": "Poignard",
+    "ref_id": "Metadata/Items/Weapons/OneHandWeapons/Daggers/Dagger11"
+  },
+  {
+    "zh": "复合弓",
+    "en": "Compound Bow",
+    "ref_id": "Metadata/Items/Weapons/TwoHandWeapons/Bows/Bow11"
+  },
+  {
+    "zh": "军用长杖",
+    "en": "Military Staff",
+    "ref_id": "Metadata/Items/Weapons/TwoHandWeapons/Staves/Staff10"
+  },
+  {
+    "zh": "裂木巨斧",
+    "en": "Timber Axe",
+    "ref_id": "Metadata/Items/Weapons/TwoHandWeapons/TwoHandAxes/TwoHandAxe9"
+  },
+  {
+    "zh": "刚猛巨锤",
+    "en": "Great Mallet",
+    "ref_id": "Metadata/Items/Weapons/TwoHandWeapons/TwoHandMaces/TwoHandMace9"
+  },
+  {
+    "zh": "士兵巨剑",
+    "en": "Footman Sword",
+    "ref_id": "Metadata/Items/Weapons/TwoHandWeapons/TwoHandSwords/TwoHandSword9"
+  },
+  {
+    "zh": "符文法杖",
+    "en": "Engraved Wand",
+    "ref_id": "Metadata/Items/Weapons/OneHandWeapons/Wands/Wand8"
+  },
+  {
+    "zh": "穿体凿",
+    "en": "Gouger",
+    "ref_id": "Metadata/Items/Weapons/OneHandWeapons/Claws/Claw10"
+  },
+  {
+    "zh": "冷芒刺剑",
+    "en": "Burnished Foil",
+    "ref_id": "Metadata/Items/Weapons/OneHandWeapons/OneHandThrustingSwords/Rapier10"
+  },
+  {
+    "zh": "爆破法杖",
+    "en": "Blasting Wand",
+    "ref_id": "Metadata/Items/Weapons/OneHandWeapons/Wands/WandK2"
+  },
+  {
+    "zh": "征战之斧",
+    "en": "Tomahawk",
+    "ref_id": "Metadata/Items/Weapons/OneHandWeapons/OneHandAxes/OneHandAxe10"
+  },
+  {
+    "zh": "锐刺木棒",
+    "en": "Barbed Club",
+    "ref_id": "Metadata/Items/Weapons/OneHandWeapons/OneHandMaces/OneHandMace10"
+  },
+  {
+    "zh": "威能短杖",
+    "en": "Sekhem",
+    "ref_id": "Metadata/Items/Weapons/OneHandWeapons/OneHandMaces/Sceptre10"
+  },
+  {
+    "zh": "直弓",
+    "en": "Decurve Bow",
+    "ref_id": "Metadata/Items/Weapons/TwoHandWeapons/Bows/Bow10"
+  },
+  {
+    "zh": "军用长刃",
+    "en": "Cutlass",
+    "ref_id": "Metadata/Items/Weapons/OneHandWeapons/OneHandSwords/OneHandSword10"
+  },
+  {
+    "zh": "屠兽利刃",
+    "en": "Butcher Knife",
+    "ref_id": "Metadata/Items/Weapons/OneHandWeapons/Daggers/Dagger10"
+  },
+  {
+    "zh": "撕裂尖爪",
+    "en": "Thresher Claw",
+    "ref_id": "Metadata/Items/Weapons/OneHandWeapons/Claws/Claw9"
+  },
+  {
+    "zh": "龙骨细剑",
+    "en": "Wyrmbone Rapier",
+    "ref_id": "Metadata/Items/Weapons/OneHandWeapons/OneHandThrustingSwords/Rapier9"
+  },
+  {
+    "zh": "灵玉巨斧",
+    "en": "Jasper Chopper",
+    "ref_id": "Metadata/Items/Weapons/TwoHandWeapons/TwoHandAxes/TwoHandAxe8"
+  },
+  {
+    "zh": "坚木长杖",
+    "en": "Woodful Staff",
+    "ref_id": "Metadata/Items/Weapons/TwoHandWeapons/Staves/Staff8"
+  },
+  {
+    "zh": "冷血巨剑",
+    "en": "Butcher Sword",
+    "ref_id": "Metadata/Items/Weapons/TwoHandWeapons/TwoHandSwords/TwoHandSword8"
+  },
+  {
+    "zh": "反射弓",
+    "en": "Reflex Bow",
+    "ref_id": "Metadata/Items/Weapons/TwoHandWeapons/Bows/BowM1"
+  },
+  {
+    "zh": "双刃爪",
+    "en": "Double Claw",
+    "ref_id": "Metadata/Items/Weapons/OneHandWeapons/Claws/ClawM1"
+  },
+  {
+    "zh": "匕斧",
+    "en": "Dagger Axe",
+    "ref_id": "Metadata/Items/Weapons/TwoHandWeapons/TwoHandAxes/TwoHandAxeM1"
+  },
+  {
+    "zh": "小剑",
+    "en": "Smallsword",
+    "ref_id": "Metadata/Items/Weapons/OneHandWeapons/OneHandThrustingSwords/RapierM1"
+  },
+  {
+    "zh": "图腾巨锤",
+    "en": "Totemic Maul",
+    "ref_id": "Metadata/Items/Weapons/TwoHandWeapons/TwoHandMaces/TwoHandMace8"
+  },
+  {
+    "zh": "灵玉斧",
+    "en": "Jasper Axe",
+    "ref_id": "Metadata/Items/Weapons/OneHandWeapons/OneHandAxes/OneHandAxe9"
+  },
+  {
+    "zh": "新月长杖",
+    "en": "Crescent Staff",
+    "ref_id": "Metadata/Items/Weapons/TwoHandWeapons/Staves/StaffM1"
+  },
+  {
+    "zh": "犄角短杖",
+    "en": "Horned Sceptre",
+    "ref_id": "Metadata/Items/Weapons/OneHandWeapons/OneHandMaces/SceptreM1"
+  },
+  {
+    "zh": "尖耙短匕",
+    "en": "Prong Dagger",
+    "ref_id": "Metadata/Items/Weapons/OneHandWeapons/Daggers/DaggerM1"
+  },
+  {
+    "zh": "弯刃",
+    "en": "Curved Blade",
+    "ref_id": "Metadata/Items/Weapons/TwoHandWeapons/TwoHandSwords/TwoHandSwordM1"
+  },
+  {
+    "zh": "兽角法杖",
+    "en": "Faun's Horn",
+    "ref_id": "Metadata/Items/Weapons/OneHandWeapons/Wands/Wand7"
+  },
+  {
+    "zh": "丛林猎弓",
+    "en": "Grove Bow",
+    "ref_id": "Metadata/Items/Weapons/TwoHandWeapons/Bows/Bow9"
+  },
+  {
+    "zh": "蚀刻战斧",
+    "en": "Etched Hatchet",
+    "ref_id": "Metadata/Items/Weapons/OneHandWeapons/OneHandAxes/OneHandAxeM1"
+  },
+  {
+    "zh": "远古之祭",
+    "en": "Grinning Fetish",
+    "ref_id": "Metadata/Items/Weapons/OneHandWeapons/OneHandMaces/Sceptre9"
+  },
+  {
+    "zh": "坚石木棒",
+    "en": "Petrified Club",
+    "ref_id": "Metadata/Items/Weapons/OneHandWeapons/OneHandMaces/OneHandMace9"
+  },
+  {
+    "zh": "碧铜短剑",
+    "en": "Variscite Blade",
+    "ref_id": "Metadata/Items/Weapons/OneHandWeapons/OneHandSwords/OneHandSword9"
+  },
+  {
+    "zh": "异教法杖",
+    "en": "Pagan Wand",
+    "ref_id": "Metadata/Items/Weapons/OneHandWeapons/Wands/WandM1"
+  },
+  {
+    "zh": "棘刺细剑",
+    "en": "Thorn Rapier",
+    "ref_id": "Metadata/Items/Weapons/OneHandWeapons/OneHandThrustingSwords/Rapier8"
+  },
+  {
+    "zh": "晨星",
+    "en": "Morning Star",
+    "ref_id": "Metadata/Items/Weapons/TwoHandWeapons/TwoHandMaces/TwoHandMaceM1"
+  },
+  {
+    "zh": "古龙之锤",
+    "en": "Wyrm Mace",
+    "ref_id": "Metadata/Items/Weapons/OneHandWeapons/OneHandMaces/OneHandMaceM1"
+  },
+  {
+    "zh": "恐惧之爪",
+    "en": "Fright Claw",
+    "ref_id": "Metadata/Items/Weapons/OneHandWeapons/Claws/Claw8"
+  },
+  {
+    "zh": "钩爪剑",
+    "en": "Hook Sword",
+    "ref_id": "Metadata/Items/Weapons/OneHandWeapons/OneHandSwords/OneHandSwordM1"
+  },
+  {
+    "zh": "幽影巨斧",
+    "en": "Shadow Axe",
+    "ref_id": "Metadata/Items/Weapons/TwoHandWeapons/TwoHandAxes/TwoHandAxe7"
+  },
+  {
+    "zh": "毒牙长杖",
+    "en": "Vile Staff",
+    "ref_id": "Metadata/Items/Weapons/TwoHandWeapons/Staves/Staff7"
+  },
+  {
+    "zh": "幽魂之斧",
+    "en": "Spectral Axe",
+    "ref_id": "Metadata/Items/Weapons/OneHandWeapons/OneHandAxes/OneHandAxe8"
+  },
+  {
+    "zh": "暮色之刃",
+    "en": "Dusk Blade",
+    "ref_id": "Metadata/Items/Weapons/OneHandWeapons/OneHandSwords/OneHandSword8"
+  },
+  {
+    "zh": "影语短杖",
+    "en": "Shadow Sceptre",
+    "ref_id": "Metadata/Items/Weapons/OneHandWeapons/OneHandMaces/Sceptre8"
+  },
+  {
+    "zh": "魔性之刃",
+    "en": "Imp Dagger",
+    "ref_id": "Metadata/Items/Weapons/OneHandWeapons/Daggers/Dagger8"
+  },
+  {
+    "zh": "恐惧重锤",
+    "en": "Fright Maul",
+    "ref_id": "Metadata/Items/Weapons/TwoHandWeapons/TwoHandMaces/TwoHandMace7"
+  },
+  {
+    "zh": "死亡之弓",
+    "en": "Death Bow",
+    "ref_id": "Metadata/Items/Weapons/TwoHandWeapons/Bows/Bow8"
+  },
+  {
+    "zh": "幽魂巨剑",
+    "en": "Spectral Sword",
+    "ref_id": "Metadata/Items/Weapons/TwoHandWeapons/TwoHandSwords/TwoHandSword7"
+  },
+  {
+    "zh": "梦境之锤",
+    "en": "Dream Mace",
+    "ref_id": "Metadata/Items/Weapons/OneHandWeapons/OneHandMaces/OneHandMace8"
+  },
+  {
+    "zh": "贤者法杖",
+    "en": "Sage Wand",
+    "ref_id": "Metadata/Items/Weapons/OneHandWeapons/Wands/Wand6"
+  },
+  {
+    "zh": "火焰刀",
+    "en": "Flickerflame Blade",
+    "ref_id": "Metadata/Items/Weapons/OneHandWeapons/Daggers/RuneDaggerE1"
+  },
+  {
+    "zh": "多面弓",
+    "en": "Hedron Bow",
+    "ref_id": "Metadata/Items/Weapons/TwoHandWeapons/Bows/BowE1"
+  },
+  {
+    "zh": "贵族细剑",
+    "en": "Elegant Foil",
+    "ref_id": "Metadata/Items/Weapons/OneHandWeapons/OneHandThrustingSwords/Rapier7"
+  },
+  {
+    "zh": "明亮锤",
+    "en": "Flare Mace",
+    "ref_id": "Metadata/Items/Weapons/OneHandWeapons/OneHandMaces/OneHandMaceE1"
+  },
+  {
+    "zh": "凌虐斧",
+    "en": "Maltreatment Axe",
+    "ref_id": "Metadata/Items/Weapons/OneHandWeapons/OneHandAxes/OneHandAxeE1"
+  },
+  {
+    "zh": "摇摆短杖",
+    "en": "Oscillating Sceptre",
+    "ref_id": "Metadata/Items/Weapons/OneHandWeapons/OneHandMaces/SceptreE1"
+  },
+  {
+    "zh": "装配法杖",
+    "en": "Assembler Wand",
+    "ref_id": "Metadata/Items/Weapons/OneHandWeapons/Wands/WandE1"
+  },
+  {
+    "zh": "眩目爪刃",
+    "en": "Sparkling Claw",
+    "ref_id": "Metadata/Items/Weapons/OneHandWeapons/Claws/Claw7"
+  },
+  {
+    "zh": "折叠匕首",
+    "en": "Hollowpoint Dagger",
+    "ref_id": "Metadata/Items/Weapons/OneHandWeapons/Daggers/DaggerE1"
+  },
+  {
+    "zh": "暗影之牙",
+    "en": "Shadow Fangs",
+    "ref_id": "Metadata/Items/Weapons/OneHandWeapons/Claws/ClawE1"
+  },
+  {
+    "zh": "钝击之力凝聚器",
+    "en": "Blunt Force Condenser",
+    "ref_id": "Metadata/Items/Weapons/TwoHandWeapons/TwoHandMaces/TwoHandMaceE1"
+  },
+  {
+    "zh": "变形长杖",
+    "en": "Transformer Staff",
+    "ref_id": "Metadata/Items/Weapons/TwoHandWeapons/Staves/StaffE1"
+  },
+  {
+    "zh": "载荷之杖",
+    "en": "Capacity Rod",
+    "ref_id": "Metadata/Items/Weapons/TwoHandWeapons/Staves/WarstaffE1"
+  },
+  {
+    "zh": "首要砍刀",
+    "en": "Prime Cleaver",
+    "ref_id": "Metadata/Items/Weapons/TwoHandWeapons/TwoHandAxes/TwoHandAxeE1"
+  },
+  {
+    "zh": "无常魂刃",
+    "en": "Fickle Spiritblade",
+    "ref_id": "Metadata/Items/Weapons/OneHandWeapons/OneHandSwords/OneHandSwordE1"
+  },
+  {
+    "zh": "残体利刃",
+    "en": "Flaying Knife",
+    "ref_id": "Metadata/Items/Weapons/OneHandWeapons/Daggers/Dagger9"
+  },
+  {
+    "zh": "责难刀",
+    "en": "Rebuking Blade",
+    "ref_id": "Metadata/Items/Weapons/TwoHandWeapons/TwoHandSwords/TwoHandSwordE1"
+  },
+  {
+    "zh": "富贵之斧",
+    "en": "Decorative Axe",
+    "ref_id": "Metadata/Items/Weapons/OneHandWeapons/OneHandAxes/OneHandAxe7"
+  },
+  {
+    "zh": "祭仪短杖",
+    "en": "Ritual Sceptre",
+    "ref_id": "Metadata/Items/Weapons/OneHandWeapons/OneHandMaces/Sceptre7"
+  },
+  {
+    "zh": "贵族之剑",
+    "en": "Elegant Sword",
+    "ref_id": "Metadata/Items/Weapons/OneHandWeapons/OneHandSwords/OneHandSword7"
+  },
+  {
+    "zh": "双刃匕",
+    "en": "Skean",
+    "ref_id": "Metadata/Items/Weapons/OneHandWeapons/Daggers/Dagger7"
+  },
+  {
+    "zh": "金柄之斧",
+    "en": "Gilded Axe",
+    "ref_id": "Metadata/Items/Weapons/TwoHandWeapons/TwoHandAxes/TwoHandAxe6"
+  },
+  {
+    "zh": "皇家长杖",
+    "en": "Royal Staff",
+    "ref_id": "Metadata/Items/Weapons/TwoHandWeapons/Staves/Staff6"
+  },
+  {
+    "zh": "皇家猎弓",
+    "en": "Royal Bow",
+    "ref_id": "Metadata/Items/Weapons/TwoHandWeapons/Bows/Bow7"
+  },
+  {
+    "zh": "祭礼之锤",
+    "en": "Ceremonial Mace",
+    "ref_id": "Metadata/Items/Weapons/OneHandWeapons/OneHandMaces/OneHandMace7"
+  },
+  {
+    "zh": "名贵巨剑",
+    "en": "Ornate Sword",
+    "ref_id": "Metadata/Items/Weapons/TwoHandWeapons/TwoHandSwords/TwoHandSword6"
+  },
+  {
+    "zh": "铜影巨锤",
+    "en": "Brass Maul",
+    "ref_id": "Metadata/Items/Weapons/TwoHandWeapons/TwoHandMaces/TwoHandMace6"
+  },
+  {
+    "zh": "古代细剑",
+    "en": "Antique Rapier",
+    "ref_id": "Metadata/Items/Weapons/OneHandWeapons/OneHandThrustingSwords/Rapier6"
+  },
+  {
+    "zh": "远古战爪",
+    "en": "Timeworn Claw",
+    "ref_id": "Metadata/Items/Weapons/OneHandWeapons/Claws/Claw6"
+  },
+  {
+    "zh": "长柄斧",
+    "en": "Arming Axe",
+    "ref_id": "Metadata/Items/Weapons/OneHandWeapons/OneHandAxes/OneHandAxe6"
+  },
+  {
+    "zh": "螺纹法杖",
+    "en": "Spiraled Wand",
+    "ref_id": "Metadata/Items/Weapons/OneHandWeapons/Wands/Wand5"
+  },
+  {
+    "zh": "赤色短杖",
+    "en": "Ochre Sceptre",
+    "ref_id": "Metadata/Items/Weapons/OneHandWeapons/OneHandMaces/Sceptre6"
+  },
+  {
+    "zh": "远古之剑",
+    "en": "Ancient Sword",
+    "ref_id": "Metadata/Items/Weapons/OneHandWeapons/OneHandSwords/OneHandSword6"
+  },
+  {
+    "zh": "铜锻波刃",
+    "en": "Copper Kris",
+    "ref_id": "Metadata/Items/Weapons/OneHandWeapons/Daggers/Dagger6"
+  },
+  {
+    "zh": "多刃锤",
+    "en": "Bladed Mace",
+    "ref_id": "Metadata/Items/Weapons/OneHandWeapons/OneHandMaces/OneHandMace6"
+  },
+  {
+    "zh": "骨制弓",
+    "en": "Bone Bow",
+    "ref_id": "Metadata/Items/Weapons/TwoHandWeapons/Bows/Bow6"
+  },
+  {
+    "zh": "强化长杖",
+    "en": "Coiled Staff",
+    "ref_id": "Metadata/Items/Weapons/TwoHandWeapons/Staves/Staff5"
+  },
+  {
+    "zh": "双刃巨斧",
+    "en": "Double Axe",
+    "ref_id": "Metadata/Items/Weapons/TwoHandWeapons/TwoHandAxes/TwoHandAxe5"
+  },
+  {
+    "zh": "锯状薄刃",
+    "en": "Jagged Foil",
+    "ref_id": "Metadata/Items/Weapons/OneHandWeapons/OneHandThrustingSwords/Rapier5"
+  },
+  {
+    "zh": "术雕巨剑",
+    "en": "Etched Greatsword",
+    "ref_id": "Metadata/Items/Weapons/TwoHandWeapons/TwoHandSwords/TwoHandSword5"
+  },
+  {
+    "zh": "狼牙重锤",
+    "en": "Jagged Maul",
+    "ref_id": "Metadata/Items/Weapons/TwoHandWeapons/TwoHandMaces/TwoHandMace5"
+  },
+  {
+    "zh": "袭眼钩",
+    "en": "Blinder",
+    "ref_id": "Metadata/Items/Weapons/OneHandWeapons/Claws/Claw5"
+  },
+  {
+    "zh": "阔斧",
+    "en": "Broad Axe",
+    "ref_id": "Metadata/Items/Weapons/OneHandWeapons/OneHandAxes/OneHandAxe5"
+  },
+  {
+    "zh": "冷铁短杖",
+    "en": "Iron Sceptre",
+    "ref_id": "Metadata/Items/Weapons/OneHandWeapons/OneHandMaces/Sceptre5"
+  },
+  {
+    "zh": "征战之剑",
+    "en": "War Sword",
+    "ref_id": "Metadata/Items/Weapons/OneHandWeapons/OneHandSwords/OneHandSword5"
+  },
+  {
+    "zh": "窃者短刃",
+    "en": "Boot Knife",
+    "ref_id": "Metadata/Items/Weapons/OneHandWeapons/Daggers/Dagger5"
+  },
+  {
+    "zh": "召唤法杖",
+    "en": "Calling Wand",
+    "ref_id": "Metadata/Items/Weapons/OneHandWeapons/Wands/WandMinion1"
+  },
+  {
+    "zh": "战锤",
+    "en": "War Hammer",
+    "ref_id": "Metadata/Items/Weapons/OneHandWeapons/OneHandMaces/OneHandMace5"
+  },
+  {
+    "zh": "石英法杖",
+    "en": "Quartz Wand",
+    "ref_id": "Metadata/Items/Weapons/OneHandWeapons/Wands/Wand4"
+  },
+  {
+    "zh": "反曲弓",
+    "en": "Recurve Bow",
+    "ref_id": "Metadata/Items/Weapons/TwoHandWeapons/Bows/Bow5"
+  },
+  {
+    "zh": "巨战斧",
+    "en": "Poleaxe",
+    "ref_id": "Metadata/Items/Weapons/TwoHandWeapons/TwoHandAxes/TwoHandAxe4"
+  },
+  {
+    "zh": "长杖",
+    "en": "Long Staff",
+    "ref_id": "Metadata/Items/Weapons/TwoHandWeapons/Staves/Staff3"
+  },
+  {
+    "zh": "练武者细剑",
+    "en": "Basket Rapier",
+    "ref_id": "Metadata/Items/Weapons/OneHandWeapons/OneHandThrustingSwords/Rapier4"
+  },
+  {
+    "zh": "冷铁重锤",
+    "en": "Sledgehammer",
+    "ref_id": "Metadata/Items/Weapons/TwoHandWeapons/TwoHandMaces/TwoHandMace4"
+  },
+  {
+    "zh": "双手剑",
+    "en": "Two-Handed Sword",
+    "ref_id": "Metadata/Items/Weapons/TwoHandWeapons/TwoHandSwords/TwoHandSword4"
+  },
+  {
+    "zh": "猫爪刃",
+    "en": "Cat's Paw",
+    "ref_id": "Metadata/Items/Weapons/OneHandWeapons/Claws/Claw4"
+  },
+  {
+    "zh": "切割者",
+    "en": "Cleaver",
+    "ref_id": "Metadata/Items/Weapons/OneHandWeapons/OneHandAxes/OneHandAxe4"
+  },
+  {
+    "zh": "石英短杖",
+    "en": "Quartz Sceptre",
+    "ref_id": "Metadata/Items/Weapons/OneHandWeapons/OneHandMaces/Sceptre4"
+  },
+  {
+    "zh": "阔剑",
+    "en": "Broad Sword",
+    "ref_id": "Metadata/Items/Weapons/OneHandWeapons/OneHandSwords/OneHandSword4"
+  },
+  {
+    "zh": "锐利刺匕",
+    "en": "Stiletto",
+    "ref_id": "Metadata/Items/Weapons/OneHandWeapons/Daggers/Dagger4"
+  },
+  {
+    "zh": "石锤",
+    "en": "Stone Hammer",
+    "ref_id": "Metadata/Items/Weapons/OneHandWeapons/OneHandMaces/OneHandMace4"
+  },
+  {
+    "zh": "合成弓",
+    "en": "Composite Bow",
+    "ref_id": "Metadata/Items/Weapons/TwoHandWeapons/Bows/Bow4"
+  },
+  {
+    "zh": "铁锻长杖",
+    "en": "Iron Staff",
+    "ref_id": "Metadata/Items/Weapons/TwoHandWeapons/Staves/Staff4"
+  },
+  {
+    "zh": "柴斧",
+    "en": "Woodsplitter",
+    "ref_id": "Metadata/Items/Weapons/TwoHandWeapons/TwoHandAxes/TwoHandAxe3"
+  },
+  {
+    "zh": "钝刃细剑",
+    "en": "Battered Foil",
+    "ref_id": "Metadata/Items/Weapons/OneHandWeapons/OneHandThrustingSwords/Rapier3"
+  },
+  {
+    "zh": "千斤锤",
+    "en": "Mallet",
+    "ref_id": "Metadata/Items/Weapons/TwoHandWeapons/TwoHandMaces/TwoHandMace3"
+  },
+  {
+    "zh": "粗纹法杖",
+    "en": "Carved Wand",
+    "ref_id": "Metadata/Items/Weapons/OneHandWeapons/Wands/Wand3"
+  },
+  {
+    "zh": "重剑",
+    "en": "Bastard Sword",
+    "ref_id": "Metadata/Items/Weapons/TwoHandWeapons/TwoHandSwords/TwoHandSword3"
+  },
+  {
+    "zh": "肉体法杖",
+    "en": "Somatic Wand",
+    "ref_id": "Metadata/Items/Weapons/OneHandWeapons/Wands/WandK1"
+  },
+  {
+    "zh": "凿钉",
+    "en": "Awl",
+    "ref_id": "Metadata/Items/Weapons/OneHandWeapons/Claws/Claw3"
+  },
+  {
+    "zh": "万用手斧",
+    "en": "Boarding Axe",
+    "ref_id": "Metadata/Items/Weapons/OneHandWeapons/OneHandAxes/OneHandAxe3"
+  },
+  {
+    "zh": "刻骨刀",
+    "en": "Carving Knife",
+    "ref_id": "Metadata/Items/Weapons/OneHandWeapons/Daggers/Dagger3"
+  },
+  {
+    "zh": "钝钉木棒",
+    "en": "Spiked Club",
+    "ref_id": "Metadata/Items/Weapons/OneHandWeapons/OneHandMaces/OneHandMace3"
+  },
+  {
+    "zh": "旧军刀",
+    "en": "Sabre",
+    "ref_id": "Metadata/Items/Weapons/OneHandWeapons/OneHandSwords/OneHandSword3"
+  },
+  {
+    "zh": "铜锻短杖",
+    "en": "Bronze Sceptre",
+    "ref_id": "Metadata/Items/Weapons/OneHandWeapons/OneHandMaces/Sceptre3"
+  },
+  {
+    "zh": "长弓",
+    "en": "Long Bow",
+    "ref_id": "Metadata/Items/Weapons/TwoHandWeapons/Bows/Bow3"
+  },
+  {
+    "zh": "粗制长杖",
+    "en": "Primitive Staff",
+    "ref_id": "Metadata/Items/Weapons/TwoHandWeapons/Staves/Staff2"
+  },
+  {
+    "zh": "碎玉大斧",
+    "en": "Jade Chopper",
+    "ref_id": "Metadata/Items/Weapons/TwoHandWeapons/TwoHandAxes/TwoHandAxe2"
+  },
+  {
+    "zh": "大剑",
+    "en": "Longsword",
+    "ref_id": "Metadata/Items/Weapons/TwoHandWeapons/TwoHandSwords/TwoHandSword2"
+  },
+  {
+    "zh": "祭仪巨锤",
+    "en": "Tribal Maul",
+    "ref_id": "Metadata/Items/Weapons/TwoHandWeapons/TwoHandMaces/TwoHandMace2"
+  },
+  {
+    "zh": "鲸骨细刃",
+    "en": "Whalebone Rapier",
+    "ref_id": "Metadata/Items/Weapons/OneHandWeapons/OneHandThrustingSwords/Rapier2"
+  },
+  {
+    "zh": "鲨颚爪",
+    "en": "Sharktooth Claw",
+    "ref_id": "Metadata/Items/Weapons/OneHandWeapons/Claws/Claw2"
+  },
+  {
+    "zh": "羊角法杖",
+    "en": "Goat's Horn",
+    "ref_id": "Metadata/Items/Weapons/OneHandWeapons/Wands/Wand2"
+  },
+  {
+    "zh": "碎玉斧",
+    "en": "Jade Hatchet",
+    "ref_id": "Metadata/Items/Weapons/OneHandWeapons/OneHandAxes/OneHandAxe2"
+  },
+  {
+    "zh": "短弓",
+    "en": "Short Bow",
+    "ref_id": "Metadata/Items/Weapons/TwoHandWeapons/Bows/Bow2"
+  },
+  {
+    "zh": "剥皮刀",
+    "en": "Skinning Knife",
+    "ref_id": "Metadata/Items/Weapons/OneHandWeapons/Daggers/Dagger2"
+  },
+  {
+    "zh": "祭仪之杵",
+    "en": "Tribal Club",
+    "ref_id": "Metadata/Items/Weapons/OneHandWeapons/OneHandMaces/OneHandMace2"
+  },
+  {
+    "zh": "青铜短剑",
+    "en": "Copper Sword",
+    "ref_id": "Metadata/Items/Weapons/OneHandWeapons/OneHandSwords/OneHandSword2"
+  },
+  {
+    "zh": "乌木短杖",
+    "en": "Darkwood Sceptre",
+    "ref_id": "Metadata/Items/Weapons/OneHandWeapons/OneHandMaces/Sceptre2"
+  },
+  {
+    "zh": "朽木之干",
+    "en": "Gnarled Branch",
+    "ref_id": "Metadata/Items/Weapons/TwoHandWeapons/Staves/Staff1"
+  },
+  {
+    "zh": "石斧",
+    "en": "Stone Axe",
+    "ref_id": "Metadata/Items/Weapons/TwoHandWeapons/TwoHandAxes/TwoHandAxe1"
+  },
+  {
+    "zh": "锈刺剑",
+    "en": "Rusted Spike",
+    "ref_id": "Metadata/Items/Weapons/OneHandWeapons/OneHandThrustingSwords/Rapier1"
+  },
+  {
+    "zh": "锈斑巨剑",
+    "en": "Corroded Blade",
+    "ref_id": "Metadata/Items/Weapons/TwoHandWeapons/TwoHandSwords/TwoHandSword1"
+  },
+  {
+    "zh": "拳钉",
+    "en": "Nailed Fist",
+    "ref_id": "Metadata/Items/Weapons/OneHandWeapons/Claws/Claw1"
+  },
+  {
+    "zh": "朽木巨锤",
+    "en": "Driftwood Maul",
+    "ref_id": "Metadata/Items/Weapons/TwoHandWeapons/TwoHandMaces/TwoHandMace1"
+  },
+  {
+    "zh": "查兰之剑",
+    "en": "Charan's Sword",
+    "ref_id": "Metadata/items/Weapons/OneHandWeapons/OneHandSwords/OneHandSwordC"
+  },
+  {
+    "zh": "锈斧",
+    "en": "Rusted Hatchet",
+    "ref_id": "Metadata/Items/Weapons/OneHandWeapons/OneHandAxes/OneHandAxe1"
+  },
+  {
+    "zh": "宝钥之刃",
+    "en": "Keyblade",
+    "ref_id": "Metadata/Items/Weapons/TwoHandWeapons/TwoHandSwords/TwoHandSwordDev"
+  },
+  {
+    "zh": "粗制弓",
+    "en": "Crude Bow",
+    "ref_id": "Metadata/Items/Weapons/TwoHandWeapons/Bows/Bow1Royale"
+  },
+  {
+    "zh": "金色之刃",
+    "en": "Golden Blade",
+    "ref_id": "Metadata/items/Weapons/OneHandWeapons/OneHandSwords/OneHandSwordDemigods1"
+  },
+  {
+    "zh": "朽木短杖",
+    "en": "Driftwood Sceptre",
+    "ref_id": "Metadata/Items/Weapons/OneHandWeapons/OneHandMaces/Sceptre1"
+  },
+  {
+    "zh": "朽木法杖",
+    "en": "Driftwood Wand",
+    "ref_id": "Metadata/Items/Weapons/OneHandWeapons/Wands/Wand1"
+  },
+  {
+    "zh": "朽木之棒",
+    "en": "Driftwood Club",
+    "ref_id": "Metadata/Items/Weapons/OneHandWeapons/OneHandMaces/OneHandMace1"
+  },
+  {
+    "zh": "锈剑",
+    "en": "Rusted Sword",
+    "ref_id": "Metadata/Items/Weapons/OneHandWeapons/OneHandSwords/OneHandSword1"
+  },
+  {
+    "zh": "朽木法杖 ",
+    "en": "Driftwood Wand",
+    "ref_id": "Metadata/Items/Weapons/OneHandWeapons/Wands/Wand1Royale"
+  },
+  {
+    "zh": "玻璃利片",
+    "en": "Glass Shank",
+    "ref_id": "Metadata/Items/Weapons/OneHandWeapons/Daggers/Dagger1"
+  },
+  {
+    "zh": "鱼竿",
+    "en": "Fishing Rod",
+    "ref_id": "Metadata/Items/Weapons/TwoHandWeapon/FishingRods/FishingRod1"
+  },
+  {
+    "zh": "虚空飞刃",
+    "en": "Ethereal Blade",
+    "ref_id": "Metadata/Items/Weapons/OneHandWeapons/Daggers/EtherealBlade1"
+  },
+  {
+    "zh": "能量之刃",
+    "en": "Energy Blade",
+    "ref_id": "Metadata/Items/Weapons/OneHandWeapons/OneHandSwords/StormBladeOneHand"
+  },
+  {
+    "zh": "虚灵之弓",
+    "en": "Ethereal Bow",
+    "ref_id": "Metadata/Items/Weapons/TwoHandWeapons/Bows/EtherealBow1"
+  }
+]

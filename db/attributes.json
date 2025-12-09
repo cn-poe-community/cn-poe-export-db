@@ -1,0 +1,342 @@
+[
+  {
+    "zh": "物品类别",
+    "en": "Item Class",
+    "values": [
+      {
+        "zh": "弓",
+        "en": "Bows",
+        "ref": "ItemClasses,Id,Name",
+        "ref_id": "Bow"
+      },
+      {
+        "zh": "战杖",
+        "en": "Warstaves",
+        "ref": "ItemClasses,Id,Name",
+        "ref_id": "Warstaff"
+      },
+      {
+        "zh": "长杖",
+        "en": "Staves",
+        "ref": "ItemClasses,Id,Name",
+        "ref_id": "Staff"
+      },
+      {
+        "zh": "法杖",
+        "en": "Wands",
+        "ref": "ItemClasses,Id,Name",
+        "ref_id": "Wand"
+      },
+      {
+        "zh": "短杖",
+        "en": "Sceptres",
+        "ref": "ItemClasses,Id,Name",
+        "ref_id": "Sceptre"
+      },
+      {
+        "zh": "符文匕首",
+        "en": "Rune Daggers",
+        "ref": "ItemClasses,Id,Name",
+        "ref_id": "Rune Dagger"
+      },
+      {
+        "zh": "匕首",
+        "en": "Daggers",
+        "ref": "ItemClasses,Id,Name",
+        "ref_id": "Dagger"
+      },
+      {
+        "zh": "爪",
+        "en": "Claws",
+        "ref": "ItemClasses,Id,Name",
+        "ref_id": "Claw"
+      },
+      {
+        "zh": "单手剑",
+        "en": "One Hand Swords",
+        "ref": "ItemClasses,Id,Name",
+        "ref_id": "One Hand Sword"
+      },
+      {
+        "zh": "单手锤",
+        "en": "One Hand Maces",
+        "ref": "ItemClasses,Id,Name",
+        "ref_id": "One Hand Mace"
+      },
+      {
+        "zh": "单手斧",
+        "en": "One Hand Axes",
+        "ref": "ItemClasses,Id,Name",
+        "ref_id": "One Hand Axe"
+      },
+      {
+        "zh": "双手剑",
+        "en": "Two Hand Swords",
+        "ref": "ItemClasses,Id,Name",
+        "ref_id": "Two Hand Sword"
+      },
+      {
+        "zh": "双手锤",
+        "en": "Two Hand Maces",
+        "ref": "ItemClasses,Id,Name",
+        "ref_id": "Two Hand Mace"
+      },
+      {
+        "zh": "双手斧",
+        "en": "Two Hand Axes",
+        "ref": "ItemClasses,Id,Name",
+        "ref_id": "Two Hand Axe"
+      },
+      {
+        "zh": "鱼竿",
+        "en": "Fishing Rods",
+        "ref": "ItemClasses,Id,Name",
+        "ref_id": "FishingRod"
+      },
+      {
+        "zh": "魔力药剂",
+        "en": "Mana Flasks",
+        "ref": "ItemClasses,Id,Name",
+        "ref_id": "ManaFlask"
+      },
+      {
+        "zh": "生命药剂",
+        "en": "Life Flasks",
+        "ref": "ItemClasses,Id,Name",
+        "ref_id": "LifeFlask"
+      },
+      {
+        "zh": "功能药剂",
+        "en": "Utility Flasks",
+        "ref": "ItemClasses,Id,Name",
+        "ref_id": "UtilityFlask"
+      },
+      {
+        "zh": "复合药剂",
+        "en": "Hybrid Flasks",
+        "ref": "ItemClasses,Id,Name",
+        "ref_id": "HybridFlask"
+      },
+      {
+        "zh": "珠宝",
+        "en": "Jewels",
+        "ref": "ItemClasses,Id,Name",
+        "ref_id": "Jewel"
+      },
+      {
+        "zh": "深渊珠宝",
+        "en": "Abyss Jewels",
+        "ref": "ItemClasses,Id,Name",
+        "ref_id": "AbyssJewel"
+      },
+      {
+        "zh": "戒指",
+        "en": "Rings",
+        "ref": "ItemClasses,Id,Name",
+        "ref_id": "Ring"
+      },
+      {
+        "zh": "腰带",
+        "en": "Belts",
+        "ref": "ItemClasses,Id,Name",
+        "ref_id": "Belt"
+      },
+      {
+        "zh": "项链",
+        "en": "Amulets",
+        "ref": "ItemClasses,Id,Name",
+        "ref_id": "Amulet"
+      },
+      {
+        "zh": "箭袋",
+        "en": "Quivers",
+        "ref": "ItemClasses,Id,Name",
+        "ref_id": "Quiver"
+      },
+      {
+        "zh": "盾",
+        "en": "Shields",
+        "ref": "ItemClasses,Id,Name",
+        "ref_id": "Shield"
+      },
+      {
+        "zh": "头部",
+        "en": "Helmets",
+        "ref": "ItemClasses,Id,Name",
+        "ref_id": "Helmet"
+      },
+      {
+        "zh": "手套",
+        "en": "Gloves",
+        "ref": "ItemClasses,Id,Name",
+        "ref_id": "Gloves"
+      },
+      {
+        "zh": "鞋子",
+        "en": "Boots",
+        "ref": "ItemClasses,Id,Name",
+        "ref_id": "Boots"
+      },
+      {
+        "zh": "胸甲",
+        "en": "Body Armours",
+        "ref": "ItemClasses,Id,Name",
+        "ref_id": "Body Armour"
+      },
+      {
+        "zh": "细剑",
+        "en": "Thrusting One Hand Swords",
+        "ref": "ItemClasses,Id,Name",
+        "ref_id": "Thrusting One Hand Sword"
+      },
+      {
+        "zh": "嫁接物",
+        "en": "Grafts",
+        "ref": "ItemClasses,Id,Name",
+        "ref_id": "BrequelGraft"
+      }
+    ],
+    "ref": "ClientStrings,Id,Text",
+    "ref_id": "ItemDisplayStringClass"
+  },
+  {
+    "zh": "稀 有 度",
+    "en": "Rarity",
+    "values": [
+      {
+        "zh": "传奇",
+        "en": "Unique",
+        "ref": "ClientStrings,Id,Text",
+        "ref_id": "ItemDisplayStringUnique"
+      },
+      {
+        "zh": "稀有",
+        "en": "Rare",
+        "ref": "ClientStrings,Id,Text",
+        "ref_id": "ItemDisplayStringRare"
+      },
+      {
+        "zh": "魔法",
+        "en": "Magic",
+        "ref": "ClientStrings,Id,Text",
+        "ref_id": "ItemDisplayStringMagic"
+      },
+      {
+        "zh": "普通",
+        "en": "Normal",
+        "ref": "ClientStrings,Id,Text",
+        "ref_id": "ItemDisplayStringNormal"
+      }
+    ],
+    "ref": "ClientStrings,Id,Text",
+    "ref_id": "ItemDisplayStringRarity"
+  },
+  {
+    "zh": "物品等级",
+    "en": "Item Level",
+    "ref": "ClientStrings,Id,Text",
+    "ref_id": "ItemDisplayStringItemLevel"
+  },
+  {
+    "zh": "插槽",
+    "en": "Sockets",
+    "ref": "ClientStrings,Id,Text",
+    "ref_id": "ItemDisplayStringSockets"
+  },
+  {
+    "zh": "需求",
+    "en": "Requirements",
+    "ref": "ClientStrings,Id,Text",
+    "ref_id": "ItemPopupRequirements"
+  },
+  {
+    "zh": "塑界者物品",
+    "en": "Shaper Item",
+    "ref": "ClientStrings,Id,Text",
+    "ref_id": "ItemPopupShaperItem"
+  },
+  {
+    "zh": "裂界者物品",
+    "en": "Elder Item",
+    "ref": "ClientStrings,Id,Text",
+    "ref_id": "ItemPopupElderItem"
+  },
+  {
+    "zh": "督军物品",
+    "en": "Warlord Item",
+    "ref": "ClientStrings,Id,Text",
+    "ref_id": "ItemPopupWarlordItem"
+  },
+  {
+    "zh": "救赎者物品",
+    "en": "Redeemer Item",
+    "ref": "ClientStrings,Id,Text",
+    "ref_id": "ItemPopupRedeemerItem"
+  },
+  {
+    "zh": "圣战者物品",
+    "en": "Crusader Item",
+    "ref": "ClientStrings,Id,Text",
+    "ref_id": "ItemPopupCrusaderItem"
+  },
+  {
+    "zh": "狩猎者物品",
+    "en": "Hunter Item",
+    "ref": "ClientStrings,Id,Text",
+    "ref_id": "ItemPopupHunterItem"
+  },
+  {
+    "zh": "忆境物品",
+    "en": "Synthesised Item",
+    "ref": "ClientStrings,Id,Text",
+    "ref_id": "ItemPopupSynthesisedItem"
+  },
+  {
+    "zh": "分裂之物",
+    "en": "Fractured Item",
+    "ref": "ClientStrings,Id,Text",
+    "ref_id": "ItemPopupFracturedItem"
+  },
+  {
+    "zh": "已腐化",
+    "en": "Corrupted",
+    "ref": "ClientStrings,Id,Text",
+    "ref_id": "ItemPopupCorrupted"
+  },
+  {
+    "zh": "天灾",
+    "en": "Scourged",
+    "ref": "ClientStrings,Id,Text",
+    "ref_id": "ItemPopupHellscaped"
+  },
+  {
+    "zh": "分裂",
+    "en": "Split",
+    "ref": "ClientStrings,Id,Text",
+    "ref_id": "ItemPopupSplit"
+  },
+  {
+    "zh": "已复制",
+    "en": "Mirrored",
+    "ref": "ClientStrings,Id,Text",
+    "ref_id": "ItemPopupMirrored"
+  },
+  {
+    "zh": "未鉴定",
+    "en": "Unidentified",
+    "ref": "ClientStrings,Id,Text",
+    "ref_id": "ItemDisplayImprintUnidentified"
+  },
+  {
+    "zh": "焚界者物品",
+    "en": "Searing Exarch Item",
+    "ref": "ClientStrings,Id,Text",
+    "ref_id": "ItemPopupSearingExarchItem"
+  },
+  {
+    "zh": "灭界者物品",
+    "en": "Eater of Worlds Item",
+    "ref": "ClientStrings,Id,Text",
+    "ref_id": "ItemPopupEaterofWorldsItem"
+  }
+]

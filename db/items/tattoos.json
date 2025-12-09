@@ -1,0 +1,577 @@
+[
+  {
+    "zh": "努葛玛呼烈焰行者的文身",
+    "en": "Tattoo of the Ngamahu Firewalker",
+    "ref_id": "Metadata/Items/Currency/AncestralTattooNgamahu1"
+  },
+  {
+    "zh": "努葛玛呼萨满的文身",
+    "en": "Tattoo of the Ngamahu Shaman",
+    "ref_id": "Metadata/Items/Currency/AncestralTattooNgamahu2"
+  },
+  {
+    "zh": "努葛玛呼战士的文身",
+    "en": "Tattoo of the Ngamahu Warrior",
+    "ref_id": "Metadata/Items/Currency/AncestralTattooNgamahu3"
+  },
+  {
+    "zh": "努葛玛呼好战者的文身",
+    "en": "Tattoo of the Ngamahu Warmonger",
+    "ref_id": "Metadata/Items/Currency/AncestralTattooNgamahu4"
+  },
+  {
+    "zh": "努葛玛呼木匠的文身",
+    "en": "Tattoo of the Ngamahu Woodcarver",
+    "ref_id": "Metadata/Items/Currency/AncestralTattooNgamahu5"
+  },
+  {
+    "zh": "冈姆的忠诚文身",
+    "en": "Loyalty Tattoo of Kaom",
+    "ref_id": "Metadata/Items/Currency/AncestralTattooNgamahu6"
+  },
+  {
+    "zh": "努葛玛呼玛坎卡的文身",
+    "en": "Tattoo of the Ngamahu Makanga",
+    "ref_id": "Metadata/Items/Currency/AncestralTattooNgamahu7"
+  },
+  {
+    "zh": "奇塔弗汲血者的文身",
+    "en": "Tattoo of the Kitava Blood Drinker",
+    "ref_id": "Metadata/Items/Currency/AncestralTattooKitava1"
+  },
+  {
+    "zh": "奇塔弗义军的文身",
+    "en": "Tattoo of the Kitava Rebel",
+    "ref_id": "Metadata/Items/Currency/AncestralTattooKitava2"
+  },
+  {
+    "zh": "奇塔弗战士的文身",
+    "en": "Tattoo of the Kitava Warrior",
+    "ref_id": "Metadata/Items/Currency/AncestralTattooKitava3"
+  },
+  {
+    "zh": "奇塔弗吞心者的文身",
+    "en": "Tattoo of the Kitava Heart Eater",
+    "ref_id": "Metadata/Items/Currency/AncestralTattooKitava4"
+  },
+  {
+    "zh": "奇塔弗萨满的文身",
+    "en": "Tattoo of the Kitava Shaman",
+    "ref_id": "Metadata/Items/Currency/AncestralTattooKitava5"
+  },
+  {
+    "zh": "尤图拉的忠诚文身",
+    "en": "Loyalty Tattoo of Utula",
+    "ref_id": "Metadata/Items/Currency/AncestralTattooKitava6"
+  },
+  {
+    "zh": "奇塔弗玛坎卡的文身",
+    "en": "Tattoo of the Kitava Makanga",
+    "ref_id": "Metadata/Items/Currency/AncestralTattooKitava7"
+  },
+  {
+    "zh": "图克哈玛萨满的文身",
+    "en": "Tattoo of the Tukohama Shaman",
+    "ref_id": "Metadata/Items/Currency/AncestralTattooTukohama1"
+  },
+  {
+    "zh": "图克哈玛战士的文身",
+    "en": "Tattoo of the Tukohama Warrior",
+    "ref_id": "Metadata/Items/Currency/AncestralTattooTukohama2"
+  },
+  {
+    "zh": "图克哈玛斗士的文身",
+    "en": "Tattoo of the Tukohama Brawler",
+    "ref_id": "Metadata/Items/Currency/AncestralTattooTukohama3"
+  },
+  {
+    "zh": "图克哈玛好战者的文身",
+    "en": "Tattoo of the Tukohama Warmonger",
+    "ref_id": "Metadata/Items/Currency/AncestralTattooTukohama4"
+  },
+  {
+    "zh": "图克哈玛战争司号的文身",
+    "en": "Tattoo of the Tukohama Warcaller",
+    "ref_id": "Metadata/Items/Currency/AncestralTattooTukohama5"
+  },
+  {
+    "zh": "阿寇亚的忠诚文身",
+    "en": "Loyalty Tattoo of Akoya",
+    "ref_id": "Metadata/Items/Currency/AncestralTattooTukohama6"
+  },
+  {
+    "zh": "图克哈玛玛坎卡的文身",
+    "en": "Tattoo of the Tukohama Makanga",
+    "ref_id": "Metadata/Items/Currency/AncestralTattooTukohama7"
+  },
+  {
+    "zh": "隆戈库莱战士的文身",
+    "en": "Tattoo of the Rongokurai Warrior",
+    "ref_id": "Metadata/Items/Currency/AncestralTattooRongokurai1"
+  },
+  {
+    "zh": "隆戈库莱野蛮人的文身",
+    "en": "Tattoo of the Rongokurai Brute",
+    "ref_id": "Metadata/Items/Currency/AncestralTattooRongokurai2"
+  },
+  {
+    "zh": "隆戈库莱巨人的文身",
+    "en": "Tattoo of the Rongokurai Goliath",
+    "ref_id": "Metadata/Items/Currency/AncestralTattooRongokurai3"
+  },
+  {
+    "zh": "隆戈库莱巨龟的文身",
+    "en": "Tattoo of the Rongokurai Turtle",
+    "ref_id": "Metadata/Items/Currency/AncestralTattooRongokurai4"
+  },
+  {
+    "zh": "隆戈库莱守卫的文身",
+    "en": "Tattoo of the Rongokurai Guard",
+    "ref_id": "Metadata/Items/Currency/AncestralTattooRongokurai5"
+  },
+  {
+    "zh": "卡胡图罗阿的忠诚文身",
+    "en": "Loyalty Tattoo of Kahuturoa",
+    "ref_id": "Metadata/Items/Currency/AncestralTattooRongokurai6"
+  },
+  {
+    "zh": "隆戈库莱玛坎卡的文身",
+    "en": "Tattoo of the Rongokurai Makanga",
+    "ref_id": "Metadata/Items/Currency/AncestralTattooRongokurai7"
+  },
+  {
+    "zh": "塔萨里奥剑舞者的文身",
+    "en": "Tattoo of the Tasalio Bladedancer",
+    "ref_id": "Metadata/Items/Currency/AncestralTattooTasalio1"
+  },
+  {
+    "zh": "塔萨里奥潮汐变换者的文身",
+    "en": "Tattoo of the Tasalio Tideshifter",
+    "ref_id": "Metadata/Items/Currency/AncestralTattooTasalio2"
+  },
+  {
+    "zh": "塔萨里奥萨满的文身",
+    "en": "Tattoo of the Tasalio Shaman",
+    "ref_id": "Metadata/Items/Currency/AncestralTattooTasalio3"
+  },
+  {
+    "zh": "塔萨里奥战士的文身",
+    "en": "Tattoo of the Tasalio Warrior",
+    "ref_id": "Metadata/Items/Currency/AncestralTattooTasalio4"
+  },
+  {
+    "zh": "塔萨里奥斥候的文身",
+    "en": "Tattoo of the Tasalio Scout",
+    "ref_id": "Metadata/Items/Currency/AncestralTattooTasalio5"
+  },
+  {
+    "zh": "拉其塔的忠诚文身",
+    "en": "Loyalty Tattoo of Rakiata",
+    "ref_id": "Metadata/Items/Currency/AncestralTattooTasalio6"
+  },
+  {
+    "zh": "塔萨里奥玛坎卡的文身",
+    "en": "Tattoo of the Tasalio Makanga",
+    "ref_id": "Metadata/Items/Currency/AncestralTattooTasalio7"
+  },
+  {
+    "zh": "亚欧红古月之守卫的文身",
+    "en": "Tattoo of the Arohongui Moonwarden",
+    "ref_id": "Metadata/Items/Currency/AncestralTattooArohongui1"
+  },
+  {
+    "zh": "亚欧红古斥候的文身",
+    "en": "Tattoo of the Arohongui Scout",
+    "ref_id": "Metadata/Items/Currency/AncestralTattooArohongui2"
+  },
+  {
+    "zh": "亚欧红古战士的文身",
+    "en": "Tattoo of the Arohongui Warrior",
+    "ref_id": "Metadata/Items/Currency/AncestralTattooArohongui3"
+  },
+  {
+    "zh": "亚欧红古好战者的文身",
+    "en": "Tattoo of the Arohongui Warmonger",
+    "ref_id": "Metadata/Items/Currency/AncestralTattooArohongui4"
+  },
+  {
+    "zh": "亚欧红古萨满的文身",
+    "en": "Tattoo of the Arohongui Shaman",
+    "ref_id": "Metadata/Items/Currency/AncestralTattooArohongui5"
+  },
+  {
+    "zh": "伊基阿霍的忠诚文身",
+    "en": "Loyalty Tattoo of Ikiaho",
+    "ref_id": "Metadata/Items/Currency/AncestralTattooArohongui6"
+  },
+  {
+    "zh": "亚欧红古玛坎卡的文身",
+    "en": "Tattoo of the Arohongui Makanga",
+    "ref_id": "Metadata/Items/Currency/AncestralTattooArohongui7"
+  },
+  {
+    "zh": "雷默科斥候的文身",
+    "en": "Tattoo of the Ramako Scout",
+    "ref_id": "Metadata/Items/Currency/AncestralTattooRamako1"
+  },
+  {
+    "zh": "雷默科弓手的文身",
+    "en": "Tattoo of the Ramako Archer",
+    "ref_id": "Metadata/Items/Currency/AncestralTattooRamako2"
+  },
+  {
+    "zh": "雷默科狙击手的文身",
+    "en": "Tattoo of the Ramako Sniper",
+    "ref_id": "Metadata/Items/Currency/AncestralTattooRamako3"
+  },
+  {
+    "zh": "雷默科捷足者的文身",
+    "en": "Tattoo of the Ramako Fleetfoot",
+    "ref_id": "Metadata/Items/Currency/AncestralTattooRamako4"
+  },
+  {
+    "zh": "雷默科萨满的文身",
+    "en": "Tattoo of the Ramako Shaman",
+    "ref_id": "Metadata/Items/Currency/AncestralTattooRamako5"
+  },
+  {
+    "zh": "阿华纳的忠诚文身",
+    "en": "Loyalty Tattoo of Ahuana",
+    "ref_id": "Metadata/Items/Currency/AncestralTattooRamako6"
+  },
+  {
+    "zh": "雷默科玛坎卡的文身",
+    "en": "Tattoo of the Ramako Makanga",
+    "ref_id": "Metadata/Items/Currency/AncestralTattooRamako7"
+  },
+  {
+    "zh": "辛格拉战士的文身",
+    "en": "Tattoo of the Hinekora Warrior",
+    "ref_id": "Metadata/Items/Currency/AncestralTattooHinekora1"
+  },
+  {
+    "zh": "辛格拉死亡守卫的文身",
+    "en": "Tattoo of the Hinekora Deathwarden",
+    "ref_id": "Metadata/Items/Currency/AncestralTattooHinekora2"
+  },
+  {
+    "zh": "辛格拉萨满的文身",
+    "en": "Tattoo of the Hinekora Shaman",
+    "ref_id": "Metadata/Items/Currency/AncestralTattooHinekora3"
+  },
+  {
+    "zh": "辛格拉说书人的文身",
+    "en": "Tattoo of the Hinekora Storyteller",
+    "ref_id": "Metadata/Items/Currency/AncestralTattooHinekora4"
+  },
+  {
+    "zh": "辛格拉好战者的文身",
+    "en": "Tattoo of the Hinekora Warmonger",
+    "ref_id": "Metadata/Items/Currency/AncestralTattooHinekora5"
+  },
+  {
+    "zh": "陶哈努库的忠诚文身",
+    "en": "Loyalty Tattoo of Tawhanuku",
+    "ref_id": "Metadata/Items/Currency/AncestralTattooHinekora6"
+  },
+  {
+    "zh": "辛格拉玛坎卡的文身",
+    "en": "Tattoo of the Hinekora Makanga",
+    "ref_id": "Metadata/Items/Currency/AncestralTattooHinekora7"
+  },
+  {
+    "zh": "塔赫亚自然术士的文身",
+    "en": "Tattoo of the Tawhoa Naturalist",
+    "ref_id": "Metadata/Items/Currency/AncestralTattooTawhoa1"
+  },
+  {
+    "zh": "塔赫亚斥候的文身",
+    "en": "Tattoo of the Tawhoa Scout",
+    "ref_id": "Metadata/Items/Currency/AncestralTattooTawhoa2"
+  },
+  {
+    "zh": "塔赫亚战士的文身",
+    "en": "Tattoo of the Tawhoa Warrior",
+    "ref_id": "Metadata/Items/Currency/AncestralTattooTawhoa3"
+  },
+  {
+    "zh": "塔赫亚草药师的文身",
+    "en": "Tattoo of the Tawhoa Herbalist",
+    "ref_id": "Metadata/Items/Currency/AncestralTattooTawhoa4"
+  },
+  {
+    "zh": "塔赫亚萨满的文身",
+    "en": "Tattoo of the Tawhoa Shaman",
+    "ref_id": "Metadata/Items/Currency/AncestralTattooTawhoa5"
+  },
+  {
+    "zh": "玛塔的忠诚文身",
+    "en": "Loyalty Tattoo of Maata",
+    "ref_id": "Metadata/Items/Currency/AncestralTattooTawhoa6"
+  },
+  {
+    "zh": "塔赫亚玛坎卡的文身",
+    "en": "Tattoo of the Tawhoa Makanga",
+    "ref_id": "Metadata/Items/Currency/AncestralTattooTawhoa7"
+  },
+  {
+    "zh": "瓦拉克驭雷者的文身",
+    "en": "Tattoo of the Valako Stormrider",
+    "ref_id": "Metadata/Items/Currency/AncestralTattooValako1"
+  },
+  {
+    "zh": "瓦拉克斥候的文身",
+    "en": "Tattoo of the Valako Scout",
+    "ref_id": "Metadata/Items/Currency/AncestralTattooValako2"
+  },
+  {
+    "zh": "瓦拉克战士的文身",
+    "en": "Tattoo of the Valako Warrior",
+    "ref_id": "Metadata/Items/Currency/AncestralTattooValako3"
+  },
+  {
+    "zh": "瓦拉克盾卫的文身",
+    "en": "Tattoo of the Valako Shieldbearer",
+    "ref_id": "Metadata/Items/Currency/AncestralTattooValako4"
+  },
+  {
+    "zh": "瓦拉克萨满的文身",
+    "en": "Tattoo of the Valako Shaman",
+    "ref_id": "Metadata/Items/Currency/AncestralTattooValako5"
+  },
+  {
+    "zh": "基洛瓦的忠诚文身",
+    "en": "Loyalty Tattoo of Kiloava",
+    "ref_id": "Metadata/Items/Currency/AncestralTattooValako6"
+  },
+  {
+    "zh": "瓦拉克玛坎卡的文身",
+    "en": "Tattoo of the Valako Makanga",
+    "ref_id": "Metadata/Items/Currency/AncestralTattooValako7"
+  },
+  {
+    "zh": "鸽子的尊贵文身",
+    "en": "Honoured Tattoo of the Dove",
+    "ref_id": "Metadata/Items/Currency/AncestralTattooSpecialSmallNode1"
+  },
+  {
+    "zh": "天空的尊贵文身",
+    "en": "Honoured Tattoo of the Sky",
+    "ref_id": "Metadata/Items/Currency/AncestralTattooSpecialSmallNode2"
+  },
+  {
+    "zh": "巨蜥的尊贵文身",
+    "en": "Honoured Tattoo of the Tuatara",
+    "ref_id": "Metadata/Items/Currency/AncestralTattooSpecialSmallNode3"
+  },
+  {
+    "zh": "掠夺者的尊贵文身",
+    "en": "Honoured Tattoo of the Pillager",
+    "ref_id": "Metadata/Items/Currency/AncestralTattooSpecialSmallNode4"
+  },
+  {
+    "zh": "巨龟的尊贵文身",
+    "en": "Honoured Tattoo of the Turtle",
+    "ref_id": "Metadata/Items/Currency/AncestralTattooSpecialSmallNode5"
+  },
+  {
+    "zh": "橡树的尊贵文身",
+    "en": "Honoured Tattoo of the Oak",
+    "ref_id": "Metadata/Items/Currency/AncestralTattooSpecialSmallNode6"
+  },
+  {
+    "zh": "哈图纳格斯的尊贵文身",
+    "en": "Honoured Tattoo of the Hatungo",
+    "ref_id": "Metadata/Items/Currency/AncestralTattooSpecialSmallNode7"
+  },
+  {
+    "zh": "狼群的尊贵文身",
+    "en": "Honoured Tattoo of the Flock",
+    "ref_id": "Metadata/Items/Currency/AncestralTattooSpecialSmallNode8"
+  },
+  {
+    "zh": "督军的尊贵文身",
+    "en": "Honoured Tattoo of the Warlord",
+    "ref_id": "Metadata/Items/Currency/AncestralTattooSpecialNotableStr1"
+  },
+  {
+    "zh": "高山的尊贵文身",
+    "en": "Honoured Tattoo of the Mountain",
+    "ref_id": "Metadata/Items/Currency/AncestralTattooSpecialNotableStr2"
+  },
+  {
+    "zh": "父亲的尊贵文身",
+    "en": "Honoured Tattoo of the Pa",
+    "ref_id": "Metadata/Items/Currency/AncestralTattooSpecialNotableStr3"
+  },
+  {
+    "zh": "猎人的尊贵文身",
+    "en": "Honoured Tattoo of the Hunter",
+    "ref_id": "Metadata/Items/Currency/AncestralTattooSpecialNotableDex1"
+  },
+  {
+    "zh": "野蛮人的尊贵文身",
+    "en": "Honoured Tattoo of the Barbarian",
+    "ref_id": "Metadata/Items/Currency/AncestralTattooSpecialNotableDex2"
+  },
+  {
+    "zh": "狂战士的尊贵文身",
+    "en": "Honoured Tattoo of the Berserker",
+    "ref_id": "Metadata/Items/Currency/AncestralTattooSpecialNotableDex3"
+  },
+  {
+    "zh": "智者的尊贵文身",
+    "en": "Honoured Tattoo of the Wise",
+    "ref_id": "Metadata/Items/Currency/AncestralTattooSpecialNotableInt1"
+  },
+  {
+    "zh": "风暴的尊贵文身",
+    "en": "Honoured Tattoo of the Storm",
+    "ref_id": "Metadata/Items/Currency/AncestralTattooSpecialNotableInt2"
+  },
+  {
+    "zh": "洪水的尊贵文身",
+    "en": "Honoured Tattoo of the Flood",
+    "ref_id": "Metadata/Items/Currency/AncestralTattooSpecialNotableInt3"
+  },
+  {
+    "zh": "先祖的血脉文身",
+    "en": "Ancestral Tattoo of Bloodlines",
+    "ref_id": "Metadata/Items/Currency/AncestralTattooSpecialUnique1"
+  },
+  {
+    "zh": "玛坎卡的尊贵文身",
+    "en": "Honoured Tattoo of the Makanga",
+    "ref_id": "Metadata/Items/Currency/AncestralTattooSpecialUnique2"
+  },
+  {
+    "zh": "身躯的旅途文身",
+    "en": "Journey Tattoo of the Body",
+    "ref_id": "Metadata/Items/Currency/AncestralTattooSpecialUnique3"
+  },
+  {
+    "zh": "意志的旅途文身",
+    "en": "Journey Tattoo of the Mind",
+    "ref_id": "Metadata/Items/Currency/AncestralTattooSpecialUnique4"
+  },
+  {
+    "zh": "灵魂的旅途文身",
+    "en": "Journey Tattoo of the Soul",
+    "ref_id": "Metadata/Items/Currency/AncestralTattooSpecialUnique5"
+  },
+  {
+    "zh": "玛鲁伊的旅途文身",
+    "en": "Journey Tattoo of Makanui",
+    "ref_id": "Metadata/Items/Currency/AncestralTattooSpecialUnique6"
+  },
+  {
+    "zh": "河川之符文嵌板",
+    "en": "Runegraft of the River",
+    "ref_id": "Metadata/Items/Currency/RunegraftLowLifeRestore"
+  },
+  {
+    "zh": "堡垒之符文嵌板",
+    "en": "Runegraft of the Fortress",
+    "ref_id": "Metadata/Items/Currency/RunegraftAttributeGlobalDefences"
+  },
+  {
+    "zh": "战士之符文嵌板",
+    "en": "Runegraft of the Combatant",
+    "ref_id": "Metadata/Items/Currency/RunegraftMatchedAttackDamage"
+  },
+  {
+    "zh": "左旋之符文嵌板",
+    "en": "Runegraft of the Sinistral",
+    "ref_id": "Metadata/Items/Currency/RunegraftFlatOffhandAttackTime"
+  },
+  {
+    "zh": "束缚之符文嵌板",
+    "en": "Runegraft of the Bound",
+    "ref_id": "Metadata/Items/Currency/RunegraftBootsGloves"
+  },
+  {
+    "zh": "曲空之符文嵌板",
+    "en": "Runegraft of the Warp",
+    "ref_id": "Metadata/Items/Currency/RunegraftBuffScaling"
+  },
+  {
+    "zh": "魂芯之符文嵌板",
+    "en": "Runegraft of the Soulwick",
+    "ref_id": "Metadata/Items/Currency/RunegraftSouls"
+  },
+  {
+    "zh": "咆哮之符文嵌板",
+    "en": "Runegraft of Bellows",
+    "ref_id": "Metadata/Items/Currency/RunegraftWarcrySpeed"
+  },
+  {
+    "zh": "宝石工艺之符文嵌板",
+    "en": "Runegraft of Gemcraft",
+    "ref_id": "Metadata/Items/Currency/RunegraftSupportLevels"
+  },
+  {
+    "zh": "渎神之符文嵌板",
+    "en": "Runegraft of Blasphemy",
+    "ref_id": "Metadata/Items/Currency/RunegraftRandomCurse"
+  },
+  {
+    "zh": "叉刃之符文嵌板",
+    "en": "Runegraft of the Gauche",
+    "ref_id": "Metadata/Items/Currency/RunegraftOffhandInvert"
+  },
+  {
+    "zh": "时光之符文嵌板",
+    "en": "Runegraft of Time",
+    "ref_id": "Metadata/Items/Currency/RunegraftCooldownRefresh"
+  },
+  {
+    "zh": "背叛之符文嵌板",
+    "en": "Runegraft of Treachery",
+    "ref_id": "Metadata/Items/Currency/RunegraftTreacherousAuras"
+  },
+  {
+    "zh": "畅饮之符文嵌板",
+    "en": "Runegraft of Quaffing",
+    "ref_id": "Metadata/Items/Currency/RunegraftLifeFromManaFlasks"
+  },
+  {
+    "zh": "缝合之符文嵌板",
+    "en": "Runegraft of Restitching",
+    "ref_id": "Metadata/Items/Currency/RunegraftCritRecoup"
+  },
+  {
+    "zh": "忠诚之符文嵌板",
+    "en": "Runegraft of Loyalty",
+    "ref_id": "Metadata/Items/Currency/RunegraftAilmentRedirect"
+  },
+  {
+    "zh": "女巫印记之符文嵌板",
+    "en": "Runegraft of the Witchmark",
+    "ref_id": "Metadata/Items/Currency/RunegraftSpellLifeCost"
+  },
+  {
+    "zh": "新星印记之符文嵌板",
+    "en": "Runegraft of the Novamark",
+    "ref_id": "Metadata/Items/Currency/RunegraftNovaMarkedTarget"
+  },
+  {
+    "zh": "折射之符文嵌板",
+    "en": "Runegraft of Refraction",
+    "ref_id": "Metadata/Items/Currency/RunegraftChainMana"
+  },
+  {
+    "zh": "珠宝匠之符文嵌板",
+    "en": "Runegraft of the Jeweller",
+    "ref_id": "Metadata/Items/Currency/RunegraftDamagePerSocket"
+  },
+  {
+    "zh": "稳定之符文嵌板",
+    "en": "Runegraft of Stability",
+    "ref_id": "Metadata/Items/Currency/RunegraftUnexciting"
+  },
+  {
+    "zh": "渔夫之符文嵌板",
+    "en": "Runegraft of the Angler",
+    "ref_id": "Metadata/Items/Currency/RunegraftFishing"
+  }
+]

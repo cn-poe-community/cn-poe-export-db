@@ -1,0 +1,492 @@
+[
+  {
+    "zh": "权贵圆盾",
+    "en": "Elegant Round Shield",
+    "ref_id": "Metadata/Items/Armours/Shields/ShieldStrDex13"
+  },
+  {
+    "zh": "霸者刺盾",
+    "en": "Supreme Spiked Shield",
+    "ref_id": "Metadata/Items/Armours/Shields/ShieldDexInt13"
+  },
+  {
+    "zh": "适热型塔盾",
+    "en": "Heat-attuned Tower Shield",
+    "ref_id": "Metadata/Items/Armours/Shields/ShieldStrE3"
+  },
+  {
+    "zh": "坚毅塔盾",
+    "en": "Pinnacle Tower Shield",
+    "ref_id": "Metadata/Items/Armours/Shields/ShieldStr17"
+  },
+  {
+    "zh": "适寒型轻盾",
+    "en": "Cold-attuned Buckler",
+    "ref_id": "Metadata/Items/Armours/Shields/ShieldDexE3"
+  },
+  {
+    "zh": "适应型魔盾",
+    "en": "Transfer-attuned Spirit Shield",
+    "ref_id": "Metadata/Items/Armours/Shields/ShieldIntE3"
+  },
+  {
+    "zh": "帝国轻盾",
+    "en": "Imperial Buckler",
+    "ref_id": "Metadata/Items/Armours/Shields/ShieldDex16"
+  },
+  {
+    "zh": "巨人魔盾",
+    "en": "Titanium Spirit Shield",
+    "ref_id": "Metadata/Items/Armours/Shields/ShieldInt16"
+  },
+  {
+    "zh": "威能鸢盾",
+    "en": "Archon Kite Shield",
+    "ref_id": "Metadata/Items/Armours/Shields/ShieldStrInt13"
+  },
+  {
+    "zh": "巨型塔盾",
+    "en": "Colossal Tower Shield",
+    "ref_id": "Metadata/Items/Armours/Shields/ShieldStr16"
+  },
+  {
+    "zh": "祭者圆盾",
+    "en": "Cardinal Round Shield",
+    "ref_id": "Metadata/Items/Armours/Shields/ShieldStrDex12"
+  },
+  {
+    "zh": "圣战轻盾",
+    "en": "Crusader Buckler",
+    "ref_id": "Metadata/Items/Armours/Shields/ShieldDex15"
+  },
+  {
+    "zh": "钢镜刺盾",
+    "en": "Mirrored Spiked Shield",
+    "ref_id": "Metadata/Items/Armours/Shields/ShieldDexInt12"
+  },
+  {
+    "zh": "厚装鸢盾",
+    "en": "Mosaic Kite Shield",
+    "ref_id": "Metadata/Items/Armours/Shields/ShieldStrInt12"
+  },
+  {
+    "zh": "和谐魔盾",
+    "en": "Harmonic Spirit Shield",
+    "ref_id": "Metadata/Items/Armours/Shields/ShieldInt15"
+  },
+  {
+    "zh": "艾兹麦塔盾",
+    "en": "Ezomyte Tower Shield",
+    "ref_id": "Metadata/Items/Armours/Shields/ShieldStr15"
+  },
+  {
+    "zh": "瓦尔轻盾",
+    "en": "Vaal Buckler",
+    "ref_id": "Metadata/Items/Armours/Shields/ShieldDex14"
+  },
+  {
+    "zh": "瓦尔魔盾",
+    "en": "Vaal Spirit Shield",
+    "ref_id": "Metadata/Items/Armours/Shields/ShieldInt14"
+  },
+  {
+    "zh": "棘刺圆盾",
+    "en": "Spiny Round Shield",
+    "ref_id": "Metadata/Items/Armours/Shields/ShieldStrDex11"
+  },
+  {
+    "zh": "斗士鸢盾",
+    "en": "Champion Kite Shield",
+    "ref_id": "Metadata/Items/Armours/Shields/ShieldStrInt11"
+  },
+  {
+    "zh": "艾兹麦刺盾",
+    "en": "Ezomyte Spiked Shield",
+    "ref_id": "Metadata/Items/Armours/Shields/ShieldDexInt11"
+  },
+  {
+    "zh": "乌木塔盾",
+    "en": "Ebony Tower Shield",
+    "ref_id": "Metadata/Items/Armours/Shields/ShieldStr14"
+  },
+  {
+    "zh": "漆彩轻盾",
+    "en": "Lacquered Buckler",
+    "ref_id": "Metadata/Items/Armours/Shields/ShieldDex13"
+  },
+  {
+    "zh": "圣记鸢盾",
+    "en": "Branded Kite Shield",
+    "ref_id": "Metadata/Items/Armours/Shields/ShieldStrInt10"
+  },
+  {
+    "zh": "石化魔盾",
+    "en": "Fossilised Spirit Shield",
+    "ref_id": "Metadata/Items/Armours/Shields/ShieldInt13"
+  },
+  {
+    "zh": "桤木刺盾",
+    "en": "Alder Spiked Shield",
+    "ref_id": "Metadata/Items/Armours/Shields/ShieldDexInt10"
+  },
+  {
+    "zh": "粗革塔盾",
+    "en": "Shagreen Tower Shield",
+    "ref_id": "Metadata/Items/Armours/Shields/ShieldStr13"
+  },
+  {
+    "zh": "柚木圆盾",
+    "en": "Teak Round Shield",
+    "ref_id": "Metadata/Items/Armours/Shields/ShieldStrDex10"
+  },
+  {
+    "zh": "钢木轻盾",
+    "en": "Ironwood Buckler",
+    "ref_id": "Metadata/Items/Armours/Shields/ShieldDex12"
+  },
+  {
+    "zh": "软橡魔盾",
+    "en": "Lacewood Spirit Shield",
+    "ref_id": "Metadata/Items/Armours/Shields/ShieldInt12"
+  },
+  {
+    "zh": "荣冠塔盾",
+    "en": "Crested Tower Shield",
+    "ref_id": "Metadata/Items/Armours/Shields/ShieldStr12"
+  },
+  {
+    "zh": "天使鸢盾",
+    "en": "Angelic Kite Shield",
+    "ref_id": "Metadata/Items/Armours/Shields/ShieldStrInt9"
+  },
+  {
+    "zh": "古代圆盾",
+    "en": "Baroque Round Shield",
+    "ref_id": "Metadata/Items/Armours/Shields/ShieldStrDex9"
+  },
+  {
+    "zh": "金阳轻盾",
+    "en": "Golden Buckler",
+    "ref_id": "Metadata/Items/Armours/Shields/ShieldDex11"
+  },
+  {
+    "zh": "王权刺盾",
+    "en": "Sovereign Spiked Shield",
+    "ref_id": "Metadata/Items/Armours/Shields/ShieldDexInt9"
+  },
+  {
+    "zh": "暗金魔盾",
+    "en": "Thorium Spirit Shield",
+    "ref_id": "Metadata/Items/Armours/Shields/ShieldInt11"
+  },
+  {
+    "zh": "征战塔盾",
+    "en": "Girded Tower Shield",
+    "ref_id": "Metadata/Items/Armours/Shields/ShieldStr11"
+  },
+  {
+    "zh": "归纳魔盾",
+    "en": "Subsuming Spirit Shield",
+    "ref_id": "Metadata/Items/Armours/Shields/ShieldIntE2"
+  },
+  {
+    "zh": "熔岩塔盾",
+    "en": "Magmatic Tower Shield",
+    "ref_id": "Metadata/Items/Armours/Shields/ShieldStrE2"
+  },
+  {
+    "zh": "斗者轻盾",
+    "en": "Battle Buckler",
+    "ref_id": "Metadata/Items/Armours/Shields/ShieldDex10"
+  },
+  {
+    "zh": "合板鸢盾",
+    "en": "Laminated Kite Shield",
+    "ref_id": "Metadata/Items/Armours/Shields/ShieldStrInt8"
+  },
+  {
+    "zh": "极地轻盾",
+    "en": "Polar Buckler",
+    "ref_id": "Metadata/Items/Armours/Shields/ShieldDexE2"
+  },
+  {
+    "zh": "绯红圆盾",
+    "en": "Crimson Round Shield",
+    "ref_id": "Metadata/Items/Armours/Shields/ShieldStrDex8"
+  },
+  {
+    "zh": "魂相魔盾",
+    "en": "Chiming Spirit Shield",
+    "ref_id": "Metadata/Items/Armours/Shields/ShieldInt10"
+  },
+  {
+    "zh": "光辉刺盾",
+    "en": "Polished Spiked Shield",
+    "ref_id": "Metadata/Items/Armours/Shields/ShieldDexInt8"
+  },
+  {
+    "zh": "青铜塔盾",
+    "en": "Bronze Tower Shield",
+    "ref_id": "Metadata/Items/Armours/Shields/ShieldStr10"
+  },
+  {
+    "zh": "波纹轻盾",
+    "en": "Corrugated Buckler",
+    "ref_id": "Metadata/Items/Armours/Shields/ShieldDex9"
+  },
+  {
+    "zh": "冷钢鸢盾",
+    "en": "Steel Kite Shield",
+    "ref_id": "Metadata/Items/Armours/Shields/ShieldStrInt7"
+  },
+  {
+    "zh": "远古魔盾",
+    "en": "Ancient Spirit Shield",
+    "ref_id": "Metadata/Items/Armours/Shields/ShieldInt9"
+  },
+  {
+    "zh": "复合刺盾",
+    "en": "Compound Spiked Shield",
+    "ref_id": "Metadata/Items/Armours/Shields/ShieldDexInt7"
+  },
+  {
+    "zh": "尖刺圆盾",
+    "en": "Spiked Round Shield",
+    "ref_id": "Metadata/Items/Armours/Shields/ShieldStrDex7"
+  },
+  {
+    "zh": "桃木塔盾",
+    "en": "Mahogany Tower Shield",
+    "ref_id": "Metadata/Items/Armours/Shields/ShieldStr9"
+  },
+  {
+    "zh": "釉彩轻盾",
+    "en": "Enameled Buckler",
+    "ref_id": "Metadata/Items/Armours/Shields/ShieldDex8"
+  },
+  {
+    "zh": "象牙魔盾",
+    "en": "Ivory Spirit Shield",
+    "ref_id": "Metadata/Items/Armours/Shields/ShieldInt8"
+  },
+  {
+    "zh": "刻文鸢盾",
+    "en": "Etched Kite Shield",
+    "ref_id": "Metadata/Items/Armours/Shields/ShieldStrInt6"
+  },
+  {
+    "zh": "红木刺盾",
+    "en": "Redwood Spiked Shield",
+    "ref_id": "Metadata/Items/Armours/Shields/ShieldDexInt6"
+  },
+  {
+    "zh": "枫木圆盾",
+    "en": "Maple Round Shield",
+    "ref_id": "Metadata/Items/Armours/Shields/ShieldStrDex6"
+  },
+  {
+    "zh": "鹿皮塔盾",
+    "en": "Buckskin Tower Shield",
+    "ref_id": "Metadata/Items/Armours/Shields/ShieldStr8"
+  },
+  {
+    "zh": "橡木轻盾",
+    "en": "Oak Buckler",
+    "ref_id": "Metadata/Items/Armours/Shields/ShieldDex7"
+  },
+  {
+    "zh": "桃木魔盾",
+    "en": "Walnut Spirit Shield",
+    "ref_id": "Metadata/Items/Armours/Shields/ShieldInt7"
+  },
+  {
+    "zh": "彩绘塔盾",
+    "en": "Painted Tower Shield",
+    "ref_id": "Metadata/Items/Armours/Shields/ShieldStr7"
+  },
+  {
+    "zh": "金面轻盾",
+    "en": "Gilded Buckler",
+    "ref_id": "Metadata/Items/Armours/Shields/ShieldDex6"
+  },
+  {
+    "zh": "祭仪鸢盾",
+    "en": "Ceremonial Kite Shield",
+    "ref_id": "Metadata/Items/Armours/Shields/ShieldStrInt5"
+  },
+  {
+    "zh": "铜锻魔盾",
+    "en": "Brass Spirit Shield",
+    "ref_id": "Metadata/Items/Armours/Shields/ShieldInt6"
+  },
+  {
+    "zh": "光辉圆盾",
+    "en": "Splendid Round Shield",
+    "ref_id": "Metadata/Items/Armours/Shields/ShieldStrDex5"
+  },
+  {
+    "zh": "华丽刺盾",
+    "en": "Ornate Spiked Shield",
+    "ref_id": "Metadata/Items/Armours/Shields/ShieldDexInt5"
+  },
+  {
+    "zh": "强化塔盾",
+    "en": "Reinforced Tower Shield",
+    "ref_id": "Metadata/Items/Armours/Shields/ShieldStr6"
+  },
+  {
+    "zh": "力竭魔盾",
+    "en": "Exhausting Spirit Shield",
+    "ref_id": "Metadata/Items/Armours/Shields/ShieldIntE1"
+  },
+  {
+    "zh": "排热型塔盾",
+    "en": "Exothermic Tower Shield",
+    "ref_id": "Metadata/Items/Armours/Shields/ShieldStrE1"
+  },
+  {
+    "zh": "吸热型轻盾",
+    "en": "Endothermic Buckler",
+    "ref_id": "Metadata/Items/Armours/Shields/ShieldDexE1"
+  },
+  {
+    "zh": "战争轻盾",
+    "en": "War Buckler",
+    "ref_id": "Metadata/Items/Armours/Shields/ShieldDex5"
+  },
+  {
+    "zh": "灵相魔盾",
+    "en": "Jingling Spirit Shield",
+    "ref_id": "Metadata/Items/Armours/Shields/ShieldInt5"
+  },
+  {
+    "zh": "层板鸢盾",
+    "en": "Layered Kite Shield",
+    "ref_id": "Metadata/Items/Armours/Shields/ShieldStrInt4"
+  },
+  {
+    "zh": "炽红圆盾",
+    "en": "Scarlet Round Shield",
+    "ref_id": "Metadata/Items/Armours/Shields/ShieldStrDex4"
+  },
+  {
+    "zh": "冷芒刺盾",
+    "en": "Burnished Spiked Shield",
+    "ref_id": "Metadata/Items/Armours/Shields/ShieldDexInt4"
+  },
+  {
+    "zh": "铜锻塔盾",
+    "en": "Copper Tower Shield",
+    "ref_id": "Metadata/Items/Armours/Shields/ShieldStr5"
+  },
+  {
+    "zh": "铆钉轻盾",
+    "en": "Hammered Buckler",
+    "ref_id": "Metadata/Items/Armours/Shields/ShieldDex4"
+  },
+  {
+    "zh": "环形魔盾",
+    "en": "Tarnished Spirit Shield",
+    "ref_id": "Metadata/Items/Armours/Shields/ShieldInt4"
+  },
+  {
+    "zh": "铆钉圆盾",
+    "en": "Studded Round Shield",
+    "ref_id": "Metadata/Items/Armours/Shields/ShieldStrDex3"
+  },
+  {
+    "zh": "合金刺盾",
+    "en": "Alloyed Spiked Shield",
+    "ref_id": "Metadata/Items/Armours/Shields/ShieldDexInt3"
+  },
+  {
+    "zh": "强化鸢盾",
+    "en": "Reinforced Kite Shield",
+    "ref_id": "Metadata/Items/Armours/Shields/ShieldStrInt3"
+  },
+  {
+    "zh": "松木塔盾",
+    "en": "Cedar Tower Shield",
+    "ref_id": "Metadata/Items/Armours/Shields/ShieldStr4"
+  },
+  {
+    "zh": "彩绘轻盾",
+    "en": "Painted Buckler",
+    "ref_id": "Metadata/Items/Armours/Shields/ShieldDex3"
+  },
+  {
+    "zh": "黄金圣炎",
+    "en": "Golden Flame",
+    "ref_id": "Metadata/Items/Armours/Shields/ShieldDemigods"
+  },
+  {
+    "zh": "骨制魔盾",
+    "en": "Bone Spirit Shield",
+    "ref_id": "Metadata/Items/Armours/Shields/ShieldInt3"
+  },
+  {
+    "zh": "椴木鸢盾",
+    "en": "Linden Kite Shield",
+    "ref_id": "Metadata/Items/Armours/Shields/ShieldStrInt2"
+  },
+  {
+    "zh": "朽木刺盾",
+    "en": "Driftwood Spiked Shield",
+    "ref_id": "Metadata/Items/Armours/Shields/ShieldDexInt2"
+  },
+  {
+    "zh": "杉木圆盾",
+    "en": "Fir Round Shield",
+    "ref_id": "Metadata/Items/Armours/Shields/ShieldStrDex2"
+  },
+  {
+    "zh": "生皮塔盾",
+    "en": "Rawhide Tower Shield",
+    "ref_id": "Metadata/Items/Armours/Shields/ShieldStr3"
+  },
+  {
+    "zh": "紫衫魔盾",
+    "en": "Yew Spirit Shield",
+    "ref_id": "Metadata/Items/Armours/Shields/ShieldInt2"
+  },
+  {
+    "zh": "松木轻盾",
+    "en": "Pine Buckler",
+    "ref_id": "Metadata/Items/Armours/Shields/ShieldDex2"
+  },
+  {
+    "zh": "朽木鸢盾",
+    "en": "Plank Kite Shield",
+    "ref_id": "Metadata/Items/Armours/Shields/ShieldStrInt1"
+  },
+  {
+    "zh": "尖木刺盾",
+    "en": "Spiked Bundle",
+    "ref_id": "Metadata/Items/Armours/Shields/ShieldDexInt1"
+  },
+  {
+    "zh": "朽木圆盾",
+    "en": "Rotted Round Shield",
+    "ref_id": "Metadata/Items/Armours/Shields/ShieldStrDex1"
+  },
+  {
+    "zh": "斑驳塔盾",
+    "en": "Corroded Tower Shield",
+    "ref_id": "Metadata/Items/Armours/Shields/ShieldStr2"
+  },
+  {
+    "zh": "残枝魔盾",
+    "en": "Twig Spirit Shield",
+    "ref_id": "Metadata/Items/Armours/Shields/ShieldInt1"
+  },
+  {
+    "zh": "羊皮轻盾",
+    "en": "Goathide Buckler",
+    "ref_id": "Metadata/Items/Armours/Shields/ShieldDex1"
+  },
+  {
+    "zh": "朽木塔盾",
+    "en": "Splintered Tower Shield",
+    "ref_id": "Metadata/Items/Armours/Shields/ShieldStr1"
+  }
+]

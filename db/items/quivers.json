@@ -1,0 +1,97 @@
+[
+  {
+    "zh": "火炮箭袋",
+    "en": "Artillery Quiver",
+    "ref_id": "Metadata/Items/Quivers/QuiverAtlas1"
+  },
+  {
+    "zh": "原矢箭袋",
+    "en": "Primal Arrow Quiver",
+    "ref_id": "Metadata/Items/Quivers/QuiverNew13"
+  },
+  {
+    "zh": "重矢箭袋",
+    "en": "Heavy Arrow Quiver",
+    "ref_id": "Metadata/Items/Quivers/QuiverNew12"
+  },
+  {
+    "zh": "恶矢箭袋",
+    "en": "Vile Arrow Quiver",
+    "ref_id": "Metadata/Items/Quivers/QuiverNew11"
+  },
+  {
+    "zh": "宽矢箭袋",
+    "en": "Broadhead Arrow Quiver",
+    "ref_id": "Metadata/Items/Quivers/QuiverNew10"
+  },
+  {
+    "zh": "华美箭袋",
+    "en": "Ornate Quiver",
+    "ref_id": "Metadata/Items/Quivers/Quiver14"
+  },
+  {
+    "zh": "燃矢箭袋",
+    "en": "Blazing Arrow Quiver",
+    "ref_id": "Metadata/Items/Quivers/QuiverNew9"
+  },
+  {
+    "zh": "刺锋箭袋",
+    "en": "Spike-Point Arrow Quiver",
+    "ref_id": "Metadata/Items/Quivers/Quiver13"
+  },
+  {
+    "zh": "穿射箭袋",
+    "en": "Penetrating Arrow Quiver",
+    "ref_id": "Metadata/Items/Quivers/Quiver12"
+  },
+  {
+    "zh": "双锋箭袋",
+    "en": "Two-Point Arrow Quiver",
+    "ref_id": "Metadata/Items/Quivers/QuiverNew7"
+  },
+  {
+    "zh": "钝矢箭袋",
+    "en": "Blunt Arrow Quiver",
+    "ref_id": "Metadata/Items/Quivers/QuiverNew6"
+  },
+  {
+    "zh": "火灵箭袋",
+    "en": "Fire Arrow Quiver",
+    "ref_id": "Metadata/Items/Quivers/Quiver10"
+  },
+  {
+    "zh": "飞羽箭袋",
+    "en": "Feathered Arrow Quiver",
+    "ref_id": "Metadata/Items/Quivers/QuiverNew4"
+  },
+  {
+    "zh": "轻巧箭袋",
+    "en": "Light Quiver",
+    "ref_id": "Metadata/Items/Quivers/Quiver5"
+  },
+  {
+    "zh": "鲨齿箭袋",
+    "en": "Sharktooth Arrow Quiver",
+    "ref_id": "Metadata/Items/Quivers/QuiverNew3"
+  },
+  {
+    "zh": "锯齿箭袋",
+    "en": "Serrated Arrow Quiver",
+    "ref_id": "Metadata/Items/Quivers/Quiver6"
+  },
+  {
+    "zh": "电光箭袋",
+    "en": "Conductive Quiver",
+    "ref_id": "Metadata/Items/Quivers/Quiver3"
+  },
+  {
+    "zh": "冰晶箭袋",
+    "en": "Rugged Quiver",
+    "ref_id": "Metadata/Items/Quivers/Quiver2"
+  },
+  {
+    "zh": "火焰箭袋",
+    "en": "Cured Quiver",
+    "ref_id": "Metadata/Items/Quivers/Quiver1"
+  }
+]

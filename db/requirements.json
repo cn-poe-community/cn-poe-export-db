@@ -1,0 +1,76 @@
+[
+  {
+    "en": "Level",
+    "zh": "等级",
+    "ref": "ClientStrings,Id,Text",
+    "ref_id": "Level"
+  },
+  {
+    "en": "Str",
+    "zh": "力量",
+    "ref": "ClientStrings,Id,Text",
+    "ref_id": "StrengthShort"
+  },
+  {
+    "en": "Dex",
+    "zh": "敏捷",
+    "ref": "ClientStrings,Id,Text",
+    "ref_id": "DexterityShort"
+  },
+  {
+    "en": "Int",
+    "zh": "智慧",
+    "ref": "ClientStrings,Id,Text",
+    "ref_id": "IntelligenceShort"
+  },
+  {
+    "en": "Class:",
+    "zh": "职业：",
+    "values": [
+      {
+        "en": "Ranger",
+        "zh": "游侠",
+        "ref": "Characters,Id,Name",
+        "ref_id": "Metadata/Characters/Dex/Dex"
+      },
+      {
+        "en": "Shadow",
+        "zh": "暗影",
+        "ref": "Characters,Id,Name",
+        "ref_id": "Metadata/Characters/DexInt/DexInt"
+      },
+      {
+        "en": "Marauder",
+        "zh": "野蛮人",
+        "ref": "Characters,Id,Name",
+        "ref_id": "Metadata/Characters/Str/Str"
+      },
+      {
+        "en": "Templar",
+        "zh": "圣堂武僧",
+        "ref": "Characters,Id,Name",
+        "ref_id": "Metadata/Characters/StrInt/StrInt"
+      },
+      {
+        "en": "Duelist",
+        "zh": "决斗者",
+        "ref": "Characters,Id,Name",
+        "ref_id": "Metadata/Characters/StrDex/StrDex"
+      },
+      {
+        "en": "Scion",
+        "zh": "贵族",
+        "ref": "Characters,Id,Name",
+        "ref_id": "Metadata/Characters/StrDexInt/StrDexInt"
+      },
+      {
+        "en": "Witch",
+        "zh": "女巫",
+        "ref": "Characters,Id,Name",
+        "ref_id": "Metadata/Characters/Int/Int"
+      }
+    ],
+    "ref": "ClientStrings,Id,Text",
+    "ref_id": "ItemRequiredClass"
+  }
+]

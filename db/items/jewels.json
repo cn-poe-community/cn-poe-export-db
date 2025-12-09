@@ -1,0 +1,62 @@
+[
+  {
+    "zh": "赤红珠宝",
+    "en": "Crimson Jewel",
+    "ref_id": "Metadata/Items/Jewels/JewelStr"
+  },
+  {
+    "zh": "翠绿珠宝",
+    "en": "Viridian Jewel",
+    "ref_id": "Metadata/Items/Jewels/JewelDex"
+  },
+  {
+    "zh": "钴蓝珠宝",
+    "en": "Cobalt Jewel",
+    "ref_id": "Metadata/Items/Jewels/JewelInt"
+  },
+  {
+    "zh": "永恒珠宝",
+    "en": "Timeless Jewel",
+    "ref_id": "Metadata/Items/Jewels/JewelTimeless"
+  },
+  {
+    "zh": "三相珠宝",
+    "en": "Prismatic Jewel",
+    "ref_id": "Metadata/Items/Jewels/JewelPrismatic"
+  },
+  {
+    "zh": "大型星团珠宝",
+    "en": "Large Cluster Jewel",
+    "ref_id": "Metadata/Items/Jewels/JewelPassiveTreeExpansionLarge"
+  },
+  {
+    "zh": "中型星团珠宝",
+    "en": "Medium Cluster Jewel",
+    "ref_id": "Metadata/Items/Jewels/JewelPassiveTreeExpansionMedium"
+  },
+  {
+    "zh": "小型星团珠宝",
+    "en": "Small Cluster Jewel",
+    "ref_id": "Metadata/Items/Jewels/JewelPassiveTreeExpansionSmall"
+  },
+  {
+    "zh": "凶残之凝珠宝",
+    "en": "Murderous Eye Jewel",
+    "ref_id": "Metadata/Items/Jewels/JewelAbyssMelee"
+  },
+  {
+    "zh": "锐利之凝珠宝",
+    "en": "Searching Eye Jewel",
+    "ref_id": "Metadata/Items/Jewels/JewelAbyssRanged"
+  },
+  {
+    "zh": "安睡之凝珠宝",
+    "en": "Hypnotic Eye Jewel",
+    "ref_id": "Metadata/Items/Jewels/JewelAbyssCaster"
+  },
+  {
+    "zh": "苍白之凝珠宝",
+    "en": "Ghastly Eye Jewel",
+    "ref_id": "Metadata/Items/Jewels/JewelAbyssSummoner"
+  }
+]

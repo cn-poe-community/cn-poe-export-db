@@ -1,0 +1,14 @@
+[
+  {
+    "zh": "(宝石)",
+    "en": "(gem)",
+    "ref": "ClientStrings,Id,Text",
+    "ref_id": "ItemDisplayRequirementFromGem"
+  },
+  {
+    "zh": "(珠宝)",
+    "en": "(jewel)",
+    "ref": "ClientStrings,Id,Text",
+    "ref_id": "ItemDisplayRequirementFromJewel"
+  }
+]

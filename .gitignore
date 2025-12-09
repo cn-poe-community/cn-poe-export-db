@@ -1,6 +1,0 @@
-dist/
-docs/
-node_modules/
-src/assets.ts
-scripts/config.json
-scripts/item/poedb_caches.json

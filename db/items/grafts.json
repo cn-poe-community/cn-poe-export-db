@@ -1,0 +1,87 @@
+[
+  {
+    "zh": "刺击的乌尔尼多之嫁接",
+    "en": "Spiking Uulgraft",
+    "ref_id": "Metadata/Items/Chayula/UulNetolGraft2"
+  },
+  {
+    "zh": "穿刺的乌尔尼多之嫁接",
+    "en": "Impaling Uulgraft",
+    "ref_id": "Metadata/Items/Chayula/UulNetolGraft3"
+  },
+  {
+    "zh": "喷发的索伏之嫁接",
+    "en": "Erupting Xophgraft",
+    "ref_id": "Metadata/Items/Chayula/XophGraft2"
+  },
+  {
+    "zh": "司炉的索伏之嫁接",
+    "en": "Stoking Xophgraft",
+    "ref_id": "Metadata/Items/Chayula/XophGraft4"
+  },
+  {
+    "zh": "汲取的艾许之嫁接",
+    "en": "Draining Eshgraft",
+    "ref_id": "Metadata/Items/Chayula/EshGraft3"
+  },
+  {
+    "zh": "震击的艾许之嫁接",
+    "en": "Jolting Eshgraft",
+    "ref_id": "Metadata/Items/Chayula/EshGraft4"
+  },
+  {
+    "zh": "召唤的托沃之嫁接",
+    "en": "Summoning Tulgraft",
+    "ref_id": "Metadata/Items/Chayula/TulGraft3"
+  },
+  {
+    "zh": "护盾的托沃之嫁接",
+    "en": "Aegis Tulgraft",
+    "ref_id": "Metadata/Items/Chayula/TulGraft4"
+  },
+  {
+    "zh": "血肉嫁接",
+    "en": "Fleshgraft",
+    "ref_id": "Metadata/Items/Chayula/TutorialGraft"
+  },
+  {
+    "zh": "冲撞的乌尔尼多之嫁接",
+    "en": "Battering Uulgraft",
+    "ref_id": "Metadata/Items/Chayula/UulNetolGraft1"
+  },
+  {
+    "zh": "硬化的乌尔尼多之嫁接",
+    "en": "Hardening Uulgraft",
+    "ref_id": "Metadata/Items/Chayula/UulNetolGraft4"
+  },
+  {
+    "zh": "熔火的索伏之嫁接",
+    "en": "Molten Xophgraft",
+    "ref_id": "Metadata/Items/Chayula/XophGraft1"
+  },
+  {
+    "zh": "唤火者的索伏之嫁接",
+    "en": "Flamecaller Xophgraft",
+    "ref_id": "Metadata/Items/Chayula/XophGraft3"
+  },
+  {
+    "zh": "风暴的艾许之嫁接",
+    "en": "Storming Eshgraft",
+    "ref_id": "Metadata/Items/Chayula/EshGraft1"
+  },
+  {
+    "zh": "复制的艾许之嫁接",
+    "en": "Replicating Eshgraft",
+    "ref_id": "Metadata/Items/Chayula/EshGraft2"
+  },
+  {
+    "zh": "狂啸的托沃之嫁接",
+    "en": "Squalling Tulgraft",
+    "ref_id": "Metadata/Items/Chayula/TulGraft1"
+  },
+  {
+    "zh": "急冻的托沃之嫁接",
+    "en": "Freezing Tulgraft",
+    "ref_id": "Metadata/Items/Chayula/TulGraft2"
+  }
+]

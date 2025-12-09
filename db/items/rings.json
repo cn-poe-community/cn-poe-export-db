@@ -1,0 +1,212 @@
+[
+  {
+    "zh": "天蓝之戒",
+    "en": "Cerulean Ring",
+    "ref_id": "Metadata/Items/Rings/RingAtlas4"
+  },
+  {
+    "zh": "朱砂之戒",
+    "en": "Vermillion Ring",
+    "ref_id": "Metadata/Items/Rings/RingAtlas3"
+  },
+  {
+    "zh": "青石戒指",
+    "en": "Iolite Ring",
+    "ref_id": "Metadata/Items/Rings/RingAtlas5"
+  },
+  {
+    "zh": "蛋白石戒指",
+    "en": "Opal Ring",
+    "ref_id": "Metadata/Items/Rings/RingAtlas2"
+  },
+  {
+    "zh": "合金戒指",
+    "en": "Steel Ring",
+    "ref_id": "Metadata/Items/Rings/RingAtlas1"
+  },
+  {
+    "zh": "螺纹戒指",
+    "en": "Helical Ring",
+    "ref_id": "Metadata/Items/Rings/RingE6"
+  },
+  {
+    "zh": "集成戒指",
+    "en": "Manifold Ring",
+    "ref_id": "Metadata/Items/Rings/RingE4"
+  },
+  {
+    "zh": "渐变戒指",
+    "en": "Ratcheting Ring",
+    "ref_id": "Metadata/Items/Rings/RingE5"
+  },
+  {
+    "zh": "复合戒指",
+    "en": "Composite Ring",
+    "ref_id": "Metadata/Items/Rings/RingE3"
+  },
+  {
+    "zh": "地线戒指",
+    "en": "Geodesic Ring",
+    "ref_id": "Metadata/Items/Rings/RingE2"
+  },
+  {
+    "zh": "齿轮戒指",
+    "en": "Cogwork Ring",
+    "ref_id": "Metadata/Items/Rings/RingE1"
+  },
+  {
+    "zh": "无名戒指",
+    "en": "Nameless Ring",
+    "ref_id": "Metadata/Items/Rings/RingR1"
+  },
+  {
+    "zh": "潜能之戒",
+    "en": "Unset Ring",
+    "ref_id": "Metadata/Items/Rings/Ring15"
+  },
+  {
+    "zh": "炽能戒指",
+    "en": "Enthalpic Ring",
+    "ref_id": "Metadata/Items/Rings/RingB2"
+  },
+  {
+    "zh": "冰凝戒指",
+    "en": "Cryonic Ring",
+    "ref_id": "Metadata/Items/Rings/RingB1"
+  },
+  {
+    "zh": "突触戒指",
+    "en": "Synaptic Ring",
+    "ref_id": "Metadata/Items/Rings/RingB3"
+  },
+  {
+    "zh": "有机戒指",
+    "en": "Organic Ring",
+    "ref_id": "Metadata/Items/Rings/RingB4"
+  },
+  {
+    "zh": "逃亡戒指",
+    "en": "Fugitive Ring",
+    "ref_id": "Metadata/Items/Rings/RingB5"
+  },
+  {
+    "zh": "无形戒指",
+    "en": "Formless Ring",
+    "ref_id": "Metadata/Items/Rings/RingB6"
+  },
+  {
+    "zh": "紫晶戒指",
+    "en": "Amethyst Ring",
+    "ref_id": "Metadata/Items/Rings/Ring10"
+  },
+  {
+    "zh": "骨环",
+    "en": "Bone Ring",
+    "ref_id": "Metadata/Items/Rings/Ring16"
+  },
+  {
+    "zh": "三相戒指",
+    "en": "Prismatic Ring",
+    "ref_id": "Metadata/Items/Rings/Ring8"
+  },
+  {
+    "zh": "宝钻戒指",
+    "en": "Diamond Ring",
+    "ref_id": "Metadata/Items/Rings/Ring11"
+  },
+  {
+    "zh": "月光石戒指",
+    "en": "Moonstone Ring",
+    "ref_id": "Metadata/Items/Rings/Ring9"
+  },
+  {
+    "zh": "戒指：暮色",
+    "en": "Dusk Ring",
+    "ref_id": "Metadata/Items/Rings/RingK1"
+  },
+  {
+    "zh": "戒指：半影",
+    "en": "Penumbra Ring",
+    "ref_id": "Metadata/Items/Rings/RingK2"
+  },
+  {
+    "zh": "戒指：薄暮",
+    "en": "Gloam Ring",
+    "ref_id": "Metadata/Items/Rings/RingK3"
+  },
+  {
+    "zh": "戒指：暗黑",
+    "en": "Tenebrous Ring",
+    "ref_id": "Metadata/Items/Rings/RingK4"
+  },
+  {
+    "zh": "戒指：暗影",
+    "en": "Shadowed Ring",
+    "ref_id": "Metadata/Items/Rings/RingK5a"
+  },
+  {
+    "zh": "双玉戒指",
+    "en": "Two-Stone Ring",
+    "ref_id": "Metadata/Items/Rings/Ring13"
+  },
+  {
+    "zh": "金光戒指",
+    "en": "Gold Ring",
+    "ref_id": "Metadata/Items/Rings/Ring4"
+  },
+  {
+    "zh": "红玉戒指",
+    "en": "Ruby Ring",
+    "ref_id": "Metadata/Items/Rings/Ring7"
+  },
+  {
+    "zh": "杰特戒指",
+    "en": "Jet Ring",
+    "ref_id": "Metadata/Items/Rings/RingVictor1"
+  },
+  {
+    "zh": "金环",
+    "en": "Golden Hoop",
+    "ref_id": "Metadata/Items/Rings/RingDemigods1"
+  },
+  {
+    "zh": "黄玉戒指",
+    "en": "Topaz Ring",
+    "ref_id": "Metadata/Items/Rings/Ring5"
+  },
+  {
+    "zh": "蓝玉戒指",
+    "en": "Sapphire Ring",
+    "ref_id": "Metadata/Items/Rings/Ring6"
+  },
+  {
+    "zh": "海灵戒指",
+    "en": "Paua Ring",
+    "ref_id": "Metadata/Items/Rings/Ring3"
+  },
+  {
+    "zh": "珊瑚戒指",
+    "en": "Coral Ring",
+    "ref_id": "Metadata/Items/Rings/Ring2"
+  },
+  {
+    "zh": "锻铁戒指",
+    "en": "Iron Ring",
+    "ref_id": "Metadata/Items/Rings/Ring1"
+  },
+  {
+    "zh": "晶钻戒指",
+    "en": "Diamond Ring",
+    "ref_id": "Metadata/Items/Rings/RingRoyale3"
+  },
+  {
+    "zh": "戒指",
+    "en": "Ring",
+    "ref_id": "Metadata/Items/Rings/MirrorRing"
+  },
+  {
+    "zh": "裂隙戒指",
+    "en": "Breach Ring",
+    "ref_id": "Metadata/Items/Rings/BreachRing"
+  }
+]

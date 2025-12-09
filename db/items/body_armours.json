@@ -1,0 +1,622 @@
+[
+  {
+    "zh": "神圣锁甲",
+    "en": "Sacred Chainmail",
+    "ref_id": "Metadata/Items/Armours/BodyArmours/BodyStrInt20"
+  },
+  {
+    "zh": "暮光法衣",
+    "en": "Twilight Regalia",
+    "ref_id": "Metadata/Items/Armours/BodyArmours/BodyInt20"
+  },
+  {
+    "zh": "辛迪加之装",
+    "en": "Syndicate's Garb",
+    "ref_id": "Metadata/Items/Armours/BodyArmours/BodyDex20"
+  },
+  {
+    "zh": "征服盔甲",
+    "en": "Conquest Lamellar",
+    "ref_id": "Metadata/Items/Armours/BodyArmours/BodyStrDex20"
+  },
+  {
+    "zh": "皇家战铠",
+    "en": "Royal Plate",
+    "ref_id": "Metadata/Items/Armours/BodyArmours/BodyStr20"
+  },
+  {
+    "zh": "幽魂之甲",
+    "en": "Necrotic Armour",
+    "ref_id": "Metadata/Items/Armours/BodyArmours/BodyDexInt20"
+  },
+  {
+    "zh": "元帅锁铠",
+    "en": "Marshall's Brigandine",
+    "ref_id": "Metadata/Items/Armours/BodyArmours/BodyStrDex19"
+  },
+  {
+    "zh": "夜纹之袍",
+    "en": "Nightweave Robe",
+    "ref_id": "Metadata/Items/Armours/BodyArmours/BodyInt19"
+  },
+  {
+    "zh": "刑罚者束衣",
+    "en": "Torturer Garb",
+    "ref_id": "Metadata/Items/Armours/BodyArmours/BodyDexInt19"
+  },
+  {
+    "zh": "星界皮甲",
+    "en": "Astral Leather",
+    "ref_id": "Metadata/Items/Armours/BodyArmours/BodyDex19"
+  },
+  {
+    "zh": "圣骑士链甲",
+    "en": "Paladin's Hauberk",
+    "ref_id": "Metadata/Items/Armours/BodyArmours/BodyStrInt19"
+  },
+  {
+    "zh": "军团战铠",
+    "en": "Legion Plate",
+    "ref_id": "Metadata/Items/Armours/BodyArmours/BodyStr19"
+  },
+  {
+    "zh": "连身腾龙鳞甲",
+    "en": "Full Wyvernscale",
+    "ref_id": "Metadata/Items/Armours/BodyArmours/BodyStrDex18"
+  },
+  {
+    "zh": "血痕之衣",
+    "en": "Sanguine Raiment",
+    "ref_id": "Metadata/Items/Armours/BodyArmours/BodyDexInt18"
+  },
+  {
+    "zh": "秘法长衣",
+    "en": "Arcane Vestment",
+    "ref_id": "Metadata/Items/Armours/BodyArmours/BodyInt18"
+  },
+  {
+    "zh": "至尊皮甲",
+    "en": "Supreme Leather",
+    "ref_id": "Metadata/Items/Armours/BodyArmours/BodyDex18"
+  },
+  {
+    "zh": "雄壮环甲",
+    "en": "Grand Ringmail",
+    "ref_id": "Metadata/Items/Armours/BodyArmours/BodyStrInt18"
+  },
+  {
+    "zh": "泰坦战铠",
+    "en": "Titan Plate",
+    "ref_id": "Metadata/Items/Armours/BodyArmours/BodyStr18"
+  },
+  {
+    "zh": "祭礼束衣",
+    "en": "Sacrificial Garb",
+    "ref_id": "Metadata/Items/Armours/BodyArmours/BodyStrDexInt1"
+  },
+  {
+    "zh": "禁礼之甲",
+    "en": "Carnal Armour",
+    "ref_id": "Metadata/Items/Armours/BodyArmours/BodyDexInt17"
+  },
+  {
+    "zh": "扼杀链甲",
+    "en": "Grasping Mail",
+    "ref_id": "Metadata/Items/Armours/BodyArmours/BodyStrDexInt2"
+  },
+  {
+    "zh": "圣洁锁甲",
+    "en": "Saintly Chainmail",
+    "ref_id": "Metadata/Items/Armours/BodyArmours/BodyStrInt17"
+  },
+  {
+    "zh": "胜利盔甲",
+    "en": "Triumphant Lamellar",
+    "ref_id": "Metadata/Items/Armours/BodyArmours/BodyStrDex17"
+  },
+  {
+    "zh": "暗影之装",
+    "en": "Assassin's Garb",
+    "ref_id": "Metadata/Items/Armours/BodyArmours/BodyDex17"
+  },
+  {
+    "zh": "荣耀战铠",
+    "en": "Glorious Plate",
+    "ref_id": "Metadata/Items/Armours/BodyArmours/BodyStr17"
+  },
+  {
+    "zh": "瓦尔法衣",
+    "en": "Vaal Regalia",
+    "ref_id": "Metadata/Items/Armours/BodyArmours/BodyInt17"
+  },
+  {
+    "zh": "狂虐者束衣",
+    "en": "Sadist Garb",
+    "ref_id": "Metadata/Items/Armours/BodyArmours/BodyDexInt16"
+  },
+  {
+    "zh": "圣者链甲",
+    "en": "Saint's Hauberk",
+    "ref_id": "Metadata/Items/Armours/BodyArmours/BodyStrInt16"
+  },
+  {
+    "zh": "将军铠甲",
+    "en": "General's Brigandine",
+    "ref_id": "Metadata/Items/Armours/BodyArmours/BodyStrDex16"
+  },
+  {
+    "zh": "角斗重铠",
+    "en": "Gladiator Plate",
+    "ref_id": "Metadata/Items/Armours/BodyArmours/BodyStr16"
+  },
+  {
+    "zh": "血色之衣",
+    "en": "Blood Raiment",
+    "ref_id": "Metadata/Items/Armours/BodyArmours/BodyDexInt15"
+  },
+  {
+    "zh": "毒蛛丝之袍",
+    "en": "Widowsilk Robe",
+    "ref_id": "Metadata/Items/Armours/BodyArmours/BodyInt16"
+  },
+  {
+    "zh": "星辰皮甲",
+    "en": "Zodiac Leather",
+    "ref_id": "Metadata/Items/Armours/BodyArmours/BodyDex16"
+  },
+  {
+    "zh": "权贵环甲",
+    "en": "Elegant Ringmail",
+    "ref_id": "Metadata/Items/Armours/BodyArmours/BodyStrInt15"
+  },
+  {
+    "zh": "连身龙鳞铠",
+    "en": "Full Dragonscale",
+    "ref_id": "Metadata/Items/Armours/BodyArmours/BodyStrDex15"
+  },
+  {
+    "zh": "星芒战铠",
+    "en": "Astral Plate",
+    "ref_id": "Metadata/Items/Armours/BodyArmours/BodyStr15"
+  },
+  {
+    "zh": "秘术长衣",
+    "en": "Occultist's Vestment",
+    "ref_id": "Metadata/Items/Armours/BodyArmours/BodyInt15"
+  },
+  {
+    "zh": "精制皮甲",
+    "en": "Exquisite Leather",
+    "ref_id": "Metadata/Items/Armours/BodyArmours/BodyDex15"
+  },
+  {
+    "zh": "映彩外套",
+    "en": "Varnished Coat",
+    "ref_id": "Metadata/Items/Armours/BodyArmours/BodyDexInt14"
+  },
+  {
+    "zh": "征战锁甲",
+    "en": "Conquest Chainmail",
+    "ref_id": "Metadata/Items/Armours/BodyArmours/BodyStrInt14"
+  },
+  {
+    "zh": "荒野锁铠",
+    "en": "Desert Brigandine",
+    "ref_id": "Metadata/Items/Armours/BodyArmours/BodyStrDex14"
+  },
+  {
+    "zh": "命运皮甲",
+    "en": "Destiny Leather",
+    "ref_id": "Metadata/Items/Armours/BodyArmours/BodyDex14"
+  },
+  {
+    "zh": "征战重铠",
+    "en": "Crusader Plate",
+    "ref_id": "Metadata/Items/Armours/BodyArmours/BodyStr14"
+  },
+  {
+    "zh": "哨兵之衣",
+    "en": "Sentinel Jacket",
+    "ref_id": "Metadata/Items/Armours/BodyArmours/BodyDexInt13"
+  },
+  {
+    "zh": "操灵者背心",
+    "en": "Necromancer Silks",
+    "ref_id": "Metadata/Items/Armours/BodyArmours/BodyInt14"
+  },
+  {
+    "zh": "覆体环甲",
+    "en": "Loricated Ringmail",
+    "ref_id": "Metadata/Items/Armours/BodyArmours/BodyStrInt13"
+  },
+  {
+    "zh": "龙鳞护甲",
+    "en": "Dragonscale Doublet",
+    "ref_id": "Metadata/Items/Armours/BodyArmours/BodyStrDex13"
+  },
+  {
+    "zh": "鲨皮之衣",
+    "en": "Sharkskin Tunic",
+    "ref_id": "Metadata/Items/Armours/BodyArmours/BodyDex13"
+  },
+  {
+    "zh": "金耀之铠",
+    "en": "Golden Plate",
+    "ref_id": "Metadata/Items/Armours/BodyArmours/BodyStr13"
+  },
+  {
+    "zh": "地穴战甲",
+    "en": "Crypt Armour",
+    "ref_id": "Metadata/Items/Armours/BodyArmours/BodyDexInt12"
+  },
+  {
+    "zh": "智者之袍",
+    "en": "Savant's Robe",
+    "ref_id": "Metadata/Items/Armours/BodyArmours/BodyInt13"
+  },
+  {
+    "zh": "虔诚链甲",
+    "en": "Devout Chainmail",
+    "ref_id": "Metadata/Items/Armours/BodyArmours/BodyStrInt12"
+  },
+  {
+    "zh": "争战鳞甲",
+    "en": "Battle Lamellar",
+    "ref_id": "Metadata/Items/Armours/BodyArmours/BodyStrDex12"
+  },
+  {
+    "zh": "灭世法衣",
+    "en": "Destroyer Regalia",
+    "ref_id": "Metadata/Items/Armours/BodyArmours/BodyInt12"
+  },
+  {
+    "zh": "死神之装",
+    "en": "Cutthroat's Garb",
+    "ref_id": "Metadata/Items/Armours/BodyArmours/BodyDex12"
+  },
+  {
+    "zh": "庄严之铠",
+    "en": "Majestic Plate",
+    "ref_id": "Metadata/Items/Armours/BodyArmours/BodyStr12"
+  },
+  {
+    "zh": "漆彩束衣",
+    "en": "Lacquered Garb",
+    "ref_id": "Metadata/Items/Armours/BodyArmours/BodyDexInt11"
+  },
+  {
+    "zh": "锁子长甲",
+    "en": "Chain Hauberk",
+    "ref_id": "Metadata/Items/Armours/BodyArmours/BodyStrInt11"
+  },
+  {
+    "zh": "指挥者锁甲",
+    "en": "Commander's Brigandine",
+    "ref_id": "Metadata/Items/Armours/BodyArmours/BodyStrDex11"
+  },
+  {
+    "zh": "光耀皮甲",
+    "en": "Coronal Leather",
+    "ref_id": "Metadata/Items/Armours/BodyArmours/BodyDex11"
+  },
+  {
+    "zh": "蛛丝之袍",
+    "en": "Spidersilk Robe",
+    "ref_id": "Metadata/Items/Armours/BodyArmours/BodyInt11"
+  },
+  {
+    "zh": "决斗之铠",
+    "en": "Colosseum Plate",
+    "ref_id": "Metadata/Items/Armours/BodyArmours/BodyStr11"
+  },
+  {
+    "zh": "绯红之衣",
+    "en": "Crimson Raiment",
+    "ref_id": "Metadata/Items/Armours/BodyArmours/BodyDexInt10"
+  },
+  {
+    "zh": "华丽环甲",
+    "en": "Ornate Ringmail",
+    "ref_id": "Metadata/Items/Armours/BodyArmours/BodyStrInt10"
+  },
+  {
+    "zh": "连身龙鳞战甲",
+    "en": "Full Wyrmscale",
+    "ref_id": "Metadata/Items/Armours/BodyArmours/BodyStrDex10"
+  },
+  {
+    "zh": "日光之铠",
+    "en": "Sun Plate",
+    "ref_id": "Metadata/Items/Armours/BodyArmours/BodyStr10"
+  },
+  {
+    "zh": "荣耀皮甲",
+    "en": "Glorious Leather",
+    "ref_id": "Metadata/Items/Armours/BodyArmours/BodyDex10"
+  },
+  {
+    "zh": "咒者长衣",
+    "en": "Conjurer's Vestment",
+    "ref_id": "Metadata/Items/Armours/BodyArmours/BodyInt10"
+  },
+  {
+    "zh": "滑布外套",
+    "en": "Sleek Coat",
+    "ref_id": "Metadata/Items/Armours/BodyArmours/BodyDexInt9"
+  },
+  {
+    "zh": "圣战锁甲",
+    "en": "Crusader Chainmail",
+    "ref_id": "Metadata/Items/Armours/BodyArmours/BodyStrInt9"
+  },
+  {
+    "zh": "轻骑锁甲",
+    "en": "Hussar Brigandine",
+    "ref_id": "Metadata/Items/Armours/BodyArmours/BodyStrDex9"
+  },
+  {
+    "zh": "战铠",
+    "en": "Battle Plate",
+    "ref_id": "Metadata/Items/Armours/BodyArmours/BodyStr9"
+  },
+  {
+    "zh": "边戍皮甲",
+    "en": "Frontier Leather",
+    "ref_id": "Metadata/Items/Armours/BodyArmours/BodyDex9"
+  },
+  {
+    "zh": "丝绒背心",
+    "en": "Silken Wrap",
+    "ref_id": "Metadata/Items/Armours/BodyArmours/BodyInt9"
+  },
+  {
+    "zh": "菱纹外衣",
+    "en": "Quilted Jacket",
+    "ref_id": "Metadata/Items/Armours/BodyArmours/BodyDexInt8"
+  },
+  {
+    "zh": "精制环甲",
+    "en": "Latticed Ringmail",
+    "ref_id": "Metadata/Items/Armours/BodyArmours/BodyStrInt8"
+  },
+  {
+    "zh": "龙鳞战甲",
+    "en": "Wyrmscale Doublet",
+    "ref_id": "Metadata/Items/Armours/BodyArmours/BodyStrDex8"
+  },
+  {
+    "zh": "青铜铠甲",
+    "en": "Bronze Plate",
+    "ref_id": "Metadata/Items/Armours/BodyArmours/BodyStr8"
+  },
+  {
+    "zh": "鳗皮之衣",
+    "en": "Eelskin Tunic",
+    "ref_id": "Metadata/Items/Armours/BodyArmours/BodyDex8"
+  },
+  {
+    "zh": "贤者之袍",
+    "en": "Sage's Robe",
+    "ref_id": "Metadata/Items/Armours/BodyArmours/BodyInt8"
+  },
+  {
+    "zh": "窃贼之装",
+    "en": "Thief's Garb",
+    "ref_id": "Metadata/Items/Armours/BodyArmours/BodyDex7"
+  },
+  {
+    "zh": "领主护铠",
+    "en": "Lordly Plate",
+    "ref_id": "Metadata/Items/Armours/BodyArmours/BodyStr7"
+  },
+  {
+    "zh": "骨制战甲",
+    "en": "Bone Armour",
+    "ref_id": "Metadata/Items/Armours/BodyArmours/BodyDexInt7"
+  },
+  {
+    "zh": "圣语锁甲",
+    "en": "Holy Chainmail",
+    "ref_id": "Metadata/Items/Armours/BodyArmours/BodyStrInt7"
+  },
+  {
+    "zh": "野战薄甲",
+    "en": "Field Lamellar",
+    "ref_id": "Metadata/Items/Armours/BodyArmours/BodyStrDex7"
+  },
+  {
+    "zh": "秘术法衣",
+    "en": "Cabalist Regalia",
+    "ref_id": "Metadata/Items/Armours/BodyArmours/BodyInt7"
+  },
+  {
+    "zh": "战士锁甲",
+    "en": "Soldier's Brigandine",
+    "ref_id": "Metadata/Items/Armours/BodyArmours/BodyStrDex6"
+  },
+  {
+    "zh": "斗者之铠",
+    "en": "Arena Plate",
+    "ref_id": "Metadata/Items/Armours/BodyArmours/BodyStr6"
+  },
+  {
+    "zh": "连身锁甲",
+    "en": "Full Chainmail",
+    "ref_id": "Metadata/Items/Armours/BodyArmours/BodyStrInt6"
+  },
+  {
+    "zh": "蜡封束衣",
+    "en": "Waxed Garb",
+    "ref_id": "Metadata/Items/Armours/BodyArmours/BodyDexInt6"
+  },
+  {
+    "zh": "丝质之袍",
+    "en": "Silk Robe",
+    "ref_id": "Metadata/Items/Armours/BodyArmours/BodyInt6"
+  },
+  {
+    "zh": "日光皮甲",
+    "en": "Sun Leather",
+    "ref_id": "Metadata/Items/Armours/BodyArmours/BodyDex6"
+  },
+  {
+    "zh": "连身皮甲",
+    "en": "Full Leather",
+    "ref_id": "Metadata/Items/Armours/BodyArmours/BodyDex5"
+  },
+  {
+    "zh": "博学长衣",
+    "en": "Mage's Vestment",
+    "ref_id": "Metadata/Items/Armours/BodyArmours/BodyInt5"
+  },
+  {
+    "zh": "炽红之衣",
+    "en": "Scarlet Raiment",
+    "ref_id": "Metadata/Items/Armours/BodyArmours/BodyDexInt5"
+  },
+  {
+    "zh": "连身鳞甲",
+    "en": "Full Scale Armour",
+    "ref_id": "Metadata/Items/Armours/BodyArmours/BodyStrDex5"
+  },
+  {
+    "zh": "连身环甲",
+    "en": "Full Ringmail",
+    "ref_id": "Metadata/Items/Armours/BodyArmours/BodyStrInt5"
+  },
+  {
+    "zh": "连身铠甲",
+    "en": "Full Plate",
+    "ref_id": "Metadata/Items/Armours/BodyArmours/BodyStr5"
+  },
+  {
+    "zh": "丝绸之衣",
+    "en": "Silken Garb",
+    "ref_id": "Metadata/Items/Armours/BodyArmours/BodyInt4"
+  },
+  {
+    "zh": "狂野部族皮甲",
+    "en": "Wild Leather",
+    "ref_id": "Metadata/Items/Armours/BodyArmours/BodyDex4"
+  },
+  {
+    "zh": "防水外衣",
+    "en": "Oiled Coat",
+    "ref_id": "Metadata/Items/Armours/BodyArmours/BodyDexInt4"
+  },
+  {
+    "zh": "护体锁甲",
+    "en": "Chainmail Doublet",
+    "ref_id": "Metadata/Items/Armours/BodyArmours/BodyStrInt4"
+  },
+  {
+    "zh": "战争之铠",
+    "en": "War Plate",
+    "ref_id": "Metadata/Items/Armours/BodyArmours/BodyStr4"
+  },
+  {
+    "zh": "步兵锁甲",
+    "en": "Infantry Brigandine",
+    "ref_id": "Metadata/Items/Armours/BodyArmours/BodyStrDex4"
+  },
+  {
+    "zh": "黄金战甲",
+    "en": "Golden Mantle",
+    "ref_id": "Metadata/Items/Armours/BodyArmours/BodyDemigods1"
+  },
+  {
+    "zh": "学者之袍",
+    "en": "Scholar's Robe",
+    "ref_id": "Metadata/Items/Armours/BodyArmours/BodyInt3"
+  },
+  {
+    "zh": "长袖棉袄",
+    "en": "Padded Jacket",
+    "ref_id": "Metadata/Items/Armours/BodyArmours/BodyDexInt3"
+  },
+  {
+    "zh": "铜锻板甲",
+    "en": "Copper Plate",
+    "ref_id": "Metadata/Items/Armours/BodyArmours/BodyStr3"
+  },
+  {
+    "zh": "合身鳞甲",
+    "en": "Scale Doublet",
+    "ref_id": "Metadata/Items/Armours/BodyArmours/BodyStrDex3"
+  },
+  {
+    "zh": "鹿皮外套",
+    "en": "Buckskin Tunic",
+    "ref_id": "Metadata/Items/Armours/BodyArmours/BodyDex3"
+  },
+  {
+    "zh": "环甲外套",
+    "en": "Ringmail Coat",
+    "ref_id": "Metadata/Items/Armours/BodyArmours/BodyStrInt3"
+  },
+  {
+    "zh": "绸缎背心",
+    "en": "Silken Vest",
+    "ref_id": "Metadata/Items/Armours/BodyArmours/BodyInt2"
+  },
+  {
+    "zh": "防水背心",
+    "en": "Oiled Vest",
+    "ref_id": "Metadata/Items/Armours/BodyArmours/BodyDexInt2"
+  },
+  {
+    "zh": "扣环皮甲",
+    "en": "Strapped Leather",
+    "ref_id": "Metadata/Items/Armours/BodyArmours/BodyDex2"
+  },
+  {
+    "zh": "轻锁甲",
+    "en": "Light Brigandine",
+    "ref_id": "Metadata/Items/Armours/BodyArmours/BodyStrDex2"
+  },
+  {
+    "zh": "链甲外衣",
+    "en": "Chainmail Tunic",
+    "ref_id": "Metadata/Items/Armours/BodyArmours/BodyStrInt2"
+  },
+  {
+    "zh": "胸甲",
+    "en": "Chestplate",
+    "ref_id": "Metadata/Items/Armours/BodyArmours/BodyStr2"
+  },
+  {
+    "zh": "薄衬衣",
+    "en": "Padded Vest",
+    "ref_id": "Metadata/Items/Armours/BodyArmours/BodyDexInt1"
+  },
+  {
+    "zh": "锁链背心",
+    "en": "Chainmail Vest",
+    "ref_id": "Metadata/Items/Armours/BodyArmours/BodyStrInt1"
+  },
+  {
+    "zh": "细鳞背心",
+    "en": "Scale Vest",
+    "ref_id": "Metadata/Items/Armours/BodyArmours/BodyStrDex1"
+  },
+  {
+    "zh": "简易之袍",
+    "en": "Simple Robe",
+    "ref_id": "Metadata/Items/Armours/BodyArmours/BodyInt1"
+  },
+  {
+    "zh": "破旧外套",
+    "en": "Shabby Jerkin",
+    "ref_id": "Metadata/Items/Armours/BodyArmours/BodyDex1"
+  },
+  {
+    "zh": "冈姆的重铠",
+    "en": "Kaom's Plate",
+    "ref_id": "Metadata/Items/Armours/BodyArmours/BodyStrTemp"
+  },
+  {
+    "zh": "铁制背心",
+    "en": "Plate Vest",
+    "ref_id": "Metadata/Items/Armours/BodyArmours/BodyStr1"
+  }
+]

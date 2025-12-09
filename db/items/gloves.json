@@ -1,0 +1,402 @@
+[
+  {
+    "zh": "海怪护手",
+    "en": "Leviathan Gauntlets",
+    "ref_id": "Metadata/Items/Armours/Gloves/GlovesStr11"
+  },
+  {
+    "zh": "腾龙鳞手套",
+    "en": "Wyvernscale Gauntlets",
+    "ref_id": "Metadata/Items/Armours/Gloves/GlovesStrDex10"
+  },
+  {
+    "zh": "咒士手套",
+    "en": "Warlock Gloves",
+    "ref_id": "Metadata/Items/Armours/Gloves/GlovesInt11"
+  },
+  {
+    "zh": "圣骑士手套",
+    "en": "Paladin Gloves",
+    "ref_id": "Metadata/Items/Armours/Gloves/GlovesStrInt10"
+  },
+  {
+    "zh": "丝绒手套",
+    "en": "Velour Gloves",
+    "ref_id": "Metadata/Items/Armours/Gloves/GlovesDex11"
+  },
+  {
+    "zh": "幻影护手",
+    "en": "Phantom Mitts",
+    "ref_id": "Metadata/Items/Armours/Gloves/GlovesDexInt10"
+  },
+  {
+    "zh": "奇美拉鳞手套",
+    "en": "Chimerascale Gauntlets",
+    "ref_id": "Metadata/Items/Armours/Gloves/GlovesStrDex9"
+  },
+  {
+    "zh": "鹰妖皮手套",
+    "en": "Harpyskin Gloves",
+    "ref_id": "Metadata/Items/Armours/Gloves/GlovesDex10"
+  },
+  {
+    "zh": "先驱护手",
+    "en": "Precursor Gauntlets",
+    "ref_id": "Metadata/Items/Armours/Gloves/GlovesStr10"
+  },
+  {
+    "zh": "渗透者护手",
+    "en": "Infiltrator Mitts",
+    "ref_id": "Metadata/Items/Armours/Gloves/GlovesDexInt9"
+  },
+  {
+    "zh": "贤者手套",
+    "en": "Sage Gloves",
+    "ref_id": "Metadata/Items/Armours/Gloves/GlovesInt10"
+  },
+  {
+    "zh": "先烈手套",
+    "en": "Martyr Gloves",
+    "ref_id": "Metadata/Items/Armours/Gloves/GlovesStrInt9"
+  },
+  {
+    "zh": "枢纽手套",
+    "en": "Nexus Gloves",
+    "ref_id": "Metadata/Items/Armours/Gloves/GlovesIntRitual3"
+  },
+  {
+    "zh": "扣钉手套",
+    "en": "Spiked Gloves",
+    "ref_id": "Metadata/Items/Armours/Gloves/GlovesAtlasStr"
+  },
+  {
+    "zh": "御敌护手",
+    "en": "Thwarting Gauntlets",
+    "ref_id": "Metadata/Items/Armours/Gloves/GlovesStrRitual3"
+  },
+  {
+    "zh": "丝绸手套",
+    "en": "Fingerless Silk Gloves",
+    "ref_id": "Metadata/Items/Armours/Gloves/GlovesAtlasInt"
+  },
+  {
+    "zh": "布陷者手套",
+    "en": "Trapsetter Gloves",
+    "ref_id": "Metadata/Items/Armours/Gloves/GlovesDexRitual3"
+  },
+  {
+    "zh": "擒拿手套",
+    "en": "Gripped Gloves",
+    "ref_id": "Metadata/Items/Armours/Gloves/GlovesAtlasDex"
+  },
+  {
+    "zh": "药剂师手套",
+    "en": "Apothecary's Gloves",
+    "ref_id": "Metadata/Items/Armours/Gloves/GlovesAtlasStrInt"
+  },
+  {
+    "zh": "迷踪手套",
+    "en": "Slink Gloves",
+    "ref_id": "Metadata/Items/Armours/Gloves/GlovesDex9"
+  },
+  {
+    "zh": "符文手甲",
+    "en": "Runic Gauntlets",
+    "ref_id": "Metadata/Items/Armours/Gloves/GlovesExpedition3"
+  },
+  {
+    "zh": "巨人护手",
+    "en": "Titan Gauntlets",
+    "ref_id": "Metadata/Items/Armours/Gloves/GlovesStr9"
+  },
+  {
+    "zh": "术士手套",
+    "en": "Sorcerer Gloves",
+    "ref_id": "Metadata/Items/Armours/Gloves/GlovesInt9"
+  },
+  {
+    "zh": "龙鳞手套",
+    "en": "Dragonscale Gauntlets",
+    "ref_id": "Metadata/Items/Armours/Gloves/GlovesStrDex8"
+  },
+  {
+    "zh": "暗影者护手",
+    "en": "Murder Mitts",
+    "ref_id": "Metadata/Items/Armours/Gloves/GlovesDexInt8"
+  },
+  {
+    "zh": "圣战手套",
+    "en": "Crusader Gloves",
+    "ref_id": "Metadata/Items/Armours/Gloves/GlovesStrInt8"
+  },
+  {
+    "zh": "瓦尔护手",
+    "en": "Vaal Gauntlets",
+    "ref_id": "Metadata/Items/Armours/Gloves/GlovesStr8"
+  },
+  {
+    "zh": "匿踪手套",
+    "en": "Stealth Gloves",
+    "ref_id": "Metadata/Items/Armours/Gloves/GlovesDex8"
+  },
+  {
+    "zh": "秘术手套",
+    "en": "Arcanist Gloves",
+    "ref_id": "Metadata/Items/Armours/Gloves/GlovesInt8"
+  },
+  {
+    "zh": "火蝮鳞手套",
+    "en": "Hydrascale Gauntlets",
+    "ref_id": "Metadata/Items/Armours/Gloves/GlovesStrDex7"
+  },
+  {
+    "zh": "暗影护手",
+    "en": "Assassin's Mitts",
+    "ref_id": "Metadata/Items/Armours/Gloves/GlovesDexInt7"
+  },
+  {
+    "zh": "军团手套",
+    "en": "Legion Gloves",
+    "ref_id": "Metadata/Items/Armours/Gloves/GlovesStrInt7"
+  },
+  {
+    "zh": "咒者手套",
+    "en": "Conjurer Gloves",
+    "ref_id": "Metadata/Items/Armours/Gloves/GlovesInt7"
+  },
+  {
+    "zh": "粗革手套",
+    "en": "Shagreen Gloves",
+    "ref_id": "Metadata/Items/Armours/Gloves/GlovesDex7"
+  },
+  {
+    "zh": "巨灵护手",
+    "en": "Goliath Gauntlets",
+    "ref_id": "Metadata/Items/Armours/Gloves/GlovesStr7"
+  },
+  {
+    "zh": "战士手套",
+    "en": "Soldier Gloves",
+    "ref_id": "Metadata/Items/Armours/Gloves/GlovesStrInt6"
+  },
+  {
+    "zh": "禁礼护手",
+    "en": "Carnal Mitts",
+    "ref_id": "Metadata/Items/Armours/Gloves/GlovesDexInt6"
+  },
+  {
+    "zh": "蝮鳞手套",
+    "en": "Wyrmscale Gauntlets",
+    "ref_id": "Metadata/Items/Armours/Gloves/GlovesStrDex6"
+  },
+  {
+    "zh": "符文笼手",
+    "en": "Runic Gages",
+    "ref_id": "Metadata/Items/Armours/Gloves/GlovesExpedition2"
+  },
+  {
+    "zh": "绣布手套",
+    "en": "Samite Gloves",
+    "ref_id": "Metadata/Items/Armours/Gloves/GlovesInt6"
+  },
+  {
+    "zh": "远古护手",
+    "en": "Ancient Gauntlets",
+    "ref_id": "Metadata/Items/Armours/Gloves/GlovesStr6"
+  },
+  {
+    "zh": "鲨皮手套",
+    "en": "Sharkskin Gloves",
+    "ref_id": "Metadata/Items/Armours/Gloves/GlovesDex6"
+  },
+  {
+    "zh": "伏击护手",
+    "en": "Ambush Mitts",
+    "ref_id": "Metadata/Items/Armours/Gloves/GlovesDexInt5"
+  },
+  {
+    "zh": "狂热者手套",
+    "en": "Zealot Gloves",
+    "ref_id": "Metadata/Items/Armours/Gloves/GlovesStrInt5"
+  },
+  {
+    "zh": "蛇鳞手套",
+    "en": "Serpentscale Gauntlets",
+    "ref_id": "Metadata/Items/Armours/Gloves/GlovesStrDex5"
+  },
+  {
+    "zh": "缎布手套",
+    "en": "Satin Gloves",
+    "ref_id": "Metadata/Items/Armours/Gloves/GlovesInt5"
+  },
+  {
+    "zh": "灵风手套",
+    "en": "Aetherwind Gloves",
+    "ref_id": "Metadata/Items/Armours/Gloves/GlovesIntRitual2"
+  },
+  {
+    "zh": "护卫手甲",
+    "en": "Guarding Gauntlets",
+    "ref_id": "Metadata/Items/Armours/Gloves/GlovesStrRitual2"
+  },
+  {
+    "zh": "学徒手套",
+    "en": "Apprentice Gloves",
+    "ref_id": "Metadata/Items/Armours/Gloves/GlovesDexRitual2"
+  },
+  {
+    "zh": "古钢护手",
+    "en": "Antique Gauntlets",
+    "ref_id": "Metadata/Items/Armours/Gloves/GlovesStr5"
+  },
+  {
+    "zh": "鳗皮手套",
+    "en": "Eelskin Gloves",
+    "ref_id": "Metadata/Items/Armours/Gloves/GlovesDex5"
+  },
+  {
+    "zh": "仪式手套",
+    "en": "Riveted Gloves",
+    "ref_id": "Metadata/Items/Armours/Gloves/GlovesStrInt4"
+  },
+  {
+    "zh": "钢影护手",
+    "en": "Steelscale Gauntlets",
+    "ref_id": "Metadata/Items/Armours/Gloves/GlovesStrDex4"
+  },
+  {
+    "zh": "刺绣手套",
+    "en": "Embroidered Gloves",
+    "ref_id": "Metadata/Items/Armours/Gloves/GlovesInt4"
+  },
+  {
+    "zh": "猎人护手",
+    "en": "Trapper Mitts",
+    "ref_id": "Metadata/Items/Armours/Gloves/GlovesDexInt4"
+  },
+  {
+    "zh": "冷钢护手",
+    "en": "Steel Gauntlets",
+    "ref_id": "Metadata/Items/Armours/Gloves/GlovesStr4"
+  },
+  {
+    "zh": "砂影手套",
+    "en": "Nubuck Gloves",
+    "ref_id": "Metadata/Items/Armours/Gloves/GlovesDex4"
+  },
+  {
+    "zh": "网眼手套",
+    "en": "Mesh Gloves",
+    "ref_id": "Metadata/Items/Armours/Gloves/GlovesStrInt3"
+  },
+  {
+    "zh": "环带护手",
+    "en": "Clasped Mitts",
+    "ref_id": "Metadata/Items/Armours/Gloves/GlovesDexInt3"
+  },
+  {
+    "zh": "铜影手套",
+    "en": "Bronzescale Gauntlets",
+    "ref_id": "Metadata/Items/Armours/Gloves/GlovesStrDex3"
+  },
+  {
+    "zh": "丝绸手套",
+    "en": "Silk Gloves",
+    "ref_id": "Metadata/Items/Armours/Gloves/GlovesInt3"
+  },
+  {
+    "zh": "符文手套",
+    "en": "Runic Gloves",
+    "ref_id": "Metadata/Items/Armours/Gloves/GlovesExpedition1"
+  },
+  {
+    "zh": "青铜护手",
+    "en": "Bronze Gauntlets",
+    "ref_id": "Metadata/Items/Armours/Gloves/GlovesStr3"
+  },
+  {
+    "zh": "鹿皮手套",
+    "en": "Deerskin Gloves",
+    "ref_id": "Metadata/Items/Armours/Gloves/GlovesDex3"
+  },
+  {
+    "zh": "环甲手套",
+    "en": "Ringmail Gloves",
+    "ref_id": "Metadata/Items/Armours/Gloves/GlovesStrInt2"
+  },
+  {
+    "zh": "扣环护手",
+    "en": "Strapped Mitts",
+    "ref_id": "Metadata/Items/Armours/Gloves/GlovesDexInt2"
+  },
+  {
+    "zh": "铁影手套",
+    "en": "Ironscale Gauntlets",
+    "ref_id": "Metadata/Items/Armours/Gloves/GlovesStrDex2"
+  },
+  {
+    "zh": "黄金臂甲",
+    "en": "Golden Bracers",
+    "ref_id": "Metadata/Items/Armours/Gloves/GlovesDemigods1"
+  },
+  {
+    "zh": "丝绒手套",
+    "en": "Velvet Gloves",
+    "ref_id": "Metadata/Items/Armours/Gloves/GlovesInt2"
+  },
+  {
+    "zh": "坚铁护手",
+    "en": "Plated Gauntlets",
+    "ref_id": "Metadata/Items/Armours/Gloves/GlovesStr2"
+  },
+  {
+    "zh": "工匠手套",
+    "en": "Tinker Gloves",
+    "ref_id": "Metadata/Items/Armours/Gloves/GlovesDexRitual1"
+  },
+  {
+    "zh": "历战手甲",
+    "en": "Preserving Gauntlets",
+    "ref_id": "Metadata/Items/Armours/Gloves/GlovesStrRitual1"
+  },
+  {
+    "zh": "雷线手套",
+    "en": "Leyline Gloves",
+    "ref_id": "Metadata/Items/Armours/Gloves/GlovesIntRitual1"
+  },
+  {
+    "zh": "羊皮手套",
+    "en": "Goathide Gloves",
+    "ref_id": "Metadata/Items/Armours/Gloves/GlovesDex2"
+  },
+  {
+    "zh": "链甲手套",
+    "en": "Chain Gloves",
+    "ref_id": "Metadata/Items/Armours/Gloves/GlovesStrInt1"
+  },
+  {
+    "zh": "裹趾护手",
+    "en": "Wrapped Mitts",
+    "ref_id": "Metadata/Items/Armours/Gloves/GlovesDexInt1"
+  },
+  {
+    "zh": "鱼鳞手套",
+    "en": "Fishscale Gauntlets",
+    "ref_id": "Metadata/Items/Armours/Gloves/GlovesStrDex1"
+  },
+  {
+    "zh": "生皮手套",
+    "en": "Rawhide Gloves",
+    "ref_id": "Metadata/Items/Armours/Gloves/GlovesDex1"
+  },
+  {
+    "zh": "羊毛手套",
+    "en": "Wool Gloves",
+    "ref_id": "Metadata/Items/Armours/Gloves/GlovesInt1"
+  },
+  {
+    "zh": "铁锻护手",
+    "en": "Iron Gauntlets",
+    "ref_id": "Metadata/Items/Armours/Gloves/GlovesStr1"
+  }
+]

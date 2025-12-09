@@ -1,0 +1,417 @@
+[
+  {
+    "zh": "腾龙鳞长靴",
+    "en": "Wyvernscale Boots",
+    "ref_id": "Metadata/Items/Armours/Boots/BootsStrDex10"
+  },
+  {
+    "zh": "幻影长靴",
+    "en": "Phantom Boots",
+    "ref_id": "Metadata/Items/Armours/Boots/BootsDexInt11"
+  },
+  {
+    "zh": "咒士之靴",
+    "en": "Warlock Boots",
+    "ref_id": "Metadata/Items/Armours/Boots/BootsInt11"
+  },
+  {
+    "zh": "丝绒之靴",
+    "en": "Velour Boots",
+    "ref_id": "Metadata/Items/Armours/Boots/BootsDex11"
+  },
+  {
+    "zh": "海怪胫甲",
+    "en": "Leviathan Greaves",
+    "ref_id": "Metadata/Items/Armours/Boots/BootsStr11"
+  },
+  {
+    "zh": "圣骑士长靴",
+    "en": "Paladin Boots",
+    "ref_id": "Metadata/Items/Armours/Boots/BootsStrInt10"
+  },
+  {
+    "zh": "踏烟之履",
+    "en": "Brimstone Treads",
+    "ref_id": "Metadata/Items/Armours/Boots/BootsStrRitual3"
+  },
+  {
+    "zh": "探梦之鞋",
+    "en": "Dreamquest Slippers",
+    "ref_id": "Metadata/Items/Armours/Boots/BootsIntRitual3"
+  },
+  {
+    "zh": "御风之靴",
+    "en": "Stormrider Boots",
+    "ref_id": "Metadata/Items/Armours/Boots/BootsDexRitual3"
+  },
+  {
+    "zh": "贤者便鞋",
+    "en": "Sage Slippers",
+    "ref_id": "Metadata/Items/Armours/Boots/BootsInt10"
+  },
+  {
+    "zh": "先驱胫甲",
+    "en": "Precursor Greaves",
+    "ref_id": "Metadata/Items/Armours/Boots/BootsStr10"
+  },
+  {
+    "zh": "渗透者长靴",
+    "en": "Infiltrator Boots",
+    "ref_id": "Metadata/Items/Armours/Boots/BootsDexInt10"
+  },
+  {
+    "zh": "奇美拉鳞长靴",
+    "en": "Chimerascale Boots",
+    "ref_id": "Metadata/Items/Armours/Boots/BootsStrDex9"
+  },
+  {
+    "zh": "鹰妖皮靴",
+    "en": "Harpyskin Boots",
+    "ref_id": "Metadata/Items/Armours/Boots/BootsDex10"
+  },
+  {
+    "zh": "先烈长靴",
+    "en": "Martyr Boots",
+    "ref_id": "Metadata/Items/Armours/Boots/BootsStrInt9"
+  },
+  {
+    "zh": "逃亡之靴",
+    "en": "Fugitive Boots",
+    "ref_id": "Metadata/Items/Armours/Boots/BootsAtlas4"
+  },
+  {
+    "zh": "异色鞋 (火闪)",
+    "en": "Two-Toned Boots",
+    "ref_id": "Metadata/Items/Armours/Boots/BootsAtlas3"
+  },
+  {
+    "zh": "异色鞋 (火冰)",
+    "en": "Two-Toned Boots",
+    "ref_id": "Metadata/Items/Armours/Boots/BootsAtlas2"
+  },
+  {
+    "zh": "异色鞋(冰闪)",
+    "en": "Two-Toned Boots",
+    "ref_id": "Metadata/Items/Armours/Boots/BootsAtlas1"
+  },
+  {
+    "zh": "暗影者长靴",
+    "en": "Murder Boots",
+    "ref_id": "Metadata/Items/Armours/Boots/BootsDexInt9"
+  },
+  {
+    "zh": "迷踪短靴",
+    "en": "Slink Boots",
+    "ref_id": "Metadata/Items/Armours/Boots/BootsDex9"
+  },
+  {
+    "zh": "符文战靴",
+    "en": "Runic Sabatons",
+    "ref_id": "Metadata/Items/Armours/Boots/BootsExpedition3"
+  },
+  {
+    "zh": "巨人胫甲",
+    "en": "Titan Greaves",
+    "ref_id": "Metadata/Items/Armours/Boots/BootsStr9"
+  },
+  {
+    "zh": "术士长靴",
+    "en": "Sorcerer Boots",
+    "ref_id": "Metadata/Items/Armours/Boots/BootsInt9"
+  },
+  {
+    "zh": "龙鳞长靴",
+    "en": "Dragonscale Boots",
+    "ref_id": "Metadata/Items/Armours/Boots/BootsStrDex8"
+  },
+  {
+    "zh": "圣战长靴",
+    "en": "Crusader Boots",
+    "ref_id": "Metadata/Items/Armours/Boots/BootsStrInt8"
+  },
+  {
+    "zh": "暗影之靴",
+    "en": "Assassin's Boots",
+    "ref_id": "Metadata/Items/Armours/Boots/BootsDexInt8"
+  },
+  {
+    "zh": "匿踪短靴",
+    "en": "Stealth Boots",
+    "ref_id": "Metadata/Items/Armours/Boots/BootsDex8"
+  },
+  {
+    "zh": "瓦尔胫甲",
+    "en": "Vaal Greaves",
+    "ref_id": "Metadata/Items/Armours/Boots/BootsStr8"
+  },
+  {
+    "zh": "秘术便鞋",
+    "en": "Arcanist Slippers",
+    "ref_id": "Metadata/Items/Armours/Boots/BootsInt8"
+  },
+  {
+    "zh": "火蝮鳞长靴",
+    "en": "Hydrascale Boots",
+    "ref_id": "Metadata/Items/Armours/Boots/BootsStrDex7"
+  },
+  {
+    "zh": "军团长靴",
+    "en": "Legion Boots",
+    "ref_id": "Metadata/Items/Armours/Boots/BootsStrInt7"
+  },
+  {
+    "zh": "粗革短靴",
+    "en": "Shagreen Boots",
+    "ref_id": "Metadata/Items/Armours/Boots/BootsDex7"
+  },
+  {
+    "zh": "禁礼之靴",
+    "en": "Carnal Boots",
+    "ref_id": "Metadata/Items/Armours/Boots/BootsDexInt7"
+  },
+  {
+    "zh": "巨灵胫甲",
+    "en": "Goliath Greaves",
+    "ref_id": "Metadata/Items/Armours/Boots/BootsStr7"
+  },
+  {
+    "zh": "咒者长靴",
+    "en": "Conjurer Boots",
+    "ref_id": "Metadata/Items/Armours/Boots/BootsInt7"
+  },
+  {
+    "zh": "地蝮鳞长靴",
+    "en": "Wyrmscale Boots",
+    "ref_id": "Metadata/Items/Armours/Boots/BootsStrDex6"
+  },
+  {
+    "zh": "夜风之鞋",
+    "en": "Nightwind Slippers",
+    "ref_id": "Metadata/Items/Armours/Boots/BootsIntRitual2"
+  },
+  {
+    "zh": "乌钢之履",
+    "en": "Darksteel Treads",
+    "ref_id": "Metadata/Items/Armours/Boots/BootsStrRitual2"
+  },
+  {
+    "zh": "破风之靴",
+    "en": "Windbreak Boots",
+    "ref_id": "Metadata/Items/Armours/Boots/BootsDexRitual2"
+  },
+  {
+    "zh": "战士之靴",
+    "en": "Soldier Boots",
+    "ref_id": "Metadata/Items/Armours/Boots/BootsStrInt6"
+  },
+  {
+    "zh": "符文护腿",
+    "en": "Runic Sollerets",
+    "ref_id": "Metadata/Items/Armours/Boots/BootsExpedition2"
+  },
+  {
+    "zh": "伏击之靴",
+    "en": "Ambush Boots",
+    "ref_id": "Metadata/Items/Armours/Boots/BootsDexInt6"
+  },
+  {
+    "zh": "远古胫甲",
+    "en": "Ancient Greaves",
+    "ref_id": "Metadata/Items/Armours/Boots/BootsStr6"
+  },
+  {
+    "zh": "鲨皮短靴",
+    "en": "Sharkskin Boots",
+    "ref_id": "Metadata/Items/Armours/Boots/BootsDex6"
+  },
+  {
+    "zh": "绣布便鞋",
+    "en": "Samite Slippers",
+    "ref_id": "Metadata/Items/Armours/Boots/BootsInt6"
+  },
+  {
+    "zh": "蛇鳞长靴",
+    "en": "Serpentscale Boots",
+    "ref_id": "Metadata/Items/Armours/Boots/BootsStrDex5"
+  },
+  {
+    "zh": "猎人之靴",
+    "en": "Trapper Boots",
+    "ref_id": "Metadata/Items/Armours/Boots/BootsDexInt5"
+  },
+  {
+    "zh": "狂热者长靴",
+    "en": "Zealot Boots",
+    "ref_id": "Metadata/Items/Armours/Boots/BootsStrInt5"
+  },
+  {
+    "zh": "鳗皮短靴",
+    "en": "Eelskin Boots",
+    "ref_id": "Metadata/Items/Armours/Boots/BootsDex5"
+  },
+  {
+    "zh": "缎布便鞋",
+    "en": "Satin Slippers",
+    "ref_id": "Metadata/Items/Armours/Boots/BootsInt5"
+  },
+  {
+    "zh": "古钢胫甲",
+    "en": "Antique Greaves",
+    "ref_id": "Metadata/Items/Armours/Boots/BootsStr5"
+  },
+  {
+    "zh": "钢影长靴",
+    "en": "Steelscale Boots",
+    "ref_id": "Metadata/Items/Armours/Boots/BootsStrDex4"
+  },
+  {
+    "zh": "仪式短靴",
+    "en": "Riveted Boots",
+    "ref_id": "Metadata/Items/Armours/Boots/BootsStrInt4"
+  },
+  {
+    "zh": "缚足长靴",
+    "en": "Shackled Boots",
+    "ref_id": "Metadata/Items/Armours/Boots/BootsDexInt4"
+  },
+  {
+    "zh": "砂影短靴",
+    "en": "Nubuck Boots",
+    "ref_id": "Metadata/Items/Armours/Boots/BootsDex4"
+  },
+  {
+    "zh": "强化胫甲",
+    "en": "Reinforced Greaves",
+    "ref_id": "Metadata/Items/Armours/Boots/BootsStr4"
+  },
+  {
+    "zh": "学者长靴",
+    "en": "Scholar Boots",
+    "ref_id": "Metadata/Items/Armours/Boots/BootsInt4"
+  },
+  {
+    "zh": "铜影长靴",
+    "en": "Bronzescale Boots",
+    "ref_id": "Metadata/Items/Armours/Boots/BootsStrDex3"
+  },
+  {
+    "zh": "网眼长靴",
+    "en": "Mesh Boots",
+    "ref_id": "Metadata/Items/Armours/Boots/BootsStrInt3"
+  },
+  {
+    "zh": "环带长靴",
+    "en": "Clasped Boots",
+    "ref_id": "Metadata/Items/Armours/Boots/BootsDexInt3"
+  },
+  {
+    "zh": "符文胫甲",
+    "en": "Runic Greaves",
+    "ref_id": "Metadata/Items/Armours/Boots/BootsExpedition1"
+  },
+  {
+    "zh": "坚铁胫甲",
+    "en": "Plated Greaves",
+    "ref_id": "Metadata/Items/Armours/Boots/BootsStr3"
+  },
+  {
+    "zh": "鹿皮短靴",
+    "en": "Deerskin Boots",
+    "ref_id": "Metadata/Items/Armours/Boots/BootsDex3"
+  },
+  {
+    "zh": "丝绸便鞋",
+    "en": "Silk Slippers",
+    "ref_id": "Metadata/Items/Armours/Boots/BootsInt3"
+  },
+  {
+    "zh": "劣金之履",
+    "en": "Basemetal Treads",
+    "ref_id": "Metadata/Items/Armours/Boots/BootsStrRitual1"
+  },
+  {
+    "zh": "唤云之靴",
+    "en": "Cloudwhisper Boots",
+    "ref_id": "Metadata/Items/Armours/Boots/BootsDexRitual1"
+  },
+  {
+    "zh": "踏暮之鞋",
+    "en": "Duskwalk Slippers",
+    "ref_id": "Metadata/Items/Armours/Boots/BootsIntRitual1"
+  },
+  {
+    "zh": "铁影长靴",
+    "en": "Ironscale Boots",
+    "ref_id": "Metadata/Items/Armours/Boots/BootsStrDex2"
+  },
+  {
+    "zh": "扣环短靴",
+    "en": "Strapped Boots",
+    "ref_id": "Metadata/Items/Armours/Boots/BootsDexInt2"
+  },
+  {
+    "zh": "环甲筒靴",
+    "en": "Ringmail Boots",
+    "ref_id": "Metadata/Items/Armours/Boots/BootsStrInt2"
+  },
+  {
+    "zh": "羊皮短靴",
+    "en": "Goathide Boots",
+    "ref_id": "Metadata/Items/Armours/Boots/BootsDex2"
+  },
+  {
+    "zh": "黄金缠鞋",
+    "en": "Golden Caligae",
+    "ref_id": "Metadata/Items/Armours/Boots/BootsDemigods1"
+  },
+  {
+    "zh": "丝绒便鞋",
+    "en": "Velvet Slippers",
+    "ref_id": "Metadata/Items/Armours/Boots/BootsInt2"
+  },
+  {
+    "zh": "冷钢胫甲",
+    "en": "Steel Greaves",
+    "ref_id": "Metadata/Items/Armours/Boots/BootsStr2"
+  },
+  {
+    "zh": "裹趾凉鞋",
+    "en": "Wrapped Boots",
+    "ref_id": "Metadata/Items/Armours/Boots/BootsDexInt1"
+  },
+  {
+    "zh": "粗鳞皮靴",
+    "en": "Leatherscale Boots",
+    "ref_id": "Metadata/Items/Armours/Boots/BootsStrDex1"
+  },
+  {
+    "zh": "链甲长靴",
+    "en": "Chain Boots",
+    "ref_id": "Metadata/Items/Armours/Boots/BootsStrInt1"
+  },
+  {
+    "zh": "生皮短靴",
+    "en": "Rawhide Boots",
+    "ref_id": "Metadata/Items/Armours/Boots/BootsDex1"
+  },
+  {
+    "zh": "羊毛之鞋",
+    "en": "Wool Shoes",
+    "ref_id": "Metadata/Items/Armours/Boots/BootsInt1"
+  },
+  {
+    "zh": "冈姆胫甲",
+    "en": "Kaom's Greaves",
+    "ref_id": "Metadata/Items/Armours/Boots/BootsStrTemp"
+  },
+  {
+    "zh": "飞羽便鞋",
+    "en": "Avian Slippers",
+    "ref_id": "Metadata/Items/Armours/Boots/BootsDescent1"
+  },
+  {
+    "zh": "铁锻胫甲",
+    "en": "Iron Greaves",
+    "ref_id": "Metadata/Items/Armours/Boots/BootsStr1"
+  }
+]

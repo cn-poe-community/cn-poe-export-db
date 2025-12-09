@@ -1,0 +1,77 @@
+[
+  {
+    "zh": "品质（元素伤害词缀）",
+    "en": "Quality (Elemental Damage Modifiers)",
+    "ref_id": "JewelleryElementalQuality"
+  },
+  {
+    "zh": "品质（施法词缀）",
+    "en": "Quality (Caster Modifiers)",
+    "ref_id": "JewelleryCasterQuality"
+  },
+  {
+    "zh": "品质（攻击词缀）",
+    "en": "Quality (Attack Modifiers)",
+    "ref_id": "JewelleryAttackQuality"
+  },
+  {
+    "zh": "品质（防御词缀）",
+    "en": "Quality (Defence Modifiers)",
+    "ref_id": "JewelleryDefensesQuality"
+  },
+  {
+    "zh": "品质（生命和魔力词缀）",
+    "en": "Quality (Life and Mana Modifiers)",
+    "ref_id": "JewelleryResourceQuality"
+  },
+  {
+    "zh": "品质（抗性词缀）",
+    "en": "Quality (Resistance Modifiers)",
+    "ref_id": "JewelleryResistanceQuality"
+  },
+  {
+    "zh": "品质（属性词缀）",
+    "en": "Quality (Attribute Modifiers)",
+    "ref_id": "JewelleryAttributeQuality"
+  },
+  {
+    "zh": "品质（物理伤害和混沌伤害词缀）",
+    "en": "Quality (Physical and Chaos Damage Modifiers)",
+    "ref_id": "JewelleryPhysicalChaosQuality"
+  },
+  {
+    "zh": "品质（速度词缀）",
+    "en": "Quality (Speed Modifiers)",
+    "ref_id": "JewellerySpeedQuality_"
+  },
+  {
+    "zh": "品质（暴击词缀）",
+    "en": "Quality (Critical Modifiers)",
+    "ref_id": "JewelleryCriticalQuality"
+  },
+  {
+    "zh": "品质（稀有度）",
+    "en": "Quality (Rarity)",
+    "ref_id": "MapRarityQuality"
+  },
+  {
+    "zh": "品质（怪物群规模）",
+    "en": "Quality (Pack Size)",
+    "ref_id": "MapPackSizeQuality"
+  },
+  {
+    "zh": "品质（命运卡）",
+    "en": "Quality (Divination Cards)",
+    "ref_id": "MapDivinationCardQuality"
+  },
+  {
+    "zh": "品质（圣甲虫）",
+    "en": "Quality (Scarabs)",
+    "ref_id": "MapScarabQuality"
+  },
+  {
+    "zh": "品质（通货物品）",
+    "en": "Quality (Currency)",
+    "ref_id": "MapCurrencyQuality"
+  }
+]

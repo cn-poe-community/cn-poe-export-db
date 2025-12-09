@@ -10,25 +10,40 @@
   ],
   "tables": [
     {
-      "name": "BaseItemTypes"
-    },
-    {
-      "name": "ClientStrings"
-    },
-    {
-      "name": "ItemClasses"
+      "name": "ActiveSkills"
     },
     {
       "name": "AlternateQualityTypes"
     },
     {
-      "name": "ItemClassCategories"
+      "name": "BaseItemTypes"
     },
     {
       "name": "Characters"
     },
     {
-      "name": "WeaponTypes"
+      "name": "ClientStrings"
+    },
+    {
+      "name": "GemEffects"
+    },
+    {
+      "name": "GrantedEffects"
+    },
+    {
+      "name": "ItemClasses"
+    },
+    {
+      "name": "IndexableSkillGems"
+    },
+    {
+      "name": "IndexableSupportGems"
+    },
+    {
+      "name": "PassiveSkillTattoos"
+    },
+    {
+      "name": "SkillGems"
     },
     {
       "name": "UniqueStashLayout"
@@ -37,19 +52,10 @@
       "name": "UniqueStashTypes"
     },
     {
+      "name": "WeaponTypes"
+    },
+    {
       "name": "Words"
-    },
-    {
-      "name": "IndexableSupportGems"
-    },
-    {
-      "name": "IndexableSkillGems"
-    },
-    {
-      "name": "GemEffects"
-    },
-    {
-      "name": "ActiveSkills"
     }
   ]
 }
