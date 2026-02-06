@@ -1,3 +1,7 @@
+# 归档
+
+⚠️本项目已经被[cn-poe-utils](https://github.com/cn-poe-community/cn-poe-utils)取代。
+
 # cn-poe-export-db
 
 PoExport项目的数据库。
